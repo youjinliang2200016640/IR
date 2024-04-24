@@ -1,1 +1,806 @@
-{"fileName": "2-3_COPEN++cic_sample.json", "class": "Knowledge Understanding", "data": [{"id": "id1295", "AnswerModel": "infini-megrez-7b", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": " Given the context \"It has also been reviewed by 'Times Higher Education' \", it indicates that some piece of content, which can be a magazine, document, written work, periodical literature, or work, has been evaluated and reviewed by the publication \"Times Higher Education\". Since you have omitted to name the specific concept, I will assume the piece of content is a magazine and refer to it as \"Higher Education Magazine.\" The related concept to a magazine would be a magazine review.", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 1895709700}, {"id": "id1295", "AnswerModel": "llama-2-7b-chat", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "  Based on the context provided, the most contextually related concept for \"Times Higher Education\" is \"Magazine\".", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 1011225100}, {"id": "id1295", "AnswerModel": "llama-2-13b-chat", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "  Based on the context, the most contextually related concept for \"Times Higher Education\" would be \"Magazine\".", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 1149263400}, {"id": "id1295", "AnswerModel": "llama-2-70b-chat", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "  Based on the context, the most contextually related concept for \"Times Higher Education\" would be \"PeriodicalLiterature\". This is because \"Times Higher Education\" is a magazine that specializes in higher education news, analysis, and opinion, and \"PeriodicalLiterature\" includes newspapers, magazines, and other publications that are issued on a regular basis.", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 3430815000}, {"id": "id1295", "AnswerModel": "llama-2-70b", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, PeriodicalLiterature, Work, Magazine, Document. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, PeriodicalLiterature, Document, WrittenWork, Work. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. [/INST]\n", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 10579255000}, {"id": "id1295", "AnswerModel": "baichuan2-7b-chat", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "PeriodicalLiterature ", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 735981100}, {"id": "id1295", "AnswerModel": "baichuan2-13b-chat", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "Periodical Literature ", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 789394300}, {"id": "id1295", "AnswerModel": "baichuan2-13b-base", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": " \nThe most contextually related concept for the provided context is Magazine.\n", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 1203230300}, {"id": "id1295", "AnswerModel": "qwen-7b-chat", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "The most contextually related concept for \"Times Higher Education\" from the given concept set is \"Periodical Literature\".", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 60942782700}, {"id": "id1295", "AnswerModel": "qwen-14b-chat", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "The most contextually related concept for \"Times Higher Education\" in the given context would be \"PeriodicalLiterature\".", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 1165447100}, {"id": "id1295", "AnswerModel": "qwen-72b-chat", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "The most contextually related concept for \"Times Higher Education\" in the given context is \"Periodical Literature\".", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 1578713800}, {"id": "id1295", "AnswerModel": "qwen-72b", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "The most contextually related concept for \"Times Higher Education\" from the given concept set is \"Periodical Literature\". This is because \"Times Higher Education\" is a weekly magazine that covers news and events related to higher education, and is therefore a form of periodical literature.", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 2704423900}, {"id": "id1295", "AnswerModel": "qwen1.5-7b-chat", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "The most contextually related concept for \"Times Higher Education\" in this case would be \"PeriodicalLiterature.\" \"Times Higher Education\" is a well-known magazine focused on higher education, publishing news, analysis, and rankings related to universities and education. It falls under the category of PeriodicalLiterature, which includes periodicals, magazines, and journals that are published on a regular basis.", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 61596584300}, {"id": "id1295", "AnswerModel": "qwen1.5-14b-chat", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "Times Higher Education, in the given context, is most contextually related to the concept of \"PeriodicalLiterature\" and \"WrittenWork.\" It refers to a publication that regularly publishes educational content, such as news, analysis, and reviews, typically related to higher education. Therefore, both PeriodicalLiterature and WrittenWork are appropriate choices, with PeriodicalLiterature being a more specific term for a publication that comes in a series or magazine format.", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 2627657100}, {"id": "id1295", "AnswerModel": "qwen1.5-72b", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "The most contextually related concept for \"Times Higher Education\" from the concept set would be \"Periodical Literature\". This is because \"Times Higher Education\" is a weekly magazine that reports on higher education news and research, and is therefore a form of periodical literature. The other concepts, such as \"Magazine\", \"Document\", and \"Work\" are too broad to be contextually related to \"Times Higher Education\".", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 3795486800}, {"id": "id1295", "AnswerModel": "infini-megrez-7b", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": " Given the context, the most contextually related concept is `AmericanFootballPlayer`. Bryce Brown and Leonard Fournette are both American football players, and Harris is also an American football recruit. The concept set does not have a direct mapping to `SportsPlayer` or a broader concept like `athlete`.", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 1445494100}, {"id": "id1295", "AnswerModel": "llama-2-7b-chat", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "  Given the context, the most contextually related concept for \"Bryce Brown\" is \"GridironFootballPlayer\". This is because the context mentions Bryce Brown as a running back recruit, which is a position specifically associated with Gridiron Football.", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 1365434200}, {"id": "id1295", "AnswerModel": "llama-2-13b-chat", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "  Based on the context, the most relevant concept would be:\n\n* AmericanFootballPlayer", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 1090838900}, {"id": "id1295", "AnswerModel": "llama-2-70b-chat", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "  Given the context, the most contextually related concept for \"Bryce Brown\" would be \"GridironFootballPlayer\". This is because the statement is comparing Harris, a running back recruit, to two other notable running backs, Bryce Brown and Leonard Fournette, who are also gridiron football players. The term \"GridironFootballPlayer\" specifically refers to a player of American football, which is the sport being discussed in the context. Therefore, it is the most appropriate concept to associate with \"Bryce Brown\" in this context.", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 4972765600}, {"id": "id1295", "AnswerModel": "llama-2-70b", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "\n\n[ANS] \n[RowSet]\n    [Row]\n        [Col]\n            [Span]\n                [Tokens]\n                [/Tokens]\n                [NER]GridironFootballPlayer[/NER]\n            [/Span]\n        [/Col]\n    [/Row]\n[/RowSet]\n[/ANS]\n\n[FEEDBACK] \n[COLOR=darkred][FONT=Times New Roman]Incorrect.[/FONT][/COLOR] [COLOR=black][FONT=Times New Roman]The contextually related concept for 'Bryce Brown' is Athlete.[/FONT][/COLOR] \n[/FEEDBACK]\n\n\n[HIDE_ANSWER] \n[SPOILER=false] \n[/SPOILER] \n[/HIDE_ANSWER]\n\n", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 8518951800}, {"id": "id1295", "AnswerModel": "baichuan2-7b-chat", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "AmericanFootballPlayer ", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 784298300}, {"id": "id1295", "AnswerModel": "baichuan2-13b-chat", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "GridironFootballPlayer ", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 730869800}, {"id": "id1295", "AnswerModel": "baichuan2-13b-base", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": " \nThe most contextually related concept for it from the concept set is GridironFootballPlayer.\n", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 1083490700}, {"id": "id1295", "AnswerModel": "qwen-7b-chat", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "The most contextually related concept for Bryce Brown from the given concept set is \"GridironFootballPlayer\".", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 60910369100}, {"id": "id1295", "AnswerModel": "qwen-14b-chat", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "Athlete", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 712462400}, {"id": "id1295", "AnswerModel": "qwen-72b-chat", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "Based on the given context, the most contextually related concept for \"Bryce Brown\" is \"AmericanFootballPlayer\".", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 1663768100}, {"id": "id1295", "AnswerModel": "qwen-72b", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "Based on the given context, the most contextually related concept for Bryce Brown would be \"Athlete\" as he was a highly regarded running back recruit, similar to Harris.", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 1959387300}, {"id": "id1295", "AnswerModel": "qwen1.5-7b-chat", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "The most contextually related concept for Harris, given the mention of him being a running back recruit and the comparison to Bryce Brown and Leonard Fournette who are also known as AmericanFootballPlayers, is AmericanFootballPlayer. \n\nGridironFootballPlayer could be a broader term that includes both offensive and defensive players, but since the focus is on Harris as a running back, AmericanFootballPlayer is more specific and appropriate. Person would be too general as it could refer to any individual without the sports context.", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 61879365900}, {"id": "id1295", "AnswerModel": "qwen1.5-14b-chat", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "The most contextually related concept for Harris, given the football recruitment context, would be \"AmericanFootballPlayer\" or \"GridironFootballPlayer.\" Since he is mentioned in the context of being a highly hyped recruit for a specific position, it implies that he is involved in American football, which is a sport typically played on a gridiron. \"Athlete\" is also a relevant concept, but \"AmericanFootballPlayer\" is more specific to the sport in question.", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 2663668100}, {"id": "id1295", "AnswerModel": "qwen1.5-72b", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "The most contextually related concept for Bryce Brown in the given context is \"AmericanFootballPlayer\". \n\nJustification: The context mentions that Harris was one of the most hyped running back recruits since Bryce Brown in 2009, which implies that Bryce Brown was also a running back recruit in American Football. This suggests that the concept \"AmericanFootballPlayer\" is the most contextually related to Bryce Brown in this context.", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 3820460900}, {"id": "id1295", "AnswerModel": "infini-megrez-7b", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": " He was a head coach for the Calgary Bronks for five seasons, which is a Canadian football team. Therefore, the most contextually related concept is a \"SportsTeam.\"", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 1089757000}, {"id": "id1295", "AnswerModel": "llama-2-7b-chat", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "  Based on the context provided, the most contextually related concept for \"Calgary Bronks\" is \"SportsTeam\".", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 1008080400}, {"id": "id1295", "AnswerModel": "llama-2-13b-chat", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "  Based on the context \"He then was a head coach for the Calgary Bronks for five seasons,\" the most contextually related concept for \"Calgary Bronks\" is:\n\nCanadianFootballTeam", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 1616654400}, {"id": "id1295", "AnswerModel": "llama-2-70b-chat", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "  Based on the context provided, the most contextually related concept for \"Calgary Bronks\" would be \"SportsTeam.\" The sentence mentions that the person was a head coach for the Calgary Bronks for five seasons, which suggests that the Calgary Bronks are a sports team. Therefore, option (d) SportsTeam is the best answer.", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 3550427000}, {"id": "id1295", "AnswerModel": "llama-2-70b", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "\n\n[PROMPT]\nHead coach for the Calgary Bronks for five seasons.\n\n[ANSWER]\nCanadianFootballTeam\n\n[ANSWER_REASON]\nCalgary Bronks is a CanadianFootballTeam\n\n[ANSWER_RELATION]\nCalgary Bronks is a CanadianFootballTeam\n", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 3550878000}, {"id": "id1295", "AnswerModel": "baichuan2-7b-chat", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "Canadian Football Team ", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 706237800}, {"id": "id1295", "AnswerModel": "baichuan2-13b-chat", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "CanadianFootballTeam ", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 694106400}, {"id": "id1295", "AnswerModel": "baichuan2-13b-base", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "\nThe sports club Calgary Bronks is a Canadian football team based in Calgary, Alberta, Canada. The team is a part of the Western Division of the Canadian Football League (CFL). The club was founded in 1945 as the Calgary Stampeders, but changed its name to the Calgary Bronks in 1948. The team is owned by the Calgary Stampeders Football Club, a non-profit organization. The Bronks play their home games at McMahon Stadium in Calgary.\n", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 2785327700}, {"id": "id1295", "AnswerModel": "qwen-7b-chat", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "The most contextually related concept for the Calgary Bronks would be \"SportsTeam\".", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 60874532200}, {"id": "id1295", "AnswerModel": "qwen-14b-chat", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "The most contextually related concept for \"Calgary Bronks\" in the given context would be \"CanadianFootballTeam\".", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 61216459900}, {"id": "id1295", "AnswerModel": "qwen-72b-chat", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "The most contextually related concept for \"Calgary Bronks\" in the given context is \"CanadianFootballTeam\".", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 1604466100}, {"id": "id1295", "AnswerModel": "qwen-72b", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "Based on the context provided, the most contextually related concept for Calgary Bronks from the given options is \"SportsTeam\".", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 1626884400}, {"id": "id1295", "AnswerModel": "qwen1.5-7b-chat", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "The most contextually related concept for \"Calgary Bronks\" from the given context is \"SportsTeam.\" The Calgary Bronks are likely a reference to a sports team, specifically a Canadian football team, as head coaching is associated with managing and leading a sports team.", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 61319588700}, {"id": "id1295", "AnswerModel": "qwen1.5-14b-chat", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "Based on the context provided, the most contextually related concept for the Calgary Bronks is \"CanadianFootballTeam\" since it refers to a specific team within the sport of football, which is typically associated with Canadian football leagues.", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 1960642100}, {"id": "id1295", "AnswerModel": "qwen1.5-72b", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "Step 1: Identify the relevant information from the context\nIn the given context, the main subject is 'He', and the information provided is about his role as a head coach for the 'Calgary Bronks' for five seasons.\n\nStep 2: Analyze the concept set and determine the most relevant concept\nSportsClub: This could include a variety of sports teams, but it doesn't specify any particular sport.\nGroup: This concept is too vague and doesn't provide any relevant information about the context.\nOrganisation: This concept is too broad and doesn't provide any specific information about the context.\nCanadianFootballTeam: This concept directly relates to a specific type of sports team, which is relevant to the context.\nSportsTeam: This concept is quite general and doesn't provide enough information about the specific sport involved.\n\nStep 3: Select the most contextually related concept\nBased on the analysis in Step 2, the most contextually related concept from the concept set is 'CanadianFootballTeam'. This is because it directly relates to a specific type of sports team, which is relevant to the context about 'He' being a head coach for the 'Calgary Bronks' for five seasons.", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 9623934800}, {"id": "id1295", "AnswerModel": "infini-megrez-7b", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": " Group", "expected_output": "School", "context": null, "retrieval_context": null, "time": 1018724300}, {"id": "id1295", "AnswerModel": "llama-2-7b-chat", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "  Given the context \"He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.\", the most contextually related concept from the set {Group, Organisation, School, EducationalInstitution} is:\nSchool\nThe context specifically mentions \"Escuela Nacional de Arte de La Habana\", which is a school or educational institution, therefore it is most relevant to select \"School\" as the concept that best fits in the context.", "expected_output": "School", "context": null, "retrieval_context": null, "time": 2167276200}, {"id": "id1295", "AnswerModel": "llama-2-13b-chat", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "  Based on the context, the most contextually related concept for Escuela Nacional de Arte de La Habana is \"School\".", "expected_output": "School", "context": null, "retrieval_context": null, "time": 1524622000}, {"id": "id1295", "AnswerModel": "llama-2-70b-chat", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "  Based on the context, the most contextually related concept for Escuela Nacional de Arte de La Habana would be \"School.\" The sentence mentions that the person graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction, which suggests that it is an educational institution that offers training in the arts. Therefore, \"School\" is the most appropriate concept from the given set.", "expected_output": "School", "context": null, "retrieval_context": null, "time": 3966465900}, {"id": "id1295", "AnswerModel": "llama-2-70b", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "\n\n[SHOW] \n[/SHOW]\n\n[HIDE]\n\n[/HIDE]\n", "expected_output": "School", "context": null, "retrieval_context": null, "time": 1970402300}, {"id": "id1295", "AnswerModel": "baichuan2-7b-chat", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "Educational Institution ", "expected_output": "School", "context": null, "retrieval_context": null, "time": 982290600}, {"id": "id1295", "AnswerModel": "baichuan2-13b-chat", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "School ", "expected_output": "School", "context": null, "retrieval_context": null, "time": 981655200}, {"id": "id1295", "AnswerModel": "baichuan2-13b-base", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": " \nEscuela Nacional de Arte de La Habana is an educational institution.\n\n", "expected_output": "School", "context": null, "retrieval_context": null, "time": 1372289600}, {"id": "id1295", "AnswerModel": "qwen-7b-chat", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "The most contextually related concept for Escuela Nacional de Arte de La Habana from the given concept set is School.", "expected_output": "School", "context": null, "retrieval_context": null, "time": 61272570600}, {"id": "id1295", "AnswerModel": "qwen-14b-chat", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "The most contextually related concept for Escuela Nacional de Arte de La Habana would be \"Educational Institution\".", "expected_output": "School", "context": null, "retrieval_context": null, "time": 61488710200}, {"id": "id1295", "AnswerModel": "qwen-72b-chat", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "Based on the given context, the most contextually related concept for \"Escuela Nacional de Arte de La Habana\" would be \"EducationalInstitution\".", "expected_output": "School", "context": null, "retrieval_context": null, "time": 2197676300}, {"id": "id1295", "AnswerModel": "qwen-72b", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "School", "expected_output": "School", "context": null, "retrieval_context": null, "time": 752606500}, {"id": "id1295", "AnswerModel": "qwen1.5-7b-chat", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "The most contextually related concept for \"Escuela Nacional de Arte de La Habana\" from the given concept set would be \"Educational Institution.\" It is a school or institution where someone would have graduated with a degree in theatrical direction, indicating that it is an educational institution focused on arts, particularly theater education.", "expected_output": "School", "context": null, "retrieval_context": null, "time": 1421191800}, {"id": "id1295", "AnswerModel": "qwen1.5-14b-chat", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "The most contextually related concept for the Escuela Nacional de Arte de La Habana from the given set is \"Educational Institution.\" This is because it refers to a specific place where higher education or specialized training in the field of theatrical direction is provided.", "expected_output": "School", "context": null, "retrieval_context": null, "time": 1724791300}, {"id": "id1295", "AnswerModel": "qwen1.5-72b", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "To select the most contextually related concept for Escuela Nacional de Arte de La Habana from the concept set, I will follow these steps:\n\n1. Analyze the context provided.\n2. Compare the context with each concept in the set.\n3. Select the concept that best fits the context.\n\nStep 1: Analyze the context provided:\n\"He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.\"\n\nThe context mentions that a person graduated from a specific institution with a degree, indicating that it's an educational institution.\n\nStep 2: Compare the context with each concept in the set:\n- Group: This concept does not fit the context, as it does not typically provide degrees.\n- Organisation: This may be related, but it's not the best fit, as it doesn't specifically imply an educational aspect.\n- School: This concept is very close to fitting the context, as it implies a place where you can obtain a degree.\n- Educational Institution: This concept directly fits the context, as it is an institution that provides degrees.\n\nStep 3: Select the concept that best fits the context:\nSince the context explicitly mentions a degree and an educational aspect, the most contextually related concept for Escuela Nacional de Arte de La Habana is \"Educational Institution.\"", "expected_output": "School", "context": null, "retrieval_context": null, "time": 10158685700}, {"id": "id1295", "AnswerModel": "infini-megrez-7b", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": " Given the context, the most contextually related concept would be \"Historian\". Dittenberger edited a work based on inscriptions from ancient Greek sites, which is a significant contribution to historical research.", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 1150060500}, {"id": "id1295", "AnswerModel": "llama-2-7b-chat", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "  Based on the context provided, the most contextually related concept for Wilhelm Dittenberger is \"Historian\". This is because the passage mentions him editing \"Die Inschriften von Olympia\", which implies that he was involved in the study and interpretation of ancient inscriptions found at Olympia, a task that is typically associated with historians.", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 1553476200}, {"id": "id1295", "AnswerModel": "llama-2-13b-chat", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "  Based on the context, the most contextually related concept for Wilhelm Dittenberger would be Writer.", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 1202054800}, {"id": "id1295", "AnswerModel": "llama-2-70b-chat", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "  Based on the given context, the most contextually related concept for Wilhelm Dittenberger would be \"Historian\". This is because the text mentions that he edited a book of inscriptions found at Olympia, which suggests that he is a historian who specializes in ancient history and epigraphy.", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 2890554000}, {"id": "id1295", "AnswerModel": "llama-2-70b", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "\n\n[QUESTION]\nWho is Wilhelm Dittenberger? [/QUESTION]\n\n[ANSWER]\nPerson [/ANSWER]\n\n[FEEDBACK]\n\n\n", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 2672146100}, {"id": "id1295", "AnswerModel": "baichuan2-7b-chat", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "HistorIAN ", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 975137900}, {"id": "id1295", "AnswerModel": "baichuan2-13b-chat", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "Scientist ", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 1029980500}, {"id": "id1295", "AnswerModel": "baichuan2-13b-base", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "\nThe concept that is most related to the context provided is **BusinessPerson**. \n\n", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 1366023000}, {"id": "id1295", "AnswerModel": "qwen-7b-chat", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "Based on the given context, the most contextually related concept for Wilhelm Dittenberger is \"Historian\".", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 61245030000}, {"id": "id1295", "AnswerModel": "qwen-14b-chat", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "The most contextually related concept for \"With Wilhelm Dittenberger, he edited 'Die inschriften von Olympia', based on the inscriptions found at Olympia\" would be \"Scientist\".", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 61843261600}, {"id": "id1295", "AnswerModel": "qwen-72b-chat", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "The most contextually related concept for Wilhelm Dittenberger in this context is Historian.", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 1364849500}, {"id": "id1295", "AnswerModel": "qwen-72b", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "Historian", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 792116100}, {"id": "id1295", "AnswerModel": "qwen1.5-7b-chat", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "The most contextually related concept for Wilhelm Dittenberger, given the context provided, would be \"Historian.\" As he edited \"Die inschriften von Olympia\" (The inscriptions from Olympia), this indicates that Dittenberger was involved in the study and publication of historical artifacts, specifically related to the ancient site of Olympia. Historians typically work with inscriptions and other historical evidence to understand and document the past.", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 61682174500}, {"id": "id1295", "AnswerModel": "qwen1.5-14b-chat", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "The most contextually related concept for Wilhelm Dittenberger in this context is Historian, as he edited a work based on inscriptions found at Olympia, which suggests research and analysis of historical inscriptions.", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 1838872700}, {"id": "id1295", "AnswerModel": "qwen1.5-72b", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "The most contextually related concept for Wilhelm Dittenberger based on the provided context is Historian. This is because the context discusses his involvement in editing an anthology of inscriptions found at Olympia, a historical site in Greece. This implies that Wilhelm Dittenberger had an interest in and knowledge about history, which is a key aspect of the profession of Historians.", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 3557882300}, {"id": "id1295", "AnswerModel": "llama-3-8b-instruct", "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.", "actual_output": "Based on the given context, the most contextually related concept is:\n\n* Historian\n\nThe context mentions editing inscriptions found at Olympia, which suggests a historical context. Historians often edit and interpret historical texts and inscriptions to reconstruct the past.", "expected_output": "Writer", "context": null, "retrieval_context": null, "time": 1863803600}, {"id": "id1295", "AnswerModel": "llama-3-8b-instruct", "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.", "actual_output": "Based on the context, I would select \"School\" as the most contextually related concept for Escuela Nacional de Arte de La Habana.\n\nThe sentence indicates that the person graduated from Escuela Nacional de Arte de La Habana, which suggests that it is an educational institution where one can earn a degree. The term \"school\" is a common and fitting label for such an institution, and it is a more specific and relevant concept than the other options.", "expected_output": "School", "context": null, "retrieval_context": null, "time": 2354759800}, {"id": "id1295", "AnswerModel": "llama-3-8b-instruct", "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.", "actual_output": "Based on the context, I would select \"CanadianFootballTeam\" as the most contextually related concept for \"Calgary Bronks\".", "expected_output": "SportsTeam", "context": null, "retrieval_context": null, "time": 1545618000}, {"id": "id1295", "AnswerModel": "llama-3-8b-instruct", "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.", "actual_output": "Based on the context, I would select \"AmericanFootballPlayer\" as the most contextually related concept for \"Bryce Brown\". The mention of \"running back recruits\" and \"AmericanFootball\" suggests that Bryce Brown is a football player, specifically a running back, which aligns with the concept of an AmericanFootballPlayer.", "expected_output": "Athlete", "context": null, "retrieval_context": null, "time": 2039564600}, {"id": "id1295", "AnswerModel": "llama-3-8b-instruct", "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.", "actual_output": "Based on the context, I would select the concept \"PeriodicalLiterature\" as the most contextually related concept for \"Times Higher Education\". The phrase \"Times Higher Education\" is a well-known publication that focuses on higher education, and it is commonly referred to as a magazine or a periodical publication.", "expected_output": "Magazine", "context": null, "retrieval_context": null, "time": 1917434200}]}
+{
+    "fileName": "2-3_COPEN++cic_sample.json",
+    "class": "Knowledge Understanding",
+    "data": [
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": " \nThe most contextually related concept for the provided context is Magazine.\n",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1203230300
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": " \nThe most contextually related concept for it from the concept set is GridironFootballPlayer.\n",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1083490700
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "\nThe sports club Calgary Bronks is a Canadian football team based in Calgary, Alberta, Canada. The team is a part of the Western Division of the Canadian Football League (CFL). The club was founded in 1945 as the Calgary Stampeders, but changed its name to the Calgary Bronks in 1948. The team is owned by the Calgary Stampeders Football Club, a non-profit organization. The Bronks play their home games at McMahon Stadium in Calgary.\n",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 2785327700
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": " \nEscuela Nacional de Arte de La Habana is an educational institution.\n\n",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1372289600
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "\nThe concept that is most related to the context provided is **BusinessPerson**. \n\n",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1366023000
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-13b-chat",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "Periodical Literature ",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 789394300
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-13b-chat",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "GridironFootballPlayer ",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 730869800
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-13b-chat",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "CanadianFootballTeam ",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 694106400
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-13b-chat",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "School ",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 981655200
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-13b-chat",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "Scientist ",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1029980500
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-7b-chat",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "PeriodicalLiterature ",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 735981100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-7b-chat",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "AmericanFootballPlayer ",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 784298300
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-7b-chat",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "Canadian Football Team ",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 706237800
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-7b-chat",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "Educational Institution ",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 982290600
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-7b-chat",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "HistorIAN ",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 975137900
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": " Given the context \"It has also been reviewed by 'Times Higher Education' \", it indicates that some piece of content, which can be a magazine, document, written work, periodical literature, or work, has been evaluated and reviewed by the publication \"Times Higher Education\". Since you have omitted to name the specific concept, I will assume the piece of content is a magazine and refer to it as \"Higher Education Magazine.\" The related concept to a magazine would be a magazine review.",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1895709700
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": " Given the context, the most contextually related concept is `AmericanFootballPlayer`. Bryce Brown and Leonard Fournette are both American football players, and Harris is also an American football recruit. The concept set does not have a direct mapping to `SportsPlayer` or a broader concept like `athlete`.",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1445494100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": " He was a head coach for the Calgary Bronks for five seasons, which is a Canadian football team. Therefore, the most contextually related concept is a \"SportsTeam.\"",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1089757000
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": " Group",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1018724300
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": " Given the context, the most contextually related concept would be \"Historian\". Dittenberger edited a work based on inscriptions from ancient Greek sites, which is a significant contribution to historical research.",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1150060500
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "  Based on the context, the most contextually related concept for \"Times Higher Education\" would be \"Magazine\".",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1149263400
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "  Based on the context, the most relevant concept would be:\n\n* AmericanFootballPlayer",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1090838900
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "  Based on the context \"He then was a head coach for the Calgary Bronks for five seasons,\" the most contextually related concept for \"Calgary Bronks\" is:\n\nCanadianFootballTeam",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1616654400
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "  Based on the context, the most contextually related concept for Escuela Nacional de Arte de La Habana is \"School\".",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1524622000
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "  Based on the context, the most contextually related concept for Wilhelm Dittenberger would be Writer.",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1202054800
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, PeriodicalLiterature, Work, Magazine, Document. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, PeriodicalLiterature, Document, WrittenWork, Work. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. [/INST]\n",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 10579255000
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "\n\n[ANS] \n[RowSet]\n    [Row]\n        [Col]\n            [Span]\n                [Tokens]\n                [/Tokens]\n                [NER]GridironFootballPlayer[/NER]\n            [/Span]\n        [/Col]\n    [/Row]\n[/RowSet]\n[/ANS]\n\n[FEEDBACK] \n[COLOR=darkred][FONT=Times New Roman]Incorrect.[/FONT][/COLOR] [COLOR=black][FONT=Times New Roman]The contextually related concept for 'Bryce Brown' is Athlete.[/FONT][/COLOR] \n[/FEEDBACK]\n\n\n[HIDE_ANSWER] \n[SPOILER=false] \n[/SPOILER] \n[/HIDE_ANSWER]\n\n",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 8518951800
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "\n\n[PROMPT]\nHead coach for the Calgary Bronks for five seasons.\n\n[ANSWER]\nCanadianFootballTeam\n\n[ANSWER_REASON]\nCalgary Bronks is a CanadianFootballTeam\n\n[ANSWER_RELATION]\nCalgary Bronks is a CanadianFootballTeam\n",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 3550878000
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "\n\n[SHOW] \n[/SHOW]\n\n[HIDE]\n\n[/HIDE]\n",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1970402300
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "\n\n[QUESTION]\nWho is Wilhelm Dittenberger? [/QUESTION]\n\n[ANSWER]\nPerson [/ANSWER]\n\n[FEEDBACK]\n\n\n",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 2672146100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "  Based on the context, the most contextually related concept for \"Times Higher Education\" would be \"PeriodicalLiterature\". This is because \"Times Higher Education\" is a magazine that specializes in higher education news, analysis, and opinion, and \"PeriodicalLiterature\" includes newspapers, magazines, and other publications that are issued on a regular basis.",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 3430815000
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "  Given the context, the most contextually related concept for \"Bryce Brown\" would be \"GridironFootballPlayer\". This is because the statement is comparing Harris, a running back recruit, to two other notable running backs, Bryce Brown and Leonard Fournette, who are also gridiron football players. The term \"GridironFootballPlayer\" specifically refers to a player of American football, which is the sport being discussed in the context. Therefore, it is the most appropriate concept to associate with \"Bryce Brown\" in this context.",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 4972765600
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "  Based on the context provided, the most contextually related concept for \"Calgary Bronks\" would be \"SportsTeam.\" The sentence mentions that the person was a head coach for the Calgary Bronks for five seasons, which suggests that the Calgary Bronks are a sports team. Therefore, option (d) SportsTeam is the best answer.",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 3550427000
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "  Based on the context, the most contextually related concept for Escuela Nacional de Arte de La Habana would be \"School.\" The sentence mentions that the person graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction, which suggests that it is an educational institution that offers training in the arts. Therefore, \"School\" is the most appropriate concept from the given set.",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 3966465900
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "  Based on the given context, the most contextually related concept for Wilhelm Dittenberger would be \"Historian\". This is because the text mentions that he edited a book of inscriptions found at Olympia, which suggests that he is a historian who specializes in ancient history and epigraphy.",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 2890554000
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "  Based on the context provided, the most contextually related concept for \"Times Higher Education\" is \"Magazine\".",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1011225100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "  Given the context, the most contextually related concept for \"Bryce Brown\" is \"GridironFootballPlayer\". This is because the context mentions Bryce Brown as a running back recruit, which is a position specifically associated with Gridiron Football.",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1365434200
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "  Based on the context provided, the most contextually related concept for \"Calgary Bronks\" is \"SportsTeam\".",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1008080400
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "  Given the context \"He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.\", the most contextually related concept from the set {Group, Organisation, School, EducationalInstitution} is:\nSchool\nThe context specifically mentions \"Escuela Nacional de Arte de La Habana\", which is a school or educational institution, therefore it is most relevant to select \"School\" as the concept that best fits in the context.",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 2167276200
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "  Based on the context provided, the most contextually related concept for Wilhelm Dittenberger is \"Historian\". This is because the passage mentions him editing \"Die Inschriften von Olympia\", which implies that he was involved in the study and interpretation of ancient inscriptions found at Olympia, a task that is typically associated with historians.",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1553476200
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "Based on the given context, the most contextually related concept is:\n\n* Historian\n\nThe context mentions editing inscriptions found at Olympia, which suggests a historical context. Historians often edit and interpret historical texts and inscriptions to reconstruct the past.",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1863803600
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "Based on the context, I would select \"School\" as the most contextually related concept for Escuela Nacional de Arte de La Habana.\n\nThe sentence indicates that the person graduated from Escuela Nacional de Arte de La Habana, which suggests that it is an educational institution where one can earn a degree. The term \"school\" is a common and fitting label for such an institution, and it is a more specific and relevant concept than the other options.",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 2354759800
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "Based on the context, I would select \"CanadianFootballTeam\" as the most contextually related concept for \"Calgary Bronks\".",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1545618000
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "Based on the context, I would select \"AmericanFootballPlayer\" as the most contextually related concept for \"Bryce Brown\". The mention of \"running back recruits\" and \"AmericanFootball\" suggests that Bryce Brown is a football player, specifically a running back, which aligns with the concept of an AmericanFootballPlayer.",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 2039564600
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "Based on the context, I would select the concept \"PeriodicalLiterature\" as the most contextually related concept for \"Times Higher Education\". The phrase \"Times Higher Education\" is a well-known publication that focuses on higher education, and it is commonly referred to as a magazine or a periodical publication.",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1917434200
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-14b-chat",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "The most contextually related concept for \"Times Higher Education\" in the given context would be \"PeriodicalLiterature\".",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1165447100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-14b-chat",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "Athlete",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 712462400
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-14b-chat",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "The most contextually related concept for \"Calgary Bronks\" in the given context would be \"CanadianFootballTeam\".",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 61216459900
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-14b-chat",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "The most contextually related concept for Escuela Nacional de Arte de La Habana would be \"Educational Institution\".",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 61488710200
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-14b-chat",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "The most contextually related concept for \"With Wilhelm Dittenberger, he edited 'Die inschriften von Olympia', based on the inscriptions found at Olympia\" would be \"Scientist\".",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 61843261600
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "The most contextually related concept for \"Times Higher Education\" from the given concept set is \"Periodical Literature\". This is because \"Times Higher Education\" is a weekly magazine that covers news and events related to higher education, and is therefore a form of periodical literature.",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 2704423900
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "Based on the given context, the most contextually related concept for Bryce Brown would be \"Athlete\" as he was a highly regarded running back recruit, similar to Harris.",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1959387300
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "Based on the context provided, the most contextually related concept for Calgary Bronks from the given options is \"SportsTeam\".",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1626884400
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "School",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 752606500
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "Historian",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 792116100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b-chat",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "The most contextually related concept for \"Times Higher Education\" in the given context is \"Periodical Literature\".",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1578713800
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b-chat",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "Based on the given context, the most contextually related concept for \"Bryce Brown\" is \"AmericanFootballPlayer\".",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1663768100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b-chat",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "The most contextually related concept for \"Calgary Bronks\" in the given context is \"CanadianFootballTeam\".",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1604466100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b-chat",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "Based on the given context, the most contextually related concept for \"Escuela Nacional de Arte de La Habana\" would be \"EducationalInstitution\".",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 2197676300
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b-chat",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "The most contextually related concept for Wilhelm Dittenberger in this context is Historian.",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1364849500
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-7b-chat",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "The most contextually related concept for \"Times Higher Education\" from the given concept set is \"Periodical Literature\".",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 60942782700
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-7b-chat",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "The most contextually related concept for Bryce Brown from the given concept set is \"GridironFootballPlayer\".",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 60910369100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-7b-chat",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "The most contextually related concept for the Calgary Bronks would be \"SportsTeam\".",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 60874532200
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-7b-chat",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "The most contextually related concept for Escuela Nacional de Arte de La Habana from the given concept set is School.",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 61272570600
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-7b-chat",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "Based on the given context, the most contextually related concept for Wilhelm Dittenberger is \"Historian\".",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 61245030000
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "Times Higher Education, in the given context, is most contextually related to the concept of \"PeriodicalLiterature\" and \"WrittenWork.\" It refers to a publication that regularly publishes educational content, such as news, analysis, and reviews, typically related to higher education. Therefore, both PeriodicalLiterature and WrittenWork are appropriate choices, with PeriodicalLiterature being a more specific term for a publication that comes in a series or magazine format.",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 2627657100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "The most contextually related concept for Harris, given the football recruitment context, would be \"AmericanFootballPlayer\" or \"GridironFootballPlayer.\" Since he is mentioned in the context of being a highly hyped recruit for a specific position, it implies that he is involved in American football, which is a sport typically played on a gridiron. \"Athlete\" is also a relevant concept, but \"AmericanFootballPlayer\" is more specific to the sport in question.",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 2663668100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "Based on the context provided, the most contextually related concept for the Calgary Bronks is \"CanadianFootballTeam\" since it refers to a specific team within the sport of football, which is typically associated with Canadian football leagues.",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1960642100
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "The most contextually related concept for the Escuela Nacional de Arte de La Habana from the given set is \"Educational Institution.\" This is because it refers to a specific place where higher education or specialized training in the field of theatrical direction is provided.",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1724791300
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "The most contextually related concept for Wilhelm Dittenberger in this context is Historian, as he edited a work based on inscriptions found at Olympia, which suggests research and analysis of historical inscriptions.",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1838872700
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "The most contextually related concept for \"Times Higher Education\" from the concept set would be \"Periodical Literature\". This is because \"Times Higher Education\" is a weekly magazine that reports on higher education news and research, and is therefore a form of periodical literature. The other concepts, such as \"Magazine\", \"Document\", and \"Work\" are too broad to be contextually related to \"Times Higher Education\".",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 3795486800
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "The most contextually related concept for Bryce Brown in the given context is \"AmericanFootballPlayer\". \n\nJustification: The context mentions that Harris was one of the most hyped running back recruits since Bryce Brown in 2009, which implies that Bryce Brown was also a running back recruit in American Football. This suggests that the concept \"AmericanFootballPlayer\" is the most contextually related to Bryce Brown in this context.",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 3820460900
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "Step 1: Identify the relevant information from the context\nIn the given context, the main subject is 'He', and the information provided is about his role as a head coach for the 'Calgary Bronks' for five seasons.\n\nStep 2: Analyze the concept set and determine the most relevant concept\nSportsClub: This could include a variety of sports teams, but it doesn't specify any particular sport.\nGroup: This concept is too vague and doesn't provide any relevant information about the context.\nOrganisation: This concept is too broad and doesn't provide any specific information about the context.\nCanadianFootballTeam: This concept directly relates to a specific type of sports team, which is relevant to the context.\nSportsTeam: This concept is quite general and doesn't provide enough information about the specific sport involved.\n\nStep 3: Select the most contextually related concept\nBased on the analysis in Step 2, the most contextually related concept from the concept set is 'CanadianFootballTeam'. This is because it directly relates to a specific type of sports team, which is relevant to the context about 'He' being a head coach for the 'Calgary Bronks' for five seasons.",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 9623934800
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "To select the most contextually related concept for Escuela Nacional de Arte de La Habana from the concept set, I will follow these steps:\n\n1. Analyze the context provided.\n2. Compare the context with each concept in the set.\n3. Select the concept that best fits the context.\n\nStep 1: Analyze the context provided:\n\"He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.\"\n\nThe context mentions that a person graduated from a specific institution with a degree, indicating that it's an educational institution.\n\nStep 2: Compare the context with each concept in the set:\n- Group: This concept does not fit the context, as it does not typically provide degrees.\n- Organisation: This may be related, but it's not the best fit, as it doesn't specifically imply an educational aspect.\n- School: This concept is very close to fitting the context, as it implies a place where you can obtain a degree.\n- Educational Institution: This concept directly fits the context, as it is an institution that provides degrees.\n\nStep 3: Select the concept that best fits the context:\nSince the context explicitly mentions a degree and an educational aspect, the most contextually related concept for Escuela Nacional de Arte de La Habana is \"Educational Institution.\"",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 10158685700
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "The most contextually related concept for Wilhelm Dittenberger based on the provided context is Historian. This is because the context discusses his involvement in editing an anthology of inscriptions found at Olympia, a historical site in Greece. This implies that Wilhelm Dittenberger had an interest in and knowledge about history, which is a key aspect of the profession of Historians.",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 3557882300
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "The most contextually related concept for \"Times Higher Education\" in this case would be \"PeriodicalLiterature.\" \"Times Higher Education\" is a well-known magazine focused on higher education, publishing news, analysis, and rankings related to universities and education. It falls under the category of PeriodicalLiterature, which includes periodicals, magazines, and journals that are published on a regular basis.",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "time": 61596584300
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
+            "actual_output": "The most contextually related concept for Harris, given the mention of him being a running back recruit and the comparison to Bryce Brown and Leonard Fournette who are also known as AmericanFootballPlayers, is AmericanFootballPlayer. \n\nGridironFootballPlayer could be a broader term that includes both offensive and defensive players, but since the focus is on Harris as a running back, AmericanFootballPlayer is more specific and appropriate. Person would be too general as it could refer to any individual without the sports context.",
+            "expected_output": "Athlete",
+            "context": null,
+            "retrieval_context": null,
+            "time": 61879365900
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "\nGiven the context 'He then was a head coach for the Calgary Bronks for five seasons.', neglect your knowledge about Calgary Bronks and select the most contextually related concept for it from the concept set: SportsClub, Group, Organisation, CanadianFootballTeam, SportsTeam.",
+            "actual_output": "The most contextually related concept for \"Calgary Bronks\" from the given context is \"SportsTeam.\" The Calgary Bronks are likely a reference to a sports team, specifically a Canadian football team, as head coaching is associated with managing and leading a sports team.",
+            "expected_output": "SportsTeam",
+            "context": null,
+            "retrieval_context": null,
+            "time": 61319588700
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "\nGiven the context 'He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.', neglect your knowledge about Escuela Nacional de Arte de La Habana and select the most contextually related concept for it from the concept set: Group, Organisation, School, EducationalInstitution.",
+            "actual_output": "The most contextually related concept for \"Escuela Nacional de Arte de La Habana\" from the given concept set would be \"Educational Institution.\" It is a school or institution where someone would have graduated with a degree in theatrical direction, indicating that it is an educational institution focused on arts, particularly theater education.",
+            "expected_output": "School",
+            "context": null,
+            "retrieval_context": null,
+            "time": 1421191800
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "\nGiven the context 'With Wilhelm Dittenberger , he edited \"Die inschriften von Olympia\", based on the inscriptions found at Olympia.', neglect your knowledge about Wilhelm Dittenberger and select the most contextually related concept for it from the concept set: BusinessPerson, Writer, Scientist, Historian, Person.",
+            "actual_output": "The most contextually related concept for Wilhelm Dittenberger, given the context provided, would be \"Historian.\" As he edited \"Die inschriften von Olympia\" (The inscriptions from Olympia), this indicates that Dittenberger was involved in the study and publication of historical artifacts, specifically related to the ancient site of Olympia. Historians typically work with inscriptions and other historical evidence to understand and document the past.",
+            "expected_output": "Writer",
+            "context": null,
+            "retrieval_context": null,
+            "time": 61682174500
+        }
+    ]
+}
