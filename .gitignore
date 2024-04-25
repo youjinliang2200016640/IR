@@ -1,0 +1,14 @@
+*.tar
+*.zip
+*.rar
+code/
+data_deprecated/
+data - copy/
+extensions/
+.deepeval*
+/*.json
+*.pdf
+__pycache__/
+/*.py
+MATH/
+KoLA/
