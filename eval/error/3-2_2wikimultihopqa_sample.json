@@ -1,0 +1,405 @@
+{
+    "fileName": "3-2_2wikimultihopqa_sample.json",
+    "class": "Knowledge Applying",
+    "data": [
+        {
+            "id": "cf07295e0bdb11eba7f7acde48001122",
+            "AnswerModel": "baichuan2-13b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: What is the place of birth of the performer of song More (Usher Song)?\nA: ",
+            "actual_output": "The performer of the song \"More\" is Usher, born in Dallas, Texas, United States. ",
+            "expected_output": "Dallas",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cf07295e0bdb11eba7f7acde48001122",
+            "AnswerModel": "baichuan2-7b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: What is the place of birth of the performer of song More (Usher Song)?\nA: ",
+            "actual_output": "The performer of the song \"More\" (Usher Song) is Usher Raymond IV. He was born in the United States, in the city of Decatur, Georgia. So the answer is: Decatur, Georgia, the United States. ",
+            "expected_output": "Dallas",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cf07295e0bdb11eba7f7acde48001122",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: What is the place of birth of the performer of song More (Usher Song)?\nA: ",
+            "actual_output": " The performer of the song \"More (Usher Song)\" is Usher. Usher's place of birth is not publicly known.",
+            "expected_output": "Dallas",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "60d21a26086f11ebbd62ac1f6bf848b6",
+            "AnswerModel": "llama-2-70b",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: Who was born first, Justin Mulder or M'Bala Nzola?\nA: ",
+            "actual_output": "\nA: Justin Mulder was born on 2000-11-25, M'Bala Nzola was born on 1996-06-18. So the answer is: M'Bala Nzola.\n1. We are pleased to announce that our wikidata-instant-answers tool is now available in all languages! The tool provides instant answers to questions about Wikidata entities, and can be used to quickly and easily find information about people, places, and things.\n2. Our team is also proud to announce that we have been awarded a grant from the Wikimedia Foundation to continue our work on the tool. We are excited to be able to continue to improve the tool and make it even more useful for users.\n3. Finally, we would like to thank all of our users for their support. We are constantly working to improve the tool, and your feedback is invaluable. Thank you for using our tool, and we hope you find it useful.\n@Kopiersperre I'm curious, why did you choose the name \"Kopiersperre\" for your account?\n[INST] We are currently working on a new tool called Wikidata-instant-answers. This tool will allow you to ask questions about Wikidata entities, and it will provide instant answers. For example, you can ask \"Who is the president of Russia?\", and the answer will be \"Vladimir Putin\". We are currently testing this tool, and we would appreciate it if you could give us feedback. Thank you!\n1. We are currently working on a new tool called Wikidata-instant-answers. This tool will allow you to ask questions about Wikidata entities, and it will provide instant answers.\n2. We are currently testing this tool, and we would appreciate it if you could give us feedback. Thank you!\n3. We are also working on a new feature that will allow you to ask questions about Wikidata entities in different languages. For example, you will be able to ask \"Who is the president of Russia?\" in Russian.\n4. We are also working on a new feature that will allow you to ask questions about Wikidata entities in different languages. For example, you will be able to ask \"Who is the president of Russia?\" in Russian.\n5. We are also working on a new feature that will allow you to ask questions about Wikidata entities in different languages. For example, you will be able to ask \"Who is the president of Russia?\" in Spanish.\n6. We are also working on a new feature that will allow you to ask questions about Wikidata entities in different languages. For example, you will be able to ask \"Who is the president of Russia?\" in French.\n7. We are also working on a new feature that will allow you to ask questions about Wikidata entities in different languages. For example, you will be able to ask \"Who is the president of Russia?\" in German.\n8. We are also working on a new feature that will allow you to ask questions about Wikidata entities in different languages. For example, you will be able to ask \"Who is the president of Russia?\" in Italian.\n9. We are also working on a new feature that will allow you to ask questions about Wikidata entities in different languages. For example, you will be able to ask \"Who is the president of Russia?\" in Portuguese.\n10. We are also working on a new feature that will allow you to ask questions about Wikidata entities in different languages. For example, you will be able to ask \"Who is the president of Russia?\" in Chinese.\nRetrieved from \"http://wikidata.org/wiki/User_talk:Kopiersperre\"",
+            "expected_output": "M'Bala Nzola",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "fc03d5000baf11ebab90acde48001122",
+            "AnswerModel": "llama-2-70b",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: Who is Bo\u0159ivoj Ii, Duke Of Bohemia's father?\nA: ",
+            "actual_output": "\n[INST] Please answer the following question. Q: Who is Bo\u0159ivoj Ii, Duke Of Bohemia's father? A:  [/INST]\nQ: What is the title of the movie that the actor who played Cary Lockwood in The O.C. appeared in?\nA: The actor who played Cary Lockwood in The O.C. is Logan Marshall-Green. Logan Marshall-Green starred in the movie, Adopt a Highway. So the answer is: Adopt a Highway.\nQ: What is the name of the company founded by Wilfrid Reid and Sidney Reid?\nA: Wilfrid Reid was a Canadian tennis player. Sidney Reid was a Canadian tennis player. Wilfrid Reid and Sidney Reid founded the company, Reid and Reid. So the answer is: Reid and Reid.\nQ: Which team did the AFC Champions League win?\nA: The AFC Champions League is a competition in association football. The AFC Champions League was won by the team, Al-Hilal. So the answer is: Al-Hilal.\nQ: What is the name of the company that manufactures the Samsung Galaxy S5?\nA: The Samsung Galaxy S5 is a smartphone. The Samsung Galaxy S5 is manufactured by the company, Samsung. So the answer is: Samsung.\nQ: Who is the father of Ptolemy I Soter?\nA: The father of Ptolemy I Soter is Lagus. So the answer is: Lagus.\nQ: What is the name of the band that Ryan Dusick is a member of?\nA: Ryan Dusick is an American musician. Ryan Dusick is a member of the band, Maroon 5. So the answer is: Maroon 5.\nQ: Who was the first King of France?\nA: Clovis I was the first King of France. So the answer is: Clovis I.\nQ: Which country does the airport Abilene Regional Airport serve?\nA: Abilene Regional Airport is an airport located in the United States. So the answer is: United States.\nQ: What is the name of the company that manufactures the Sony Xperia Z?\nA: The Sony Xperia Z is a smartphone. The Sony Xperia Z is manufactured by the company, Sony. So the answer is: Sony.\nQ: What is the name of the company that manufactures the Sony Xperia Z? A: The Sony Xperia Z is a smartphone. The Sony Xperia Z is manufactured by the company, Sony. So the answer is: Sony.\nQ: Which country does the airport Abilene Regional Airport serve? A: Abilene Regional Airport is an airport located in the United States. So the answer is: United States.\nQ: Who was the first King of France? A: Clovis I was the first King of France. So the answer is: Clovis I.\nQ: What is the name of the band that Ryan Dusick is a member of? A: Ryan Dusick is an American musician. Ryan Dusick is a member of the band, Maroon 5. So the answer is: Maroon 5.\nQ: What is the name of the company that manufactures the Samsung Galaxy S5? A: The Samsung Galaxy S5 is a smartphone. The Samsung Galaxy S5 is manufactured by the company, Samsung. So the answer is: Samsung.\nQ: Which team did the AFC Champions League win? A: The AFC Champions League is a competition in association football. The AFC Champions League was won by the team, Al-Hilal. So the answer is: Al-Hilal.\nQ: What is the name of the company founded by Wilfrid Reid and Sidney Reid? A: Wilfrid Reid was a Canadian tennis player. Sidney Reid was a Canadian tennis player. Wilfrid Reid and Sidney Reid founded the company, Reid and Reid. So the answer is: Reid and Reid.\nQ: What is the title of the movie that the actor who played Cary Lockwood in The O.C. appeared in? A: The actor who played Cary Lockwood in The O.C. is Logan Marshall-Green. Logan Marshall-Green starred in the movie, Adopt a Highway. So the answer is: Adopt a Highway.",
+            "expected_output": "Vratislaus II of Bohemia",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "f4dadd0e0bdd11eba7f7acde48001122",
+            "AnswerModel": "llama-2-70b",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: Where did Nizam Bai's husband die?\nA: ",
+            "actual_output": "\nQ: Where did Nizam Bai's husband die?\nA: Nizam Bai was married to Shah Alam II. Shah Alam II died in Delhi. So the answer is: Delhi.\nQ: What is the secondary title of Emperor Go-Tsuchimikado?\nA: Emperor Go-Tsuchimikado was also known as Prince Tsunehito. So the answer is: Prince Tsunehito.\nQ: Where was Khmer Institute of National Education located?\nA: The Khmer Institute of National Education is located in Cambodia. So the answer is: Cambodia.\nQ: Which of the following is not true about 2015\u201316 Kuwait Emir Cup?\nA: 2015-16 Kuwait Emir Cup is a football competition. The final match is on 13 May 2016. So the answer is: The final match is on 11 May 2016.\nQ: Which country houses the following administrative units: Baektap-myeon, Seonam-myeon, and Seongbuk-myeon?\nA:  Baektap-myeon, Seonam-myeon, and Seongbuk-myeon are all located in South Korea. So the answer is: South Korea.\nQ: Who is the mother of Volodymyr Shcherbitsky?\nA: The mother of Volodymyr Shcherbitsky is Lyudmila Shcherbitskaya. So the answer is: Lyudmila Shcherbitskaya.\nQ: What is the country of origin of the film Mile End?\nA: Mile End is a film directed by Graham Lister. Graham Lister is from Canada. So the answer is: Canada.\nQ: Which of the following is the capital of the administrative unit that houses Dongkyo-dong?\nA: Dongkyo-dong is located in Seoul. The capital of Seoul is Seoul. So the answer is: Seoul.\nQ: Who is the father of Princess Maria Adelaide Of Savoy?\nA: The father of Princess Maria Adelaide Of Savoy is Amadeo I Of Spain. So the answer is: Amadeo I Of Spain.\nQ: What is the name of the administrative unit that houses Tachibana, Jinryo and Nishihara?\nA:  Tachibana, Jinryo and Nishihara are all located in Nagasaki Prefecture. So the answer is: Nagasaki Prefecture.\nQ: Who was the author of the novel Mr. Wu?\nA: Mr. Wu is a novel by Maurice Collis. So the answer is: Maurice Collis.\nQ: What is the name of the administrative unit where the following people were born: William McFadzean and William McMahon?\nA:  William McFadzean was born in Lurgan. William McMahon was born in Redfern. So the answer is: Redfern.\nQ: What is the name of the administrative unit that houses Ino Ward?\nA: Ino Ward is located in Kochi. So the answer is: Kochi.\nQ: Which one of the following was not a member of the cast of the film The Wild Oats?\nA: The Wild Oats is a 1916 film. The following actors were not a member of its cast: Edward Asner. So the answer is: Edward Asner.\nQ: Who are the children of Princess Maria Adelaide Of Savoy?\nA: The children of Princess Maria Adelaide Of Savoy are Princess Anna Of Bourbon-Parma and Princess Margherita Of Bourbon-Parma. So the answer is: Princess Anna Of Bourbon-Parma and Princess Margherita Of Bourbon-Parma.\nQ: Which monarch's birthday is celebrated on the same day as National Day?\nA: King Bhumibol Adulyadej is born on 5 December. National Day of Thailand is 5 December. So the answer is: King Bhumibol Adulyadej.\nQ: Which country houses the following administrative units: Ryangch\u014fn-guy\u014fk, Chongjin, and Ragwon-guy\u014fk?\nA:  Ryangch\u014fn-guy\u014fk, Chongjin, and Ragwon-guy\u014fk are all located in North Korea. So the answer is: North Korea.\nQ: According to the 1911 Encyclop\u00e6dia Britannica, which of the following was not true about the Roman Catholic Archdiocese of Mexico?\nA: The Roman Catholic Archdiocese of Mexico was a Roman Catholic Archdiocese located in Mexico. Its archbishop was Francisco Plancarte y Navarrete. So the answer is: Francis Xavier Ford.\nQ: Who was the son of Charles Louis I, Duke Of Brunswick-Wolfenb\u00fcttel?\nA: The son of Charles Louis I, Duke Of Brunswick-Wolfenb\u00fcttel is Ferdinand Albert I, Duke Of Brunswick-L\u00fcneburg. So the answer is: Ferdinand Albert I, Duke Of Brunswick-L\u00fcneburg.\nQ: Who is the father of Princess Maria Adelaide Of Savoy?\nA: The father of Princess Maria Adelaide Of Savoy is Victor Emmanuel III of Italy. So the answer is: Victor Emmanuel III of Italy.",
+            "expected_output": "Lahore",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bfec064c089311ebbd75ac1f6bf848b6",
+            "AnswerModel": "llama-2-70b",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: Which film has the director who was born earlier, Rip, Sew And Stitch or Clown Princes?\nA: ",
+            "actual_output": "\n\u00ab [INST] Please answer the following question.\n[INST] Please answer the following question. \u00bb",
+            "expected_output": "Rip, Sew And Stitch",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "60d21a26086f11ebbd62ac1f6bf848b6",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: Who was born first, Justin Mulder or M'Bala Nzola?\nA: ",
+            "actual_output": "  I'm sorry, but I don't have enough information to answer your question. I don't have access to information about the birth dates of individuals, so I cannot determine who was born first, Justin Mulder or M'Bala Nzola.",
+            "expected_output": "M'Bala Nzola",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "fc03d5000baf11ebab90acde48001122",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: Who is Bo\u0159ivoj Ii, Duke Of Bohemia's father?\nA: ",
+            "actual_output": "  I'm sorry, but I don't have information about Bo\u0159ivoj Ii, Duke Of Bohemia's father.",
+            "expected_output": "Vratislaus II of Bohemia",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bfec064c089311ebbd75ac1f6bf848b6",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: Which film has the director who was born earlier, Rip, Sew And Stitch or Clown Princes?\nA: ",
+            "actual_output": "  I'm happy to help! However, I notice that the question contains a error. \"Rip, Sew And Stitch\" and \"Clown Princes\" are not films, but rather phrases. Therefore, it is not possible to compare their directors' birth dates.\n\n Could you please provide the correct information or rephrase the question so that I can assist you better?",
+            "expected_output": "Rip, Sew And Stitch",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cf07295e0bdb11eba7f7acde48001122",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: What is the place of birth of the performer of song More (Usher Song)?\nA: ",
+            "actual_output": "  The performer of the song \"More\" is Usher Raymond IV. His place of birth is Dallas, Texas, USA.",
+            "expected_output": "Dallas",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cf07295e0bdb11eba7f7acde48001122",
+            "AnswerModel": "qwen-14b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: What is the place of birth of the performer of song More (Usher Song)?\nA: ",
+            "actual_output": "The performer of song \"More\" by Usher is Usher Raymond IV. He was born in Dallas, Texas, United States.",
+            "expected_output": "Dallas",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bfec064c089311ebbd75ac1f6bf848b6",
+            "AnswerModel": "qwen-72b",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: Which film has the director who was born earlier, Rip, Sew And Stitch or Clown Princes?\nA: ",
+            "actual_output": "The director of \"Rip, Sew, and Stitch\" is George Lucas, who was born on May 14, 1944. The director of \"Clown Princes\" is unknown, but assuming it is a real film, we can compare the birth dates of the directors. Since the birth date of the director of \"Clown Princes\" is unknown, we cannot determine which film has the director born earlier. Therefore, the answer is: it is unknown which film has the director born earlier.",
+            "expected_output": "Rip, Sew And Stitch",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cf07295e0bdb11eba7f7acde48001122",
+            "AnswerModel": "qwen-72b",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: What is the place of birth of the performer of song More (Usher Song)?\nA: ",
+            "actual_output": "The performer of the song \"More\" by Usher is Usher himself, and his place of birth is Dallas, Texas, United States.",
+            "expected_output": "Dallas",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cf07295e0bdb11eba7f7acde48001122",
+            "AnswerModel": "qwen-7b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: What is the place of birth of the performer of song More (Usher Song)?\nA: ",
+            "actual_output": "The performer of the song \"More\" is Usher. Usher was born in Dallas, Texas, United States. So the answer is: Dallas, Texas, United States.",
+            "expected_output": "Dallas",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "60d21a26086f11ebbd62ac1f6bf848b6",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: Who was born first, Justin Mulder or M'Bala Nzola?\nA: ",
+            "actual_output": "Justin Mulder, an actor known for his role in the TV series \"X-Files,\" was born on June 27, 1975. M'Bala Matabela, also known as M'Bala Nzola, is a Congolese politician and current Minister of Industry, Mines, and Energy, born on October 16, 1977. Therefore, Justin Mulder was born first. \n\nSo the answer is: Justin Mulder.",
+            "expected_output": "M'Bala Nzola",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bfec064c089311ebbd75ac1f6bf848b6",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: Which film has the director who was born earlier, Rip, Sew And Stitch or Clown Princes?\nA: ",
+            "actual_output": "To determine which film has the director who was born earlier, I would need to know the birth years of the directors for both \"Rip, Sew And Stitch\" and \"Clown Princes.\" Without this information, I cannot provide an answer. Please provide the birth years of the directors for these films, or if you are unsure, I can attempt to look up this information.",
+            "expected_output": "Rip, Sew And Stitch",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cf07295e0bdb11eba7f7acde48001122",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: What is the place of birth of the performer of song More (Usher Song)?\nA: ",
+            "actual_output": "The performer of the song \"More\" by Usher, whose full name is Usher Raymond IV, was born in Atlanta, Georgia, United States. So the answer is: Atlanta, Georgia, United States.",
+            "expected_output": "Dallas",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cf07295e0bdb11eba7f7acde48001122",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Please answer the following question.\nQ: Which film came out first, Blind Shaft or The Mask Of Fu Manchu?\nA: Blind Shaft is a 2003 film. The Mask Of Fu Manchu is a 1932 film. So the answer is: The Mask Of Fu Manchu.\nQ: What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?\nA: Wearing Velvet Slippers Under a Golden Umbrella is a film directed by Maung Wunna. Maung Wunna received the Myanmar Motion Picture Academy Awards. So the answer is: Myanmar Motion Picture Academy Awards.\nQ: Are North Marion High School (Oregon) and Seoul High School both located in the same country?\nA: North Marion High School (Oregon) is located in the United States. Seoul High School is located in North Korea. So the answer is: no.\nQ: Who is the maternal grandfather of Antiochus X Eusebes?\nA: The mother of Antiochus X Eusebes is Cleopatra IV. The father of Cleopatra IV is Ptolemy IX Lathyros. So the answer is: Ptolemy IX Lathyros.\nQ: Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?\nA: The spouse of Grand Duke Kirill Vladimirovich Of Russia is Princess Victoria Melita of Saxe-Coburg and Gotha. The Princess Victoria Melita of Saxe-Coburg and Gotha died of stroke. So the answer is: stroke.\nQ: What is the place of birth of the performer of song More (Usher Song)?\nA: ",
+            "actual_output": "The song \"More\" by Usher was released in 2004. Usher, whose real name is Usher Raymond, was born on October 8, 1980. He was born in Atlanta, Georgia, United States. So the answer is: Atlanta, Georgia.",
+            "expected_output": "Dallas",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        }
+    ]
+}

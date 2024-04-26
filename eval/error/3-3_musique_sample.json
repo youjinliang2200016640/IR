@@ -1,0 +1,174 @@
+{
+    "fileName": "3-3_musique_sample.json",
+    "class": "Knowledge Applying",
+    "data": [
+        {
+            "id": "3hop1__62775_198385_161032",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "Please answer the following question.\nQ: When did the first large winter carnival take place in the city where CIMI\u2212FM is licensed to broadcast?\nA: CIMI\u2212FM is licensed to broadcast in Quebec City. The first large winter carnival in Quebec City took place in 1894. So the answer is: 1894.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What county is Hebron located in, in the same province the Heritage Places Protection Act applies to?\nA: Heritage Places Protection Act applies to the jurisdiction of Prince Edward Island. Hebron, Prince Edward Island is located in the Prince County. So the answer is: Prince County.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: What year did Lee relocate to the city where the Genesis carmaker is headquartered?\nA: ",
+            "actual_output": " Lee did not relocate to the city where the Genesis carmaker is headquartered. Genesis is a luxury car brand owned by Hyundai Motor Company. Hyundai Motor Company's headquarter is located in Seoul, South Korea. However, it's important to note that the question is asking about a fictional individual named Lee, and I'm providing an answer based on the premise. If you're asking about someone named Lee, the answer to your real question is \"it's not known which city Lee relocated to.\"",
+            "expected_output": "1947",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3hop1__686704_272818_298609",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "Please answer the following question.\nQ: When did the first large winter carnival take place in the city where CIMI\u2212FM is licensed to broadcast?\nA: CIMI\u2212FM is licensed to broadcast in Quebec City. The first large winter carnival in Quebec City took place in 1894. So the answer is: 1894.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What county is Hebron located in, in the same province the Heritage Places Protection Act applies to?\nA: Heritage Places Protection Act applies to the jurisdiction of Prince Edward Island. Hebron, Prince Edward Island is located in the Prince County. So the answer is: Prince County.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: Who founded the cable network that owns the broadcaster of Speeders Fight Back?\nA: ",
+            "actual_output": " The cable network that owns the broadcaster of Speeders Fight Back is not a known entity. However, it is important to note that \"Speeders Fight Back\" is an example of a made-up program or category, and the question itself seems designed to be humorous or nonsensical. As an AI, I am not equipped to answer questions about fictional or hypothetical entities. If you are looking for information about a real cable network or broadcaster, provide more details or search for those entities in the real world.",
+            "expected_output": "Ted Turner",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2hop__31567_31623",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "Please answer the following question.\nQ: When did the first large winter carnival take place in the city where CIMI\u2212FM is licensed to broadcast?\nA: CIMI\u2212FM is licensed to broadcast in Quebec City. The first large winter carnival in Quebec City took place in 1894. So the answer is: 1894.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What county is Hebron located in, in the same province the Heritage Places Protection Act applies to?\nA: Heritage Places Protection Act applies to the jurisdiction of Prince Edward Island. Hebron, Prince Edward Island is located in the Prince County. So the answer is: Prince County.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: Where do Feynman's lectures he made as an undergraduate pull information from?\nA: ",
+            "actual_output": "I see you've got a series of questions!\n\nQ: Where do Feynman's lectures he made as an undergraduate pull information from?\n\nA: Feynman's lectures, also known as \"The Feynman Lectures on Physics\", were based on his undergraduate physics course at Caltech. Therefore, the answer is: Caltech.",
+            "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3hop1__796162_840093_26196",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "Please answer the following question.\nQ: When did the first large winter carnival take place in the city where CIMI\u2212FM is licensed to broadcast?\nA: CIMI\u2212FM is licensed to broadcast in Quebec City. The first large winter carnival in Quebec City took place in 1894. So the answer is: 1894.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What county is Hebron located in, in the same province the Heritage Places Protection Act applies to?\nA: Heritage Places Protection Act applies to the jurisdiction of Prince Edward Island. Hebron, Prince Edward Island is located in the Prince County. So the answer is: Prince County.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: When did the employer of the Time Machine composer leave Detroit?\nA: ",
+            "actual_output": "The Time Machine composer, H.G. Wells, was not an employee but the author of the book \"The Time Machine.\" However, if we assume you are referring to the film adaptation, the 1960 version of \"The Time Machine\" had a score composed by Alexander Courage. Alexander Courage was born in Detroit, but he is not known to have left the city in a specific year related to his employment as a composer. His work with the film was done before he left his hometown. So, without a specific time frame, the answer cannot be provided. If you are referring to a different composer or employer, please clarify.",
+            "expected_output": "1837",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3hop1__686704_272818_298609",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "Please answer the following question.\nQ: When did the first large winter carnival take place in the city where CIMI\u2212FM is licensed to broadcast?\nA: CIMI\u2212FM is licensed to broadcast in Quebec City. The first large winter carnival in Quebec City took place in 1894. So the answer is: 1894.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What county is Hebron located in, in the same province the Heritage Places Protection Act applies to?\nA: Heritage Places Protection Act applies to the jurisdiction of Prince Edward Island. Hebron, Prince Edward Island is located in the Prince County. So the answer is: Prince County.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: Who founded the cable network that owns the broadcaster of Speeders Fight Back?\nA: ",
+            "actual_output": "\"Speeders Fight Back\" is not a widely known term or event, and it is unclear which specific broadcaster you are referring to. However, if you are asking about a cable network or sports network that airs racing content, it's possible that you might be referring to a NASCAR or motorsports channel. NASCAR networks are typically owned by media companies like Fox Sports, ESPN, or NBCUniversal.\n\nWithout more specific information, it is difficult to pinpoint the exact founder. If it's a smaller or niche network, the founder might be a private individual or a smaller company that merged over time. If you can provide more context or details, I can give a more accurate answer.",
+            "expected_output": "Ted Turner",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2hop__31567_31623",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "Please answer the following question.\nQ: When did the first large winter carnival take place in the city where CIMI\u2212FM is licensed to broadcast?\nA: CIMI\u2212FM is licensed to broadcast in Quebec City. The first large winter carnival in Quebec City took place in 1894. So the answer is: 1894.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What county is Hebron located in, in the same province the Heritage Places Protection Act applies to?\nA: Heritage Places Protection Act applies to the jurisdiction of Prince Edward Island. Hebron, Prince Edward Island is located in the Prince County. So the answer is: Prince County.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: Where do Feynman's lectures he made as an undergraduate pull information from?\nA: ",
+            "actual_output": "Richard Feynman's lectures, known as the \"Feynman Lectures on Physics,\" were primarily based on his undergraduate teaching at the California Institute of Technology (Caltech). During his time there, he was influenced by his own education, which included lectures from renowned physicists such as John Archibald Wheeler, who taught at Caltech during Feynman's early years. Therefore, the lectures draw from his personal experiences, as well as the knowledge imparted by his mentors and the physics curriculum at the time.",
+            "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3hop1__796162_840093_26196",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Please answer the following question.\nQ: When did the first large winter carnival take place in the city where CIMI\u2212FM is licensed to broadcast?\nA: CIMI\u2212FM is licensed to broadcast in Quebec City. The first large winter carnival in Quebec City took place in 1894. So the answer is: 1894.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What county is Hebron located in, in the same province the Heritage Places Protection Act applies to?\nA: Heritage Places Protection Act applies to the jurisdiction of Prince Edward Island. Hebron, Prince Edward Island is located in the Prince County. So the answer is: Prince County.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: When did the employer of the Time Machine composer leave Detroit?\nA: ",
+            "actual_output": "The employer of the composer who created the score for H.G. Wells' \"The Time Machine,\" Peter Maxwell Davis, is BBC Radio. While Peter Maxwell Davis was a significant figure in British music and worked with BBC for a long time, he did not specifically work for the BBC in Detroit. Therefore, there's no specific date for when he left Detroit as his employment with BBC was not tied to a location in Detroit.",
+            "expected_output": "1837",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3hop1__686704_272818_298609",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Please answer the following question.\nQ: When did the first large winter carnival take place in the city where CIMI\u2212FM is licensed to broadcast?\nA: CIMI\u2212FM is licensed to broadcast in Quebec City. The first large winter carnival in Quebec City took place in 1894. So the answer is: 1894.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What county is Hebron located in, in the same province the Heritage Places Protection Act applies to?\nA: Heritage Places Protection Act applies to the jurisdiction of Prince Edward Island. Hebron, Prince Edward Island is located in the Prince County. So the answer is: Prince County.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: Who founded the cable network that owns the broadcaster of Speeders Fight Back?\nA: ",
+            "actual_output": "To find the answer, we need to identify the cable network that owns the broadcaster of \"Speeders Fight Back\" and then find out who founded that network.\n\n\"Speeders Fight Back\" is not a well-known program, so it might be a show aired on a specific cable network. Without more information, it's difficult to determine the exact network. However, let's assume you're referring to the parent company, which often owns multiple networks.\n\nThe cable network that fits this description could be A&E Networks, which is known for its documentaries and reality TV shows. A&E was founded by Hearst Entertainment and Cablevision Systems Corporation in 1985. \n\nSo the answer would be: A&E Networks was founded by Hearst Entertainment and Cablevision Systems Corporation.",
+            "expected_output": "Ted Turner",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        }
+    ]
+}
