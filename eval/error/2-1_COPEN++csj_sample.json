@@ -1,0 +1,363 @@
+{
+    "fileName": "2-1_COPEN++csj_sample.json",
+    "class": "Knowledge Understanding",
+    "data": [
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-7b-chat",
+            "input": "\nAmong Ted Mosby, Chrysler Imperial, ELF 500 ROC, Salvador Allende, Romeo and Juliet, The Waters of Mars, Hamilton Tiger-Cats, Bigelow Commercial Space Station, Geoffrey Chaucer, Stanford Encyclopedia of Philosophy, London and North Eastern Railway, Ziegfeld Follies, The Kenyon Review, John Glenn, Edgar Allan Poe, Oakleigh Football Club, United States Patent and Trademark Office, Hartford Whalers, Joko Widodo, Conan the Barbarian, Steve Albini, which one is the most conceptually similar with Rose?",
+            "actual_output": "The most conceptually similar with Rose would probably be some sort of fictional character or historical figure, as Rose is a fictional character from the show \"Lost\". However, it's hard to say which specific fictional character or historical figure is most similar to Rose without more context or specificity. ",
+            "expected_output": "The Waters of Mars",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "\nAmong Eclipse Award, Portland Trail Blazers, Mahabharata, Legislative Assembly of British Columbia, Greek Basket League, Science Citation Index, Byron White, The Sound of Drums, Soviet Air Forces, Earl of Lincoln, Burns and Allen, Milwaukee Brewers, Larry Bird, Brian Clough, The Cherry Orchard, Billboard charts, Arizona Coyotes, Janice Pennington, Daily Mail, Janaye Ingram, Green earth, which one is the most conceptually similar with Kenneth Clarke?",
+            "actual_output": " None of the terms you have listed are people, companies, organizations, or celebrities that are as well known as Kenneth Clarke. Kenneth Clarke is a British politician, historian, and author who is best known for his work in the field of philosophy of the elderly.\n\nHowever, if you had to guess which term has the broadest theme in common with Kenneth Clarke, it might be \"Greek Basket League\". Both Kenneth Clarke and the Greek Basket League are related to basketball in a European context, although in the case of the basketball league, it's for professional basketball teams in Greece, while Kenneth Clarke is a British politician and author. However, it's important to note that the Greek Basket League is a specific sporting event, while Kenneth Clarke is an individual known for his work, not a basketball team.",
+            "expected_output": "Byron White",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "\nAmong Ted Mosby, Chrysler Imperial, ELF 500 ROC, Salvador Allende, Romeo and Juliet, The Waters of Mars, Hamilton Tiger-Cats, Bigelow Commercial Space Station, Geoffrey Chaucer, Stanford Encyclopedia of Philosophy, London and North Eastern Railway, Ziegfeld Follies, The Kenyon Review, John Glenn, Edgar Allan Poe, Oakleigh Football Club, United States Patent and Trademark Office, Hartford Whalers, Joko Widodo, Conan the Barbarian, Steve Albini, which one is the most conceptually similar with Rose?",
+            "actual_output": " \u5728\u60a8\u5217\u51fa\u7684\u8fd9\u4e9b\u540d\u79f0\u4e2d\uff0c\u6700\u53ef\u80fd\u4e0e\u201cRose\u201d\u5728\u6982\u5ff5\u4e0a\u6709\u7c7b\u4f3c\u4e4b\u5904\u7684\u662f Edgar Allan Poe\u3002\n\n\u4e3a\u4ec0\u4e48\u8fd9\u6837\u8bf4\u5462\uff1f\u56e0\u4e3a Edgar Allan Poe \u662f\u8457\u540d\u7684\u7f8e\u56fd\u4f5c\u5bb6\uff0c\u4ed6\u7684\u4f5c\u54c1\u901a\u5e38\u4e0e\u6050\u6016\u3001\u60ac\u7591\u3001\u548c\u6b7b\u4ea1\u4e3b\u9898\u6709\u5173\u3002\u4ed6\u7684\u4f5c\u54c1\u7ecf\u5e38\u88ab\u4eba\u5f15\u7528\u6216\u6539\u7f16\uff0c\u5176\u4e2d\u6700\u8457\u540d\u7684\u6bd4\u5982\u300a\u5361\u6851\u5fb7\u62c9\u300b\uff08\"The Fall of the House of Usher\" \u548c \"The Cask of Amontillado\"\uff09\u7b49\u7b49\uff0c\u8fd9\u4e9b\u4f5c\u54c1\u4e2d\u7684\u5143\u7d20\u4e0eRose\u6709\u7740\u7c7b\u4f3c\u7684\u6d6a\u6f2b\u60b2\u5267\u8272\u5f69\uff0c\u7ecf\u5e38\u6d89\u53ca\u6b7b\u4ea1\u548c\u590d\u4ec7\u7684\u4e3b\u9898\u3002\n\n\u73ab\u7470\u5728\u4e0d\u540c\u7684\u4f5c\u54c1\u548c\u6587\u5316\u80cc\u666f\u4e2d\u53ef\u80fd\u4ee3\u8868\u4e0d\u540c\u7684\u4e1c\u897f\uff0c\u4f46\u5728 Edgar Allan Poe \u7684\u6587\u5b66\u4e16\u754c\u4e2d\uff0c\u73ab\u7470\u53ef\u4ee5\u88ab\u89c6\u4e3a\u6b7b\u4ea1\u548c\u7f8e\u4e3d\u7684\u8c61\u5f81\uff0c\u4e0eRose\u5728\u8bb8\u591a\u6d6a\u6f2b\u6216\u6d41\u884c\u6587\u5316\u4f5c\u54c1\u4e2d\u7684\u89d2\u8272\u6709\u76f8\u4f3c\u4e4b\u5904\u3002\n\n\u4e0d\u8fc7\uff0c\u8bf7\u6ce8\u610f\uff0c\u8fd9\u4e9b\u53ea\u662f\u57fa\u4e8e\u4e0e\u201cRose\u201d\u6700\u53ef\u80fd\u4e0e Edgar Allan Poe \u6709\u76f8\u4f3c\u6982\u5ff5\u7684\u5047\u8bbe\u3002\u5b9e\u9645\u4e0a\uff0c\u201cRose\u201d\u8fd9\u4e2a\u540d\u79f0\u672c\u8eab\u5c31\u53ef\u4ee5\u4ee3\u8868\u8bb8\u591a\u4e0d\u540c\u7684\u6982\u5ff5\uff0c\u5e76\u4e14\u80fd\u591f\u4e0e\u5404\u79cd\u4e8b\u7269\u6709\u8054\u7cfb\uff0c\u6240\u4ee5\u786e\u5207\u5730\u6307\u51fa\u4e0e\u67d0\u4e00\u7279\u5b9a\u6982\u5ff5\u6700\u76f8\u4f3c\u7684\u540d\u5b57\u662f\u4e0d\u53ef\u80fd\u7684\u3002",
+            "expected_output": "The Waters of Mars",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "\nAmong Brooklyn Nets, HMS Investigator, BMW R100S, propellant depot, Victorian Heritage Register, Jack Shephard, Ulster Unionist Party, Australia II, Maha Shivaratri, Hugh Fearnley-Whittingstall, Stratospheric Observatory for Infrared Astronomy, Kubla Khan, Florida Panthers, R-29RMU Sineva, sestina, Gospatric, Earl of Northumbria, University of Birmingham, Bellator Fighting Championships: Season Five, development hell, New Democratic Party, Daily Express, which one is the most conceptually similar with Marine One?",
+            "actual_output": " None of the terms you listed are directly related to the concept of Marine One, which refers to the official name of U.S. government planes used for transporting the President or other high-ran\u7ea7\u522b\u7684officials.\n\nThe terms you listed come from a wide range of fields and subjects, including sports, technology, exploration, heritage, politics, astronomy, cuisine, and film.To conceptually compare any of these terms to Marine One might require a creative stretch. However, if you're interested in an analogy based on the level of fame or familiarity with the terms, it might be easier to compare the level of similarity with Marine One. For example:\n\n- Brooklyn Nets: A basketball team.\n- HMS Investigator: A name used by a ship in exploration.\n- BMW R100S: A motorcycle.\n- propellant depot: A place to store and manage fuel for spacecraft or rockets.\n- Victorian Heritage Register: A list of heritage-listed places in Victoria, Australia.\n- Jack Shephard: A fictional character from the TV series \"Lost.\"\n- Ulster Unionist Party: A political party in Northern Ireland.\n- Australia II: A yacht that won the America's Cup sailing championship in 1983.\n- Maha Shivaratri: A Hindu holy day celebrated in honor of the god Shiva.\n- Hugh Fearnley-Whittingstall: An English chef and author known for promoting \"locavore\" and \"slow food\" concepts.\n- Stratospheric Observatory for Infrared Astronomy: An observatory for observing infrared astronomical objects.\n- Kubla Khan: A fictional character from the song \"Bohemian Rhapsody\" by Queen.\n- Florida Panthers: A hockey team based in Florida.\n- R-29RMU Sineva: A Russian ICBM missile.\n- sestina: A type of Italian poetry.\n- Gospatric: A patronymic associated with a person from a particular Gospel book in the New Testament.\n- Earl of Northumbria: A title associated with the historic region of Northumbria in the United Kingdom.\n- University of Birmingham: A university located in Birmingham, England.\n- Bellator Fighting Championships: A mixed martial arts (MMA) fighting organization.\n- New Democratic Party: A political party in Canada.\n- Daily Express: A British tabloid newspaper.\n\nOf all the terms, Hugh Fearnley-Whittingstall is the one that might have the most in common with Marine One in terms of being well-known to the general public, in that they are both examples of familiar objects or people in the public consciousness. However, it's important to note that this is a very broad brush comparison and doesn't take into account the actual functions or significance of the terms mentioned.",
+            "expected_output": "Stratospheric Observatory for Infrared Astronomy",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "\nAmong Silence in the Library, Bharatiya Janata Party, Tom Hanks, New York City Council, American Expeditionary Forces, Max Wolf, Royal College of Surgeons of England, John Chayka, Corpus Juris Civilis, Richard Wagner, Courtney Love, Avril Lavigne, Manuel Noriega, Toronto Star, Syed Ahmed Khan, Washington Nationals, Hugh the Great, Elizabeth I of England, flax, Zaha Hadid, South Fremantle Football Club, which one is the most conceptually similar with Parliament of Great Britain?",
+            "actual_output": " None of the terms you listed is more conceptually similar with the Parliament of Great Britain than the others. The only commonalities might be in terms of historical events or institutions that have occurred or existed in the United Kingdom or its former colonies.\n\nFor example, \"Silence in the Library,\" \"Bharatiya Janata Party,\" \"New York City Council,\" \"American Expeditionary Forces,\" \"Royal College of Surgeons of England,\" \"John Chayka,\" \"Corpus Juris Civilis,\" \"Richard Wagner,\" \"Courtney Love,\" \"Avril Lavigne,\" \"Manuel Noriega,\" \"Toronto Star,\" \"Syed Ahmed Khan,\" \"Washington Nationals,\" \"Hugh the Great,\" \"Elizabeth I of England,\" \"Flax,\" \"Zaha Hadid,\" and \"South Fremantle Football Club\" are all separate entities or topics that have no direct inherent similarity to the Parliament of Great Britain.\n\nHowever, had you meant \"Great Britain,\" then that would be a country with a shared heritage and history with the Parliament of the United Kingdom, but again, these are two separate entities that have different characteristics and focuses.",
+            "expected_output": "New York City Council",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "\nAmong Ted Mosby, Chrysler Imperial, ELF 500 ROC, Salvador Allende, Romeo and Juliet, The Waters of Mars, Hamilton Tiger-Cats, Bigelow Commercial Space Station, Geoffrey Chaucer, Stanford Encyclopedia of Philosophy, London and North Eastern Railway, Ziegfeld Follies, The Kenyon Review, John Glenn, Edgar Allan Poe, Oakleigh Football Club, United States Patent and Trademark Office, Hartford Whalers, Joko Widodo, Conan the Barbarian, Steve Albini, which one is the most conceptually similar with Rose?",
+            "actual_output": "  The most conceptually similar item to \"Rose\" in the list is \"Romeo and Juliet.\" Romeo and Juliet is a famous play by William Shakespeare that tells the story of two young lovers from feuding families who fall in love and ultimately die in each other's arms. The play is a classic tale of love and tragedy, and the name Rose is often associated with love and romance. Therefore, Romeo and Juliet is the most conceptually similar item to Rose in the list.",
+            "expected_output": "The Waters of Mars",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "\nAmong Brooklyn Nets, HMS Investigator, BMW R100S, propellant depot, Victorian Heritage Register, Jack Shephard, Ulster Unionist Party, Australia II, Maha Shivaratri, Hugh Fearnley-Whittingstall, Stratospheric Observatory for Infrared Astronomy, Kubla Khan, Florida Panthers, R-29RMU Sineva, sestina, Gospatric, Earl of Northumbria, University of Birmingham, Bellator Fighting Championships: Season Five, development hell, New Democratic Party, Daily Express, which one is the most conceptually similar with Marine One?",
+            "actual_output": "What an interesting collection of items!\n\nAfter analyzing each item, I would argue that \"HMS Investigator\" is the most conceptually similar to Marine One.\n\nHere's why:\n\n* Both are names of vehicles:\n\t+ Marine One is the call sign of the presidential helicopter of the United States.\n\t+ HMS Investigator is a name given to a ship, specifically a British Royal Navy ship.\n* Both have a strong association with authority and power:\n\t+ Marine One is used to transport the President of the United States, symbolizing the highest authority in the country.\n\t+ HMS Investigator, as a ship, is part of the British Royal Navy, representing the country's naval power and authority.\n* Both have a sense of exclusivity and prestige:\n\t+ Marine One is a highly secure and exclusive mode of transportation, reserved for the President and other high-ranking officials.\n\t+ HMS Investigator, as a ship, is part of a prestigious naval fleet and carries out important missions and tasks.\n\nWhile the other items on the list are interesting and unique in their own ways, they don't share the same conceptual similarity with Marine One as HMS Investigator does.",
+            "expected_output": "Stratospheric Observatory for Infrared Astronomy",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-14b-chat",
+            "input": "\nAmong Eclipse Award, Portland Trail Blazers, Mahabharata, Legislative Assembly of British Columbia, Greek Basket League, Science Citation Index, Byron White, The Sound of Drums, Soviet Air Forces, Earl of Lincoln, Burns and Allen, Milwaukee Brewers, Larry Bird, Brian Clough, The Cherry Orchard, Billboard charts, Arizona Coyotes, Janice Pennington, Daily Mail, Janaye Ingram, Green earth, which one is the most conceptually similar with Kenneth Clarke?",
+            "actual_output": "It is difficult to determine which one of the options listed is the most conceptually similar to Kenneth Clarke without additional context or information about Kenneth Clarke's background, interests, and areas of expertise. However, based solely on the options provided, the most likely candidate would be \"Byron White,\" as he was an American lawyer and judge who served as an Associate Justice of the Supreme Court of the United States from 1969 to 1993. This would make him a professional in the field of law, which is similar to the field of study that Kenneth Clarke is known for.",
+            "expected_output": "Byron White",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-14b-chat",
+            "input": "\nAmong American Statistical Association, Jean Anthelme Brillat-Savarin, Kenesaw Mountain Landis, Albanian Radio Television, Bellator MMA: Season Eight, GB-1, glossary of chess, Ugadi, Arizona State University, Midland Railway, Don Carlos, Phil Collins, Ottawa Rough Riders, Pius V, Phyllis Breslin, William Averell Harriman, DOS-2, Pablo Escobar, Bellator MMA: Season Nine, Peterborough Pets, Doctor Strange, which one is the most conceptually similar with DC Comics?",
+            "actual_output": "Based on the list provided, the most conceptually similar item with DC Comics would be \"Doctor Strange.\" Both DC Comics and Doctor Strange are fictional works that involve superhuman characters and often explore themes of morality, power, and the nature of reality. DC Comics is a publisher of comic books and other media featuring a wide range of superheroes, supervillains, and other characters, while Doctor Strange is a character in the Marvel Comics universe who is a sorcerer and superhero. Both DC Comics and Doctor Strange have a large and devoted fan base and have been adapted into various forms of media, including films, television shows, and video games.",
+            "expected_output": "Arizona State University",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-14b-chat",
+            "input": "\nAmong Ted Mosby, Chrysler Imperial, ELF 500 ROC, Salvador Allende, Romeo and Juliet, The Waters of Mars, Hamilton Tiger-Cats, Bigelow Commercial Space Station, Geoffrey Chaucer, Stanford Encyclopedia of Philosophy, London and North Eastern Railway, Ziegfeld Follies, The Kenyon Review, John Glenn, Edgar Allan Poe, Oakleigh Football Club, United States Patent and Trademark Office, Hartford Whalers, Joko Widodo, Conan the Barbarian, Steve Albini, which one is the most conceptually similar with Rose?",
+            "actual_output": "\n\nI'm sorry, but it's not clear what you mean by \"Rose.\" Can you please provide more context or information about what you are referring to?",
+            "expected_output": "The Waters of Mars",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b",
+            "input": "\nAmong Ted Mosby, Chrysler Imperial, ELF 500 ROC, Salvador Allende, Romeo and Juliet, The Waters of Mars, Hamilton Tiger-Cats, Bigelow Commercial Space Station, Geoffrey Chaucer, Stanford Encyclopedia of Philosophy, London and North Eastern Railway, Ziegfeld Follies, The Kenyon Review, John Glenn, Edgar Allan Poe, Oakleigh Football Club, United States Patent and Trademark Office, Hartford Whalers, Joko Widodo, Conan the Barbarian, Steve Albini, which one is the most conceptually similar with Rose?",
+            "actual_output": "I apologize, but I am unable to provide an answer to your question as it is not clear what \"Rose\" refers to. Could you please provide more context or information?",
+            "expected_output": "The Waters of Mars",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-7b-chat",
+            "input": "\nAmong Ted Mosby, Chrysler Imperial, ELF 500 ROC, Salvador Allende, Romeo and Juliet, The Waters of Mars, Hamilton Tiger-Cats, Bigelow Commercial Space Station, Geoffrey Chaucer, Stanford Encyclopedia of Philosophy, London and North Eastern Railway, Ziegfeld Follies, The Kenyon Review, John Glenn, Edgar Allan Poe, Oakleigh Football Club, United States Patent and Trademark Office, Hartford Whalers, Joko Widodo, Conan the Barbarian, Steve Albini, which one is the most conceptually similar with Rose?",
+            "actual_output": "I'm sorry, but I need more context to answer your question. Could you please clarify what \"Rose\" refers to and what you are looking for in terms of a conceptually similar entity?",
+            "expected_output": "The Waters of Mars",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nAmong Ted Mosby, Chrysler Imperial, ELF 500 ROC, Salvador Allende, Romeo and Juliet, The Waters of Mars, Hamilton Tiger-Cats, Bigelow Commercial Space Station, Geoffrey Chaucer, Stanford Encyclopedia of Philosophy, London and North Eastern Railway, Ziegfeld Follies, The Kenyon Review, John Glenn, Edgar Allan Poe, Oakleigh Football Club, United States Patent and Trademark Office, Hartford Whalers, Joko Widodo, Conan the Barbarian, Steve Albini, which one is the most conceptually similar with Rose?",
+            "actual_output": "It's difficult to determine a direct conceptual similarity between any of these entities and a character or symbol named \"Rose\" without context. However, if we consider \"Rose\" to be a character or a symbol of love, beauty, or something meaningful, the most conceptually similar among the listed options would be Romeo from the famous play \"Romeo and Juliet\" by William Shakespeare. Both Romeo and Rose are central characters in their respective stories, representing love and often associated with romantic themes. The comparison between the two is based on their emotional significance in their narratives.",
+            "expected_output": "The Waters of Mars",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nAmong American Statistical Association, Jean Anthelme Brillat-Savarin, Kenesaw Mountain Landis, Albanian Radio Television, Bellator MMA: Season Eight, GB-1, glossary of chess, Ugadi, Arizona State University, Midland Railway, Don Carlos, Phil Collins, Ottawa Rough Riders, Pius V, Phyllis Breslin, William Averell Harriman, DOS-2, Pablo Escobar, Bellator MMA: Season Nine, Peterborough Pets, Doctor Strange, which one is the most conceptually similar with DC Comics?",
+            "actual_output": "Of the list provided, the conceptually similar item with DC Comics would be \"Doctor Strange.\" Doctor Strange is a character from Marvel Comics, a rival comic book universe to DC Comics, which is well-known for its superheroes like Superman, Batman, and Wonder Woman. Doctor Strange, also known as Stephen Strange, is a prominent superhero in the Marvel Universe, known for his mastery of mystical arts and sorcery.",
+            "expected_output": "Arizona State University",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "\nAmong American Statistical Association, Jean Anthelme Brillat-Savarin, Kenesaw Mountain Landis, Albanian Radio Television, Bellator MMA: Season Eight, GB-1, glossary of chess, Ugadi, Arizona State University, Midland Railway, Don Carlos, Phil Collins, Ottawa Rough Riders, Pius V, Phyllis Breslin, William Averell Harriman, DOS-2, Pablo Escobar, Bellator MMA: Season Nine, Peterborough Pets, Doctor Strange, which one is the most conceptually similar with DC Comics?",
+            "actual_output": "The conceptually similar item among the list provided with DC Comics would be \"Doctor Strange.\" Both DC Comics and Bellator MMA: Season Nine, although they are from different genres (comics and mixed martial arts events), deal with fictional worlds and characters that have a significant cultural impact. Doctor Strange is a renowned superhero from the Marvel Comics universe, which is a major competitor to DC Comics in the comic book industry. Therefore, these two have some commonalities in terms of being parts of larger, interconnected storytelling universes.",
+            "expected_output": "Arizona State University",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "\nAmong Brooklyn Nets, HMS Investigator, BMW R100S, propellant depot, Victorian Heritage Register, Jack Shephard, Ulster Unionist Party, Australia II, Maha Shivaratri, Hugh Fearnley-Whittingstall, Stratospheric Observatory for Infrared Astronomy, Kubla Khan, Florida Panthers, R-29RMU Sineva, sestina, Gospatric, Earl of Northumbria, University of Birmingham, Bellator Fighting Championships: Season Five, development hell, New Democratic Party, Daily Express, which one is the most conceptually similar with Marine One?",
+            "actual_output": "The most conceptually similar item with Marine One among the list provided is the \"Stratospheric Observatory for Infrared Astronomy\" (SOFIA). Both Marine One and SOFIA are aircraft used for transportation and support of high-priority operations. Marine One is a helicopter used by the United States government, primarily for transportation of the President and other dignitaries, while SOFIA is a scientific research aircraft that can fly high into the stratosphere, allowing it to conduct infrared astronomy observations from altitudes where traditional ground-based telescopes are not practical.\n\nThe other items on the list are from various fields such as sports, history, politics, literature, and science, and do not have a direct connection to aircraft or transportation like Marine One or SOFIA.",
+            "expected_output": "Stratospheric Observatory for Infrared Astronomy",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "\nAmong Silence in the Library, Bharatiya Janata Party, Tom Hanks, New York City Council, American Expeditionary Forces, Max Wolf, Royal College of Surgeons of England, John Chayka, Corpus Juris Civilis, Richard Wagner, Courtney Love, Avril Lavigne, Manuel Noriega, Toronto Star, Syed Ahmed Khan, Washington Nationals, Hugh the Great, Elizabeth I of England, flax, Zaha Hadid, South Fremantle Football Club, which one is the most conceptually similar with Parliament of Great Britain?",
+            "actual_output": "The conceptually similar item among the list you've provided would be the \"Parliament of Great Britain.\" Both the Parliament and the Corpus Juris Civilis represent aspects of legislative or governing bodies. The Corpus Juris Civilis, being a collection of Roman legal codes, laid the foundation for many modern legal systems, including the parliamentary structure in the United Kingdom.\n\nWhile the other items on the list represent various historical figures, institutions, locations, and disciplines, they do not directly relate to the legislative or political aspects of the Parliament. The other entities like Bharatiya Janata Party (BJP), New York City Council, and the Washington Nationals are political parties or local government bodies, while individuals like Tom Hanks, Courtney Love, and Avril Lavigne are celebrities or not directly connected to politics. Zaha Hadid is an architect, the Royal College of Surgeons of England is a medical institution, and South Fremantle Football Club is a sports team, none of which are conceptually related to the legislative body.\n\nSo, the Parliament of Great Britain is the most conceptually similar item in the list.",
+            "expected_output": "New York City Council",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        }
+    ]
+}

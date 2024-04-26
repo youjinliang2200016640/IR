@@ -1,0 +1,153 @@
+{
+    "fileName": "2-4_FewNERD++supervised_sample.json",
+    "class": "Knowledge Understanding",
+    "data": [
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Please find all entities in the provided texts and classify them into different types.\nDuring that time he studied art and graphics at the \u00c9cole des Beaux-Arts in Geneva , and subsequently at the \u00c9cole nationale sup\u00e9rieure des Beaux-Arts in Paris .",
+            "actual_output": "  Sure, I can help you with that! Here are the entities I found in the provided text, classified into different types:\n\n1. People:\n\t* The speaker (mentioned in the first sentence)\n\t* The artist (mentioned in the second sentence)\n2. Places:\n\t* Geneva (mentioned in the first sentence)\n\t* Paris (mentioned in the second sentence)\n3. Organizations:\n\t* \u00c9cole des Beaux-Arts (mentioned in the first and second sentences)\n\t* \u00c9cole nationale sup\u00e9rieure des Beaux-Arts (mentioned in the second sentence)\n4. Things:\n\t* Art\n\t* Graphics\n\nI hope this helps! Let me know if you have any further questions or if you need any additional information.",
+            "expected_output": "During that time he studied art and graphics at the [ \u00c9cole des Beaux-Arts | organization-education ] in [ Geneva | location-GPE ] , and subsequently at the [ \u00c9cole nationale sup\u00e9rieure des Beaux-Arts | organization-education ] in [ Paris | location-GPE ] .",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b",
+            "input": "Please find all entities in the provided texts and classify them into different types.\nThe hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer .",
+            "actual_output": "\n1. [INST] Please find all entities in the provided texts and classify them into different types.\n[INST] Please find all entities in the provided texts and classify them into different types. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer .\n2. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer .\n3. [INST] Please find all entities in the provided texts and classify them into different types.\nThe hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer .\n4. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer .\nThe hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer .\n6. [INST] Please find all entities in the provided texts and classify them into different types. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer .\n8. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer . [INST] Please find all entities in the provided texts and classify them into different types.\n10. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer .\n1. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer . [INST] Please find all entities in the provided texts and classify them into different types.\n2. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer . [INST] Please find all entities in the provided texts and classify them into different types.\n10. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer . [INST] Please find all entities in the provided texts and classify them into different types.\n1. [INST] Please find all entities in the provided texts and classify them into different types. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer .\n10. [INST] Please find all entities in the provided texts and classify them into different types. The hotel features a $ 6 million 33-foot aerial skyway connecting to the Austin Convention Center , designed by Thomas Phifer .",
+            "expected_output": "The hotel features a [ $ | other-currency ] 6 million 33-foot aerial skyway connecting to the [ Austin Convention Center | building-theater ] , designed by [ Thomas Phifer | person-other ] .",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Please find all entities in the provided texts and classify them into different types.\nThe engines developed a total of and gave a maximum speed of .",
+            "actual_output": "  Sure, I can help you with that! Here are the entities in the given text, classified into different types:\n\n1. Quantity:\n\t* \"total of\" (a quantity)\n\t* \"maximum speed of\" (a quantity)\n2. Engine:\n\t* \"engines\" (a device)\n3. Speed:\n\t* \"maximum speed\" (a quantity)\n\nSo, the entities in the given text are:\n\n1. Quantity: 2\n2. Engine: 1\n3. Speed: 1",
+            "expected_output": "The engines developed a total of and gave a maximum speed of .",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Please find all entities in the provided texts and classify them into different types.\nDuring that time he studied art and graphics at the \u00c9cole des Beaux-Arts in Geneva , and subsequently at the \u00c9cole nationale sup\u00e9rieure des Beaux-Arts in Paris .",
+            "actual_output": "  Sure, I can help you with that! Here are the entities in the text you provided, classified into different types:\n\n1. \u00c9cole des Beaux-Arts (Geneva) - Organization\n2. \u00c9cole nationale sup\u00e9rieure des Beaux-Arts (Paris) - Organization\n3. Geneva - Location\n4. Paris - Location\n5. art - Topic\n6. graphics - Topic\n7. time - Time\n\nNote that some entities may belong to multiple categories. For example, \"\u00c9cole des Beaux-Arts\" could also be classified as a \"School\" or \"Educational Institution\".",
+            "expected_output": "During that time he studied art and graphics at the [ \u00c9cole des Beaux-Arts | organization-education ] in [ Geneva | location-GPE ] , and subsequently at the [ \u00c9cole nationale sup\u00e9rieure des Beaux-Arts | organization-education ] in [ Paris | location-GPE ] .",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Please find all entities in the provided texts and classify them into different types.\nThe engines developed a total of and gave a maximum speed of .",
+            "actual_output": "  Entities:\n\n1. Engines\n2. Total\n3. Speed\n\nType: Quantity\n\nExplanation:\n\n* \"Engines\": This is a noun referring to a specific type of machine or device.\n* \"Total\": This is an adjective used to describe a quantity or amount.\n* \"Speed\": This is a noun referring to the rate at which something moves or operates.",
+            "expected_output": "The engines developed a total of and gave a maximum speed of .",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "Please find all entities in the provided texts and classify them into different types.\nHis aunt , however , was impeached not long after shes served .",
+            "actual_output": "Here are the entities I found in the text, classified into different types:\n\n**Person**\n\n* His aunt\n* Shes (note: \"shes\" is likely a typo and should be \"she\", referring to the aunt)\n\n**Time**\n\n* Not long after\n* She (implied time period, as she has served)\n\n**Location**\n\n* None\n\n**Organization**\n\n* None\n\n**Event**\n\n* Impeachment\n* Serving (implied event, as she has served)\n\n**Object**\n\n* None\n\n**Quantity**\n\n* None\n\n**Date**\n\n* None\n\nLet me know if you have any further questions!",
+            "expected_output": "His aunt , however , was impeached not long after shes served .",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Please find all entities in the provided texts and classify them into different types.\nHis aunt , however , was impeached not long after shes served .",
+            "actual_output": "The entities in the provided text are:\n\n- \"aunt\": Person\n- \"however\": Adverb\n- \"was impeached\": Event\n- \"not long after\": Adverbial phrase\n- \"she\": Person\n- \"served\": Event",
+            "expected_output": "His aunt , however , was impeached not long after shes served .",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        }
+    ]
+}

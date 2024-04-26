@@ -1,0 +1,468 @@
+{
+    "fileName": "2-2_COPEN++cpj_sample.json",
+    "class": "Knowledge Understanding",
+    "data": [
+        {
+            "id": "id1295",
+            "AnswerModel": "baichuan2-7b-chat",
+            "input": "\nIs the statement 'A member of parliament is Order' true or false?",
+            "actual_output": "False\n\nA member of parliament is not always an \"Order\". Members of parliament represent the people in a legislative body, and their duties and responsibilities vary depending on the country and the political system. ",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "\nIs the statement 'beach volleyball players have (part) cells.' true or false?",
+            "actual_output": "  The statement \"beach volleyball players have (part) cells\" is false. Beach volleyball players, like all humans, are made up of cells, but they do not have \"part cells.\" Cells are the basic units of life, and all living things are composed of cells. However, it is not possible to have \"part cells\" or to be made up of only a portion of a cell.\n\nTherefore, the statement \"beach volleyball players have (part) cells\" is false, and the correct statement would be \"beach volleyball players are made up of cells.\"",
+            "expected_output": "true",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "\nIs the statement 'bus companies are hose.' true or false?",
+            "actual_output": "  The statement \"bus companies are hose\" is false. The correct word is \"buses\" not \"hose\".",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "\nIs the statement 'A member of parliament is Order' true or false?",
+            "actual_output": "  The statement \"A member of parliament is Order\" is false.\n\nThe word \"Order\" is not a member of parliament. Members of parliament are human beings who are elected or appointed to represent the interests of their constituents in a parliament or legislative body. The word \"Order\" is a noun that refers to a state of being organized or arranged in a particular way, or to a specific set of rules or regulations.\n\nTherefore, the statement \"A member of parliament is Order\" is not true, as members of parliament are not orders, but rather human beings.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "\nIs the statement 'beach volleyball players have (part) cells.' true or false?",
+            "actual_output": "  The statement \"beach volleyball players have (part) cells\" is true.\n\nAll living organisms, including humans, are made up of cells. Cells are the basic structural and functional units of life, and they make up every tissue and organ in the body. This includes the muscle cells, bone cells, nerve cells, and other cells that make up a beach volleyball player's body.\n\nTherefore, it is accurate to say that beach volleyball players have cells. However, it is important to note that the statement \"have (part) cells\" is not necessary, as cells are not something that a person can have or possess in the way that they might have a possession or a skill. Instead, cells are a fundamental part of a person's biology and makeup.",
+            "expected_output": "true",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "\nIs the statement 'bus companies are hose.' true or false?",
+            "actual_output": "  The statement \"bus companies are hose\" is false.\n\n\"Hose\" refers to a flexible tube used for conveying fluids, gases, or loose materials. Bus companies, on the other hand, are businesses that operate buses for transporting people. The two concepts are unrelated, and it doesn't make sense to say that bus companies are hose.\n\nTherefore, the statement \"bus companies are hose\" is an example of a false statement.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "\nIs the statement 'A member of parliament is Order' true or false?",
+            "actual_output": "  The statement \"A member of parliament is Order\" is false.\n\nIn the context of the British parliamentary system, a member of parliament (MP) is an individual who has been elected to serve in the House of Commons, which is one of the two chambers of the Parliament of the United Kingdom. MPs are representatives of their constituents and are responsible for debating and voting on legislation, as well as holding the government to account.\n\n\"Order\" refers to the established rules, norms, and practices that govern the behavior of members of a group or organization, such as a parliament. In the context of the British parliamentary system, order is maintained through a variety of mechanisms, including the Speaker of the House, who presides over debates and ensures that MPs adhere to the rules of the House, and the parliamentary authorities, who are responsible for enforcing the rules and maintaining order within the parliamentary precincts.\n\nWhile MPs are expected to follow the rules of order and behave in a manner that is respectful and appropriate, it is not accurate to say that an MP is order itself. MPs are individuals who are elected to represent their constituents and participate in the democratic process, rather than embodiments of the rules and norms that govern the parliamentary system.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "\nIs the statement 'beach volleyball players have (part) cells.' true or false?",
+            "actual_output": "  The statement \"beach volleyball players have (part) cells\" is false.\nBeach volleyball is a sport that is played on a sandy surface, and as such, the players do not have cells on their bodies. Cells are microscopic structures that are found in living organisms, including humans, and are essential for the functioning of the body. Beach volleyball players do not have cells on their bodies because they are not living organisms.\nTherefore, the statement \"beach volleyball players have (part) cells\" is false.",
+            "expected_output": "true",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "\nIs the statement 'bus companies are hose.' true or false?",
+            "actual_output": "  The statement \"bus companies are houses\" is false. Bus companies are companies that operate buses for transportation, not houses.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "\nIs the statement 'A member of parliament is Order' true or false?",
+            "actual_output": "  The statement \"A member of parliament is Order\" is false.\nIn many countries, including the United Kingdom, a member of parliament is actually referred to as a \"Member of Parliament\" (MP) or \"Parliamentarian.\" The term \"Order\" is not a commonly used term to describe a member of parliament.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "\nIs the statement 'A member of parliament is Order' true or false?",
+            "actual_output": "A clever question!\n\nThe answer is: FALSE.\n\nA Member of Parliament (MP) is a person who is elected to represent a constituency in the Parliament, whereas \"Order\" is a command or a regulation that is meant to maintain discipline or control. The two are unrelated, and an MP is not an order itself.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b",
+            "input": "\nIs the statement 'A member of parliament is Order' true or false?",
+            "actual_output": "The statement \"A member of parliament is an order\" is false. A \"member of parliament\" (MP) is a person who is elected to represent a constituency in the House of Commons in the United Kingdom. An \"order\" refers to a command or instruction given by someone in authority. The two terms are not related.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-72b-chat",
+            "input": "\nIs the statement 'beach volleyball players have (part) cells.' true or false?",
+            "actual_output": "The statement \"beach volleyball players have (part) cells\" is true. \n\nAll living organisms, including beach volleyball players, are composed of cells. Cells are the basic unit of life and are responsible for carrying out all of the functions necessary for an organism to survive and thrive. Therefore, it is accurate to say that beach volleyball players have cells.",
+            "expected_output": "true",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen-7b-chat",
+            "input": "\nIs the statement 'A member of parliament is Order' true or false?",
+            "actual_output": "\n\nThe statement \"A member of parliament is Order\" is true. \n\nIn most parliamentary systems, members of parliament are expected to follow a code of conduct and conduct themselves in a manner that is respectful and orderly. They are expected to abide by parliamentary rules and procedures, participate in debates in a respectful manner, and maintain decorum during proceedings. \n\nTherefore, it can be said that being a member of parliament requires a certain level of Order and discipline.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nIs the statement 'beach volleyball players have (part) cells.' true or false?",
+            "actual_output": "The statement \"beach volleyball players have (part) cells\" is true. \n\nAll living organisms, including beach volleyball players, are composed of cells. Cells are the basic unit of life, and every human being, regardless of their activity or profession, is made up of trillions of cells. These cells work together to form tissues, organs, and systems that enable the person to play beach volleyball and perform any other functions. Therefore, while the focus of a beach volleyball player might be on their physical abilities and skills, they still have cells that make up their body.",
+            "expected_output": "true",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nIs the statement 'military units use Web sites to distribute regulations and data.' true or false?",
+            "actual_output": "The statement \"military units use websites to distribute regulations and data\" is generally true. In today's digital age, many military organizations around the world do utilize websites, intranets, and other online platforms to share official regulations, policies, operational data, and other information with personnel. This allows for more efficient communication and accessibility, as long as appropriate security measures are in place to protect sensitive information. However, it's important to note that not all military units may be fully reliant on websites for this purpose, as some information may still be disseminated through traditional means such as printed documents or secure communication channels.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nIs the statement 'bus companies are hose.' true or false?",
+            "actual_output": "The statement \"bus companies are hose\" is likely a typo or a nonsensical phrase. If it's meant to compare bus companies with hoses, it doesn't make logical sense. Bus companies are businesses that operate buses for public or private transportation, while hoses are typically used for conveying liquids or gases. If you intended to compare something about bus companies, please provide more context or clarify the intended meaning for a proper evaluation. If it's a typo, please correct it, and I'll be happy to help you assess the statement.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nIs the statement 'A member of parliament is Order' true or false?",
+            "actual_output": "The statement \"A member of parliament is an Order\" is false. A member of parliament is typically a person elected or appointed to represent a political body, such as a legislative assembly, like a parliament. The term \"Order\" usually refers to a rank or classification, often in a hierarchical structure like an aristocracy or a military rank. There is no inherent connection between being a member of parliament and being an \"Order\" in the usual sense.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "\nIs the statement 'Bodybuilders have more muscular mass than is naturally possible thanks to anabolic steroids.' true or false?",
+            "actual_output": "The statement \"Bodybuilders have more muscular mass than is naturally possible thanks to anabolic steroids\" is generally true, but it is not universally accurate. Anabolic steroids do significantly contribute to increased muscular mass in bodybuilders. These drugs stimulate muscle growth by mimicking the effects of natural testosterone, allowing individuals to build muscle more rapidly and to a greater extent than what would be achievable through natural training alone.\n\nHowever, it's important to note that not all bodybuilders rely solely on steroids. Many follow intense workout regimens, proper nutrition, and supplementation to enhance their muscle development. Steroids are a performance-enhancing drug, and their use is illegal in many sports and competitions. Additionally, the long-term health risks associated with steroid use, such as liver damage, cardiovascular problems, and hormonal imbalances, should be considered.\n\nTherefore, while anabolic steroids play a significant role in the increased muscle mass of some bodybuilders, it's not accurate to generalize that all bodybuilders rely on them to achieve superhuman levels of muscularity. There are bodybuilders who compete and train naturally, showcasing impressive muscle development without the use of these substances.",
+            "expected_output": "true",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "\nIs the statement 'beach volleyball players have (part) cells.' true or false?",
+            "actual_output": "In order to determine whether the statement \"beach volleyball players have (part) cells.\" is true or false, I need to understand what is meant by \"(part) cells\". If \"(part) cells\" refers to the cellular structure of an organism, then the statement is true. This is because all living organisms, including humans, have cells. However, if \"(part) cells\" has some other meaning or context, the answer may vary. Please provide more information about the meaning of \"(part) cells\" in this context.",
+            "expected_output": "true",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "\nIs the statement 'A member of parliament is Order' true or false?",
+            "actual_output": "In order to answer this question, let's first consider what a member of parliament is and what \"Order\" could refer to in this context.\n\nStep 1: Determine the meaning of \"Order\"\nIn the context of parliamentary proceedings, \"Order\" is often used as a directive or command to maintain decorum, discipline, and adherence to established rules and procedures within the chamber.\n\nStep 2: Determine the meaning of \"A member of parliament\"\nA member of parliament (MP) is an elected representative who serves as a member of the legislative body of a country, such as the House of Commons in the United Kingdom or the Lok Sabha in India.\n\nStep 3: Analyze the relationship between the two terms\nGiven that members of parliament are responsible for participating in the discussions and debates that take place within the chamber, it is crucial that they follow the established rules and maintain order to ensure a productive and respectful environment. As a result, we can say that \"A member of parliament is Order\" could be interpreted as a member of parliament should adhere to and promote order within the parliamentary proceedings.\n\nConclusion:\nBased on the analysis, the statement \"A member of parliament is Order\" can be considered true in the sense that a member of parliament should maintain order and adhere to the rules of the chamber. However, it should be noted that this statement is not universally true, as there may be instances where individual members of parliament do not comply with these expectations.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "\nIs the statement 'A member of parliament is Order' true or false?",
+            "actual_output": "The statement \"A member of parliament is Order\" is likely false or misleading without further context. In the context of a parliamentary system, a \"member of parliament\" (MP) typically refers to an individual elected to represent a political party or interest group in a legislative body, such as a parliament or congress. While members often strive to uphold certain standards of decorum and decorativity during their work, being \"Order\" in and of itself does not fully capture the complexity and diversity of their roles.\n\nMPs can exhibit a wide range of behaviors, from advocating for policies to engaging in heated debates, sometimes even getting into controversies or making controversial statements. Therefore, saying that all MPs are \"Order\" would oversimplify their responsibilities and actions.",
+            "expected_output": "false",
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        }
+    ]
+}
