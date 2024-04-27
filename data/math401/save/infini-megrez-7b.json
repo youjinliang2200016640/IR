@@ -10,7 +10,8 @@
             "expected_output": "0",
             "retrieval_context": null,
             "time": 1610658600,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 1,
@@ -20,7 +21,8 @@
             "expected_output": "2",
             "retrieval_context": null,
             "time": 787279400,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 2,
@@ -30,7 +32,8 @@
             "expected_output": "14",
             "retrieval_context": null,
             "time": 666034100,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 3,
@@ -40,7 +43,8 @@
             "expected_output": "12",
             "retrieval_context": null,
             "time": 751285700,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 4,
@@ -50,7 +54,8 @@
             "expected_output": "-6",
             "retrieval_context": null,
             "time": 712164100,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 5,
@@ -60,7 +65,8 @@
             "expected_output": "147",
             "retrieval_context": null,
             "time": 768639700,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 6,
@@ -70,7 +76,8 @@
             "expected_output": "6",
             "retrieval_context": null,
             "time": 743000600,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 7,
@@ -80,7 +87,8 @@
             "expected_output": "61",
             "retrieval_context": null,
             "time": 771091300,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 8,
@@ -90,7 +98,8 @@
             "expected_output": "1402",
             "retrieval_context": null,
             "time": 698949900,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 9,
@@ -100,7 +109,8 @@
             "expected_output": "818",
             "retrieval_context": null,
             "time": 784996800,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 10,
@@ -110,7 +120,8 @@
             "expected_output": "-398",
             "retrieval_context": null,
             "time": 951978900,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 11,
@@ -120,7 +131,8 @@
             "expected_output": "432235571535",
             "retrieval_context": null,
             "time": 51647852800,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 12,
@@ -130,7 +142,8 @@
             "expected_output": "-273260096089",
             "retrieval_context": null,
             "time": 1762099300,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 13,
@@ -140,7 +153,8 @@
             "expected_output": "81647081879",
             "retrieval_context": null,
             "time": 1240039600,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 14,
@@ -150,7 +164,8 @@
             "expected_output": "-10",
             "retrieval_context": null,
             "time": 788905400,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 15,
@@ -160,7 +175,8 @@
             "expected_output": "13",
             "retrieval_context": null,
             "time": 820306000,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 16,
@@ -170,7 +186,8 @@
             "expected_output": "-9",
             "retrieval_context": null,
             "time": 856758400,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 17,
@@ -180,7 +197,8 @@
             "expected_output": "-0.2674",
             "retrieval_context": null,
             "time": 834794700,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 18,
@@ -190,7 +208,8 @@
             "expected_output": "0.7410",
             "retrieval_context": null,
             "time": 770550700,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 19,
@@ -200,7 +219,8 @@
             "expected_output": "3.2000",
             "retrieval_context": null,
             "time": 935479500,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 20,
@@ -210,7 +230,8 @@
             "expected_output": "1220",
             "retrieval_context": null,
             "time": 830701900,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 21,
@@ -220,7 +241,8 @@
             "expected_output": "1596",
             "retrieval_context": null,
             "time": 749028000,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 22,
@@ -230,7 +252,8 @@
             "expected_output": "3410",
             "retrieval_context": null,
             "time": 754141600,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 23,
@@ -240,7 +263,8 @@
             "expected_output": "0.1000",
             "retrieval_context": null,
             "time": 790839400,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 24,
@@ -250,7 +274,8 @@
             "expected_output": "0.3000",
             "retrieval_context": null,
             "time": 785825400,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 25,
@@ -260,7 +285,8 @@
             "expected_output": "0.3200",
             "retrieval_context": null,
             "time": 811708500,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 26,
@@ -270,7 +296,8 @@
             "expected_output": "1834413472",
             "retrieval_context": null,
             "time": 946438400,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 27,
@@ -280,7 +307,8 @@
             "expected_output": "2717860176",
             "retrieval_context": null,
             "time": 1067120300,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 28,
@@ -290,7 +318,8 @@
             "expected_output": "1553305468",
             "retrieval_context": null,
             "time": 1030224200,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 29,
@@ -300,7 +329,8 @@
             "expected_output": "0.1928",
             "retrieval_context": null,
             "time": 802107400,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 30,
@@ -310,7 +340,8 @@
             "expected_output": "0.4545",
             "retrieval_context": null,
             "time": 51758765100,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 31,
@@ -320,7 +351,8 @@
             "expected_output": "3.2273",
             "retrieval_context": null,
             "time": 839625200,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 32,
@@ -330,7 +362,8 @@
             "expected_output": "2.7778",
             "retrieval_context": null,
             "time": 852330300,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 33,
@@ -340,7 +373,8 @@
             "expected_output": "4",
             "retrieval_context": null,
             "time": 739693500,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 34,
@@ -350,7 +384,8 @@
             "expected_output": "36",
             "retrieval_context": null,
             "time": 799126100,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 35,
@@ -360,7 +395,8 @@
             "expected_output": "10.8771",
             "retrieval_context": null,
             "time": 811001300,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 36,
@@ -370,7 +406,8 @@
             "expected_output": "230.4043",
             "retrieval_context": null,
             "time": 2171858800,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 37,
@@ -380,7 +417,8 @@
             "expected_output": "613.2935",
             "retrieval_context": null,
             "time": 6039403700,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 38,
@@ -390,7 +428,8 @@
             "expected_output": "1.0000",
             "retrieval_context": null,
             "time": 804017300,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 39,
@@ -400,7 +439,8 @@
             "expected_output": "2.1415",
             "retrieval_context": null,
             "time": 1137572300,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 40,
@@ -410,7 +450,8 @@
             "expected_output": "-0.8632",
             "retrieval_context": null,
             "time": 51912886700,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 41,
@@ -420,7 +461,8 @@
             "expected_output": "1.5876",
             "retrieval_context": null,
             "time": 2447314200,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 42,
@@ -430,7 +472,8 @@
             "expected_output": "10.4810",
             "retrieval_context": null,
             "time": 915209300,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 46,
@@ -440,7 +483,8 @@
             "expected_output": "-0.5774",
             "retrieval_context": null,
             "time": 51322070500,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 43,
@@ -450,7 +494,8 @@
             "expected_output": "-0.7071",
             "retrieval_context": null,
             "time": 825098400,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 44,
@@ -460,7 +505,8 @@
             "expected_output": "0.0000",
             "retrieval_context": null,
             "time": 2067665800,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 45,
@@ -470,7 +516,8 @@
             "expected_output": "0.5000",
             "retrieval_context": null,
             "time": 903164300,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 47,
@@ -480,7 +527,8 @@
             "expected_output": "6.1497",
             "retrieval_context": null,
             "time": 787374200,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 48,
@@ -490,7 +538,8 @@
             "expected_output": "6.6580",
             "retrieval_context": null,
             "time": 716727800,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         },
         {
             "id": 49,
@@ -500,7 +549,8 @@
             "expected_output": "2.8954",
             "retrieval_context": null,
             "time": 1211439300,
-            "is_correct": -1
+            "is_correct": -1,
+            "extract_answer": null
         }
     ]
 }

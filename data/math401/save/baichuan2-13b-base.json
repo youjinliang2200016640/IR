@@ -9,7 +9,8 @@
             "actual_output": " The correct answer is 0.\n",
             "expected_output": "0",
             "is_correct": -1,
-            "time": 856744600
+            "time": 856744600,
+            "extract_answer": null
         },
         {
             "id": 1,
@@ -18,7 +19,8 @@
             "actual_output": " 2\n",
             "expected_output": "2",
             "is_correct": -1,
-            "time": 746855300
+            "time": 746855300,
+            "extract_answer": null
         },
         {
             "id": 2,
@@ -27,7 +29,8 @@
             "actual_output": " 14\n",
             "expected_output": "14",
             "is_correct": -1,
-            "time": 721908100
+            "time": 721908100,
+            "extract_answer": null
         },
         {
             "id": 3,
@@ -36,7 +39,8 @@
             "actual_output": " 12\n",
             "expected_output": "12",
             "is_correct": -1,
-            "time": 727373800
+            "time": 727373800,
+            "extract_answer": null
         },
         {
             "id": 4,
@@ -45,7 +49,8 @@
             "actual_output": " 2-8=0\n",
             "expected_output": "-6",
             "is_correct": -1,
-            "time": 784078700
+            "time": 784078700,
+            "extract_answer": null
         },
         {
             "id": 5,
@@ -54,7 +59,8 @@
             "actual_output": " 147\n",
             "expected_output": "147",
             "is_correct": -1,
-            "time": 751562800
+            "time": 751562800,
+            "extract_answer": null
         },
         {
             "id": 6,
@@ -63,7 +69,8 @@
             "actual_output": " 6\n",
             "expected_output": "6",
             "is_correct": -1,
-            "time": 683376800
+            "time": 683376800,
+            "extract_answer": null
         },
         {
             "id": 7,
@@ -72,7 +79,8 @@
             "actual_output": " 61\n",
             "expected_output": "61",
             "is_correct": -1,
-            "time": 727486800
+            "time": 727486800,
+            "extract_answer": null
         },
         {
             "id": 8,
@@ -81,7 +89,8 @@
             "actual_output": " 1402\n",
             "expected_output": "1402",
             "is_correct": -1,
-            "time": 838644900
+            "time": 838644900,
+            "extract_answer": null
         },
         {
             "id": 9,
@@ -90,7 +99,8 @@
             "actual_output": " 945-127=818\n",
             "expected_output": "818",
             "is_correct": -1,
-            "time": 922059100
+            "time": 922059100,
+            "extract_answer": null
         },
         {
             "id": 10,
@@ -99,7 +109,8 @@
             "actual_output": " 585-983=-498\n",
             "expected_output": "-398",
             "is_correct": -1,
-            "time": 974371600
+            "time": 974371600,
+            "extract_answer": null
         },
         {
             "id": 11,
@@ -108,7 +119,8 @@
             "actual_output": " 352860887460+79374684075=432235532535\n",
             "expected_output": "432235571535",
             "is_correct": -1,
-            "time": 1934063100
+            "time": 1934063100,
+            "extract_answer": null
         },
         {
             "id": 12,
@@ -117,7 +129,8 @@
             "actual_output": " 373490079876-646750175965=\n",
             "expected_output": "-273260096089",
             "is_correct": -1,
-            "time": 1213591300
+            "time": 1213591300,
+            "extract_answer": null
         },
         {
             "id": 13,
@@ -126,7 +139,8 @@
             "actual_output": " 599957534944-518310453065=\n",
             "expected_output": "81647081879",
             "is_correct": -1,
-            "time": 1219513100
+            "time": 1219513100,
+            "extract_answer": null
         },
         {
             "id": 14,
@@ -135,7 +149,8 @@
             "actual_output": " -4+(-6)=-10\n",
             "expected_output": "-10",
             "is_correct": -1,
-            "time": 943756000
+            "time": 943756000,
+            "extract_answer": null
         },
         {
             "id": 15,
@@ -144,7 +159,8 @@
             "actual_output": " 5\n",
             "expected_output": "13",
             "is_correct": -1,
-            "time": 721546600
+            "time": 721546600,
+            "extract_answer": null
         },
         {
             "id": 16,
@@ -153,7 +169,8 @@
             "actual_output": " -8-1=-7\n",
             "expected_output": "-9",
             "is_correct": -1,
-            "time": 811559300
+            "time": 811559300,
+            "extract_answer": null
         },
         {
             "id": 17,
@@ -162,7 +179,8 @@
             "actual_output": " -0.26\n",
             "expected_output": "-0.2674",
             "is_correct": -1,
-            "time": 810094700
+            "time": 810094700,
+            "extract_answer": null
         },
         {
             "id": 18,
@@ -171,7 +189,8 @@
             "actual_output": " -0.099+0.84=0.741\n",
             "expected_output": "0.7410",
             "is_correct": -1,
-            "time": 1035063400
+            "time": 1035063400,
+            "extract_answer": null
         },
         {
             "id": 19,
@@ -180,7 +199,8 @@
             "actual_output": " 1.2\n",
             "expected_output": "3.2000",
             "is_correct": -1,
-            "time": 770711400
+            "time": 770711400,
+            "extract_answer": null
         },
         {
             "id": 20,
@@ -189,7 +209,8 @@
             "actual_output": " 1220\n",
             "expected_output": "1220",
             "is_correct": -1,
-            "time": 783686800
+            "time": 783686800,
+            "extract_answer": null
         },
         {
             "id": 21,
@@ -198,7 +219,8 @@
             "actual_output": " 1564\n",
             "expected_output": "1596",
             "is_correct": -1,
-            "time": 826003700
+            "time": 826003700,
+            "extract_answer": null
         },
         {
             "id": 22,
@@ -207,7 +229,8 @@
             "actual_output": " 3420\n",
             "expected_output": "3410",
             "is_correct": -1,
-            "time": 787891100
+            "time": 787891100,
+            "extract_answer": null
         },
         {
             "id": 23,
@@ -216,7 +239,8 @@
             "actual_output": " 0.1*1.0=0.1\n",
             "expected_output": "0.1000",
             "is_correct": -1,
-            "time": 923285600
+            "time": 923285600,
+            "extract_answer": null
         },
         {
             "id": 24,
@@ -225,7 +249,8 @@
             "actual_output": " 0.1*3.0=0.3\n",
             "expected_output": "0.3000",
             "is_correct": -1,
-            "time": 1362432800
+            "time": 1362432800,
+            "extract_answer": null
         },
         {
             "id": 25,
@@ -234,7 +259,8 @@
             "actual_output": " 0.4*0.8=0.32\n",
             "expected_output": "0.3200",
             "is_correct": -1,
-            "time": 928811300
+            "time": 928811300,
+            "extract_answer": null
         },
         {
             "id": 26,
@@ -243,7 +269,8 @@
             "actual_output": " 91684*20008=1833664008\n",
             "expected_output": "1834413472",
             "is_correct": -1,
-            "time": 1218776300
+            "time": 1218776300,
+            "extract_answer": null
         },
         {
             "id": 27,
@@ -252,7 +279,8 @@
             "actual_output": " 61081*44496=27448164864\n",
             "expected_output": "2717860176",
             "is_correct": -1,
-            "time": 1229298600
+            "time": 1229298600,
+            "extract_answer": null
         },
         {
             "id": 28,
@@ -261,7 +289,8 @@
             "actual_output": " 71786*21638=1559999996\n",
             "expected_output": "1553305468",
             "is_correct": -1,
-            "time": 1154862300
+            "time": 1154862300,
+            "extract_answer": null
         },
         {
             "id": 29,
@@ -270,7 +299,8 @@
             "actual_output": " 16/83=0.193\n",
             "expected_output": "0.1928",
             "is_correct": -1,
-            "time": 927096700
+            "time": 927096700,
+            "extract_answer": null
         },
         {
             "id": 31,
@@ -279,7 +309,8 @@
             "actual_output": " 32.727272727272726\n",
             "expected_output": "3.2273",
             "is_correct": -1,
-            "time": 1118777000
+            "time": 1118777000,
+            "extract_answer": null
         },
         {
             "id": 32,
@@ -288,7 +319,8 @@
             "actual_output": " 27.777777777777777\n",
             "expected_output": "2.7778",
             "is_correct": -1,
-            "time": 1137059900
+            "time": 1137059900,
+            "extract_answer": null
         },
         {
             "id": 33,
@@ -297,7 +329,8 @@
             "actual_output": " 4\n",
             "expected_output": "4",
             "is_correct": -1,
-            "time": 723042500
+            "time": 723042500,
+            "extract_answer": null
         },
         {
             "id": 34,
@@ -306,7 +339,8 @@
             "actual_output": " 36\n",
             "expected_output": "36",
             "is_correct": -1,
-            "time": 737075400
+            "time": 737075400,
+            "extract_answer": null
         },
         {
             "id": 35,
@@ -315,7 +349,8 @@
             "actual_output": " 3.1699^2.0687=10.0000\n",
             "expected_output": "10.8771",
             "is_correct": -1,
-            "time": 1162244800
+            "time": 1162244800,
+            "extract_answer": null
         },
         {
             "id": 36,
@@ -324,7 +359,8 @@
             "actual_output": " 17.4222\n",
             "expected_output": "230.4043",
             "is_correct": -1,
-            "time": 840262700
+            "time": 840262700,
+            "extract_answer": null
         },
         {
             "id": 37,
@@ -333,7 +369,8 @@
             "actual_output": " 8.6178^2.9802=7.8444\n",
             "expected_output": "613.2935",
             "is_correct": -1,
-            "time": 1145051000
+            "time": 1145051000,
+            "extract_answer": null
         },
         {
             "id": 39,
@@ -342,7 +379,8 @@
             "actual_output": " \u03c0-1=\n",
             "expected_output": "2.1415",
             "is_correct": -1,
-            "time": 842539800
+            "time": 842539800,
+            "extract_answer": null
         },
         {
             "id": 40,
@@ -351,7 +389,8 @@
             "actual_output": " 8/95\n",
             "expected_output": "-0.8632",
             "is_correct": -1,
-            "time": 790383200
+            "time": 790383200,
+            "extract_answer": null
         },
         {
             "id": 41,
@@ -360,7 +399,8 @@
             "actual_output": " 154 / 97 = 1.59\n",
             "expected_output": "1.5876",
             "is_correct": -1,
-            "time": 1053567900
+            "time": 1053567900,
+            "extract_answer": null
         },
         {
             "id": 42,
@@ -369,7 +409,8 @@
             "actual_output": " 24 + 22 * 18 / 79 = 24 + 396 / 79 = 24 + 5 = 29\n",
             "expected_output": "10.4810",
             "is_correct": -1,
-            "time": 1676542600
+            "time": 1676542600,
+            "extract_answer": null
         },
         {
             "id": 43,
@@ -378,7 +419,8 @@
             "actual_output": " -0.75\n",
             "expected_output": "-0.7071",
             "is_correct": -1,
-            "time": 794752900
+            "time": 794752900,
+            "extract_answer": null
         },
         {
             "id": 44,
@@ -387,7 +429,8 @@
             "actual_output": " -1.0\n",
             "expected_output": "0.0000",
             "is_correct": -1,
-            "time": 785084400
+            "time": 785084400,
+            "extract_answer": null
         },
         {
             "id": 45,
@@ -396,7 +439,8 @@
             "actual_output": " -1\n",
             "expected_output": "0.5000",
             "is_correct": -1,
-            "time": 758487600
+            "time": 758487600,
+            "extract_answer": null
         },
         {
             "id": 46,
@@ -405,7 +449,8 @@
             "actual_output": " -0.17\u03c0\n",
             "expected_output": "-0.5774",
             "is_correct": -1,
-            "time": 826616600
+            "time": 826616600,
+            "extract_answer": null
         },
         {
             "id": 47,
@@ -414,7 +459,8 @@
             "actual_output": " 12.6894152366941\n",
             "expected_output": "6.1497",
             "is_correct": -1,
-            "time": 1041201900
+            "time": 1041201900,
+            "extract_answer": null
         },
         {
             "id": 48,
@@ -423,7 +469,8 @@
             "actual_output": " 779\n",
             "expected_output": "6.6580",
             "is_correct": -1,
-            "time": 760200500
+            "time": 760200500,
+            "extract_answer": null
         },
         {
             "id": 49,
@@ -432,7 +479,8 @@
             "actual_output": " 7.86\n",
             "expected_output": "2.8954",
             "is_correct": -1,
-            "time": 791479300
+            "time": 791479300,
+            "extract_answer": null
         }
     ]
 }
