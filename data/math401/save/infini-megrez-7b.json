@@ -10,7 +10,7 @@
             "expected_output": 0,
             "retrieval_context": null,
             "time": 1610658600,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 0
         },
         {
@@ -21,7 +21,7 @@
             "expected_output": 2,
             "retrieval_context": null,
             "time": 787279400,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 2
         },
         {
@@ -32,7 +32,7 @@
             "expected_output": 14,
             "retrieval_context": null,
             "time": 666034100,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 14
         },
         {
@@ -43,7 +43,7 @@
             "expected_output": 12,
             "retrieval_context": null,
             "time": 751285700,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 12
         },
         {
@@ -65,7 +65,7 @@
             "expected_output": 147,
             "retrieval_context": null,
             "time": 768639700,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 147
         },
         {
@@ -76,7 +76,7 @@
             "expected_output": 6,
             "retrieval_context": null,
             "time": 743000600,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 6
         },
         {
@@ -87,7 +87,7 @@
             "expected_output": 61,
             "retrieval_context": null,
             "time": 771091300,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 61.0
         },
         {
@@ -98,7 +98,7 @@
             "expected_output": 1402,
             "retrieval_context": null,
             "time": 698949900,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 1402
         },
         {
@@ -109,7 +109,7 @@
             "expected_output": 818,
             "retrieval_context": null,
             "time": 784996800,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 712.0
         },
         {
@@ -120,7 +120,7 @@
             "expected_output": -398,
             "retrieval_context": null,
             "time": 951978900,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 398.0
         },
         {
@@ -131,7 +131,7 @@
             "expected_output": 432235571535,
             "retrieval_context": null,
             "time": 51647852800,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 35286088
         },
         {
@@ -142,7 +142,7 @@
             "expected_output": -273260096089,
             "retrieval_context": null,
             "time": 1762099300,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 2428499244399545
         },
         {
@@ -153,7 +153,7 @@
             "expected_output": 81647081879,
             "retrieval_context": null,
             "time": 1240039600,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 40203390339
         },
         {
@@ -164,7 +164,7 @@
             "expected_output": -10,
             "retrieval_context": null,
             "time": 788905400,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": -10
         },
         {
@@ -175,7 +175,7 @@
             "expected_output": 13,
             "retrieval_context": null,
             "time": 820306000,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 13
         },
         {
@@ -186,7 +186,7 @@
             "expected_output": -9,
             "retrieval_context": null,
             "time": 856758400,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 7.0
         },
         {
@@ -197,7 +197,7 @@
             "expected_output": -0.2674,
             "retrieval_context": null,
             "time": 834794700,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": -0.36
         },
         {
@@ -208,7 +208,7 @@
             "expected_output": 0.741,
             "retrieval_context": null,
             "time": 770550700,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 0.84
         },
         {
@@ -219,7 +219,7 @@
             "expected_output": 3.2,
             "retrieval_context": null,
             "time": 935479500,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 3.2
         },
         {
@@ -230,7 +230,7 @@
             "expected_output": 1220,
             "retrieval_context": null,
             "time": 830701900,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 1220
         },
         {
@@ -241,7 +241,7 @@
             "expected_output": 1596,
             "retrieval_context": null,
             "time": 749028000,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 1608
         },
         {
@@ -252,7 +252,7 @@
             "expected_output": 3410,
             "retrieval_context": null,
             "time": 754141600,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 3370
         },
         {
@@ -263,7 +263,7 @@
             "expected_output": 0.1,
             "retrieval_context": null,
             "time": 790839400,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 0.1
         },
         {
@@ -274,7 +274,7 @@
             "expected_output": 0.3,
             "retrieval_context": null,
             "time": 785825400,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 0.3
         },
         {
@@ -285,7 +285,7 @@
             "expected_output": 0.32,
             "retrieval_context": null,
             "time": 811708500,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 0.32
         },
         {
@@ -296,7 +296,7 @@
             "expected_output": 1834413472,
             "retrieval_context": null,
             "time": 946438400,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 183365600
         },
         {
@@ -307,7 +307,7 @@
             "expected_output": 2717860176,
             "retrieval_context": null,
             "time": 1067120300,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 27777733328
         },
         {
@@ -318,7 +318,7 @@
             "expected_output": 1553305468,
             "retrieval_context": null,
             "time": 1030224200,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 15977444
         },
         {
@@ -329,7 +329,7 @@
             "expected_output": 0.1928,
             "retrieval_context": null,
             "time": 802107400,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 0.2
         },
         {
@@ -340,7 +340,7 @@
             "expected_output": 0.4545,
             "retrieval_context": null,
             "time": 51758765100,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 0.45454545454545453
         },
         {
@@ -351,7 +351,7 @@
             "expected_output": 3.2273,
             "retrieval_context": null,
             "time": 839625200,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 3.1818
         },
         {
@@ -362,7 +362,7 @@
             "expected_output": 2.7778,
             "retrieval_context": null,
             "time": 852330300,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 2.777777
         },
         {
@@ -373,7 +373,7 @@
             "expected_output": 4,
             "retrieval_context": null,
             "time": 739693500,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 4
         },
         {
@@ -384,7 +384,7 @@
             "expected_output": 36,
             "retrieval_context": null,
             "time": 799126100,
-            "is_correct": true,
+            "is_correct": 1,
             "extract_answer": 36
         },
         {
@@ -406,7 +406,7 @@
             "expected_output": 230.4043,
             "retrieval_context": null,
             "time": 2171858800,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 3.4272
         },
         {
@@ -417,7 +417,7 @@
             "expected_output": 613.2935,
             "retrieval_context": null,
             "time": 6039403700,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 2.9802
         },
         {
@@ -428,7 +428,7 @@
             "expected_output": 1.0,
             "retrieval_context": null,
             "time": 804017300,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 3.0
         },
         {
@@ -450,7 +450,7 @@
             "expected_output": -0.8632,
             "retrieval_context": null,
             "time": 51912886700,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": null
         },
         {
@@ -461,7 +461,7 @@
             "expected_output": 1.5876,
             "retrieval_context": null,
             "time": 2447314200,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 1.59473683215078
         },
         {
@@ -472,7 +472,7 @@
             "expected_output": 10.481,
             "retrieval_context": null,
             "time": 915209300,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 32
         },
         {
@@ -483,7 +483,7 @@
             "expected_output": -0.5774,
             "retrieval_context": null,
             "time": 51322070500,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 0.0
         },
         {
@@ -494,7 +494,7 @@
             "expected_output": -0.7071,
             "retrieval_context": null,
             "time": 825098400,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": -0.75
         },
         {
@@ -505,7 +505,7 @@
             "expected_output": 0.0,
             "retrieval_context": null,
             "time": 2067665800,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": -10.0
         },
         {
@@ -516,7 +516,7 @@
             "expected_output": 0.5,
             "retrieval_context": null,
             "time": 903164300,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": -0.7071
         },
         {
@@ -527,7 +527,7 @@
             "expected_output": 6.1497,
             "retrieval_context": null,
             "time": 787374200,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 7.0
         },
         {
@@ -538,7 +538,7 @@
             "expected_output": 6.658,
             "retrieval_context": null,
             "time": 716727800,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 7
         },
         {
@@ -549,7 +549,7 @@
             "expected_output": 2.8954,
             "retrieval_context": null,
             "time": 1211439300,
-            "is_correct": false,
+            "is_correct": 0,
             "extract_answer": 1.0
         }
     ]
