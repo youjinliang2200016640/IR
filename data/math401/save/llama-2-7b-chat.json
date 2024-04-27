@@ -327,49 +327,13 @@
             "time": 971936600
         },
         {
-            "id": 42,
+            "id": 36,
             "AnswerModel": "llama-2-7b-chat",
-            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
-            "actual_output": "  Sure! To calculate (24 + 22) * 18 / 79, we need to perform the following calculations:\n\n(24 + 22) = 46\n46 * 18 = 848\n848 / 79 = 10.77\n\nSo the answer is 10.77.",
-            "expected_output": "10.4810",
+            "input": "Only return the correct answer of the question.\n4.8903^3.4272=",
+            "actual_output": "  The answer to 4.8903^3.4272 is 17,644,896.",
+            "expected_output": "230.4043",
             "is_correct": -1,
-            "time": 2061346100
-        },
-        {
-            "id": 41,
-            "AnswerModel": "llama-2-7b-chat",
-            "input": "Only return the correct answer of the question.\n ( 79 + 75) / ( 46 + 51)=",
-            "actual_output": "  Sure! To calculate the result of the expression `(79 + 75) / (46 + 51)`, we need to perform the addition and subtraction first:\n\n79 + 75 = 154\n46 + 51 = 97\n\nNow we can divide the two results:\n154 / 97 = 1.6\n\nSo the result of the expression `(79 + 75) / (46 + 51)` is 1.6.",
-            "expected_output": "1.5876",
-            "is_correct": -1,
-            "time": 2039352500
-        },
-        {
-            "id": 40,
-            "AnswerModel": "llama-2-7b-chat",
-            "input": "Only return the correct answer of the question.\n ( 8 - 90) / 95=",
-            "actual_output": "  To calculate (8 - 90) / 95, we need to perform the following calculations:\n\n(8 - 90) = -82\n(-82) / 95 = -0.85\n\nTherefore, the answer to the question is -0.85.",
-            "expected_output": "-0.8632",
-            "is_correct": -1,
-            "time": 1472355700
-        },
-        {
-            "id": 39,
-            "AnswerModel": "llama-2-7b-chat",
-            "input": "Only return the correct answer of the question.\n\u03c0-1=",
-            "actual_output": "  The value of \u03c0 is an irrational number, which means it cannot be expressed as a finite decimal or fraction. Therefore, it does not have a value of \u03c0-1.\nThe concept of \u03c0-1 is often used in mathematics as a shorthand notation for the idea that there is no number that is the multiplicative inverse of \u03c0. In other words, there is no number x such that \u03c0x = 1. This is a fundamental property of the mathematical constant \u03c0, and it has important implications for many areas of mathematics, including calculus, complex analysis, and number theory.\nSo, to answer your question directly, \u03c0-1 does not have a well-defined value, and it is not a valid mathematical concept.",
-            "expected_output": "2.1415",
-            "is_correct": -1,
-            "time": 2521321400
-        },
-        {
-            "id": 38,
-            "AnswerModel": "llama-2-7b-chat",
-            "input": "Only return the correct answer of the question.\npi/\u03c0=",
-            "actual_output": "  Sure! The value of pi (\u03c0) is an irrational number, which means it cannot be expressed as a finite decimal or fraction. It is approximately equal to 3.14159, but it is a transcendental number, which means it is not a root of any polynomial equation with rational coefficients, and its decimal representation goes on forever without repeating. So, the correct answer to the question \"\u03c0/\u03c0 = \" is simply \"1\".",
-            "expected_output": "1.0000",
-            "is_correct": -1,
-            "time": 1823561000
+            "time": 1005025000
         },
         {
             "id": 37,
@@ -381,13 +345,49 @@
             "time": 1286015500
         },
         {
-            "id": 36,
+            "id": 38,
             "AnswerModel": "llama-2-7b-chat",
-            "input": "Only return the correct answer of the question.\n4.8903^3.4272=",
-            "actual_output": "  The answer to 4.8903^3.4272 is 17,644,896.",
-            "expected_output": "230.4043",
+            "input": "Only return the correct answer of the question.\npi/\u03c0=",
+            "actual_output": "  Sure! The value of pi (\u03c0) is an irrational number, which means it cannot be expressed as a finite decimal or fraction. It is approximately equal to 3.14159, but it is a transcendental number, which means it is not a root of any polynomial equation with rational coefficients, and its decimal representation goes on forever without repeating. So, the correct answer to the question \"\u03c0/\u03c0 = \" is simply \"1\".",
+            "expected_output": "1.0000",
             "is_correct": -1,
-            "time": 1005025000
+            "time": 1823561000
+        },
+        {
+            "id": 39,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n\u03c0-1=",
+            "actual_output": "  The value of \u03c0 is an irrational number, which means it cannot be expressed as a finite decimal or fraction. Therefore, it does not have a value of \u03c0-1.\nThe concept of \u03c0-1 is often used in mathematics as a shorthand notation for the idea that there is no number that is the multiplicative inverse of \u03c0. In other words, there is no number x such that \u03c0x = 1. This is a fundamental property of the mathematical constant \u03c0, and it has important implications for many areas of mathematics, including calculus, complex analysis, and number theory.\nSo, to answer your question directly, \u03c0-1 does not have a well-defined value, and it is not a valid mathematical concept.",
+            "expected_output": "2.1415",
+            "is_correct": -1,
+            "time": 2521321400
+        },
+        {
+            "id": 40,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n ( 8 - 90) / 95=",
+            "actual_output": "  To calculate (8 - 90) / 95, we need to perform the following calculations:\n\n(8 - 90) = -82\n(-82) / 95 = -0.85\n\nTherefore, the answer to the question is -0.85.",
+            "expected_output": "-0.8632",
+            "is_correct": -1,
+            "time": 1472355700
+        },
+        {
+            "id": 41,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n ( 79 + 75) / ( 46 + 51)=",
+            "actual_output": "  Sure! To calculate the result of the expression `(79 + 75) / (46 + 51)`, we need to perform the addition and subtraction first:\n\n79 + 75 = 154\n46 + 51 = 97\n\nNow we can divide the two results:\n154 / 97 = 1.6\n\nSo the result of the expression `(79 + 75) / (46 + 51)` is 1.6.",
+            "expected_output": "1.5876",
+            "is_correct": -1,
+            "time": 2039352500
+        },
+        {
+            "id": 42,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
+            "actual_output": "  Sure! To calculate (24 + 22) * 18 / 79, we need to perform the following calculations:\n\n(24 + 22) = 46\n46 * 18 = 848\n848 / 79 = 10.77\n\nSo the answer is 10.77.",
+            "expected_output": "10.4810",
+            "is_correct": -1,
+            "time": 2061346100
         },
         {
             "id": 43,

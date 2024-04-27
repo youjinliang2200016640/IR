@@ -1,0 +1,18 @@
+{
+    "fileName": "Baichuan2-13B-Base.json",
+    "model": "baichuan2-13b-base",
+    "data": [
+        {
+            "id": 38,
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "Only return the correct answer of the question.\npi/\u03c0=",
+            "expected_output": "1.0000"
+        },
+        {
+            "id": 30,
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "Only return the correct answer of the question.\n15\u00f733=",
+            "expected_output": "0.4545"
+        }
+    ]
+}
