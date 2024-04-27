@@ -7,500 +7,500 @@
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\ne^(i\u03c0)+1=",
             "actual_output": "0 ",
-            "expected_output": "0",
-            "is_correct": -1,
+            "expected_output": 0,
+            "is_correct": true,
             "time": 735129400,
-            "extract_answer": null
+            "extract_answer": 0
         },
         {
             "id": 1,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n1+1=",
             "actual_output": "2 ",
-            "expected_output": "2",
-            "is_correct": -1,
+            "expected_output": 2,
+            "is_correct": true,
             "time": 686703700,
-            "extract_answer": null
+            "extract_answer": 2
         },
         {
             "id": 2,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n5+9=",
             "actual_output": "14 ",
-            "expected_output": "14",
-            "is_correct": -1,
+            "expected_output": 14,
+            "is_correct": true,
             "time": 651212000,
-            "extract_answer": null
+            "extract_answer": 14
         },
         {
             "id": 3,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n6+6=",
             "actual_output": "12 ",
-            "expected_output": "12",
-            "is_correct": -1,
+            "expected_output": 12,
+            "is_correct": true,
             "time": 723517700,
-            "extract_answer": null
+            "extract_answer": 12
         },
         {
             "id": 4,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n2-8=",
             "actual_output": "2 ",
-            "expected_output": "-6",
-            "is_correct": -1,
+            "expected_output": -6,
+            "is_correct": false,
             "time": 650280100,
-            "extract_answer": null
+            "extract_answer": 2
         },
         {
             "id": 5,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n65+82=",
             "actual_output": "97 ",
-            "expected_output": "147",
-            "is_correct": -1,
+            "expected_output": 147,
+            "is_correct": false,
             "time": 660915700,
-            "extract_answer": null
+            "extract_answer": 97
         },
         {
             "id": 6,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n99-93=",
             "actual_output": "6 ",
-            "expected_output": "6",
-            "is_correct": -1,
+            "expected_output": 6,
+            "is_correct": true,
             "time": 627280500,
-            "extract_answer": null
+            "extract_answer": 6
         },
         {
             "id": 7,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n79-18=",
             "actual_output": "61 ",
-            "expected_output": "61",
-            "is_correct": -1,
+            "expected_output": 61,
+            "is_correct": true,
             "time": 647730400,
-            "extract_answer": null
+            "extract_answer": 61
         },
         {
             "id": 8,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n636+766=",
             "actual_output": "1402 ",
-            "expected_output": "1402",
-            "is_correct": -1,
+            "expected_output": 1402,
+            "is_correct": true,
             "time": 664456500,
-            "extract_answer": null
+            "extract_answer": 1402
         },
         {
             "id": 9,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n945-127=",
             "actual_output": "718 ",
-            "expected_output": "818",
-            "is_correct": -1,
+            "expected_output": 818,
+            "is_correct": false,
             "time": 669904700,
-            "extract_answer": null
+            "extract_answer": 718
         },
         {
             "id": 10,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n585-983=",
             "actual_output": "-398 ",
-            "expected_output": "-398",
-            "is_correct": -1,
+            "expected_output": -398,
+            "is_correct": true,
             "time": 674520100,
-            "extract_answer": null
+            "extract_answer": -398
         },
         {
             "id": 11,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n352860887460+79374684075=",
             "actual_output": "432235571535 ",
-            "expected_output": "432235571535",
-            "is_correct": -1,
+            "expected_output": 432235571535,
+            "is_correct": true,
             "time": 779740300,
-            "extract_answer": null
+            "extract_answer": 432235571535
         },
         {
             "id": 12,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n373490079876-646750175965=",
             "actual_output": "-273260096079 ",
-            "expected_output": "-273260096089",
-            "is_correct": -1,
+            "expected_output": -273260096089,
+            "is_correct": false,
             "time": 1262184400,
-            "extract_answer": null
+            "extract_answer": -273260096079
         },
         {
             "id": 13,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n599957534944-518310453065=",
             "actual_output": "81647086879 ",
-            "expected_output": "81647081879",
-            "is_correct": -1,
+            "expected_output": 81647081879,
+            "is_correct": false,
             "time": 774164100,
-            "extract_answer": null
+            "extract_answer": 81647086879
         },
         {
             "id": 14,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n-4+(-6)=",
             "actual_output": "-4 + (-6) = -10 ",
-            "expected_output": "-10",
-            "is_correct": -1,
+            "expected_output": -10,
+            "is_correct": true,
             "time": 792802900,
-            "extract_answer": null
+            "extract_answer": -10
         },
         {
             "id": 15,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n9-(-4)=",
             "actual_output": "9 + 4 = 13 ",
-            "expected_output": "13",
-            "is_correct": -1,
+            "expected_output": 13,
+            "is_correct": true,
             "time": 768554200,
-            "extract_answer": null
+            "extract_answer": 13
         },
         {
             "id": 16,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n-8-1=",
             "actual_output": "-9 ",
-            "expected_output": "-9",
-            "is_correct": -1,
+            "expected_output": -9,
+            "is_correct": true,
             "time": 639455600,
-            "extract_answer": null
+            "extract_answer": -9
         },
         {
             "id": 17,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n-0.0074+(-0.26)=",
             "actual_output": "-0.0074 - 0.26 = -0.2674 ",
-            "expected_output": "-0.2674",
-            "is_correct": -1,
+            "expected_output": -0.2674,
+            "is_correct": true,
             "time": 896918900,
-            "extract_answer": null
+            "extract_answer": -0.2674
         },
         {
             "id": 18,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n-0.099+0.84=",
             "actual_output": "0.939 ",
-            "expected_output": "0.7410",
-            "is_correct": -1,
+            "expected_output": 0.741,
+            "is_correct": false,
             "time": 693814100,
-            "extract_answer": null
+            "extract_answer": 0.939
         },
         {
             "id": 19,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n2.2-(-1.0)=",
             "actual_output": "2.2 + 1.0 = 3.2 ",
-            "expected_output": "3.2000",
-            "is_correct": -1,
+            "expected_output": 3.2,
+            "is_correct": true,
             "time": 818032900,
-            "extract_answer": null
+            "extract_answer": 3.2
         },
         {
             "id": 20,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n61\u00d720=",
             "actual_output": "1220 ",
-            "expected_output": "1220",
-            "is_correct": -1,
+            "expected_output": 1220,
+            "is_correct": true,
             "time": 673412300,
-            "extract_answer": null
+            "extract_answer": 1220
         },
         {
             "id": 21,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n38\u00d742=",
             "actual_output": "1596 ",
-            "expected_output": "1596",
-            "is_correct": -1,
+            "expected_output": 1596,
+            "is_correct": true,
             "time": 678908000,
-            "extract_answer": null
+            "extract_answer": 1596
         },
         {
             "id": 22,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n55\u00d762=",
             "actual_output": "3410 ",
-            "expected_output": "3410",
-            "is_correct": -1,
+            "expected_output": 3410,
+            "is_correct": true,
             "time": 679519200,
-            "extract_answer": null
+            "extract_answer": 3410
         },
         {
             "id": 23,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n0.1*1.0=",
             "actual_output": "0.1 ",
-            "expected_output": "0.1000",
-            "is_correct": -1,
+            "expected_output": 0.1,
+            "is_correct": true,
             "time": 646283700,
-            "extract_answer": null
+            "extract_answer": 0.1
         },
         {
             "id": 24,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n0.1*3.0=",
             "actual_output": "0.3 ",
-            "expected_output": "0.3000",
-            "is_correct": -1,
+            "expected_output": 0.3,
+            "is_correct": true,
             "time": 1096006800,
-            "extract_answer": null
+            "extract_answer": 0.3
         },
         {
             "id": 25,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n0.4\u00d70.8=",
             "actual_output": "0.32 ",
-            "expected_output": "0.3200",
-            "is_correct": -1,
+            "expected_output": 0.32,
+            "is_correct": true,
             "time": 667391200,
-            "extract_answer": null
+            "extract_answer": 0.32
         },
         {
             "id": 26,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n91684*20008=",
             "actual_output": "183368096 ",
-            "expected_output": "1834413472",
-            "is_correct": -1,
+            "expected_output": 1834413472,
+            "is_correct": false,
             "time": 742429400,
-            "extract_answer": null
+            "extract_answer": 183368096
         },
         {
             "id": 27,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n61081\u00d744496=",
             "actual_output": "26,699,136,944 ",
-            "expected_output": "2717860176",
-            "is_correct": -1,
+            "expected_output": 2717860176,
+            "is_correct": false,
             "time": 813721800,
-            "extract_answer": null
+            "extract_answer": 26699136944
         },
         {
             "id": 28,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n71786\u00d721638=",
             "actual_output": "156276677 ",
-            "expected_output": "1553305468",
-            "is_correct": -1,
+            "expected_output": 1553305468,
+            "is_correct": false,
             "time": 739126600,
-            "extract_answer": null
+            "extract_answer": 156276677
         },
         {
             "id": 29,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n16\u00f783=",
             "actual_output": "0.19523983622179147 ",
-            "expected_output": "0.1928",
-            "is_correct": -1,
+            "expected_output": 0.1928,
+            "is_correct": false,
             "time": 856516300,
-            "extract_answer": null
+            "extract_answer": 0.19523983622179147
         },
         {
             "id": 30,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n15\u00f733=",
             "actual_output": "0.4545454545454546 ",
-            "expected_output": "0.4545",
-            "is_correct": -1,
+            "expected_output": 0.4545,
+            "is_correct": true,
             "time": 832798600,
-            "extract_answer": null
+            "extract_answer": 0.4545454545454546
         },
         {
             "id": 31,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n71/22=",
             "actual_output": "3.273101588888889 ",
-            "expected_output": "3.2273",
-            "is_correct": -1,
+            "expected_output": 3.2273,
+            "is_correct": false,
             "time": 828394600,
-            "extract_answer": null
+            "extract_answer": 3.273101588888889
         },
         {
             "id": 32,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n50/18=",
             "actual_output": "5/18 ",
-            "expected_output": "2.7778",
-            "is_correct": -1,
+            "expected_output": 2.7778,
+            "is_correct": false,
             "time": 692327900,
-            "extract_answer": null
+            "extract_answer": 18
         },
         {
             "id": 33,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n2^2=",
             "actual_output": "4 ",
-            "expected_output": "4",
-            "is_correct": -1,
+            "expected_output": 4,
+            "is_correct": true,
             "time": 675923900,
-            "extract_answer": null
+            "extract_answer": 4
         },
         {
             "id": 34,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n6^2=",
             "actual_output": "6^2 = 36 ",
-            "expected_output": "36",
-            "is_correct": -1,
+            "expected_output": 36,
+            "is_correct": true,
             "time": 741288400,
-            "extract_answer": null
+            "extract_answer": 36
         },
         {
             "id": 35,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n3.1699^2.0687=",
             "actual_output": "3.1699^2.0687 = 19.9999 ",
-            "expected_output": "10.8771",
-            "is_correct": -1,
+            "expected_output": 10.8771,
+            "is_correct": false,
             "time": 906485600,
-            "extract_answer": null
+            "extract_answer": 19.9999
         },
         {
             "id": 36,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n4.8903^3.4272=",
             "actual_output": "4.8903^3.4272 \u2248 5.9999 ",
-            "expected_output": "230.4043",
-            "is_correct": -1,
+            "expected_output": 230.4043,
+            "is_correct": false,
             "time": 906313300,
-            "extract_answer": null
+            "extract_answer": 5.9999
         },
         {
             "id": 37,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n8.6178^2.9802=",
             "actual_output": "8.6178^2.9802 = 25.4777777778 ",
-            "expected_output": "613.2935",
-            "is_correct": -1,
+            "expected_output": 613.2935,
+            "is_correct": false,
             "time": 1439577200,
-            "extract_answer": null
+            "extract_answer": 25.4777777778
         },
         {
             "id": 38,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\npi/\u03c0=",
             "actual_output": "1 ",
-            "expected_output": "1.0000",
-            "is_correct": -1,
+            "expected_output": 1.0,
+            "is_correct": true,
             "time": 623926600,
-            "extract_answer": null
+            "extract_answer": 1
         },
         {
             "id": 39,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n\u03c0-1=",
             "actual_output": "0 ",
-            "expected_output": "2.1415",
-            "is_correct": -1,
+            "expected_output": 2.1415,
+            "is_correct": false,
             "time": 636058700,
-            "extract_answer": null
+            "extract_answer": 0
         },
         {
             "id": 40,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n ( 8 - 90) / 95=",
             "actual_output": "0 ",
-            "expected_output": "-0.8632",
-            "is_correct": -1,
+            "expected_output": -0.8632,
+            "is_correct": false,
             "time": 651254200,
-            "extract_answer": null
+            "extract_answer": 0
         },
         {
             "id": 41,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n ( 79 + 75) / ( 46 + 51)=",
             "actual_output": "The correct answer is:\n(79 + 75) / (46 + 51) = 154 / 97 ",
-            "expected_output": "1.5876",
-            "is_correct": -1,
+            "expected_output": 1.5876,
+            "is_correct": false,
             "time": 1044493200,
-            "extract_answer": null
+            "extract_answer": 97
         },
         {
             "id": 42,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
             "actual_output": "1 ",
-            "expected_output": "10.4810",
-            "is_correct": -1,
+            "expected_output": 10.481,
+            "is_correct": false,
             "time": 647103300,
-            "extract_answer": null
+            "extract_answer": 1
         },
         {
             "id": 43,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\ncos(-0.75\u03c0)=",
             "actual_output": "cos(-0.75\u03c0) = cos(0.75\u03c0) = cos(\u03c0/2 + 0.25\u03c0) = -sin(0.25\u03c0) = -(-0.5) = 0.5 ",
-            "expected_output": "-0.7071",
-            "is_correct": -1,
+            "expected_output": -0.7071,
+            "is_correct": false,
             "time": 1411259700,
-            "extract_answer": null
+            "extract_answer": 0.5
         },
         {
             "id": 44,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\nsin(-10.0\u03c0)=",
             "actual_output": "sin(-10.0\u03c0) = -1 ",
-            "expected_output": "0.0000",
-            "is_correct": -1,
+            "expected_output": 0.0,
+            "is_correct": false,
             "time": 1315576300,
-            "extract_answer": null
+            "extract_answer": -1
         },
         {
             "id": 45,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\ncos(-300\u00b0)=",
             "actual_output": "cos(-300\u00b0) = cos(300\u00b0) = cos(600\u00b0) = -cos(0\u00b0) = -1 ",
-            "expected_output": "0.5000",
-            "is_correct": -1,
+            "expected_output": 0.5,
+            "is_correct": false,
             "time": 1129360800,
-            "extract_answer": null
+            "extract_answer": -1
         },
         {
             "id": 46,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\ntan(-0.17\u03c0)=",
             "actual_output": "tan(-0.17\u03c0) = -1 ",
-            "expected_output": "-0.5774",
-            "is_correct": -1,
+            "expected_output": -0.5774,
+            "is_correct": false,
             "time": 820442400,
-            "extract_answer": null
+            "extract_answer": -1
         },
         {
             "id": 47,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\nlog 2(71)=",
             "actual_output": "log 2(71) = 3.4941717148239828 ",
-            "expected_output": "6.1497",
-            "is_correct": -1,
+            "expected_output": 6.1497,
+            "is_correct": false,
             "time": 969998000,
-            "extract_answer": null
+            "extract_answer": 3.494171714823983
         },
         {
             "id": 48,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\nln(779)=",
             "actual_output": "2.373779 ",
-            "expected_output": "6.6580",
-            "is_correct": -1,
+            "expected_output": 6.658,
+            "is_correct": false,
             "time": 739305600,
-            "extract_answer": null
+            "extract_answer": 2.373779
         },
         {
             "id": 49,
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Only return the correct answer of the question.\nlog 10(786)=",
             "actual_output": "log 10(786) \u2248 3.09786 ",
-            "expected_output": "2.8954",
-            "is_correct": -1,
+            "expected_output": 2.8954,
+            "is_correct": false,
             "time": 874801000,
-            "extract_answer": null
+            "extract_answer": 3.09786
         }
     ]
 }

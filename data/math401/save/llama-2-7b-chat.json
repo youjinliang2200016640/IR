@@ -7,500 +7,500 @@
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\ne^(i\u03c0)+1=",
             "actual_output": "  e^(i\u03c0) + 1 = 0",
-            "expected_output": "0",
-            "is_correct": -1,
+            "expected_output": 0,
+            "is_correct": true,
             "time": 873836500,
-            "extract_answer": null
+            "extract_answer": 0
         },
         {
             "id": 1,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n1+1=",
             "actual_output": "  Sure! 1 + 1 = 2.",
-            "expected_output": "2",
-            "is_correct": -1,
+            "expected_output": 2,
+            "is_correct": true,
             "time": 845356400,
-            "extract_answer": null
+            "extract_answer": 2.0
         },
         {
             "id": 2,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n5+9=",
             "actual_output": "  Sure! 5 + 9 = 14.",
-            "expected_output": "14",
-            "is_correct": -1,
+            "expected_output": 14,
+            "is_correct": true,
             "time": 792847700,
-            "extract_answer": null
+            "extract_answer": 14.0
         },
         {
             "id": 3,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n6+6=",
             "actual_output": "  Sure! 6 + 6 = 12.",
-            "expected_output": "12",
-            "is_correct": -1,
+            "expected_output": 12,
+            "is_correct": true,
             "time": 799804000,
-            "extract_answer": null
+            "extract_answer": 12.0
         },
         {
             "id": 4,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n2-8=",
             "actual_output": "  Sure! 2 - 8 = -6.",
-            "expected_output": "-6",
-            "is_correct": -1,
+            "expected_output": -6,
+            "is_correct": true,
             "time": 786430900,
-            "extract_answer": null
+            "extract_answer": -6.0
         },
         {
             "id": 5,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n65+82=",
             "actual_output": "  Sure! 65 + 82 = 147.",
-            "expected_output": "147",
-            "is_correct": -1,
+            "expected_output": 147,
+            "is_correct": true,
             "time": 835014300,
-            "extract_answer": null
+            "extract_answer": 147.0
         },
         {
             "id": 6,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n99-93=",
             "actual_output": "  Sure! 99 - 93 = 6.",
-            "expected_output": "6",
-            "is_correct": -1,
+            "expected_output": 6,
+            "is_correct": true,
             "time": 800448100,
-            "extract_answer": null
+            "extract_answer": 6.0
         },
         {
             "id": 7,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n79-18=",
             "actual_output": "  Sure! 79 - 18 = 61.",
-            "expected_output": "61",
-            "is_correct": -1,
+            "expected_output": 61,
+            "is_correct": true,
             "time": 831235200,
-            "extract_answer": null
+            "extract_answer": 61.0
         },
         {
             "id": 8,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n636+766=",
             "actual_output": "  Sure! 636 + 766 = 1392.",
-            "expected_output": "1402",
-            "is_correct": -1,
+            "expected_output": 1402,
+            "is_correct": false,
             "time": 842267000,
-            "extract_answer": null
+            "extract_answer": 1392.0
         },
         {
             "id": 9,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n945-127=",
             "actual_output": "  Sure! Here's the answer to the calculation:\n\n945 - 127 = 818",
-            "expected_output": "818",
-            "is_correct": -1,
+            "expected_output": 818,
+            "is_correct": true,
             "time": 965727300,
-            "extract_answer": null
+            "extract_answer": 818
         },
         {
             "id": 10,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n585-983=",
             "actual_output": "  Sure! Here's the answer to the calculation:\n\n585 - 983 = -498",
-            "expected_output": "-398",
-            "is_correct": -1,
+            "expected_output": -398,
+            "is_correct": false,
             "time": 975295800,
-            "extract_answer": null
+            "extract_answer": -498
         },
         {
             "id": 11,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n352860887460+79374684075=",
             "actual_output": "  Sure! The answer to the calculation 352860887460 + 79374684075 is 432047727175.",
-            "expected_output": "432235571535",
-            "is_correct": -1,
+            "expected_output": 432235571535,
+            "is_correct": false,
             "time": 1225299600,
-            "extract_answer": null
+            "extract_answer": 432047727175.0
         },
         {
             "id": 12,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n373490079876-646750175965=",
             "actual_output": "  Sure! The answer to the calculation 373490079876 - 646750175965 is 308735062319.",
-            "expected_output": "-273260096089",
-            "is_correct": -1,
+            "expected_output": -273260096089,
+            "is_correct": false,
             "time": 1690617100,
-            "extract_answer": null
+            "extract_answer": 308735062319.0
         },
         {
             "id": 13,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n599957534944-518310453065=",
             "actual_output": "  Sure! The answer to the equation 59957534944 - 518310453065 is 38019591340.",
-            "expected_output": "81647081879",
-            "is_correct": -1,
+            "expected_output": 81647081879,
+            "is_correct": false,
             "time": 1208553000,
-            "extract_answer": null
+            "extract_answer": 38019591340.0
         },
         {
             "id": 14,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n-4+(-6)=",
             "actual_output": "  Sure! Here's the answer to the equation:\n\n-4 + (-6) = 2",
-            "expected_output": "-10",
-            "is_correct": -1,
+            "expected_output": -10,
+            "is_correct": false,
             "time": 905957300,
-            "extract_answer": null
+            "extract_answer": 2
         },
         {
             "id": 15,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n9-(-4)=",
             "actual_output": "  Sure! Here's the answer to the equation 9 - (-4):\n\n9 - (-4) = 13",
-            "expected_output": "13",
-            "is_correct": -1,
+            "expected_output": 13,
+            "is_correct": true,
             "time": 998948800,
-            "extract_answer": null
+            "extract_answer": 13
         },
         {
             "id": 16,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n-8-1=",
             "actual_output": "  Sure! The answer to -8-1 is -9.",
-            "expected_output": "-9",
-            "is_correct": -1,
+            "expected_output": -9,
+            "is_correct": true,
             "time": 812556000,
-            "extract_answer": null
+            "extract_answer": -9.0
         },
         {
             "id": 17,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n-0.0074+(-0.26)=",
             "actual_output": "  Sure! Here's the calculation:\n-0.0074 + (-0.26) = -0.2714",
-            "expected_output": "-0.2674",
-            "is_correct": -1,
+            "expected_output": -0.2674,
+            "is_correct": false,
             "time": 1015110100,
-            "extract_answer": null
+            "extract_answer": -0.2714
         },
         {
             "id": 18,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n-0.099+0.84=",
             "actual_output": "  Sure! The answer to the question `-0.09 + 0.84` is `0.75`.",
-            "expected_output": "0.7410",
-            "is_correct": -1,
+            "expected_output": 0.741,
+            "is_correct": false,
             "time": 1053575000,
-            "extract_answer": null
+            "extract_answer": 0.75
         },
         {
             "id": 19,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n2.2-(-1.0)=",
             "actual_output": "  Sure! 2.2 - (-1.0) = 3.2.",
-            "expected_output": "3.2000",
-            "is_correct": -1,
+            "expected_output": 3.2,
+            "is_correct": true,
             "time": 905374700,
-            "extract_answer": null
+            "extract_answer": 3.2
         },
         {
             "id": 20,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n61\u00d720=",
             "actual_output": "  Sure! 61 x 20 = 1220.",
-            "expected_output": "1220",
-            "is_correct": -1,
+            "expected_output": 1220,
+            "is_correct": true,
             "time": 860158200,
-            "extract_answer": null
+            "extract_answer": 1220.0
         },
         {
             "id": 21,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n38\u00d742=",
             "actual_output": "  Sure! 38 x 42 = 1576.",
-            "expected_output": "1596",
-            "is_correct": -1,
+            "expected_output": 1596,
+            "is_correct": false,
             "time": 846212300,
-            "extract_answer": null
+            "extract_answer": 1576.0
         },
         {
             "id": 22,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n55\u00d762=",
             "actual_output": "  Sure! 55 \u00d7 62 = 3420.",
-            "expected_output": "3410",
-            "is_correct": -1,
+            "expected_output": 3410,
+            "is_correct": false,
             "time": 818424800,
-            "extract_answer": null
+            "extract_answer": 3420.0
         },
         {
             "id": 23,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n0.1*1.0=",
             "actual_output": "  Sure! 0.1 * 1.0 = 0.1.",
-            "expected_output": "0.1000",
-            "is_correct": -1,
+            "expected_output": 0.1,
+            "is_correct": true,
             "time": 841361500,
-            "extract_answer": null
+            "extract_answer": 0.1
         },
         {
             "id": 24,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n0.1*3.0=",
             "actual_output": "  Sure! 0.1 * 3.0 = 0.3.",
-            "expected_output": "0.3000",
-            "is_correct": -1,
+            "expected_output": 0.3,
+            "is_correct": true,
             "time": 1303286100,
-            "extract_answer": null
+            "extract_answer": 0.3
         },
         {
             "id": 25,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n0.4\u00d70.8=",
             "actual_output": "  Sure! 0.4 x 0.8 = 0.32.",
-            "expected_output": "0.3200",
-            "is_correct": -1,
+            "expected_output": 0.32,
+            "is_correct": true,
             "time": 865241600,
-            "extract_answer": null
+            "extract_answer": 0.32
         },
         {
             "id": 26,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n91684*20008=",
             "actual_output": "  Sure! Here's the calculation:\n\n91684 x 20008 = 18377200\n\nSo the answer is 18377200.",
-            "expected_output": "1834413472",
-            "is_correct": -1,
+            "expected_output": 1834413472,
+            "is_correct": false,
             "time": 1215557900,
-            "extract_answer": null
+            "extract_answer": 18377200.0
         },
         {
             "id": 27,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n61081\u00d744496=",
             "actual_output": "  Sure! Here's the calculation:\n\n61081 \u00d7 44496 = 27,499,364",
-            "expected_output": "2717860176",
-            "is_correct": -1,
+            "expected_output": 2717860176,
+            "is_correct": false,
             "time": 1067979600,
-            "extract_answer": null
+            "extract_answer": 27499364
         },
         {
             "id": 28,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n71786\u00d721638=",
             "actual_output": "  Sure! 71786 x 21638 = 150,000,000.",
-            "expected_output": "1553305468",
-            "is_correct": -1,
+            "expected_output": 1553305468,
+            "is_correct": false,
             "time": 993261200,
-            "extract_answer": null
+            "extract_answer": 150000000.0
         },
         {
             "id": 29,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n16\u00f783=",
             "actual_output": "  Sure! 16 \u00f7 83 = 0.19359.",
-            "expected_output": "0.1928",
-            "is_correct": -1,
+            "expected_output": 0.1928,
+            "is_correct": true,
             "time": 899136600,
-            "extract_answer": null
+            "extract_answer": 0.19359
         },
         {
             "id": 30,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n15\u00f733=",
             "actual_output": "  Sure! 15 \u00f7 33 = 0.464.",
-            "expected_output": "0.4545",
-            "is_correct": -1,
+            "expected_output": 0.4545,
+            "is_correct": false,
             "time": 880546300,
-            "extract_answer": null
+            "extract_answer": 0.464
         },
         {
             "id": 31,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n71/22=",
             "actual_output": "  Sure! 71/22 = 3.2.",
-            "expected_output": "3.2273",
-            "is_correct": -1,
+            "expected_output": 3.2273,
+            "is_correct": false,
             "time": 937350300,
-            "extract_answer": null
+            "extract_answer": 3.2
         },
         {
             "id": 32,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n50/18=",
             "actual_output": "  Sure! 50 / 18 = 2.777777777777778.",
-            "expected_output": "2.7778",
-            "is_correct": -1,
+            "expected_output": 2.7778,
+            "is_correct": true,
             "time": 1022045900,
-            "extract_answer": null
+            "extract_answer": 2.777777777777778
         },
         {
             "id": 33,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n2^2=",
             "actual_output": "  Sure! 2^2 = 4.",
-            "expected_output": "4",
-            "is_correct": -1,
+            "expected_output": 4,
+            "is_correct": true,
             "time": 791652400,
-            "extract_answer": null
+            "extract_answer": 4.0
         },
         {
             "id": 34,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n6^2=",
             "actual_output": "  Sure! 6^2 = 36.",
-            "expected_output": "36",
-            "is_correct": -1,
+            "expected_output": 36,
+            "is_correct": true,
             "time": 776406900,
-            "extract_answer": null
+            "extract_answer": 36.0
         },
         {
             "id": 35,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n3.1699^2.0687=",
             "actual_output": "  The answer to the equation 3.1699^2.0687 is 6.5778.",
-            "expected_output": "10.8771",
-            "is_correct": -1,
+            "expected_output": 10.8771,
+            "is_correct": false,
             "time": 971936600,
-            "extract_answer": null
+            "extract_answer": 6.5778
         },
         {
             "id": 36,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n4.8903^3.4272=",
             "actual_output": "  The answer to 4.8903^3.4272 is 17,644,896.",
-            "expected_output": "230.4043",
-            "is_correct": -1,
+            "expected_output": 230.4043,
+            "is_correct": false,
             "time": 1005025000,
-            "extract_answer": null
+            "extract_answer": 17644896.0
         },
         {
             "id": 37,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n8.6178^2.9802=",
             "actual_output": "  The calculation 8.6178^2.9802 is not a valid mathematical expression. The power operator (^) can only be used with numbers, not with other mathematical operations. Therefore, the correct answer to the question is \"Invalid\".",
-            "expected_output": "613.2935",
-            "is_correct": -1,
+            "expected_output": 613.2935,
+            "is_correct": false,
             "time": 1286015500,
-            "extract_answer": null
+            "extract_answer": 2.9802
         },
         {
             "id": 38,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\npi/\u03c0=",
             "actual_output": "  Sure! The value of pi (\u03c0) is an irrational number, which means it cannot be expressed as a finite decimal or fraction. It is approximately equal to 3.14159, but it is a transcendental number, which means it is not a root of any polynomial equation with rational coefficients, and its decimal representation goes on forever without repeating. So, the correct answer to the question \"\u03c0/\u03c0 = \" is simply \"1\".",
-            "expected_output": "1.0000",
-            "is_correct": -1,
+            "expected_output": 1.0,
+            "is_correct": true,
             "time": 1823561000,
-            "extract_answer": null
+            "extract_answer": 1
         },
         {
             "id": 39,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n\u03c0-1=",
             "actual_output": "  The value of \u03c0 is an irrational number, which means it cannot be expressed as a finite decimal or fraction. Therefore, it does not have a value of \u03c0-1.\nThe concept of \u03c0-1 is often used in mathematics as a shorthand notation for the idea that there is no number that is the multiplicative inverse of \u03c0. In other words, there is no number x such that \u03c0x = 1. This is a fundamental property of the mathematical constant \u03c0, and it has important implications for many areas of mathematics, including calculus, complex analysis, and number theory.\nSo, to answer your question directly, \u03c0-1 does not have a well-defined value, and it is not a valid mathematical concept.",
-            "expected_output": "2.1415",
-            "is_correct": -1,
+            "expected_output": 2.1415,
+            "is_correct": false,
             "time": 2521321400,
-            "extract_answer": null
+            "extract_answer": -1
         },
         {
             "id": 40,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n ( 8 - 90) / 95=",
             "actual_output": "  To calculate (8 - 90) / 95, we need to perform the following calculations:\n\n(8 - 90) = -82\n(-82) / 95 = -0.85\n\nTherefore, the answer to the question is -0.85.",
-            "expected_output": "-0.8632",
-            "is_correct": -1,
+            "expected_output": -0.8632,
+            "is_correct": false,
             "time": 1472355700,
-            "extract_answer": null
+            "extract_answer": -0.85
         },
         {
             "id": 41,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n ( 79 + 75) / ( 46 + 51)=",
             "actual_output": "  Sure! To calculate the result of the expression `(79 + 75) / (46 + 51)`, we need to perform the addition and subtraction first:\n\n79 + 75 = 154\n46 + 51 = 97\n\nNow we can divide the two results:\n154 / 97 = 1.6\n\nSo the result of the expression `(79 + 75) / (46 + 51)` is 1.6.",
-            "expected_output": "1.5876",
-            "is_correct": -1,
+            "expected_output": 1.5876,
+            "is_correct": false,
             "time": 2039352500,
-            "extract_answer": null
+            "extract_answer": 1.6
         },
         {
             "id": 42,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
             "actual_output": "  Sure! To calculate (24 + 22) * 18 / 79, we need to perform the following calculations:\n\n(24 + 22) = 46\n46 * 18 = 848\n848 / 79 = 10.77\n\nSo the answer is 10.77.",
-            "expected_output": "10.4810",
-            "is_correct": -1,
+            "expected_output": 10.481,
+            "is_correct": false,
             "time": 2061346100,
-            "extract_answer": null
+            "extract_answer": 10.77
         },
         {
             "id": 43,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\ncos(-0.75\u03c0)=",
             "actual_output": "  Sure! The value of cos(-0.75\u03c0) is:\ncos(-0.75\u03c0) = cos(\u03c0) = -1",
-            "expected_output": "-0.7071",
-            "is_correct": -1,
+            "expected_output": -0.7071,
+            "is_correct": false,
             "time": 1020237000,
-            "extract_answer": null
+            "extract_answer": -1
         },
         {
             "id": 44,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\nsin(-10.0\u03c0)=",
             "actual_output": "  Sure! The sine of -10\u03c0 is equal to -1.",
-            "expected_output": "0.0000",
-            "is_correct": -1,
+            "expected_output": 0.0,
+            "is_correct": false,
             "time": 863699600,
-            "extract_answer": null
+            "extract_answer": -1.0
         },
         {
             "id": 45,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\ncos(-300\u00b0)=",
             "actual_output": "  The correct answer to the question \"cos(-300\u00b0)\" is -1.",
-            "expected_output": "0.5000",
-            "is_correct": -1,
+            "expected_output": 0.5,
+            "is_correct": false,
             "time": 916211900,
-            "extract_answer": null
+            "extract_answer": -1.0
         },
         {
             "id": 46,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\ntan(-0.17\u03c0)=",
             "actual_output": "  tan(-0.17\u03c0) = tan(0) = 0",
-            "expected_output": "-0.5774",
-            "is_correct": -1,
+            "expected_output": -0.5774,
+            "is_correct": false,
             "time": 847035300,
-            "extract_answer": null
+            "extract_answer": 0
         },
         {
             "id": 47,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\nlog 2(71)=",
             "actual_output": "  log 2(71) = 4",
-            "expected_output": "6.1497",
-            "is_correct": -1,
+            "expected_output": 6.1497,
+            "is_correct": false,
             "time": 774995500,
-            "extract_answer": null
+            "extract_answer": 4
         },
         {
             "id": 48,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\nln(779)=",
             "actual_output": "  ln(779) = 20.67",
-            "expected_output": "6.6580",
-            "is_correct": -1,
+            "expected_output": 6.658,
+            "is_correct": false,
             "time": 1278100200,
-            "extract_answer": null
+            "extract_answer": 20.67
         },
         {
             "id": 49,
             "AnswerModel": "llama-2-7b-chat",
             "input": "Only return the correct answer of the question.\nlog 10(786)=",
             "actual_output": "  log 10(786) = 3",
-            "expected_output": "2.8954",
-            "is_correct": -1,
+            "expected_output": 2.8954,
+            "is_correct": false,
             "time": 842244600,
-            "extract_answer": null
+            "extract_answer": 3
         }
     ]
 }
