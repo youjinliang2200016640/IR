@@ -3082,6 +3082,29 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'A member of parliament is Order.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "False",
+                            "A member of parliament is not always an \"Order\"",
+                            "Members of parliament represent the people in a legislative body",
+                            "Their duties and responsibilities vary depending on the country",
+                            "The political system"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3102,6 +3125,28 @@
                         "reason": "The hallucination score is 0.00 because the actual output aligns perfectly with the given context, which confirms the truth of the statement, and it offers a supporting explanation. This indicates that the output is entirely grounded in the provided information, showing no signs of hallucination or generating content not supported by the context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the provided context which states 'true', and the output provides a detailed explanation supporting the truth of the statement.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'beach volleyball players have (part) cells.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"beach volleyball players have (part) cells\" is false.",
+                            "Beach volleyball players, like all humans, are made up of cells.",
+                            "It is not possible to have \"part cells\" or to be made up of only a portion of a cell.",
+                            "The correct statement would be \"beach volleyball players are made up of cells.\""
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3138,6 +3183,26 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the input question by providing the truth value of the statement 'bus companies are hose.' There are no irrelevant statements present, which is why the score is at its highest possible value. Well done!",
+                        "statements": [
+                            "The statement \"bus companies are hose\" is false.",
+                            "The correct word is \"buses\" not \"hose\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3158,6 +3223,31 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the context, which confirms that the statement is false. There are no contradictions or factual misalignments, indicating that the output is entirely grounded in the given information, hence the optimal, non-hallucinated result.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the provided context which states that the statement is false.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'A member of parliament is Order.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"A member of parliament is Order\" is false.",
+                            "Members of parliament are human beings.",
+                            "Members of parliament are elected or appointed.",
+                            "Members of parliament represent the interests of their constituents.",
+                            "The word \"Order\" refers to a state of being organized or arranged.",
+                            "The word \"Order\" can also refer to a specific set of rules or regulations.",
+                            "The statement \"A member of parliament is Order\" is not true."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3194,6 +3284,33 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'beach volleyball players have (part) cells.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"beach volleyball players have (part) cells\" is true.",
+                            "All living organisms, including humans, are made up of cells.",
+                            "Cells are the basic structural and functional units of life.",
+                            "Cells make up every tissue and organ in the body.",
+                            "This includes the muscle cells, bone cells, nerve cells, and other cells.",
+                            "These cells make up a beach volleyball player's body.",
+                            "It is accurate to say that beach volleyball players have cells.",
+                            "The statement \"have (part) cells\" is not necessary.",
+                            "Cells are a fundamental part of a person's biology and makeup."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3214,6 +3331,29 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the given context, which states that the statement 'bus companies are hose' is false. There are no factual contradictions, indicating that the output is fully grounded in the provided information, and therefore, there is no hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the provided context which states that the statement 'bus companies are hose' is false.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the input question by providing the truth value of the statement 'bus companies are hose.' There are no irrelevant statements present, which is why the score is at its highest possible value. Well done!",
+                        "statements": [
+                            "The statement \"bus companies are hose\" is false.",
+                            "Hose refers to a flexible tube used for conveying fluids, gases, or loose materials.",
+                            "Bus companies, on the other hand, are businesses that operate buses for transporting people.",
+                            "The two concepts are unrelated.",
+                            "It doesn't make sense to say that bus companies are hose."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3250,6 +3390,35 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'A member of parliament is Order.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"A member of parliament is Order\" is false.",
+                            "In the context of the British parliamentary system, a member of parliament (MP) is an individual who has been elected to serve in the House of Commons.",
+                            "MPs are representatives of their constituents.",
+                            "MPs are responsible for debating and voting on legislation.",
+                            "MPs hold the government to account.",
+                            "Order refers to the established rules, norms, and practices that govern the behavior of members of a group or organization, such as a parliament.",
+                            "The Speaker of the House maintains order in debates.",
+                            "Parliamentary authorities enforce the rules and maintain order within the parliamentary precincts.",
+                            "MPs are expected to follow the rules of order.",
+                            "It is not accurate to say that an MP is order itself.",
+                            "MPs are elected to represent their constituents and participate in the democratic process."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3270,6 +3439,31 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the context, which confirms that the statement is false. There are no contradictions or factual misalignments, indicating that the output is entirely grounded in the given information, hence the optimal, non-hallucinated result.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the provided context which states that the statement is false.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.7142857142857143,
+                        "reason": "The score is 0.71 because the actual output included irrelevant information that distracts from the main point. The statement about players not having cells on their bodies and them not being living organisms are not pertinent to the fact that beach volleyball players, being humans, do have cells. These unnecessary details bring down the relevancy score, but the response still manages to convey the core truth of the input statement, which is why the score isn't lower.",
+                        "statements": [
+                            "The statement \"beach volleyball players have (part) cells\" is false.",
+                            "Beach volleyball is a sport that is played on a sandy surface.",
+                            "Players do not have cells on their bodies.",
+                            "Cells are microscopic structures found in living organisms.",
+                            "Beach volleyball players do not have cells on their bodies.",
+                            "They are not living organisms.",
+                            "Therefore, the statement \"beach volleyball players have (part) cells\" is false."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'Players do not have cells on their bodies.' is irrelevant to the truth value of the original statement about beach volleyball players having (part) cells, as all living organisms, including humans, have cells.\"), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'They are not living organisms.' is false, as beach volleyball players are indeed living organisms.\"), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3306,6 +3500,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the input question by providing the truth value of the statement 'bus companies are hose.' There are no irrelevant statements present, which is why the score is at its highest possible value. Well done!",
+                        "statements": [
+                            "The statement \"bus companies are houses\" is false.",
+                            "Bus companies are companies that operate buses for transportation.",
+                            "Not houses."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3326,6 +3541,27 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the context, which confirms that the statement is false. There are no contradictions or factual misalignments, indicating that the output is entirely grounded in the given information, hence the optimal, non-hallucinated result.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the provided context which states that the statement is false.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'A member of parliament is Order.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"A member of parliament is Order\" is false.",
+                            "In many countries, including the United Kingdom, a member of parliament is actually referred to as a \"Member of Parliament\" (MP) or \"Parliamentarian\".",
+                            "The term \"Order\" is not a commonly used term to describe a member of parliament."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3362,6 +3598,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'A member of parliament is Order.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "A clever question!",
+                            "The answer is: FALSE.",
+                            "A Member of Parliament (MP) is a person who is elected to represent a constituency in the Parliament.",
+                            "Whereas \"Order\" is a command or a regulation that is meant to maintain discipline or control.",
+                            "The two are unrelated.",
+                            "An MP is not an order itself."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3382,6 +3642,28 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the context, which confirms that the statement is false. There are no contradictions or factual misalignments, indicating that the output is entirely grounded in the given information, hence the optimal, non-hallucinated result.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the provided context which states that the statement is false.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'A member of parliament is Order.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"A member of parliament is an order\" is false.",
+                            "A \"member of parliament\" (MP) is a person who is elected to represent a constituency in the House of Commons in the United Kingdom.",
+                            "An \"order\" refers to a command or instruction given by someone in authority.",
+                            "The two terms are not related."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3418,6 +3700,29 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'beach volleyball players have (part) cells.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"beach volleyball players have (part) cells\" is true.",
+                            "All living organisms, including beach volleyball players, are composed of cells.",
+                            "Cells are the basic unit of life.",
+                            "Cells are responsible for carrying out all functions necessary for an organism to survive and thrive.",
+                            "It is accurate to say that beach volleyball players have cells."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3438,6 +3743,30 @@
                         "reason": "The score is 1.00 because the actual output provides information about members of parliament and their conduct, but it does not verify or refute the statement 'A member of parliament is Order.' As there are no factual contradictions, it indicates that the output may have hallucinated the connection between the member of parliament and the term 'Order,' not directly addressing the truthfulness of the statement.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output provides an explanation about members of parliament and their expected conduct, but it does not directly address the truthfulness of the statement 'A member of parliament is Order'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'A member of parliament is Order.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"A member of parliament is Order\" is true.",
+                            "In most parliamentary systems, members of parliament are expected to follow a code of conduct",
+                            "They are expected to abide by parliamentary rules and procedures",
+                            "Participate in debates in a respectful manner",
+                            "Maintain decorum during proceedings",
+                            "Being a member of parliament requires a certain level of Order and discipline."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3474,6 +3803,31 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'beach volleyball players have (part) cells.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"beach volleyball players have (part) cells\" is true.",
+                            "All living organisms, including beach volleyball players, are composed of cells.",
+                            "Cells are the basic unit of life.",
+                            "Every human being, regardless of their activity or profession, is made up of trillions of cells.",
+                            "These cells work together to form tissues, organs, and systems.",
+                            "Cells enable the person to play beach volleyball and perform any other functions.",
+                            "While the focus of a beach volleyball player might be on their physical abilities and skills, they still have cells that make up their body."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3494,6 +3848,30 @@
                         "reason": "The hallucination score is 1.00 because the actual output directly contradicts the context provided. The output offers a detailed explanation supporting the statement's truthfulness, whereas the context simply states that the statement is false. This significant disagreement indicates a high level of hallucination, meaning the output is not aligned with the given context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output provides a detailed explanation that contradicts the context, which is a simple 'false' statement. The output suggests that the statement is generally true, while the context claims it is false.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the truthfulness of the statement 'military units use websites to distribute regulations and data,' without including any irrelevant information. The response is precise and to the point, which is why the relevancy score is at its highest possible value.",
+                        "statements": [
+                            "The statement \"military units use websites to distribute regulations and data\" is generally true.",
+                            "Many military organizations around the world do utilize websites, intranets, and other online platforms to share official regulations, policies, operational data, and other information with personnel.",
+                            "This allows for more efficient communication and accessibility.",
+                            "Appropriate security measures are in place to protect sensitive information.",
+                            "However, it's important to note that not all military units may be fully reliant on websites for this purpose.",
+                            "Some information may still be disseminated through traditional means such as printed documents or secure communication channels."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3530,6 +3908,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.6666666666666666,
+                        "reason": "The score is 0.67 because the response provided does not directly address the truthfulness of the statement 'bus companies are hose.' It seems to be a simple misspelled affirmation without further context or explanation, which makes it less relevant to the question asked. However, it does attempt to provide an answer, albeit an unclear one, which is why the score is not zero.",
+                        "statements": [
+                            "The statement \"bus companies are hose\" is likely a typo or a nonsensical phrase.",
+                            "If it's meant to compare bus companies with hoses, it doesn't make logical sense.",
+                            "Bus companies are businesses that operate buses for public or private transportation.",
+                            "Hoses are typically used for conveying liquids or gases.",
+                            "If you intended to compare something about bus companies, please provide more context or clarify the intended meaning for a proper evaluation.",
+                            "If it's a typo, please correct it, and I'll be happy to help you assess the statement."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3558,6 +3960,29 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'A member of parliament is Order.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"A member of parliament is an Order\" is false.",
+                            "A member of parliament is typically a person elected or appointed to represent a political body.",
+                            "The term \"Order\" usually refers to a rank or classification.",
+                            "The term \"Order\" often refers to a hierarchical structure like an aristocracy or a military rank.",
+                            "There is no inherent connection between being a member of parliament and being an \"Order\" in the usual sense."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3578,6 +4003,34 @@
                         "reason": "The score is 0.00 because the actual output provides a detailed and accurate explanation that aligns with the facts, discussing the relationship between bodybuilders and anabolic steroids while also recognizing the existence of natural bodybuilders. There are no contradictions found, indicating that the output is not hallucinating any information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output provides a nuanced explanation that supports the truth of the statement about bodybuilders and anabolic steroids, acknowledging both the role of steroids and the existence of natural bodybuilders.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the truthfulness of the statement about bodybuilders and anabolic steroids, without including any irrelevant information. The response is concise and to the point, making it perfectly relevant to the input question. Well done!",
+                        "statements": [
+                            "The statement \"Bodybuilders have more muscular mass than is naturally possible thanks to anabolic steroids\" is generally true, but it is not universally accurate.",
+                            "Anabolic steroids do significantly contribute to increased muscular mass in bodybuilders.",
+                            "These drugs stimulate muscle growth by mimicking the effects of natural testosterone.",
+                            "Steroids allow individuals to build muscle more rapidly and to a greater extent than what would be achievable through natural training alone.",
+                            "Not all bodybuilders rely solely on steroids.",
+                            "Many bodybuilders follow intense workout regimens, proper nutrition, and supplementation to enhance their muscle development.",
+                            "Steroids are a performance-enhancing drug, and their use is illegal in many sports and competitions.",
+                            "The long-term health risks associated with steroid use include liver damage, cardiovascular problems, and hormonal imbalances.",
+                            "It's not accurate to generalize that all bodybuilders rely on anabolic steroids to achieve superhuman levels of muscularity.",
+                            "There are bodybuilders who compete and train naturally, showcasing impressive muscle development without the use of these substances."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3642,6 +4095,35 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'A member of parliament is Order.' There are no irrelevant statements present, which is why the score is at its highest possible value. Well done!",
+                        "statements": [
+                            "In order to answer this question, let's first consider what a member of parliament is and what \"Order\" could refer to in this context.",
+                            "Step 1: Determine the meaning of \"Order\"",
+                            "In the context of parliamentary proceedings, \"Order\" is often used as a directive or command to maintain decorum, discipline, and adherence to established rules and procedures within the chamber.",
+                            "Step 2: Determine the meaning of \"A member of parliament\"",
+                            "A member of parliament (MP) is an elected representative who serves as a member of the legislative body of a country, such as the House of Commons in the United Kingdom or the Lok Sabha in India.",
+                            "Step 3: Analyze the relationship between the two terms",
+                            "Given that members of parliament are responsible for participating in the discussions and debates that take place within the chamber, it is crucial that they follow the established rules and maintain order to ensure a productive and respectful environment.",
+                            "As a result, we can say that \"A member of parliament is Order\" could be interpreted as a member of parliament should adhere to and promote order within the parliamentary proceedings.",
+                            "Conclusion:",
+                            "Based on the analysis, the statement \"A member of parliament is Order\" can be considered true in the sense that a member of parliament should maintain order and adhere to the rules of the chamber.",
+                            "However, it should be noted that this statement is not universally true, as there may be instances where individual members of parliament do not comply with these expectations."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3662,6 +4144,29 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the given context, which indicates that the statement 'A member of parliament is Order' is likely false or misleading without additional context. There are no factual contradictions, and the output is consistent with the provided information, resulting in a low hallucination score, meaning the output is highly grounded in the given context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the provided context which states that the statement 'A member of parliament is Order' is likely false or misleading without further context.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately addresses the question about the truthfulness of the statement 'A member of parliament is Order.' There are no irrelevant statements present, making the response highly relevant and precise to the input. Well done!",
+                        "statements": [
+                            "The statement \"A member of parliament is Order\" is likely false or misleading without further context.",
+                            "In the context of a parliamentary system, a \"member of parliament\" (MP) typically refers to an individual elected to represent a political party or interest group in a legislative body, such as a parliament or congress.",
+                            "While members often strive to uphold certain standards of decorum and decorativity during their work, being \"Order\" in and of itself does not fully capture the complexity and diversity of their roles.",
+                            "MPs can exhibit a wide range of behaviors, from advocating for policies to engaging in heated debates, sometimes even getting into controversies or making controversial statements.",
+                            "Saying that all MPs are \"Order\" would oversimplify their responsibilities and actions."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
