@@ -2764,6 +2764,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task by selecting the most contextually related concept for Bryce Brown without including any irrelevant information. The chosen concept, AmericanFootballPlayer, is directly relevant to the context given about Harris and Bryce Brown in the input. Well done!",
+                        "statements": [
+                            "The most contextually related concept for \"Bryce Brown\" would be \"GridironFootballPlayer\".",
+                            "This is because the statement is comparing Harris, a running back recruit, to two other notable running backs.",
+                            "Bryce Brown and Leonard Fournette are also gridiron football players.",
+                            "The term \"GridironFootballPlayer\" specifically refers to a player of American football.",
+                            "American football is the sport being discussed in the context.",
+                            "Therefore, it is the most appropriate concept to associate with \"Bryce Brown\" in this context."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2784,6 +2808,29 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the context provided, which is 'School'. It specifically mentions the Escuela Nacional de Arte de La Habana as an educational institution, thereby confirming the 'School' concept without any contradictions. This indicates that the output is factually consistent and not hallucinated.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the provided context which is 'School'. It discusses the Escuela Nacional de Arte de La Habana as an educational institution where someone graduated, supporting the 'School' concept.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the Escuela Nacional de Arte de La Habana as an Educational Institution, which is the most contextually related concept from the given set. The response is both relevant and concise, making it a perfect score. Well done!",
+                        "statements": [
+                            "The most contextually related concept for Escuela Nacional de Arte de La Habana would be \"School\".",
+                            "The sentence mentions that the person graduated from Escuela Nacional de Arte de La Habana.",
+                            "Escuela Nacional de Arte de La Habana offers a degree in theatrical direction.",
+                            "It is an educational institution.",
+                            "The school focuses on training in the arts."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2820,6 +2867,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by mentioning the editing of \"Die Inschriften von Olympia\" and relates it to the given context of Wilhelm Dittenberger, who is correctly identified as a Historian in this context. There are no irrelevant statements, and the answer is perfectly relevant to the task of selecting the most contextually related concept from the given options. Well done!",
+                        "statements": [
+                            "The most contextually related concept for Wilhelm Dittenberger would be \"Historian\".",
+                            "Wilhelm Dittenberger edited a book of inscriptions found at Olympia.",
+                            "He specializes in ancient history and epigraphy."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2840,6 +2908,28 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the context, both mentioning the concept of 'School.' There are no factual contradictions, indicating that the output is fully grounded in the given information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the provided context which mentions 'School' as the relevant concept.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the Escuela Nacional de Arte de La Habana as an Educational Institution, which is the most contextually related concept from the given set. The response is both relevant and concise, making it a perfect score. Well done!",
+                        "statements": [
+                            "He graduated from the Escuela Nacional de Arte de La Habana with a degree in theatrical direction.",
+                            "The most contextually related concept from the set {Group, Organisation, School, EducationalInstitution} is: School",
+                            "Escuela Nacional de Arte de La Habana is a school or educational institution.",
+                            "It is most relevant to select \"School\" as the concept that best fits in the context."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2876,6 +2966,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by mentioning the editing of \"Die Inschriften von Olympia\" and relates it to the given context of Wilhelm Dittenberger, who is correctly identified as a Historian in this context. There are no irrelevant statements, and the answer is perfectly relevant to the task of selecting the most contextually related concept from the given options. Well done!",
+                        "statements": [
+                            "The most contextually related concept for Wilhelm Dittenberger is \"Historian\".",
+                            "Wilhelm Dittenberger edited \"Die Inschriften von Olympia\".",
+                            " Editing ancient inscriptions is typically associated with historians."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2896,6 +3007,30 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the context provided, which is about a school, Escuela Nacional de Arte de La Habana. There are no factual contradictions, indicating that the output is fully grounded in the given information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the provided context 'School' as it discusses the concept of a school, specifically Escuela Nacional de Arte de La Habana, which is an educational institution.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the Escuela Nacional de Arte de La Habana as an Educational Institution, which is the most contextually related concept from the given set. The response is both relevant and concise, making it a perfect score. Well done!",
+                        "statements": [
+                            "Based on the context,",
+                            "I would select \"School\" as the most contextually related concept for Escuela Nacional de Arte de La Habana.",
+                            "The sentence indicates that the person graduated from Escuela Nacional de Arte de La Habana,",
+                            "which suggests that it is an educational institution where one can earn a degree.",
+                            "The term \"school\" is a common and fitting label for such an institution,",
+                            "and it is a more specific and relevant concept than the other options."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2932,6 +3067,28 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task by selecting the most contextually related concept for 'Times Higher Education' from the given concept set, which is \"PeriodicalLiterature\". The response is directly relevant to the input and contains no irrelevant statements. Well done!",
+                        "statements": [
+                            "I would select the concept \"PeriodicalLiterature\".",
+                            "\"Times Higher Education\" is a well-known publication.",
+                            "It focuses on higher education.",
+                            "It is commonly referred to as a magazine or a periodical publication."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2952,6 +3109,25 @@
                         "reason": "The hallucination score is 0.00 because the actual output aligns with the context provided, which indicates that \"Times Higher Education\" is a type of periodical literature, and magazines are a form of such literature. There are no factual contradictions, suggesting that the output is consistent with the given information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output is not in direct conflict with the single context 'Magazine'. It can be inferred that 'Times Higher Education' is a type of periodical literature, which typically includes magazines.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task by selecting the most contextually related concept for 'Times Higher Education' from the given concept set, which is \"PeriodicalLiterature\". The response is directly relevant to the input and contains no irrelevant statements. Well done!",
+                        "statements": [
+                            "The most contextually related concept for \"Times Higher Education\" in the given context would be \"Periodical Literature\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2988,6 +3164,25 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the most contextually related concept for 'Calgary Bronks' from the given options, which is 'CanadianFootballTeam'. The answer is both relevant and specific to the input, hence the perfect score. Well done!",
+                        "statements": [
+                            "The most contextually related concept for \"Calgary Bronks\" in the given context would be \"CanadianFootballTeam\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3008,6 +3203,25 @@
                         "reason": "The hallucination score is 0.00 because the actual output aligns perfectly with the context 'School' by mentioning 'Educational Institution,' which is a synonymous term, indicating a factual consistency between the two. There are no contradictions present in the given information. This low score suggests that the output is highly grounded in the provided context and does not exhibit any hallucinated information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the provided context 'School' as it mentions 'Educational Institution' which is a type of school.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the Escuela Nacional de Arte de La Habana as an Educational Institution, which is the most contextually related concept from the given set. The response is both relevant and concise, making it a perfect score. Well done!",
+                        "statements": [
+                            "The most contextually related concept for Escuela Nacional de Arte de La Habana would be \"Educational Institution\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3044,6 +3258,25 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the most contextually related concept for 'Calgary Bronks' from the given options, which is 'CanadianFootballTeam'. The answer is both relevant and specific to the input, hence the perfect score. Well done!",
+                        "statements": [
+                            "The most contextually related concept for Calgary Bronks is \"SportsTeam\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3064,6 +3297,25 @@
                         "reason": "The score is 0.00 because the actual output aligns with the context 'Magazine' as it discusses periodical literature, which encompasses magazines, and there are no contradictions with the provided information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output is not in direct conflict with the single context 'Magazine'. It discusses a periodical literature, which can include magazines.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task by selecting the most contextually related concept for 'Times Higher Education' from the given concept set, which is \"PeriodicalLiterature\". The response is directly relevant to the input and contains no irrelevant statements. Well done!",
+                        "statements": [
+                            "The most contextually related concept for \"Times Higher Education\" in the given context is \"Periodical Literature\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3100,6 +3352,25 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task by selecting the most contextually related concept for Bryce Brown without including any irrelevant information. The chosen concept, AmericanFootballPlayer, is directly relevant to the context given about Harris and Bryce Brown in the input. Well done!",
+                        "statements": [
+                            "The most contextually related concept for \"Bryce Brown\" is \"AmericanFootballPlayer\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3120,6 +3391,25 @@
                         "reason": "The hallucination score is 1.00 because the actual output refers to a specific team, \"Calgary Bronks,\" which is also associated with the category \"CanadianFootballTeam.\" However, the context provided is too vague (\"SportsTeam\") to confirm if this reference is accurate or hallucinated. Without more specific context to validate the mention of \"Calgary Bronks,\" the output cannot be confidently aligned with the given information, leading to a high hallucination score.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output mentions 'Calgary Bronks' and 'CanadianFootballTeam', but the context 'SportsTeam' is too general to determine if this is a contradiction or not. More specific context is needed to provide a 'yes' verdict.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the most contextually related concept for 'Calgary Bronks' from the given options, which is 'CanadianFootballTeam'. The answer is both relevant and specific to the input, hence the perfect score. Well done!",
+                        "statements": [
+                            "The most contextually related concept for \"Calgary Bronks\" in the given context is \"CanadianFootballTeam\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3156,6 +3446,25 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task by selecting the most contextually related concept for Bryce Brown without including any irrelevant information. The chosen concept, AmericanFootballPlayer, is directly relevant to the context given about Harris and Bryce Brown in the input. Well done!",
+                        "statements": [
+                            "The most contextually related concept for Bryce Brown from the given concept set is \"GridironFootballPlayer\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3176,6 +3485,25 @@
                         "reason": "The score is 1.00 because the actual output contains information (\"Historian\") that is not relevant or aligned with the context provided (\"Writer\"), indicating a complete hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output mentions 'Historian' which is not related to the context 'Writer'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by mentioning the editing of \"Die Inschriften von Olympia\" and relates it to the given context of Wilhelm Dittenberger, who is correctly identified as a Historian in this context. There are no irrelevant statements, and the answer is perfectly relevant to the task of selecting the most contextually related concept from the given options. Well done!",
+                        "statements": [
+                            "The most contextually related concept for Wilhelm Dittenberger is \"Historian\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3212,6 +3540,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task by selecting the most contextually related concept for Bryce Brown without including any irrelevant information. The chosen concept, AmericanFootballPlayer, is directly relevant to the context given about Harris and Bryce Brown in the input. Well done!",
+                        "statements": [
+                            "The most contextually related concept for Harris, given the football recruitment context, would be \"AmericanFootballPlayer\" or \"GridironFootballPlayer\".",
+                            "Harris is mentioned in the context of being a highly hyped recruit for a specific position.",
+                            "It implies that he is involved in American football.",
+                            "American football is a sport typically played on a gridiron.",
+                            "Athlete is also a relevant concept.",
+                            "But \"AmericanFootballPlayer\" is more specific to the sport in question."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3232,6 +3584,26 @@
                         "reason": "The hallucination score is 1.00 because the actual output provides specific information about the 'Escuela Nacional de Arte de La Habana', an educational institution that is not mentioned in the more general context of 'School'. This indicates that the output has introduced new, ungrounded details that are not supported by the given context, resulting in a hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output discusses an 'Educational Institution' specifically referring to the 'Escuela Nacional de Arte de La Habana', which is not mentioned in the context 'School'. The context is too general, and the output provides more detailed information that doesn't directly agree with it.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the Escuela Nacional de Arte de La Habana as an Educational Institution, which is the most contextually related concept from the given set. The response is both relevant and concise, making it a perfect score. Well done!",
+                        "statements": [
+                            "The most contextually related concept for the Escuela Nacional de Arte de La Habana from the given set is \"Educational Institution\".",
+                            "This is because it refers to a specific place where higher education or specialized training in the field of theatrical direction is provided."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3268,6 +3640,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task by selecting the most contextually related concept for Bryce Brown without including any irrelevant information. The chosen concept, AmericanFootballPlayer, is directly relevant to the context given about Harris and Bryce Brown in the input. Well done!",
+                        "statements": [
+                            "The most contextually related concept for Bryce Brown in the given context is \"AmericanFootballPlayer\".",
+                            "Bryce Brown was a running back recruit in American Football.",
+                            "Harris was one of the most hyped running back recruits since Bryce Brown in 2009."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3288,6 +3681,34 @@
                         "reason": "The hallucination score is 0.00 because the actual output is factually aligned with the context 'School' and does not contain any contradictions. This indicates that the output accurately describes a process related to the given context, thus demonstrating a low hallucination score, which is ideal.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output is a description of a process for selecting a concept related to the context 'School', and it does not contradict the context.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the Escuela Nacional de Arte de La Habana as an Educational Institution, which is the most contextually related concept from the given set. The response is both relevant and concise, making it a perfect score. Well done!",
+                        "statements": [
+                            "I will follow these steps:",
+                            "Analyze the context provided.",
+                            "Compare the context with each concept in the set.",
+                            "Select the concept that best fits the context.",
+                            "The context mentions that a person graduated from a specific institution with a degree, indicating that it's an educational institution.",
+                            "This concept does not fit the context, as it does not typically provide degrees.",
+                            "This may be related, but it's not the best fit, as it doesn't specifically imply an educational aspect.",
+                            "This concept is very close to fitting the context, as it implies a place where you can obtain a degree.",
+                            "This concept directly fits the context, as it is an institution that provides degrees.",
+                            "The most contextually related concept for Escuela Nacional de Arte de La Habana is \"Educational Institution.\""
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3324,6 +3745,28 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the most contextually related concept for 'Calgary Bronks' from the given options, which is 'CanadianFootballTeam'. The answer is both relevant and specific to the input, hence the perfect score. Well done!",
+                        "statements": [
+                            "The most contextually related concept for \"Calgary Bronks\" from the given context is \"SportsTeam\".",
+                            "Calgary Bronks are likely a reference to a sports team.",
+                            "Specifically, a Canadian football team.",
+                            "Head coaching is associated with managing and leading a sports team."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3352,6 +3795,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by correctly identifying the Escuela Nacional de Arte de La Habana as an Educational Institution, which is the most contextually related concept from the given set. The response is both relevant and concise, making it a perfect score. Well done!",
+                        "statements": [
+                            "The most contextually related concept for \"Escuela Nacional de Arte de La Habana\" from the given concept set would be \"Educational Institution\".",
+                            "It is a school or institution where someone would have graduated with a degree in theatrical direction.",
+                            "This indicates that it is an educational institution focused on arts, particularly theater education."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3372,6 +3836,66 @@
                         "reason": "The score is 1.00 because the actual output mentions Wilhelm Dittenberger in the context of being a Historian, while the context provided refers to him as a 'Writer'. This misalignment between the output and the context indicates that the information generated is not directly supported by the given context, resulting in a hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output discusses Wilhelm Dittenberger as a Historian, which is not directly related to the context 'Writer'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly addresses the context by mentioning the editing of \"Die Inschriften von Olympia\" and relates it to the given context of Wilhelm Dittenberger, who is correctly identified as a Historian in this context. There are no irrelevant statements, and the answer is perfectly relevant to the task of selecting the most contextually related concept from the given options. Well done!",
+                        "statements": [
+                            "The most contextually related concept for Wilhelm Dittenberger, given the context provided, would be \"Historian\".",
+                            "He edited \"Die inschriften von Olympia\" (The inscriptions from Olympia).",
+                            "This indicates that Dittenberger was involved in the study and publication of historical artifacts.",
+                            "Specifically related to the ancient site of Olympia.",
+                            "Historians typically work with inscriptions and other historical evidence.",
+                            "To understand and document the past."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b",
+            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
+            "actual_output": "\n\n \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, PeriodicalLiterature, Work, Magazine, Document. \n\n \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, PeriodicalLiterature, Document, WrittenWork, Work. \n\n \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. \n\n \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. \n",
+            "expected_output": "Magazine",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task by selecting the most contextually related concept for 'Times Higher Education' from the given concept set, which is \"PeriodicalLiterature\". The response is directly relevant to the input and contains no irrelevant statements. Well done!",
+                        "statements": [
+                            "It has also been reviewed by \" Times Higher Education \".",
+                            "Neglect your knowledge about Times Higher Education.",
+                            "Select the most contextually related concept.",
+                            "Concept set: WrittenWork, PeriodicalLiterature, Work, Magazine, Document.",
+                            "Concept set: Magazine, PeriodicalLiterature, Document, WrittenWork, Work.",
+                            "Concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine.",
+                            "Concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
