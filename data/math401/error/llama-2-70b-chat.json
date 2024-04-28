@@ -1,0 +1,506 @@
+{
+    "fileName": "Llama-2-70B-Chat.json",
+    "model": "llama-2-70b-chat",
+    "data": [
+        {
+            "id": 49,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(786)=",
+            "expected_output": "2.8954",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60432585328,
+            "extract_answer": null
+        },
+        {
+            "id": 48,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\nln(779)=",
+            "expected_output": "6.6580",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60377338881,
+            "extract_answer": null
+        },
+        {
+            "id": 47,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(71)=",
+            "expected_output": "6.1497",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60533646368,
+            "extract_answer": null
+        },
+        {
+            "id": 46,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\ntan(-0.17\u03c0)=",
+            "expected_output": "-0.5774",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60178901272,
+            "extract_answer": null
+        },
+        {
+            "id": 45,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-300\u00b0)=",
+            "expected_output": "0.5000",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60355102143,
+            "extract_answer": null
+        },
+        {
+            "id": 44,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-10.0\u03c0)=",
+            "expected_output": "0.0000",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60725965063,
+            "extract_answer": null
+        },
+        {
+            "id": 43,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-0.75\u03c0)=",
+            "expected_output": "-0.7071",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60119181083,
+            "extract_answer": null
+        },
+        {
+            "id": 42,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
+            "expected_output": "10.4810",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60370166082,
+            "extract_answer": null
+        },
+        {
+            "id": 41,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n ( 79 + 75) / ( 46 + 51)=",
+            "expected_output": "1.5876",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60208488864,
+            "extract_answer": null
+        },
+        {
+            "id": 40,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n ( 8 - 90) / 95=",
+            "expected_output": "-0.8632",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60806125753,
+            "extract_answer": null
+        },
+        {
+            "id": 39,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n\u03c0-1=",
+            "expected_output": "2.1415",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 61034101712,
+            "extract_answer": null
+        },
+        {
+            "id": 38,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\npi/\u03c0=",
+            "expected_output": "1.0000",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60732595691,
+            "extract_answer": null
+        },
+        {
+            "id": 37,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n8.6178^2.9802=",
+            "expected_output": "613.2935",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60653510381,
+            "extract_answer": null
+        },
+        {
+            "id": 36,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n4.8903^3.4272=",
+            "expected_output": "230.4043",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60611298929,
+            "extract_answer": null
+        },
+        {
+            "id": 35,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n3.1699^2.0687=",
+            "expected_output": "10.8771",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60970040331,
+            "extract_answer": null
+        },
+        {
+            "id": 34,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n6^2=",
+            "expected_output": "36",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60146916728,
+            "extract_answer": null
+        },
+        {
+            "id": 33,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n2^2=",
+            "expected_output": "4",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60921125068,
+            "extract_answer": null
+        },
+        {
+            "id": 32,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n50/18=",
+            "expected_output": "2.7778",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60885924185,
+            "extract_answer": null
+        },
+        {
+            "id": 31,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n71/22=",
+            "expected_output": "3.2273",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60349938174,
+            "extract_answer": null
+        },
+        {
+            "id": 30,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n15\u00f733=",
+            "expected_output": "0.4545",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60548275203,
+            "extract_answer": null
+        },
+        {
+            "id": 29,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n16\u00f783=",
+            "expected_output": "0.1928",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60950515416,
+            "extract_answer": null
+        },
+        {
+            "id": 28,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n71786\u00d721638=",
+            "expected_output": "1553305468",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60304738501,
+            "extract_answer": null
+        },
+        {
+            "id": 27,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n61081\u00d744496=",
+            "expected_output": "2717860176",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 61022471671,
+            "extract_answer": null
+        },
+        {
+            "id": 26,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n91684*20008=",
+            "expected_output": "1834413472",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60889699635,
+            "extract_answer": null
+        },
+        {
+            "id": 25,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n0.4\u00d70.8=",
+            "expected_output": "0.3200",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60589612304,
+            "extract_answer": null
+        },
+        {
+            "id": 24,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n0.1*3.0=",
+            "expected_output": "0.3000",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 61032467271,
+            "extract_answer": null
+        },
+        {
+            "id": 23,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n0.1*1.0=",
+            "expected_output": "0.1000",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60919113299,
+            "extract_answer": null
+        },
+        {
+            "id": 22,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n55\u00d762=",
+            "expected_output": "3410",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60838167944,
+            "extract_answer": null
+        },
+        {
+            "id": 21,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n38\u00d742=",
+            "expected_output": "1596",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60353139329,
+            "extract_answer": null
+        },
+        {
+            "id": 20,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n61\u00d720=",
+            "expected_output": "1220",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60266995033,
+            "extract_answer": null
+        },
+        {
+            "id": 19,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n2.2-(-1.0)=",
+            "expected_output": "3.2000",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 61060138306,
+            "extract_answer": null
+        },
+        {
+            "id": 18,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n-0.099+0.84=",
+            "expected_output": "0.7410",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60482887691,
+            "extract_answer": null
+        },
+        {
+            "id": 17,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n-0.0074+(-0.26)=",
+            "expected_output": "-0.2674",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60758350672,
+            "extract_answer": null
+        },
+        {
+            "id": 16,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n-8-1=",
+            "expected_output": "-9",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60337072857,
+            "extract_answer": null
+        },
+        {
+            "id": 15,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n9-(-4)=",
+            "expected_output": "13",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60804966736,
+            "extract_answer": null
+        },
+        {
+            "id": 14,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n-4+(-6)=",
+            "expected_output": "-10",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60593445267,
+            "extract_answer": null
+        },
+        {
+            "id": 13,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n599957534944-518310453065=",
+            "expected_output": "81647081879",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60964125217,
+            "extract_answer": null
+        },
+        {
+            "id": 12,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n373490079876-646750175965=",
+            "expected_output": "-273260096089",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60763845966,
+            "extract_answer": null
+        },
+        {
+            "id": 11,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n352860887460+79374684075=",
+            "expected_output": "432235571535",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60257241998,
+            "extract_answer": null
+        },
+        {
+            "id": 10,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n585-983=",
+            "expected_output": "-398",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60352074172,
+            "extract_answer": null
+        },
+        {
+            "id": 9,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n945-127=",
+            "expected_output": "818",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60329889855,
+            "extract_answer": null
+        },
+        {
+            "id": 8,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n636+766=",
+            "expected_output": "1402",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60559832304,
+            "extract_answer": null
+        },
+        {
+            "id": 7,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n79-18=",
+            "expected_output": "61",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60684245852,
+            "extract_answer": null
+        },
+        {
+            "id": 6,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n99-93=",
+            "expected_output": "6",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60187232023,
+            "extract_answer": null
+        },
+        {
+            "id": 5,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n65+82=",
+            "expected_output": "147",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60171745174,
+            "extract_answer": null
+        },
+        {
+            "id": 4,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n2-8=",
+            "expected_output": "-6",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60936214937,
+            "extract_answer": null
+        },
+        {
+            "id": 3,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n6+6=",
+            "expected_output": "12",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60706988762,
+            "extract_answer": null
+        },
+        {
+            "id": 2,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n5+9=",
+            "expected_output": "14",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60615374923,
+            "extract_answer": null
+        },
+        {
+            "id": 1,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\n1+1=",
+            "expected_output": "2",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60750184917,
+            "extract_answer": null
+        },
+        {
+            "id": 0,
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Only return the correct answer of the question.\ne^(i\u03c0)+1=",
+            "expected_output": "0",
+            "actual_output": null,
+            "is_correct": -1,
+            "time": 60841297640,
+            "extract_answer": null
+        }
+    ]
+}

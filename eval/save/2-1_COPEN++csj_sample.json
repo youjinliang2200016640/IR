@@ -3765,6 +3765,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by identifying the most conceptually similar subject with Rose among the given options. There are no irrelevant statements present, making the answer directly relevant and accurate to the input. Well done!",
+                        "statements": [
+                            "It's difficult to determine a direct conceptual similarity between any of these entities and a character or symbol named \"Rose\" without context.",
+                            "However, if we consider \"Rose\" to be a character or a symbol of love, beauty, or something meaningful,",
+                            "the most conceptually similar among the listed options would be Romeo from the famous play \"Romeo and Juliet\" by William Shakespeare.",
+                            "Both Romeo and Rose are central characters in their respective stories,",
+                            "representing love and often associated with romantic themes.",
+                            "The comparison between the two is based on their emotional significance in their narratives."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3785,6 +3809,30 @@
                         "reason": "The score is 1.00 because the actual output is completely unrelated to the context provided about Arizona State University, instead discussing Doctor Strange from Marvel Comics, which constitutes a hallucination error.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not agree with the provided context about Arizona State University. It discusses Doctor Strange from Marvel Comics, which is unrelated to the context.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.8333333333333334,
+                        "reason": "The score is 0.83 because the actual output successfully identifies and discusses several entities that have varying degrees of relation to comics, pop culture, and history, demonstrating a good understanding of the context. However, it doesn't directly compare and determine the most conceptually similar one to DC Comics, which is the main focus of the input question. Despite this, the score reflects a high level of relevance due to the presence of relevant entities like Doctor Strange and Pablo Escobar, which are connected to the broader topic.",
+                        "statements": [
+                            "The conceptually similar item with DC Comics would be \"Doctor Strange\".",
+                            "Doctor Strange is a character from Marvel Comics.",
+                            "Marvel Comics is a rival comic book universe to DC Comics.",
+                            "DC Comics is well-known for its superheroes like Superman, Batman, and Wonder Woman.",
+                            "Doctor Strange, also known as Stephen Strange, is a prominent superhero in the Marvel Universe.",
+                            "Doctor Strange is known for his mastery of mystical arts and sorcery."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3821,6 +3869,29 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": false,
+                        "score": 0.4,
+                        "reason": "The score is 0.40 because the actual output includes several statements that do not directly address the similarity between the listed items and DC Comics. It discusses unrelated topics like Bellator MMA seasons, Doctor Strange's origin, and comparisons between fictional worlds that are not central to the question's request for the most conceptually similar item to DC Comics. These irrelevant points decrease the relevance score, preventing it from being higher.",
+                        "statements": [
+                            "The conceptually similar item among the list provided with DC Comics would be \"Doctor Strange\".",
+                            "Both DC Comics and Bellator MMA: Season Nine deal with fictional worlds and characters.",
+                            "Doctor Strange is a renowned superhero from the Marvel Comics universe.",
+                            "Marvel Comics is a major competitor to DC Comics in the comic book industry.",
+                            "Doctor Strange and Bellator MMA: Season Nine have some commonalities in terms of being parts of larger, interconnected storytelling universes."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='The statement about Bellator MMA: Season Nine and DC Comics being similar in dealing with fictional worlds is not directly relevant to the question, as the question asks for the most conceptually similar item to DC Comics, not about shared themes.'), AnswerRelvancyVerdict(verdict='no', reason=\"The statement about Doctor Strange being a superhero from the Marvel Comics universe is not relevant to the question, as the question is asking for similarity with DC Comics, not about Doctor Strange's origin.\"), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='The comparison of commonalities between Doctor Strange and Bellator MMA: Season Nine in the context of larger universes is not directly relevant to the question, which seeks the most conceptually similar item to DC Comics.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3849,6 +3920,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.6666666666666666,
+                        "reason": "The score is 0.67 because the actual output managed to identify a few relevant connections, such as comparing entities that are related to transportation or politics. However, the score isn't higher because it didn't effectively narrow down the options or provide a clear, concise similarity that would directly connect one of the items to Marine One, which is a specific presidential helicopter. The output might have included too many diverse options without establishing a strong, unified theme or concept.",
+                        "statements": [
+                            "The most conceptually similar item with Marine One among the list provided is the \"Stratospheric Observatory for Infrared Astronomy\" (SOFIA).",
+                            "Both Marine One and SOFIA are aircraft used for transportation and support of high-priority operations.",
+                            "Marine One is a helicopter used by the United States government, primarily for transportation of the President and other dignitaries.",
+                            "SOFIA is a scientific research aircraft that can fly high into the stratosphere, allowing it to conduct infrared astronomy observations from altitudes where traditional ground-based telescopes are not practical.",
+                            "The other items on the list are from various fields such as sports, history, politics, literature, and science.",
+                            "They do not have a direct connection to aircraft or transportation like Marine One or SOFIA."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3869,6 +3964,32 @@
                         "reason": "The score is 1.00 because the actual output is entirely unrelated to the context provided, specifically not mentioning or agreeing with anything about the New York City Council while discussing the Parliament of Great Britain. This indicates a complete hallucination of information that is not supported by the given context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output discusses the Parliament of Great Britain and its relation to legislative bodies, but it does not mention or agree with the context about the New York City Council.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by identifying the most conceptually similar entity to the Parliament of Great Britain among the given options. There are no irrelevant statements, and the answer is directly relevant to the input. Well done!",
+                        "statements": [
+                            "The conceptually similar item among the list you've provided would be the \"Parliament of Great Britain\".",
+                            "Both the Parliament and the Corpus Juris Civilis represent aspects of legislative or governing bodies.",
+                            "The Corpus Juris Civilis, being a collection of Roman legal codes, laid the foundation for many modern legal systems, including the parliamentary structure in the United Kingdom.",
+                            "While the other items on the list represent various historical figures, institutions, locations, and disciplines, they do not directly relate to the legislative or political aspects of the Parliament.",
+                            "The other entities like Bharatiya Janata Party (BJP), New York City Council, and the Washington Nationals are political parties or local government bodies.",
+                            "Tom Hanks, Courtney Love, and Avril Lavigne are celebrities or not directly connected to politics.",
+                            "Zaha Hadid is an architect, the Royal College of Surgeons of England is a medical institution, and South Fremantle Football Club is a sports team, none of which are conceptually related to the legislative body.",
+                            "So, the Parliament of Great Britain is the most conceptually similar item in the list."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
