@@ -3429,6 +3429,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by identifying the most conceptually similar subject with Rose among the given options. There are no irrelevant statements present, making the answer directly relevant and accurate to the input. Well done!",
+                        "statements": [
+                            "The most conceptually similar with Rose would probably be some sort of fictional character or historical figure.",
+                            "Rose is a fictional character from the show \"Lost\".",
+                            "It's hard to say which specific fictional character or historical figure is most similar to Rose without more context or specificity."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3449,6 +3470,29 @@
                         "reason": "The score is 1.00 because the actual output hallucinates information by mentioning Kenneth Clarke, who is unrelated to the given context, and completely omits any reference to Byron White, as stated in the factual alignments. This indicates a complete deviation from the relevant facts, resulting in a high hallucination score.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not mention Byron White at all and instead discusses Kenneth Clarke, which is not related to the given context.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by identifying the most conceptually similar entity to Kenneth Clarke among the given options, without including any irrelevant information. Well done!",
+                        "statements": [
+                            "None of the terms you have listed are people, companies, organizations, or celebrities that are as well known as Kenneth Clarke.",
+                            "Kenneth Clarke is a British politician, historian, and author who is best known for his work in the field of philosophy of the elderly.",
+                            "However, if you had to guess which term has the broadest theme in common with Kenneth Clarke, it might be \"Greek Basket League\".",
+                            "Both Kenneth Clarke and the Greek Basket League are related to basketball in a European context, although in the case of the basketball league, it's for professional basketball teams in Greece, while Kenneth Clarke is a British politician and author.",
+                            "However, it's important to note that the Greek Basket League is a specific sporting event, while Kenneth Clarke is an individual known for his work, not a basketball team."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason='The statement addresses the similarity between Kenneth Clarke and the options provided, indicating that none of them are as well-known as Kenneth Clarke.'), AnswerRelvancyVerdict(verdict='yes', reason='This statement provides background information on Kenneth Clarke, which is relevant to understanding the context of the question.'), AnswerRelvancyVerdict(verdict='yes', reason='This statement offers a speculative connection between Kenneth Clarke and the Greek Basket League, making it relevant to the question of similarity.'), AnswerRelvancyVerdict(verdict='yes', reason='This statement further elaborates on the connection between Kenneth Clarke and the Greek Basket League, providing context for the similarity mentioned earlier.'), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement clarifies that the Greek Basket League is a specific event, contrasting it with Kenneth Clarke's individual accomplishments, which is relevant to the comparison.\")]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3513,6 +3557,51 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": false,
+                        "score": 0.2727272727272727,
+                        "reason": "The score is 0.27 because the actual output did not provide a clear comparison or analysis between the given entities and Marine One, instead it seems to have listed them without establishing any meaningful connections or similarities. A higher score would require a more focused and relevant response that identifies the common concept or characteristic among the items in relation to Marine One.",
+                        "statements": [
+                            "None of the terms you listed are directly related to the concept of Marine One, which refers to the official name of U.S. government planes used for transporting the President or other high-ran\u7ea7\u522b\u7684officials.",
+                            "The terms you listed come from a wide range of fields and subjects, including sports, technology, exploration, heritage, politics, astronomy, cuisine, and film.",
+                            "To conceptually compare any of these terms to Marine One might require a creative stretch.",
+                            "However, if you're interested in an analogy based on the level of fame or familiarity with the terms, it might be easier to compare the level of similarity with Marine One.",
+                            "- Brooklyn Nets: A basketball team.",
+                            "- HMS Investigator: A name used by a ship in exploration.",
+                            "- BMW R100S: A motorcycle.",
+                            "- propellant depot: A place to store and manage fuel for spacecraft or rockets.",
+                            "- Victorian Heritage Register: A list of heritage-listed places in Victoria, Australia.",
+                            "- Jack Shephard: A fictional character from the TV series \"Lost.\"",
+                            "- Ulster Unionist Party: A political party in Northern Ireland.",
+                            "- Australia II: A yacht that won the America's Cup sailing championship in 1983.",
+                            "- Maha Shivaratri: A Hindu holy day celebrated in honor of the god Shiva.",
+                            "- Hugh Fearnley-Whittingstall: An English chef and author known for promoting \"locavore\" and \"slow food\" concepts.",
+                            "- Stratospheric Observatory for Infrared Astronomy: An observatory for observing infrared astronomical objects.",
+                            "- Kubla Khan: A fictional character from the song \"Bohemian Rhapsody\" by Queen.",
+                            "- Florida Panthers: A hockey team based in Florida.",
+                            "- R-29RMU Sineva: A Russian ICBM missile.",
+                            "- sestina: A type of Italian poetry.",
+                            "- Gospatric: A patronymic associated with a person from a particular Gospel book in the New Testament.",
+                            "- Earl of Northumbria: A title associated with the historic region of Northumbria in the United Kingdom.",
+                            "- University of Birmingham: A university located in Birmingham, England.",
+                            "- Bellator Fighting Championships: A mixed martial arts (MMA) fighting organization.",
+                            "- New Democratic Party: A political party in Canada.",
+                            "- Daily Express: A British tabloid newspaper.",
+                            "Of all the terms, Hugh Fearnley-Whittingstall is the one that might have the most in common with Marine One in terms of being well-known to the general public, in that they are both examples of familiar objects or people in the public consciousness.",
+                            "However, it's important to note that this is a very broad brush comparison and doesn't take into account the actual functions or significance of the terms mentioned."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3533,6 +3622,28 @@
                         "reason": "The hallucination score is 1.00 because the actual output is not aligned with the provided context. The context focuses on the New York City Council, but the output instead discusses the comparison between it and the Parliament of Great Britain, without providing any specific information about the New York City Council as required by the context. This misalignment indicates a high level of hallucination, where the output has generated content unrelated to the given facts.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not agree with the provided context as it discusses various entities and topics, including 'New York City Council', but does not provide any specific information about it. The context is about the New York City Council, while the output is discussing its similarity or lack thereof with the Parliament of Great Britain.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by identifying the most conceptually similar entity to the Parliament of Great Britain among the given options. There are no irrelevant statements, and the answer is directly relevant to the input. Well done!",
+                        "statements": [
+                            "None of the terms you listed is more conceptually similar with the Parliament of Great Britain than the others.",
+                            "The only commonalities might be in terms of historical events or institutions that have occurred or existed in the United Kingdom or its former colonies.",
+                            "Silence in the Library, Bharatiya Janata Party, New York City Council, American Expeditionary Forces, Royal College of Surgeons of England, John Chayka, Corpus Juris Civilis, Richard Wagner, Courtney Love, Avril Lavigne, Manuel Noriega, Toronto Star, Syed Ahmed Khan, Washington Nationals, Hugh the Great, Elizabeth I of England, Flax, Zaha Hadid, and South Fremantle Football Club are all separate entities or topics that have no direct inherent similarity to the Parliament of Great Britain.",
+                            "However, had you meant \"Great Britain,\" then that would be a country with a shared heritage and history with the Parliament of the United Kingdom, but again, these are two separate entities that have different characteristics and focuses."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3569,6 +3680,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by identifying the most conceptually similar subject with Rose among the given options. There are no irrelevant statements present, making the answer directly relevant and accurate to the input. Well done!",
+                        "statements": [
+                            "The most conceptually similar item to \"Rose\" in the list is \"Romeo and Juliet\".",
+                            "Romeo and Juliet is a famous play by William Shakespeare.",
+                            "The play tells the story of two young lovers from feuding families who fall in love and ultimately die in each other's arms.",
+                            "The play is a classic tale of love and tragedy.",
+                            "The name Rose is often associated with love and romance.",
+                            "Therefore, Romeo and Juliet is the most conceptually similar item to Rose in the list."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3589,6 +3724,36 @@
                         "reason": "The score is 1.00 because the actual output is completely hallucinated, as it discusses a comparison between 'HMS Investigator' and 'Marine One' while there is no mention of the 'Stratospheric Observatory for Infrared Astronomy', which is the expected topic. The lack of any contradictions indicates that the output is not only irrelevant but also introduces new information not supported by the given context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not mention the 'Stratospheric Observatory for Infrared Astronomy' and instead discusses a comparison between 'HMS Investigator' and 'Marine One'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by comparing the given entities and determining the most conceptually similar one with Marine One. There are no irrelevant statements in the response, making it highly relevant and accurate to the input.",
+                        "statements": [
+                            "What an interesting collection of items!",
+                            "After analyzing each item, I would argue that \"HMS Investigator\" is the most conceptually similar to Marine One.",
+                            "Both are names of vehicles:",
+                            "Marine One is the call sign of the presidential helicopter of the United States.",
+                            "HMS Investigator is a name given to a ship, specifically a British Royal Navy ship.",
+                            "Both have a strong association with authority and power:",
+                            "Marine One is used to transport the President of the United States, symbolizing the highest authority in the country.",
+                            "HMS Investigator, as a ship, is part of the British Royal Navy, representing the country's naval power and authority.",
+                            "Both have a sense of exclusivity and prestige:",
+                            "Marine One is a highly secure and exclusive mode of transportation, reserved for the President and other high-ranking officials.",
+                            "HMS Investigator, as a ship, is part of a prestigious naval fleet and carries out important missions and tasks.",
+                            "While the other items on the list are interesting and unique in their own ways, they don't share the same conceptual similarity with Marine One as HMS Investigator does."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3625,6 +3790,29 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by identifying the most conceptually similar entity to Kenneth Clarke among the given options, without including any irrelevant information. Well done!",
+                        "statements": [
+                            "It is difficult to determine which one of the options listed is the most conceptually similar to Kenneth Clarke without additional context or information about Kenneth Clarke's background, interests, and areas of expertise.",
+                            "However, based solely on the options provided, the most likely candidate would be \"Byron White\",",
+                            "as he was an American lawyer and judge who served as an Associate Justice of the Supreme Court of the United States from 1969 to 1993.",
+                            "This would make him a professional in the field of law,",
+                            "which is similar to the field of study that Kenneth Clarke is known for."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3653,6 +3841,32 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by comparing the given entities with DC Comics in terms of concept similarity. There are no irrelevant statements present, making the answer directly relevant and accurate to the input. Well done!",
+                        "statements": [
+                            "Based on the list provided,",
+                            "the most conceptually similar item with DC Comics would be \"Doctor Strange\".",
+                            "Both DC Comics and Doctor Strange are fictional works that involve superhuman characters",
+                            "and often explore themes of morality, power, and the nature of reality.",
+                            "DC Comics is a publisher of comic books and other media featuring a wide range of superheroes, supervillains, and other characters,",
+                            "while Doctor Strange is a character in the Marvel Comics universe who is a sorcerer and superhero.",
+                            "Both DC Comics and Doctor Strange have a large and devoted fan base,",
+                            "and have been adapted into various forms of media, including films, television shows, and video games."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3673,6 +3887,27 @@
                         "reason": "The score is 1.00 because the actual output is completely unrelated to the context 'The Waters of Mars', as it is inquiring about 'Rose' instead of discussing the topic at hand. This indicates a severe misalignment or hallucination in the response.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not agree with the provided context 'The Waters of Mars' as it is asking for clarification about 'Rose' instead of discussing the topic.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by identifying the most conceptually similar subject with Rose among the given options. There are no irrelevant statements present, making the answer directly relevant and accurate to the input. Well done!",
+                        "statements": [
+                            "I'm sorry,",
+                            "but it's not clear what you mean by \"Rose\".",
+                            "Can you please provide more context or information about what you are referring to?"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

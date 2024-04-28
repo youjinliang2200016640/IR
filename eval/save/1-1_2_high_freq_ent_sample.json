@@ -3778,6 +3778,26 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.5,
+                        "reason": "The score is 0.50 because the actual output included an irrelevant statement, 'Laura Nyro', which does not pertain to the performer of 'Tears on My Pillow'. The correct answer was not provided, thus limiting the relevancy of the response.",
+                        "statements": [
+                            "The performer of \"Tears on My Pillow\" is:",
+                            "Laura Nyro"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'Laura Nyro' is not relevant to the input question as it is not the performer of 'Tears on My Pillow'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3806,6 +3826,25 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly provides the correct answer to the question about the performer of \"Tears on My Pillow\" without any irrelevant information or distractions.",
+                        "statements": [
+                            "The performer of \"Tears on My Pillow\" is Little Anthony and the Imperials."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3826,6 +3865,26 @@
                         "reason": "The score is 1.00 because the actual output is completely hallucinated, as it discusses The Shirelles when the context specifically mentions 'Johnny Tillotson', indicating a complete misalignment between the output and the given information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not agree with the provided context which mentions 'Johnny Tillotson', but discusses The Shirelles instead.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly provides the correct answer to the question about the performer of \"Tears on My Pillow\" without any irrelevant information or additional commentary.",
+                        "statements": [
+                            "The performer of \"Tears on My Pillow\" is the original singer.",
+                            "The Shirelles."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
