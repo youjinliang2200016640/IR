@@ -3944,6 +3944,28 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.75,
+                        "reason": "The score is 0.75 because the actual output acknowledges the inability to provide a direct answer to the question about finding the most conceptually similar entity with Rose, but it doesn't offer any comparison or analysis that could be relevant to the input. Despite this limitation, the response does truthfully communicate the inability to provide a specific answer, which is why the score isn't lower.",
+                        "statements": [
+                            "I apologize,",
+                            "I am unable to provide an answer to your question",
+                            "it is not clear what \"Rose\" refers to",
+                            "Could you please provide more context or information?"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'I am unable to provide an answer to your question' acknowledges the inability to answer but doesn't provide any relevant information about the similarity with Rose.\"), AnswerRelvancyVerdict(verdict='yes', reason='The statement \\'it is not clear what \"Rose\" refers to\\' is relevant as it points out the need for clarification to determine similarity.'), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'Could you please provide more context or information?' is relevant as it directly asks for additional details to establish the similarity with Rose.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3964,6 +3986,28 @@
                         "reason": "The score is 1.00 because the actual output is completely unrelated to the given context. It mentions \"Rose\" and the requirement for more context, whereas the context is about \"The Waters of Mars,\" indicating a clear hallucination or misalignment between the output and the provided information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not agree with the provided context. It is discussing 'Rose' and the need for more context, while the context is about 'The Waters of Mars'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.75,
+                        "reason": "The score is 0.75 because the actual output effectively provides a comparison between the given options and Rose, but the inclusion of \"I'm sorry\" at the beginning does not contribute to the relevance of the answer in terms of the specific question asked. If this unnecessary statement was omitted, the relevancy score could have been higher.",
+                        "statements": [
+                            "I'm sorry,",
+                            "I need more context to answer your question.",
+                            "Could you please clarify what \"Rose\" refers to?",
+                            "What you are looking for in terms of a conceptually similar entity?"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'I'm sorry,' does not provide any information or similarity comparison with Rose.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'I need more context to answer your question.' is relevant as it acknowledges the need for additional information to determine similarity with Rose.\"), AnswerRelvancyVerdict(verdict='yes', reason='The statement \\'Could you please clarify what \"Rose\" refers to?\\' is relevant as it seeks to understand the specific context or entity named Rose for a proper comparison.'), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'What you are looking for in terms of a conceptually similar entity?' is relevant as it asks for the criteria or aspects to consider when identifying a conceptually similar entity to Rose.\")]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -4225,6 +4269,44 @@
                             "So, the Parliament of Great Britain is the most conceptually similar item in the list."
                         ],
                         "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "\nAmong Ted Mosby, Chrysler Imperial, ELF 500 ROC, Salvador Allende, Romeo and Juliet, The Waters of Mars, Hamilton Tiger-Cats, Bigelow Commercial Space Station, Geoffrey Chaucer, Stanford Encyclopedia of Philosophy, London and North Eastern Railway, Ziegfeld Follies, The Kenyon Review, John Glenn, Edgar Allan Poe, Oakleigh Football Club, United States Patent and Trademark Office, Hartford Whalers, Joko Widodo, Conan the Barbarian, Steve Albini, which one is the most conceptually similar with Rose?",
+            "actual_output": " \u5728\u60a8\u5217\u51fa\u7684\u8fd9\u4e9b\u540d\u79f0\u4e2d\uff0c\u6700\u53ef\u80fd\u4e0e\u201cRose\u201d\u5728\u6982\u5ff5\u4e0a\u6709\u7c7b\u4f3c\u4e4b\u5904\u7684\u662f Edgar Allan Poe\u3002\n\n\u4e3a\u4ec0\u4e48\u8fd9\u6837\u8bf4\u5462\uff1f\u56e0\u4e3a Edgar Allan Poe \u662f\u8457\u540d\u7684\u7f8e\u56fd\u4f5c\u5bb6\uff0c\u4ed6\u7684\u4f5c\u54c1\u901a\u5e38\u4e0e\u6050\u6016\u3001\u60ac\u7591\u3001\u548c\u6b7b\u4ea1\u4e3b\u9898\u6709\u5173\u3002\u4ed6\u7684\u4f5c\u54c1\u7ecf\u5e38\u88ab\u4eba\u5f15\u7528\u6216\u6539\u7f16\uff0c\u5176\u4e2d\u6700\u8457\u540d\u7684\u6bd4\u5982\u300a\u5361\u6851\u5fb7\u62c9\u300b\uff08\\\"The Fall of the House of Usher\\\" \u548c \\\"The Cask of Amontillado\\\"\uff09\u7b49\u7b49\uff0c\u8fd9\u4e9b\u4f5c\u54c1\u4e2d\u7684\u5143\u7d20\u4e0eRose\u6709\u7740\u7c7b\u4f3c\u7684\u6d6a\u6f2b\u60b2\u5267\u8272\u5f69\uff0c\u7ecf\u5e38\u6d89\u53ca\u6b7b\u4ea1\u548c\u590d\u4ec7\u7684\u4e3b\u9898\u3002\n\n\u73ab\u7470\u5728\u4e0d\u540c\u7684\u4f5c\u54c1\u548c\u6587\u5316\u80cc\u666f\u4e2d\u53ef\u80fd\u4ee3\u8868\u4e0d\u540c\u7684\u4e1c\u897f\uff0c\u4f46\u5728 Edgar Allan Poe \u7684\u6587\u5b66\u4e16\u754c\u4e2d\uff0c\u73ab\u7470\u53ef\u4ee5\u88ab\u89c6\u4e3a\u6b7b\u4ea1\u548c\u7f8e\u4e3d\u7684\u8c61\u5f81\uff0c\u4e0eRose\u5728\u8bb8\u591a\u6d6a\u6f2b\u6216\u6d41\u884c\u6587\u5316\u4f5c\u54c1\u4e2d\u7684\u89d2\u8272\u6709\u76f8\u4f3c\u4e4b\u5904\u3002\n\n\u4e0d\u8fc7\uff0c\u8bf7\u6ce8\u610f\uff0c\u8fd9\u4e9b\u53ea\u662f\u57fa\u4e8e\u4e0e\u201cRose\u201d\u6700\u53ef\u80fd\u4e0e Edgar Allan Poe \u6709\u76f8\u4f3c\u6982\u5ff5\u7684\u5047\u8bbe\u3002\u5b9e\u9645\u4e0a\uff0c\u201cRose\u201d\u8fd9\u4e2a\u540d\u79f0\u672c\u8eab\u5c31\u53ef\u4ee5\u4ee3\u8868\u8bb8\u591a\u4e0d\u540c\u7684\u6982\u5ff5\uff0c\u5e76\u4e14\u80fd\u591f\u4e0e\u5404\u79cd\u4e8b\u7269\u6709\u8054\u7cfb\uff0c\u6240\u4ee5\u786e\u5207\u5730\u6307\u51fa\u4e0e\u67d0\u4e00\u7279\u5b9a\u6982\u5ff5\u6700\u76f8\u4f3c\u7684\u540d\u5b57\u662f\u4e0d\u53ef\u80fd\u7684\u3002",
+            "expected_output": "The Waters of Mars",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the question by identifying the most conceptually similar subject with Rose among the given options. There are no irrelevant statements present, making the answer directly relevant and accurate to the input. Well done!",
+                        "statements": [
+                            "\u6700\u53ef\u80fd\u4e0e\u201cRose\u201d\u5728\u6982\u5ff5\u4e0a\u6709\u7c7b\u4f3c\u4e4b\u5904\u7684\u662f Edgar Allan Poe.",
+                            "Edgar Allan Poe \u662f\u8457\u540d\u7684\u7f8e\u56fd\u4f5c\u5bb6\uff0c\u4ed6\u7684\u4f5c\u54c1\u901a\u5e38\u4e0e\u6050\u6016\u3001\u60ac\u7591\u3001\u548c\u6b7b\u4ea1\u4e3b\u9898\u6709\u5173\u3002",
+                            "\u4ed6\u7684\u4f5c\u54c1\u7ecf\u5e38\u88ab\u4eba\u5f15\u7528\u6216\u6539\u7f16\uff0c\u5982\u300a\u5361\u6851\u5fb7\u62c9\u300b\uff08\"The Fall of the House of Usher\" \u548c \"The Cask of Amontillado\"\uff09\u3002",
+                            "\u5728 Edgar Allan Poe \u7684\u6587\u5b66\u4e16\u754c\u4e2d\uff0c\u73ab\u7470\u53ef\u4ee5\u88ab\u89c6\u4e3a\u6b7b\u4ea1\u548c\u7f8e\u4e3d\u7684\u8c61\u5f81\u3002",
+                            "Rose\u5728\u4e0d\u540c\u7684\u4f5c\u54c1\u548c\u6587\u5316\u80cc\u666f\u4e2d\u53ef\u80fd\u4ee3\u8868\u4e0d\u540c\u7684\u4e1c\u897f\u3002",
+                            "\u5728\u8bb8\u591a\u6d6a\u6f2b\u6216\u6d41\u884c\u6587\u5316\u4f5c\u54c1\u4e2d\uff0cRose\u7684\u89d2\u8272\u4e0eEdgar Allan Poe\u4f5c\u54c1\u4e2d\u7684\u4e3b\u9898\u6709\u76f8\u4f3c\u4e4b\u5904\u3002",
+                            "\u8fd9\u4e9b\u53ea\u662f\u57fa\u4e8e\u4e0e\u201cRose\u201d\u6700\u53ef\u80fd\u4e0e Edgar Allan Poe \u6709\u76f8\u4f3c\u6982\u5ff5\u7684\u5047\u8bbe\u3002",
+                            "\u201cRose\u201d\u8fd9\u4e2a\u540d\u79f0\u672c\u8eab\u5c31\u53ef\u4ee5\u4ee3\u8868\u8bb8\u591a\u4e0d\u540c\u7684\u6982\u5ff5\u3002",
+                            "\u786e\u5207\u5730\u6307\u51fa\u4e0e\u67d0\u4e00\u7279\u5b9a\u6982\u5ff5\u6700\u76f8\u4f3c\u7684\u540d\u5b57\u662f\u4e0d\u53ef\u80fd\u7684\u3002"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason='The statement directly mentions Edgar Allan Poe as the most conceptually similar to Rose.'), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement provides context about Edgar Allan Poe's work, which could be relevant to understanding the similarity with Rose.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement further elaborates on Poe's works, which can help establish the connection with Rose.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement explains how roses can symbolize elements found in Poe's works, strengthening the relevance to Rose.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement acknowledges that Rose can have different meanings, but also suggests a similarity with Edgar Allan Poe's themes.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement reinforces the assumption that there is a conceptual similarity between Rose and Edgar Allan Poe's works.\"), AnswerRelvancyVerdict(verdict='yes', reason='This statement acknowledges the assumption and implies that the connection between Rose and Edgar Allan Poe is based on certain concepts.'), AnswerRelvancyVerdict(verdict='idk', reason=\"This statement discusses the generality of the name 'Rose' and its multiple interpretations, which is not directly relevant to the similarity with Edgar Allan Poe.\"), AnswerRelvancyVerdict(verdict='idk', reason='This statement highlights the impossibility of pinpointing a single conceptually similar entity, which is not directly related to the comparison with Edgar Allan Poe.')]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
