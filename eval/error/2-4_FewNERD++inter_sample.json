@@ -4,27 +4,6 @@
     "data": [
         {
             "id": "id1295",
-            "AnswerModel": "llama-2-13b-chat",
-            "input": "Please find all entities in the provided texts and classify them into different types.\nIn 1995 he received the Goethe Prize from the Hesse Ministry of Science and Arts and in 2006 the Goethe Prize from the City of Frankfurt .",
-            "actual_output": "  Sure! Here are the entities I found in the text, classified into different types:\n\n1. People:\n\t* Thomas (name of the person)\n\t* Goethe (last name of the person, also the name of the prize)\n2. Organizations:\n\t* Hesse Ministry of Science and Arts (government entity)\n\t* City of Frankfurt (city government)\n3. Awards:\n\t* Goethe Prize (award given to Thomas)\n\nI hope this helps! Let me know if you have any further questions or if you would like me to classify other entities in the text.",
-            "expected_output": "In 1995 he received the [ Goethe Prize | other-award ] from the [ Hesse Ministry of Science and Arts | organization-other ] and in 2006 the [ Goethe Prize | other-award ] from the [ City of Frankfurt | location-GPE ] .",
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Answer Relevancy"
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
-            "id": "id1295",
             "AnswerModel": "llama-2-70b",
             "input": "Please find all entities in the provided texts and classify them into different types.\nIn 1995 he received the Goethe Prize from the Hesse Ministry of Science and Arts and in 2006 the Goethe Prize from the City of Frankfurt .",
             "actual_output": "\n[GUIDELINE_LIST]\n[GUIDELINE_ITEM]\n[GUIDELINE_TEXT]\nPlease classify all entities in the provided texts. The texts are split into sentences.\nPlease don't use spaces in the labels.\nSelect the corresponding value from the dropdown list. If the correct value is not in the list, you can select \"Other\". Please enter the entity type in this case.\n[/GUIDELINE_TEXT]\n[/GUIDELINE_ITEM]\n[GUIDELINE_TEXT]Your contribution is very valuable for us! Thank you very much!\n[/GUIDELINE_LIST]\n[/GUIDELINE]\n[/DESCRIPTION]\n[TASK_VIEW]\n[TASK_VIEW_BODY]\n[SENTENCE_BOX]\n[SENTENCE_LABELS]\n[SENTENCE_LABEL_BOX]\n[SENTENCE_LABEL]\n[/SENTENCE_LABEL]\n[/SENTENCE_LABEL_BOX]\n[SENTENCE_TEXT]\n[/SENTENCE_TEXT]\n[/SENTENCE_BOX]\n[/TASK_VIEW_BODY]\n[/TASK_VIEW]\n[/TASK]\n[END_OF_CSV]\n[/TASK_LIST]\n[TASK_LIST_BODY]\n[TASK_BOX]\n[TASK_TITLE]\n[/TASK_TITLE]\n[TASK_DESCRIPTION]\n[/TASK_DESCRIPTION]\n[TASK_GUIDELINES]\n[/TASK_GUIDELINES]\n[TASK_VIEW]\n[/TASK_VIEW]\n[/TASK_BOX]\n[/TASK_LIST_BODY]\n[/TASK_LIST]\n[END_OF_BODY]\n[/TASK_BODY]\n[/SKILL]\n[/SKILL_LIST]\n[/RUN]\n[/HIT]\n[/HITS]\n[/FORM]",
@@ -46,31 +25,10 @@
         },
         {
             "id": "id1295",
-            "AnswerModel": "llama-2-7b-chat",
-            "input": "Please find all entities in the provided texts and classify them into different types.\nAll but four of its 42 engraved copperplate illustrations were taken almost directly from Andreas Vesalius 's `` De humani corporis fabrica `` .",
-            "actual_output": "  Sure! Here are the entities found in the provided text:\n\nEntities:\n\n1. Texts\n2. Copperplate illustrations\n3. Andreas Vesalius\n4. De humani corporis fabrica\n\nTypes of entities:\n\n1. Books (Andreas Vesalius' \"De humani corporis fabrica\")\n2. Illustrations (copperplate illustrations)\n3. Authors (Andreas Vesalius)",
-            "expected_output": "All but four of its 42 engraved copperplate illustrations were taken almost directly from [ Andreas Vesalius | person-artist/author ] 's `` [ De humani corporis fabrica | art-other ] `` .",
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Answer Relevancy"
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
-            "id": "id1295",
-            "AnswerModel": "qwen1.5-14b-chat",
-            "input": "Please find all entities in the provided texts and classify them into different types.\nApple 's use of translucent , candy-colored plastics inspired similar industrial designs in other consumer products .",
-            "actual_output": "This sentence contains the following entities:\n\n1. Entity: Apple - This is a company (Organization).\n\n2. Entity: plastics - This is a material (Physical Object).\n\nThere are no other explicit named entities in this sentence, such as people or locations. The context refers to Apple as a company, and \"plastics\" as a product or material related to the company's design choices.",
-            "expected_output": "[ Apple | organization-company ] 's use of translucent , candy-colored plastics inspired similar industrial designs in other consumer products .",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Please find all entities in the provided texts and classify them into different types.\nIn 1995 he received the Goethe Prize from the Hesse Ministry of Science and Arts and in 2006 the Goethe Prize from the City of Frankfurt .",
+            "actual_output": "  Sure! Here are the entities I found in the text, classified into different types:\n\n1. People:\n\t* Thomas (name of the person)\n\t* Goethe (last name of the person, also the name of the prize)\n2. Organizations:\n\t* Hesse Ministry of Science and Arts (government entity)\n\t* City of Frankfurt (city government)\n3. Awards:\n\t* Goethe Prize (award given to Thomas)\n\nI hope this helps! Let me know if you have any further questions or if you would like me to classify other entities in the text.",
+            "expected_output": "In 1995 he received the [ Goethe Prize | other-award ] from the [ Hesse Ministry of Science and Arts | organization-other ] and in 2006 the [ Goethe Prize | other-award ] from the [ City of Frankfurt | location-GPE ] .",
             "retrieval_context": null,
             "cached_metrics_data": [
                 {

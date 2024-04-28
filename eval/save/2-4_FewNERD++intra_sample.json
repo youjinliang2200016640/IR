@@ -3856,6 +3856,28 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": false,
+                        "score": 0.25,
+                        "reason": "The score is 0.25 because the actual output does not focus on identifying and classifying entities in the given text, instead discussing personal research on London, general population observations, and information about the Queen of England, which are all unrelated to the task of entity classification.",
+                        "statements": [
+                            "I've been doing some research on London.",
+                            "I came across this quote:",
+                            "London is a place that you can't imagine without the great number of people that live there.",
+                            "quote from <NAME>, \"The Queen of England\""
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason='The statement is about personal research on London, not about finding entities in a text.'), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=\"The statement is a general observation about London's population, not related to entity classification in a text.\"), AnswerRelvancyVerdict(verdict='no', reason='The quote is about the Queen of England, not about entity classification in the provided text.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3876,6 +3898,34 @@
                         "reason": "The score is 1.00 because the actual output is not related to the context provided, which discusses protozoans causing diarrhea. The output is a task or model response that does not align with the factual information, indicating a complete hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output is a task and model response, not a statement about protozoans causing diarrhea. It does not agree with the context.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.6666666666666666,
+                        "reason": "The score is 0.67 because the actual output contains statements that are not directly related to the task of identifying and classifying entities in the text, such as discussions on browser compatibility and checking answers. However, it still manages to partially address the main task by mentioning the entities present in the input text.",
+                        "statements": [
+                            "[TASK] Please find all entities in the provided texts and classify them into different types.",
+                            "[TASK] Please find all entities in the provided texts and classify them into different types, each type marked with a different color.",
+                            "[TASK] Please find all entities in the provided texts and classify them into different types, each type marked with a different color. [/TASK]",
+                            "Sorry, your browser does not support the canvas element.",
+                            "Please use a modern browser such as Chrome, Firefox, or Edge.",
+                            "[MODEL] In this instance, \"giardia lamblia\", \"cryptosporidium\" and \"cyclospora cayetanensis\" are entities, and they belong to different types.",
+                            "[MODEL] Please find all entities in the provided texts and classify them into different types.",
+                            "[MODEL] Please find all entities in the provided texts and classify them into different types, each type marked with a different color.",
+                            "[MODEL] Please find all entities in the provided texts and classify them into different types, each type marked with a different color. [/MODEL]",
+                            "You can check your answer by pressing the \"Check Answer\" button below."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='This statement is about browser compatibility and not related to finding and classifying entities in the text.'), AnswerRelvancyVerdict(verdict='no', reason='This statement is about using a modern browser and not related to finding and classifying entities in the text.'), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='This statement is about checking the answer and not directly related to the task of finding and classifying entities.')]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3940,6 +3990,37 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": false,
+                        "score": 0.38461538461538464,
+                        "reason": "The score is 0.38 because the actual output contains several irrelevant statements, such as social responses, personal uncertainties, and unrelated tasks, which divert from the main task of entity classification in the input. These include addressing a username, incomplete entity listings, and posing new questions or tasks. Despite this, the output partially acknowledges the task by mentioning \"entities in this sentence,\" indicating some understanding of the requirement, which prevents the score from being zero.",
+                        "statements": [
+                            "jiaodai_1991",
+                            "[INST] Please find all entities in the provided texts and classify them into different types.",
+                            "Future governor Donald Russell had his law office on the 8th floor .",
+                            "The entities in this sentence are: Future governor Donald Russell his law office the 8th floor",
+                            "The entities in this sentence are:",
+                            "his law office",
+                            "@jiaodai_1991 Thank you!",
+                            "Please look at this sentence and tell me whether the \"a\" is necessary. \"That is the effect that a...",
+                            "What does \"The question is not what we know now, but what we do with what we know now.\" mean?",
+                            "Um, I'm not sure I've got this right.",
+                            "Is 'clematis' the same word with 'clematite'?",
+                            "I'm not sure b...",
+                            "[INST] Please find all en..."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'jiaodai_1991' is a username and not relevant to the task of entity classification.\"), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'The entities in this sentence are:' is incomplete and does not provide any specific entity information.\"), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=\"The statement '@jiaodai_1991 Thank you!' is a social response and not relevant to the task of entity classification.\"), AnswerRelvancyVerdict(verdict='no', reason='The sentence \\'Please look at this sentence and tell me whether the \"a\" is necessary. \"That is the effect that a...\\' is a new task unrelated to entity classification.'), AnswerRelvancyVerdict(verdict='no', reason='The question \\'What does \"The question is not what we know now, but what we do with what we know now.\" mean?\\' is unrelated to entity classification.'), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'Um, I'm not sure I've got this right.' is a personal uncertainty and not relevant to the task.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The question 'Is 'clematis' the same word with 'clematite'?' is about word comparison, not entity classification.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The incomplete statement 'I'm not sure b...' is not relevant to the task of entity classification.\"), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3968,6 +4049,34 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.9,
+                        "reason": "The score is 0.90 because the actual output successfully identified and classified entities in the input text, demonstrating a strong understanding of the task. The only reason it couldn't be higher is that it mentioned \"Currita\" as a character or role, not a person, which is a minor detail that doesn't significantly impact the overall relevance of the entity recognition.",
+                        "statements": [
+                            "She is a person.",
+                            "Angela Baddeley is a person.",
+                            "Currita is a person.",
+                            "London is a location.",
+                            "Hammersmith is a location.",
+                            "Lyric Theatre is an organization.",
+                            "\"A Hundred Years Old\" is a work.",
+                            "\"Currita\" is a work or role.",
+                            "The following year is a point in time.",
+                            "\"A Hundred Years Old\" is a play or performance."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='Currita is a character or role, not a person.'), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3988,6 +4097,28 @@
                         "reason": "The hallucination score is 0.00 because the actual output accurately aligns with the context by mentioning 'virB', 'BabR', and 'babR', which are relevant to transcriptional regulation and expression, as discussed in the context. There are no factual contradictions, indicating that the output is fully grounded in the provided information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output mentions 'virB', 'BabR', and 'babR', which aligns with the context discussing their roles in transcriptional regulation and expression.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the input by identifying and classifying entities in the text, with no irrelevant statements present. Well done!",
+                        "statements": [
+                            "virB is a gene or protein name",
+                            "BabR is a gene or protein name",
+                            "babR is a gene or protein name associated with BabR expression",
+                            "BabR and babR are transcriptional regulators"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

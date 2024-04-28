@@ -4122,6 +4122,35 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the input by identifying and classifying entities in the given text, with no irrelevant statements present. Well done!",
+                        "statements": [
+                            "Sure!",
+                            "Here are the entities found in the provided text:",
+                            "Entities:",
+                            "1. Texts",
+                            "2. Copperplate illustrations",
+                            "3. Andreas Vesalius",
+                            "4. De humani corporis fabrica",
+                            "Types of entities:",
+                            "1. Books (Andreas Vesalius' \"De humani corporis fabrica\")",
+                            "2. Illustrations (copperplate illustrations)",
+                            "3. Authors (Andreas Vesalius)"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -4142,6 +4171,30 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the provided context, accurately mentioning Apple's use of translucent, candy-colored plastics in its industrial designs, which matches the information in the context. There are no factual contradictions, indicating that the output is not hallucinating any information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the provided context by mentioning Apple as a company and its use of translucent, candy-colored plastics in industrial designs, which is in line with the context's statement.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the input by identifying and classifying entities in the given text, without including any irrelevant information. Great job!",
+                        "statements": [
+                            "This sentence contains the following entities:",
+                            "1. Entity: Apple - This is a company (Organization).",
+                            "2. Entity: plastics - This is a material (Physical Object).",
+                            "There are no other explicit named entities in this sentence, such as people or locations.",
+                            "The context refers to Apple as a company,",
+                            "and \"plastics\" as a product or material related to the company's design choices."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
