@@ -75,6 +75,23 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The hallucination score is 1.00 because the actual output is a prompt to complete a text and does not contain any information that either aligns with or contradicts the given contexts on various topics like Durkin's left foot, United's defensive performance, Rooney's comment, Orlando's match schedule, United's goalkeeper Tyler Miller's comment, McGuire's goal, United's scoring efficiency, Orlando's record, or their matches against Columbus and Tigres. This lack of relevance to the provided contexts indicates a high level of hallucination.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is a prompt to complete a text and does not provide any information to agree or disagree with the given context about Durkin's left foot, United's defensive performance, Rooney's comment, or Orlando's match schedule.\"), HallucinationVerdict(verdict='no', reason=\"The actual output is a prompt to complete a text and does not provide any information to agree or disagree with the context about United's goalkeeper Tyler Miller's comment.\"), HallucinationVerdict(verdict='no', reason=\"The actual output is a prompt to complete a text and does not provide any information to agree or disagree with the context about McGuire's goal or United's inefficiency in scoring opportunities.\"), HallucinationVerdict(verdict='no', reason=\"The actual output is a prompt to complete a text and does not provide any information to agree or disagree with the context about Orlando's record, their match against Columbus, or their match with Mexican power Tigres.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -4016,6 +4033,69 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The answer relevancy score is 1.00 because the generated text successfully includes all the given events in a coherent and relevant context. It tells a complete story about a soccer match between D.C. United and Orlando City in the MLS, with details on the goals, player actions, and comments from coaches and players like Tyler Miller, Chris Durkin, and Wayne Rooney. The text effectively weaves together the different relations, such as 'said', 'attack', 'played', 'defeating', 'scoring', and 'remained', creating a cohesive narrative that addresses the input events. There are no irrelevant statements, which is why the score is at its maximum. Well done!",
+                        "statements": [
+                            "relation: said",
+                            "Speaker: Tyler Miller",
+                            "Message: 'I didn't know he had such a good left foot'",
+                            "relation: attack",
+                            "Agent: D.C. United",
+                            "Patient: Orlando City",
+                            "Location: Audi Field",
+                            "relation: played",
+                            "Winner: D.C. United",
+                            "Loser: Orlando City",
+                            "Name: MLS",
+                            "relation: match",
+                            "Winner: D.C. United",
+                            "Loser: Orlando City",
+                            "Name: MLS",
+                            "relation: defeating",
+                            "Agent: Orlando City",
+                            "Patient: New York Red Bulls",
+                            "Name: MLS",
+                            "relation: know",
+                            "Agent: Tyler Miller",
+                            "Patient: he had such a good left foot",
+                            "relation: scoring",
+                            "Agent: D.C. United",
+                            "Patient: Orlando City",
+                            "Location: Audi Field",
+                            "Content: opportunities",
+                            "relation: say",
+                            "Speaker: Chris Durkin",
+                            "Message: 'I've hit that [with the left foot] in training before'",
+                            "relation: remained",
+                            "Agent: D.C. United",
+                            "relation: said",
+                            "Speaker: Wayne Rooney",
+                            "Message: 'We could have easily been two or three up in the first half'",
+                            "relation: positioned",
+                            "Agent: Orlando Coach Oscar Pareja",
+                            "Patient: Florida",
+                            "Location: Monterrey",
+                            "relation: said",
+                            "Communicator: Chris Durkin",
+                            "Message: 'I can't say I've hit that [with the left foot] in training before'",
+                            "relation: match",
+                            "Participant: Orlando City",
+                            "Name: MLS"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -4232,6 +4312,42 @@
                         "reason": "The hallucination score is 0.00 because the actual output aligns perfectly with all the provided contexts, agreeing on points such as the creators setting rules for ChatGPT, the AI's evolution in synthesizing content, the legal ambiguity with the Communications Decency Act, the response generation process, the debate around liability for AI content, and the importance of responsible use and accountability. There are no factual contradictions, indicating that the output is fully grounded in the given information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the provided context which mentions that the creators of ChatGPT set the rules for their systems and shaped the output by reinforcing desired behaviors.'), HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the context that the AI's initial responses were often regurgitated information, but it evolved to synthesize content.\"), HallucinationVerdict(verdict='yes', reason=\"The actual output aligns with the context that the Communications Decency Act's liability shield becomes ambiguous with interactive systems like ChatGPT.\"), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that ChatGPT generates responses by predicting and synthesizing information.'), HallucinationVerdict(verdict='yes', reason='The actual output discusses the debate around liability for AI content, which is also mentioned in the context.'), HallucinationVerdict(verdict='yes', reason=\"The actual output mentions the need for responsible use and accountability, which is in line with the context's discussion.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The answer relevancy score is 1.00 because the generated text successfully incorporates all the given events, maintaining a coherent and relevant context around the responsibility and liability of AI creations, particularly ChatGPT, in relation to the Communications Decency Act. The text discusses the implications of AI models generating content and the potential legal questions surrounding their output, which directly addresses the input's events. There are no irrelevant statements in the output, making the score a perfect 1.00.",
+                        "statements": [
+                            "Excitement around Microsoft's ChatGPT surged.",
+                            "Creators set rules for their systems to foster responsible AI.",
+                            "AI models were informed about ethical guidelines.",
+                            "Initial responses often regurgitated information.",
+                            "AI evolved to synthesize information.",
+                            "Creators reinforced desired behaviors.",
+                            "Debate intensified when user influenced AI's output.",
+                            "Communications Decency Act's liability rules become ambiguous.",
+                            "Critics argue developers of AI content might be liable.",
+                            "ChatGPT predicts and synthesizes information.",
+                            "Responsibility for AI content is debated.",
+                            "AI's ability to answer questions sparks conversations.",
+                            "Some advocate for AI models to have platform protections.",
+                            "Others want clearer guidelines for intelligent assistants.",
+                            "Responsibility for AI use falls on all parties.",
+                            "Legal landscape will shape AI's future.",
+                            "AI contributes to public discourse.",
+                            "Creators and evolving laws govern AI's consequences."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
