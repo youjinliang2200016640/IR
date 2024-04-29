@@ -11,4 +11,4 @@ extensions/
 __pycache__/
 /*.py
 MATH/
-KoLA/
+/KoLA/
