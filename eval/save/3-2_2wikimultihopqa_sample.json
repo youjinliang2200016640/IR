@@ -3122,6 +3122,26 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "Cannot connect to the model qwen1.5-72b-chat",
+                        "statements": [
+                            "The performer of the song \"More\" is Usher.",
+                            "Usher was born in Dallas, Texas, United States."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3150,6 +3170,28 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The answers precisely and concisely address each question, providing the required information. Well done!",
+                        "statements": [
+                            "The performer of the song \"More\" (Usher Song) is Usher Raymond IV.",
+                            "He was born in the United States.",
+                            "He was born in the city of Decatur, Georgia.",
+                            "So the answer is: Decatur, Georgia, the United States."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3170,6 +3212,26 @@
                         "reason": "The score is 0.00 because the actual output does not contain any information that contradicts the given context 'Dallas', nor does it provide any irrelevant or false information. It simply does not mention Dallas, thus there are no hallucinations.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output does not contradict the single context 'Dallas'. It provides information about Usher, but does not mention Dallas, so it is not in disagreement.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "Cannot connect to the model qwen1.5-72b-chat",
+                        "statements": [
+                            "The performer of the song \"More (Usher Song)\" is Usher.",
+                            "Usher's place of birth is not publicly known."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3290,6 +3352,25 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers directly and accurately address the questions asked, with no irrelevant information present. The responses are concise and clearly state the correct information, making the relevancy score perfect. Well done!",
+                        "statements": [
+                            "[INST] Please answer the following question."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3318,6 +3399,28 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.75,
+                        "reason": "The score is 0.75 because the response accurately provides the birth order of Justin Mulder and M'Bala Nzola, but it doesn't mention their actual birth years or dates to give a definitive answer on who was born first. The lack of specific details prevents the score from being higher.",
+                        "statements": [
+                            "I'm sorry,",
+                            "I don't have enough information to answer your question.",
+                            "I don't have access to information about the birth dates of individuals,",
+                            "so I cannot determine who was born first, Justin Mulder or M'Bala Nzola."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'I'm sorry,' is a response indicating inability to answer, not relevant to the specific birth order information asked.\"), AnswerRelvancyVerdict(verdict='yes', reason='The statement acknowledges the lack of information needed to answer the question about birth order.'), AnswerRelvancyVerdict(verdict='yes', reason='This statement further explains the reason for not being able to answer the question.'), AnswerRelvancyVerdict(verdict='yes', reason='This statement directly addresses the question by stating the inability to determine the birth order of the individuals mentioned.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3338,6 +3441,26 @@
                         "reason": "The score is 1.00 because the actual output hallucinates information by providing details about Bo\u0159ivoj I, Duke of Bohemia's father, which was not requested and is not relevant to the topic of Vratislaus II of Bohemia.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not provide information about Vratislaus II of Bohemia, as requested, but instead mentions Bo\u0159ivoj I, Duke of Bohemia's father.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.5,
+                        "reason": "The score is 0.50 because while the provided answers do contain the correct information, they also include unnecessary details that are not directly relevant to the questions asked. For example, mentioning \"I'm sorry\" in the response to a factual question adds no value to the answer and can be considered irrelevant. Similarly, specifying that Seoul High School is in North Korea when the question asks if it's in the same country as North Marion High School (which is actually in the United States) introduces confusion, as North Korea is not the correct reference for Seoul High School. These additional details bring down the relevancy score, but the fact that the core information is correctly presented prevents the score from being lower.",
+                        "statements": [
+                            "I'm sorry,",
+                            "I don't have information about Bo\u0159ivoj Ii, Duke Of Bohemia's father."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'I'm sorry,' is an apology and does not provide any information relevant to the input.\"), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3402,6 +3525,26 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The answers precisely and concisely address each question, providing the required information. Well done!",
+                        "statements": [
+                            "The performer of the song \"More\" is Usher Raymond IV.",
+                            "His place of birth is Dallas, Texas, USA."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3422,6 +3565,26 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the context provided, which states that Usher Raymond IV was born in Dallas, Texas, United States. There are no factual contradictions, indicating that the output is fully grounded in the given information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the provided context which mentions Dallas, Texas, United States as the birthplace of Usher Raymond IV.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The answers precisely and concisely address each question, providing the required information. Well done!",
+                        "statements": [
+                            "The performer of song \"More\" by Usher is Usher Raymond IV.",
+                            "He was born in Dallas, Texas, United States."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3458,6 +3621,31 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers directly and accurately address the questions asked, with no irrelevant information present. The responses are concise and clearly state the correct information, making the relevancy score perfect. Well done!",
+                        "statements": [
+                            "The director of \"Rip, Sew, and Stitch\" is George Lucas",
+                            "George Lucas was born on May 14, 1944",
+                            "The director of \"Clown Princes\" is unknown",
+                            "Assuming it is a real film, we can compare the birth dates of the directors",
+                            "Since the birth date of the director of \"Clown Princes\" is unknown",
+                            "We cannot determine which film has the director born earlier",
+                            "The answer is: it is unknown which film has the director born earlier"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3478,6 +3666,26 @@
                         "reason": "The score is 0.00 because the actual output aligns with the context, mentioning Dallas, but it also includes extra information that was not in the context. This is not a hallucination since it doesn't contradict the given facts; it merely adds to them.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the provided context which mentions Dallas, even though it provides additional information not present in the context.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The answers precisely and concisely address each question, providing the required information. Well done!",
+                        "statements": [
+                            "The performer of the song \"More\" by Usher is Usher himself.",
+                            "His place of birth is Dallas, Texas, United States."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3514,6 +3722,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The answers precisely and concisely address each question, providing the required information. Well done!",
+                        "statements": [
+                            "The performer of the song \"More\" is Usher.",
+                            "Usher was born in Dallas, Texas, United States.",
+                            "So the answer is: Dallas, Texas, United States."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3534,6 +3763,32 @@
                         "reason": "The score is 1.00 because the actual output introduces information about Justin Mulder, which is not present in the given context that only mentions M'Bala Nzola. This extra, unrelated information can be considered a hallucination, as it does not align directly with the provided context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output provides information about Justin Mulder and M'Bala Nzola but does not directly address the given context which only mentions 'M'Bala Nzola'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The responses accurately and concisely give the required information, demonstrating a perfect understanding of the input queries. Well done!",
+                        "statements": [
+                            "Justin Mulder is an actor known for his role in the TV series \"X-Files\".",
+                            "Justin Mulder was born on June 27, 1975.",
+                            "M'Bala Matabela, also known as M'Bala Nzola, is a Congolese politician.",
+                            "M'Bala Nzola is the current Minister of Industry, Mines, and Energy.",
+                            "M'Bala Nzola was born on October 16, 1977.",
+                            "Justin Mulder was born before M'Bala Nzola.",
+                            "Therefore, Justin Mulder was born first.",
+                            "The answer is: Justin Mulder."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3570,6 +3825,28 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers directly and accurately address the questions asked, with no irrelevant information present. The responses are concise and clearly state the correct information, making the relevancy score perfect. Well done!",
+                        "statements": [
+                            "To determine which film has the director who was born earlier, I would need to know the birth years of the directors for both \"Rip, Sew And Stitch\" and \"Clown Princes\".",
+                            "Without this information, I cannot provide an answer.",
+                            "Please provide the birth years of the directors for these films,",
+                            "or if you are unsure, I can attempt to look up this information."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3598,6 +3875,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The answers precisely and concisely address each question, providing the required information. Well done!",
+                        "statements": [
+                            "The performer of the song \"More\" by Usher is Usher Raymond IV.",
+                            "Usher Raymond IV was born in Atlanta, Georgia, United States.",
+                            "The answer is: Atlanta, Georgia, United States."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3618,6 +3916,28 @@
                         "reason": "The score is 1.00 because the actual output discusses Usher and his connection to Atlanta, Georgia, which is not mentioned or relevant to the given context 'Dallas'. This indicates a complete hallucination, as the output introduces information that is unrelated to the provided context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about Usher and his connection to Atlanta, Georgia, which is not related to the context 'Dallas'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The answers precisely and concisely address each question, providing the required information. Well done!",
+                        "statements": [
+                            "The song \"More\" by Usher was released in 2004.",
+                            "Usher, whose real name is Usher Raymond, was born on October 8, 1980.",
+                            "He was born in Atlanta, Georgia, United States.",
+                            "So the answer is: Atlanta, Georgia."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

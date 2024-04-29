@@ -3520,6 +3520,35 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": false,
+                        "score": 0.4,
+                        "reason": "The score is 0.40 because the question asks about the geographical continent that encompasses [Rechtsstaat], but the provided input does not mention [Rechtsstaat] at all. The passage discusses China, Russia, the United States, NATO, and their relations, but it does not provide any information about [Rechtsstaat] or its location.",
+                        "statements": [
+                            "Europe",
+                            "Asia",
+                            "North America",
+                            "South America",
+                            "Africa",
+                            "Antarctica",
+                            "Oceania",
+                            "Welcome to SE.",
+                            "What code have you tried so far?",
+                            "You can use regular expressions to extract the text from the square brackets,",
+                            "and then use the `sub()` function to replace all instances of the square brackets with an empty string."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3540,6 +3569,30 @@
                         "reason": "The score is 1.00 because the actual output fails to mention an important piece of information from the context, which is the Champions League. This indicates a complete hallucination, as it does not align with the provided fact.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not mention the Champions League, which is the context provided.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The answer relevancy score is 1.00 because the input text provides the specific tournament that the Orlando City team, and by extension the anonymized human (Oscar Pareja), participated in as a competitor, which is the Concacaf Champions League. The text mentions that the match against D.C. United fell between legs of a round-of-16 series with Mexican power Tigres in this tournament. There are no irrelevant statements in the output that affect the score negatively.",
+                        "statements": [
+                            "The anonymized entity in the passage is \"Wayne Rooney\".",
+                            "Wayne Rooney participated in the Major League Soccer (MLS).",
+                            "Wayne Rooney participated in the Concacaf Champions League.",
+                            "Wayne Rooney participated in the English Premier League (formerly).",
+                            "I hope that helps!",
+                            "Let me know if you have any other questions."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3604,6 +3657,26 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the answer provided is completely relevant to the question asked, and there are no irrelevant statements in the actual output.",
+                        "statements": [
+                            "The anonymized entity \"Rechtsstaat\" can be identified as \"Germany\" based on the context of the passage.",
+                            "The geographical continent that encompasses Germany is Europe."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3624,6 +3697,27 @@
                         "reason": "The score is 1.00 because the actual output states that Durkin participated in the Major League Soccer (MLS), which is a factual alignment with the provided context, but there are no contradictions. However, a hallucination score of 1.00 typically indicates a complete mismatch or fabrication of information that is not supported by the context. In this case, the absence of any contradictory information doesn't contribute to a lower hallucination score, as the score is based on both alignments and contradictions. Since the output doesn't provide any information that directly contradicts the context, it is considered a perfect alignment, hence the score of 1.00.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output mentions Durkin participating in the Major League Soccer (MLS), not the Champions League.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The answer relevancy score is 1.00 because the input text provides the specific tournament that the Orlando City team, and by extension the anonymized human (Oscar Pareja), participated in as a competitor, which is the Concacaf Champions League. The text mentions that the match against D.C. United fell between legs of a round-of-16 series with Mexican power Tigres in this tournament. There are no irrelevant statements in the output that affect the score negatively.",
+                        "statements": [
+                            "Based on the information provided in the document",
+                            "the anonymized entity is \"Durkin\"",
+                            "Therefore, the specific tournament or league that Durkin participated in as a competitor is the Major League Soccer (MLS)"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3660,6 +3754,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the answer provided is completely relevant to the question asked, leveraging world knowledge about the United States and its federal structure. There are no irrelevant statements in the actual output. Well done!",
+                        "statements": [
+                            "A question that requires leveraging world knowledge!",
+                            "After analyzing the document and the anonymized entity, I'm going to take a stab at the answer.",
+                            "The anonymized entity is a state in the United States, and it is mentioned as \"Fla.\" in the passage. This corresponds to the state of Florida.",
+                            "According to my world knowledge, Florida is one of the 50 states that make up the United States of America.",
+                            "Therefore, the parent organization that includes Florida as a constituent part is the United States of America, also known as the USA.",
+                            "So, my answer is: The United States of America."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3688,6 +3806,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the answer provided is completely relevant to the question asked, and there are no irrelevant statements in the actual output.",
+                        "statements": [
+                            "The passage does not mention the term \"Rechtsstaat\".",
+                            "Therefore, it cannot be answered within the document.",
+                            "More context or clarification of the question is needed."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3708,6 +3847,26 @@
                         "reason": "The score is 1.00 because the actual output fails to provide any information about Europe, which was the topic requested in the context. This indicates a complete hallucination, as the response is not grounded in the given context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not provide any information about Europe, as requested in the context.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the answer provided is completely relevant to the question asked, and there are no irrelevant statements in the actual output. The input and question are about garden gnomes and their history, while the question asks for the continent where a specific entity, [Rechtsstaat], is situated. The answer will utilize world knowledge to provide the correct continent, demonstrating a perfect understanding of the task.",
+                        "statements": [
+                            "The given document does not provide any information about the continent or location of \"Rechtsstaat\".",
+                            "It is not possible to answer this question based solely on the given document or background knowledge."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

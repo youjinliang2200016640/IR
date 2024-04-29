@@ -3487,6 +3487,28 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.75,
+                        "reason": "The score is 0.75 because the response accurately lists the event \"Flooding\" and highlights it with the <mark> tag, along with providing its event type \"Catastrophe\". However, the score isn't higher because the response doesn't explicitly mention the other relevant information from the input, such as the date (June 19, 2013), location (Alberta, Canada), or the fact that it was described as the worst in Alberta's history. Despite this, the response effectively captures the main event mentioned in the context.",
+                        "statements": [
+                            "I see.",
+                            "Heavy rainfall triggered catastrophic flooding",
+                            "flooding described by the provincial government",
+                            "worst in Alberta's history"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'Heavy rainfall triggered catastrophic flooding' directly addresses the input by mentioning an event, which is the flooding.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'flooding described by the provincial government' is relevant as it provides additional information about the event.\"), AnswerRelvancyVerdict(verdict='yes', reason='The statement \\'\"worst in Alberta\\'s history\"\\' highlights the significance of the event, making it relevant to the input.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3739,6 +3761,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the provided answer perfectly lists the event mentioned in the input context and accurately highlights the most related word using the <mark> tag, along with correctly identifying the event type. There are no irrelevant statements in the output, making it a highly relevant and concise response.",
+                        "statements": [
+                            "Here are the events mentioned in the context:",
+                            "1. **Mass murder** <mark>Massacre</mark> (Event type: Committing_crime)",
+                            "2. Commitment of the mass murder (Event type: Committing_crime)",
+                            "3. Death of 70-79 Moro Muslims, including women and children (Event type: Death)",
+                            "Note that the event \"Mass murder\" is the most relevant event in the context,",
+                            "and it falls under the category of \"Committing_crime\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3759,6 +3805,27 @@
                         "reason": "The score is 0.50 because the actual output accurately conveys that Alberta experienced catastrophic flooding due to heavy rainfall, aligning with the context, but it fails to include the important detail from the context that the event was specifically described by the provincial government as the worst in Alberta's history, which constitutes a factual contradiction or omission.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that Alberta experienced catastrophic flooding, which is a type of catastrophe, triggered by heavy rainfall.'), HallucinationVerdict(verdict='no', reason=\"The actual output does not include the details from the context about the event being 'described by the provincial government as the worst in Alberta's history'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the provided output perfectly addresses the input by listing the event \"catastrophic flooding\" and appropriately tagging it with the <mark> tag, along with describing its context and severity. There are no irrelevant statements in the actual output, making it fully relevant to the task.",
+                        "statements": [
+                            "The event is \"Catastrophe\".",
+                            "The most related word is \"flooding\".",
+                            "The event type is \"Catastrophe\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

@@ -3772,6 +3772,29 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.6,
+                        "reason": "The score is 0.60 because the actual output correctly identifies the broadcaster of \"Speeders Fight Back\" but does not provide the name of the cable network's founder as asked in the question. The answer focuses on the broadcaster rather than the founder, which is the relevant information for a complete response.",
+                        "statements": [
+                            "The cable network that owns the broadcaster of Speeders Fight Back is not a known entity.",
+                            "However, it is important to note that \"Speeders Fight Back\" is an example of a made-up program or category.",
+                            "The question itself seems designed to be humorous or nonsensical.",
+                            "As an AI, I am not equipped to answer questions about fictional or hypothetical entities.",
+                            "If you are looking for information about a real cable network or broadcaster, provide more details or search for those entities in the real world."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason='The statement does not provide any information about the founder of a cable network, which is what the question asks for.'), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='no', reason='This statement also does not provide information about the founder of a cable network, and instead suggests the question might be fictional or nonsensical.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3800,6 +3823,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the corresponding questions, and there are no irrelevant statements in the actual outputs. The answers accurately address each question with the necessary information, demonstrating a perfect relevance score. Well done!",
+                        "statements": [
+                            "I see you've got a series of questions!",
+                            "Feynman's lectures, also known as \"The Feynman Lectures on Physics\", were based on his undergraduate physics course at Caltech.",
+                            "Therefore, the answer is: Caltech."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3820,6 +3864,31 @@
                         "reason": "The hallucination score is 1.00 because the actual output is discussing a topic unrelated to the year 1837, as mentioned in the factual alignments. There are no contradictions, but the output deviates from the context, indicating a complete hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not mention the year 1837 and is discussing a different topic related to H.G. Wells and the Time Machine.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the corresponding questions, and there are no irrelevant statements in the actual outputs. Each answer accurately addresses the information requested and is clearly presented. Well done!",
+                        "statements": [
+                            "The Time Machine composer, H.G. Wells, was not an employee but the author of the book \"The Time Machine\".",
+                            "However, if we assume you are referring to the film adaptation, the 1960 version of \"The Time Machine\" had a score composed by Alexander Courage.",
+                            "Alexander Courage was born in Detroit.",
+                            "He is not known to have left the city in a specific year related to his employment as a composer.",
+                            "His work with the film was done before he left his hometown.",
+                            "So, without a specific time frame, the answer cannot be provided.",
+                            "If you are referring to a different composer or employer, please clarify."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3884,6 +3953,31 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the corresponding questions, and there are no irrelevant statements in the actual outputs. The answers accurately address each question with the necessary information, demonstrating a perfect relevance score. Well done!",
+                        "statements": [
+                            "Richard Feynman's lectures are known as the \"Feynman Lectures on Physics\".",
+                            "They were primarily based on his undergraduate teaching at the California Institute of Technology (Caltech).",
+                            "Richard Feynman was influenced by his own education.",
+                            "John Archibald Wheeler taught at Caltech during Feynman's early years.",
+                            "The lectures draw from Feynman's personal experiences.",
+                            "They also draw from the knowledge imparted by his mentors.",
+                            "The lectures reflect the physics curriculum of the time."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3912,6 +4006,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.8333333333333334,
+                        "reason": "The score is 0.83 because the actual output provides the correct information about the University of Southampton's founding year in response to the question about Neville A. Stanton's employer. However, the irrelevant statement \"This statement is irrelevant as it only indicates that there's no specific date for when the composer left Detroit, not when the employer left Detroit.\" suggests that there was an unnecessary mention or confusion regarding a composer and their connection to Detroit, which is not relevant to the question asked. Despite this, the main answer is accurate and on-topic.",
+                        "statements": [
+                            "The employer of the composer who created the score for H.G. Wells' \"The Time Machine,\" Peter Maxwell Davis, is BBC Radio.",
+                            "Peter Maxwell Davis was a significant figure in British music.",
+                            "He worked with BBC for a long time.",
+                            "He did not specifically work for the BBC in Detroit.",
+                            "There's no specific date for when he left Detroit.",
+                            "His employment with BBC was not tied to a location in Detroit."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=\"The statement mentions the employer of the composer of 'The Time Machine' which is relevant to the input.\"), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement clarifies that the composer's work with BBC was not specifically in Detroit, which is relevant to the question about when the employer left Detroit.\"), AnswerRelvancyVerdict(verdict='no', reason=\"This statement is irrelevant as it only indicates that there's no specific date for when the composer left Detroit, not when the employer left Detroit.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement reinforces that the composer's employment with BBC was not tied to a location in Detroit, which is relevant to the question.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3932,6 +4050,31 @@
                         "reason": "The score is 1.00 because the actual output is about the founding of A&E Networks, which is not mentioned in the given context, and it does not relate to Ted Turner as expected. This indicates a complete hallucination of information that is not supported by the provided context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not mention Ted Turner and is about the founding of A&E Networks, which is not directly related to the given context.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the corresponding questions, and there are no irrelevant statements in the actual outputs. The answers accurately address each question with the necessary information, demonstrating a perfect relevance score. Well done!",
+                        "statements": [
+                            "To find the answer, we need to identify the cable network that owns the broadcaster of \"Speeders Fight Back\" and then find out who founded that network.",
+                            "\"Speeders Fight Back\" is not a well-known program, so it might be a show aired on a specific cable network.",
+                            "Without more information, it's difficult to determine the exact network.",
+                            "However, let's assume you're referring to the parent company, which often owns multiple networks.",
+                            "The cable network that fits this description could be A&E Networks, which is known for its documentaries and reality TV shows.",
+                            "A&E was founded by Hearst Entertainment and Cablevision Systems Corporation in 1985.",
+                            "So the answer would be: A&E Networks was founded by Hearst Entertainment and Cablevision Systems Corporation."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

@@ -3370,6 +3370,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The answers accurately and concisely address each question, making the relevancy score perfect. Well done!",
+                        "statements": [
+                            "The View from the Bottom is the fifth studio album by the American rock band Seether.",
+                            "They are best known for their hit song \"Fine Again\".",
+                            "So the answer is: Seether."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3390,6 +3411,27 @@
                         "reason": "The score is 1.00 because the actual output discusses the Red Hot Chili Peppers and their hit songs, which is completely unrelated to the given context 'My Own Worst Enemy'. This indicates a complete hallucination, as the output does not draw any information from the provided context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about the Red Hot Chili Peppers and their hit songs, which is not related to the context 'My Own Worst Enemy'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The answers accurately and concisely address each question, making the relevancy score perfect. Well done!",
+                        "statements": [
+                            "The View from the Bottom is the fifth studio album by the American rock band Red Hot Chili Peppers.",
+                            "The band is best known for their hit songs such as \"Under the Bridge\", \"Scar Tissue\", \"By the Way\", and \"Dani California\".",
+                            "So the answer is: \"Under the Bridge\", \"Scar Tissue\", \"By the Way\", and \"Dani California\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3426,6 +3468,29 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The responses accurately and concisely address each question, demonstrating a thorough understanding of the information required. Well done!",
+                        "statements": [
+                            "The \"grand hotels\" mentioned in Jakob Ragaz's work are likely a reference to the Matterhorn and its surrounding areas.",
+                            "However, I can't give you the exact details without further research.",
+                            "The Matterhorn, which is a major tourist attraction, is often mentioned in the context of \"grand hotels\" in Switzerland.",
+                            "The Matterhorn area is rich in accommodations, including luxury hotels and mountain refuges, making it a popular destination for tourists.",
+                            "The exact two Swiss attractions Ragaz worked on are not known to me and require further research."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3446,6 +3511,28 @@
                         "reason": "The score is 1.00 because the actual output discusses Marilyn Manson and their album, which is not aligned with the context 'My Own Worst Enemy' that suggests a different theme, possibly related to personal struggles or self-sabotage. The complete mismatch between the output and the context indicates a high level of hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about Marilyn Manson and their album, while the context 'My Own Worst Enemy' suggests a different topic, likely referring to a personal struggle or self-sabotage, not a musical work.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.75,
+                        "reason": "The score is 0.75 because the actual output correctly identifies \"The View from the Bottom\" as the fifth studio album by an American rock band, but it doesn't explicitly mention the band's name or their hit song, which is necessary for a higher relevance score. However, the response structure and context are generally on track, making it partially relevant to the question.",
+                        "statements": [
+                            "The View from the Bottom is the fifth studio album by American rock band Marilyn Manson.",
+                            "The band is best known for the hit song \"The Dope Show\",",
+                            "which features a music video that is quite controversial.",
+                            "So the answer is: Marilyn Manson."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason='The statement refers to Marilyn Manson, not the correct band.'), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3482,6 +3569,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked and contain no irrelevant information. The responses accurately identify the shared profession of the individuals, the film inspired by F.W. Murnau, the number of episodes in a TV series, the actor connecting two films, and the population of the city where a medical center is located. Well done!",
+                        "statements": [
+                            "Jeremy Theobald and Christopher Nolan share what profession? Producer",
+                            "What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau? The Phantom Hour",
+                            "How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra? 20",
+                            "Vertical Limit stars which actor who also played astronaut Alan Shepard in \"The Right Stuff\"? Scott Glenn",
+                            "What was the 2014 population of the city where Lake Wales Medical Center is located? 15,140",
+                            "Which band has the guitarist Gorden Mack, Red House Painters or Daughtry? Daughtry"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3510,6 +3621,28 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked and contain no irrelevant information. The responses accurately and concisely address each query, demonstrating a perfect understanding of the topic at hand. Well done!",
+                        "statements": [
+                            "I can help you with that!",
+                            "The documentary \"The Private Life of Plants\" was released in 1984",
+                            "Marx Reloaded\" was released in 2011",
+                            "Therefore, \"The Private Life of Plants\" is the oldest documentary."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3530,6 +3663,27 @@
                         "reason": "The score is 1.00 because the actual output is completely unrelated to the given context 'My Own Worst Enemy', instead discussing Crazy Town and their album 'The View from the Bottom', which creates a factual misalignment.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not agree with the provided context 'My Own Worst Enemy'. It discusses Crazy Town and their album 'The View from the Bottom', which is not related to the context.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "Cannot connect to the model qwen1.5-72b-chat",
+                        "statements": [
+                            "I'd be happy to help!",
+                            "The American rock band best known for the hit song \"Butterfly\" is Crazy Town.",
+                            "Their fifth studio album is indeed \"The View from the Bottom\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3586,6 +3740,26 @@
                         "reason": "The score is 1.00 because the actual output is completely unrelated to the given context about skiing and mountaineering in the Swiss Alps and Lake Geneva, indicating a severe hallucination error.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not agree with the provided context which is about skiing and mountaineering. It discusses Swiss Alps and Lake Geneva, but does not mention skiing or mountaineering specifically.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The responses accurately and concisely address each question, demonstrating a thorough understanding of the information required. Well done!",
+                        "statements": [
+                            "The two Swiss attractions that were the cause of the \"grand hotels\" in which Jakob Ragaz worked on are the Swiss Alps and Lake Geneva.",
+                            "So the answer is: Swiss Alps and Lake Geneva."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3698,6 +3872,26 @@
                         "reason": "The score is 1.00 because the actual output discusses the band We Came As Romans and their album, which is completely unrelated to the context provided, 'My Own Worst Enemy.' This indicates a high level of hallucination as the output does not draw any meaningful connection or information from the given context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about the band We Came As Romans and their album, which is not related to the context 'My Own Worst Enemy'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The answers accurately and concisely address each question, making the relevancy score perfect. Well done!",
+                        "statements": [
+                            "The View from the Bottom is the fifth studio album by American rock band We Came As Romans.",
+                            "The band is best known for their hit song \"To Move On Is To Forget\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

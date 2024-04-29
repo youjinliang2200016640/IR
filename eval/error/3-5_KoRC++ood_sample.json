@@ -22,27 +22,6 @@
                     }
                 }
             ]
-        },
-        {
-            "id": "f3de5d0973619c504e9e9508c0faba4f6a5618cfabd36742bbf8e6e068606fb1",
-            "AnswerModel": "llama-2-7b-chat",
-            "input": "You are given one document and one anonymized real-world entity with one or more mentions in the passage. Then we will ask your a question about this anonymized entity. The questions cannot be answered solely within the document or the background knowledge. Your task is to leverage world knowledge you have like Wikipedia or wikidata as background knowledge combined with the given document to answer the question related to the anonymized entity. You must output all answers in the end.\nJos\u00e9 Mar\u00eda ( abbreviated Jos\u00e9 M\u00aa ) is a Spanish language male given name , usually considered a single given name rather than two names , and is a combination of the Spanish names of [human A] and Mary , the parents of Jesus Christ .The separate names \" Jos\u00e9 \" for males and \" Mar\u00eda \" for females also exist in the Spanish language .They can also combine in the inverse order forming the female name \" Mar\u00eda Jos\u00e9 \" ( M.\u00aa Jos\u00e9 ) ; that is , the gender of the compound names \" Jos\u00e9 Mar\u00eda \" and \" Mar\u00eda Jos\u00e9 \" is determined by their first component .The name \" Jos\u00e9 Mar\u00eda \" is colloquially shortened to \" Jos\u00e9 Mari \" , \" Josema \" or replaced by the hypocoristic forms \" Chema \" or \" Chemari \" .\" Jos\u00e9 Mar\u00eda \" , with its Portuguese language equivalent Jos\u00e9 Maria ( notice the absence of the acute accent over the i in the Portuguese version ) is a common name , and many famous people have this name or a similar one :\n\nQuestion: Can you tell me where human A was born?",
-            "actual_output": "  I cannot answer your question based solely on the given document. The document only provides information about the name \"Jos\u00e9 Mar\u00eda\" and its composition, as well as its various colloquial shortenings. It does not provide any information about the birthplace of \"human A.\"\nTo answer your question, I would need to leverage background knowledge from external sources, such as Wikipedia or Wikidata. According to Wikidata, Jos\u00e9 Mar\u00eda is a common name in many countries, including Spain, Portugal, and many Latin American countries. Therefore, it is possible that \"human A\" was born in any of these countries. However, without further information, I cannot provide a specific answer to your question.",
-            "expected_output": "\"Nazareth\" <stop> \n\n",
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Answer Relevancy"
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
         }
     ]
 }

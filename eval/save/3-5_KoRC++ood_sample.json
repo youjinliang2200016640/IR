@@ -4013,6 +4013,31 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the input provides relevant information about the origin of the name Jos\u00e9 Mar\u00eda, which combines the names of [human A] and Mary, but it does not provide any information about where [human A] was born. Since the question asks for [human A]'s birthplace and the passage doesn't contain that data, the score cannot be higher. However, the answer is entirely relevant to the task, which is to find information about the anonymized entity using world knowledge.",
+                        "statements": [
+                            "I cannot answer your question based solely on the given document.",
+                            "The document only provides information about the name \"Jos\u00e9 Mar\u00eda\" and its composition, as well as its various colloquial shortenings.",
+                            "It does not provide any information about the birthplace of \"human A.\"",
+                            "To answer your question, I would need to leverage background knowledge from external sources, such as Wikipedia or Wikidata.",
+                            "Jos\u00e9 Mar\u00eda is a common name in many countries, including Spain, Portugal, and many Latin American countries.",
+                            "Therefore, it is possible that \"human A\" was born in any of these countries.",
+                            "However, without further information, I cannot provide a specific answer to your question."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         }

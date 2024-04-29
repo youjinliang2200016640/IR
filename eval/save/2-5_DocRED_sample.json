@@ -2847,6 +2847,48 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the input by extracting relevant relations from the text and presenting them in the required format, without including any irrelevant information. The relations are all pertinent to the Jakarta International Film Festival, its history, participants, and context within Indonesia.",
+                        "statements": [
+                            "Jakarta International Film Festival has part Indonesia.",
+                            "Jakarta International Film Festival held in Jakarta.",
+                            "Jakarta International Film Festival inception year 1999.",
+                            "Jakarta International Film Festival number of Indonesian films shown 100.",
+                            "Jakarta International Film Festival hosted Indonesian Feature Film Competition.",
+                            "Indonesian Feature Film Competition jury foreign film professionals.",
+                            "Jakarta International Film Festival script development competition winner Wahyu Aditya.",
+                            "Wahyu Aditya year of winning 2004.",
+                            "Jakarta International Film Festival script development competition winner Tumpal Tampubolon.",
+                            "Tumpal Tampubolon year of winning 2005.",
+                            "Jakarta International Film Festival script development competition winner Salman Aristo.",
+                            "Salman Aristo year of winning 2006.",
+                            "Salman Aristo notable work Ayat-Ayat Cinta.",
+                            "Salman Aristo notable work Laskar Pelangi.",
+                            "Salman Aristo notable work Garuda di Dadaku.",
+                            "Jakarta International Film Festival script development competition winner Yuli Andari Merdekaningtyas.",
+                            "Yuli Andari Merdekaningtyas year of winning 2006.",
+                            "Yuli Andari Merdekaningtyas notable work Suster Apung.",
+                            "Suster Apung award won Eagle Awards Metro TV.",
+                            "Suster Apung year of winning award 2006.",
+                            "Jakarta International Film Festival financial situation shaky.",
+                            "Jakarta International Film Festival funding source foreign donors.",
+                            "Jakarta International Film Festival hoping to continue by switching funding source.",
+                            "Jakarta International Film Festival hoping to continue to government grants and private donations."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2875,6 +2917,45 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly aligns with the input, extracting relevant relations from the text and presenting them in the required format. There are no irrelevant statements, and all the information provided is directly related to the topic of companies in France, including details about its economy, global rankings, and notable companies. The output adheres to the predefined set of relations, making it a highly relevant answer.",
+                        "statements": [
+                            "entity0 France - country",
+                            "entity0 France - contains administrative territorial entity",
+                            "entity1 Europe - administrative territorial entity",
+                            "entity2 Group of 7 - member",
+                            "entity3 G8 - former member",
+                            "entity4 EU - organization",
+                            "entity5 31 - ordinal number",
+                            "entity6 500 - ordinal number",
+                            "entity7 2015 - point in time",
+                            "entity8 Fortune Global 500 - award received",
+                            "entity9 Germany - country",
+                            "entity10 UK - country",
+                            "entity11 World Trade Organization - organization",
+                            "entity12 2009 - point in time",
+                            "entity13 French - nationality",
+                            "entity14 AXA - company",
+                            "entity15 BNP Paribas - company",
+                            "entity16 Cr\u00e9dit Agricole - company",
+                            "entity17 2010 - point in time",
+                            "entity18 Soci\u00e9t\u00e9 G\u00e9n\u00e9rale - company",
+                            "entity19 Business entities in France - work location"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity0 France - country' directly identifies the main subject of the text, which is the country France.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity0 France - contains administrative territorial entity' is relevant as it describes the territorial composition of France.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity1 Europe - administrative territorial entity' is relevant as it identifies the continent where France is located.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity2 Group of 7 - member' is relevant as it describes France's membership in an important international group.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity3 G8 - former member' is relevant as it provides historical context about France's participation in another group.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity4 EU - organization' is relevant as it identifies the European Union, an organization France is a part of.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity5 31 - ordinal number' is relevant as it refers to the number of companies in France in a specific ranking.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity6 500 - ordinal number' is relevant as it refers to the size of the ranking of companies.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity7 2015 - point in time' is relevant as it denotes the year when a specific ranking was calculated.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity8 Fortune Global 500 - award received' is relevant as it refers to a prestigious ranking of companies.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity9 Germany - country' is relevant as it provides a comparison with another country in terms of economic ranking.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity10 UK - country' is relevant as it provides a comparison with another country in terms of economic ranking.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity11 World Trade Organization - organization' is relevant as it identifies an international organization related to trade.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity12 2009 - point in time' is relevant as it denotes the year for a specific trade statistic.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity13 French - nationality' is relevant as it refers to the nationality of the companies mentioned.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity14 AXA - company' is relevant as it is an example of a major French company.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity15 BNP Paribas - company' is relevant as it is another example of a major French company.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity16 Cr\u00e9dit Agricole - company' is relevant as it is another example of a major French company.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity17 2010 - point in time' is relevant as it denotes the year for a specific ranking of banks.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity18 Soci\u00e9t\u00e9 G\u00e9n\u00e9rale - company' is relevant as it is another example of a major French company.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'entity19 Business entities in France - work location' is relevant as it refers to a source for information on French business entities.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2895,6 +2976,40 @@
                         "reason": "The hallucination score is 1.00 because the actual output does not contain any information that aligns with or contradicts the specific entity relationships described in the given contexts. It only discusses details about a song and related events, thus failing to address the relevant context, resulting in a complete hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not provide information that directly relates to the given contexts which describe relationships between entities. The output only provides details about a song, its writers, producers, release dates, and related events, but not the specific entity relationships mentioned in the contexts.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly follows the demonstration, extracting relevant relations from the input text and formatting them according to the predefined set of relations. There are no irrelevant statements, making the output highly relevant and accurate. Well done!",
+                        "statements": [
+                            "Have You Ever Been in Love recorded by Celine Dion",
+                            "Have You Ever Been in Love included on A New Day Has Come",
+                            "Have You Ever Been in Love included on One Heart",
+                            "Have You Ever Been in Love written by Anders Bagge",
+                            "Have You Ever Been in Love written by Peer \u00c5str\u00f6m",
+                            "Have You Ever Been in Love written by Tom Nichols",
+                            "Have You Ever Been in Love written by Daryl Hall",
+                            "Have You Ever Been in Love written by Laila Bagge",
+                            "Have You Ever Been in Love produced by Bagge & Peer",
+                            "Have You Ever Been in Love released on 14 April 2003",
+                            "Have You Ever Been in Love released on One Heart",
+                            "Have You Ever Been in Love released as the third single in selected European countries",
+                            "Have You Ever Been in Love spent fourteen weeks at number 2 on the US Hot Adult Contemporary Tracks",
+                            "Have You Ever Been in Love shot between 29\u201330 April 2003",
+                            "Have You Ever Been in Love shot in Los Angeles",
+                            "Have You Ever Been in Love released on 2 June 2003"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=\"The statement directly relates to the song 'Have You Ever Been in Love' and its artist, Celine Dion.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement is relevant as it mentions the inclusion of the song on the album 'A New Day Has Come'.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement is relevant as it mentions the inclusion of the song on the album 'One Heart'.\"), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it identifies one of the songwriters, Anders Bagge.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it identifies one of the songwriters, Peer \u00c5str\u00f6m.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it identifies one of the songwriters, Tom Nichols.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it identifies one of the songwriters, Daryl Hall.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it identifies one of the songwriters, Laila Bagge.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it mentions the production team, Bagge & Peer.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it provides the release date of the song.'), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement is relevant as it relates the song to the album 'One Heart' and its release as a single.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement is relevant as it specifies the song's release as the third commercial single in selected European countries.\"), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it provides chart performance information for the song.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it gives the shooting dates for the music video.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it mentions the location where the music video was shot.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement is relevant as it provides the release date of the music video.')]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2951,6 +3066,35 @@
                         "reason": "The hallucination score is 1.00 because the actual output fails to include any of the specific relations mentioned in the context, such as '(entity0, part of, entity4)' and '(entity0, performer, entity2)', indicating a complete misalignment between the output and the provided information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not mention the specific relations given in the context, such as '(entity0,part of,entity4)', '(entity0,performer,entity2)', and others.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly follows the demonstration, extracting relevant relations from the input text and formatting them according to the predefined set of relations. There are no irrelevant statements, making the output highly relevant and accurate. Well done!",
+                        "statements": [
+                            "Here are the relations in the predefined set of relations in the above text:",
+                            "<entity0, \"instance of\", <entity1>",
+                            "<entity1, \"country\", <entity2>",
+                            "<entity3, \"original language of work\", <entity4>",
+                            "<entity5, \"publication date\", <entity6>",
+                            "<entity14, \"producer\", <entity15>",
+                            "<entity16, \"release date\", <entity17>",
+                            "<entity18, \"release date\", <entity19>",
+                            "<entity20, \"number of weeks\", <entity21>",
+                            "<entity22, \"date of filming\", <entity23>",
+                            "<entity24, \"date of release\", <entity25>"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3035,6 +3179,36 @@
                         "reason": "The hallucination score is 1.00 because the actual output consistently mentions numerical relationships and specific entities that are not present or relevant to the given context, which focuses on entity relationships like 'part of', 'performer', and 'publication date'. This indicates a complete lack of alignment between the output and the context, leading to a high hallucination score.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\"), HallucinationVerdict(verdict='no', reason=\"The actual output does not directly relate to the given context which discusses relationships between entities such as 'part of', 'performer', 'publication date', etc. The output mentions numerical relationships and specific entities not found in the context.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly follows the demonstration, extracting relevant relations from the input text and formatting them according to the predefined set of relations. There are no irrelevant statements, making the output highly relevant and accurate. Well done!",
+                        "statements": [
+                            "(1, included in, 7)",
+                            "(1, album, 4)",
+                            "(1, written by, 9, 10, 11, 12, 13)",
+                            "(14, produced by, 1)",
+                            "(2, record label, 3)",
+                            "(7, released as single in, 17, 1)",
+                            "(7, released as single in, 19, entity19)",
+                            "(14, country of citizenship, 2)",
+                            "(3, genre, \"power ballad\")",
+                            "(20, weeks at #2 on chart, 21)",
+                            "(22, location of music video shoot, 23)",
+                            "(24, release date of music video, 24)"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

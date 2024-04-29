@@ -29,6 +29,23 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The hallucination score is 1.00 because the actual output asks for a relation from an unspecified list, which is not mentioned or supported by any information in the given context. This indicates that the model has generated content that is not grounded in the provided facts, leading to a complete hallucination.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not provide any relation as specified in the context. It only asks for a relation from a list, but no such list is given in the context.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3108,6 +3125,50 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.9230769230769231,
+                        "reason": "The score is 0.92 because the actual output mostly contains relevant relations from the given input text, but it includes a factually incorrect statement about the Star Wars characters: \"entity2 Anakin entity2 took a big gulp of air and swallowed it.\" This statement is irrelevant to the predefined relations and lowers the score slightly. However, the majority of the output is on point, extracting relations like \"parent\", \"child\", and \"spouse\" which are directly related to the context of the input.",
+                        "statements": [
+                            "Anakin\u662fLuke\u7684\u7236\u4eb2",
+                            "Padm\u00e9\u662fLuke\u7684\u6bcd\u4eb2",
+                            "Anakin\u662fLuke\u7684\u513f\u5b50",
+                            "Anakin\u662fLuke\u7684\u513f\u5b50",
+                            "Tatooine\u662fAnakin\u7684\u6545\u4e61",
+                            "Tatooine\u662fLuke\u7684\u6545\u4e61",
+                            "\u6c99\u6f20\u661f\u7403\u662fAnakin\u7684\u5730\u70b9",
+                            "\u6c99\u6f20\u661f\u7403\u662fLuke\u7684\u5730\u70b9",
+                            "\u706b\u661f\u57ce\u5e02\u662fAnakin\u7684\u5730\u70b9",
+                            "\u706b\u661f\u57ce\u5e02\u662fLuke\u7684\u5730\u70b9",
+                            "\u8fc7\u53bb\u662fAnakin\u7684\u65f6\u95f4",
+                            "\u8fc7\u53bb\u662fLuke\u7684\u65f6\u95f4",
+                            "\u73b0\u5728\u662fAnakin\u7684\u65f6\u95f4",
+                            "\u73b0\u5728\u662fLuke\u7684\u65f6\u95f4",
+                            "\u672a\u6765\u662fAnakin\u7684\u65f6\u95f4",
+                            "\u672a\u6765\u662fLuke\u7684\u65f6\u95f4",
+                            "Anakin\u7684\u804c\u4e1a\u662f\u7edd\u5730\u6b66\u58eb",
+                            "Anakin\u7684\u804c\u4e1a\u662f\u98de\u884c\u5458",
+                            "Luke\u7684\u804c\u4e1a\u662f\u7edd\u5730\u6b66\u58eb",
+                            "Luke\u7684\u804c\u4e1a\u662f\u5b66\u8005",
+                            "\u5206\u79bb\u662fAnakin\u7684\u4e8b\u4ef6",
+                            "\u5206\u79bb\u662fLuke\u7684\u4e8b\u4ef6",
+                            "\u91cd\u9022\u662fAnakin\u7684\u4e8b\u4ef6",
+                            "\u91cd\u9022\u662fLuke\u7684\u4e8b\u4ef6",
+                            "\u6b7b\u4ea1\u662fAnakin\u7684\u4e8b\u4ef6",
+                            "\u6b7b\u4ea1\u662fLuke\u7684\u4e8b\u4ef6"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'Anakin\u662fLuke\u7684\u513f\u5b50' is factually incorrect and does not follow the predefined relations.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'Anakin\u662fLuke\u7684\u513f\u5b50' is factually incorrect and does not follow the predefined relations.\"), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3556,6 +3617,48 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly follows the demonstration, extracting relations from the given text and formatting them according to the predefined set of relations. There are no irrelevant statements, and the output is directly related to the task at hand. Well done!",
+                        "statements": [
+                            "entity0 Raph and entity1 Leo are siblings.",
+                            "entity0 Raph and entity2 Donnie are siblings.",
+                            "entity0 Raph and entity3 Gram Gram are related.",
+                            "entity1 Leo has a room.",
+                            "entity1 Leo has blankets.",
+                            "entity1 Leo has a bed.",
+                            "entity1 Leo has a teddy bear.",
+                            "entity1 Leo has a picture of the family.",
+                            "entity1 Leo has a bedside table.",
+                            "entity1 Leo has comics.",
+                            "entity1 Leo has shelves.",
+                            "entity1 Leo has a comic book.",
+                            "entity1 Leo has a Christmas present.",
+                            "entity2 Donnie and entity1 Leo are siblings.",
+                            "entity2 Donnie has comics.",
+                            "entity2 Donnie has issues.",
+                            "entity2 Donnie has figures.",
+                            "entity2 Donnie has a comic book.",
+                            "entity2 Donnie and entity1 Leo have arguments.",
+                            "entity3 Gram Gram is related to entity0 Raph and entity1 Leo.",
+                            "entity4 pops is related to entity0 Raph.",
+                            "entity5 splinter is related to entity0 Raph and entity1 Leo.",
+                            "entity6 Christmas is a holiday.",
+                            "entity7 Big Red is a nickname for entity0 Raph."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3744,6 +3847,59 @@
                         "reason": "The hallucination score is 1.00 because the actual output lacks multiple pieces of information that are present in the contexts. It does not mention entity0's role as the head of government of entity1, the specific country entity1, entity0's country of citizenship, entity1 applying to the jurisdiction of entity0, relationships between entity4, entity5, and entity0, and the fact that entity7 is a country or its connection with entity0. The absence of these contextual details indicates a high level of hallucination in the output.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not contain information about entity0 being the head of government of entity1, as stated in the context.'), HallucinationVerdict(verdict='no', reason='The actual output does not specify the country entity1, which is required to match the context.'), HallucinationVerdict(verdict='no', reason=\"The actual output does not mention entity0's country of citizenship, as stated in the context.\"), HallucinationVerdict(verdict='no', reason='The actual output does not provide information about entity1 applying to the jurisdiction of entity0, as stated in the context.'), HallucinationVerdict(verdict='no', reason='The actual output does not include a relationship between entity4 and entity0, as mentioned in the context.'), HallucinationVerdict(verdict='no', reason='The actual output does not have a relationship between entity5 and entity0, as stated in the context.'), HallucinationVerdict(verdict='no', reason='The actual output does not mention entity7 being a country, or its relationship with entity0, as indicated in the context.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task of extracting relations from the given text and adheres to the predefined set of relations. There are no irrelevant statements, and the output is concise and relevant to the input. Well done!",
+                        "statements": [
+                            "(United States, located in, country)",
+                            "(Biden, head of government, entity1)",
+                            "(United Network for Organ Sharing, instance of, organization)",
+                            "(European, continent, entity6)",
+                            "(Senate Finance Committee, organization, entity7)",
+                            "(FedEx, operator, organization)",
+                            "(IT operations, part of, organ transplant system)"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=\"The statement '(United States, located in, country)' is relevant as it specifies the country where the organ procurement system is being discussed.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement '(Biden, head of government, entity1)' is relevant as it mentions the administration that is proposing reforms to the system.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement '(United Network for Organ Sharing, instance of, organization)' is relevant as it identifies the organization currently overseeing the organ procurement system.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement '(European, continent, entity6)' is relevant as it is used for comparison with the performance of the organ procurement system in the United States.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement '(Senate Finance Committee, organization, entity7)' is relevant as it is mentioned in the context of an investigation related to organ transplantation.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement '(FedEx, operator, organization)' is used as an example for efficient logistics, which is relevant to the discussion of improving the organ transplant system's IT operations.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement '(IT operations, part of, organ transplant system)' is relevant as it highlights one of the areas of the system that needs improvement.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": 114,
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "Please follow the above demonstration, extract relations from the [Question text].\nNote the relation need to be in the predefined set of relations.\nThe output format required to is the same as the demonstration, format:(<entity_ID>, relation, <entity_ID>).\nThe predefined set of relations:\n{head of government, country, place of birth, place of death, father, mother, spouse, country of citizenship, continent, instance of, head of state, capital, official language, position held, child, author, member of sports team, director, screenwriter, educated at, composer, member of political party, employer, founded by, league, publisher, owned by, located in the administrative territorial entity, genre, operator, religion, contains administrative territorial entity, follows, followed by, headquarters location, cast member, producer, award received, creator, parent taxon, ethnic group, performer, manufacturer, developer, series, sister city, legislative body, basin country, located in or next to body of water, military branch, record label, production company, location, subclass of, subsidiary, part of, original language of work, platform, mouth of the watercourse, original network, member of, chairperson, country of origin, has part, residence, date of birth, date of death, inception, dissolved, abolished or demolished, publication date, start time, end time, point in time, conflict, characters, lyrics by, located on terrain feature, participant, influenced by, location of formation, parent organization, notable work, separated from, narrative location, work location, applies to jurisdiction, product or material produced, unemployment rate, territory claimed by, participant of, replaces, replaced by, capital of, languages spoken, written or signed, present in work, sibling}\n\nTitle:6433d39537cba76d182ecf07\nText: The door shut with a small click . \n entity0 Raph entity0 sighed , looking around entity1 Leo entity1 \u2019 s room , a small smile stretching on his face at the slightly messy room . \n entity1 Leo entity1 \u2019 s blankets slightly pulled back on his bed , his lights hung around the ceiling blinking dimly giving slight illumination to the room . \n The teddy bear entity0 Raph entity0 had given the second youngest when they were tots to help with his bad dreams sat next to the pillow . \n The snapping turtle walked up to the new leader's bedside table , the family picture that entity2 Donnie entity2 took of the family when entity3 Gram Gram entity3 had stayed over in the lair , lay on the oak surface \u2026 Oh how he still misses entity3 Gram Gram entity3 \u2026 but that was years ago , he \u2019 s moved on , although the pleasant feelings the memories give him won't ever go away . \n He left the photo where it was , not wanting to touch anything in the bedroom , he sat down on the bed looking down at his hands . \n He couldn \u2019 t help but keep smiling . \n The memories of him and his brothers when they were mere kids flooding his mind . \n He remembers every birthday that his brothers have ever had , even his own . \n The arguments entity2 Donnie entity2 and entity1 Leo entity1 had over the smallest things like who got top bunk for the week . \n Who got to get the JJ comics and who got the figures . \n entity1 Leo entity1 \u2019 s comics . \n They stood nicely inside their shelves , some of entity2 Donnie entity2 \u2019 s own issues mixed in with the middle childs . \n He remembers the first issue entity4 pops entity4 had ever given him . \n entity0 Raph entity0 had been there with entity5 splinter entity5 to pick out gifts for the family \u2019 s first ever entity6 Christmas entity6 ; the huge smile on entity1 Leo entity1 \u2019 s face as he opened the comic , staring wide eyed at the amazing art that was contained within its pages . \n His hands suddenly felt wet . \n He looked down , confused and not processing what was happening . \n He was crying ; tears not sad nor happy .. What was the right word ? \n Anger ? \n Shame ? Regret ? \n No it was neither of those . \n He sighed , in times like this he wishes he were more in tune with understanding what his emotions were like his youngest orange brother . \n But he was the oldest , he never had time to dwell on his emotions , having to look after and try and understand where his younger brother's minds were , he often forgot to check in with his own self . \n See how he was doing . \n \u201c You good there entity7 Big Red entity7 ?\u201d A voice laughed . \n It was entity1 Leo entity1 . \n entity0 Raph entity0 looked up and smiled . \n Quickly wiping his tears away he couldn \u2019 t help but chuckle \u201c How did I not hear the door open ? \n Ninja Mode ?\u201d He asked . \n Leo shrugged . \n \u201c Hey , you know me , ninja all day everyday \u201d the blue leader laughed , leaning up against the wall , his smile turned upside down slightly as he sighed . \n Pushing himself off the wall he made his way over to the bed taking a seat next to Raph . \n He looked at him , unspoken worry written all over his face . \n \u201c Raph \u2026 talk to me \u201d he smiled gently \u201c we leaders gotta look out for each other remember ?\u201d He nodded . \n The snapping turtle sighed \u201c W - well , I was going to come in here to ask if you could check in on Mikey and Don . \n Then I saw everything in your room I saw \u2026\u201d he hesitated \u201c I saw the picture , and all these happy memories came flooding back and I dunno I got overwhelmed with this feeling of \u2026\u201d \u201c Contentment ?\u201d Leo finished for him . \n Raph nodded . \n \u201c Yeah \u2026 that's the word \u201d He smiled . \n Another memory soon made its way into his mind . \n \u201c Hey \u2026 remember the Lair Games ?\u201d he chuckled . \n \u201c What and my undefeated record \u2026 until Don finally beat me ?\u201d He recalled , still salty about losing \u201c though I suppose it wasn't a full loss , I actually got slee \n\nRelations in the predefined set of relations in the above text:?\n",
+            "actual_output": " The predefined set of relations are:\n{head of government, country, place of birth, place of death, father, mother, spouse, country of citizenship, continent, instance of, head of state, capital, official language, position held, child, author, member of sports team, director, screenwriter, educated at, composer, member of political party, employer, founded by, league, publisher, owned by, located in the administrative territorial entity, genre, operator, religion, contains administrative territorial entity, follows, followed by, headquarters location, cast member, producer, award received, creator, parent taxon, ethnic group, performer, manufacturer, developer, series, sister city, legislative body, basin country, located in or next to body of water, military branch, record label, production company, location, subclass of, subsidiary, part of, original language of work, platform, mouth of the watercourse, original network, member of, chairperson, country of origin, has part, residence, date of birth, date of death, inception, dissolved, abolished or demolished, publication date, start time, end time, point in time, conflict, characters, lyrics by, located on terrain feature, participant, influenced by, location of formation, parent organization, notable work, separated from, narrative location, work location, applies to jurisdiction, product or material produced, unemployment rate, territory claimed by, participant of, replaces, replaced by, capital of, languages spoken, written or signed, present in work, sibling}\n\n\n\n\n",
+            "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The hallucination score is 1.00 because the actual output fails to align with the specific context provided regarding the sibling relationship between entity0 and entity2. The output does not mention this relationship, even though it is stated in the context, indicating a complete misalignment or hallucination of information.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not agree with the provided context. The context mentions specific sibling relationships between entity0 and entity2, while the output lists a wide range of relations but does not specifically mention the sibling relationship between entity0 and entity2.')]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

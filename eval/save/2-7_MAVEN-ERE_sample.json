@@ -2531,6 +2531,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": false,
+                        "score": 0.3333333333333333,
+                        "reason": "The score is 0.33 because the actual output restates the individual events without establishing a relation between them. The statements about each event being \"ended\" and \"began\" are irrelevant to the task of identifying the relation between the two events in the input. The output should have focused on analyzing the temporal or causal connection between \"defeated\" and \"ordered\" based on the context provided in the document.",
+                        "statements": [
+                            "The first event [\"defeated\"] is <Event> ended </Event>.",
+                            "The second event [\"ordered\"] is <Event> began </Event>.",
+                            "The relation type is <Event> begins-on </Event>."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason='The statement \\'The first event [\"defeated\"] is <Event> ended </Event>.\\' is irrelevant because it restates the fact that the first event is \\'defeated\\', not providing any relation to the second event.'), AnswerRelvancyVerdict(verdict='no', reason='The statement \\'The second event [\"ordered\"] is <Event> began </Event>.\\' is irrelevant because it restates the fact that the second event is \\'ordered\\', not providing any relation to the first event.'), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2551,6 +2572,32 @@
                         "reason": "The score is 1.00 because the actual output claims that people were killed in an earthquake, which directly contradicts the context stating that no one was killed. This misalignment indicates that the output has hallucinated information not supported by the given context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output discusses the relation between the events of the earthquake and people being killed, while the context states that no one was killed in the earthquake. The context does not mention any relation types.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response perfectly addresses the task of relation extraction between the two events \"killed\" and \"earthquake\" in the given document, providing a clear and direct answer that no relation is identified. The explanation is well-explained, and the answer format is correct. There are no irrelevant statements in the output.",
+                        "statements": [
+                            "For the first event (\"killed\"),",
+                            "the only possible relation type is \"before\",",
+                            "since the earthquake occurred before any people were killed.",
+                            "However,",
+                            "since there is no information on when exactly the people were killed,",
+                            "we cannot determine the exact time of this relation.",
+                            "So,",
+                            "the answer is \"Answer: [before]\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2587,6 +2634,31 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.5714285714285714,
+                        "reason": "The score is 0.57 because the actual output focuses on the 'cause' and 'precondition' relations between events, which are not relevant to the task of determining the relation between the two given \"Timex\" events. The input specifies that only the first event/\"Timex\" to the second event/\"Timex\" relation should be considered, and the provided relations are not among the valid types for \"Timex\" to \"Timex\" relations, such as \"before\", \"overlap\", \"contains\", \"simultaneous\", \"begins-on\", or \"ends-on\".",
+                        "statements": [
+                            "There is a \"cause\" relation from the assist from Vassilis Spanoulis to the win of the EuroLeague cup by Georgios Printezis.",
+                            "The assist is a cause of the result of the win.",
+                            "There is a \"precondition\" relation from the earlier part of the document to the assist.",
+                            "The assist was made during the game's last seconds.",
+                            "Spanoulis had played in the whole game.",
+                            "No relation is implied from the first event/\"Timex\" to the second event/\"Timex\".",
+                            "The second event is a part of the description of the same event."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason=\"The statement is about a 'cause' relation between the assist and the win, not between the two given events/'Timex'.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement is about a 'cause' relation between the assist and the win, not between the two given events/'Timex'.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement is about a 'precondition' relation from an earlier part of the document to the assist, not between the two given events/'Timex'.\"), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2607,6 +2679,31 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the context, confirming that there is no relation between the two events, thus demonstrating no signs of hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the provided context which states that there is no relation from the first event to the second one.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response perfectly addresses the task of relation extraction between the two events \"killed\" and \"earthquake\" in the given document, providing a clear and direct answer that no relation is identified. The explanation is well-explained, and the answer format is correct. There are no irrelevant statements in the output.",
+                        "statements": [
+                            "Sure, I can help you with that!",
+                            "There is no direct relation between the first event \"killed\" and the second event \"earthquake\".",
+                            "The first event talks about casualties.",
+                            "The second event is a geological phenomenon.",
+                            "Therefore, the answer is: []",
+                            "I hope this helps!",
+                            "Please let me know if you have any further questions or if you'd like to analyze another document."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2643,6 +2740,27 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response perfectly addresses the task of relation extraction between the two given events/Timex in the document, providing a clear and concise explanation of the thought process and the answer. There are no irrelevant statements, and the response adheres strictly to the guidelines, making it a highly relevant and accurate answer.",
+                        "statements": [
+                            "The first event/\"Timex\": May 11\u201313 , 2012",
+                            "The second event/\": receiving",
+                            "The relation type is \"simultaneous\""
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason='The statement \\'The first event/\"Timex\": May 11\u201313 , 2012\\' is relevant as it provides the first event/Timex needed to evaluate the relation.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement \\'The second event/\": receiving\\' is relevant as it provides the second event needed to evaluate the relation.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement \\'The relation type is \"simultaneous\"\\' is relevant as it directly addresses the task of identifying a relation between the two events/Timex.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2663,6 +2781,34 @@
                         "reason": "The score is 0.00 because the actual output aligns perfectly with the context by including the 'contains' relation, indicating no factual contradictions or hallucinations.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output includes the 'contains' relation, which agrees with the provided context.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response perfectly addresses the task of relation extraction between the two given events/Timex in the document, providing a clear and concise explanation of the thought process and the answer. There are no irrelevant statements, and the response adheres strictly to the guidelines, making it a highly relevant and accurate answer.",
+                        "statements": [
+                            "There are several relations that can be inferred from the given document.",
+                            "First, there is a \"before\" relation between <Timex> May 11\u201313 , 2012 </Timex> and <Event> receiving </Event>.",
+                            "The tournament was held on May 11\u201313, 2012, before the event of receiving an assist from Vassilis Spanoulis.",
+                            "There is also an \"overlap\" relation between <Timex> May 11\u201313 , 2012 </Timex> and <Event> receiving </Event>.",
+                            "The event of receiving an assist from Vassilis Spanoulis occurred during the time period of May 11\u201313, 2012.",
+                            "Additionally, there is a \"contains\" relation between <Timex> May 11\u201313 , 2012 </Timex> and <Event> receiving </Event>.",
+                            "The event of receiving an assist from Vassilis Spanoulis is contained within the time period of May 11\u201313, 2012.",
+                            "Therefore, the answer is:",
+                            "Answer: [\"before\", \"overlap\", \"contains\"]",
+                            "It's worth noting that there could be other relations that can be inferred from the context of the document, but the above three relations are the most direct and obvious ones."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2699,6 +2845,31 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the relation between the \"recordings\" event and the \"used\" event is accurately identified as a \"cause\" relation, indicating that the recordings were made and then subsequently used. There are no irrelevant statements in the output, and the relation is directly addressed based on the given document.",
+                        "statements": [
+                            "The relation between the two events is \"simultaneous\".",
+                            "The reason is that the event \"recordings\" and the event \"used\" are both referring to the same time period.",
+                            "Specifically, the time period during which Bob Marley and the Wailers were on the Burnin' Tour.",
+                            "Therefore, the answer is:",
+                            "Answer: [simultaneous]",
+                            "It's worth noting that there could be other relations between the two events as well, such as \"cause\" or \"precondition\".",
+                            "But based on the information provided in the document, the most direct and obvious relation is \"simultaneous\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=\"The statement directly addresses the relation between the two events mentioned in the input, identifying it as 'simultaneous'.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement provides additional context to support the 'simultaneous' relation, explaining that both events occurred during the same time period, which is the Burnin' Tour.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement further reinforces the 'simultaneous' relation by specifying that the events took place during the tour.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement confirms the identified relation ('simultaneous') and presents it in the expected answer format.\"), AnswerRelvancyVerdict(verdict='idk', reason=\"This statement suggests the possibility of other relations ('cause' or 'precondition'), but it doesn't provide enough information to confirm those relations.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement acknowledges that the 'simultaneous' relation is the most direct and obvious based on the information provided in the document.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2719,6 +2890,30 @@
                         "reason": "The hallucination score is 1.00 because the actual output claims a 'contains' and 'simultaneous' relationship between two events, which directly contradicts the context that specifies 'there is no relation' between them. This indicates a severe misalignment between the output and the given information, resulting in a high hallucination score.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output states that there is a 'contains' and 'simultaneous' relation between the two events, which contradicts the context that states 'there is no relation'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.5,
+                        "reason": "The score is 0.50 because the actual output includes statements that are either irrelevant or incorrect according to the given relation types. The first irrelevant statement discusses the details of the first event, 'defeated', rather than its relation to the second event, 'ordered'. The second irrelevant statement suggests a temporal relation without specifying a valid type from the provided list. Lastly, an incorrect relation type, 'contains', was mentioned, which is not applicable between the two events according to the definition. These issues prevent the score from being higher, but the attempt to identify a relation, even if incorrect, contributes to the current score.",
+                        "statements": [
+                            "The first event \"/Event> defeated</Event>\" occurred in the night of 1942.",
+                            "The second event \"<Event> ordered</Event>\" occurred once the outpost was consolidated.",
+                            "The second event occurred at the same time as the first event.",
+                            "There is a relation of \"contains\" between the two events.",
+                            "There is a relation of \"simultaneous\" between the two events.",
+                            "There are no other relation types that apply in this case."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason='The statement \\'The first event \"/Event> defeated</Event>\" occurred in the night of 1942.\\' is irrelevant because it only provides information about the first event, not its relation to the second event.'), AnswerRelvancyVerdict(verdict='no', reason='The statement \\'The second event \"<Event> ordered</Event>\" occurred once the outpost was consolidated.\\' is irrelevant because it suggests a temporal relation but does not specify a type from the given list.'), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'The second event occurred at the same time as the first event.' suggests a 'simultaneous' relation between the two events.\"), AnswerRelvancyVerdict(verdict='no', reason='The statement \\'There is a relation of \"contains\" between the two events.\\' is incorrect because \\'contains\\' is not a valid relation type between two events according to the given definition.'), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2755,6 +2950,29 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.8,
+                        "reason": "The score is 0.80 because the response accurately identifies the relation types that can exist between events and \"Timex\" and correctly acknowledges the importance of considering the relation from the first event/\"Timex\" to the second one, but it doesn't provide a direct answer to the specific document and events given. The input asks for a relation between the two mentioned events/\"Timex\" in the document, while the response doesn't address this part. However, the response does set a clear framework for understanding the task, which is why the score isn't lower.",
+                        "statements": [
+                            "Sure, I understand the task.",
+                            "Based on the given document, there are several relation types that can be established between the first event/\"Timex\" and the second event/\"Timex\".",
+                            "There are two relation types that can be established between the first event/\"Timex\" and the second event/\"Timex\".",
+                            "The first event/\"Timex\" occurs before the second event/\"Timex\".",
+                            "The time range of the first event/\"Timex\" overlaps with the time range of the second event/\"Timex\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason='The statement \\'The first event/\"Timex\" occurs before the second event/\"Timex\"\\' is relevant as it describes a \\'before\\' relation between the two events.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement \\'The time range of the first event/\"Timex\" overlaps with the time range of the second event/\"Timex\"\\' is relevant as it describes an \\'overlap\\' relation between the two events.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2775,6 +2993,31 @@
                         "reason": "The hallucination score is 1.00 because the actual output introduces a relationship between the two events ('before' and 'contains') that is not present in the provided context. This indicates that the output has generated information that is not supported by the given facts, hence it is a hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output provides a relation between the first event/'Timex' and the second event/'Timex', stating 'before' and 'contains' relations. This contradicts the context which claims there is no relation between the two events.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the relation between the \"recordings\" event and the \"used\" event is accurately identified as a \"cause\" relation, indicating that the recordings were made and then subsequently used. There are no irrelevant statements in the output, and the relation is directly addressed based on the given document.",
+                        "statements": [
+                            "Your task is to determine whether there are any specific types of relations between the first event/\"Timex\" and the second event/\"Timex\" in the given document.",
+                            "Based on the given document, I have identified the following relations between the first event/\"Timex\" and the second event/\"Timex\":",
+                            "Answer: [ before, contains ]",
+                            "Explanation:",
+                            "1. Before: The first event/\"Timex\" is earlier than the second event/\"Timex\".",
+                            "2. Contains: The second event/\"Timex\" contains the time range of the first event/\"Timex\".",
+                            "Therefore, there are two specific relation types between the first event/\"Timex\" and the second event/\"Timex\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2811,6 +3054,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response perfectly addresses the task of relation extraction between the two events \"killed\" and \"earthquake\" in the given document, providing a clear and direct answer that no relation is identified. The explanation is well-explained, and the answer format is correct. There are no irrelevant statements in the output.",
+                        "statements": [
+                            "There is a relation between the first event \"killed\" and the second event \"earthquake\"",
+                            "The earthquake caused major damage",
+                            "The earthquake resulted in the temporary closure of local gold mines",
+                            "Including the Super Pit gold mine",
+                            "The earthquake was the cause of the injuries",
+                            "The earthquake was the cause of the deaths"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'The earthquake was the cause of the injuries' indicates that the 'earthquake' caused 'killed', which is a 'cause' relation.\"), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'The earthquake was the cause of the deaths' implies that the 'earthquake' caused 'killed', which is a 'cause' relation.\"), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2831,6 +3098,29 @@
                         "reason": "The score is 1.00 because the actual output is in direct disagreement with the context provided, indicating a complete hallucination. The context states that there is a 'contains' relationship between two events, but the output denies any such connection, resulting in a perfect hallucination score.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not agree with the provided context. The context describes a 'contains' relation between two events, while the actual output suggests there is no direct relation between the events.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response perfectly addresses the task of relation extraction between the two given events/Timex in the document, providing a clear and concise explanation of the thought process and the answer. There are no irrelevant statements, and the response adheres strictly to the guidelines, making it a highly relevant and accurate answer.",
+                        "statements": [
+                            "The first event is a \"Timex\".",
+                            "The second event is \"<Event> receiving </Event>\".",
+                            "The first event is about a timeframe.",
+                            "The second event is about an action taking place within that timeframe.",
+                            "There is no direct relation between the two events."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -2867,6 +3157,30 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response perfectly addresses the task of relation extraction between the two given events/Timex in the document, providing a clear and concise explanation of the thought process and the answer. There are no irrelevant statements, and the response adheres strictly to the guidelines, making it a highly relevant and accurate answer.",
+                        "statements": [
+                            "The first event is a specific time period (May 11-13, 2012)",
+                            "The second event is an action happening during that time (receiving an assist)",
+                            "The relation between these two would likely be 'simultaneous'",
+                            "However, since 'simultaneous' is not a valid relation between a Timex and an event",
+                            "'begins-on' could be a possibility as the action of receiving might start at the beginning of the event",
+                            "Answer: Answer: [begins-on]"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'The first event is a specific time period (May 11-13, 2012)' is relevant as it describes the first 'Timex' in the input.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'The second event is an action happening during that time (receiving an assist)' is relevant as it describes the second 'Event' in the input.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'The relation between these two would likely be 'simultaneous'' is relevant as it discusses a potential relation between the two events/timex.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'However, since 'simultaneous' is not a valid relation between a Timex and an event' is relevant as it clarifies the validity of a relation type.\"), AnswerRelvancyVerdict(verdict='yes', reason='The statement \"\\'begins-on\\' could be a possibility as the action of receiving might start at the beginning of the event\" is relevant as it suggests an alternative relation type.'), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement 'Answer: Answer: [begins-on]' is relevant as it provides a conclusion based on the analysis of the relation between the two events/timex.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -2887,6 +3201,31 @@
                         "reason": "The hallucination score is 1.00 because the actual output is in direct disagreement with the provided context regarding the relationship between the two events, indicating a complete lack of alignment between the output and the factual information.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not agree with the provided context. The context states that the relation from the first event/'Timex' to the second one is 'contains', but the actual output suggests that there is no clear relation between the two events.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response perfectly addresses the task of relation extraction between the two given events/Timex in the document, providing a clear and concise explanation of the thought process and the answer. There are no irrelevant statements, and the response adheres strictly to the guidelines, making it a highly relevant and accurate answer.",
+                        "statements": [
+                            "These types of relations involve temporal relations between events or events and \"Timex\".",
+                            "In this case, the first event/\"Timex\" is a specific time period (May 11\u201313, 2012).",
+                            "The second event/\"Timex\" seems to be an action or event.",
+                            "It is not clear how these two events are related in terms of time.",
+                            "These types of relations involve cause-effect, temporal ordering, or identity.",
+                            "The first event/\"Timex\" is a specific time period, and it is not clear how this relates to the second event/\"Timex\", which seems to be an action or event.",
+                            "Based on the context and the types of relations, it is not clear if there is any specific relation between the first event/\"Timex\" and the second event/\"Timex\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=\"The statement discusses the relevance of temporal relations between events or events and 'Timex', which is directly related to the task at hand.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement provides context about the first 'Timex', which is necessary for understanding the relation extraction task.\"), AnswerRelvancyVerdict(verdict='yes', reason='The statement describes the nature of the second event, which is relevant to determining potential relations.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement acknowledges the uncertainty about the temporal relation between the two events, which is a key aspect of the task.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement highlights the different types of relations that can exist, which is directly related to the task.'), AnswerRelvancyVerdict(verdict='yes', reason=\"The statement provides additional context about the first event/'Timex' and the uncertainty about its relation to the second event/'Timex', which is relevant to the task.\"), AnswerRelvancyVerdict(verdict='yes', reason='The statement concludes that there might not be a specific relation, which is a possible outcome in the relation extraction task.')]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

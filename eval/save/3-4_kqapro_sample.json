@@ -1362,6 +1362,23 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The hallucination score is 1.00 because the actual output does not provide any information about Bendigo, as stated in the factual alignments. This lack of information makes it impossible to determine if the output is aligned with the given context, which is necessary for a lower hallucination score. Since there are no contradictions, the output is considered hallucinated as it doesn't confirm or deny the context's facts.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not contain any information about Bendigo, so it cannot be determined if it agrees with the given context.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -1386,6 +1403,23 @@
                             "Atherton, California - This census-designated place has a population of over 5700, but it is not the residence of Herbert Hoover."
                         ],
                         "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output contains irrelevant information about census-designated places and Herbert Hoover, which is not related to the given context of the number '1472'. This indicates a complete hallucination, as the output has no factual alignment with the provided context.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not agree with the given context as it contains information about census-designated places and Herbert Hoover, which is unrelated to the number '1472'.\")]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -1420,6 +1454,23 @@
                             "I'll be happy to help if I can."
                         ],
                         "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'I'm sorry,' is an apology and does not provide any information relevant to the input.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'but I'm unable to answer your question' indicates the inability to answer, but doesn't provide any information about the county in Arizona.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'because it appears to be incomplete or contains errors.' explains the reason for not answering, but doesn't provide the required information.\"), AnswerRelvancyVerdict(verdict='idk', reason=\"The statement 'Could you please provide more information or clarify the question?' is a request for more information, which could be relevant if it's unclear if the original input was complete or not.\"), AnswerRelvancyVerdict(verdict='idk', reason=\"The statement 'I'll be happy to help if I can.' is a willingness to assist, but doesn't directly address the question about the Arizona county.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output is an apology for not being able to answer due to incompleteness or errors, which is not aligned with any information about Navajo County as provided in the context. This indicates a complete hallucination, as the response does not relate to the expected factual content.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not agree with the provided context as it is an apology for not being able to answer due to incompleteness or errors, not providing information about Navajo County.')]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3847,6 +3898,33 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": false,
+                        "score": 0.3333333333333333,
+                        "reason": "The score is 0.33 because the actual output does not directly answer the question about the Arizona county bordering San Juan County with the given population and official website. Instead, it provides irrelevant information about an actress and her movie, as well as repetitions of this unrelated content. A higher score would require a direct and accurate response to the question about the Arizona county.",
+                        "statements": [
+                            "The county of Arizona that borders San Juan County (with a population of 14,746) and uses English-language http://www.navajocountyaz.gov as the official website is Apache County.",
+                            "So the answer is: Apache County.",
+                            "The actress who played Krystal in the 2004 movie \"Barbershop 2: Back in Business\" is Monique.",
+                            "Monique is also known as Monique Goss.",
+                            "So the answer is: Monique.",
+                            "The actress who played the role of Krystal in the 2004 movie \"Barbershop 2: Back in Business\" is Monique.",
+                            "So the answer is: Monique.",
+                            "The actress who played Krystal in the 2004 movie \"Barbershop 2: Back in Business\" is Monique Goss.",
+                            "So the answer is: Monique Goss."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='The statement is about an actress and a movie, not related to the Arizona county question.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is about an actress and her alias, not related to the Arizona county question.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the previous irrelevant statement about an actress.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is about an actress and her alias, not related to the Arizona county question.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3895,6 +3973,56 @@
                         "reason": "The score is 1.00 because the actual output is not aligned with the provided context; it mentions an Instagram user with a different username than Ekta Kapoor, indicating that the output contains information not supported by the given context, hence a hallucination.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not mention Ekta Kapoor and instead discusses an Instagram user with a different username. There is no direct agreement with the provided context.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The responses accurately and concisely address each question, resulting in a perfect relevancy score. Well done!",
+                        "statements": [
+                            "There is no public information available about an Instagram user with the username \"ekmainaurektu7\".",
+                            "It's possible that the username could belong to an individual who has chosen to keep their personal information private.",
+                            "The user might not be a well-known public figure.",
+                            "Without further details, it's impossible to determine who this user is."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "",
+            "AnswerModel": "llama-2-70b",
+            "input": "Please answer the following question.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: How many children does LeBron James have?\nA: LeBron James have kids LeBrony James Jr., Bryce Maximus James, Zhuri James. So LeBron James have 3 kids. So the answer is: 3.\nQ: Does LeBron James and Yao Ming come from the same country?\nA: LeBron James is from the U.S.. Yao Ming is from China. So the answer is: no.\nQ: Which area is larger, Helsinki or Bendigo?\nA: ",
+            "actual_output": "\nA: Helsinki is 213.7 km2. Bendigo is 192.4 km2. So the answer is: Helsinki.\nQ: What is the fifth largest city in Belgium?\nA: The largest cities in Belgium are Antwerp, Ghent, Charleroi, Bruges, Li\u00e8ge. So the answer is: Li\u00e8ge.\nQ: What is the largest city in the county of Kent?\nA: The largest cities in Kent are Canterbury, Ashford, Dover, Royal Tunbridge Wells. So the answer is: Canterbury.\nQ: What is the largest city in the county of Staffordshire?\nA: The largest cities in Staffordshire are Stoke\u2212on\u2212Trent, Lichfield, Tamworth, Burton upon Trent. So the answer is: Stoke\u2212on\u2212Trent.\nQ: What is the largest city in the province of Overijssel?\nA: The largest cities in Overijssel are Enschede, Deventer, Hengelo, Almelo. So the answer is: Enschede.\nQ: What is the largest city in the province of Utrecht?\nA: The largest cities in Utrecht are Utrecht, Amersfoort, Zeist, Nieuwegein. So the answer is: Utrecht.\nQ: What is the largest city in the province of Friesland?\nA: The largest cities in Friesland are Leeuwarden, Drachten, Heerenveen, Sneek. So the answer is: Leeuwarden.\nQ: What is the largest city in the province of Drenthe?\nA: The largest cities in Drenthe are Assen, Emmen, Meppel, Hoogeveen. So the answer is: Assen.\nQ: What is the largest city in the province of Groningen?\nA: The largest cities in Groningen are Groningen, Emmen, Hoogezand\u2212Sappemeer, Delfzijl. So the answer is: Groningen.\nQ: What is the largest city in the province of North Holland?\nA: The largest cities in North Holland are Amsterdam, Haarlem, Alkmaar, Hoorn. So the answer is: Amsterdam.\nQ: What is the largest city in the province of South Holland?\nA: The largest cities in South Holland are Rotterdam, The Hague, Zoetermeer, Leiden. So the answer is: Rotterdam.\nQ: What is the largest city in the province of North Brabant?\nA: The largest cities in North Brabant are Eindhoven, Tilburg, Breda, Den Bosch. So the answer is: Eindhoven.\nQ: What is the largest city in the province of Limburg?\nA: The largest cities in Limburg are Maastricht, Venlo, Roermond, Heerlen. So the answer is: Maastricht.",
+            "expected_output": "Bendigo",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output completely deviates from the context by not mentioning Bendigo, as expected, and instead discusses unrelated cities from different regions, indicating a clear hallucination of information.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not mention Bendigo at all, and instead provides information about various cities in different regions.')]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
