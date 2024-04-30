@@ -3843,6 +3843,36 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "1_low_freq_ent9169",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Please give answers to the following questions about knowledge. Note: If there are more than one answer, print them all and separate them with a semicolon (;). Please do not give anything other than the answers.\nWhat is the taxon rank of Vachonisia?",
+            "actual_output": "The taxon rank of Vachonisia is \\\"genus\\\".",
+            "expected_output": "genus",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output directly and accurately provides the taxon rank of Vachonisia without any irrelevant information or distractions.",
+                        "statements": [
+                            "The taxon rank of Vachonisia is \"genus\"."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
         }
     ]
 }

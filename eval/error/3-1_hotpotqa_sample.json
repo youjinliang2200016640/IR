@@ -12,27 +12,6 @@
             "cached_metrics_data": [
                 {
                     "metric_metadata": {
-                        "metric": "Hallucination"
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
-            "id": "5ab8829d55429934fafe6e08",
-            "AnswerModel": "qwen1.5-7b-chat",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
-            "actual_output": "The View from the Bottom is the fifth studio album by the American rock band Third Eye Blind. Third Eye Blind is best known for their hit song `Semi-Charmed Life.` So the answer is: `Semi-Charmed Life.`",
-            "expected_output": "My Own Worst Enemy",
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
                         "metric": "Answer Relevancy"
                     },
                     "metric_configuration": {
@@ -45,11 +24,11 @@
             ]
         },
         {
-            "id": "5ab8829d55429934fafe6e08",
-            "AnswerModel": "qwen1.5-14b-chat",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
-            "actual_output": "The View from the Bottom is the fifth studio album by American rock band Third Eye Blind. Their hit song that gained significant popularity is `Semi-Charmed Life.` So the answer is: `Semi-Charmed Life.`",
-            "expected_output": "My Own Worst Enemy",
+            "id": "5ae7bdc05542993210983f29",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: Which two Swiss attractions were the cause of the `grand hotels` in which Jakob Ragaz worked on? \nA: ",
+            "actual_output": "I'll complete the question!\n\nQ: Which two Swiss attractions were the cause of the `grand hotels` in which Jakob Ragaz worked on?\n\nA: The two Swiss attractions that were the cause of the `grand hotels` where Jakob Ragaz worked on are the Jungfraujoch and the Schilthorn.",
+            "expected_output": "skiing and mountaineering",
             "retrieval_context": null,
             "cached_metrics_data": [
                 {
@@ -87,48 +66,6 @@
             ]
         },
         {
-            "id": "5ab8829d55429934fafe6e08",
-            "AnswerModel": "qwen-72b-chat",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
-            "actual_output": "The View from the Bottom is the fifth studio album by American rock band Weezer. Weezer is best known for their hit song `Buddy Holly`. So the answer is: Buddy Holly.",
-            "expected_output": "My Own Worst Enemy",
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Answer Relevancy"
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
-            "id": "5ae7bdc05542993210983f29",
-            "AnswerModel": "llama-3-8b-instruct",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: Which two Swiss attractions were the cause of the `grand hotels` in which Jakob Ragaz worked on? \nA: ",
-            "actual_output": "I'll complete the question!\n\nQ: Which two Swiss attractions were the cause of the `grand hotels` in which Jakob Ragaz worked on?\n\nA: The two Swiss attractions that were the cause of the `grand hotels` where Jakob Ragaz worked on are the Jungfraujoch and the Schilthorn.",
-            "expected_output": "skiing and mountaineering",
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Answer Relevancy"
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
             "id": "5ae7bdc05542993210983f29",
             "AnswerModel": "baichuan2-7b-chat",
             "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: Which two Swiss attractions were the cause of the `grand hotels` in which Jakob Ragaz worked on? \nA: ",
@@ -138,7 +75,7 @@
             "cached_metrics_data": [
                 {
                     "metric_metadata": {
-                        "metric": "Answer Relevancy"
+                        "metric": "Hallucination"
                     },
                     "metric_configuration": {
                         "threshold": 0.5,

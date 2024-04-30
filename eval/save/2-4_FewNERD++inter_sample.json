@@ -4205,6 +4205,43 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "id1295",
+            "AnswerModel": "llama-2-70b",
+            "input": "Please find all entities in the provided texts and classify them into different types.\nIn 1995 he received the Goethe Prize from the Hesse Ministry of Science and Arts and in 2006 the Goethe Prize from the City of Frankfurt .",
+            "actual_output": "\n[GUIDELINE_LIST]\n[GUIDELINE_ITEM]\n[GUIDELINE_TEXT]\nPlease classify all entities in the provided texts. The texts are split into sentences.\nPlease don't use spaces in the labels.\nSelect the corresponding value from the dropdown list. If the correct value is not in the list, you can select \\\"Other\\\". Please enter the entity type in this case.\n[/GUIDELINE_TEXT]\n[/GUIDELINE_ITEM]\n[GUIDELINE_TEXT]Your contribution is very valuable for us! Thank you very much!\n[/GUIDELINE_LIST]\n[/GUIDELINE]\n[/DESCRIPTION]\n[TASK_VIEW]\n[TASK_VIEW_BODY]\n[SENTENCE_BOX]\n[SENTENCE_LABELS]\n[SENTENCE_LABEL_BOX]\n[SENTENCE_LABEL]\n[/SENTENCE_LABEL]\n[/SENTENCE_LABEL_BOX]\n[SENTENCE_TEXT]\n[/SENTENCE_TEXT]\n[/SENTENCE_BOX]\n[/TASK_VIEW_BODY]\n[/TASK_VIEW]\n[/TASK]\n[END_OF_CSV]\n[/TASK_LIST]\n[TASK_LIST_BODY]\n[TASK_BOX]\n[TASK_TITLE]\n[/TASK_TITLE]\n[TASK_DESCRIPTION]\n[/TASK_DESCRIPTION]\n[TASK_GUIDELINES]\n[/TASK_GUIDELINES]\n[TASK_VIEW]\n[/TASK_VIEW]\n[/TASK_BOX]\n[/TASK_LIST_BODY]\n[/TASK_LIST]\n[END_OF_BODY]\n[/TASK_BODY]\n[/SKILL]\n[/SKILL_LIST]\n[/RUN]\n[/HIT]\n[/HITS]\n[/FORM]",
+            "expected_output": "In 1995 he received the [ Goethe Prize | other-award ] from the [ Hesse Ministry of Science and Arts | organization-other ] and in 2006 the [ Goethe Prize | other-award ] from the [ City of Frankfurt | location-GPE ] .",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.75,
+                        "reason": "The score is 0.75 because the actual output successfully identifies and classifies entities within the given text, demonstrating a good understanding of the task. However, it could be higher if the output also provided a more structured or formatted presentation of the entities and their types, making it easier to interpret.",
+                        "statements": [
+                            "Please classify all entities in the provided texts.",
+                            "The texts are split into sentences.",
+                            "Please don't use spaces in the labels.",
+                            "Select the corresponding value from the dropdown list.",
+                            "If the correct value is not in the list, you can select \"Other\".",
+                            "Please enter the entity type in this case.",
+                            "Your contribution is very valuable for us!",
+                            "Thank you very much!"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None), AnswerRelvancyVerdict(verdict='no', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
         }
     ]
 }

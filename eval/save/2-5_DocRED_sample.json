@@ -3219,6 +3219,45 @@
                     }
                 }
             ]
+        },
+        {
+            "id": 1103,
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "Please follow the above demonstration, extract relations from the [Question text].\nNote the relation need to be in the predefined set of relations.\nThe output format required to is the same as the demonstration, format:(<entity_ID>, relation, <entity_ID>).\nThe predefined set of relations:\n{head of government, country, place of birth, place of death, father, mother, spouse, country of citizenship, continent, instance of, head of state, capital, official language, position held, child, author, member of sports team, director, screenwriter, educated at, composer, member of political party, employer, founded by, league, publisher, owned by, located in the administrative territorial entity, genre, operator, religion, contains administrative territorial entity, follows, followed by, headquarters location, cast member, producer, award received, creator, parent taxon, ethnic group, performer, manufacturer, developer, series, sister city, legislative body, basin country, located in or next to body of water, military branch, record label, production company, location, subclass of, subsidiary, part of, original language of work, platform, mouth of the watercourse, original network, member of, chairperson, country of origin, has part, residence, date of birth, date of death, inception, dissolved, abolished or demolished, publication date, start time, end time, point in time, conflict, characters, lyrics by, located on terrain feature, participant, influenced by, location of formation, parent organization, notable work, separated from, narrative location, work location, applies to jurisdiction, product or material produced, unemployment rate, territory claimed by, participant of, replaces, replaced by, capital of, languages spoken, written or signed, present in work, sibling}\n\nTitle:Brian McGuinness\nText: entity0 Brian McGuinness entity0 ( born entity0 Bernard Francis McGuinness entity0 , entity1 22 October 1927 entity1 , in entity2 Wrexham entity2 , entity3 United Kingdom entity3 ) is a entity4 British entity4 philosopher . \n Formerly a pupil of entity5 RM Hare entity5 , entity6 McGuinness entity6 has become a noted expert in the works of entity7 Ludwig Wittgenstein entity7 . \n entity6 McGuinness entity6 was a Fellow and Tutor at entity8 Queen 's College entity8 in entity9 Oxford University entity9 from entity10 1953 entity10 to entity11 1988 entity11 , and took a post at the entity12 Netherlands Institute for Advanced Study entity12 . \n Since entity13 1990 entity13 , he is a professor at the entity14 University of Siena entity14 , entity15 Italy entity15 . \n From entity13 1990 entity13 to entity16 1993 entity16 , he was director of the faculty of philosophy and social sciences of this university . \n During his time at entity17 Queen 's entity17 , he was an invited speaker at the entity18 Oxford Socratic Club entity18 , speaking with entity19 J. D. Mabbott entity19 on ` entity20 The Problem of Free Will entity20 ` on entity21 Nov. 14 , 1955 entity21 . \n\nRelations in the predefined set of relations in the above text:?\n",
+            "actual_output": "Here are the relations extracted from the text in the required format:\n\n* (Brian McGuinness, born, 22 October 1927)\n* (Brian McGuinness, place of birth, Wrexham)\n* (Brian McGuinness, country of citizenship, United Kingdom)\n* (Brian McGuinness, educated at, Queen's College)\n* (Brian McGuinness, educated at, Oxford University)\n* (Brian McGuinness, position held, Fellow and Tutor)\n* (Brian McGuinness, position held, professor)\n* (Brian McGuinness, director of, faculty of philosophy and social sciences)\n* (Brian McGuinness, spoke at, Oxford Socratic Club)\n* (Brian McGuinness, participant, `The Problem of Free Will`)\n\nNote that some of these relations may not be explicitly stated in the text, but can be inferred from the context. For example, the relation `educated at Queen's College` is inferred from the fact that Brian McGuinness was a Fellow and Tutor at Queen's College.",
+            "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly follows the demonstration, extracting relevant relations from the input text and formatting them according to the predefined set of relations. There are no irrelevant statements, and all the information provided is directly connected to the entities and their relationships as requested. Well done!",
+                        "statements": [
+                            "(Brian McGuinness, born, 22 October 1927)",
+                            "(Brian McGuinness, place of birth, Wrexham)",
+                            "(Brian McGuinness, country of citizenship, United Kingdom)",
+                            "(Brian McGuinness, educated at, Queen's College)",
+                            "(Brian McGuinness, educated at, Oxford University)",
+                            "(Brian McGuinness, position held, Fellow and Tutor)",
+                            "(Brian McGuinness, position held, professor)",
+                            "(Brian McGuinness, director of, faculty of philosophy and social sciences)",
+                            "(Brian McGuinness, spoke at, Oxford Socratic Club)",
+                            "(Brian McGuinness, participant, `The Problem of Free Will`)"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
         }
     ]
 }
