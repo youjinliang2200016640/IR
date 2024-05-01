@@ -6,7 +6,7 @@
             "id": "id1295",
             "AnswerModel": "qwen1.5-72b",
             "input": "\nIs the statement 'beach volleyball players have (part) cells.' true or false?",
-            "actual_output": "In order to determine whether the statement \\\"beach volleyball players have (part) cells.\\\" is true or false, I need to understand what is meant by \\\"(part) cells\\\". If \\\"(part) cells\\\" refers to the cellular structure of an organism, then the statement is true. This is because all living organisms, including humans, have cells. However, if \\\"(part) cells\\\" has some other meaning or context, the answer may vary. Please provide more information about the meaning of \\\"(part) cells\\\" in this context.",
+            "actual_output": "In order to determine whether the statement `beach volleyball players have (part) cells.` is true or false, I need to understand what is meant by `(part) cells`. If `(part) cells` refers to the cellular structure of an organism, then the statement is true. This is because all living organisms, including humans, have cells. However, if `(part) cells` has some other meaning or context, the answer may vary. Please provide more information about the meaning of `(part) cells` in this context.",
             "expected_output": "true",
             "retrieval_context": null,
             "cached_metrics_data": [
