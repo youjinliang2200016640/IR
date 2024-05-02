@@ -4045,34 +4045,6 @@
         {
             "id": "id1295",
             "AnswerModel": "qwen1.5-72b",
-            "input": "\nIs the statement 'beach volleyball players have (part) cells.' true or false?",
-            "actual_output": "In order to determine whether the statement \"beach volleyball players have (part) cells.\" is true or false, I need to understand what is meant by \"(part) cells\". If \"(part) cells\" refers to the cellular structure of an organism, then the statement is true. This is because all living organisms, including humans, have cells. However, if \"(part) cells\" has some other meaning or context, the answer may vary. Please provide more information about the meaning of \"(part) cells\" in this context.",
-            "expected_output": "true",
-            "context": null,
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Hallucination",
-                        "success": false,
-                        "score": 1.0,
-                        "reason": "The score is 1.00 because the actual output does not directly align with the given context 'true' and instead introduces a conditional statement, seeking clarification on a term rather than providing a direct answer, which indicates a hallucination or misinterpretation of the context.",
-                        "statements": "",
-                        "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not directly agree with the context 'true'. It presents a conditional statement and asks for clarification on the term 'part cells' instead of providing a straightforward answer.\")]",
-                        "evaluationCost": null
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
-            "id": "id1295",
-            "AnswerModel": "qwen1.5-72b",
             "input": "\nIs the statement 'A member of parliament is Order' true or false?",
             "actual_output": "In order to answer this question, let's first consider what a member of parliament is and what \"Order\" could refer to in this context.\n\nStep 1: Determine the meaning of \"Order\"\nIn the context of parliamentary proceedings, \"Order\" is often used as a directive or command to maintain decorum, discipline, and adherence to established rules and procedures within the chamber.\n\nStep 2: Determine the meaning of \"A member of parliament\"\nA member of parliament (MP) is an elected representative who serves as a member of the legislative body of a country, such as the House of Commons in the United Kingdom or the Lok Sabha in India.\n\nStep 3: Analyze the relationship between the two terms\nGiven that members of parliament are responsible for participating in the discussions and debates that take place within the chamber, it is crucial that they follow the established rules and maintain order to ensure a productive and respectful environment. As a result, we can say that \"A member of parliament is Order\" could be interpreted as a member of parliament should adhere to and promote order within the parliamentary proceedings.\n\nConclusion:\nBased on the analysis, the statement \"A member of parliament is Order\" can be considered true in the sense that a member of parliament should maintain order and adhere to the rules of the chamber. However, it should be noted that this statement is not universally true, as there may be instances where individual members of parliament do not comply with these expectations.",
             "expected_output": "false",
@@ -4182,11 +4154,28 @@
             "id": "id1295",
             "AnswerModel": "qwen1.5-72b",
             "input": "\nIs the statement 'beach volleyball players have (part) cells.' true or false?",
-            "actual_output": "In order to determine whether the statement `beach volleyball players have (part) cells.` is true or false, I need to understand what is meant by `(part) cells`. If `(part) cells` refers to the cellular structure of an organism, then the statement is true. This is because all living organisms, including humans, have cells. However, if `(part) cells` has some other meaning or context, the answer may vary. Please provide more information about the meaning of `(part) cells` in this context.",
+            "actual_output": "In order to determine whether the statement \"beach volleyball players have (part) cells.\" is true or false, I need to understand what is meant by \"(part) cells\". If \"(part) cells\" refers to the cellular structure of an organism, then the statement is true. This is because all living organisms, including humans, have cells. However, if \"(part) cells\" has some other meaning or context, the answer may vary. Please provide more information about the meaning of \"(part) cells\" in this context.",
             "expected_output": "true",
             "context": null,
             "retrieval_context": null,
             "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output does not directly align with the given context 'true' and instead introduces a conditional statement, seeking clarification on a term rather than providing a direct answer, which indicates a hallucination or misinterpretation of the context.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output does not directly agree with the context 'true'. It presents a conditional statement and asks for clarification on the term 'part cells' instead of providing a straightforward answer.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
                 {
                     "metric_metadata": {
                         "metric": "Answer Relevancy",

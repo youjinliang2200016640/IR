@@ -3866,34 +3866,6 @@
             ]
         },
         {
-            "id": "0",
-            "AnswerModel": "qwen1.5-14b-chat",
-            "input": "List the events that are mentioned in the given context and highlight the most related word or phrase using the <mark> tag for each event. There might be more than one event per context provided or no event in the context.\nFor each tagged event, also generate its corresponding event type. The event type must be one of the following types.\n[Rite,Becoming,Use_firearm,Committing_crime,Expansion,Renting,Cause_change_of_position_on_a_scale,Ingestion,Aiming,Sign_agreement,Patrolling,Perception_active,Surrounding,Coming_to_be,Risk,Containing,Presence,Change,Social_event,Institutionalization,Giving,Preventing_or_letting,Control,Education_teaching,Labeling,Commerce_buy,Publishing,Adducing,Quarreling,Bringing,Scouring,Award,Attack,Rewards_and_punishments,Warning,Communication,Suspicion,Reveal_secret,Exchange,GetReady,Terrorism,Recording,Placing,Arriving,Surrendering,Hold,Hindering,Causation,Temporary_stay,Employment,Change_sentiment,Besieging,Defending,Killing,Having_or_lacking_access,Cause_to_be_included,Practice,Removing,Justifying,Arrest,Hostile_encounter,Forming_relationships,Creating,Escaping,Filling,Ratification,Vocalizations,Check,Motion_directional,Supporting,Bodily_harm,Sending,Lighting,Reforming_a_system,Preserving,Agree_or_refuse_to_act,Resolve_problem,Departing,Process_end,Convincing,Conquering,Revenge,Arranging,Manufacturing,Prison,Wearing,Legal_rulings,Cure,Assistance,Commerce_pay,Scrutiny,Commitment,Collaboration,Military_operation,Research,Building,Breathing,Telling,Incident,Participation,Supply,Destroying,Kidnapping,Testing,Earnings_and_losses,Commerce_sell,Hiding_objects,Action,Releasing,Dispersal,Extradition,Cause_to_make_progress,Damaging,Emptying,Getting,Recovering,Robbery,Change_tool,GiveUp,Expend_resource,Coming_to_believe,Change_of_leadership,Theft,Process_start,Confronting_problem,Imposing_obligation,Openness,Using,Protest,Self_motion,Name_conferral,Response,Submitting_documents,Emergency,Limiting,Create_artwork,Deciding,Change_event_time,Connect,Achieve,Request,Catastrophe,Rescuing,Cause_to_amalgamate,Death,Bearing_arms,Traveling,Reporting,Influence,Statement,Know,Motion,Choosing,Judgment_communication,Violence,Come_together,Legality,Carry_goods,Expressing_publicly,Becoming_a_member,Criminal_investigation,Cause_change_of_strength,Writing,Receiving,Being_in_operation,Competition,Body_movement,Cost]\n\nBOAC Flight 777-A was a scheduled British Overseas Airways Corporation civilian airline flight from Portela Airport in Lisbon , Portugal to Whitchurch Airport near Bristol , England .",
-            "actual_output": "Event 1: [Arriving] (Flight 777-A arrives at Whitchurch Airport)\nEvent Type: Traveling\n\nBOAC Flight 777-A was <mark>scheduled</mark> to fly from Portela Airport in Lisbon, Portugal to Whitchurch Airport near Bristol, England.\n\nEvent 2: [Coming_to_be] (Flight 777-A becoming a scheduled flight)\nEvent Type: Planning/Arranging\n\nThe most related word for the event type in this context is \"scheduled\".",
-            "expected_output": "Output: BOAC Flight 777-A was a scheduled British Overseas Airways Corporation civilian airline flight from Portela Airport in Lisbon , Portugal to Whitchurch Airport near Bristol , England .\n\nEvents:",
-            "context": null,
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Hallucination",
-                        "success": true,
-                        "score": 0.0,
-                        "reason": "The score is 0.00 because the actual output aligns perfectly with the given context, which confirms that BOAC Flight 777-A was a scheduled flight. There are no factual contradictions, indicating that the output is fully supported by the provided information, hence the optimal, non-hallucinated result.",
-                        "statements": "",
-                        "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the provided context which mentions that BOAC Flight 777-A was a scheduled flight.')]",
-                        "evaluationCost": null
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
             "id": "4",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "List the events that are mentioned in the given context and highlight the most related word or phrase using the <mark> tag for each event. There might be more than one event per context provided or no event in the context.\nFor each tagged event, also generate its corresponding event type. The event type must be one of the following types.\n[Rite,Becoming,Use_firearm,Committing_crime,Expansion,Renting,Cause_change_of_position_on_a_scale,Ingestion,Aiming,Sign_agreement,Patrolling,Perception_active,Surrounding,Coming_to_be,Risk,Containing,Presence,Change,Social_event,Institutionalization,Giving,Preventing_or_letting,Control,Education_teaching,Labeling,Commerce_buy,Publishing,Adducing,Quarreling,Bringing,Scouring,Award,Attack,Rewards_and_punishments,Warning,Communication,Suspicion,Reveal_secret,Exchange,GetReady,Terrorism,Recording,Placing,Arriving,Surrendering,Hold,Hindering,Causation,Temporary_stay,Employment,Change_sentiment,Besieging,Defending,Killing,Having_or_lacking_access,Cause_to_be_included,Practice,Removing,Justifying,Arrest,Hostile_encounter,Forming_relationships,Creating,Escaping,Filling,Ratification,Vocalizations,Check,Motion_directional,Supporting,Bodily_harm,Sending,Lighting,Reforming_a_system,Preserving,Agree_or_refuse_to_act,Resolve_problem,Departing,Process_end,Convincing,Conquering,Revenge,Arranging,Manufacturing,Prison,Wearing,Legal_rulings,Cure,Assistance,Commerce_pay,Scrutiny,Commitment,Collaboration,Military_operation,Research,Building,Breathing,Telling,Incident,Participation,Supply,Destroying,Kidnapping,Testing,Earnings_and_losses,Commerce_sell,Hiding_objects,Action,Releasing,Dispersal,Extradition,Cause_to_make_progress,Damaging,Emptying,Getting,Recovering,Robbery,Change_tool,GiveUp,Expend_resource,Coming_to_believe,Change_of_leadership,Theft,Process_start,Confronting_problem,Imposing_obligation,Openness,Using,Protest,Self_motion,Name_conferral,Response,Submitting_documents,Emergency,Limiting,Create_artwork,Deciding,Change_event_time,Connect,Achieve,Request,Catastrophe,Rescuing,Cause_to_amalgamate,Death,Bearing_arms,Traveling,Reporting,Influence,Statement,Know,Motion,Choosing,Judgment_communication,Violence,Come_together,Legality,Carry_goods,Expressing_publicly,Becoming_a_member,Criminal_investigation,Cause_change_of_strength,Writing,Receiving,Being_in_operation,Competition,Body_movement,Cost]\n\nThe Manili massacre refers to the mass murder of 70-79 Moro Muslims , including women and children , committed in a mosque in Manili , Carmen , North Cotabato , Philippines on June 19 , 1971 .",
@@ -3980,11 +3952,28 @@
             "id": "0",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "List the events that are mentioned in the given context and highlight the most related word or phrase using the <mark> tag for each event. There might be more than one event per context provided or no event in the context.\nFor each tagged event, also generate its corresponding event type. The event type must be one of the following types.\n[Rite,Becoming,Use_firearm,Committing_crime,Expansion,Renting,Cause_change_of_position_on_a_scale,Ingestion,Aiming,Sign_agreement,Patrolling,Perception_active,Surrounding,Coming_to_be,Risk,Containing,Presence,Change,Social_event,Institutionalization,Giving,Preventing_or_letting,Control,Education_teaching,Labeling,Commerce_buy,Publishing,Adducing,Quarreling,Bringing,Scouring,Award,Attack,Rewards_and_punishments,Warning,Communication,Suspicion,Reveal_secret,Exchange,GetReady,Terrorism,Recording,Placing,Arriving,Surrendering,Hold,Hindering,Causation,Temporary_stay,Employment,Change_sentiment,Besieging,Defending,Killing,Having_or_lacking_access,Cause_to_be_included,Practice,Removing,Justifying,Arrest,Hostile_encounter,Forming_relationships,Creating,Escaping,Filling,Ratification,Vocalizations,Check,Motion_directional,Supporting,Bodily_harm,Sending,Lighting,Reforming_a_system,Preserving,Agree_or_refuse_to_act,Resolve_problem,Departing,Process_end,Convincing,Conquering,Revenge,Arranging,Manufacturing,Prison,Wearing,Legal_rulings,Cure,Assistance,Commerce_pay,Scrutiny,Commitment,Collaboration,Military_operation,Research,Building,Breathing,Telling,Incident,Participation,Supply,Destroying,Kidnapping,Testing,Earnings_and_losses,Commerce_sell,Hiding_objects,Action,Releasing,Dispersal,Extradition,Cause_to_make_progress,Damaging,Emptying,Getting,Recovering,Robbery,Change_tool,GiveUp,Expend_resource,Coming_to_believe,Change_of_leadership,Theft,Process_start,Confronting_problem,Imposing_obligation,Openness,Using,Protest,Self_motion,Name_conferral,Response,Submitting_documents,Emergency,Limiting,Create_artwork,Deciding,Change_event_time,Connect,Achieve,Request,Catastrophe,Rescuing,Cause_to_amalgamate,Death,Bearing_arms,Traveling,Reporting,Influence,Statement,Know,Motion,Choosing,Judgment_communication,Violence,Come_together,Legality,Carry_goods,Expressing_publicly,Becoming_a_member,Criminal_investigation,Cause_change_of_strength,Writing,Receiving,Being_in_operation,Competition,Body_movement,Cost]\n\nBOAC Flight 777-A was a scheduled British Overseas Airways Corporation civilian airline flight from Portela Airport in Lisbon , Portugal to Whitchurch Airport near Bristol , England .",
-            "actual_output": "Event 1: [Arriving] (Flight 777-A arrives at Whitchurch Airport)\nEvent Type: Traveling\n\nBOAC Flight 777-A was <mark>scheduled</mark> to fly from Portela Airport in Lisbon, Portugal to Whitchurch Airport near Bristol, England.\n\nEvent 2: [Coming_to_be] (Flight 777-A becoming a scheduled flight)\nEvent Type: Planning/Arranging\n\nThe most related word for the event type in this context is `scheduled`.",
+            "actual_output": "Event 1: [Arriving] (Flight 777-A arrives at Whitchurch Airport)\nEvent Type: Traveling\n\nBOAC Flight 777-A was <mark>scheduled</mark> to fly from Portela Airport in Lisbon, Portugal to Whitchurch Airport near Bristol, England.\n\nEvent 2: [Coming_to_be] (Flight 777-A becoming a scheduled flight)\nEvent Type: Planning/Arranging\n\nThe most related word for the event type in this context is \"scheduled\".",
             "expected_output": "Output: BOAC Flight 777-A was a scheduled British Overseas Airways Corporation civilian airline flight from Portela Airport in Lisbon , Portugal to Whitchurch Airport near Bristol , England .\n\nEvents:",
             "context": null,
             "retrieval_context": null,
             "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": true,
+                        "score": 0.0,
+                        "reason": "The score is 0.00 because the actual output aligns perfectly with the given context, which confirms that BOAC Flight 777-A was a scheduled flight. There are no factual contradictions, indicating that the output is fully supported by the provided information, hence the optimal, non-hallucinated result.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='yes', reason='The actual output agrees with the provided context which mentions that BOAC Flight 777-A was a scheduled flight.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
                 {
                     "metric_metadata": {
                         "metric": "Answer Relevancy",

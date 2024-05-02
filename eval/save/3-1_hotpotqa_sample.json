@@ -3697,34 +3697,6 @@
         },
         {
             "id": "5ae7bdc05542993210983f29",
-            "AnswerModel": "llama-3-8b-instruct",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in \"The Right Stuff\"?\nA: The actor who played astronaut Alan Shepard in \"The Right Stuff\" is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: Which two Swiss attractions were the cause of the \"grand hotels\" in which Jakob Ragaz worked on? \nA: ",
-            "actual_output": "I'll complete the question!\n\nQ: Which two Swiss attractions were the cause of the \"grand hotels\" in which Jakob Ragaz worked on?\n\nA: The two Swiss attractions that were the cause of the \"grand hotels\" where Jakob Ragaz worked on are the Jungfraujoch and the Schilthorn.",
-            "expected_output": "skiing and mountaineering",
-            "context": null,
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Hallucination",
-                        "success": false,
-                        "score": 1.0,
-                        "reason": "The score is 1.00 because the actual output discusses Swiss attractions and Jakob Ragaz's work in grand hotels, which is completely unrelated to the context provided about skiing and mountaineering. This indicates a severe hallucination where the model has generated information that is not supported by the given context.",
-                        "statements": "",
-                        "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output is about Swiss attractions and Jakob Ragaz working in grand hotels, which is unrelated to the context of skiing and mountaineering.')]",
-                        "evaluationCost": null
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
-            "id": "5ae7bdc05542993210983f29",
             "AnswerModel": "qwen-72b-chat",
             "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in \"The Right Stuff\"?\nA: The actor who played astronaut Alan Shepard in \"The Right Stuff\" is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: Which two Swiss attractions were the cause of the \"grand hotels\" in which Jakob Ragaz worked on? \nA: ",
             "actual_output": "The two Swiss attractions that were the cause of the \"grand hotels\" in which Jakob Ragaz worked on are the Swiss Alps and Lake Geneva. So the answer is: Swiss Alps and Lake Geneva.",
@@ -3773,34 +3745,6 @@
         },
         {
             "id": "5ab8829d55429934fafe6e08",
-            "AnswerModel": "qwen-72b-chat",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in \"The Right Stuff\"?\nA: The actor who played astronaut Alan Shepard in \"The Right Stuff\" is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
-            "actual_output": "The View from the Bottom is the fifth studio album by American rock band Weezer. Weezer is best known for their hit song \"Buddy Holly\". So the answer is: Buddy Holly.",
-            "expected_output": "My Own Worst Enemy",
-            "context": null,
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Hallucination",
-                        "success": false,
-                        "score": 1.0,
-                        "reason": "The score is 1.00 because the actual output discusses Weezer and their song 'Buddy Holly', which is completely unrelated to the given context 'My Own Worst Enemy'. This indicates a complete hallucination, as the output does not draw any information from the provided context.",
-                        "statements": "",
-                        "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about Weezer and their song 'Buddy Holly', which is not related to the context 'My Own Worst Enemy'.\")]",
-                        "evaluationCost": null
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
-            "id": "5ab8829d55429934fafe6e08",
             "AnswerModel": "qwen-7b-chat",
             "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in \"The Right Stuff\"?\nA: The actor who played astronaut Alan Shepard in \"The Right Stuff\" is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
             "actual_output": "The View from the Bottom is the fifth studio album by an American rock band best known for their hit song \"Don't Stop Believin'\". So the answer is: \"Don't Stop Believin'\".",
@@ -3816,34 +3760,6 @@
                         "reason": "The score is 1.00 because the actual output discusses a band and their hit song, which is not aligned with the context\u6697\u793a\u7684\u4e2a\u4eba\u6323\u624e\u6216\u81ea\u6211\u8d2c\u4f4e\u7684\u4e3b\u9898\"My Own Worst Enemy\". This misalignment indicates that the output has completely hallucinated information that is not supported by the given context, resulting in a perfect hallucination score.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about a band and their hit song, but it does not agree with the context 'My Own Worst Enemy' which suggests a personal struggle or self-deprecating theme.\")]",
-                        "evaluationCost": null
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
-            "id": "5ab8829d55429934fafe6e08",
-            "AnswerModel": "qwen1.5-14b-chat",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in \"The Right Stuff\"?\nA: The actor who played astronaut Alan Shepard in \"The Right Stuff\" is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
-            "actual_output": "The View from the Bottom is the fifth studio album by American rock band Third Eye Blind. Their hit song that gained significant popularity is \"Semi-Charmed Life.\" So the answer is: \"Semi-Charmed Life.\"",
-            "expected_output": "My Own Worst Enemy",
-            "context": null,
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Hallucination",
-                        "success": false,
-                        "score": 1.0,
-                        "reason": "The score is 1.00 because the actual output discusses a song by Third Eye Blind, which is not aligned with the context provided, 'My Own Worst Enemy,' which likely refers to a personal struggle or a TV show. This complete misalignment between the output and the context indicates a hallucination in the generated text.",
-                        "statements": "",
-                        "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about a song by Third Eye Blind, while the context 'My Own Worst Enemy' suggests a different topic, likely referring to a personal struggle or a TV show.\")]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3905,9 +3821,9 @@
         },
         {
             "id": "5ab8829d55429934fafe6e08",
-            "AnswerModel": "qwen1.5-7b-chat",
+            "AnswerModel": "qwen-72b-chat",
             "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in \"The Right Stuff\"?\nA: The actor who played astronaut Alan Shepard in \"The Right Stuff\" is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
-            "actual_output": "The View from the Bottom is the fifth studio album by the American rock band Third Eye Blind. Third Eye Blind is best known for their hit song \"Semi-Charmed Life.\" So the answer is: \"Semi-Charmed Life.\"",
+            "actual_output": "The View from the Bottom is the fifth studio album by American rock band Weezer. Weezer is best known for their hit song \"Buddy Holly\". So the answer is: Buddy Holly.",
             "expected_output": "My Own Worst Enemy",
             "context": null,
             "retrieval_context": null,
@@ -3917,9 +3833,9 @@
                         "metric": "Hallucination",
                         "success": false,
                         "score": 1.0,
-                        "reason": "The score is 1.00 because the actual output discusses Third Eye Blind's song 'Semi-Charmed Life', which is not mentioned or related to the given context 'My Own Worst Enemy'. This indicates a complete hallucination, as the model has generated information unrelated to the provided context.",
+                        "reason": "The score is 1.00 because the actual output discusses Weezer and their song 'Buddy Holly', which is completely unrelated to the given context 'My Own Worst Enemy'. This indicates a complete hallucination, as the output does not draw any information from the provided context.",
                         "statements": "",
-                        "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about Third Eye Blind and their song 'Semi-Charmed Life', which is not related to the context 'My Own Worst Enemy'.\")]",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about Weezer and their song 'Buddy Holly', which is not related to the context 'My Own Worst Enemy'.\")]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
@@ -3928,18 +3844,7 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
-                }
-            ]
-        },
-        {
-            "id": "5ab8829d55429934fafe6e08",
-            "AnswerModel": "qwen-72b-chat",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
-            "actual_output": "The View from the Bottom is the fifth studio album by American rock band Weezer. Weezer is best known for their hit song `Buddy Holly`. So the answer is: Buddy Holly.",
-            "expected_output": "My Own Worst Enemy",
-            "context": null,
-            "retrieval_context": null,
-            "cached_metrics_data": [
+                },
                 {
                     "metric_metadata": {
                         "metric": "Answer Relevancy",
@@ -3966,12 +3871,29 @@
         {
             "id": "5ab8829d55429934fafe6e08",
             "AnswerModel": "qwen1.5-14b-chat",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
-            "actual_output": "The View from the Bottom is the fifth studio album by American rock band Third Eye Blind. Their hit song that gained significant popularity is `Semi-Charmed Life.` So the answer is: `Semi-Charmed Life.`",
+            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in \"The Right Stuff\"?\nA: The actor who played astronaut Alan Shepard in \"The Right Stuff\" is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
+            "actual_output": "The View from the Bottom is the fifth studio album by American rock band Third Eye Blind. Their hit song that gained significant popularity is \"Semi-Charmed Life.\" So the answer is: \"Semi-Charmed Life.\"",
             "expected_output": "My Own Worst Enemy",
             "context": null,
             "retrieval_context": null,
             "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output discusses a song by Third Eye Blind, which is not aligned with the context provided, 'My Own Worst Enemy,' which likely refers to a personal struggle or a TV show. This complete misalignment between the output and the context indicates a hallucination in the generated text.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about a song by Third Eye Blind, while the context 'My Own Worst Enemy' suggests a different topic, likely referring to a personal struggle or a TV show.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
                 {
                     "metric_metadata": {
                         "metric": "Answer Relevancy",
@@ -3998,12 +3920,29 @@
         {
             "id": "5ab8829d55429934fafe6e08",
             "AnswerModel": "qwen1.5-7b-chat",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
-            "actual_output": "The View from the Bottom is the fifth studio album by the American rock band Third Eye Blind. Third Eye Blind is best known for their hit song `Semi-Charmed Life.` So the answer is: `Semi-Charmed Life.`",
+            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in \"The Right Stuff\"?\nA: The actor who played astronaut Alan Shepard in \"The Right Stuff\" is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: The View from the Bottom is the fifth studio album by an American rock band best known for what hit song?\nA: ",
+            "actual_output": "The View from the Bottom is the fifth studio album by the American rock band Third Eye Blind. Third Eye Blind is best known for their hit song \"Semi-Charmed Life.\" So the answer is: \"Semi-Charmed Life.\"",
             "expected_output": "My Own Worst Enemy",
             "context": null,
             "retrieval_context": null,
             "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output discusses Third Eye Blind's song 'Semi-Charmed Life', which is not mentioned or related to the given context 'My Own Worst Enemy'. This indicates a complete hallucination, as the model has generated information unrelated to the provided context.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason=\"The actual output is about Third Eye Blind and their song 'Semi-Charmed Life', which is not related to the context 'My Own Worst Enemy'.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
                 {
                     "metric_metadata": {
                         "metric": "Answer Relevancy",
@@ -4030,12 +3969,29 @@
         {
             "id": "5ae7bdc05542993210983f29",
             "AnswerModel": "llama-3-8b-instruct",
-            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: Which two Swiss attractions were the cause of the `grand hotels` in which Jakob Ragaz worked on? \nA: ",
-            "actual_output": "I'll complete the question!\n\nQ: Which two Swiss attractions were the cause of the `grand hotels` in which Jakob Ragaz worked on?\n\nA: The two Swiss attractions that were the cause of the `grand hotels` where Jakob Ragaz worked on are the Jungfraujoch and the Schilthorn.",
+            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in \"The Right Stuff\"?\nA: The actor who played astronaut Alan Shepard in \"The Right Stuff\" is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: Which two Swiss attractions were the cause of the \"grand hotels\" in which Jakob Ragaz worked on? \nA: ",
+            "actual_output": "I'll complete the question!\n\nQ: Which two Swiss attractions were the cause of the \"grand hotels\" in which Jakob Ragaz worked on?\n\nA: The two Swiss attractions that were the cause of the \"grand hotels\" where Jakob Ragaz worked on are the Jungfraujoch and the Schilthorn.",
             "expected_output": "skiing and mountaineering",
             "context": null,
             "retrieval_context": null,
             "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": false,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output discusses Swiss attractions and Jakob Ragaz's work in grand hotels, which is completely unrelated to the context provided about skiing and mountaineering. This indicates a severe hallucination where the model has generated information that is not supported by the given context.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output is about Swiss attractions and Jakob Ragaz working in grand hotels, which is unrelated to the context of skiing and mountaineering.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
                 {
                     "metric_metadata": {
                         "metric": "Answer Relevancy",

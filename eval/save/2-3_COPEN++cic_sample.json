@@ -2713,34 +2713,6 @@
         },
         {
             "id": "id1295",
-            "AnswerModel": "llama-2-70b",
-            "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
-            "actual_output": "\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, PeriodicalLiterature, Work, Magazine, Document. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, PeriodicalLiterature, Document, WrittenWork, Work. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. [/INST]\n",
-            "expected_output": "Magazine",
-            "context": null,
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Hallucination",
-                        "success": true,
-                        "score": 0.0,
-                        "reason": "The hallucination score is 0.00 because the actual output consistently aligns with the context by mentioning 'Magazine', which is in line with the information provided in the given contexts. There are no contradictions, indicating that the output is fully grounded in the provided facts.",
-                        "statements": "",
-                        "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output mentions 'Magazine' which is in line with the given context.\"), HallucinationVerdict(verdict='yes', reason=\"The actual output mentions 'Magazine' which is in line with the given context.\"), HallucinationVerdict(verdict='yes', reason=\"The actual output mentions 'Magazine' which is in line with the given context.\"), HallucinationVerdict(verdict='yes', reason=\"The actual output mentions 'Magazine' which is in line with the given context.\")]",
-                        "evaluationCost": null
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        },
-        {
-            "id": "id1295",
             "AnswerModel": "llama-2-70b-chat",
             "input": "\nGiven the context 'Harris was one of the most hyped running back recruits since Bryce Brown in 2009 and Leonard Fournette in 2014.', neglect your knowledge about Bryce Brown and select the most contextually related concept for it from the concept set: AmericanFootballPlayer, Athlete, GridironFootballPlayer, Person.",
             "actual_output": "  Given the context, the most contextually related concept for \"Bryce Brown\" would be \"GridironFootballPlayer\". This is because the statement is comparing Harris, a running back recruit, to two other notable running backs, Bryce Brown and Leonard Fournette, who are also gridiron football players. The term \"GridironFootballPlayer\" specifically refers to a player of American football, which is the sport being discussed in the context. Therefore, it is the most appropriate concept to associate with \"Bryce Brown\" in this context.",
@@ -3875,11 +3847,28 @@
             "id": "id1295",
             "AnswerModel": "llama-2-70b",
             "input": "\nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, Document, WrittenWork, PeriodicalLiterature, Work.",
-            "actual_output": "\n\n \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, PeriodicalLiterature, Work, Magazine, Document. \n\n \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, PeriodicalLiterature, Document, WrittenWork, Work. \n\n \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. \n\n \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. \n",
+            "actual_output": "\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, PeriodicalLiterature, Work, Magazine, Document. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: Magazine, PeriodicalLiterature, Document, WrittenWork, Work. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. [/INST]\n\n[INST] \nGiven the context 'It has also been reviewed by \" Times Higher Education \".', neglect your knowledge about Times Higher Education and select the most contextually related concept for it from the concept set: WrittenWork, Document, PeriodicalLiterature, Work, Magazine. [/INST]\n",
             "expected_output": "Magazine",
             "context": null,
             "retrieval_context": null,
             "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Hallucination",
+                        "success": true,
+                        "score": 0.0,
+                        "reason": "The hallucination score is 0.00 because the actual output consistently aligns with the context by mentioning 'Magazine', which is in line with the information provided in the given contexts. There are no contradictions, indicating that the output is fully grounded in the provided facts.",
+                        "statements": "",
+                        "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output mentions 'Magazine' which is in line with the given context.\"), HallucinationVerdict(verdict='yes', reason=\"The actual output mentions 'Magazine' which is in line with the given context.\"), HallucinationVerdict(verdict='yes', reason=\"The actual output mentions 'Magazine' which is in line with the given context.\"), HallucinationVerdict(verdict='yes', reason=\"The actual output mentions 'Magazine' which is in line with the given context.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
                 {
                     "metric_metadata": {
                         "metric": "Answer Relevancy",
