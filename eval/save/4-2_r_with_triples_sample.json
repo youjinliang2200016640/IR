@@ -4180,6 +4180,44 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The answer relevancy score is 1.00 because the generated text accurately and comprehensively incorporates all the given events, providing a coherent context that includes details about the investigation, Gregg Berhalter's past incident, his coaching role, and the USSF's decision-making process. The text is directly relevant to the input and presents the information in a clear and concise manner.",
+                        "statements": [
+                            "Alston & Bird, the law firm conducting an independent investigation, uncovered no facts to show that U.S. Soccer knew of the 1992 Incident when it hired Gregg Berhalter as men's national team coach.",
+                            "Gregg Berhalter, the men's national team coach, had previously admitted to kicking his now-wife Rosalind while they were dating as students at the University of North Carolina.",
+                            "Rosalind did not complain to the university about the incident, and Berhalter had not committed any additional acts of violence against her since 1992.",
+                            "The investigation found that Berhalter had not violated any disclosure rules during his hiring process.",
+                            "Despite the findings, Rosalind claimed that Berhalter presents a risk of harm to others.",
+                            "The investigation also uncovered no facts to show that similar incidents occurred at any point in the last 31 years.",
+                            "The U.S. Soccer Federation (USSF) said Berhalter would remain a candidate to return as coach, given the investigators' conclusion that there is no legal impediment to employing him.",
+                            "The USSF will not hire a coach until it appoints a new sporting director, a position that oversees all national teams.",
+                            "The next coach will be preparing the U.S. team for the 2026 World Cup.",
+                            "The U.S. team lost to the Netherlands in the round of 16 in the World Cup.",
+                            "Investigators told Alston & Bird that they had uncovered no facts to show that U.S. Soccer knew of the 1992 Incident when it hired Berhalter.",
+                            "Berhalter had guided the United States for four years, leading a young squad to two regional championships and a place in the World Cup.",
+                            "The 1992 Incident has no nexus to the present or to the workplace.",
+                            "Berhalter had not committed any additional acts of violence against his now-wife since 1992 and hadn\u2019t violated any disclosure rules during his hiring process.",
+                            "Rosalind did not complain to the university about the incident, and Berhalter had not committed any additional acts of violence against her since 1992.",
+                            "The investigation found that Berhalter had not violated any disclosure rules during his hiring process.",
+                            "The USSF said Berhalter would remain a candidate to return as coach, given the investigators' conclusion that there is no legal impediment to employing him.",
+                            "The U.S. team lost to the Netherlands in the round of 16 in the World Cup.",
+                            "The next coach will be preparing the U.S. team for the 2026 World Cup.",
+                            "Berhalter had guided the United States for four years, leading a young squad to two regional championships and a place in the World Cup."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -4376,6 +4414,143 @@
                         "reason": "The hallucination score is 0.00 because the actual output aligns perfectly with all the provided contextual information, without any contradictions. It accurately reflects details about the match between D.C. United and Orlando City, Chris Durkin's left-footed goal, Tyler Miller's surprise, and other relevant events, demonstrating a complete consistency with the factual context.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the context that Chris Durkin scored a goal with his left foot, and Tyler Miller expressed surprise at Durkin's left-footed ability.\"), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that D.C. United had an attack on Orlando City at Audi Field.'), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that Orlando City defeated the New York Red Bulls in an MLS match.'), HallucinationVerdict(verdict='yes', reason=\"The actual output agrees with the context that Tyler Miller made a comment about Durkin's left foot.\"), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that D.C. United played against Orlando City in an MLS match.'), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that Orlando City was positioned in Florida for a match against Mexican power Tigres.'), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that Chris Durkin mentioned not hitting a goal with his left foot in training before.'), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that Wayne Rooney said D.C. United could have scored more in the first half.'), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that Orlando City defeated the New York Red Bulls in an MLS match.'), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that Chris Durkin mentioned hitting a goal with his left foot in training before.'), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that Orlando City remained a formidable opponent in Florida.'), HallucinationVerdict(verdict='yes', reason='The actual output agrees with the context that Orlando City played against D.C. United in an MLS match.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "with_triples_sample_3",
+            "AnswerModel": "qwen1.5-14b-chat",
+            "input": "Complete the following generated texts and make sure to contain all the events provided.\n### \n#### Known Events\n##### relation: love\n Agent: Aaron Rodgers\n Patient: Green Bay\n Location: Green Bay\n##### relation: opened\n Agent: NFL\n Patient: The NFL \u2019 s free agent market \n Purpose: Trades now can be official \n##### relation: love\n Agent: Aaron Rodgers\n Patient: Green Bay Packers\n Location: Green Bay\n##### relation: move\n Agent: Green Bay Packers\n##### relation: drafted\n Agent: Green Bay Packers\n Patient: Aaron Rodgers\n#### Generated Context\n Quarterback Aaron Rodgers said in a broadcast interview Wednesday that he intends to continue his NFL career with the New York Jets after 18 seasons with the Green Bay Packers .The four - time league MVP said on \u201c The Pat McAfee Show \u201d that the Packers plan to move on from him as their quarterback .According to Rodgers , the Packers \u2019 trade demands are holding up a prospective deal that would send him to the Jets .\u201c I think since Friday I \u2019 ve made it clear that my intention was to play and my intention was to play for the New York Jets ,\u201d Rodgers said .\u201c And I haven \u2019 t been holding anything up at this point .It \u2019 s been the compensation that the Packers are trying to get for me and kind of digging their heels in .\u2026 It is what it is .The Packers would like to move on .They \u2019 ve let me know that in so many words .They \u2019 ve let other people know that in direct words .\u201d Rodgers met with Jets officials , including team owner Woody Johnson and Coach Robert Saleh , last week in California .\u201c I \u2019 m not offended by any of this ,\u201d Rodgers said .",
+            "actual_output": "`I understand the business side of the game, and I respect the Packers' decision to move forward. It's a mutual parting, although it's not how I envisioned my time with Green Bay coming to an end. I've had a love affair with Green Bay, the city, and the fans, but sometimes change is necessary for both parties to grow. I've always cherished the relationships I've built here, but my love for the game and the competitive fire within me compel me to explore new opportunities.`\n\nHe continued, `The Packers have a storied history, and I've been fortunate to be a part of it. But as the NFL's free agent market opened, I saw this as an opportunity to find a fresh start, where I could bring my skills and experience to a new team. The Jets have shown interest and a genuine desire to have me as their quarterback, and I believe we can accomplish great things together.`\n\nDespite the delay in the trade, Rodgers remains hopeful that a resolution can be reached soon. `I've been drafted by the Packers, and now I'm on the move, ready to be drafted by the Jets. I'm excited about the potential of joining the Jets organization, being a leader on and off the field, and contributing to their success.`\n\nIn conclusion, Aaron Rodgers expressed his gratitude to Green Bay and the Packers for the opportunities they've given him, while also looking forward to the next chapter of his career in New York. `I love this game, and I'm confident that the love I have for the game and the commitment I bring will be reciprocated in my new home. It's time for new beginnings, and I'm ready to embrace whatever lies ahead.`",
+            "expected_output": "\u201c I \u2019 m not a victim by any of this .I don \u2019 t have that mentality .I have nothing but love and appreciation .\u2026 Coming to this reality has been really bittersweet because I was drafted by Green Bay .I \u2026 love that city .I love that organization and [ am ] always going to have love for that organization .But the facts are right now they want to move on .And now so do I .\u201d The NFL \u2019 s free agent market officially opened Wednesday afternoon .",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The answer relevancy score is 1.00 because the generated text accurately and completely incorporates all the given events, including the relations of love, opened, move, and drafted, into a coherent context about Aaron Rodgers' intention to move to the New York Jets and the situation with the Green Bay Packers. There are no irrelevant statements in the output, which is why the score is at its highest possible value.",
+                        "statements": [
+                            "I understand the business side of the game.",
+                            "I respect the Packers' decision to move forward.",
+                            "It's a mutual parting.",
+                            "It's not how I envisioned my time with Green Bay coming to an end.",
+                            "I've had a love affair with Green Bay, the city, and the fans.",
+                            "Sometimes change is necessary for both parties to grow.",
+                            "I've always cherished the relationships I've built here.",
+                            "My love for the game and the competitive fire within me compel me to explore new opportunities.",
+                            "The Packers have a storied history.",
+                            "I've been fortunate to be a part of it.",
+                            "As the NFL's free agent market opened, I saw this as an opportunity to find a fresh start.",
+                            "The Jets have shown interest and a genuine desire to have me as their quarterback.",
+                            "I believe we can accomplish great things together.",
+                            "Rodgers remains hopeful that a resolution can be reached soon.",
+                            "I've been drafted by the Packers, and now I'm on the move, ready to be drafted by the Jets.",
+                            "I'm excited about the potential of joining the Jets organization.",
+                            "I'm ready to be a leader on and off the field.",
+                            "I'm confident that the love I have for the game and the commitment I bring will be reciprocated in my new home.",
+                            "It's time for new beginnings.",
+                            "I'm ready to embrace whatever lies ahead."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "with_triples_sample_4",
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Complete the following generated texts and make sure to contain all the events provided.\n### \n#### Known Events\n##### relation: set\n Agent: AI \u2019 s creators \n Patient: the rules for their systems \n##### relation: inform\n Message Sender: creators behind a machine \n Message Receiver: its outputs \n##### relation: informed\n Agent: AI \n Believer: the contours of every AI contribution \n##### relation: producing\n Creator: AI models \n Patient: a given reply \n##### relation: says\n Speaker: Communications Decency Act\n Message: a person or entity becomes liable if they \u201c develop \u201d content even \u201c in part .\u201d And doesn \u2019 t transforming \n Details: a list of search results into a summary qualify as development \n##### relation: generates\n Creator: ChatGPT\n Patient: its responses \n##### relation: vary\n Patient: AI models \n Initial: regurgitating \n Final: synthesizing \n##### relation: answer\n Communicator: ChatGPT\n##### relation: afforded\n Recipient: AI models \n Content: protection \n##### relation: becomes\n Agent: says a person or entity \n State: liable \n##### relation: responses\n Agent: ChatGPT\n##### relation: develop\n Agent: a person or entity \n Patient: content \n Method: in part .\u201d And doesn \u2019 t transforming \n##### relation: transforming\n Agent: a person or entity \n Patient: content \n##### relation: shaped\n Agent: the AI \u2019 s creators \n Patient: their output \n Instrument: reinforcing behaviors they like and discouraging those they don \u2019 t \n##### relation: contributed\n Giver: someone else \n Content: a tweet , video or website \n##### relation: predicting\n Agent: ChatGPT\n##### relation: synthesizing\n Creator: ChatGPT\n Patient: product \n##### relation: goaded\n Agent: a user \n Patient: AI models \n Content: producing a given reply \n#### Generated Context\n The early days of Microsoft \u2019 s ChatGPT were something of a replay of internet history \u2014 beginning with excitement about these inventions and ending in trepidation about the harm they could do .ChatGPT and other \u201c large - language models \u201d \u2014 artificially intelligent systems trained on vast troves of text \u2014 can turn into liars or racists or terrorist accomplices that explain how to build dirty bombs .The question is : When that happens , who \u2019 s responsible ?Section 230 of the Communications Decency Act says that services \u2014 from Facebook and Google to movie - review aggregators and mommy blogs with comment sections \u2014 shouldn \u2019 t face liability for most material from third parties .It \u2019 s fairly easy in these cases to distinguish between the platform and the person who \u2019 s posting .Not so with chatbots and AI assistants .Few have grappled with whether Section 230 provides protections to them .Consider ChatGPT .Type in a question , and it provides an answer .",
+            "actual_output": "  Sure, here are the completed texts based on the events provided:\nKnown Events:\nrelation: set\nAgent: AI 's creators\nPatient: the rules for their systems\nrelation: inform\nMessage Sender: creators behind a machine\nMessage Receiver: its outputs\nrelation: informed\nAgent: AI\nBeliever: the contours of every AI contribution\n\nrelation: producing\nCreator: AI models\nPatient: a given reply\n\nrelation: says\nSpeaker: Communications Decency Act\nMessage: a person or entity becomes liable if they `develop` content even `in part .` And doesn't transforming\nDetails: a list of search results into a summary qualify as development\nrelation: generates\nCreator: ChatGPT\nPatient: its responses\n\nrelation: vary\nPatient: AI models\nInitial: regurgitating\nFinal: synthesizing\n\nrelation: answer\nCommunicator: ChatGPT\n\nrelation: afforded\nRecipient: AI models\nContent: protection\n\nrelation: becomes\nAgent: says a person or entity\nState: liable\n\nrelation: responses\nAgent: ChatGPT\n\nrelation: develop\nAgent: a person or entity\nPatient: content\nMethod: in part .` And doesn't transforming\nrelation: transforming\nAgent: a person or entity\nPatient: content\n\nrelation: shaped\nAgent: the AI's creators\nPatient: their output\nInstrument: reinforcing behaviors they like and discouraging those they don't\n\nrelation: contributed\nGiver: someone else\nContent: a tweet , video or website\n\nrelation: predicting\nAgent: ChatGPT\n\nrelation: synthesizing\nCreator: ChatGPT\nPatient: product\n\nrelation: goaded\nAgent: a user\nPatient: AI models\nContent: producing a given reply\n\nGenerated Context:\nThe early days of Microsoft's ChatGPT were something of a replay of internet history - beginning with excitement about these inventions and ending in trepidation about the harm they could do .ChatGPT and other `large - language models` - artificially intelligent systems trained on vast troves of text - can turn into liars or racists or terrorist accomplices that explain how to build dirty bombs .The question is : When that happens , who 's responsible ?Section 230 of the Communications Decency Act says that services - from Facebook and Google to movie - review aggregators and mommy blogs with comment sections - shouldn 't face liability for most material from third parties .It 's fairly easy in these cases to distinguish between the platform and the person who 's posting .Not so with chatbots and AI assistants .Few have grappled with whether Section 230 provides protections to them .Consider ChatGPT .Type in a question , and it provides an answer .",
+            "expected_output": "It doesn \u2019 t merely surface existing content , such as a tweet , video or website originally contributed by someone else , but rather writes a contribution of its own in real time .The law says a person or entity becomes liable if they \u201c develop \u201d content even \u201c in part .\u201d And doesn \u2019 t transforming , say , a list of search results into a summary qualify as development ?What \u2019 s more , the contours of every AI contribution are informed substantially by the AI \u2019 s creators , who have set the rules for their systems and shaped their output by reinforcing behaviors they like and discouraging those they don \u2019 t .Yet at the same time , ChatGPT \u2019 s every answer is , as one analyst put it , a \u201c remix \u201d of third - party material .The tool generates its responses by predicting what word should come next in a sentence based on what words come next in sentences across the web .And as much as creators behind a machine inform its outputs , so too do the users posing queries or engaging in conversation .All this suggests that the degree of protection afforded to AI models may vary by how much a given product is regurgitating versus synthesizing , as well as by how deliberately a user has goaded a model into producing a given reply .",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The answer relevancy score is 1.00 because the generated text successfully incorporates all the given events, maintaining a coherent and relevant context around the responsibility and liability of AI creations, particularly ChatGPT, in relation to the Communications Decency Act. The text discusses the implications of AI models generating content and the potential legal questions surrounding their output, which directly addresses the input's events. There are no irrelevant statements in the output, making the score a perfect 1.00.",
+                        "statements": [
+                            "AI 's creators set the rules for their systems.",
+                            "Creators behind a machine inform its outputs.",
+                            "AI is informed about the contours of every AI contribution.",
+                            "AI models produce a given reply.",
+                            "Communications Decency Act says a person or entity becomes liable if they `develop` content even `in part`.",
+                            "Transforming a list of search results into a summary may qualify as development.",
+                            "ChatGPT generates its responses.",
+                            "AI models' abilities vary from regurgitating to synthesizing.",
+                            "ChatGPT answers.",
+                            "AI models are afforded protection.",
+                            "Says a person or entity becomes liable.",
+                            "ChatGPT's responses are developed in part.",
+                            "A person or entity transforms content.",
+                            "The AI's creators shape their output.",
+                            "Someone else contributed a tweet, video, or website.",
+                            "ChatGPT predicts.",
+                            "ChatGPT synthesizes a product.",
+                            "A user goads AI models into producing a given reply."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "with_triples_sample_1",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "Complete the following generated texts and make sure to contain all the events provided.\n### \n#### Known Events\n##### relation: said\n Speaker: Tyler Miller\n Message: \u201c I didn \u2019 t know he had such a good left foot \n##### relation: attack\n Agent: D . C . United \n Patient: Orlando City \n Location: Audi Field\n##### relation: played\n Winner: D . C . United \n Loser: Orlando City \n Name: MLS\n##### relation: match\n Winner: D . C . United \n Loser: Orlando City \n Name: MLS\n##### relation: defeating\n Agent: Orlando City \n Patient: New York Red Bulls\n Name: MLS\n##### relation: know\n Agent: Tyler Miller\n Patient: he had such a good left foot \n##### relation: scoring\n Agent: D . C . United \n Patient: Orlando City \n Location: Audi Field\n Content: opportunities \n##### relation: say\n Speaker: Chris Durkin\n Message: I \u2019 ve hit that [ with the left foot ] in training before \n##### relation: remained\n Agent: D . C . United \n##### relation: said\n Speaker: Wayne Rooney\n Message: We could have easily been two or three up in the first half \n##### relation: positioned\n Agent: Orlando Coach Oscar Pareja \n Patient: Florida \n Location: Monterrey \n##### relation: said\n Communicator: Chris Durkin\n Message: I can \u2019 t say I \u2019 ve hit that [ with the left foot ] in training before \n##### relation: match\n Participant: Orlando City \n Name: MLS\n#### Generated Context\n D . C . United remains an evolving enterprise under Coach Wayne Rooney , still missing pieces and still finding its way through the early stage of the MLS season .At the least , United plays hard for the former English superstar , whose fierce determination as a player in Washington a few years ago won over skeptical fans .On Saturday , for the second time in two appearances at Audi Field this season , United \u2019 s resolve produced another stirring finish \u2014 albeit this time one that yielded only one point .Midfielder Chris Durkin scored a wonderful goal in the 80th minute , ending a night of frustration for goal - averse United in a 1 - 1 draw with Orlando City .Opportunities were aplenty for United ( 1 - 1 - 1 ), but it took Durkin \u2019 s strike to offset rookie Duncan McGuire \u2019 s goal early in the second half .\u201c I wanted to see a reaction [ to Orlando \u2019 s goal ], which I did , so 90 percent of the game I thought was good .The 10 percent , it wasn \u2019 t ,\u201d Rooney said .\u201c We need to make sure when we go into them [ low ] periods , we \u2019 re harder to beat or harder to score against .\u201d He added , \u201c There \u2019 s a lot of positives we can take from it \u2014 just frustrating we didn \u2019 t take three points .\u201d At the top of the box , Durkin cut the ball back on C\u00e9sar Ara\u00fajo , then ripped a 16 - yard , left - footed shot with terrific technique and execution .The ball took flight and beat goalkeeper Pedro Gallese to the far side for Durkin \u2019 s third career MLS goal .",
+            "actual_output": "  Here are the completed texts:\n\n1. Tyler Miller said, `I didn't know he had such a good left foot.`\n2. D.C. United attacked Orlando City at Audi Field, with the latter emerging as the winner.\n3. D.C. United played Orlando City in an MLS match, with the former emerging as the winner.\n4. Orlando City defeated New York Red Bulls in an MLS match.\n5. Tyler Miller said, `I didn't know he had such a good left foot.`\n6. Chris Durkin said, `I've hit that [with the left foot] in training before.`\n7. D.C. United remained an evolving enterprise under Coach Wayne Rooney.\n8. Wayne Rooney said, `We could have easily been two or three up in the first half.`\n9. Orlando Coach Oscar Pareja positioned his team in Florida for the match against Monterrey.\n10. Chris Durkin said, `I can't say I've hit that [with the left foot] in training before.`\n11. The match between Orlando City and D.C. United ended in a 1-1 draw.\n12. Wayne Rooney said, `There's a lot of positives we can take from it\u2014just frustrating we didn't take three points.`\n\nHere are the events in the order they occurred:\n\n1. Tyler Miller made a comment about someone's left foot.\n2. D.C. United attacked Orlando City at Audi Field.\n3. D.C. United played Orlando City in an MLS match.\n4. Orlando City defeated New York Red Bulls in an MLS match.\n5. Tyler Miller made a comment about someone's left foot.\n6. Chris Durkin made a comment about his ability to score with his left foot.\n7. D.C. United remained an evolving enterprise under Coach Wayne Rooney.\n8. Wayne Rooney made a comment about his team's performance in the first half.\n9. Orlando Coach Oscar Pareja positioned his team in Florida for the match against Monterrey.\n10. Chris Durkin made a comment about his ability to score with his left foot.\n11. The match between Orlando City and D.C. United ended in a 1-1 draw.\n12. Wayne Rooney made a comment about his team's performance in the match.",
+            "expected_output": "\u201c I can \u2019 t say I \u2019 ve hit that [ with the left foot ] in training before ,\u201d the right - footed Durkin said , smiling .United goalkeeper Tyler Miller said : \u201c I didn \u2019 t know he had such a good left foot .It was amazing .\u201d Aside from McGuire \u2019 s goal , United was much tighter and tidier defensively than it was against Columbus last weekend .In the attack , however , it remained inefficient with scoring opportunities , and Rooney said , \u201c We could have easily been two or three up in the first half .\u201d Orlando ( 1 - 0 - 2 ) played its first away match in league play after defeating the New York Red Bulls , 1 - 0 , and drawing with FC Cincinnati , 0 - 0 .At the moment , though , the Lions \u2019 priority is the Concacaf Champions League .The visit to Washington fell between legs of a round - of - 16 series with Mexican power Tigres .A 0 - 0 draw in Monterrey , Mexico , on Tuesday positioned them well for the return match in Florida on Wednesday .",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.75,
+                        "reason": "The answer relevancy score is 0.75 because the generated context mostly stays on topic, discussing the D.C. United vs. Orlando City match in the MLS, with relevant details like the goal scored by Chris Durkin and the comments from Wayne Rooney. However, the score could be higher if it didn't include irrelevant information about Orlando City's match against New York Red Bulls and Oscar Pareja's positioning in Monterrey, which are not directly related to the main event discussed. Despite these distractions, the context provides a good summary of the match and the key moments, hence the score is not lower.",
+                        "statements": [
+                            "Tyler Miller said, `I didn't know he had such a good left foot.`",
+                            "D.C. United attacked Orlando City at Audi Field, with the latter emerging as the winner.",
+                            "D.C. United played Orlando City in an MLS match, with the former emerging as the winner.",
+                            "Orlando City defeated New York Red Bulls in an MLS match.",
+                            "Tyler Miller said, `I didn't know he had such a good left foot.`",
+                            "Chris Durkin said, `I've hit that [with the left foot] in training before.`",
+                            "D.C. United remained an evolving enterprise under Coach Wayne Rooney.",
+                            "Wayne Rooney said, `We could have easily been two or three up in the first half.`",
+                            "Orlando Coach Oscar Pareja positioned his team in Florida for the match against Monterrey.",
+                            "Chris Durkin said, `I can't say I've hit that [with the left foot] in training before.`",
+                            "The match between Orlando City and D.C. United ended in a 1-1 draw.",
+                            "Wayne Rooney said, `There's a lot of positives we can take from it\u2014just frustrating we didn't take three points.`"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='The statement incorrectly claims that Orlando City won, while in reality, D.C. United won.'), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='This statement is about a match between Orlando City and New York Red Bulls, not the match between D.C. United and Orlando City.'), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='This statement is about a match in Monterrey, not the match between D.C. United and Orlando City.'), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {

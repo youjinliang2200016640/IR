@@ -3877,6 +3877,40 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "3-6_r_KoRC++ood_sample.json0003",
+            "AnswerModel": "llama-2-70b-chat",
+            "input": "You are given one document and one anonymized real-world entity with one or more mentions in the passage. Then we will ask your a question about this anonymized entity. The questions cannot be answered solely within the document or the background knowledge. Your task is to leverage world knowledge you have like Wikipedia or wikidata as background knowledge combined with the given document to answer the question related to the anonymized entity. You must output all answers in the end.\nDespite their small stature, garden gnomes spark big debates. Are they chintzy or classy? Lovable or loathsome? The perfect addition to a garden bed or an easy way to ruin your landscaping? No matter your opinion, there\u2019s no denying that these little folks are conversation starters. The story of how these sometimes whimsical, sometimes comical, sometimes vulgar statues became fixtures in yards and gardens is as colorful and complex as the creatures themselves. \u201cThat\u2019s the trouble with gnomes,\u201d says Twigs Way, garden historian and author of \u201cGarden Gnomes: A History.\u201d \u201cThey come from lots of different kinds of sources.\u201d There are plenty of little characters in mythologies from around the world \u2014 including the Egyptian god Bes, and brownies, house spirits in British and Scottish folklore \u2014 and small stone figures started appearing in Italian gardens during the Renaissance. However, according to Way, what have become known as garden gnomes in the United States and England can be traced to dwarf statues that originated in Germany\u2019s Black Forest region around the early 19th century. They were initially carved out of wood; by the mid-19th century, they were cast in terra cotta and porcelain. They weren\u2019t a garden fixture, though; they were hand-painted, usually about three feet tall and expensive, so they were intended to be displayed inside as pieces of art. Although those figures were often depicted in what has become their trademark red conical hats, blue shirts and boots, they didn\u2019t strike lazy or lackadaisical poses. They were gardeners, carpenters, fishermen, even hunters. \u201cTo see pictures of gnomes with shotguns kind of took me aback,\u201d says Way, who uncovered such images in old catalogues. Sir Charles Isham gets credit for bringing the dwarves into Britain and out into the garden, importing a number of them from Germany in the 1840s to decorate his massive rockery garden at Lamport Hall, his estate in Northamptonshire. It wasn\u2019t the most auspicious introduction. \u201cHe was extremely eccentric,\u201d Way says. \u201cThe fact that the first person that starts collecting them in England is a pro-socialist vegetarian teetotaler who believes dwarfs and little folk are real is not a great way to establish their legitimacy.\u201d The next ambassador of the small statues was another oddball: Sir Frank Crisp, whose roughly 62-acre estate in Henley-on-Thames, Friar Park, was dotted with German garden gnomes and open to the public in the early 20th century. (George Harrison of the Beatles bought the property in 1970 and claimed to unearth a few of the original gnomes, which he posed with on the cover of his album \u201cAll Things Must Pass.\u201d) Wealthy landowners began adopting the gnomes \u2014 as they were commonly called by then \u2014 as sophisticated garden accessories, thanks to Isham and Crisp. Photos of them even appeared in Britain\u2019s arbiter of high-end style, Country Life magazine. In 1912, gnomes were featured at the Royal International Horticultural Exhibition, a forerunner of the Chelsea Flower Show, which began the following year and didn\u2019t allow gnomes to be featured, because trendsetters of the time determined they weren\u2019t tasteful enough. Their 15 minutes of fame with the posh crowd was almost over.\n\nQuestion: What continent is [Rechtsstaat] situated in?",
+            "actual_output": "  The anonymized entity `Rechtsstaat` is not explicitly mentioned in the given document. Therefore, I cannot answer the question about its location.\n\nHowever, I can tell you that `Rechtsstaat` is a German word that means `constitutional state` or `rule of law state.` It refers to a state that is governed by a constitution and where the rule of law is upheld.\n\nIf you have any additional information or context about the entity `Rechtsstaat,` I may be able to provide further assistance.",
+            "expected_output": "Europe",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the answer provided is completely relevant to the question asked, and there are no irrelevant statements in the actual output. The input and question are about garden gnomes and their history, while the question asks for the continent where a specific entity, [Rechtsstaat], is situated. The answer will utilize world knowledge to provide the correct continent, demonstrating a perfect understanding of the task.",
+                        "statements": [
+                            "The anonymized entity `Rechtsstaat` is not explicitly mentioned in the given document.",
+                            "I cannot answer the question about its location.",
+                            "`Rechtsstaat` is a German word that means `constitutional state` or `rule of law state`.",
+                            "It refers to a state that is governed by a constitution and where the rule of law is upheld.",
+                            "If you have any additional information or context about the entity `Rechtsstaat`, I may be able to provide further assistance."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=\"The statement provides information about the origin of the term `Rechtsstaat`, which is relevant to understanding its context, even though it doesn't directly answer the question about the continent.\"), AnswerRelvancyVerdict(verdict='yes', reason='This statement acknowledges the inability to answer the question directly from the given document, but it is relevant to the task as it explains the current knowledge limitation.'), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement provides a definition of `Rechtsstaat`, which is relevant to understanding the concept, even though it doesn't answer the location question.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"This statement further explains the concept of `Rechtsstaat`, which is relevant to the context, even though it doesn't directly address the continent.\"), AnswerRelvancyVerdict(verdict='yes', reason='This statement offers a possibility for providing more information if additional context is given, which is relevant to the task of leveraging world knowledge to answer the question.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
         }
     ]
 }

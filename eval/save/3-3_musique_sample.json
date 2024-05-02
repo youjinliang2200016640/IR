@@ -4121,6 +4121,41 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "3hop1__62775_198385_161032",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "Please answer the following question.\nQ: When did the first large winter carnival take place in the city where CIMI\u2212FM is licensed to broadcast?\nA: CIMI\u2212FM is licensed to broadcast in Quebec City. The first large winter carnival in Quebec City took place in 1894. So the answer is: 1894.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What county is Hebron located in, in the same province the Heritage Places Protection Act applies to?\nA: Heritage Places Protection Act applies to the jurisdiction of Prince Edward Island. Hebron, Prince Edward Island is located in the Prince County. So the answer is: Prince County.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: What year did Lee relocate to the city where the Genesis carmaker is headquartered?\nA: ",
+            "actual_output": " Lee did not relocate to the city where the Genesis carmaker is headquartered. Genesis is a luxury car brand owned by Hyundai Motor Company. Hyundai Motor Company's headquarter is located in Seoul, South Korea. However, it's important to note that the question is asking about a fictional individual named Lee, and I'm providing an answer based on the premise. If you're asking about someone named Lee, the answer to your real question is `it's not known which city Lee relocated to.`",
+            "expected_output": "1947",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.9,
+                        "reason": "The score is 0.90 because the response accurately provides the information about the year Lee relocated and the city where the Genesis carmaker is headquartered. However, the relevance could be improved by directly mentioning the year without introducing a fictional individual named Lee, as the input doesn't ask for personal relocation details. The focus should be solely on the carmaker's headquarters and the associated year.",
+                        "statements": [
+                            "Lee did not relocate to the city where the Genesis carmaker is headquartered.",
+                            "Genesis is a luxury car brand owned by Hyundai Motor Company.",
+                            "Hyundai Motor Company's headquarter is located in Seoul, South Korea.",
+                            "The question is asking about a fictional individual named Lee.",
+                            "I'm providing an answer based on the premise.",
+                            "If you're asking about someone named Lee, the answer to your real question is `it's not known which city Lee relocated to.`"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='The statement is irrelevant to the input as it discusses a fictional individual named Lee, while the question is about the headquarters of the organization setting the standards for ISO 21500.'), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
         }
     ]
 }

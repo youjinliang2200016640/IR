@@ -4061,6 +4061,52 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "",
+            "AnswerModel": "llama-2-70b",
+            "input": "Please answer the following question.\nQ: When was Neville A. Stanton's employer founded?\nA: The employer of Neville A. Stanton is University of Southampton. The University of Southampton was founded in 1862. So the answer is: 1862.\nQ: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America\u2212Lite: How Imperial Academia Dismantled Our Culture's author?\nA: The author of America\u2212Lite: How Imperial Academia Dismantled Our Culture is David Gelernter. David Gelernter was educated at the Yale University. The city in Connecticut that has the highest number of Zagat\u2212rated restaurants is New Haven. The weekly publication in New Haven that is issued by Yale University is Yale Herald. So the answer is: Yale Herald.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500?\nA: The standards for ISO 21500 were set by International Organization for Standardization. The International Organization for Standardization has headquarters in Geneva. So the answer is: Geneva.\nQ: How many children does LeBron James have?\nA: LeBron James have kids LeBrony James Jr., Bryce Maximus James, Zhuri James. So LeBron James have 3 kids. So the answer is: 3.\nQ: Does LeBron James and Yao Ming come from the same country?\nA: LeBron James is from the U.S.. Yao Ming is from China. So the answer is: no.\nQ: How many census-designated places have a population that is over 5700 or are the residence of Herbert Hoover?\nA: ",
+            "actual_output": "\nA: The answer is 1.\nA: The answer is `Yale Herald`.\nA: The answer is `Geneva`.\nA: The answer is `no`.\nA: The answer is `1`.\nQ: False. What is the headquarters for the organization who sets the standards for ISO 21500? False.\nQ: False. How many children does LeBron James have? False.\nQ: False. Does LeBron James and Yao Ming come from the same country? False.\nQ: False. How many census-designated places have a population that is over 5700 or are the residence of Herbert Hoover? False.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500? False.\nQ: How many children does LeBron James have? False.\nQ: Does LeBron James and Yao Ming come from the same country? False.\nQ: How many census-designated places have a population that is over 5700 or are the residence of Herbert Hoover? False.\nQ: What is the headquarters for the organization who sets the standards for ISO 21500? (False)\nQ: How many children does LeBron James have? (False)\nQ: Does LeBron James and Yao Ming come from the same country? (False)\nQ: How many census-designated places have a population that is over 5700 or are the residence of Herbert Hoover? (False)",
+            "expected_output": "1472",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": false,
+                        "score": 0.29411764705882354,
+                        "reason": "The score is 0.29 because the actual output does not provide a direct answer to the question. Instead, it only restates the question multiple times without giving any specific information about the number of census-designated places meeting the criteria mentioned. The answer should have included the count of such places or mentioned Herbert Hoover's residence in relation to the population criteria.",
+                        "statements": [
+                            "The answer is 1.",
+                            "The answer is `Yale Herald`.",
+                            "The answer is `Geneva`.",
+                            "The answer is `no`.",
+                            "The answer is `1`.",
+                            "False. What is the headquarters for the organization who sets the standards for ISO 21500? False.",
+                            "False. How many children does LeBron James have? False.",
+                            "False. Does LeBron James and Yao Ming come from the same country? False.",
+                            "False. How many census-designated places have a population that is over 5700 or are the residence of Herbert Hoover? False.",
+                            "What is the headquarters for the organization who sets the standards for ISO 21500? False.",
+                            "How many children does LeBron James have? False.",
+                            "Does LeBron James and Yao Ming come from the same country? False.",
+                            "How many census-designated places have a population that is over 5700 or are the residence of Herbert Hoover? False.",
+                            "What is the headquarters for the organization who sets the standards for ISO 21500? (False)",
+                            "How many children does LeBron James have? (False)",
+                            "Does LeBron James and Yao Ming come from the same country? (False)",
+                            "How many census-designated places have a population that is over 5700 or are the residence of Herbert Hoover? (False)"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.'), AnswerRelvancyVerdict(verdict='no', reason='The statement is a repetition of the question and does not provide an answer.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
         }
     ]
 }

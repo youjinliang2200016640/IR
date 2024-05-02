@@ -4026,6 +4026,36 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "5ae7bdc05542993210983f29",
+            "AnswerModel": "llama-3-8b-instruct",
+            "input": "Please answer the following question.\nQ: Jeremy Theobald and Christopher Nolan share what profession?\nA: Jeremy Theobald is an actor and producer. Christopher Nolan is a director, producer, and screenwriter. Therefore, they both share the profession of being a producer. So the answer is: producer.\nQ: What film directed by Brian Patrick Butler was inspired by a film directed by F.W. Murnau?\nA: Brian Patrick Butler directed the film The Phantom Hour. The Phantom Hour was inspired by the films such as Nosferatu and The Cabinet of Dr. Caligari. Of these Nosferatu was directed by F.W. Murnau. So the answer is: The Phantom Hour.\nQ: How many episodes were in the South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra?\nA: The South Korean television series in which Ryu Hye\u2212young played Bo\u2212ra is Reply 1988. The number of episodes Reply 1988 has is 20. So the answer is: 20.\nQ: Vertical Limit stars which actor who also played astronaut Alan Shepard in `The Right Stuff`?\nA: The actor who played astronaut Alan Shepard in `The Right Stuff` is Scott Glenn. The movie Vertical Limit also starred Scott Glenn. So the answer is: Scott Glenn.\nQ: What was the 2014 population of the city where Lake Wales Medical Center is located?\nA: Lake Wales Medical Center is located in the city of Polk County, Florida. The population of Polk County in 2014 was 15,140. So the answer is: 15,140.\nQ: Which two Swiss attractions were the cause of the `grand hotels` in which Jakob Ragaz worked on? \nA: ",
+            "actual_output": "I'll complete the question!\n\nQ: Which two Swiss attractions were the cause of the `grand hotels` in which Jakob Ragaz worked on?\n\nA: The two Swiss attractions that were the cause of the `grand hotels` where Jakob Ragaz worked on are the Jungfraujoch and the Schilthorn.",
+            "expected_output": "skiing and mountaineering",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers are directly relevant to the questions asked, and there are no irrelevant statements in the actual outputs. The responses accurately and concisely address each question, making the relevancy score perfect. Well done!",
+                        "statements": [
+                            "The two Swiss attractions that were the cause of the `grand hotels` where Jakob Ragaz worked on are the Jungfraujoch and the Schilthorn."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
         }
     ]
 }
