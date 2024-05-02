@@ -3873,6 +3873,44 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "1_low_freq_ent5328",
+            "AnswerModel": "infini-megrez-7b",
+            "input": "Please give answers to the following questions about knowledge. Note: If there are more than one answer, print them all and separate them with a semicolon (;). Please do not give anything other than the answers.\nWhat is the manufacturer of Velasco-class cruiser?",
+            "actual_output": " The `Velasco-class cruiser` is a specific type of ship, but it doesn't refer to a single ship with a single manufacturer; instead, it refers to a class of cruisers that share characteristics and might be built by multiple manufacturers. If you're asking about a specific Velasco-class cruiser that currently exists, you'll need more information, such as its registry number or build details, to determine its manufacturer. However, if the question is hypothetical and you're asking about the manufacturers of a Velasco-class cruiser that doesn't exist, you would need to research that to find the answer, which would require additional data and research.",
+            "expected_output": "Thames Ironworks and Shipbuilding Company",
+            "context": null,
+            "retrieval_context": null,
+            "cached_metrics_data": [
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "Cannot connect to the model qwen1.5-72b-chat",
+                        "statements": [
+                            "The `Velasco-class cruiser` is a specific type of ship.",
+                            "It doesn't refer to a single ship with a single manufacturer.",
+                            "It refers to a class of cruisers that share characteristics.",
+                            "Cruisers of this class might be built by multiple manufacturers.",
+                            "If you're asking about a specific Velasco-class cruiser, more information is needed.",
+                            "Such as its registry number or build details.",
+                            "This would determine its manufacturer.",
+                            "If the question is hypothetical, research is required for the answer.",
+                            "Research would be needed for the manufacturers of a non-existent Velasco-class cruiser."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
         }
     ]
 }
