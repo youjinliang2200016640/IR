@@ -2539,6 +2539,54 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": false,
+                        "score": 0.03333333333333333,
+                        "reason": "The answer relevancy score is 0.03 because the actual output contains numerous statements that are not related to the song context, such as personal details about individuals, unrelated positions held, and geographical facts that do not pertain to the song. These irrelevant statements significantly detract from the relevance of the output to the input, which is asking for relations from the text based on a predefined set of relations. The score is this low because almost all provided statements are irrelevant or unclear in the context of the song information.",
+                        "statements": [
+                            "entity0 is the head of government entity0",
+                            "entity0 is from entity0",
+                            "entity0 was born in entity0",
+                            "entity0 died in entity0",
+                            "entity0 is the father of entity1",
+                            "entity0 is the mother of entity2",
+                            "entity0 is the spouse of entity1",
+                            "entity0 is a citizen of entity4",
+                            "entity0 is from entity4 on entity5",
+                            "entity0 is an entity7 instance8",
+                            "entity0 is the head of state entity0",
+                            "entity0 is the capital of entity0",
+                            "entity0 speaks entity1 language",
+                            "entity0 holds the position of entity10",
+                            "entity0 is the child of entity2",
+                            "entity0 is a published author",
+                            "entity0 is a member of entity2 political party",
+                            "entity0 works for entity5",
+                            "entity0 founded entity8",
+                            "entity0 is affiliated with entity2 league",
+                            "entity0 is affiliated with entity2 publisher",
+                            "entity0 is owned by entity3",
+                            "entity0 is located in entity5",
+                            "entity0 belongs to entity7 genre",
+                            "entity0 is an operator of entity9",
+                            "entity0 practices entity1 religion",
+                            "entity0 contains entity2",
+                            "entity0 is followed by entity5",
+                            "entity0 is the one followed by entity8",
+                            "entity0 is the head of state entity0"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is the head of government entity0' does not relate to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is from entity0' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 was born in entity0' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 died in entity0' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is the father of entity1' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is the mother of entity2' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is the spouse of entity1' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is from entity4 on entity5' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is an entity7 instance8' is not clear and does not directly relate to the song.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is the head of state entity0' does not relate to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is the capital of entity0' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 speaks entity1 language' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 holds the position of entity10' is not clear and does not directly relate to the song.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is the child of entity2' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is a published author' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is a member of entity2 political party' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 works for entity5' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 founded entity8' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is affiliated with entity2 league' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is affiliated with entity2 publisher' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is owned by entity3' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is located in entity5' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 belongs to entity7 genre' is not clear and does not directly relate to the song.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is an operator of entity9' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 practices entity1 religion' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 contains entity2' is not relevant to the song context.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is followed by entity5' is not relevant to the song information.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is the one followed by entity8' is not clear and does not directly relate to the song.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement 'entity0 is the head of state entity0' is not relevant to the song context.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
