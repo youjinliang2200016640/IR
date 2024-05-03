@@ -3985,6 +3985,34 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": false,
+                        "score": 0.2222222222222222,
+                        "reason": "The score is 0.22 because the actual output focuses on the description of a private company limited by shares, its characteristics, and the differences between private and public limited companies. It does not directly address the allegiance of the nation within the UK mentioned in the input. The information provided is about corporate structures and not related to the political allegiance of the country.",
+                        "statements": [
+                            "As an AI, I don't have a `memory` or a personal perspective",
+                            "I don't have access to external databases like Wikipedia to give personal `answers`",
+                            "A private company limited by shares is a form of incorporation in certain countries",
+                            "Its shares are not available to the general public like those of a public limited company (plc)",
+                            "The word `allegiance` in the context is a bit broad, as it can refer to various forms of legal obligation to the state",
+                            "As an AI, I don't have a specific identity or `nationhood`",
+                            "I am designed to represent and understand human languages across the world",
+                            "My programming is based on a global dataset",
+                            "The information I provide should be considered an overview and summary of the text provided, not a definitive statement about the allegiance of any country",
+                            "If you need more specific information about a specific country, I can provide the information I have based on the given text"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason=\"The statement is about the AI's capabilities and not related to the allegiance of the country mentioned.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement is about the AI's limitations in providing personal answers, not about the country's allegiance.\"), AnswerRelvancyVerdict(verdict='no', reason='The statement discusses a form of incorporation, not the allegiance of a country.'), AnswerRelvancyVerdict(verdict='no', reason='The statement compares private and public limited companies, not the allegiance of a country.'), AnswerRelvancyVerdict(verdict='idk', reason=\"The statement acknowledges the broadness of the term 'allegiance', but doesn't directly address the question.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement is about the AI's lack of identity or nationhood, not the country's allegiance.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement is about the AI's global understanding, not the country's allegiance.\"), AnswerRelvancyVerdict(verdict='no', reason=\"The statement clarifies the nature of the AI's information, not the allegiance of a country.\"), AnswerRelvancyVerdict(verdict='idk', reason=\"The statement indicates the AI can provide information based on the given text, but doesn't directly answer the question.\")]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },

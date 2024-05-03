@@ -1,27 +1,5 @@
 {
     "fileName": "2-4_FewNERD++supervised_sample.json",
     "class": "Knowledge Understanding",
-    "data": [
-        {
-            "id": "id1295",
-            "AnswerModel": "llama-2-13b-chat",
-            "input": "Please find all entities in the provided texts and classify them into different types.\nDuring that time he studied art and graphics at the \u00c9cole des Beaux-Arts in Geneva , and subsequently at the \u00c9cole nationale sup\u00e9rieure des Beaux-Arts in Paris .",
-            "actual_output": "  Sure, I can help you with that! Here are the entities I found in the provided text, classified into different types:\n\n1. People:\n\t* The speaker (mentioned in the first sentence)\n\t* The artist (mentioned in the second sentence)\n2. Places:\n\t* Geneva (mentioned in the first sentence)\n\t* Paris (mentioned in the second sentence)\n3. Organizations:\n\t* \u00c9cole des Beaux-Arts (mentioned in the first and second sentences)\n\t* \u00c9cole nationale sup\u00e9rieure des Beaux-Arts (mentioned in the second sentence)\n4. Things:\n\t* Art\n\t* Graphics\n\nI hope this helps! Let me know if you have any further questions or if you need any additional information.",
-            "expected_output": "During that time he studied art and graphics at the [ \u00c9cole des Beaux-Arts | organization-education ] in [ Geneva | location-GPE ] , and subsequently at the [ \u00c9cole nationale sup\u00e9rieure des Beaux-Arts | organization-education ] in [ Paris | location-GPE ] .",
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Answer Relevancy"
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        }
-    ]
+    "data": []
 }

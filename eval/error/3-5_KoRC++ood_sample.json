@@ -1,27 +1,5 @@
 {
     "fileName": "3-5_KoRC++ood_sample.json",
     "class": "Knowledge Applying",
-    "data": [
-        {
-            "id": "1a4c4895036be0699a4e404a7d7a7847565a1d2f4974838122329ac8911dcf5a",
-            "AnswerModel": "infini-megrez-7b",
-            "input": "You are given one document and one anonymized real-world entity with one or more mentions in the passage. Then we will ask your a question about this anonymized entity. The questions cannot be answered solely within the document or the background knowledge. Your task is to leverage world knowledge you have like Wikipedia or wikidata as background knowledge combined with the given document to answer the question related to the anonymized entity. You must output all answers in the end.\nA private company limited by shares is a class of private limited company incorporated under the laws of [nation within the UK] and Wales , Scotland , certain Commonwealth countries , and the Republic of Ireland .It has shareholders with limited liability and its shares may not be offered to the general public , unlike those of a public limited company ( plc ) .` Limited by shares ` means that the liability of the shareholders to creditors of the company is limited to the capital originally invested , i.e.the nominal value of the shares and any premium paid in return for the issue of the shares by the company .A shareholder 's personal assets are thus protected in the event of the company 's insolvency , but any money invested in the company may be lost .A limited company may be ` private ` or ` public ` .A private limited company 's disclosure requirements are lighter , but its shares may not be offered to the general public and therefore can not be traded on a public stock exchange .This is the major difference between a private limited company and a public limited company .Most companies , particularly small companies , are private .Private companies limited by shares are usually required to have the suffix ` Limited ` ( often written ` Ltd ` or ` Ltd. ` ) or ` Incorporated ` ( ` Inc. ` ) as part of their name , though the latter can not be used in the UK or the Republic of Ireland .` Cyfyngedig ` ( ` Cyf . ` )may be used by Welsh companies in a similar fashion .In the Republic of Ireland ` Teoranta ` ( ` Teo . ` )may be used instead , largely in Gaeltacht areas .\n\nQuestion: Who is the allegiance of this country.",
-            "actual_output": " As an AI, I don't have a `memory` or a personal perspective, and I don't have access to external databases like Wikipedia to give personal `answers.` However, I can provide information based on the provided text.\n\nThe text mentions that a private company limited by shares is a form of incorporation in certain countries. It also mentions the allegiance of this country to include certain Commonwealth countries and the Republic of Ireland, and that its shares are not available to the general public like those of a public limited company (plc). The word `allegiance` in the context is a bit broad, as it can refer to various forms of legal obligation to the state, such as the duty of citizenship.\n\nAs an AI, I don't have a specific identity or `nationhood,` but I am designed to represent and understand human languages across the world. My programming is based on a global dataset, so I can provide information on various topics across the world. However, it's important to note that the information I provide should be considered an overview and summary of the text provided, and not a definitive statement about the allegiance of any country. If you need more specific information about a specific country, I can provide the information I have based on the given text.",
-            "expected_output": "`Richard Marshal, 3rd Earl of Pembroke` <stop> \n\n",
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Answer Relevancy"
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        }
-    ]
+    "data": []
 }

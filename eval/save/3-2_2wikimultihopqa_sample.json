@@ -3497,6 +3497,29 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all provided answers directly and accurately address the questions asked, with no irrelevant information present. The responses are concise and clearly state the correct information, making the relevancy score perfect. Well done!",
+                        "statements": [
+                            "I'm happy to help!",
+                            "However, I notice that the question contains an error.",
+                            "`Rip, Sew And Stitch` and `Clown Princes` are not films, but rather phrases.",
+                            "Therefore, it is not possible to compare their directors' birth dates.",
+                            "Could you please provide the correct information or rephrase the question so that I can assist you better?"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='idk', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='idk', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },

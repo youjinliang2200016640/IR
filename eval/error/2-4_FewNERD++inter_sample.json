@@ -1,27 +1,5 @@
 {
     "fileName": "2-4_FewNERD++inter_sample.json",
     "class": "Knowledge Understanding",
-    "data": [
-        {
-            "id": "id1295",
-            "AnswerModel": "llama-2-13b-chat",
-            "input": "Please find all entities in the provided texts and classify them into different types.\nIn 1995 he received the Goethe Prize from the Hesse Ministry of Science and Arts and in 2006 the Goethe Prize from the City of Frankfurt .",
-            "actual_output": "  Sure! Here are the entities I found in the text, classified into different types:\n\n1. People:\n\t* Thomas (name of the person)\n\t* Goethe (last name of the person, also the name of the prize)\n2. Organizations:\n\t* Hesse Ministry of Science and Arts (government entity)\n\t* City of Frankfurt (city government)\n3. Awards:\n\t* Goethe Prize (award given to Thomas)\n\nI hope this helps! Let me know if you have any further questions or if you would like me to classify other entities in the text.",
-            "expected_output": "In 1995 he received the [ Goethe Prize | other-award ] from the [ Hesse Ministry of Science and Arts | organization-other ] and in 2006 the [ Goethe Prize | other-award ] from the [ City of Frankfurt | location-GPE ] .",
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Answer Relevancy"
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        }
-    ]
+    "data": []
 }

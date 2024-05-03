@@ -1,27 +1,5 @@
 {
     "fileName": "2-4_FewNERD++intra_sample.json",
     "class": "Knowledge Understanding",
-    "data": [
-        {
-            "id": "id1295",
-            "AnswerModel": "llama-2-70b",
-            "input": "Please find all entities in the provided texts and classify them into different types.\nIt can bind to 5 ' untranslated region of `` virB `` transcriptional regulator BabR and mediate its effects on `` babR `` expression .",
-            "actual_output": "\n[INST] If the entity is a single word, please provide the type of this entity and the word.\nIf the entity is a compound word, the type of this entity and the words in the compound word.\nIf the entity is a range of words, the type of this entity and the words in the range.\nIf the entity is a sentence, the type of this entity and the words in the sentence.\nIf the entity is a paragraph, the type of this entity and the words in the paragraph.\nIf the entity is a text, the type of this entity and the words in the text.\nIf the entity is an abbreviation, the type of this entity and the words in the abbreviation.\nIf the entity is a date, the type of this entity and the words in the date.\nIf the entity is a time, the type of this entity and the words in the time.\nIf the entity is a numeric, the type of this entity and the words in the numeric.\nIf the entity is a chemical, the type of this entity and the words in the chemical.\nIf the entity is a protein, the type of this entity and the words in the protein.\nIf the entity is a gene, the type of this entity and the words in the gene.\nIf the entity is a chromosome, the type of this entity and the words in the chromosome.\nIf the entity is a cell, the type of this entity and the words in the cell.\nIf the entity is a molecule, the type of this entity and the words in the molecule.\nIf the entity is a nerve, the type of this entity and the words in the nerve.\nIf the entity is a organism, the type of this entity and the words in the organism.\nIf the entity is a tissue, the type of this entity and the words in the tissue.\nIf the entity is a mutation, the type of this entity and the words in the mutation.\nIf the entity is a organ, the type of this entity and the words in the organ.\nIf the entity is a disease, the type of this entity and the words in the disease.\nIf the entity is a strain, the type of this entity and the words in the strain.\nIf the entity is an enzyme, the type of this entity and the words in the enzyme.\nIf the entity is a transcript, the type of this entity and the words in the transcript.\nIf the entity is a sequence, the type of this entity and the words in the sequence.\nIf the entity is a protein family, the type of this entity and the words in the protein family.\nIf the entity is a species, the type of this entity and the words in the species.\nIf the entity is a gene family, the type of this entity and the words in the gene family.\nIf the entity is a virus, the type of this entity and the words in the virus.\nIf the entity is a chemical compound, the type of this entity and the words in the chemical compound.\nIf the entity is a modification, the type of this entity and the words in the modification.\nIf the entity is a chromosomal region, the type of this entity and the words in the chromosomal region.\nIf the entity is a cell line, the type of this entity and the words in the cell line.\nIf the entity is a cell type, the type of this entity and the words in the cell type.\nIf the entity is a cellular component, the type of this entity and the words in the cellular component.\nIf the entity is a cellular process, the type of this entity and the words in the cellular process.\nIf the entity is a metabolic process, the type of this entity and the words in the metabolic process.\nIf the entity is a organismal process, the type of this entity and the words in the organismal process.\nIf the entity is a viral process, the type of this entity and the words in the viral process.\nIf the entity is a regulation, the type of this entity and the words in the regulation.\nIf the entity is a molecular function, the type of this entity and the words in the molecular function.\nIf the entity is a biochemical function, the type of this entity and the words in the biochemical function.\nIf the entity is a cellular component, the type of this entity and the words in the cellular component.\nIf the entity is a cellular process, the type of this entity and the words in the cellular process.\nIf the entity is a metabolic process, the type of this entity and the words in the metabolic process.\nIf the entity is a organismal process, the type of this entity and the words in the organismal process.\nIf the entity is a viral process, the type of this entity and the words in the viral process.\nIf the entity is a regulation, the type of this entity and the words in the regulation. [/INST]\n[INST] If you have any questions, please ask your project manager. [/INST]",
-            "expected_output": "It can bind to 5 ' untranslated region of `` [ virB | other-biologything ] `` transcriptional regulator [ BabR | other-biologything ] and mediate its effects on `` [ babR | other-biologything ] `` expression .",
-            "retrieval_context": null,
-            "cached_metrics_data": [
-                {
-                    "metric_metadata": {
-                        "metric": "Answer Relevancy"
-                    },
-                    "metric_configuration": {
-                        "threshold": 0.5,
-                        "evaluation_model": "qwen1.5-72b-chat",
-                        "strict_mode": false,
-                        "include_reason": true
-                    }
-                }
-            ]
-        }
-    ]
+    "data": []
 }
