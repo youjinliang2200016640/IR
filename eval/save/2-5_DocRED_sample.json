@@ -2643,6 +2643,35 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.9090909090909091,
+                        "reason": "The score is 0.91 because the actual output is highly relevant to the input, providing detailed information about the song \"Have You Ever Been in Love\" by Celine Dion, including its album releases, production details, critical reception, and chart performance. The only reason it's not a perfect score is due to the mention of Celine Dion being a Canadian recording artist, which, while accurate, is not directly related to the song itself but rather provides context about the artist. Overall, the output is comprehensive and informative, with just a minor deviation from the strict focus on the song.",
+                        "statements": [
+                            "Celine Dion is the head of government of her studio albums",
+                            "The song `Have You Ever Been in Love` is from Canada",
+                            "Celine Dion is a Canadian citizen",
+                            "The song `Have You Ever Been in Love` is an instance of a power ballad",
+                            "The song `Have You Ever Been in Love` was written by Anders Bagge, Peer \u00c5str\u00f6m, Tom Nichols, Daryl Hall, and Laila Bagge",
+                            "Celine Dion held the position of recording artist for the song `Have You Ever Been in Love`",
+                            "The song `Have You Ever Been in Love` was composed by Anders Bagge, Peer \u00c5str\u00f6m, Tom Nichols, Daryl Hall, and Laila Bagge",
+                            "Celine Dion is a member of the Canadian recording industry",
+                            "The song `Have You Ever Been in Love` is a notable work by Celine Dion",
+                            "The song `Have You Ever Been in Love` was recorded in Los Angeles, California, USA",
+                            "The song `Have You Ever Been in Love` was released on the record label of Sony Music Entertainment"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='no', reason='The statement is incorrect; Celine Dion is not the head of government but a recording artist.'), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },

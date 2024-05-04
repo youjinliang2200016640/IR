@@ -3393,6 +3393,41 @@
                         "strict_mode": false,
                         "include_reason": true
                     }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 0.6666666666666666,
+                        "reason": "The score is 0.67 because the actual output includes several irrelevant details that do not directly map to the predefined set of relations, such as specific events, quotes from individuals, and descriptions of incidents. These details contribute to a less concise representation of the core relations between entities. However, the output does provide relevant information about Lindsay Brandon's position and responsibilities within the WTA, which is why the score is not lower.",
+                        "statements": [
+                            "(Lindsay Brandon, head of organization, WTA)",
+                            "(WTA, organization, has director of safeguarding, Lindsay Brandon)",
+                            "(Lindsay Brandon, person, is interviewed by, Associated Press)",
+                            "(Associated Press, organization, interviews Lindsay Brandon)",
+                            "(Lindsay Brandon, person, is the first director of safeguarding, WTA)",
+                            "(WTA, organization, has security team, investigations of complaints)",
+                            "(Lindsay Brandon, person, manages the security team's investigations)",
+                            "(Lindsay Brandon, person, is responsible for monitoring potential concerns)",
+                            "(WTA, organization, has a code of conduct)",
+                            "(Lindsay Brandon, person, is creating a safeguarding code of conduct)",
+                            "(Lindsay Brandon, person, is credentialed in the WTA environment)",
+                            "(WTA, organization, has a diverse body of players, staff, and support teams)",
+                            "(Lindsay Brandon, person, is the chairperson of WTA)",
+                            "(Steve Simon, person, is the CEO of WTA)",
+                            "(WTA, organization, has a governing body)",
+                            "(Lindsay Brandon, person, found at least one positive measure)",
+                            "(Steve Simon, person, found at least one positive measure)"
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=\"The statement indicates that Lindsay Brandon is the head of the WTA's safeguarding department.\"), AnswerRelvancyVerdict(verdict='yes', reason='The statement shows that Lindsay Brandon is the first director of safeguarding for the WTA organization.'), AnswerRelvancyVerdict(verdict='yes', reason='Lindsay Brandon is mentioned as being interviewed by The Associated Press, indicating a relationship between the two entities.'), AnswerRelvancyVerdict(verdict='yes', reason='The statement reflects that The Associated Press is interviewing Lindsay Brandon.'), AnswerRelvancyVerdict(verdict='yes', reason='Lindsay Brandon is described as the first director of safeguarding for the WTA.'), AnswerRelvancyVerdict(verdict='yes', reason=\"The text mentions that the WTA's security team investigates complaints, and Lindsay Brandon manages these investigations.\"), AnswerRelvancyVerdict(verdict='yes', reason=\"Lindsay Brandon's responsibility to monitor potential concerns is mentioned.\"), AnswerRelvancyVerdict(verdict='no', reason='The existing code of conduct is not specifically mentioned as being created by Lindsay Brandon.'), AnswerRelvancyVerdict(verdict='yes', reason='Lindsay Brandon is working on creating a safeguarding code of conduct for the WTA.'), AnswerRelvancyVerdict(verdict='no', reason='The statement does not imply that Lindsay Brandon is credentialed in the WTA environment; it is mentioned as applying to others.'), AnswerRelvancyVerdict(verdict='no', reason='The text does not state that Lindsay Brandon is the chairperson of WTA; it refers to her as the director of safeguarding.'), AnswerRelvancyVerdict(verdict='yes', reason='Steve Simon is identified as the CEO of the WTA.'), AnswerRelvancyVerdict(verdict='yes', reason='The WTA is described as having a governing body, which Steve Simon is a part of as the CEO.'), AnswerRelvancyVerdict(verdict='no', reason='The statement about a positive measure is attributed to Steve Simon, not Lindsay Brandon.'), AnswerRelvancyVerdict(verdict='no', reason='The statement about a positive measure is attributed to Steve Simon, not Lindsay Brandon.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
                 }
             ]
         },
@@ -3413,6 +3448,39 @@
                         "reason": "The hallucination score is 1.00 because the actual output lacks information about entity1's founding by entity7 and entity3's location in entity5, indicating that it may have generated details not present in the given contexts, thus leading to a perfect hallucination score.",
                         "statements": "",
                         "verdicts": "[HallucinationVerdict(verdict='no', reason='The actual output does not provide information about entity1 being founded by entity7.'), HallucinationVerdict(verdict='no', reason='The actual output does not provide information about entity3 being located in the administrative territorial entity entity5.')]",
+                        "evaluationCost": null
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.5,
+                        "evaluation_model": "qwen1.5-72b-chat",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_metadata": {
+                        "metric": "Answer Relevancy",
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the actual output perfectly addresses the task of extracting relations from the given text and presents them in the required format, without any irrelevant statements. The relations are all relevant to the content of the text and are within the predefined set of relations. Excellent job!",
+                        "statements": [
+                            "Lindsay Brandon is a lawyer.",
+                            "Lindsay Brandon's past clients include athletes disputing doping suspensions.",
+                            "Lindsay Brandon is the WTA's first director of safeguarding.",
+                            "Safeguarding includes emotional abuse and physical abuse.",
+                            "Safeguarding is not limited to coach-athlete relationships.",
+                            "There can be athlete-to-athlete issues and issues with training staff separate from coaches.",
+                            "Lindsay Brandon manages the WTA security team's investigations of complaints.",
+                            "A safeguarding code of conduct is being created and aimed to be published in 2024.",
+                            "The code will apply to credentialed individuals in the WTA environment.",
+                            "The WTA aims to make sure players feel comfortable sharing their concerns.",
+                            "Steve Simon is the WTA Chairman and CEO.",
+                            "Seeing more athletes coming forward is a positive result.",
+                            "Lindsay Brandon's role is a public-facing step in player protection.",
+                            "The issue of protecting players gained attention due to various incidents.",
+                            "Ons Jabeur suggests more communication with players about safeguarding."
+                        ],
+                        "verdicts": "[AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None), AnswerRelvancyVerdict(verdict='yes', reason=None)]",
                         "evaluationCost": null
                     },
                     "metric_configuration": {
