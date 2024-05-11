@@ -10,7 +10,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 1716751400
+            "time": 1716751400,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -20,7 +21,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 891388800
+            "time": 891388800,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -30,7 +32,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 1181378000
+            "time": 1181378000,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -40,7 +43,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 4835657200
+            "time": 4835657200,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -50,7 +54,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 718810000
+            "time": 718810000,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -60,7 +65,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 6981926000
+            "time": 6981926000,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -70,7 +76,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 10847084300
+            "time": 10847084300,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -80,7 +87,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 7655085900
+            "time": 7655085900,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -90,7 +98,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 6017806100
+            "time": 6017806100,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -100,7 +109,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 5457652200
+            "time": 5457652200,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -110,7 +120,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 17204779000
+            "time": 17204779000,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -120,7 +131,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 4154466400
+            "time": 4154466400,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -130,7 +142,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 3853277400
+            "time": 3853277400,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -140,7 +153,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 4279993500
+            "time": 4279993500,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -150,7 +164,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 4444082200
+            "time": 4444082200,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -160,7 +175,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 752933500
+            "time": 752933500,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -170,7 +186,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 5977069400
+            "time": 5977069400,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -180,7 +197,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 8857548500
+            "time": 8857548500,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -190,7 +208,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 7370974100
+            "time": 7370974100,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -200,7 +219,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 7703595400
+            "time": 7703595400,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -210,7 +230,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 19892098000
+            "time": 19892098000,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -220,7 +241,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 16511589500
+            "time": 16511589500,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -230,7 +252,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 12683666600
+            "time": 12683666600,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -240,7 +263,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 22194376900
+            "time": 22194376900,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -250,7 +274,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 13364647100
+            "time": 13364647100,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_2",
@@ -260,7 +285,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 32361332100
+            "time": 32361332100,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -270,7 +296,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 8148252600
+            "time": 8148252600,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -280,7 +307,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 15439486600
+            "time": 15439486600,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_1",
@@ -290,7 +318,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 22455442200
+            "time": 22455442200,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_0",
@@ -300,7 +329,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 57258324100
+            "time": 57258324100,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_0",
@@ -310,7 +340,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 27392686600
+            "time": 27392686600,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -320,7 +351,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 18698334400
+            "time": 18698334400,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -330,7 +362,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 26656029600
+            "time": 26656029600,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -340,7 +373,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 28324860900
+            "time": 28324860900,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -350,7 +384,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 21307381600
+            "time": 21307381600,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -360,7 +395,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 16595656200
+            "time": 16595656200,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -370,7 +406,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 6327172800
+            "time": 6327172800,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -380,7 +417,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 12288546300
+            "time": 12288546300,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -390,7 +428,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 33448111200
+            "time": 33448111200,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -400,7 +439,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 9949815600
+            "time": 9949815600,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_4",
@@ -410,7 +450,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 5193345300
+            "time": 5193345300,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_3",
@@ -420,7 +461,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 5323961300
+            "time": 5323961300,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_2",
@@ -430,7 +472,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 6861869900
+            "time": 6861869900,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_1",
@@ -440,7 +483,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 7267263200
+            "time": 7267263200,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_0",
@@ -450,7 +494,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 12190926300
+            "time": 12190926300,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_0",
@@ -460,7 +505,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 9811849500
+            "time": 9811849500,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -470,7 +516,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 14664905900
+            "time": 14664905900,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -480,7 +527,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 70073014300
+            "time": 70073014300,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -490,7 +538,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 64409641400
+            "time": 64409641400,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -500,7 +549,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 67881957500
+            "time": 67881957500,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -510,7 +560,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 20052987400
+            "time": 20052987400,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -520,7 +571,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 10499126900
+            "time": 10499126900,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -530,7 +582,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 15553894700
+            "time": 15553894700,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -540,7 +593,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 7847283900
+            "time": 7847283900,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -550,7 +604,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 19777603700
+            "time": 19777603700,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -560,7 +615,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 10955198200
+            "time": 10955198200,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -570,7 +626,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 9368547300
+            "time": 9368547300,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -580,7 +637,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 7712169800
+            "time": 7712169800,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -590,7 +648,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 12280956600
+            "time": 12280956600,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -600,7 +659,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 5704378400
+            "time": 5704378400,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -610,7 +670,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 67751809400
+            "time": 67751809400,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -620,7 +681,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 4936597900
+            "time": 4936597900,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -630,7 +692,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 4163164900
+            "time": 4163164900,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -640,7 +703,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 64381096000
+            "time": 64381096000,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -650,7 +714,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 63432304500
+            "time": 63432304500,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -660,7 +725,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 13766331700
+            "time": 13766331700,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -670,7 +736,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 9490103500
+            "time": 9490103500,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -680,7 +747,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 8822527500
+            "time": 8822527500,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -690,7 +758,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 7982256200
+            "time": 7982256200,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -700,7 +769,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 8275702400
+            "time": 8275702400,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -710,7 +780,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 8644249200
+            "time": 8644249200,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -720,7 +791,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 19563878500
+            "time": 19563878500,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -730,7 +802,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 14127031000
+            "time": 14127031000,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -740,7 +813,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 12329350800
+            "time": 12329350800,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -750,7 +824,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 8523200400
+            "time": 8523200400,
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_0",
@@ -760,7 +835,8 @@
             "expected_output": "On May 1 , 2015 , the Baltimore City State 's Attorney , Marilyn Mosby , announced her office had filed charges against six police officers after the medical examiner 's report ruled Gray 's death a homicide .The prosecutors stated that they had probable cause to file criminal charges against the six police officers who were believed to be involved in his death .The officer driving the van was charged with second-degree `` depraved-heart '' murder for his indifference to the considerable risk that Gray might be killed , and others were charged with crimes ranging from manslaughter to illegal arrest .On May 21 , a grand jury indicted the officers on most of the original charges filed by Mosby with the exception of the charges of illegal imprisonment and false arrest , and added charges of reckless endangerment to all the officers involved .Gray 's hospitalization and subsequent death resulted in an ongoing series of protests .On April 25 , 2015 , a major protest in downtown Baltimore turned violent , resulting in 34 arrests and injuries to 15 police officers .After Gray 's funeral on April 27 , civil disorder intensified with looting and burning of local businesses and a CVS drug store , culminating with a state of emergency declaration by Governor Larry Hogan , Maryland National Guard deployment to Baltimore , and the establishment of a curfew .",
             "context": null,
             "retrieval_context": null,
-            "time": 67068505800
+            "time": 67068505800,
+            "idx": "4-1_with_triples==00"
         },
         {
             "id": "with_triples_sample_1",
@@ -770,7 +846,8 @@
             "expected_output": "After the so-called Defenestration of Prague deposed the Emperor 's representatives in Prague , the Protestant estates and Catholic Habsburgs started gathering allies for war .The Protestant Bohemians ousted the Habsburgs and elected the Calvinist Frederick V , Elector of the Rhenish Palatinate as the new king of the Kingdom of Bohemia .Frederick took the offer without the support of the Protestant Union .The southern states , mainly Roman Catholic , were angered by this .Led by Bavaria , these states formed the Catholic League to expel Frederick in support of the Emperor .The Empire soon crushed the perceived Protestant rebellion in the Battle of White Mountain , executing leading Bohemian aristocrats shortly after .Protestant rulers across Europe unanimously condemned the Emperor 's action .After the atrocities committed in Bohemia , Saxony finally gave its support to the Protestant Union and decided to fight back .Sweden , at the time a rising military power , soon intervened in 1630 under its king Gustavus Adolphus , transforming what had been simply the Emperor 's attempt to curb the Protestant states into a full-scale war in Europe .",
             "context": null,
             "retrieval_context": null,
-            "time": 66559256800
+            "time": 66559256800,
+            "idx": "4-1_with_triples==01"
         },
         {
             "id": "with_triples_sample_2",
@@ -780,7 +857,8 @@
             "expected_output": "The Chemin des Dames ridge had been quarried for stone for centuries , leaving a warren of caves and tunnels which were used as shelters by German troops to escape the French bombardment .The offensive met massed German machine-gun and artillery fire , which inflicted many casualties and repulsed the French infantry at many points .The French achieved a substantial tactical success and took but failed to defeat decisively the German armies .The failure had a traumatic effect on the morale of the French army and many divisions mutinied .Nivelle was superseded by General Philippe P\u00e9tain , who adopted a strategy of `` healing and defence '' , to resume the wearing-out of the German Army while conserving French infantry .",
             "context": null,
             "retrieval_context": null,
-            "time": 65545863800
+            "time": 65545863800,
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -790,7 +868,8 @@
             "expected_output": "This war saw the largest amassing of troops in Kashmir since the Partition of India in 1947 , a number that was overshadowed only during the 2001\u20132002 military standoff between India and Pakistan .Most of the battles were fought by opposing infantry and armoured units , with substantial backing from air forces , and naval operations .Many details of this war , like those of other Indo-Pakistani Wars , remain unclear .India had the upper hand over Pakistan when the ceasefire was declared .although the two countries fought to a standoff , the conflict is seen as a strategic and political defeat for pakistan , as it had neither succeeded in fomenting insurrection in kashmir nor had it been able to gain meaningful support at an international level .",
             "context": null,
             "retrieval_context": null,
-            "time": 65050625800
+            "time": 65050625800,
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_4",
@@ -800,7 +879,8 @@
             "expected_output": "The hurricane was also the last one to form in the Gulf of Mexico until Hurricane Hermine in 2016 .The combined impacts of hurricanes Ingrid and Manuel affected two-thirds of Mexico , killing 192 people and causing MXN $ 75 billion , or roughly US $ 5.7 billion in damage .Most of the effects were due to Manuel , though Ingrid was directly responsible for at least 32 deaths and $ 20 billion ( MXN , US $ 1.5 billion ) in damage .The two storms precipitated of water , the equivalent of filling every dam in Mexico .Rainfall from the storm peaked at in Tuxpan , Veracruz .",
             "context": null,
             "retrieval_context": null,
-            "time": 4414896600
+            "time": 4414896600,
+            "idx": "4-1_with_triples==04"
         }
     ]
 }

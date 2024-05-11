@@ -10,7 +10,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 1278085100
+            "time": 1278085100,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -20,7 +21,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 5196154700
+            "time": 5196154700,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -30,7 +32,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 811906000
+            "time": 811906000,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -40,7 +43,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 940353800
+            "time": 940353800,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -50,7 +54,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 1140427200
+            "time": 1140427200,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -60,7 +65,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 1451312900
+            "time": 1451312900,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -70,7 +76,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 1374407300
+            "time": 1374407300,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -80,7 +87,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 991853000
+            "time": 991853000,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -90,7 +98,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 929212100
+            "time": 929212100,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -100,7 +109,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 1295144600
+            "time": 1295144600,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -110,7 +120,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 1005633200
+            "time": 1005633200,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -120,7 +131,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 956606200
+            "time": 956606200,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -130,7 +142,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 1041406700
+            "time": 1041406700,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -140,7 +153,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 893702300
+            "time": 893702300,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -150,7 +164,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 700403400
+            "time": 700403400,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -160,7 +175,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 858037200
+            "time": 858037200,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -170,7 +186,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 731991200
+            "time": 731991200,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -180,7 +197,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 815060300
+            "time": 815060300,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -190,7 +208,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 1240121900
+            "time": 1240121900,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -200,7 +219,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 2443227300
+            "time": 2443227300,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -210,7 +230,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 1606377400
+            "time": 1606377400,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -220,7 +241,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 1169032500
+            "time": 1169032500,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -230,7 +252,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 1297523600
+            "time": 1297523600,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -240,7 +263,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 1227204200
+            "time": 1227204200,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -250,7 +274,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 1804164700
+            "time": 1804164700,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -260,7 +285,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 5550030500
+            "time": 5550030500,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -270,7 +296,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 16642437400
+            "time": 16642437400,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -280,7 +307,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 23877302900
+            "time": 23877302900,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -290,7 +318,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 11329977900
+            "time": 11329977900,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -300,7 +329,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 36808458500
+            "time": 36808458500,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -310,7 +340,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 1357083000
+            "time": 1357083000,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -320,7 +351,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 3449922800
+            "time": 3449922800,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -330,7 +362,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 1669576900
+            "time": 1669576900,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -340,7 +373,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 4766429100
+            "time": 4766429100,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -350,7 +384,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 1496974400
+            "time": 1496974400,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -360,7 +395,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 868066600
+            "time": 868066600,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -370,7 +406,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 758423100
+            "time": 758423100,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -380,7 +417,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 853495000
+            "time": 853495000,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -390,7 +428,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 1551120300
+            "time": 1551120300,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -400,7 +439,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 1021849400
+            "time": 1021849400,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -410,7 +450,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 1366980400
+            "time": 1366980400,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -420,7 +461,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 1242263100
+            "time": 1242263100,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -430,7 +472,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 1128605800
+            "time": 1128605800,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -440,7 +483,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 1022005100
+            "time": 1022005100,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -450,7 +494,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 1241171000
+            "time": 1241171000,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -460,7 +505,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 676795800
+            "time": 676795800,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -470,7 +516,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 61240033700
+            "time": 61240033700,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -480,7 +527,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 61080482000
+            "time": 61080482000,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -490,7 +538,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 1241422000
+            "time": 1241422000,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -500,7 +549,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 61012515600
+            "time": 61012515600,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -510,7 +560,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 1191044800
+            "time": 1191044800,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -520,7 +571,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 1099001400
+            "time": 1099001400,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -530,7 +582,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 1362588000
+            "time": 1362588000,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -540,7 +593,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 1785011500
+            "time": 1785011500,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -550,7 +604,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 1126652900
+            "time": 1126652900,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -560,7 +615,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 757541200
+            "time": 757541200,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -570,7 +626,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 2746644200
+            "time": 2746644200,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -580,7 +637,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 2176732100
+            "time": 2176732100,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -590,7 +648,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 750495100
+            "time": 750495100,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -600,7 +659,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 767385900
+            "time": 767385900,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -610,7 +670,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 60982256900
+            "time": 60982256900,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -620,7 +681,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 60968976700
+            "time": 60968976700,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -630,7 +692,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 60999892400
+            "time": 60999892400,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -640,7 +703,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 61381856100
+            "time": 61381856100,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -650,7 +714,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 60882409600
+            "time": 60882409600,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -660,7 +725,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 1628759200
+            "time": 1628759200,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -670,7 +736,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 1709301100
+            "time": 1709301100,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -680,7 +747,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 1540397000
+            "time": 1540397000,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -690,7 +758,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 1531326200
+            "time": 1531326200,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -700,7 +769,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 1072802400
+            "time": 1072802400,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -710,7 +780,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 858439800
+            "time": 858439800,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -720,7 +791,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 1236397300
+            "time": 1236397300,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -730,7 +802,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 776575400
+            "time": 776575400,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -740,7 +813,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 1215445900
+            "time": 1215445900,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -750,7 +824,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 1044630700
+            "time": 1044630700,
+            "idx": "1-2_1_low_freq_ent==01"
         },
         {
             "id": "1_low_freq_ent5418",
@@ -760,7 +835,8 @@
             "expected_output": "Ancient Greek",
             "context": null,
             "retrieval_context": null,
-            "time": 687864000
+            "time": 687864000,
+            "idx": "1-2_1_low_freq_ent==00"
         },
         {
             "id": "1_low_freq_ent5328",
@@ -770,7 +846,8 @@
             "expected_output": "Thames Ironworks and Shipbuilding Company",
             "context": null,
             "retrieval_context": null,
-            "time": 61912641600
+            "time": 61912641600,
+            "idx": "1-2_1_low_freq_ent==02"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -780,7 +857,8 @@
             "expected_output": "black and white",
             "context": null,
             "retrieval_context": null,
-            "time": 1222018000
+            "time": 1222018000,
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent9169",
@@ -790,7 +868,8 @@
             "expected_output": "genus",
             "context": null,
             "retrieval_context": null,
-            "time": 1309771600
+            "time": 1309771600,
+            "idx": "1-2_1_low_freq_ent==04"
         },
         {
             "id": "1_low_freq_ent2042",
@@ -800,7 +879,8 @@
             "expected_output": "Australia",
             "context": null,
             "retrieval_context": null,
-            "time": 61192631100
+            "time": 61192631100,
+            "idx": "1-2_1_low_freq_ent==01"
         }
     ]
 }

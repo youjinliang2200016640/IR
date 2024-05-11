@@ -10,7 +10,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 4975828300
+            "time": 4975828300,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -20,7 +21,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 3199042800
+            "time": 3199042800,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -30,7 +32,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 3878433200
+            "time": 3878433200,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -40,7 +43,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 2303628500
+            "time": 2303628500,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -50,7 +54,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 4825506600
+            "time": 4825506600,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -60,7 +65,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 739653100
+            "time": 739653100,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -70,7 +76,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 939061600
+            "time": 939061600,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -80,7 +87,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 5032174900
+            "time": 5032174900,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -90,7 +98,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 779816500
+            "time": 779816500,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -100,7 +109,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 1861273300
+            "time": 1861273300,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -110,7 +120,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 1987764800
+            "time": 1987764800,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -120,7 +131,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 827938000
+            "time": 827938000,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -130,7 +142,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 1476893500
+            "time": 1476893500,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -140,7 +153,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 1367099600
+            "time": 1367099600,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -150,7 +164,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 1421871800
+            "time": 1421871800,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -160,7 +175,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 2763652000
+            "time": 2763652000,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -170,7 +186,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 3651956800
+            "time": 3651956800,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -180,7 +197,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 2996759800
+            "time": 2996759800,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -190,7 +208,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 9044308700
+            "time": 9044308700,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -200,7 +219,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 3757000300
+            "time": 3757000300,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -210,7 +230,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 5846618500
+            "time": 5846618500,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -220,7 +241,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 4036497400
+            "time": 4036497400,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -230,7 +252,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 24536307100
+            "time": 24536307100,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -240,7 +263,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 18256431700
+            "time": 18256431700,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -250,7 +274,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 3881181000
+            "time": 3881181000,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -260,7 +285,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 17399905600
+            "time": 17399905600,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -270,7 +296,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 3336639100
+            "time": 3336639100,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -280,7 +307,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 9690823000
+            "time": 9690823000,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -290,7 +318,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 8319349400
+            "time": 8319349400,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -300,7 +329,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 4210325000
+            "time": 4210325000,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -310,7 +340,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 4197518700
+            "time": 4197518700,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -320,7 +351,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 17373121000
+            "time": 17373121000,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -330,7 +362,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 9018067100
+            "time": 9018067100,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -340,7 +373,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 21625224900
+            "time": 21625224900,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -350,7 +384,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 4678991900
+            "time": 4678991900,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -360,7 +395,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 2917037800
+            "time": 2917037800,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -370,7 +406,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 1903913200
+            "time": 1903913200,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -380,7 +417,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 1784955600
+            "time": 1784955600,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -390,7 +428,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 5903442900
+            "time": 5903442900,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -400,7 +439,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 4437466300
+            "time": 4437466300,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -410,7 +450,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 2916402900
+            "time": 2916402900,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -420,7 +461,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 4400913100
+            "time": 4400913100,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -430,7 +472,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 3483224800
+            "time": 3483224800,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -440,7 +483,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 2991721100
+            "time": 2991721100,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -450,7 +494,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 3766870700
+            "time": 3766870700,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -460,7 +505,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 3196091400
+            "time": 3196091400,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -470,7 +516,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 63379637300
+            "time": 63379637300,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -480,7 +527,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 61307532100
+            "time": 61307532100,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -490,7 +538,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 3253381400
+            "time": 3253381400,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -500,7 +549,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 1384909900
+            "time": 1384909900,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -510,7 +560,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 3779141100
+            "time": 3779141100,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -520,7 +571,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 1660944900
+            "time": 1660944900,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -530,7 +582,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 4563365200
+            "time": 4563365200,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -540,7 +593,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 2632519900
+            "time": 2632519900,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -550,7 +604,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 2001977200
+            "time": 2001977200,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -560,7 +615,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 3794202700
+            "time": 3794202700,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -570,7 +626,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 3777152600
+            "time": 3777152600,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -580,7 +637,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 4032494000
+            "time": 4032494000,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -590,7 +648,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 5173568700
+            "time": 5173568700,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -600,7 +659,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 2494997000
+            "time": 2494997000,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -610,7 +670,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 62381374600
+            "time": 62381374600,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -620,7 +681,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 62983206600
+            "time": 62983206600,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -630,7 +692,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 1280401400
+            "time": 1280401400,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -640,7 +703,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 61861586100
+            "time": 61861586100,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -650,7 +714,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 1123154400
+            "time": 1123154400,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -660,7 +725,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 3595794200
+            "time": 3595794200,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -670,7 +736,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 3110391900
+            "time": 3110391900,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -680,7 +747,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 2447398700
+            "time": 2447398700,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -690,7 +758,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 3240134500
+            "time": 3240134500,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -700,7 +769,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 2780677300
+            "time": 2780677300,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -710,7 +780,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 2987500500
+            "time": 2987500500,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -720,7 +791,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 2194173800
+            "time": 2194173800,
+            "idx": "2-1_COPEN++csj==01"
         },
         {
             "id": "id1295",
@@ -730,7 +802,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 9912381100
+            "time": 9912381100,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -740,7 +813,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 2936573500
+            "time": 2936573500,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -750,7 +824,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 18480670900
+            "time": 18480670900,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -760,7 +835,8 @@
             "expected_output": "Byron White",
             "context": null,
             "retrieval_context": null,
-            "time": 3506939100
+            "time": 3506939100,
+            "idx": "2-1_COPEN++csj==00"
         },
         {
             "id": "id1295",
@@ -770,7 +846,8 @@
             "expected_output": "Arizona State University",
             "context": null,
             "retrieval_context": null,
-            "time": 61997931400
+            "time": 61997931400,
+            "idx": "2-1_COPEN++csj==02"
         },
         {
             "id": "id1295",
@@ -780,7 +857,8 @@
             "expected_output": "Stratospheric Observatory for Infrared Astronomy",
             "context": null,
             "retrieval_context": null,
-            "time": 62873125500
+            "time": 62873125500,
+            "idx": "2-1_COPEN++csj==03"
         },
         {
             "id": "id1295",
@@ -790,7 +868,8 @@
             "expected_output": "New York City Council",
             "context": null,
             "retrieval_context": null,
-            "time": 63462339500
+            "time": 63462339500,
+            "idx": "2-1_COPEN++csj==04"
         },
         {
             "id": "id1295",
@@ -800,7 +879,8 @@
             "expected_output": "The Waters of Mars",
             "context": null,
             "retrieval_context": null,
-            "time": 62638215300
+            "time": 62638215300,
+            "idx": "2-1_COPEN++csj==01"
         }
     ]
 }

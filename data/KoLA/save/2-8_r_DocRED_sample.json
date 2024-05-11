@@ -10,7 +10,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1395907100
+            "time": 1395907100,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -20,7 +21,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 7666615100
+            "time": 7666615100,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 73,
@@ -30,7 +32,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1292473200
+            "time": 1292473200,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 103,
@@ -40,7 +43,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 7766405700
+            "time": 7766405700,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 51,
@@ -50,7 +54,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1547135800
+            "time": 1547135800,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 82,
@@ -60,7 +65,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 60764878900
+            "time": 60764878900,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -70,7 +76,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 59268579600
+            "time": 59268579600,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 73,
@@ -80,7 +87,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 11884196500
+            "time": 11884196500,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 51,
@@ -90,7 +98,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 10295033600
+            "time": 10295033600,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -100,7 +109,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 38267390000
+            "time": 38267390000,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 82,
@@ -110,7 +120,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 4715395500
+            "time": 4715395500,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -120,7 +131,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 13881081000
+            "time": 13881081000,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 73,
@@ -130,7 +142,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 8033519000
+            "time": 8033519000,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 51,
@@ -140,7 +153,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2205335100
+            "time": 2205335100,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -150,7 +164,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1066904200
+            "time": 1066904200,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 82,
@@ -160,7 +175,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 4113806900
+            "time": 4113806900,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -170,7 +186,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1964110500
+            "time": 1964110500,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 73,
@@ -180,7 +197,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2522864700
+            "time": 2522864700,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 103,
@@ -190,7 +208,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1094931100
+            "time": 1094931100,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 51,
@@ -200,7 +219,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3657032800
+            "time": 3657032800,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 82,
@@ -210,7 +230,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 11839496600
+            "time": 11839496600,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -220,7 +241,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 33644756300
+            "time": 33644756300,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 73,
@@ -230,7 +252,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3877010000
+            "time": 3877010000,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 103,
@@ -240,7 +263,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 8326450300
+            "time": 8326450300,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 51,
@@ -250,7 +274,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 4402120400
+            "time": 4402120400,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 82,
@@ -260,7 +285,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 958843400
+            "time": 958843400,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 73,
@@ -270,7 +296,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 934525700
+            "time": 934525700,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 51,
@@ -280,7 +307,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1008639600
+            "time": 1008639600,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -290,7 +318,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 44403791100
+            "time": 44403791100,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 114,
@@ -300,7 +329,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 958944000
+            "time": 958944000,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 82,
@@ -310,7 +340,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 41370630300
+            "time": 41370630300,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -320,7 +351,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 14742549200
+            "time": 14742549200,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 73,
@@ -330,7 +362,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 9775208900
+            "time": 9775208900,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 51,
@@ -340,7 +373,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 18810453000
+            "time": 18810453000,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -350,7 +384,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 9399060000
+            "time": 9399060000,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 82,
@@ -360,7 +395,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 34632805300
+            "time": 34632805300,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -370,7 +406,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 25434432800
+            "time": 25434432800,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 73,
@@ -380,7 +417,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 8623698400
+            "time": 8623698400,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 103,
@@ -390,7 +428,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 21953052100
+            "time": 21953052100,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 51,
@@ -400,7 +439,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 12779728600
+            "time": 12779728600,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -410,7 +450,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 4758290100
+            "time": 4758290100,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 51,
@@ -420,7 +461,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2560031100
+            "time": 2560031100,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 73,
@@ -430,7 +472,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3378755700
+            "time": 3378755700,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 114,
@@ -440,7 +483,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 4711783800
+            "time": 4711783800,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 82,
@@ -450,7 +494,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 9728365800
+            "time": 9728365800,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 82,
@@ -460,7 +505,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 8250505500
+            "time": 8250505500,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -470,7 +516,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 68963999900
+            "time": 68963999900,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 73,
@@ -480,7 +527,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5307052300
+            "time": 5307052300,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 51,
@@ -490,7 +538,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 61295933000
+            "time": 61295933000,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -500,7 +549,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 68353928600
+            "time": 68353928600,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 82,
@@ -510,7 +560,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 17430363800
+            "time": 17430363800,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -520,7 +571,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1855568000
+            "time": 1855568000,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 51,
@@ -530,7 +582,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1705828800
+            "time": 1705828800,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -540,7 +593,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 9742964400
+            "time": 9742964400,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 73,
@@ -550,7 +604,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1803051600
+            "time": 1803051600,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 82,
@@ -560,7 +615,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 10411986700
+            "time": 10411986700,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -570,7 +626,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1544235400
+            "time": 1544235400,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 73,
@@ -580,7 +637,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3774567200
+            "time": 3774567200,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 51,
@@ -590,7 +648,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1732278100
+            "time": 1732278100,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -600,7 +659,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 4733942800
+            "time": 4733942800,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 82,
@@ -610,7 +670,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 61191036000
+            "time": 61191036000,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -620,7 +681,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 8615614200
+            "time": 8615614200,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 73,
@@ -630,7 +692,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2253922500
+            "time": 2253922500,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 51,
@@ -640,7 +703,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 75481209900
+            "time": 75481209900,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -650,7 +714,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 61056556200
+            "time": 61056556200,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 82,
@@ -660,7 +725,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 10044830700
+            "time": 10044830700,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -670,7 +736,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5580984200
+            "time": 5580984200,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 51,
@@ -680,7 +747,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 4289587800
+            "time": 4289587800,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -690,7 +758,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2114115700
+            "time": 2114115700,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 73,
@@ -700,7 +769,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5749555400
+            "time": 5749555400,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 82,
@@ -710,7 +780,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 31711247200
+            "time": 31711247200,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -720,7 +791,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 8929178400
+            "time": 8929178400,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 51,
@@ -730,7 +802,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1345765900
+            "time": 1345765900,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -740,7 +813,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 12642719800
+            "time": 12642719800,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 73,
@@ -750,7 +824,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1653254400
+            "time": 1653254400,
+            "idx": "2-8_r_DocRED==02"
         },
         {
             "id": 82,
@@ -760,7 +835,8 @@
             "expected_output": "(entity4,part of,entity13)\n(entity6,part of,entity13)\n(entity13,has part,entity4)\n(entity15,participant of,entity0)\n(entity15,country of citizenship,entity9)\n(entity16,country of citizenship,entity9)\n(entity17,country of citizenship,entity9)\n(entity18,country of citizenship,entity9)\n(entity19,country of citizenship,entity9)\n(entity20,country of citizenship,entity9)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 7944493100
+            "time": 7944493100,
+            "idx": "2-8_r_DocRED==00"
         },
         {
             "id": 114,
@@ -770,7 +846,8 @@
             "expected_output": "(entity0,sibling,entity2)\n(entity2,sibling,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 62031266500
+            "time": 62031266500,
+            "idx": "2-8_r_DocRED==01"
         },
         {
             "id": 51,
@@ -780,7 +857,8 @@
             "expected_output": "(entity0,mother,entity5)\n(entity2,child,entity3)\n(entity3,mother,entity5)\n(entity5,child,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 62125116800
+            "time": 62125116800,
+            "idx": "2-8_r_DocRED==03"
         },
         {
             "id": 103,
@@ -790,7 +868,8 @@
             "expected_output": "(entity1,founded by,entity7)\n(entity3,located in the administrative territorial entity,entity5)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 64272510300
+            "time": 64272510300,
+            "idx": "2-8_r_DocRED==04"
         },
         {
             "id": 73,
@@ -800,7 +879,8 @@
             "expected_output": "(entity0,head of government,entity1)\n(entity1,country,entity0)\n(entity1,country of citizenship,entity0)\n(entity1,applies to jurisdiction,entity0)\n(entity4,country,entity0)\n(entity5,country,entity0)\n(entity7,country,entity0)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 61704411500
+            "time": 61704411500,
+            "idx": "2-8_r_DocRED==02"
         }
     ]
 }

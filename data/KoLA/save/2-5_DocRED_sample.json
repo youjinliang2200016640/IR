@@ -10,7 +10,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 20298293700
+            "time": 20298293700,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -20,7 +21,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 7464997600
+            "time": 7464997600,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -30,7 +32,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1213531000
+            "time": 1213531000,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -40,7 +43,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 7355716500
+            "time": 7355716500,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -50,7 +54,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 38422926500
+            "time": 38422926500,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -60,7 +65,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2092836500
+            "time": 2092836500,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -70,7 +76,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1569972200
+            "time": 1569972200,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -80,7 +87,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5950395400
+            "time": 5950395400,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -90,7 +98,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 8868538700
+            "time": 8868538700,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -100,7 +109,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3700403100
+            "time": 3700403100,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -110,7 +120,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5652485200
+            "time": 5652485200,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -120,7 +131,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 37926732900
+            "time": 37926732900,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -130,7 +142,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2263258600
+            "time": 2263258600,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -140,7 +153,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5377870700
+            "time": 5377870700,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -150,7 +164,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 18208340700
+            "time": 18208340700,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -160,7 +175,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2993369700
+            "time": 2993369700,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -170,7 +186,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 8375797100
+            "time": 8375797100,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -180,7 +197,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 24241500400
+            "time": 24241500400,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -190,7 +208,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 50644704200
+            "time": 50644704200,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -200,7 +219,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 6906671300
+            "time": 6906671300,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -210,7 +230,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 976771800
+            "time": 976771800,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -220,7 +241,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 818420000
+            "time": 818420000,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -230,7 +252,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 902805800
+            "time": 902805800,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -240,7 +263,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1890842000
+            "time": 1890842000,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -250,7 +274,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 14237445700
+            "time": 14237445700,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -260,7 +285,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 8492440600
+            "time": 8492440600,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -270,7 +296,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 15331786700
+            "time": 15331786700,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -280,7 +307,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 11145693700
+            "time": 11145693700,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -290,7 +318,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 11073025100
+            "time": 11073025100,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -300,7 +329,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 17547629000
+            "time": 17547629000,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -310,7 +340,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3695819400
+            "time": 3695819400,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -320,7 +351,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 41849444200
+            "time": 41849444200,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 1103,
@@ -330,7 +362,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 6352013900
+            "time": 6352013900,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 149,
@@ -340,7 +373,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 6041615900
+            "time": 6041615900,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 2700,
@@ -350,7 +384,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3995012400
+            "time": 3995012400,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 2244,
@@ -360,7 +395,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5938260500
+            "time": 5938260500,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2244,
@@ -370,7 +406,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 70707774500
+            "time": 70707774500,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -380,7 +417,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 65397522700
+            "time": 65397522700,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -390,7 +428,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 67476603800
+            "time": 67476603800,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -400,7 +439,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 65433150100
+            "time": 65433150100,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -410,7 +450,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 20923701900
+            "time": 20923701900,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -420,7 +461,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 22769644100
+            "time": 22769644100,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -430,7 +472,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 7877130700
+            "time": 7877130700,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -440,7 +483,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 48805639900
+            "time": 48805639900,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -450,7 +494,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 13513069500
+            "time": 13513069500,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -460,7 +505,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 11926455100
+            "time": 11926455100,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -470,7 +516,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 6414031600
+            "time": 6414031600,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -480,7 +527,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 10109527900
+            "time": 10109527900,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -490,7 +538,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 10043481700
+            "time": 10043481700,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -500,7 +549,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 61028199500
+            "time": 61028199500,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -510,7 +560,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1042798000
+            "time": 1042798000,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -520,7 +571,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1398117400
+            "time": 1398117400,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -530,7 +582,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 14160703600
+            "time": 14160703600,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -540,7 +593,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5347766900
+            "time": 5347766900,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -550,7 +604,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5924574800
+            "time": 5924574800,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -560,7 +615,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 7423772600
+            "time": 7423772600,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -570,7 +626,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1256054300
+            "time": 1256054300,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -580,7 +637,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 50473690500
+            "time": 50473690500,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -590,7 +648,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 19306445900
+            "time": 19306445900,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -600,7 +659,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 15883750700
+            "time": 15883750700,
+            "idx": "2-5_DocRED==03"
         },
         {
             "id": 2244,
@@ -610,7 +670,8 @@
             "expected_output": "(entity2,capital,entity4)\n(entity2,contains administrative territorial entity,entity4)\n(entity4,capital of,entity2)\n(entity4,country,entity2)\n(entity4,located in the administrative territorial entity,entity2)\n(entity4,country,entity6)\n(entity4,located in the administrative territorial entity,entity6)\n(entity4,capital of,entity6)\n(entity0,country,entity2)\n(entity0,inception,entity5)\n(entity0,country,entity6)\n(entity6,capital,entity4)\n(entity6,contains administrative territorial entity,entity4)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 64429131800
+            "time": 64429131800,
+            "idx": "2-5_DocRED==00"
         },
         {
             "id": 2700,
@@ -620,7 +681,8 @@
             "expected_output": "(entity0,continent,entity1)\n(entity0,member of,entity3)\n(entity0,member of,entity4)\n(entity0,member of,entity11)\n(entity0,member of,entity14)\n(entity3,participant,entity0)\n(entity4,contains administrative territorial entity,entity0)\n(entity15,country,entity0)\n(entity16,country,entity0)\n(entity18,country,entity0)\n(entity2,participant,entity0)\n(entity2,replaced by,entity3)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3073892100
+            "time": 3073892100,
+            "idx": "2-5_DocRED==01"
         },
         {
             "id": 149,
@@ -630,7 +692,8 @@
             "expected_output": "(entity0,part of,entity4)\n(entity0,part of,entity7)\n(entity0,performer,entity2)\n(entity0,publication date,entity16)\n(entity4,publication date,entity5)\n(entity4,followed by,entity7)\n(entity4,performer,entity2)\n(entity7,follows,entity4)\n(entity7,performer,entity2)\n(entity7,publication date,entity8)\n(entity2,country of citizenship,entity1)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 62825507000
+            "time": 62825507000,
+            "idx": "2-5_DocRED==02"
         },
         {
             "id": 1103,
@@ -640,7 +703,8 @@
             "expected_output": "(entity0,date of birth,entity1)\n(entity0,place of birth,entity2)\n(entity0,country of citizenship,entity3)\n(entity2,country,entity3)\n(entity8,country,entity3)\n(entity8,part of,entity9)\n(entity14,country,entity15)\n(entity6,date of birth,entity1)\n(entity6,place of birth,entity2)\n(entity6,country of citizenship,entity3)\n(entity9,has part,entity8)\n",
             "context": null,
             "retrieval_context": null,
-            "time": 63725815600
+            "time": 63725815600,
+            "idx": "2-5_DocRED==03"
         }
     ]
 }

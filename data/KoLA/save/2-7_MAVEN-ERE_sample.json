@@ -10,7 +10,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1966847600
+            "time": 1966847600,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -20,7 +21,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 7066897900
+            "time": 7066897900,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -30,7 +32,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 12692103000
+            "time": 12692103000,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -40,7 +43,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1143110400
+            "time": 1143110400,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -50,7 +54,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 955575900
+            "time": 955575900,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -60,7 +65,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 952160300
+            "time": 952160300,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -70,7 +76,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 939895300
+            "time": 939895300,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -80,7 +87,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1024905200
+            "time": 1024905200,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -90,7 +98,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1192952100
+            "time": 1192952100,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -100,7 +109,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1632692200
+            "time": 1632692200,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -110,7 +120,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1111042300
+            "time": 1111042300,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -120,7 +131,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 820679400
+            "time": 820679400,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -130,7 +142,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3903729500
+            "time": 3903729500,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -140,7 +153,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2222003500
+            "time": 2222003500,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -150,7 +164,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2309981300
+            "time": 2309981300,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -160,7 +175,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 853914000
+            "time": 853914000,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -170,7 +186,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3166040700
+            "time": 3166040700,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -180,7 +197,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3141069100
+            "time": 3141069100,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -190,7 +208,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 4326790800
+            "time": 4326790800,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -200,7 +219,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 6919954000
+            "time": 6919954000,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -210,7 +230,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 881618100
+            "time": 881618100,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -220,7 +241,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 28943240300
+            "time": 28943240300,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -230,7 +252,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3183483100
+            "time": 3183483100,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -240,7 +263,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 27370426000
+            "time": 27370426000,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -250,7 +274,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5693286200
+            "time": 5693286200,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -260,7 +285,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5831815000
+            "time": 5831815000,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -270,7 +296,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 11639493300
+            "time": 11639493300,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -280,7 +307,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5667777800
+            "time": 5667777800,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -290,7 +318,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2287343600
+            "time": 2287343600,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -300,7 +329,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 5064062400
+            "time": 5064062400,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -310,7 +340,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3429975200
+            "time": 3429975200,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -320,7 +351,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3824864600
+            "time": 3824864600,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "3",
@@ -330,7 +362,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3533434000
+            "time": 3533434000,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "2",
@@ -340,7 +373,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3277813400
+            "time": 3277813400,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "1",
@@ -350,7 +384,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2354336900
+            "time": 2354336900,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "0",
@@ -360,7 +395,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2766280900
+            "time": 2766280900,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "0",
@@ -370,7 +406,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 62896388600
+            "time": 62896388600,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -380,7 +417,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 62517094600
+            "time": 62517094600,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -390,7 +428,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2060311100
+            "time": 2060311100,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -400,7 +439,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 62602356900
+            "time": 62602356900,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -410,7 +450,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 4316899100
+            "time": 4316899100,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -420,7 +461,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1025492200
+            "time": 1025492200,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -430,7 +472,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 4688324500
+            "time": 4688324500,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -440,7 +483,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1224052600
+            "time": 1224052600,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -450,7 +494,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2219104800
+            "time": 2219104800,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -460,7 +505,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3505470800
+            "time": 3505470800,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -470,7 +516,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2346439200
+            "time": 2346439200,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -480,7 +527,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2427413800
+            "time": 2427413800,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -490,7 +538,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 852196700
+            "time": 852196700,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -500,7 +549,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 61698867700
+            "time": 61698867700,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -510,7 +560,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1480014000
+            "time": 1480014000,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -520,7 +571,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 61584467500
+            "time": 61584467500,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -530,7 +582,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1949496500
+            "time": 1949496500,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -540,7 +593,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1914516300
+            "time": 1914516300,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -550,7 +604,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 3863747400
+            "time": 3863747400,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -560,7 +615,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2810833700
+            "time": 2810833700,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -570,7 +626,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 8398219700
+            "time": 8398219700,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -580,7 +637,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2801317700
+            "time": 2801317700,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -590,7 +648,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 11956306700
+            "time": 11956306700,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -600,7 +659,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 2814565200
+            "time": 2814565200,
+            "idx": "2-7_MAVEN-ERE==03"
         },
         {
             "id": "0",
@@ -610,7 +670,8 @@
             "expected_output": "Explanation: The first event/\"Timex\", \"defeated\", happened after the second event/\"Timex\", \"ordered\". However, \"after\" is not in the given list of relation types, and we only consider the relation from the first event/\"Timex\" to the second event/\"Timex\", so there is no relation.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 62267574500
+            "time": 62267574500,
+            "idx": "2-7_MAVEN-ERE==00"
         },
         {
             "id": "1",
@@ -620,7 +681,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the fact that no one was killed in the earthquake. The second event/\"Timex\" is the earthquake. Since no one was killed by the earthquake, there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 61995557600
+            "time": 61995557600,
+            "idx": "2-7_MAVEN-ERE==01"
         },
         {
             "id": "2",
@@ -630,7 +692,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" is the days of the tournament. The second event/\"Timex\" is a specific event during the tournament. The time range of the tournament contains the specific event, so the relation from the first event/\"Timex\" to the second one is \"contains\".\nAnswer: [contains]\n",
             "context": null,
             "retrieval_context": null,
-            "time": 1726118200
+            "time": 1726118200,
+            "idx": "2-7_MAVEN-ERE==02"
         },
         {
             "id": "3",
@@ -640,7 +703,8 @@
             "expected_output": "Explanation: The first event/\"Timex\" refers to the wailers recordings. The second event/\"Timex\" refers to the use of the videotaped appearance at the capitol studios. They are two separate events, so there is no relation from the first event/\"Timex\" to the second one.\nAnswer: []\n",
             "context": null,
             "retrieval_context": null,
-            "time": 61990463700
+            "time": 61990463700,
+            "idx": "2-7_MAVEN-ERE==03"
         }
     ]
 }

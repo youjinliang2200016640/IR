@@ -10,7 +10,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 1429614500
+            "time": 1429614500,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -20,7 +21,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 1125904100
+            "time": 1125904100,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -30,7 +32,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 1117415000
+            "time": 1117415000,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -40,7 +43,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 1206460200
+            "time": 1206460200,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -50,7 +54,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 1034718500
+            "time": 1034718500,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -60,7 +65,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 2010047100
+            "time": 2010047100,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -70,7 +76,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 1696433200
+            "time": 1696433200,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -80,7 +87,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 1663783900
+            "time": 1663783900,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -90,7 +98,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 1390941300
+            "time": 1390941300,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -100,7 +109,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 1431015000
+            "time": 1431015000,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -110,7 +120,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 1419062700
+            "time": 1419062700,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -120,7 +131,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 8414826000
+            "time": 8414826000,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -130,7 +142,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 1239024900
+            "time": 1239024900,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -140,7 +153,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 1440450000
+            "time": 1440450000,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -150,7 +164,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 1480527100
+            "time": 1480527100,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -160,7 +175,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 1481722400
+            "time": 1481722400,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -170,7 +186,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 3263299100
+            "time": 3263299100,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -180,7 +197,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 2182258300
+            "time": 2182258300,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -190,7 +208,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 2081498600
+            "time": 2081498600,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -200,7 +219,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 1785522100
+            "time": 1785522100,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -210,7 +230,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 5538871000
+            "time": 5538871000,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -220,7 +241,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 7210016300
+            "time": 7210016300,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -230,7 +252,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 6936919300
+            "time": 6936919300,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -240,7 +263,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 5438952400
+            "time": 5438952400,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -250,7 +274,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 7218397600
+            "time": 7218397600,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -260,7 +285,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 746611100
+            "time": 746611100,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "2hop__31567_31623",
@@ -270,7 +296,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 24576710500
+            "time": 24576710500,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -280,7 +307,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 1108314200
+            "time": 1108314200,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -290,7 +318,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 44860446400
+            "time": 44860446400,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -300,7 +329,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 3489993900
+            "time": 3489993900,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -310,7 +340,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 3142096900
+            "time": 3142096900,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -320,7 +351,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 1692870800
+            "time": 1692870800,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -330,7 +362,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 2781252300
+            "time": 2781252300,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -340,7 +373,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 3637134000
+            "time": 3637134000,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -350,7 +384,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 1878176200
+            "time": 1878176200,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -360,7 +395,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 5620254100
+            "time": 5620254100,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -370,7 +406,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 4923723100
+            "time": 4923723100,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -380,7 +417,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 3061437200
+            "time": 3061437200,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -390,7 +428,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 4951153000
+            "time": 4951153000,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -400,7 +439,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 5196569000
+            "time": 5196569000,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "2hop__31567_31623",
@@ -410,7 +450,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 2194668300
+            "time": 2194668300,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -420,7 +461,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 2150992600
+            "time": 2150992600,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -430,7 +472,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 2354025200
+            "time": 2354025200,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -440,7 +483,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 2049001600
+            "time": 2049001600,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -450,7 +494,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 2560908500
+            "time": 2560908500,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -460,7 +505,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 62140564600
+            "time": 62140564600,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -470,7 +516,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 61996776200
+            "time": 61996776200,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -480,7 +527,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 1605774600
+            "time": 1605774600,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -490,7 +538,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 1784302800
+            "time": 1784302800,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -500,7 +549,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 61963444000
+            "time": 61963444000,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -510,7 +560,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 3374333000
+            "time": 3374333000,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -520,7 +571,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 1728444300
+            "time": 1728444300,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -530,7 +582,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 2238471800
+            "time": 2238471800,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -540,7 +593,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 13270705300
+            "time": 13270705300,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -550,7 +604,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 1709766000
+            "time": 1709766000,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -560,7 +615,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 2777252400
+            "time": 2777252400,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -570,7 +626,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 1859333800
+            "time": 1859333800,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -580,7 +637,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 1980536200
+            "time": 1980536200,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -590,7 +648,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 3258404400
+            "time": 3258404400,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -600,7 +659,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 2185668900
+            "time": 2185668900,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -610,7 +670,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 1352432800
+            "time": 1352432800,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -620,7 +681,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 61891272000
+            "time": 61891272000,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -630,7 +692,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 61071464000
+            "time": 61071464000,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -640,7 +703,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 61144304000
+            "time": 61144304000,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -650,7 +714,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 61391377400
+            "time": 61391377400,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -660,7 +725,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 3740200300
+            "time": 3740200300,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -670,7 +736,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 3517795000
+            "time": 3517795000,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -680,7 +747,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 2655830200
+            "time": 2655830200,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -690,7 +758,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 3621167300
+            "time": 3621167300,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -700,7 +769,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 3127663900
+            "time": 3127663900,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -710,7 +780,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 4280560000
+            "time": 4280560000,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -720,7 +791,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 3095106000
+            "time": 3095106000,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -730,7 +802,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 2473696900
+            "time": 2473696900,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -740,7 +813,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 2287650800
+            "time": 2287650800,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -750,7 +824,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 16169620100
+            "time": 16169620100,
+            "idx": "3-3_musique==04"
         },
         {
             "id": "4hop1__144024_131905_55331_34700",
@@ -760,7 +835,8 @@
             "expected_output": "Caesar",
             "context": null,
             "retrieval_context": null,
-            "time": 62584462900
+            "time": 62584462900,
+            "idx": "3-3_musique==00"
         },
         {
             "id": "3hop1__796162_840093_26196",
@@ -770,7 +846,8 @@
             "expected_output": "1837",
             "context": null,
             "retrieval_context": null,
-            "time": 1796885400
+            "time": 1796885400,
+            "idx": "3-3_musique==01"
         },
         {
             "id": "3hop1__62775_198385_161032",
@@ -780,7 +857,8 @@
             "expected_output": "1947",
             "context": null,
             "retrieval_context": null,
-            "time": 61857961300
+            "time": 61857961300,
+            "idx": "3-3_musique==02"
         },
         {
             "id": "3hop1__686704_272818_298609",
@@ -790,7 +868,8 @@
             "expected_output": "Ted Turner",
             "context": null,
             "retrieval_context": null,
-            "time": 62803056500
+            "time": 62803056500,
+            "idx": "3-3_musique==03"
         },
         {
             "id": "2hop__31567_31623",
@@ -800,7 +879,8 @@
             "expected_output": "compiled from lectures to Caltech undergraduates in 1961\u201364",
             "context": null,
             "retrieval_context": null,
-            "time": 62148152100
+            "time": 62148152100,
+            "idx": "3-3_musique==04"
         }
     ]
 }
