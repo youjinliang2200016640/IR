@@ -1,0 +1,1519 @@
+{
+    "1-1_2_high_freq_ent_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.6,
+            "Hallucination":0.6
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.95,
+            "Hallucination":0.6666666667
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.6716666667,
+            "Hallucination":0.72
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.9,
+            "Hallucination":0.5333333333
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.88,
+            "Hallucination":0.7333333333
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.1982033097,
+            "Hallucination":0.5333333333
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.96,
+            "Hallucination":0.55
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.7466666667,
+            "Hallucination":0.6666666667
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.5333333333
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4666666667
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.9,
+            "Hallucination":0.5333333333
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.7333333333
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":0.7333333333
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.7333333333
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":0.8666666667,
+            "Hallucination":0.4666666667
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.7,
+            "Hallucination":0.7333333333
+        }
+    },
+    "1-2_1_low_freq_ent_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.25,
+            "Hallucination":0.6
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.6
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.6,
+            "Hallucination":0.8
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.7666666667,
+            "Hallucination":0.6
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.6626984127,
+            "Hallucination":0.8
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.92,
+            "Hallucination":0.4
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.6666666667,
+            "Hallucination":0.4
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":0.4,
+            "Hallucination":1.0
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.8666666667,
+            "Hallucination":0.6
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.4
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.6
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":0.95,
+            "Hallucination":1.0
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.8928571429,
+            "Hallucination":0.6
+        }
+    },
+    "1-3_r_1_simple_sample_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.54,
+            "Hallucination":1.0
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":1.0
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.8,
+            "Hallucination":1.0
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.6285714286,
+            "Hallucination":0.6333333333
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.6954545455,
+            "Hallucination":1.0
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.975,
+            "Hallucination":1.0
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.65,
+            "Hallucination":0.6666666667
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.7666666667,
+            "Hallucination":0.6
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":0.5,
+            "Hallucination":0.8
+        },
+        "qwen-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.7333333333,
+            "Hallucination":0.8
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.7,
+            "Hallucination":0.6
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":0.92,
+            "Hallucination":0.8
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":1.0
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.8166666667,
+            "Hallucination":0.8
+        }
+    },
+    "2-1_COPEN++csj_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.7571428571,
+            "Hallucination":0.6
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.96,
+            "Hallucination":1.0
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":1.0
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.8545454545,
+            "Hallucination":0.8
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.6619047619,
+            "Hallucination":0.6
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.7538461538,
+            "Hallucination":1.0
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.6453333333,
+            "Hallucination":1.0
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.8197945845,
+            "Hallucination":1.0
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.9454545455,
+            "Hallucination":1.0
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":0.9428571429,
+            "Hallucination":0.8
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.9166666667,
+            "Hallucination":0.8
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.8555555556,
+            "Hallucination":1.0
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.9,
+            "Hallucination":1.0
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":0.6878787879,
+            "Hallucination":1.0
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":0.95,
+            "Hallucination":1.0
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.8133333333,
+            "Hallucination":0.8
+        }
+    },
+    "2-2_COPEN++cpj_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.6
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.9714285714,
+            "Hallucination":0.6
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.5166666667,
+            "Hallucination":0.7
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.9428571429,
+            "Hallucination":0.2
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.9666666667,
+            "Hallucination":0.6
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "qwen-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "qwen1.5-14b-chat":{
+            "Hallucination":0.4,
+            "Answer Relevancy":0.9333333333
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        }
+    },
+    "2-3_COPEN++cic_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.7333333333,
+            "Hallucination":0.6
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.4
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "qwen-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        }
+    },
+    "2-4_FewNERD++inter_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.6,
+            "Hallucination":0.8
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.9,
+            "Hallucination":0.4
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.8102564103,
+            "Hallucination":0.2
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.665942029,
+            "Hallucination":0.8
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.9,
+            "Hallucination":0.2
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        }
+    },
+    "2-4_FewNERD++intra_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.45,
+            "Hallucination":0.8
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.9777777778,
+            "Hallucination":0.0
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.9666666667,
+            "Hallucination":0.8
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.6794871795,
+            "Hallucination":0.6
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.9514285714,
+            "Hallucination":0.4
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":0.2
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        }
+    },
+    "2-4_FewNERD++supervised_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.6888888889,
+            "Hallucination":0.8
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.8833333333,
+            "Hallucination":0.4
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6333333333
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.95,
+            "Hallucination":0.8
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.72,
+            "Hallucination":0.5117647059
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.96,
+            "Hallucination":0.6
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.9714285714,
+            "Hallucination":0.4666666667
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.6
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4666666667
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.95,
+            "Hallucination":0.4
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2666666667
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        }
+    },
+    "2-5_DocRED_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.625,
+            "Hallucination":1.0
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.7555555556,
+            "Hallucination":0.975
+        },
+        "baichuan2-7b-chat":{
+            "Hallucination":1.0
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.725,
+            "Hallucination":1.0
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.7377281588,
+            "Hallucination":1.0
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.75,
+            "Hallucination":0.75
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":1.0
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.8,
+            "Hallucination":1.0
+        },
+        "llama-3-8b-instruct":{
+            "Hallucination":1.0,
+            "Answer Relevancy":1.0
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.5
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.8333333333,
+            "Hallucination":1.0
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.7266483516,
+            "Hallucination":0.70625
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":1.0
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":0.9791666667,
+            "Hallucination":0.9166666667
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":0.2916666667,
+            "Hallucination":1.0
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.8448737795,
+            "Hallucination":0.8173076923
+        }
+    },
+    "2-6_MAVEN_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.95,
+            "Hallucination":0.0
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.7555555556,
+            "Hallucination":0.4333333333
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.3471428571
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.3066666667
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.8892857143,
+            "Hallucination":0.325
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.85,
+            "Hallucination":0.0
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.5666666667,
+            "Hallucination":0.8
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2666666667
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.9028571429,
+            "Hallucination":0.12
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.44
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":0.95,
+            "Hallucination":0.0333333333
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":0.1777777778
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        }
+    },
+    "2-7_MAVEN-ERE_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.5208333333,
+            "Hallucination":0.75
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.25
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.875,
+            "Hallucination":0.75
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.8511904762,
+            "Hallucination":0.75
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.9,
+            "Hallucination":0.75
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.3,
+            "Hallucination":0.3571428571
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.9375,
+            "Hallucination":0.75
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.6583333333,
+            "Hallucination":1.0
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.9375,
+            "Hallucination":0.75
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.75
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.675,
+            "Hallucination":0.75
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.875,
+            "Hallucination":0.75
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.875,
+            "Hallucination":1.0
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":0.775,
+            "Hallucination":1.0
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":1.0
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.825,
+            "Hallucination":1.0
+        }
+    },
+    "2-8_r_DocRED_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.1388888889,
+            "Hallucination":1.0
+        },
+        "baichuan2-13b-chat":{
+            "Hallucination":0.9142857143,
+            "Answer Relevancy":0.9230769231
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.9166666667,
+            "Hallucination":0.6
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.4722222222,
+            "Hallucination":1.0
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.7820512821,
+            "Hallucination":0.98
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.6,
+            "Hallucination":0.4
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.7888888889,
+            "Hallucination":0.9142857143
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.65,
+            "Hallucination":1.0
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.8333333333,
+            "Hallucination":0.9142857143
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "qwen-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":1.0
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.9,
+            "Hallucination":0.7
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.8115079365,
+            "Hallucination":1.0
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":0.8705925926,
+            "Hallucination":0.575
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":0.8888888889,
+            "Hallucination":0.58
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.6,
+            "Hallucination":1.0
+        }
+    },
+    "3-1_hotpotqa_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.4066666667,
+            "Hallucination":0.6
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.75
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.8833333333,
+            "Hallucination":0.6
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.9666666667,
+            "Hallucination":0.8
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.9006451613,
+            "Hallucination":0.4260869565
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.5433333333,
+            "Hallucination":1.0
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.6
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.6
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.7833333333,
+            "Hallucination":0.8
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":0.95,
+            "Hallucination":0.6
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":0.9,
+            "Hallucination":0.8
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.9484848485,
+            "Hallucination":0.4
+        }
+    },
+    "3-2_2wikimultihopqa_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.4552631579,
+            "Hallucination":1.0
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.95,
+            "Hallucination":0.6
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.5878787879,
+            "Hallucination":0.875
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":0.7
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.7833333333,
+            "Hallucination":0.8
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.9777777778,
+            "Hallucination":0.6
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.9714285714,
+            "Hallucination":0.6
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.96,
+            "Hallucination":0.8
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.8333333333,
+            "Hallucination":0.8
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":0.4
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":1.0
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.9428571429,
+            "Hallucination":0.6
+        }
+    },
+    "3-3_musique_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.7,
+            "Hallucination":1.0
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.9,
+            "Hallucination":1.0
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.8272727273,
+            "Hallucination":1.0
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.85,
+            "Hallucination":1.0
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.6583333333,
+            "Hallucination":1.0
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.4620915033,
+            "Hallucination":0.8
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.71,
+            "Hallucination":1.0
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.6238095238,
+            "Hallucination":1.0
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.96,
+            "Hallucination":1.0
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.2,
+            "Hallucination":1.0
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.91,
+            "Hallucination":1.0
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.8666666667,
+            "Hallucination":1.0
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":1.0
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.9222222222,
+            "Hallucination":0.8
+        }
+    },
+    "3-4_kqapro_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.3333333333,
+            "Hallucination":1.0
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.85
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.5147058824,
+            "Hallucination":1.0
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.7271428571,
+            "Hallucination":1.0
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.9512820513,
+            "Hallucination":0.8
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.8235294118,
+            "Hallucination":1.0
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.8118181818,
+            "Hallucination":1.0
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.9888888889,
+            "Hallucination":0.8
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.7333333333,
+            "Hallucination":0.6
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":0.96,
+            "Hallucination":0.8
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.96,
+            "Hallucination":0.6
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.9666666667,
+            "Hallucination":0.6
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":1.0
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":1.0
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        }
+    },
+    "3-5_KoRC++ood_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.6285714286,
+            "Hallucination":1.0
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.85,
+            "Hallucination":0.8
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.8933333333,
+            "Hallucination":0.8
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.6044444444,
+            "Hallucination":0.6
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.9714285714,
+            "Hallucination":0.6
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.5692307692,
+            "Hallucination":0.8
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.83,
+            "Hallucination":0.8
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.8666666667,
+            "Hallucination":0.6
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":0.96,
+            "Hallucination":0.6
+        },
+        "qwen-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.9514285714,
+            "Hallucination":0.6
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.8866666667,
+            "Hallucination":1.0
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":0.8761904762,
+            "Hallucination":0.8
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":0.8871794872,
+            "Hallucination":0.6
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.8628571429,
+            "Hallucination":0.6
+        }
+    },
+    "3-6_r_KoRC++ood_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.375,
+            "Hallucination":0.6
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.8
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.75,
+            "Hallucination":0.6
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.9,
+            "Hallucination":0.4
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.6933333333,
+            "Hallucination":0.8
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.28,
+            "Hallucination":0.6
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.84,
+            "Hallucination":0.6
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.85,
+            "Hallucination":0.6
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":0.6642857143,
+            "Hallucination":1.0
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":1.0
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.9,
+            "Hallucination":0.6
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":1.0
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":0.8
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4
+        }
+    },
+    "4-1_without_triples_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.9555555556,
+            "Hallucination":0.1142857143
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.99,
+            "Hallucination":0.0857142857
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.8971428571,
+            "Hallucination":0.2285714286
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.9538461538,
+            "Hallucination":0.5333333333
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.4023809524,
+            "Hallucination":0.4
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.24
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":0.9333333333,
+            "Hallucination":0.1
+        },
+        "qwen-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.24
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.3111111111
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2166666667
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4666666667
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.9777777778,
+            "Hallucination":0.1090909091
+        }
+    },
+    "4-1_with_triples_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.971875,
+            "Hallucination":0.15
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.7375,
+            "Hallucination":0.0222222222
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.9846153846,
+            "Hallucination":0.08
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.6428571429,
+            "Hallucination":0.225
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.9888888889,
+            "Hallucination":0.04
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.9852941176,
+            "Hallucination":0.0571428571
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.9857142857,
+            "Hallucination":0.0
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.0
+        },
+        "qwen-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.2
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.9857142857,
+            "Hallucination":0.0
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.9358823529,
+            "Hallucination":0.3177777778
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":0.9894736842,
+            "Hallucination":0.1166666667
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.1666666667
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.9427106227,
+            "Hallucination":0.1704761905
+        }
+    },
+    "4-2_r_without_triples_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.4833333333,
+            "Hallucination":0.5
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.9777777778,
+            "Hallucination":0.4285714286
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.9857142857,
+            "Hallucination":0.08
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":0.82,
+            "Hallucination":0.325
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":0.98,
+            "Hallucination":0.5416666667
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.8857142857,
+            "Hallucination":0.8
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.9818181818,
+            "Hallucination":0.0666666667
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.98,
+            "Hallucination":0.4022727273
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.9454545455,
+            "Hallucination":0.2
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":0.98,
+            "Hallucination":0.4857142857
+        },
+        "qwen-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.3142857143
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.3285714286
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.9875,
+            "Hallucination":0.2266666667
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.3396825397
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.44
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.9818181818,
+            "Hallucination":0.52
+        }
+    },
+    "4-2_r_with_triples_sample.json":{
+        "baichuan2-13b-base":{
+            "Answer Relevancy":0.8,
+            "Hallucination":0.6
+        },
+        "baichuan2-13b-chat":{
+            "Answer Relevancy":0.9583333333,
+            "Hallucination":0.1428571429
+        },
+        "baichuan2-7b-chat":{
+            "Answer Relevancy":0.9736842105,
+            "Hallucination":0.1282051282
+        },
+        "infini-megrez-7b":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.6
+        },
+        "llama-2-13b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.4333333333
+        },
+        "llama-2-70b":{
+            "Answer Relevancy":0.5,
+            "Hallucination":0.0
+        },
+        "llama-2-70b-chat":{
+            "Answer Relevancy":0.9366666667,
+            "Hallucination":0.1133333333
+        },
+        "llama-2-7b-chat":{
+            "Answer Relevancy":0.984,
+            "Hallucination":0.4
+        },
+        "llama-3-8b-instruct":{
+            "Answer Relevancy":0.9587044534,
+            "Hallucination":0.06
+        },
+        "qwen-14b-chat":{
+            "Answer Relevancy":0.9511111111,
+            "Hallucination":0.3
+        },
+        "qwen-72b":{
+            "Answer Relevancy":0.978974359,
+            "Hallucination":0.25
+        },
+        "qwen-72b-chat":{
+            "Answer Relevancy":0.9818181818,
+            "Hallucination":0.2333333333
+        },
+        "qwen-7b-chat":{
+            "Answer Relevancy":0.75,
+            "Hallucination":0.2571428571
+        },
+        "qwen1.5-14b-chat":{
+            "Answer Relevancy":1.0,
+            "Hallucination":0.1085714286
+        },
+        "qwen1.5-72b":{
+            "Answer Relevancy":0.9641025641,
+            "Hallucination":0.0222222222
+        },
+        "qwen1.5-7b-chat":{
+            "Answer Relevancy":0.9703296703,
+            "Hallucination":0.025
+        }
+    }
+}
