@@ -10,7 +10,7 @@ runme:
 
 ### data.json
 
-该文件以JSON格式存储的从<a href=https://github.com/evalplus/evalplus/tree/master>164项HumanEval大模型代码生成测试任务</a>中抽取的28项代码测试任务，抽取方式为`index(task_id) % 6 == 0`
+该文件以JSON格式存储的从164项HumanEval大模型代码生成测试任务中抽取的28项代码测试任务，抽取方式为`index(task_id) % 6 == 0`
 
 ### data.jsonl
 
@@ -273,10 +273,6 @@ data_format_evaluate_solution =  {
     }   
     
 ```
-
-### code_all
-
-该文件夹下存储了14个大模型对164项代码生成任务生成的原始回复，可能已无用
 
 ### code_eval
 

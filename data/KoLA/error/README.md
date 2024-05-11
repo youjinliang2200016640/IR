@@ -1,0 +1,1 @@
+this folder is used to save the error item when getting the model reply, and the files under this folder will be deleted if all error items in the file are solved.
