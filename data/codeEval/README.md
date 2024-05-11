@@ -10,8 +10,7 @@ runme:
 
 ### data.json
 
-该文件以JSON格式存储的从164项HumanEval大模型代码生成测试任务中抽取的28项代码测试任务，抽取方式为`index(task_id) % 6 == 0`
-
+该文件以JSON格式存储的从<a href=https://github.com/evalplus/evalplus/tree/master>164项HumanEval大模型代码生成测试任务</a>中抽取的28项代码测试任务，抽取方式为`index(task_id) % 6 == 0`
 
 ### data.jsonl
 
@@ -19,9 +18,9 @@ runme:
 
 ### data_with_output.json
 
-该文件在`data.json`数据的基础上添加了每一个任务的标准输出
+该文件在`data.json`数据的基础上添加了每一个任务的标准输出，原始数据中只存储了用于测试代码的输入，输出通过`prompt`+`canonical_solution`组合成的标准代码执行得到
 
-```python {"id":"01HX3M39M86E4SHHMW7Y6Z8SFY"}
+```python {"id":"01HX3M39M86E4SHHMW7Y6Z8SFY","name":"data format of codeEval/data_with_output.json"}
 
 # data format of codeEval/data_with_output.json
 # data.json have the same format as data_with_output.json but without latter 4 items
@@ -68,6 +67,11 @@ data_format_codeEval_ins =   {
     
     }
 }  
+
+
+```
+
+```python {"id":"01HX6A3R6MGC7PQBRSD8RYS1MC","name":"data format of codeEval/code_execute/*.json"}
 
 # data format of codeEval/code_execute/*.json
 """
@@ -142,6 +146,12 @@ data_format_execute_model_code = {
             }
         }
     }  
+
+
+```
+
+```python {"id":"01HX6A7Z0NWHN1BR4X6RFCXVXP","name":"data format of codeEval/code_eval/*.json"}
+# data format of codeEval/code_eval/*.json
 """
     {
         "percision":{
@@ -262,12 +272,11 @@ data_format_evaluate_solution =  {
         }
     }   
     
-
 ```
 
 ### code_all
 
-该文件夹下存储了15个大模型对164项代码生成任务生成的原始回复，可能已无用
+该文件夹下存储了14个大模型对164项代码生成任务生成的原始回复，可能已无用
 
 ### code_eval
 
@@ -304,8 +313,10 @@ for dir,subdir,files in os.walk('code_eval'):
             data_eval['accuracy'][model] = data['percision']['mean']
             data_eval['pass'][model] = data['PASS']
             data_eval['AC'][model] = data['AC']
+
 ```
 
 ```python {"id":"01HX3M7JCTM24YSHB3853G0WBV"}
 pd.DataFrame(data_eval).sort_values(by="AC",ascending=False)
+
 ```
