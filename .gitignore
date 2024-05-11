@@ -15,4 +15,6 @@ MATH/
 *cache*
 /code
 /data/codeEval/data_view.ipynb
-code_all/
+/data/codeEval/code_all
+*.ipynb
+!evaluate_code.ipynb
