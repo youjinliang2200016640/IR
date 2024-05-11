@@ -21,7 +21,8 @@
                         "include_reason": true
                     }
                 }
-            ]
+            ],
+            "idx": "1-1_2_high_freq_ent==00"
         },
         {
             "id": "2_high_freq_ent665",
@@ -42,7 +43,8 @@
                         "include_reason": true
                     }
                 }
-            ]
+            ],
+            "idx": "1-1_2_high_freq_ent==03"
         }
     ]
 }

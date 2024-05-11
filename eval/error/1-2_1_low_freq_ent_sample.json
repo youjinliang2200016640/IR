@@ -21,7 +21,8 @@
                         "include_reason": true
                     }
                 }
-            ]
+            ],
+            "idx": "1-2_1_low_freq_ent==03"
         },
         {
             "id": "1_low_freq_ent3312",
@@ -42,7 +43,8 @@
                         "include_reason": true
                     }
                 }
-            ]
+            ],
+            "idx": "1-2_1_low_freq_ent==03"
         }
     ]
 }

@@ -21,7 +21,8 @@
                         "include_reason": true
                     }
                 }
-            ]
+            ],
+            "idx": "4-1_with_triples==04"
         },
         {
             "id": "with_triples_sample_2",
@@ -42,7 +43,8 @@
                         "include_reason": true
                     }
                 }
-            ]
+            ],
+            "idx": "4-1_with_triples==02"
         },
         {
             "id": "with_triples_sample_3",
@@ -63,7 +65,8 @@
                         "include_reason": true
                     }
                 }
-            ]
+            ],
+            "idx": "4-1_with_triples==03"
         },
         {
             "id": "with_triples_sample_0",
@@ -84,7 +87,8 @@
                         "include_reason": true
                     }
                 }
-            ]
+            ],
+            "idx": "4-1_with_triples==00"
         }
     ]
 }
