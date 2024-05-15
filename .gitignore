@@ -18,3 +18,5 @@ MATH/
 /data/codeEval/code_all
 *.ipynb
 !evaluate_code.ipynb
+*.docx
+*.tmp
