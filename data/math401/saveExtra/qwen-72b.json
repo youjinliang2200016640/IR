@@ -7,90 +7,100 @@
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n5C2=",
             "actual_output": "The correct answer to the question \"5C2 = ?\" is 10.",
-            "expected_output": "10",
-            "is_correct": -1,
-            "time": 1381825100
+            "expected_output": 10,
+            "is_correct": 1,
+            "time": 1381825100,
+            "extract_answer": 10.0
         },
         {
             "id": 51,
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n5A3=",
             "actual_output": "The correct answer to the question \"5A3=?\" is \"15\".",
-            "expected_output": "60",
-            "is_correct": -1,
-            "time": 1325444400
+            "expected_output": 60,
+            "is_correct": 0,
+            "time": 1325444400,
+            "extract_answer": 15
         },
         {
             "id": 52,
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n9C3=",
             "actual_output": "The correct answer to the question \"9C3=?\" is 84.",
-            "expected_output": "84",
-            "is_correct": -1,
-            "time": 1261007900
+            "expected_output": 84,
+            "is_correct": 1,
+            "time": 1261007900,
+            "extract_answer": 84.0
         },
         {
             "id": 53,
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n9A3=",
             "actual_output": "The correct answer to the question \"9A3=?\" is \"9A3=27\".",
-            "expected_output": "504",
-            "is_correct": -1,
-            "time": 1892982200
+            "expected_output": 504,
+            "is_correct": 0,
+            "time": 1892982200,
+            "extract_answer": 27
         },
         {
             "id": 54,
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n6!=",
             "actual_output": "The correct answer to the question \"6!\" is 720.",
-            "expected_output": "720",
-            "is_correct": -1,
-            "time": 1251749000
+            "expected_output": 720,
+            "is_correct": 1,
+            "time": 1251749000,
+            "extract_answer": 720.0
         },
         {
             "id": 55,
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n9!=",
             "actual_output": "The correct answer to the question \"9! = ?\" is 362,880.",
-            "expected_output": "362880",
-            "is_correct": -1,
-            "time": 1549343200
+            "expected_output": 362880,
+            "is_correct": 1,
+            "time": 1549343200,
+            "extract_answer": 362880.0
         },
         {
             "id": 56,
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\ne=",
             "actual_output": "I apologize for the confusion. Here is the correct answer to your question:\n\nThe \"setenv\" command is used to set environment variables in the shell. It is commonly used in shell scripts to set variables that will be used by the script or by other commands that are executed by the script. The syntax for the \"setenv\" command is:\n\nsetenv VARIABLE VALUE\n\nWhere \"VARIABLE\" is the name of the variable to be set, and \"VALUE\" is the value to be assigned to the variable. For example, to set the \"PATH\" variable to include the directory \"/usr/local/bin\", you would use the following command:\n\nsetenv PATH $PATH:/usr/local/bin\n\nThis would add \"/usr/local/bin\" to the end of the existing \"PATH\" variable.",
-            "expected_output": "2.718281828",
-            "is_correct": -1,
-            "time": 6377498100
+            "expected_output": 2.718281828,
+            "is_correct": 0,
+            "time": 6377498100,
+            "extract_answer": null
         },
         {
             "id": 57,
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\npi=",
             "actual_output": "The correct answer to the question is \"pi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679\".",
-            "expected_output": "3.141592653589793",
-            "is_correct": -1,
-            "time": 4813406500
+            "expected_output": 3.141592653589793,
+            "is_correct": 1,
+            "time": 4813406500,
+            "extract_answer": 3.141592653589793
         },
         {
             "id": 58,
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n\u221a2=",
             "actual_output": "The correct answer to the question \"What is the value of \u221a2?\" is approximately 1.414.",
-            "expected_output": "1.414213562",
-            "is_correct": -1,
-            "time": 1599218400
+            "expected_output": 1.414213562,
+            "is_correct": 1,
+            "time": 1599218400,
+            "extract_answer": 1.414
         },
         {
             "id": 59,
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n\u221b2=",
             "actual_output": "The correct answer to the question \"\u221b2 = ?\" is approximately 1.259921.",
-            "expected_output": "1.25992105",
-            "is_correct": -1,
-            "time": 1585190700
+            "expected_output": 1.25992105,
+            "is_correct": 1,
+            "time": 1585190700,
+            "extract_answer": 1.259921
         }
     ]
 }

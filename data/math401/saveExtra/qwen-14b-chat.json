@@ -7,90 +7,100 @@
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\n5C2=",
             "actual_output": "10",
-            "expected_output": "10",
-            "is_correct": -1,
-            "time": 60736161800
+            "expected_output": 10,
+            "is_correct": 1,
+            "time": 60736161800,
+            "extract_answer": 10
         },
         {
             "id": 51,
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\n5A3=",
             "actual_output": "15",
-            "expected_output": "60",
-            "is_correct": -1,
-            "time": 679726500
+            "expected_output": 60,
+            "is_correct": 0,
+            "time": 679726500,
+            "extract_answer": 15
         },
         {
             "id": 52,
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\n9C3=",
             "actual_output": "84",
-            "expected_output": "84",
-            "is_correct": -1,
-            "time": 775173200
+            "expected_output": 84,
+            "is_correct": 1,
+            "time": 775173200,
+            "extract_answer": 84
         },
         {
             "id": 53,
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\n9A3=",
             "actual_output": "27",
-            "expected_output": "504",
-            "is_correct": -1,
-            "time": 714950600
+            "expected_output": 504,
+            "is_correct": 0,
+            "time": 714950600,
+            "extract_answer": 27
         },
         {
             "id": 54,
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\n6!=",
             "actual_output": "720",
-            "expected_output": "720",
-            "is_correct": -1,
-            "time": 721496900
+            "expected_output": 720,
+            "is_correct": 1,
+            "time": 721496900,
+            "extract_answer": 720
         },
         {
             "id": 55,
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\n9!=",
             "actual_output": "362880",
-            "expected_output": "362880",
-            "is_correct": -1,
-            "time": 788429900
+            "expected_output": 362880,
+            "is_correct": 1,
+            "time": 788429900,
+            "extract_answer": 362880
         },
         {
             "id": 56,
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\ne=",
             "actual_output": "I'm sorry, but I need more information to provide an answer. What is the question you would like me to answer?",
-            "expected_output": "2.718281828",
-            "is_correct": -1,
-            "time": 1210349200
+            "expected_output": 2.718281828,
+            "is_correct": 0,
+            "time": 1210349200,
+            "extract_answer": null
         },
         {
             "id": 57,
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\npi=",
             "actual_output": "3.141592653589793",
-            "expected_output": "3.141592653589793",
-            "is_correct": -1,
-            "time": 1081338100
+            "expected_output": 3.141592653589793,
+            "is_correct": 1,
+            "time": 1081338100,
+            "extract_answer": 3.141592653589793
         },
         {
             "id": 58,
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\n\u221a2=",
             "actual_output": "1.4142135623730951",
-            "expected_output": "1.414213562",
-            "is_correct": -1,
-            "time": 1067250700
+            "expected_output": 1.414213562,
+            "is_correct": 1,
+            "time": 1067250700,
+            "extract_answer": 1.4142135623730951
         },
         {
             "id": 59,
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\n\u221b2=",
             "actual_output": "1.2599",
-            "expected_output": "1.25992105",
-            "is_correct": -1,
-            "time": 771574400
+            "expected_output": 1.25992105,
+            "is_correct": 1,
+            "time": 771574400,
+            "extract_answer": 1.2599
         }
     ]
 }

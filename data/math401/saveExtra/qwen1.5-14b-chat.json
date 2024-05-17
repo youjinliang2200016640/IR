@@ -7,90 +7,100 @@
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n5C2=",
             "actual_output": "The correct answer is 10.",
-            "expected_output": "10",
-            "is_correct": -1,
-            "time": 60969976900
+            "expected_output": 10,
+            "is_correct": 1,
+            "time": 60969976900,
+            "extract_answer": 10.0
         },
         {
             "id": 51,
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n5A3=",
             "actual_output": "5A3 is not a clear mathematical expression. It seems to be missing an operation or value for A. Please provide the complete expression for a proper answer.",
-            "expected_output": "60",
-            "is_correct": -1,
-            "time": 1337682900
+            "expected_output": 60,
+            "is_correct": 0,
+            "time": 1337682900,
+            "extract_answer": 3
         },
         {
             "id": 52,
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n9C3=",
             "actual_output": "9C3 (9 choose 3) is the number of ways to choose 3 items from a set of 9 without regard to order. The calculation is:\n\n9! / (3! * (9-3)!)\n\n9! (9 factorial) is 9 \u00d7 8 \u00d7 7 \u00d7 6 \u00d7 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1\n3! (3 factorial) is 3 \u00d7 2 \u00d7 1\n\nSo, 9C3 = 9! / (3! * (9-3)!) = 9 \u00d7 8 \u00d7 7 / (3 \u00d7 2 \u00d7 1) = 84.",
-            "expected_output": "84",
-            "is_correct": -1,
-            "time": 63707474600
+            "expected_output": 84,
+            "is_correct": 1,
+            "time": 63707474600,
+            "extract_answer": 84.0
         },
         {
             "id": 53,
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n9A3=",
             "actual_output": "9A3 is not a mathematical equation or expression that can be solved. It seems to be a combination of numbers and letters, but without further context or a specific operation, it doesn't have a numerical answer. If it's meant to represent a product or something else, please provide more information.",
-            "expected_output": "504",
-            "is_correct": -1,
-            "time": 2262817500
+            "expected_output": 504,
+            "is_correct": 0,
+            "time": 2262817500,
+            "extract_answer": 3
         },
         {
             "id": 54,
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n6!=",
             "actual_output": "720",
-            "expected_output": "720",
-            "is_correct": -1,
-            "time": 61038610500
+            "expected_output": 720,
+            "is_correct": 1,
+            "time": 61038610500,
+            "extract_answer": 720
         },
         {
             "id": 55,
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n9!=",
             "actual_output": "362,880",
-            "expected_output": "362880",
-            "is_correct": -1,
-            "time": 1035598700
+            "expected_output": 362880,
+            "is_correct": 1,
+            "time": 1035598700,
+            "extract_answer": 362880
         },
         {
             "id": 56,
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\ne=",
             "actual_output": "The value of the mathematical constant e (Euler's number) is approximately 2.71828.",
-            "expected_output": "2.718281828",
-            "is_correct": -1,
-            "time": 1433250300
+            "expected_output": 2.718281828,
+            "is_correct": 1,
+            "time": 1433250300,
+            "extract_answer": 2.71828
         },
         {
             "id": 57,
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\npi=",
             "actual_output": " approximately 3.14159.",
-            "expected_output": "3.141592653589793",
-            "is_correct": -1,
-            "time": 1033334100
+            "expected_output": 3.141592653589793,
+            "is_correct": 1,
+            "time": 1033334100,
+            "extract_answer": 3.14159
         },
         {
             "id": 58,
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n\u221a2=",
             "actual_output": "The square root of 2 is an irrational number that cannot be expressed exactly as a finite decimal or a fraction with integer coefficients. It is approximately 1.41421356237.",
-            "expected_output": "1.414213562",
-            "is_correct": -1,
-            "time": 61749690000
+            "expected_output": 1.414213562,
+            "is_correct": 1,
+            "time": 61749690000,
+            "extract_answer": 1.41421356237
         },
         {
             "id": 59,
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n\u221b2=",
             "actual_output": "The cube root of 2 is approximately 1.2599210498948731.",
-            "expected_output": "1.25992105",
-            "is_correct": -1,
-            "time": 61415221900
+            "expected_output": 1.25992105,
+            "is_correct": 1,
+            "time": 61415221900,
+            "extract_answer": 1.2599210498948732
         }
     ]
 }
