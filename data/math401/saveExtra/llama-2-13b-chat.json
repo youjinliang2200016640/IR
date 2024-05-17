@@ -1,0 +1,96 @@
+{
+    "fileName": "Llama-2-13B-Chat.json",
+    "model": "llama-2-13b-chat",
+    "data": [
+        {
+            "id": 50,
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5C2=",
+            "actual_output": "  Sure!\n\n5C2 = 10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 906254700
+        },
+        {
+            "id": 51,
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5A3=",
+            "actual_output": "  Sure!\n\n5A3 = 125",
+            "expected_output": "60",
+            "is_correct": -1,
+            "time": 925178000
+        },
+        {
+            "id": 52,
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9C3=",
+            "actual_output": "  Sure!\n\n9C3 = 81",
+            "expected_output": "84",
+            "is_correct": -1,
+            "time": 905697800
+        },
+        {
+            "id": 53,
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9A3=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n9A3 = 9 x 3 = 27",
+            "expected_output": "504",
+            "is_correct": -1,
+            "time": 1167597200
+        },
+        {
+            "id": 54,
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6!=",
+            "actual_output": "  Sure!\n\n6! = 720",
+            "expected_output": "720",
+            "is_correct": -1,
+            "time": 912970100
+        },
+        {
+            "id": 55,
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9!=",
+            "actual_output": "  Sure!\n\n9! = 362880",
+            "expected_output": "362880",
+            "is_correct": -1,
+            "time": 941022000
+        },
+        {
+            "id": 59,
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n\u221b2=",
+            "actual_output": "  Sure!\n\n\u221b2 = 2",
+            "expected_output": "1.25992105",
+            "is_correct": -1,
+            "time": 1323616400
+        },
+        {
+            "id": 58,
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n\u221a2=",
+            "actual_output": "  Sure!\n\n\u221a2 = 1.4142",
+            "expected_output": "1.414213562",
+            "is_correct": -1,
+            "time": 928843000
+        },
+        {
+            "id": 57,
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\npi=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n\u03c0 = 3.14159",
+            "expected_output": "3.141592653589793",
+            "is_correct": -1,
+            "time": 1208943900
+        },
+        {
+            "id": 56,
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne=",
+            "actual_output": "  Sure! Here's the correct answer:\n\ne = 2.71828...",
+            "expected_output": "2.718281828",
+            "is_correct": -1,
+            "time": 1096717100
+        }
+    ]
+}

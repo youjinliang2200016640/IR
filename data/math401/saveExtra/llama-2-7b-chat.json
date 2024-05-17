@@ -1,0 +1,96 @@
+{
+    "fileName": "Llama-2-7B-Chat.json",
+    "model": "llama-2-7b-chat",
+    "data": [
+        {
+            "id": 50,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n5C2=",
+            "actual_output": "  Sure! The answer to 5C2 is 5 \u00d7 4 = 20.",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 943014000
+        },
+        {
+            "id": 51,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n5A3=",
+            "actual_output": "  Sure! 5A3 = 125.",
+            "expected_output": "60",
+            "is_correct": -1,
+            "time": 841882500
+        },
+        {
+            "id": 52,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n9C3=",
+            "actual_output": "  Sure! 9C3 = 72.",
+            "expected_output": "84",
+            "is_correct": -1,
+            "time": 799337100
+        },
+        {
+            "id": 53,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n9A3=",
+            "actual_output": "  Sure! 9A3 = 72.",
+            "expected_output": "504",
+            "is_correct": -1,
+            "time": 983848900
+        },
+        {
+            "id": 54,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n6!=",
+            "actual_output": "  Sure! 6! = 720.",
+            "expected_output": "720",
+            "is_correct": -1,
+            "time": 854863700
+        },
+        {
+            "id": 55,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n9!=",
+            "actual_output": "  Sure! 9! = 362,880.",
+            "expected_output": "362880",
+            "is_correct": -1,
+            "time": 828651900
+        },
+        {
+            "id": 56,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\ne=",
+            "actual_output": "  Sure! The answer to the question \"e=\" is simply \"e\".",
+            "expected_output": "2.718281828",
+            "is_correct": -1,
+            "time": 961168900
+        },
+        {
+            "id": 57,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\npi=",
+            "actual_output": "  Sure! The value of pi is an irrational number that represents the ratio of a circle's circumference to its diameter. It is approximately equal to 3.14159, but it is a transcendental number, which means that it is not a root of any polynomial equation with rational coefficients, and its decimal representation goes on forever without repeating.",
+            "expected_output": "3.141592653589793",
+            "is_correct": -1,
+            "time": 1570958300
+        },
+        {
+            "id": 58,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n\u221a2=",
+            "actual_output": "  Sure! \u221a2 = 1.414213562373095.",
+            "expected_output": "1.414213562",
+            "is_correct": -1,
+            "time": 1406802400
+        },
+        {
+            "id": 59,
+            "AnswerModel": "llama-2-7b-chat",
+            "input": "Only return the correct answer of the question.\n\u221b2=",
+            "actual_output": "  Sure! \u221b2 = 4.",
+            "expected_output": "1.25992105",
+            "is_correct": -1,
+            "time": 801914900
+        }
+    ]
+}

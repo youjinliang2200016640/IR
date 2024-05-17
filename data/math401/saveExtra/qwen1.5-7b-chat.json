@@ -1,0 +1,96 @@
+{
+    "fileName": "Qwen1.5-7B-Chat.json",
+    "model": "qwen1.5-7b-chat",
+    "data": [
+        {
+            "id": 50,
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Only return the correct answer of the question.\n5C2=",
+            "actual_output": "5C2, also known as combinations of 5 choose 2, is calculated as:\n\n5C2 = 5! / (2! * (5-2)!)\n= 5! / (2! * 3!)\n= (5 * 4) / (2 * 1)\n= 10\n\nSo, 5C2 equals 10.",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 1967900400
+        },
+        {
+            "id": 51,
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Only return the correct answer of the question.\n5A3=",
+            "actual_output": "The equation 5A3 does not provide enough information to determine the correct answer. It seems to be missing a value for A. Please provide the value for A for the equation to be solved.",
+            "expected_output": "60",
+            "is_correct": -1,
+            "time": 1317238200
+        },
+        {
+            "id": 52,
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Only return the correct answer of the question.\n9C3=",
+            "actual_output": "9C3 (9 choose 3) is equal to 84.",
+            "expected_output": "84",
+            "is_correct": -1,
+            "time": 61660237600
+        },
+        {
+            "id": 53,
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Only return the correct answer of the question.\n9A3=",
+            "actual_output": "9A3 is not a clear question or equation. If you meant to write \"9 times 3,\" the answer would be:\n\n9A3 = 27",
+            "expected_output": "504",
+            "is_correct": -1,
+            "time": 61232186700
+        },
+        {
+            "id": 54,
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Only return the correct answer of the question.\n6!=",
+            "actual_output": "6! (6 factorial) is equal to 720.",
+            "expected_output": "720",
+            "is_correct": -1,
+            "time": 60990468500
+        },
+        {
+            "id": 55,
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Only return the correct answer of the question.\n9!=",
+            "actual_output": "9! (9 factorial) is equal to 362,880.",
+            "expected_output": "362880",
+            "is_correct": -1,
+            "time": 1098216000
+        },
+        {
+            "id": 56,
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Only return the correct answer of the question.\ne=",
+            "actual_output": "The correct answer to the question \"What is e?\" is approximately 2.71828. e is a mathematical constant that represents the base of the natural logarithm, often denoted by the letter \"e.\" It is an irrational number, meaning it cannot be expressed as a simple fraction and has an infinite number of non-repeating decimal places.",
+            "expected_output": "2.718281828",
+            "is_correct": -1,
+            "time": 61763019600
+        },
+        {
+            "id": 57,
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Only return the correct answer of the question.\npi=",
+            "actual_output": "3.14159 (approximately)",
+            "expected_output": "3.141592653589793",
+            "is_correct": -1,
+            "time": 60940953100
+        },
+        {
+            "id": 58,
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Only return the correct answer of the question.\n\u221a2=",
+            "actual_output": "The correct answer is \u221a2.",
+            "expected_output": "1.414213562",
+            "is_correct": -1,
+            "time": 60974714000
+        },
+        {
+            "id": 59,
+            "AnswerModel": "qwen1.5-7b-chat",
+            "input": "Only return the correct answer of the question.\n\u221b2=",
+            "actual_output": "The correct answer is \u221b2 = 1.4142135623730951 (approximately).",
+            "expected_output": "1.25992105",
+            "is_correct": -1,
+            "time": 1185225100
+        }
+    ]
+}

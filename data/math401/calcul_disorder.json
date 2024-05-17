@@ -1,0 +1,26 @@
+{
+    "fileName": "calcul_disorder.json",
+    "info": "the datas contained in this file are either the item drawn from `math50.json` or new item ,that is not the standard math format.",
+    "data": [
+        {
+            "id": "33_disorder_01",
+            "input": "2**2",
+            "expected_output": "4"
+        },
+        {
+            "id": "33_disorder_01",
+            "input": "6**2=",
+            "expected_output": "36"
+        },
+        {
+            "id": "41_disorder_01",
+            "input": "79 75 + 46 51 + / =",
+            "expected_output": "1.5876"
+        },
+        {
+            "id": "42_disorder_01",
+            "input": "24 22 + 18 * 79 / =",
+            "expected_output": "10.4810"
+        }
+    ]
+}
