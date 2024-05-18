@@ -3,1607 +3,2409 @@
     "data": [
         {
             "input": "e^(i\u03c0)+1=",
-            "expected_output": "0"
+            "expected_output": "0",
+            "id": 0,
+            "class": "Euler Equation."
         },
         {
             "input": "1+1=",
-            "expected_output": "2"
+            "expected_output": "2",
+            "id": 1,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "5+9=",
-            "expected_output": "14"
+            "expected_output": "14",
+            "id": 2,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "4+3=",
-            "expected_output": "7"
+            "expected_output": "7",
+            "id": 3,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "5+2=",
-            "expected_output": "7"
+            "expected_output": "7",
+            "id": 4,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "9+2=",
-            "expected_output": "11"
+            "expected_output": "11",
+            "id": 5,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "6+2=",
-            "expected_output": "8"
+            "expected_output": "8",
+            "id": 6,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "0+8=",
-            "expected_output": "8"
+            "expected_output": "8",
+            "id": 7,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "0+10=",
-            "expected_output": "10"
+            "expected_output": "10",
+            "id": 8,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "9+3=",
-            "expected_output": "12"
+            "expected_output": "12",
+            "id": 9,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "6+6=",
-            "expected_output": "12"
+            "expected_output": "12",
+            "id": 10,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "5+6=",
-            "expected_output": "11"
+            "expected_output": "11",
+            "id": 11,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "5+4=",
-            "expected_output": "9"
+            "expected_output": "9",
+            "id": 12,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "5+0=",
-            "expected_output": "5"
+            "expected_output": "5",
+            "id": 13,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "5-1=",
-            "expected_output": "4"
+            "expected_output": "4",
+            "id": 14,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "2-2=",
-            "expected_output": "0"
+            "expected_output": "0",
+            "id": 15,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "10-2=",
-            "expected_output": "8"
+            "expected_output": "8",
+            "id": 16,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "4-10=",
-            "expected_output": "-6"
+            "expected_output": "-6",
+            "id": 17,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "2-8=",
-            "expected_output": "-6"
+            "expected_output": "-6",
+            "id": 18,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "10-0=",
-            "expected_output": "10"
+            "expected_output": "10",
+            "id": 19,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "10-6=",
-            "expected_output": "4"
+            "expected_output": "4",
+            "id": 20,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "0-5=",
-            "expected_output": "-5"
+            "expected_output": "-5",
+            "id": 21,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "9-5=",
-            "expected_output": "4"
+            "expected_output": "4",
+            "id": 22,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "10-4=",
-            "expected_output": "6"
+            "expected_output": "6",
+            "id": 23,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "2-3=",
-            "expected_output": "-1"
+            "expected_output": "-1",
+            "id": 24,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "9-1=",
-            "expected_output": "8"
+            "expected_output": "8",
+            "id": 25,
+            "class": "Add \\& Subtract of two integers within 10."
         },
         {
             "input": "65+82=",
-            "expected_output": "147"
+            "expected_output": "147",
+            "id": 26,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "57+70=",
-            "expected_output": "127"
+            "expected_output": "127",
+            "id": 27,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "53+27=",
-            "expected_output": "80"
+            "expected_output": "80",
+            "id": 28,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "8+56=",
-            "expected_output": "64"
+            "expected_output": "64",
+            "id": 29,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "21+97=",
-            "expected_output": "118"
+            "expected_output": "118",
+            "id": 30,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "28+34=",
-            "expected_output": "62"
+            "expected_output": "62",
+            "id": 31,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "39+46=",
-            "expected_output": "85"
+            "expected_output": "85",
+            "id": 32,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "34+61=",
-            "expected_output": "95"
+            "expected_output": "95",
+            "id": 33,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "2+4=",
-            "expected_output": "6"
+            "expected_output": "6",
+            "id": 34,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "69+6=",
-            "expected_output": "75"
+            "expected_output": "75",
+            "id": 35,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "16+73=",
-            "expected_output": "89"
+            "expected_output": "89",
+            "id": 36,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "16+59=",
-            "expected_output": "75"
+            "expected_output": "75",
+            "id": 37,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "26+10=",
-            "expected_output": "36"
+            "expected_output": "36",
+            "id": 38,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "97-82=",
-            "expected_output": "15"
+            "expected_output": "15",
+            "id": 39,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "91-12=",
-            "expected_output": "79"
+            "expected_output": "79",
+            "id": 40,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "71-88=",
-            "expected_output": "-17"
+            "expected_output": "-17",
+            "id": 41,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "99-93=",
-            "expected_output": "6"
+            "expected_output": "6",
+            "id": 42,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "9-71=",
-            "expected_output": "-62"
+            "expected_output": "-62",
+            "id": 43,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "15-5=",
-            "expected_output": "10"
+            "expected_output": "10",
+            "id": 44,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "9-23=",
-            "expected_output": "-14"
+            "expected_output": "-14",
+            "id": 45,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "68-49=",
-            "expected_output": "19"
+            "expected_output": "19",
+            "id": 46,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "54-3=",
-            "expected_output": "51"
+            "expected_output": "51",
+            "id": 47,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "7-7=",
-            "expected_output": "0"
+            "expected_output": "0",
+            "id": 48,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "60-85=",
-            "expected_output": "-25"
+            "expected_output": "-25",
+            "id": 49,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "79-18=",
-            "expected_output": "61"
+            "expected_output": "61",
+            "id": 50,
+            "class": "Add \\& Subtract of two integers within 100."
         },
         {
             "input": "184+44=",
-            "expected_output": "228"
+            "expected_output": "228",
+            "id": 51,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "459+315=",
-            "expected_output": "774"
+            "expected_output": "774",
+            "id": 52,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "461+822=",
-            "expected_output": "1283"
+            "expected_output": "1283",
+            "id": 53,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "64+185=",
-            "expected_output": "249"
+            "expected_output": "249",
+            "id": 54,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "116+16=",
-            "expected_output": "132"
+            "expected_output": "132",
+            "id": 55,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "243+281=",
-            "expected_output": "524"
+            "expected_output": "524",
+            "id": 56,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "501+515=",
-            "expected_output": "1016"
+            "expected_output": "1016",
+            "id": 57,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "636+766=",
-            "expected_output": "1402"
+            "expected_output": "1402",
+            "id": 58,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "870+97=",
-            "expected_output": "967"
+            "expected_output": "967",
+            "id": 59,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "672+483=",
-            "expected_output": "1155"
+            "expected_output": "1155",
+            "id": 60,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "701+70=",
-            "expected_output": "771"
+            "expected_output": "771",
+            "id": 61,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "13+934=",
-            "expected_output": "947"
+            "expected_output": "947",
+            "id": 62,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "345+502=",
-            "expected_output": "847"
+            "expected_output": "847",
+            "id": 63,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "35-846=",
-            "expected_output": "-811"
+            "expected_output": "-811",
+            "id": 64,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "721-847=",
-            "expected_output": "-126"
+            "expected_output": "-126",
+            "id": 65,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "945-127=",
-            "expected_output": "818"
+            "expected_output": "818",
+            "id": 66,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "420-6=",
-            "expected_output": "414"
+            "expected_output": "414",
+            "id": 67,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "647-516=",
-            "expected_output": "131"
+            "expected_output": "131",
+            "id": 68,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "58-892=",
-            "expected_output": "-834"
+            "expected_output": "-834",
+            "id": 69,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "311-221=",
-            "expected_output": "90"
+            "expected_output": "90",
+            "id": 70,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "700-64=",
-            "expected_output": "636"
+            "expected_output": "636",
+            "id": 71,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "479-7=",
-            "expected_output": "472"
+            "expected_output": "472",
+            "id": 72,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "408-702=",
-            "expected_output": "-294"
+            "expected_output": "-294",
+            "id": 73,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "585-983=",
-            "expected_output": "-398"
+            "expected_output": "-398",
+            "id": 74,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "681-831=",
-            "expected_output": "-150"
+            "expected_output": "-150",
+            "id": 75,
+            "class": "Add \\& Subtract of two integers within 1,000."
         },
         {
             "input": "221034337578+352470528397=",
-            "expected_output": "573504865975"
+            "expected_output": "573504865975",
+            "id": 76,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "946195468138+987210728275=",
-            "expected_output": "1933406196413"
+            "expected_output": "1933406196413",
+            "id": 77,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "678420482144+26140223017=",
-            "expected_output": "704560705161"
+            "expected_output": "704560705161",
+            "id": 78,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "234319923293+171632577931=",
-            "expected_output": "405952501224"
+            "expected_output": "405952501224",
+            "id": 79,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "936913097197+52653430976=",
-            "expected_output": "989566528173"
+            "expected_output": "989566528173",
+            "id": 80,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "623690866796+368029869233=",
-            "expected_output": "991720736029"
+            "expected_output": "991720736029",
+            "id": 81,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "352860887460+79374684075=",
-            "expected_output": "432235571535"
+            "expected_output": "432235571535",
+            "id": 82,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "72194749716+960193174801=",
-            "expected_output": "1032387924517"
+            "expected_output": "1032387924517",
+            "id": 83,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "786403083014+675944857940=",
-            "expected_output": "1462347940954"
+            "expected_output": "1462347940954",
+            "id": 84,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "774426524175+721318944497=",
-            "expected_output": "1495745468672"
+            "expected_output": "1495745468672",
+            "id": 85,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "485625085111+960366573672=",
-            "expected_output": "1445991658783"
+            "expected_output": "1445991658783",
+            "id": 86,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "892325753741+494303803604=",
-            "expected_output": "1386629557345"
+            "expected_output": "1386629557345",
+            "id": 87,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "509059009811+621706279712=",
-            "expected_output": "1130765289523"
+            "expected_output": "1130765289523",
+            "id": 88,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "979442624617-98210807692=",
-            "expected_output": "881231816925"
+            "expected_output": "881231816925",
+            "id": 89,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "373490079876-646750175965=",
-            "expected_output": "-273260096089"
+            "expected_output": "-273260096089",
+            "id": 90,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "447310251389-473614891549=",
-            "expected_output": "-26304640160"
+            "expected_output": "-26304640160",
+            "id": 91,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "177202792475-839074306801=",
-            "expected_output": "-661871514326"
+            "expected_output": "-661871514326",
+            "id": 92,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "714637232158-667119914538=",
-            "expected_output": "47517317620"
+            "expected_output": "47517317620",
+            "id": 93,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "239717090420-428074519958=",
-            "expected_output": "-188357429538"
+            "expected_output": "-188357429538",
+            "id": 94,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "861627389147-822542197957=",
-            "expected_output": "39085191190"
+            "expected_output": "39085191190",
+            "id": 95,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "522334417125-308500866990=",
-            "expected_output": "213833550135"
+            "expected_output": "213833550135",
+            "id": 96,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "927561013643-793883892689=",
-            "expected_output": "133677120954"
+            "expected_output": "133677120954",
+            "id": 97,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "599957534944-518310453065=",
-            "expected_output": "81647081879"
+            "expected_output": "81647081879",
+            "id": 98,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "948519956922-198789750913=",
-            "expected_output": "749730206009"
+            "expected_output": "749730206009",
+            "id": 99,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "527653082067-742058336841=",
-            "expected_output": "-214405254774"
+            "expected_output": "-214405254774",
+            "id": 100,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
             "input": "8+1=",
-            "expected_output": "9"
+            "expected_output": "9",
+            "id": 101,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "10+(-3)=",
-            "expected_output": "7"
+            "expected_output": "7",
+            "id": 102,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-6+(-2)=",
-            "expected_output": "-8"
+            "expected_output": "-8",
+            "id": 103,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-1+3=",
-            "expected_output": "2"
+            "expected_output": "2",
+            "id": 104,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-7+(-1)=",
-            "expected_output": "-8"
+            "expected_output": "-8",
+            "id": 105,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-4+(-6)=",
-            "expected_output": "-10"
+            "expected_output": "-10",
+            "id": 106,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "10+7=",
-            "expected_output": "17"
+            "expected_output": "17",
+            "id": 107,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "5+(-5)=",
-            "expected_output": "0"
+            "expected_output": "0",
+            "id": 108,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "2+1=",
-            "expected_output": "3"
+            "expected_output": "3",
+            "id": 109,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-1+(-6)=",
-            "expected_output": "-7"
+            "expected_output": "-7",
+            "id": 110,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "4+10=",
-            "expected_output": "14"
+            "expected_output": "14",
+            "id": 111,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "3+6=",
-            "expected_output": "9"
+            "expected_output": "9",
+            "id": 112,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-8+9=",
-            "expected_output": "1"
+            "expected_output": "1",
+            "id": 113,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "9-(-4)=",
-            "expected_output": "13"
+            "expected_output": "13",
+            "id": 114,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "9-(-6)=",
-            "expected_output": "15"
+            "expected_output": "15",
+            "id": 115,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-5-(-2)=",
-            "expected_output": "-3"
+            "expected_output": "-3",
+            "id": 116,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-1-9=",
-            "expected_output": "-10"
+            "expected_output": "-10",
+            "id": 117,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-6-10=",
-            "expected_output": "-16"
+            "expected_output": "-16",
+            "id": 118,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "5-(-6)=",
-            "expected_output": "11"
+            "expected_output": "11",
+            "id": 119,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-6-(-2)=",
-            "expected_output": "-4"
+            "expected_output": "-4",
+            "id": 120,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "8-(-7)=",
-            "expected_output": "15"
+            "expected_output": "15",
+            "id": 121,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "-8-1=",
-            "expected_output": "-9"
+            "expected_output": "-9",
+            "id": 122,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "1-(-3)=",
-            "expected_output": "4"
+            "expected_output": "4",
+            "id": 123,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "6-(-5)=",
-            "expected_output": "11"
+            "expected_output": "11",
+            "id": 124,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "9-(-2)=",
-            "expected_output": "11"
+            "expected_output": "11",
+            "id": 125,
+            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "input": "0.5+0.24=",
-            "expected_output": "0.7400"
+            "expected_output": "0.7400",
+            "id": 126,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "0.0069+(-0.86)=",
-            "expected_output": "-0.8531"
+            "expected_output": "-0.8531",
+            "id": 127,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-39.0+(-0.07)=",
-            "expected_output": "-39.0700"
+            "expected_output": "-39.0700",
+            "id": 128,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-0.0089+(-22.0)=",
-            "expected_output": "-22.0089"
+            "expected_output": "-22.0089",
+            "id": 129,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-0.0074+(-0.26)=",
-            "expected_output": "-0.2674"
+            "expected_output": "-0.2674",
+            "id": 130,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-0.038+0.0092=",
-            "expected_output": "-0.0288"
+            "expected_output": "-0.0288",
+            "id": 131,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "88.0+(-0.54)=",
-            "expected_output": "87.4600"
+            "expected_output": "87.4600",
+            "id": 132,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "63.0+0.074=",
-            "expected_output": "63.0740"
+            "expected_output": "63.0740",
+            "id": 133,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-0.0069+3.6=",
-            "expected_output": "3.5931"
+            "expected_output": "3.5931",
+            "id": 134,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-16.0+0.08=",
-            "expected_output": "-15.9200"
+            "expected_output": "-15.9200",
+            "id": 135,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "64.0+(-0.83)=",
-            "expected_output": "63.1700"
+            "expected_output": "63.1700",
+            "id": 136,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-0.0067+0.085=",
-            "expected_output": "0.0783"
+            "expected_output": "0.0783",
+            "id": 137,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-0.099+0.84=",
-            "expected_output": "0.7410"
+            "expected_output": "0.7410",
+            "id": 138,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-23.0-(-0.43)=",
-            "expected_output": "-22.5700"
+            "expected_output": "-22.5700",
+            "id": 139,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "0.054-(-0.045)=",
-            "expected_output": "0.0990"
+            "expected_output": "0.0990",
+            "id": 140,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "0.21-0.36=",
-            "expected_output": "-0.1500"
+            "expected_output": "-0.1500",
+            "id": 141,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-23.0-(-2.0)=",
-            "expected_output": "-21.0000"
+            "expected_output": "-21.0000",
+            "id": 142,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-0.06-(-3.1)=",
-            "expected_output": "3.0400"
+            "expected_output": "3.0400",
+            "id": 143,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "0.78-0.79=",
-            "expected_output": "-0.0100"
+            "expected_output": "-0.0100",
+            "id": 144,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-0.39-(-0.19)=",
-            "expected_output": "-0.2000"
+            "expected_output": "-0.2000",
+            "id": 145,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "2.2-(-1.0)=",
-            "expected_output": "3.2000"
+            "expected_output": "3.2000",
+            "id": 146,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "-0.045-(-0.049)=",
-            "expected_output": "0.0040"
+            "expected_output": "0.0040",
+            "id": 147,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "20.0-0.0097=",
-            "expected_output": "19.9903"
+            "expected_output": "19.9903",
+            "id": 148,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "2.9-0.11=",
-            "expected_output": "2.7900"
+            "expected_output": "2.7900",
+            "id": 149,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "0.15-0.032=",
-            "expected_output": "0.1180"
+            "expected_output": "0.1180",
+            "id": 150,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100."
         },
         {
             "input": "78*64=",
-            "expected_output": "4992"
+            "expected_output": "4992",
+            "id": 151,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "62\u00d742=",
-            "expected_output": "2604"
+            "expected_output": "2604",
+            "id": 152,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "37*39=",
-            "expected_output": "1443"
+            "expected_output": "1443",
+            "id": 153,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "61\u00d720=",
-            "expected_output": "1220"
+            "expected_output": "1220",
+            "id": 154,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "11\u00d749=",
-            "expected_output": "539"
+            "expected_output": "539",
+            "id": 155,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "44*38=",
-            "expected_output": "1672"
+            "expected_output": "1672",
+            "id": 156,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "7*8=",
-            "expected_output": "56"
+            "expected_output": "56",
+            "id": 157,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "8\u00d757=",
-            "expected_output": "456"
+            "expected_output": "456",
+            "id": 158,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "20*16=",
-            "expected_output": "320"
+            "expected_output": "320",
+            "id": 159,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "68\u00d763=",
-            "expected_output": "4284"
+            "expected_output": "4284",
+            "id": 160,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "46*78=",
-            "expected_output": "3588"
+            "expected_output": "3588",
+            "id": 161,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "38\u00d742=",
-            "expected_output": "1596"
+            "expected_output": "1596",
+            "id": 162,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "61\u00d772=",
-            "expected_output": "4392"
+            "expected_output": "4392",
+            "id": 163,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "63\u00d737=",
-            "expected_output": "2331"
+            "expected_output": "2331",
+            "id": 164,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "58\u00d731=",
-            "expected_output": "1798"
+            "expected_output": "1798",
+            "id": 165,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "50\u00d789=",
-            "expected_output": "4450"
+            "expected_output": "4450",
+            "id": 166,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "2\u00d789=",
-            "expected_output": "178"
+            "expected_output": "178",
+            "id": 167,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "97*17=",
-            "expected_output": "1649"
+            "expected_output": "1649",
+            "id": 168,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "79*17=",
-            "expected_output": "1343"
+            "expected_output": "1343",
+            "id": 169,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "55\u00d762=",
-            "expected_output": "3410"
+            "expected_output": "3410",
+            "id": 170,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "66\u00d745=",
-            "expected_output": "2970"
+            "expected_output": "2970",
+            "id": 171,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "85\u00d747=",
-            "expected_output": "3995"
+            "expected_output": "3995",
+            "id": 172,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "9\u00d792=",
-            "expected_output": "828"
+            "expected_output": "828",
+            "id": 173,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "28*53=",
-            "expected_output": "1484"
+            "expected_output": "1484",
+            "id": 174,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "69\u00d70=",
-            "expected_output": "0"
+            "expected_output": "0",
+            "id": 175,
+            "class": "Multiply two integers within 100."
         },
         {
             "input": "3.0\u00d76.0=",
-            "expected_output": "18.0000"
+            "expected_output": "18.0000",
+            "id": 176,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.7*1.0=",
-            "expected_output": "0.7000"
+            "expected_output": "0.7000",
+            "id": 177,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.1*1.0=",
-            "expected_output": "0.1000"
+            "expected_output": "0.1000",
+            "id": 178,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.6\u00d74.0=",
-            "expected_output": "2.4000"
+            "expected_output": "2.4000",
+            "id": 179,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "5.0*0.09=",
-            "expected_output": "0.4500"
+            "expected_output": "0.4500",
+            "id": 180,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.3\u00d70.3=",
-            "expected_output": "0.0900"
+            "expected_output": "0.0900",
+            "id": 181,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "3.0\u00d70.3=",
-            "expected_output": "0.9000"
+            "expected_output": "0.9000",
+            "id": 182,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.4*5.0=",
-            "expected_output": "2.0000"
+            "expected_output": "2.0000",
+            "id": 183,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "8.0*1.0=",
-            "expected_output": "8.0000"
+            "expected_output": "8.0000",
+            "id": 184,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.0\u00d70.7=",
-            "expected_output": "0.0000"
+            "expected_output": "0.0000",
+            "id": 185,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.1*3.0=",
-            "expected_output": "0.3000"
+            "expected_output": "0.3000",
+            "id": 186,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "5.0\u00d70.0=",
-            "expected_output": "0.0000"
+            "expected_output": "0.0000",
+            "id": 187,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "4.0\u00d70.0=",
-            "expected_output": "0.0000"
+            "expected_output": "0.0000",
+            "id": 188,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "2.0\u00d76.0=",
-            "expected_output": "12.0000"
+            "expected_output": "12.0000",
+            "id": 189,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "8.0*0.8=",
-            "expected_output": "6.4000"
+            "expected_output": "6.4000",
+            "id": 190,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "3.0*2.0=",
-            "expected_output": "6.0000"
+            "expected_output": "6.0000",
+            "id": 191,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.09*2.0=",
-            "expected_output": "0.1800"
+            "expected_output": "0.1800",
+            "id": 192,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "8.0\u00d72.0=",
-            "expected_output": "16.0000"
+            "expected_output": "16.0000",
+            "id": 193,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.4\u00d70.8=",
-            "expected_output": "0.3200"
+            "expected_output": "0.3200",
+            "id": 194,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "1.0\u00d70.7=",
-            "expected_output": "0.7000"
+            "expected_output": "0.7000",
+            "id": 195,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.0*3.0=",
-            "expected_output": "0.0000"
+            "expected_output": "0.0000",
+            "id": 196,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.9\u00d70.8=",
-            "expected_output": "0.7200"
+            "expected_output": "0.7200",
+            "id": 197,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.6*0.5=",
-            "expected_output": "0.3000"
+            "expected_output": "0.3000",
+            "id": 198,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.6\u00d70.4=",
-            "expected_output": "0.2400"
+            "expected_output": "0.2400",
+            "id": 199,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "0.1\u00d70.08=",
-            "expected_output": "0.0080"
+            "expected_output": "0.0080",
+            "id": 200,
+            "class": "Multiply two decimal numbers within 10."
         },
         {
             "input": "6152\u00d732179=",
-            "expected_output": "197965208"
+            "expected_output": "197965208",
+            "id": 201,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "91684*20008=",
-            "expected_output": "1834413472"
+            "expected_output": "1834413472",
+            "id": 202,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "62195*99536=",
-            "expected_output": "6190641520"
+            "expected_output": "6190641520",
+            "id": 203,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "5655\u00d742805=",
-            "expected_output": "242062275"
+            "expected_output": "242062275",
+            "id": 204,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "4032*84266=",
-            "expected_output": "339760512"
+            "expected_output": "339760512",
+            "id": 205,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "35460\u00d726064=",
-            "expected_output": "924229440"
+            "expected_output": "924229440",
+            "id": 206,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "92978\u00d728845=",
-            "expected_output": "2681950410"
+            "expected_output": "2681950410",
+            "id": 207,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "51677\u00d790778=",
-            "expected_output": "4691134706"
+            "expected_output": "4691134706",
+            "id": 208,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "9025*95266=",
-            "expected_output": "859775650"
+            "expected_output": "859775650",
+            "id": 209,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "61081\u00d744496=",
-            "expected_output": "2717860176"
+            "expected_output": "2717860176",
+            "id": 210,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "38010*88739=",
-            "expected_output": "3372969390"
+            "expected_output": "3372969390",
+            "id": 211,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "90161*91816=",
-            "expected_output": "8278222376"
+            "expected_output": "8278222376",
+            "id": 212,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "45960*59693=",
-            "expected_output": "2743490280"
+            "expected_output": "2743490280",
+            "id": 213,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "68163\u00d781808=",
-            "expected_output": "5576278704"
+            "expected_output": "5576278704",
+            "id": 214,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "41393*30824=",
-            "expected_output": "1275897832"
+            "expected_output": "1275897832",
+            "id": 215,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "56854\u00d724834=",
-            "expected_output": "1411912236"
+            "expected_output": "1411912236",
+            "id": 216,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "52443*53061=",
-            "expected_output": "2782678023"
+            "expected_output": "2782678023",
+            "id": 217,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "71786\u00d721638=",
-            "expected_output": "1553305468"
+            "expected_output": "1553305468",
+            "id": 218,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "11902\u00d740630=",
-            "expected_output": "483578260"
+            "expected_output": "483578260",
+            "id": 219,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "50516\u00d717016=",
-            "expected_output": "859580256"
+            "expected_output": "859580256",
+            "id": 220,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "40588\u00d74621=",
-            "expected_output": "187557148"
+            "expected_output": "187557148",
+            "id": 221,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "88254\u00d726228=",
-            "expected_output": "2314725912"
+            "expected_output": "2314725912",
+            "id": 222,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "98113*35747=",
-            "expected_output": "3507245411"
+            "expected_output": "3507245411",
+            "id": 223,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "28445*80568=",
-            "expected_output": "2291756760"
+            "expected_output": "2291756760",
+            "id": 224,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "37739*66015=",
-            "expected_output": "2491340085"
+            "expected_output": "2491340085",
+            "id": 225,
+            "class": "Multiply two integers within 100,000."
         },
         {
             "input": "16\u00f783=",
-            "expected_output": "0.1928"
+            "expected_output": "0.1928",
+            "id": 226,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "53\u00f730=",
-            "expected_output": "1.7667"
+            "expected_output": "1.7667",
+            "id": 227,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "70\u00f761=",
-            "expected_output": "1.1475"
+            "expected_output": "1.1475",
+            "id": 228,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "50/95=",
-            "expected_output": "0.5263"
+            "expected_output": "0.5263",
+            "id": 229,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "89/34=",
-            "expected_output": "2.6176"
+            "expected_output": "2.6176",
+            "id": 230,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "52\u00f740=",
-            "expected_output": "1.3000"
+            "expected_output": "1.3000",
+            "id": 231,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "59\u00f714=",
-            "expected_output": "4.2143"
+            "expected_output": "4.2143",
+            "id": 232,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "79/79=",
-            "expected_output": "1.0000"
+            "expected_output": "1.0000",
+            "id": 233,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "15\u00f733=",
-            "expected_output": "0.4545"
+            "expected_output": "0.4545",
+            "id": 234,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "28/39=",
-            "expected_output": "0.7179"
+            "expected_output": "0.7179",
+            "id": 235,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "2\u00f73=",
-            "expected_output": "0.6667"
+            "expected_output": "0.6667",
+            "id": 236,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "94/89=",
-            "expected_output": "1.0562"
+            "expected_output": "1.0562",
+            "id": 237,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "82/40=",
-            "expected_output": "2.0500"
+            "expected_output": "2.0500",
+            "id": 238,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "52\u00f742=",
-            "expected_output": "1.2381"
+            "expected_output": "1.2381",
+            "id": 239,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "31\u00f755=",
-            "expected_output": "0.5636"
+            "expected_output": "0.5636",
+            "id": 240,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "85\u00f727=",
-            "expected_output": "3.1481"
+            "expected_output": "3.1481",
+            "id": 241,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "71/22=",
-            "expected_output": "3.2273"
+            "expected_output": "3.2273",
+            "id": 242,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "77\u00f757=",
-            "expected_output": "1.3509"
+            "expected_output": "1.3509",
+            "id": 243,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "33/22=",
-            "expected_output": "1.5000"
+            "expected_output": "1.5000",
+            "id": 244,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "63\u00f74=",
-            "expected_output": "15.7500"
+            "expected_output": "15.7500",
+            "id": 245,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "97\u00f71=",
-            "expected_output": "97.0000"
+            "expected_output": "97.0000",
+            "id": 246,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "98/83=",
-            "expected_output": "1.1807"
+            "expected_output": "1.1807",
+            "id": 247,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "14\u00f785=",
-            "expected_output": "0.1647"
+            "expected_output": "0.1647",
+            "id": 248,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "82/34=",
-            "expected_output": "2.4118"
+            "expected_output": "2.4118",
+            "id": 249,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "50/18=",
-            "expected_output": "2.7778"
+            "expected_output": "2.7778",
+            "id": 250,
+            "class": "Division of two integers within 100."
         },
         {
             "input": "2^3=",
-            "expected_output": "8"
+            "expected_output": "8",
+            "id": 251,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "3^3=",
-            "expected_output": "27"
+            "expected_output": "27",
+            "id": 252,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "4^2=",
-            "expected_output": "16"
+            "expected_output": "16",
+            "id": 253,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "10^3=",
-            "expected_output": "1000"
+            "expected_output": "1000",
+            "id": 254,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "1^3=",
-            "expected_output": "1"
+            "expected_output": "1",
+            "id": 255,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "1^3=",
-            "expected_output": "1"
+            "expected_output": "1",
+            "id": 256,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "7^4=",
-            "expected_output": "2401"
+            "expected_output": "2401",
+            "id": 257,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "2^2=",
-            "expected_output": "4"
+            "expected_output": "4",
+            "id": 258,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "8^4=",
-            "expected_output": "4096"
+            "expected_output": "4096",
+            "id": 259,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "7^4=",
-            "expected_output": "2401"
+            "expected_output": "2401",
+            "id": 260,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "3^2=",
-            "expected_output": "9"
+            "expected_output": "9",
+            "id": 261,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "3^4=",
-            "expected_output": "81"
+            "expected_output": "81",
+            "id": 262,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "1^3=",
-            "expected_output": "1"
+            "expected_output": "1",
+            "id": 263,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "5^2=",
-            "expected_output": "25"
+            "expected_output": "25",
+            "id": 264,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "9^4=",
-            "expected_output": "6561"
+            "expected_output": "6561",
+            "id": 265,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "6^2=",
-            "expected_output": "36"
+            "expected_output": "36",
+            "id": 266,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "3^3=",
-            "expected_output": "27"
+            "expected_output": "27",
+            "id": 267,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "8^4=",
-            "expected_output": "4096"
+            "expected_output": "4096",
+            "id": 268,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "6^3=",
-            "expected_output": "216"
+            "expected_output": "216",
+            "id": 269,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "3^3=",
-            "expected_output": "27"
+            "expected_output": "27",
+            "id": 270,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "3^4=",
-            "expected_output": "81"
+            "expected_output": "81",
+            "id": 271,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "3^4=",
-            "expected_output": "81"
+            "expected_output": "81",
+            "id": 272,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "5^4=",
-            "expected_output": "625"
+            "expected_output": "625",
+            "id": 273,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "6^2=",
-            "expected_output": "36"
+            "expected_output": "36",
+            "id": 274,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "6^3=",
-            "expected_output": "216"
+            "expected_output": "216",
+            "id": 275,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
         },
         {
             "input": "7.3947^2.5384=",
-            "expected_output": "160.5713"
+            "expected_output": "160.5713",
+            "id": 276,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "6.4401^2.9179=",
-            "expected_output": "229.228"
+            "expected_output": "229.228",
+            "id": 277,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "3.0117^3.8748=",
-            "expected_output": "71.6638"
+            "expected_output": "71.6638",
+            "id": 278,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "2.242^3.7342=",
-            "expected_output": "20.3865"
+            "expected_output": "20.3865",
+            "id": 279,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "5.3126^3.8767=",
-            "expected_output": "648.333"
+            "expected_output": "648.333",
+            "id": 280,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "8.8132^2.1955=",
-            "expected_output": "118.8614"
+            "expected_output": "118.8614",
+            "id": 281,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "3.1699^2.0687=",
-            "expected_output": "10.8771"
+            "expected_output": "10.8771",
+            "id": 282,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "7.6455^3.5773=",
-            "expected_output": "1446.1319"
+            "expected_output": "1446.1319",
+            "id": 283,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "0.8723^2.159=",
-            "expected_output": "0.7446"
+            "expected_output": "0.7446",
+            "id": 284,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "4.3651^3.1882=",
-            "expected_output": "109.7563"
+            "expected_output": "109.7563",
+            "id": 285,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "4.8237^3.2066=",
-            "expected_output": "155.3557"
+            "expected_output": "155.3557",
+            "id": 286,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "4.8173^2.3094=",
-            "expected_output": "37.7456"
+            "expected_output": "37.7456",
+            "id": 287,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "3.8519^3.8141=",
-            "expected_output": "171.3259"
+            "expected_output": "171.3259",
+            "id": 288,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "6.3411^3.2906=",
-            "expected_output": "436.1168"
+            "expected_output": "436.1168",
+            "id": 289,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "4.8903^3.4272=",
-            "expected_output": "230.4043"
+            "expected_output": "230.4043",
+            "id": 290,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "6.4981^2.6289=",
-            "expected_output": "137.0043"
+            "expected_output": "137.0043",
+            "id": 291,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "1.1604^2.9258=",
-            "expected_output": "1.5454"
+            "expected_output": "1.5454",
+            "id": 292,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "4.9319^2.3231=",
-            "expected_output": "40.7325"
+            "expected_output": "40.7325",
+            "id": 293,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "5.5507^2.0434=",
-            "expected_output": "33.1895"
+            "expected_output": "33.1895",
+            "id": 294,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "8.7876^2.5821=",
-            "expected_output": "273.6324"
+            "expected_output": "273.6324",
+            "id": 295,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "8.6112^3.7534=",
-            "expected_output": "3233.4638"
+            "expected_output": "3233.4638",
+            "id": 296,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "8.964^2.7688=",
-            "expected_output": "433.7976"
+            "expected_output": "433.7976",
+            "id": 297,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "8.6178^2.9802=",
-            "expected_output": "613.2935"
+            "expected_output": "613.2935",
+            "id": 298,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "2.3797^2.9197=",
-            "expected_output": "12.5699"
+            "expected_output": "12.5699",
+            "id": 299,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "9.2725^3.8687=",
-            "expected_output": "5518.1617"
+            "expected_output": "5518.1617",
+            "id": 300,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "input": "e+e=",
-            "expected_output": "5.4366"
+            "expected_output": "5.4366",
+            "id": 301,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "4+e=",
-            "expected_output": "6.7183"
+            "expected_output": "6.7183",
+            "id": 302,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "e+pi=",
-            "expected_output": "5.8598"
+            "expected_output": "5.8598",
+            "id": 303,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "8-e=",
-            "expected_output": "5.2817"
+            "expected_output": "5.2817",
+            "id": 304,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "7/\u03c0=",
-            "expected_output": "2.2282"
+            "expected_output": "2.2282",
+            "id": 305,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "0*2=",
-            "expected_output": "0.0000"
+            "expected_output": "0.0000",
+            "id": 306,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "\u03c0*4=",
-            "expected_output": "12.5660"
+            "expected_output": "12.5660",
+            "id": 307,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "\u03c0*\u03c0=",
-            "expected_output": "9.8690"
+            "expected_output": "9.8690",
+            "id": 308,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "e*e=",
-            "expected_output": "7.3890"
+            "expected_output": "7.3890",
+            "id": 309,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "e*2=",
-            "expected_output": "5.4366"
+            "expected_output": "5.4366",
+            "id": 310,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "\u03c0+e=",
-            "expected_output": "5.8598"
+            "expected_output": "5.8598",
+            "id": 311,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "e-e=",
-            "expected_output": "0.0000"
+            "expected_output": "0.0000",
+            "id": 312,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "1+e=",
-            "expected_output": "3.7183"
+            "expected_output": "3.7183",
+            "id": 313,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "pi/\u03c0=",
-            "expected_output": "1.0000"
+            "expected_output": "1.0000",
+            "id": 314,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "2+6=",
-            "expected_output": "8.0000"
+            "expected_output": "8.0000",
+            "id": 315,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "e*pi=",
-            "expected_output": "8.5395"
+            "expected_output": "8.5395",
+            "id": 316,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "7*\u03c0=",
-            "expected_output": "21.9905"
+            "expected_output": "21.9905",
+            "id": 317,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "6-5=",
-            "expected_output": "1.0000"
+            "expected_output": "1.0000",
+            "id": 318,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "e-pi=",
-            "expected_output": "-0.4232"
+            "expected_output": "-0.4232",
+            "id": 319,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "pi-\u03c0=",
-            "expected_output": "0.0000"
+            "expected_output": "0.0000",
+            "id": 320,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "3*4=",
-            "expected_output": "12.0000"
+            "expected_output": "12.0000",
+            "id": 321,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "\u03c0-1=",
-            "expected_output": "2.1415"
+            "expected_output": "2.1415",
+            "id": 322,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "e-5=",
-            "expected_output": "-2.2817"
+            "expected_output": "-2.2817",
+            "id": 323,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "e+pi=",
-            "expected_output": "5.8598"
+            "expected_output": "5.8598",
+            "id": 324,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": "e-pi=",
-            "expected_output": "-0.4232"
+            "expected_output": "-0.4232",
+            "id": 325,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
             "input": " ( 44 + 97) * 61 * 65=",
-            "expected_output": "559065.0000"
+            "expected_output": "559065.0000",
+            "id": 326,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 4 * 64) * ( 39 + 12)=",
-            "expected_output": "13056.0000"
+            "expected_output": "13056.0000",
+            "id": 327,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 33 + 26=",
-            "expected_output": "59.0000"
+            "expected_output": "59.0000",
+            "id": 328,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 32 / 15=",
-            "expected_output": "2.1333"
+            "expected_output": "2.1333",
+            "id": 329,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 8 - 90) / 95=",
-            "expected_output": "-0.8632"
+            "expected_output": "-0.8632",
+            "id": 330,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 31 + 55) / ( 19 + 76)=",
-            "expected_output": "0.9053"
+            "expected_output": "0.9053",
+            "id": 331,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 50 * 67=",
-            "expected_output": "3350.0000"
+            "expected_output": "3350.0000",
+            "id": 332,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 11 * 17) + 56=",
-            "expected_output": "243.0000"
+            "expected_output": "243.0000",
+            "id": 333,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 97 - 56) / ( 97 + 56) * 31=",
-            "expected_output": "8.3072"
+            "expected_output": "8.3072",
+            "id": 334,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 0 * ( 95 * 68) + ( 26 / 45)=",
-            "expected_output": "0.5778"
+            "expected_output": "0.5778",
+            "id": 335,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 21 - ( 2 + 31)=",
-            "expected_output": "-12.0000"
+            "expected_output": "-12.0000",
+            "id": 336,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 88 - 42) * ( 33 * 41) - ( 13 - 27)=",
-            "expected_output": "62252.0000"
+            "expected_output": "62252.0000",
+            "id": 337,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 79 + 75) / ( 46 + 51)=",
-            "expected_output": "1.5876"
+            "expected_output": "1.5876",
+            "id": 338,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 2 + 42) + ( 56 + 50)=",
-            "expected_output": "150.0000"
+            "expected_output": "150.0000",
+            "id": 339,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 38 + ( 26 / 67) * 19=",
-            "expected_output": "45.3731"
+            "expected_output": "45.3731",
+            "id": 340,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 75 + ( 35 / 30) + 72=",
-            "expected_output": "148.1667"
+            "expected_output": "148.1667",
+            "id": 341,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 14 + 96) * 93 + ( 72 * 23)=",
-            "expected_output": "11886.0000"
+            "expected_output": "11886.0000",
+            "id": 342,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 21 - 43) / 50 + ( 65 - 37)=",
-            "expected_output": "27.5600"
+            "expected_output": "27.5600",
+            "id": 343,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 86 + 57) / 43=",
-            "expected_output": "3.3256"
+            "expected_output": "3.3256",
+            "id": 344,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 22 * ( 6 - 53)=",
-            "expected_output": "-1034.0000"
+            "expected_output": "-1034.0000",
+            "id": 345,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 24 + 22) * 18 / 79=",
-            "expected_output": "10.4810"
+            "expected_output": "10.4810",
+            "id": 346,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " ( 47 - 99) * 86 * 99=",
-            "expected_output": "-442728.0000"
+            "expected_output": "-442728.0000",
+            "id": 347,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 16 / 51=",
-            "expected_output": "0.3137"
+            "expected_output": "0.3137",
+            "id": 348,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 51 - ( 92 - 77)=",
-            "expected_output": "36.0000"
+            "expected_output": "36.0000",
+            "id": 349,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": " 77 / 81=",
-            "expected_output": "0.9506"
+            "expected_output": "0.9506",
+            "id": 350,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
             "input": "sin(-0.5\u03c0)=",
-            "expected_output": "-1.0000"
+            "expected_output": "-1.0000",
+            "id": 351,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "tan(-0.17\u03c0)=",
-            "expected_output": "-0.5774"
+            "expected_output": "-0.5774",
+            "id": 352,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(5.25\u03c0)=",
-            "expected_output": "-0.7071"
+            "expected_output": "-0.7071",
+            "id": 353,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(-0.75\u03c0)=",
-            "expected_output": "-0.7071"
+            "expected_output": "-0.7071",
+            "id": 354,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(0.75\u03c0)=",
-            "expected_output": "-0.7071"
+            "expected_output": "-0.7071",
+            "id": 355,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "sin(-3.75\u03c0)=",
-            "expected_output": "0.7071"
+            "expected_output": "0.7071",
+            "id": 356,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "tan(2.67\u03c0)=",
-            "expected_output": "-1.7321"
+            "expected_output": "-1.7321",
+            "id": 357,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(-9.75\u03c0)=",
-            "expected_output": "0.7071"
+            "expected_output": "0.7071",
+            "id": 358,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(-7.0\u03c0)=",
-            "expected_output": "-1.0000"
+            "expected_output": "-1.0000",
+            "id": 359,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(-2.0\u03c0)=",
-            "expected_output": "1.0000"
+            "expected_output": "1.0000",
+            "id": 360,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "tan(-5.17\u03c0)=",
-            "expected_output": "-0.5774"
+            "expected_output": "-0.5774",
+            "id": 361,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "sin(-10.0\u03c0)=",
-            "expected_output": "0.0000"
+            "expected_output": "0.0000",
+            "id": 362,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "sin(-1.5\u03c0)=",
-            "expected_output": "1.0000"
+            "expected_output": "1.0000",
+            "id": 363,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "tan(1.0\u03c0)=",
-            "expected_output": "-0.0000"
+            "expected_output": "-0.0000",
+            "id": 364,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "sin(-30\u00b0)=",
-            "expected_output": "-0.5000"
+            "expected_output": "-0.5000",
+            "id": 365,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(-60\u00b0)=",
-            "expected_output": "0.5000"
+            "expected_output": "0.5000",
+            "id": 366,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "sin(7.5\u03c0)=",
-            "expected_output": "-1.0000"
+            "expected_output": "-1.0000",
+            "id": 367,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "sin(7.0\u03c0)=",
-            "expected_output": "0.0000"
+            "expected_output": "0.0000",
+            "id": 368,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "tan(-6.33\u03c0)=",
-            "expected_output": "-1.7321"
+            "expected_output": "-1.7321",
+            "id": 369,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(-300\u00b0)=",
-            "expected_output": "0.5000"
+            "expected_output": "0.5000",
+            "id": 370,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(-3.25\u03c0)=",
-            "expected_output": "-0.7071"
+            "expected_output": "-0.7071",
+            "id": 371,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(-210\u00b0)=",
-            "expected_output": "-0.8660"
+            "expected_output": "-0.8660",
+            "id": 372,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "tan(9.17\u03c0)=",
-            "expected_output": "0.5774"
+            "expected_output": "0.5774",
+            "id": 373,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "cos(7.75\u03c0)=",
-            "expected_output": "0.7071"
+            "expected_output": "0.7071",
+            "id": 374,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "sin(-5.75\u03c0)=",
-            "expected_output": "0.7071"
+            "expected_output": "0.7071",
+            "id": 375,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "input": "log 2(71)=",
-            "expected_output": "6.1497"
+            "expected_output": "6.1497",
+            "id": 376,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 10(725)=",
-            "expected_output": "2.8603"
+            "expected_output": "2.8603",
+            "id": 377,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 10(63)=",
-            "expected_output": "1.7993"
+            "expected_output": "1.7993",
+            "id": 378,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 2(149)=",
-            "expected_output": "7.2192"
+            "expected_output": "7.2192",
+            "id": 379,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 2(876)=",
-            "expected_output": "9.7748"
+            "expected_output": "9.7748",
+            "id": 380,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 2(646)=",
-            "expected_output": "9.3354"
+            "expected_output": "9.3354",
+            "id": 381,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 2(213)=",
-            "expected_output": "7.7347"
+            "expected_output": "7.7347",
+            "id": 382,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 2(102)=",
-            "expected_output": "6.6724"
+            "expected_output": "6.6724",
+            "id": 383,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "ln(695)=",
-            "expected_output": "6.5439"
+            "expected_output": "6.5439",
+            "id": 384,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 10(495)=",
-            "expected_output": "2.6946"
+            "expected_output": "2.6946",
+            "id": 385,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "ln(779)=",
-            "expected_output": "6.6580"
+            "expected_output": "6.6580",
+            "id": 386,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 10(16)=",
-            "expected_output": "1.2041"
+            "expected_output": "1.2041",
+            "id": 387,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 2(432)=",
-            "expected_output": "8.7549"
+            "expected_output": "8.7549",
+            "id": 388,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 2(803)=",
-            "expected_output": "9.6493"
+            "expected_output": "9.6493",
+            "id": 389,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "ln(173)=",
-            "expected_output": "5.1533"
+            "expected_output": "5.1533",
+            "id": 390,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "ln(515)=",
-            "expected_output": "6.2442"
+            "expected_output": "6.2442",
+            "id": 391,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 2(706)=",
-            "expected_output": "9.4635"
+            "expected_output": "9.4635",
+            "id": 392,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 10(812)=",
-            "expected_output": "2.9096"
+            "expected_output": "2.9096",
+            "id": 393,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 10(786)=",
-            "expected_output": "2.8954"
+            "expected_output": "2.8954",
+            "id": 394,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "ln(477)=",
-            "expected_output": "6.1675"
+            "expected_output": "6.1675",
+            "id": 395,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 10(652)=",
-            "expected_output": "2.8142"
+            "expected_output": "2.8142",
+            "id": 396,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "ln(247)=",
-            "expected_output": "5.5094"
+            "expected_output": "5.5094",
+            "id": 397,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 2(480)=",
-            "expected_output": "8.9069"
+            "expected_output": "8.9069",
+            "id": 398,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "log 10(797)=",
-            "expected_output": "2.9015"
+            "expected_output": "2.9015",
+            "id": 399,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         },
         {
             "input": "ln(264)=",
-            "expected_output": "5.5759"
+            "expected_output": "5.5759",
+            "id": 400,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
         }
     ]
 }

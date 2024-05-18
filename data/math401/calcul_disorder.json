@@ -15,11 +15,13 @@
         {
             "id": "41_disorder_01",
             "input": "79 75 + 46 51 + / =",
+            "instructions": "please return the answer to the following reverse Polish notation",
             "expected_output": "1.5876"
         },
         {
             "id": "42_disorder_01",
             "input": "24 22 + 18 * 79 / =",
+            "instructions": "please return the answer to the following reverse Polish notation",
             "expected_output": "10.4810"
         }
     ]
