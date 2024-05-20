@@ -1,0 +1,66 @@
+{
+    "fileName": "Qwen-72B.json",
+    "model": "qwen-72b",
+    "data": [
+        {
+            "id": 391,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\nln(515)=",
+            "expected_output": "6.2442"
+        },
+        {
+            "id": 376,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(71)=",
+            "expected_output": "6.1497"
+        },
+        {
+            "id": 373,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\ntan(9.17\u03c0)=",
+            "expected_output": "0.5774"
+        },
+        {
+            "id": 364,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\ntan(1.0\u03c0)=",
+            "expected_output": "-0.0000"
+        },
+        {
+            "id": 357,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\ntan(2.67\u03c0)=",
+            "expected_output": "-1.7321"
+        },
+        {
+            "id": 346,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
+            "expected_output": "10.4810"
+        },
+        {
+            "id": 338,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\n ( 79 + 75) / ( 46 + 51)=",
+            "expected_output": "1.5876"
+        },
+        {
+            "id": 335,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\n 0 * ( 95 * 68) + ( 26 / 45)=",
+            "expected_output": "0.5778"
+        },
+        {
+            "id": 308,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\n\u03c0*\u03c0=",
+            "expected_output": "9.8690"
+        },
+        {
+            "id": 300,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\n9.2725^3.8687=",
+            "expected_output": "5518.1617"
+        }
+    ]
+}

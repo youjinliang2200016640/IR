@@ -1,0 +1,3996 @@
+{
+    "fileName": "Qwen1.5-72B-Chat.json",
+    "model": "qwen1.5-72b-chat",
+    "data": [
+        {
+            "id": 0,
+            "class": "Euler Equation.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne^(i\u03c0)+1=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 722356600
+        },
+        {
+            "id": 1,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n1+1=",
+            "actual_output": "2.",
+            "expected_output": "2",
+            "is_correct": -1,
+            "time": 746141600
+        },
+        {
+            "id": 2,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5+9=",
+            "actual_output": "14",
+            "expected_output": "14",
+            "is_correct": -1,
+            "time": 747735500
+        },
+        {
+            "id": 3,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4+3=",
+            "actual_output": "7",
+            "expected_output": "7",
+            "is_correct": -1,
+            "time": 691152800
+        },
+        {
+            "id": 4,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5+2=",
+            "actual_output": "7",
+            "expected_output": "7",
+            "is_correct": -1,
+            "time": 729845000
+        },
+        {
+            "id": 5,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9+2=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 770640700
+        },
+        {
+            "id": 6,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6+2=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 727049700
+        },
+        {
+            "id": 7,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0+8=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 761655100
+        },
+        {
+            "id": 8,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0+10=",
+            "actual_output": "10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 761675700
+        },
+        {
+            "id": 9,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9+3=",
+            "actual_output": "12",
+            "expected_output": "12",
+            "is_correct": -1,
+            "time": 730262300
+        },
+        {
+            "id": 10,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6+6=",
+            "actual_output": "12",
+            "expected_output": "12",
+            "is_correct": -1,
+            "time": 773107100
+        },
+        {
+            "id": 11,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5+6=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 760063400
+        },
+        {
+            "id": 12,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5+4=",
+            "actual_output": "9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 6274937200
+        },
+        {
+            "id": 13,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5+0=",
+            "actual_output": "5",
+            "expected_output": "5",
+            "is_correct": -1,
+            "time": 873486700
+        },
+        {
+            "id": 14,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5-1=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 734008100
+        },
+        {
+            "id": 15,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2-2=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 735212900
+        },
+        {
+            "id": 16,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n10-2=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 739611900
+        },
+        {
+            "id": 17,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4-10=",
+            "actual_output": "4 - 10 = -6",
+            "expected_output": "-6",
+            "is_correct": -1,
+            "time": 990553500
+        },
+        {
+            "id": 18,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2-8=",
+            "actual_output": "-6",
+            "expected_output": "-6",
+            "is_correct": -1,
+            "time": 763731100
+        },
+        {
+            "id": 19,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n10-0=",
+            "actual_output": "10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 782747900
+        },
+        {
+            "id": 20,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n10-6=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 767310900
+        },
+        {
+            "id": 21,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0-5=",
+            "actual_output": "0-5 = -5",
+            "expected_output": "-5",
+            "is_correct": -1,
+            "time": 943755500
+        },
+        {
+            "id": 22,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9-5=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 728751300
+        },
+        {
+            "id": 23,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n10-4=",
+            "actual_output": "6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 735057700
+        },
+        {
+            "id": 24,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2-3=",
+            "actual_output": "2 - 3 = -1",
+            "expected_output": "-1",
+            "is_correct": -1,
+            "time": 6412884300
+        },
+        {
+            "id": 25,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9-1=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 721351000
+        },
+        {
+            "id": 26,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n65+82=",
+            "actual_output": "147",
+            "expected_output": "147",
+            "is_correct": -1,
+            "time": 844776900
+        },
+        {
+            "id": 27,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n57+70=",
+            "actual_output": "127",
+            "expected_output": "127",
+            "is_correct": -1,
+            "time": 809985900
+        },
+        {
+            "id": 28,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n53+27=",
+            "actual_output": "80",
+            "expected_output": "80",
+            "is_correct": -1,
+            "time": 772890500
+        },
+        {
+            "id": 29,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8+56=",
+            "actual_output": "64",
+            "expected_output": "64",
+            "is_correct": -1,
+            "time": 737996400
+        },
+        {
+            "id": 30,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n21+97=",
+            "actual_output": "The correct answer is 118.",
+            "expected_output": "118",
+            "is_correct": -1,
+            "time": 1081899100
+        },
+        {
+            "id": 31,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n28+34=",
+            "actual_output": "62",
+            "expected_output": "62",
+            "is_correct": -1,
+            "time": 774584700
+        },
+        {
+            "id": 32,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n39+46=",
+            "actual_output": "The correct answer is 85.",
+            "expected_output": "85",
+            "is_correct": -1,
+            "time": 1052645200
+        },
+        {
+            "id": 33,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n34+61=",
+            "actual_output": "95",
+            "expected_output": "95",
+            "is_correct": -1,
+            "time": 784871700
+        },
+        {
+            "id": 34,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2+4=",
+            "actual_output": "6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 723072500
+        },
+        {
+            "id": 35,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n69+6=",
+            "actual_output": "75",
+            "expected_output": "75",
+            "is_correct": -1,
+            "time": 783600900
+        },
+        {
+            "id": 36,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n16+73=",
+            "actual_output": "The correct answer is 89.",
+            "expected_output": "89",
+            "is_correct": -1,
+            "time": 6505071400
+        },
+        {
+            "id": 37,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n16+59=",
+            "actual_output": "75",
+            "expected_output": "75",
+            "is_correct": -1,
+            "time": 785593700
+        },
+        {
+            "id": 38,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n26+10=",
+            "actual_output": "36",
+            "expected_output": "36",
+            "is_correct": -1,
+            "time": 865099500
+        },
+        {
+            "id": 39,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n97-82=",
+            "actual_output": "15",
+            "expected_output": "15",
+            "is_correct": -1,
+            "time": 744901700
+        },
+        {
+            "id": 40,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n91-12=",
+            "actual_output": "91 - 12 = 79",
+            "expected_output": "79",
+            "is_correct": -1,
+            "time": 1964895600
+        },
+        {
+            "id": 41,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n71-88=",
+            "actual_output": "-17",
+            "expected_output": "-17",
+            "is_correct": -1,
+            "time": 820140400
+        },
+        {
+            "id": 42,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n99-93=",
+            "actual_output": "6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 775316900
+        },
+        {
+            "id": 43,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9-71=",
+            "actual_output": "-62",
+            "expected_output": "-62",
+            "is_correct": -1,
+            "time": 841637000
+        },
+        {
+            "id": 44,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n15-5=",
+            "actual_output": "10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 822722900
+        },
+        {
+            "id": 45,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9-23=",
+            "actual_output": "-14",
+            "expected_output": "-14",
+            "is_correct": -1,
+            "time": 819673000
+        },
+        {
+            "id": 46,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n68-49=",
+            "actual_output": "19",
+            "expected_output": "19",
+            "is_correct": -1,
+            "time": 767910500
+        },
+        {
+            "id": 47,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n54-3=",
+            "actual_output": "51",
+            "expected_output": "51",
+            "is_correct": -1,
+            "time": 772795000
+        },
+        {
+            "id": 48,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n7-7=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 6239479000
+        },
+        {
+            "id": 49,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n60-85=",
+            "actual_output": "-25",
+            "expected_output": "-25",
+            "is_correct": -1,
+            "time": 776675500
+        },
+        {
+            "id": 50,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n79-18=",
+            "actual_output": "61",
+            "expected_output": "61",
+            "is_correct": -1,
+            "time": 795562900
+        },
+        {
+            "id": 51,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n184+44=",
+            "actual_output": "228",
+            "expected_output": "228",
+            "is_correct": -1,
+            "time": 869283900
+        },
+        {
+            "id": 52,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n459+315=",
+            "actual_output": "The correct answer is 774.",
+            "expected_output": "774",
+            "is_correct": -1,
+            "time": 1133904200
+        },
+        {
+            "id": 53,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n461+822=",
+            "actual_output": "The correct answer is 1283.",
+            "expected_output": "1283",
+            "is_correct": -1,
+            "time": 1086281200
+        },
+        {
+            "id": 54,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n64+185=",
+            "actual_output": "The correct answer is 249.",
+            "expected_output": "249",
+            "is_correct": -1,
+            "time": 1085146900
+        },
+        {
+            "id": 55,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n116+16=",
+            "actual_output": "132",
+            "expected_output": "132",
+            "is_correct": -1,
+            "time": 827074400
+        },
+        {
+            "id": 56,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n243+281=",
+            "actual_output": "524",
+            "expected_output": "524",
+            "is_correct": -1,
+            "time": 794757000
+        },
+        {
+            "id": 57,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n501+515=",
+            "actual_output": "1016",
+            "expected_output": "1016",
+            "is_correct": -1,
+            "time": 903092900
+        },
+        {
+            "id": 58,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n636+766=",
+            "actual_output": "1402",
+            "expected_output": "1402",
+            "is_correct": -1,
+            "time": 841924600
+        },
+        {
+            "id": 59,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n870+97=",
+            "actual_output": "870 + 97 = 967",
+            "expected_output": "967",
+            "is_correct": -1,
+            "time": 1108031600
+        },
+        {
+            "id": 60,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n672+483=",
+            "actual_output": "1155",
+            "expected_output": "1155",
+            "is_correct": -1,
+            "time": 6283857500
+        },
+        {
+            "id": 61,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n701+70=",
+            "actual_output": "771",
+            "expected_output": "771",
+            "is_correct": -1,
+            "time": 812460200
+        },
+        {
+            "id": 62,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n13+934=",
+            "actual_output": "1047",
+            "expected_output": "947",
+            "is_correct": -1,
+            "time": 862681000
+        },
+        {
+            "id": 63,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n345+502=",
+            "actual_output": "847",
+            "expected_output": "847",
+            "is_correct": -1,
+            "time": 794785900
+        },
+        {
+            "id": 64,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n35-846=",
+            "actual_output": "-811",
+            "expected_output": "-811",
+            "is_correct": -1,
+            "time": 847718300
+        },
+        {
+            "id": 65,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n721-847=",
+            "actual_output": "The correct answer is:\n\n721 - 847 = -126",
+            "expected_output": "-126",
+            "is_correct": -1,
+            "time": 1428150300
+        },
+        {
+            "id": 66,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n945-127=",
+            "actual_output": "818",
+            "expected_output": "818",
+            "is_correct": -1,
+            "time": 794861600
+        },
+        {
+            "id": 67,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n420-6=",
+            "actual_output": "414",
+            "expected_output": "414",
+            "is_correct": -1,
+            "time": 811483600
+        },
+        {
+            "id": 68,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n647-516=",
+            "actual_output": "131",
+            "expected_output": "131",
+            "is_correct": -1,
+            "time": 808957100
+        },
+        {
+            "id": 69,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n58-892=",
+            "actual_output": "-834",
+            "expected_output": "-834",
+            "is_correct": -1,
+            "time": 854169900
+        },
+        {
+            "id": 70,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n311-221=",
+            "actual_output": "80",
+            "expected_output": "90",
+            "is_correct": -1,
+            "time": 790671200
+        },
+        {
+            "id": 71,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n700-64=",
+            "actual_output": "636",
+            "expected_output": "636",
+            "is_correct": -1,
+            "time": 800050400
+        },
+        {
+            "id": 72,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n479-7=",
+            "actual_output": "472",
+            "expected_output": "472",
+            "is_correct": -1,
+            "time": 6330289000
+        },
+        {
+            "id": 73,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n408-702=",
+            "actual_output": "408 - 702 = -294",
+            "expected_output": "-294",
+            "is_correct": -1,
+            "time": 1254410500
+        },
+        {
+            "id": 74,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n585-983=",
+            "actual_output": "-398",
+            "expected_output": "-398",
+            "is_correct": -1,
+            "time": 854229200
+        },
+        {
+            "id": 75,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n681-831=",
+            "actual_output": "681 - 831 = -150",
+            "expected_output": "-150",
+            "is_correct": -1,
+            "time": 1183352500
+        },
+        {
+            "id": 76,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n221034337578+352470528397=",
+            "actual_output": "The correct answer is:\n\n573504865975",
+            "expected_output": "573504865975",
+            "is_correct": -1,
+            "time": 1361498400
+        },
+        {
+            "id": 77,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n946195468138+987210728275=",
+            "actual_output": "1933406196413",
+            "expected_output": "1933406196413",
+            "is_correct": -1,
+            "time": 1659937900
+        },
+        {
+            "id": 78,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n678420482144+26140223017=",
+            "actual_output": "The correct answer is:\n\n939822712321",
+            "expected_output": "704560705161",
+            "is_correct": -1,
+            "time": 1368090300
+        },
+        {
+            "id": 79,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n234319923293+171632577931=",
+            "actual_output": "The correct answer is:\n\n405952501224",
+            "expected_output": "405952501224",
+            "is_correct": -1,
+            "time": 1392695300
+        },
+        {
+            "id": 80,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n936913097197+52653430976=",
+            "actual_output": "989566529963",
+            "expected_output": "989566528173",
+            "is_correct": -1,
+            "time": 1142851000
+        },
+        {
+            "id": 81,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n623690866796+368029869233=",
+            "actual_output": "991720735929",
+            "expected_output": "991720736029",
+            "is_correct": -1,
+            "time": 1194872900
+        },
+        {
+            "id": 82,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n352860887460+79374684075=",
+            "actual_output": "The correct answer is:\n\n352860887460 + 79374684075 = 432235571535",
+            "expected_output": "432235571535",
+            "is_correct": -1,
+            "time": 2378880300
+        },
+        {
+            "id": 83,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n72194749716+960193174801=",
+            "actual_output": "1032387924567",
+            "expected_output": "1032387924517",
+            "is_correct": -1,
+            "time": 1201088000
+        },
+        {
+            "id": 84,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n786403083014+675944857940=",
+            "actual_output": "1462347941154",
+            "expected_output": "1462347940954",
+            "is_correct": -1,
+            "time": 6639366800
+        },
+        {
+            "id": 85,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n774426524175+721318944497=",
+            "actual_output": "1495745468672",
+            "expected_output": "1495745468672",
+            "is_correct": -1,
+            "time": 1373074700
+        },
+        {
+            "id": 86,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n485625085111+960366573672=",
+            "actual_output": "The correct answer is:\n\n48,562,508,5111 + 96,036,657,3672 = 144,599,165,8783",
+            "expected_output": "1445991658783",
+            "is_correct": -1,
+            "time": 2835541700
+        },
+        {
+            "id": 87,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n892325753741+494303803604=",
+            "actual_output": "1386629557345",
+            "expected_output": "1386629557345",
+            "is_correct": -1,
+            "time": 1194412800
+        },
+        {
+            "id": 88,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n509059009811+621706279712=",
+            "actual_output": "1130765389523",
+            "expected_output": "1130765289523",
+            "is_correct": -1,
+            "time": 1188638000
+        },
+        {
+            "id": 89,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n979442624617-98210807692=",
+            "actual_output": "881231716925",
+            "expected_output": "881231816925",
+            "is_correct": -1,
+            "time": 1151624900
+        },
+        {
+            "id": 90,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n373490079876-646750175965=",
+            "actual_output": "-273260100089",
+            "expected_output": "-273260096089",
+            "is_correct": -1,
+            "time": 1144100000
+        },
+        {
+            "id": 91,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n447310251389-473614891549=",
+            "actual_output": "-263034640160",
+            "expected_output": "-26304640160",
+            "is_correct": -1,
+            "time": 1189632700
+        },
+        {
+            "id": 92,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n177202792475-839074306801=",
+            "actual_output": "-661871514326",
+            "expected_output": "-661871514326",
+            "is_correct": -1,
+            "time": 1374048600
+        },
+        {
+            "id": 93,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n714637232158-667119914538=",
+            "actual_output": "475173286770",
+            "expected_output": "47517317620",
+            "is_correct": -1,
+            "time": 1113540600
+        },
+        {
+            "id": 94,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n239717090420-428074519958=",
+            "actual_output": "-188357519538",
+            "expected_output": "-188357429538",
+            "is_correct": -1,
+            "time": 1146181600
+        },
+        {
+            "id": 95,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n861627389147-822542197957=",
+            "actual_output": "The correct answer is:\n\n390851191190",
+            "expected_output": "39085191190",
+            "is_correct": -1,
+            "time": 1431694500
+        },
+        {
+            "id": 96,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n522334417125-308500866990=",
+            "actual_output": "213833540135",
+            "expected_output": "213833550135",
+            "is_correct": -1,
+            "time": 6651142600
+        },
+        {
+            "id": 97,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n927561013643-793883892689=",
+            "actual_output": "133677111954",
+            "expected_output": "133677120954",
+            "is_correct": -1,
+            "time": 1132008400
+        },
+        {
+            "id": 98,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n599957534944-518310453065=",
+            "actual_output": "816470891289",
+            "expected_output": "81647081879",
+            "is_correct": -1,
+            "time": 1186839600
+        },
+        {
+            "id": 99,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n948519956922-198789750913=",
+            "actual_output": "749730205909",
+            "expected_output": "749730206009",
+            "is_correct": -1,
+            "time": 1175666900
+        },
+        {
+            "id": 100,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n527653082067-742058336841=",
+            "actual_output": "-214405254774",
+            "expected_output": "-214405254774",
+            "is_correct": -1,
+            "time": 1222521700
+        },
+        {
+            "id": 101,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8+1=",
+            "actual_output": "9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 726446000
+        },
+        {
+            "id": 102,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n10+(-3)=",
+            "actual_output": "7",
+            "expected_output": "7",
+            "is_correct": -1,
+            "time": 740360600
+        },
+        {
+            "id": 103,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-6+(-2)=",
+            "actual_output": "-8",
+            "expected_output": "-8",
+            "is_correct": -1,
+            "time": 768548500
+        },
+        {
+            "id": 104,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-1+3=",
+            "actual_output": "2",
+            "expected_output": "2",
+            "is_correct": -1,
+            "time": 721819700
+        },
+        {
+            "id": 105,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-7+(-1)=",
+            "actual_output": "-8",
+            "expected_output": "-8",
+            "is_correct": -1,
+            "time": 761118400
+        },
+        {
+            "id": 106,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-4+(-6)=",
+            "actual_output": "-10",
+            "expected_output": "-10",
+            "is_correct": -1,
+            "time": 821429400
+        },
+        {
+            "id": 107,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n10+7=",
+            "actual_output": "17",
+            "expected_output": "17",
+            "is_correct": -1,
+            "time": 819361100
+        },
+        {
+            "id": 108,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5+(-5)=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 6234791300
+        },
+        {
+            "id": 109,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2+1=",
+            "actual_output": "3",
+            "expected_output": "3",
+            "is_correct": -1,
+            "time": 764442900
+        },
+        {
+            "id": 110,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-1+(-6)=",
+            "actual_output": "-7",
+            "expected_output": "-7",
+            "is_correct": -1,
+            "time": 791298900
+        },
+        {
+            "id": 111,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4+10=",
+            "actual_output": "14",
+            "expected_output": "14",
+            "is_correct": -1,
+            "time": 810733600
+        },
+        {
+            "id": 112,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3+6=",
+            "actual_output": "9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 718020800
+        },
+        {
+            "id": 113,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-8+9=",
+            "actual_output": "1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 751843000
+        },
+        {
+            "id": 114,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9-(-4)=",
+            "actual_output": "13",
+            "expected_output": "13",
+            "is_correct": -1,
+            "time": 759095600
+        },
+        {
+            "id": 115,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9-(-6)=",
+            "actual_output": "15",
+            "expected_output": "15",
+            "is_correct": -1,
+            "time": 775291500
+        },
+        {
+            "id": 116,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-5-(-2)=",
+            "actual_output": "-5-(-2) = -5 + 2 = -3",
+            "expected_output": "-3",
+            "is_correct": -1,
+            "time": 1248233300
+        },
+        {
+            "id": 117,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-1-9=",
+            "actual_output": "-1-9 = -10",
+            "expected_output": "-10",
+            "is_correct": -1,
+            "time": 992049300
+        },
+        {
+            "id": 118,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-6-10=",
+            "actual_output": "-16",
+            "expected_output": "-16",
+            "is_correct": -1,
+            "time": 789712900
+        },
+        {
+            "id": 119,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5-(-6)=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 768168800
+        },
+        {
+            "id": 120,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-6-(-2)=",
+            "actual_output": "-6 - (-2) = -6 + 2 = -4",
+            "expected_output": "-4",
+            "is_correct": -1,
+            "time": 6708098800
+        },
+        {
+            "id": 121,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8-(-7)=",
+            "actual_output": "15",
+            "expected_output": "15",
+            "is_correct": -1,
+            "time": 761534200
+        },
+        {
+            "id": 122,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-8-1=",
+            "actual_output": "-9",
+            "expected_output": "-9",
+            "is_correct": -1,
+            "time": 761584000
+        },
+        {
+            "id": 123,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n1-(-3)=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 726342200
+        },
+        {
+            "id": 124,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6-(-5)=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 777901000
+        },
+        {
+            "id": 125,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9-(-2)=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 771556200
+        },
+        {
+            "id": 126,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.5+0.24=",
+            "actual_output": "0.74",
+            "expected_output": "0.7400",
+            "is_correct": -1,
+            "time": 864907100
+        },
+        {
+            "id": 127,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.0069+(-0.86)=",
+            "actual_output": "0.0069 + (-0.86) = -0.8531",
+            "expected_output": "-0.8531",
+            "is_correct": -1,
+            "time": 1446709800
+        },
+        {
+            "id": 128,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-39.0+(-0.07)=",
+            "actual_output": "-39.0 + (-0.07) = -39.07",
+            "expected_output": "-39.0700",
+            "is_correct": -1,
+            "time": 1410493100
+        },
+        {
+            "id": 129,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-0.0089+(-22.0)=",
+            "actual_output": "The correct answer is -22.0089.",
+            "expected_output": "-22.0089",
+            "is_correct": -1,
+            "time": 1209687900
+        },
+        {
+            "id": 130,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-0.0074+(-0.26)=",
+            "actual_output": "-0.2674",
+            "expected_output": "-0.2674",
+            "is_correct": -1,
+            "time": 975970300
+        },
+        {
+            "id": 131,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-0.038+0.0092=",
+            "actual_output": "-0.0288",
+            "expected_output": "-0.0288",
+            "is_correct": -1,
+            "time": 958094500
+        },
+        {
+            "id": 132,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n88.0+(-0.54)=",
+            "actual_output": "87.46",
+            "expected_output": "87.4600",
+            "is_correct": -1,
+            "time": 6379616900
+        },
+        {
+            "id": 133,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n63.0+0.074=",
+            "actual_output": "63.0 + 0.074 = 63.074",
+            "expected_output": "63.0740",
+            "is_correct": -1,
+            "time": 1429101600
+        },
+        {
+            "id": 134,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-0.0069+3.6=",
+            "actual_output": "3.5931",
+            "expected_output": "3.5931",
+            "is_correct": -1,
+            "time": 924670200
+        },
+        {
+            "id": 135,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-16.0+0.08=",
+            "actual_output": "-15.92",
+            "expected_output": "-15.9200",
+            "is_correct": -1,
+            "time": 979375800
+        },
+        {
+            "id": 136,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n64.0+(-0.83)=",
+            "actual_output": "63.17",
+            "expected_output": "63.1700",
+            "is_correct": -1,
+            "time": 929390000
+        },
+        {
+            "id": 137,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-0.0067+0.085=",
+            "actual_output": "0.0783",
+            "expected_output": "0.0783",
+            "is_correct": -1,
+            "time": 923503300
+        },
+        {
+            "id": 138,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-0.099+0.84=",
+            "actual_output": "0.741",
+            "expected_output": "0.7410",
+            "is_correct": -1,
+            "time": 906948600
+        },
+        {
+            "id": 139,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-23.0-(-0.43)=",
+            "actual_output": "-23.0 - (-0.43) = -22.57",
+            "expected_output": "-22.5700",
+            "is_correct": -1,
+            "time": 1392552300
+        },
+        {
+            "id": 140,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.054-(-0.045)=",
+            "actual_output": "0.054 - (-0.045) = 0.099",
+            "expected_output": "0.0990",
+            "is_correct": -1,
+            "time": 1449127800
+        },
+        {
+            "id": 141,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.21-0.36=",
+            "actual_output": "-0.15",
+            "expected_output": "-0.1500",
+            "is_correct": -1,
+            "time": 930553100
+        },
+        {
+            "id": 142,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-23.0-(-2.0)=",
+            "actual_output": "-23.0 - (-2.0) = -21.0",
+            "expected_output": "-21.0000",
+            "is_correct": -1,
+            "time": 1392010900
+        },
+        {
+            "id": 143,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-0.06-(-3.1)=",
+            "actual_output": "The correct answer is:\n\n-0.06 - (-3.1) = 3.04",
+            "expected_output": "3.0400",
+            "is_correct": -1,
+            "time": 1462542500
+        },
+        {
+            "id": 144,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.78-0.79=",
+            "actual_output": "0.78 - 0.79 = -0.01",
+            "expected_output": "-0.0100",
+            "is_correct": -1,
+            "time": 6808873700
+        },
+        {
+            "id": 145,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-0.39-(-0.19)=",
+            "actual_output": "-0.39 - (-0.19) = -0.39 + 0.19 = -0.20",
+            "expected_output": "-0.2000",
+            "is_correct": -1,
+            "time": 1789596900
+        },
+        {
+            "id": 146,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2.2-(-1.0)=",
+            "actual_output": "2.2 - (-1.0) = 3.2",
+            "expected_output": "3.2000",
+            "is_correct": -1,
+            "time": 1231297300
+        },
+        {
+            "id": 147,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n-0.045-(-0.049)=",
+            "actual_output": "0.004",
+            "expected_output": "0.0040",
+            "is_correct": -1,
+            "time": 883009800
+        },
+        {
+            "id": 148,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n20.0-0.0097=",
+            "actual_output": "19.9903",
+            "expected_output": "19.9903",
+            "is_correct": -1,
+            "time": 974020700
+        },
+        {
+            "id": 149,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2.9-0.11=",
+            "actual_output": "2.79",
+            "expected_output": "2.7900",
+            "is_correct": -1,
+            "time": 850334600
+        },
+        {
+            "id": 150,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.15-0.032=",
+            "actual_output": "0.118",
+            "expected_output": "0.1180",
+            "is_correct": -1,
+            "time": 866471700
+        },
+        {
+            "id": 151,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n78*64=",
+            "actual_output": "5072",
+            "expected_output": "4992",
+            "is_correct": -1,
+            "time": 995699200
+        },
+        {
+            "id": 152,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n62\u00d742=",
+            "actual_output": "62\u00d742=2604",
+            "expected_output": "2604",
+            "is_correct": -1,
+            "time": 1014173700
+        },
+        {
+            "id": 153,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n37*39=",
+            "actual_output": "1443",
+            "expected_output": "1443",
+            "is_correct": -1,
+            "time": 823856500
+        },
+        {
+            "id": 154,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n61\u00d720=",
+            "actual_output": "1220",
+            "expected_output": "1220",
+            "is_correct": -1,
+            "time": 855995100
+        },
+        {
+            "id": 155,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n11\u00d749=",
+            "actual_output": "539",
+            "expected_output": "539",
+            "is_correct": -1,
+            "time": 799969700
+        },
+        {
+            "id": 156,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n44*38=",
+            "actual_output": "1672",
+            "expected_output": "1672",
+            "is_correct": -1,
+            "time": 6296491100
+        },
+        {
+            "id": 157,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n7*8=",
+            "actual_output": "56",
+            "expected_output": "56",
+            "is_correct": -1,
+            "time": 790996300
+        },
+        {
+            "id": 158,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8\u00d757=",
+            "actual_output": "456",
+            "expected_output": "456",
+            "is_correct": -1,
+            "time": 783156400
+        },
+        {
+            "id": 159,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n20*16=",
+            "actual_output": "320",
+            "expected_output": "320",
+            "is_correct": -1,
+            "time": 798737100
+        },
+        {
+            "id": 160,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n68\u00d763=",
+            "actual_output": "4284",
+            "expected_output": "4284",
+            "is_correct": -1,
+            "time": 1155523000
+        },
+        {
+            "id": 161,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n46*78=",
+            "actual_output": "3,588",
+            "expected_output": "3588",
+            "is_correct": -1,
+            "time": 1219377600
+        },
+        {
+            "id": 162,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n38\u00d742=",
+            "actual_output": "1596",
+            "expected_output": "1596",
+            "is_correct": -1,
+            "time": 1167955200
+        },
+        {
+            "id": 163,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n61\u00d772=",
+            "actual_output": "4492",
+            "expected_output": "4392",
+            "is_correct": -1,
+            "time": 1179701400
+        },
+        {
+            "id": 164,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n63\u00d737=",
+            "actual_output": "2331",
+            "expected_output": "2331",
+            "is_correct": -1,
+            "time": 1173622000
+        },
+        {
+            "id": 165,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n58\u00d731=",
+            "actual_output": "1818",
+            "expected_output": "1798",
+            "is_correct": -1,
+            "time": 1178445200
+        },
+        {
+            "id": 166,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n50\u00d789=",
+            "actual_output": "4450",
+            "expected_output": "4450",
+            "is_correct": -1,
+            "time": 1158138400
+        },
+        {
+            "id": 167,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2\u00d789=",
+            "actual_output": "178",
+            "expected_output": "178",
+            "is_correct": -1,
+            "time": 1142118000
+        },
+        {
+            "id": 168,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n97*17=",
+            "actual_output": "1649",
+            "expected_output": "1649",
+            "is_correct": -1,
+            "time": 6992124500
+        },
+        {
+            "id": 169,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n79*17=",
+            "actual_output": "1343",
+            "expected_output": "1343",
+            "is_correct": -1,
+            "time": 1198795500
+        },
+        {
+            "id": 170,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n55\u00d762=",
+            "actual_output": "3410",
+            "expected_output": "3410",
+            "is_correct": -1,
+            "time": 1202983200
+        },
+        {
+            "id": 171,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n66\u00d745=",
+            "actual_output": "66\u00d745=2970",
+            "expected_output": "2970",
+            "is_correct": -1,
+            "time": 1385205500
+        },
+        {
+            "id": 172,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n85\u00d747=",
+            "actual_output": "3,995",
+            "expected_output": "3995",
+            "is_correct": -1,
+            "time": 1222589900
+        },
+        {
+            "id": 173,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9\u00d792=",
+            "actual_output": "828",
+            "expected_output": "828",
+            "is_correct": -1,
+            "time": 1194575400
+        },
+        {
+            "id": 174,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n28*53=",
+            "actual_output": "1484",
+            "expected_output": "1484",
+            "is_correct": -1,
+            "time": 1154061300
+        },
+        {
+            "id": 175,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n69\u00d70=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 1037956700
+        },
+        {
+            "id": 176,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3.0\u00d76.0=",
+            "actual_output": "18.0",
+            "expected_output": "18.0000",
+            "is_correct": -1,
+            "time": 1241345800
+        },
+        {
+            "id": 177,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.7*1.0=",
+            "actual_output": "0.7*1.0 = 0.7",
+            "expected_output": "0.7000",
+            "is_correct": -1,
+            "time": 1537344300
+        },
+        {
+            "id": 178,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.1*1.0=",
+            "actual_output": "0.1*1.0 = 0.1",
+            "expected_output": "0.1000",
+            "is_correct": -1,
+            "time": 1496667600
+        },
+        {
+            "id": 179,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.6\u00d74.0=",
+            "actual_output": "2.4",
+            "expected_output": "2.4000",
+            "is_correct": -1,
+            "time": 1111325400
+        },
+        {
+            "id": 180,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5.0*0.09=",
+            "actual_output": "0.45",
+            "expected_output": "0.4500",
+            "is_correct": -1,
+            "time": 6947849900
+        },
+        {
+            "id": 181,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.3\u00d70.3=",
+            "actual_output": "0.09",
+            "expected_output": "0.0900",
+            "is_correct": -1,
+            "time": 1194025500
+        },
+        {
+            "id": 182,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3.0\u00d70.3=",
+            "actual_output": "0.9",
+            "expected_output": "0.9000",
+            "is_correct": -1,
+            "time": 1183678700
+        },
+        {
+            "id": 183,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.4*5.0=",
+            "actual_output": "2.0",
+            "expected_output": "2.0000",
+            "is_correct": -1,
+            "time": 1153279600
+        },
+        {
+            "id": 184,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8.0*1.0=",
+            "actual_output": "8.0",
+            "expected_output": "8.0000",
+            "is_correct": -1,
+            "time": 1177403900
+        },
+        {
+            "id": 185,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.0\u00d70.7=",
+            "actual_output": "0.0\u00d70.7=0.0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 1486041500
+        },
+        {
+            "id": 186,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.1*3.0=",
+            "actual_output": "0.3",
+            "expected_output": "0.3000",
+            "is_correct": -1,
+            "time": 1151034200
+        },
+        {
+            "id": 187,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5.0\u00d70.0=",
+            "actual_output": "0.0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 1201091400
+        },
+        {
+            "id": 188,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4.0\u00d70.0=",
+            "actual_output": "0.0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 1100429800
+        },
+        {
+            "id": 189,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2.0\u00d76.0=",
+            "actual_output": "12.0",
+            "expected_output": "12.0000",
+            "is_correct": -1,
+            "time": 1165819600
+        },
+        {
+            "id": 190,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8.0*0.8=",
+            "actual_output": "6.4",
+            "expected_output": "6.4000",
+            "is_correct": -1,
+            "time": 1132275000
+        },
+        {
+            "id": 191,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3.0*2.0=",
+            "actual_output": "6.0",
+            "expected_output": "6.0000",
+            "is_correct": -1,
+            "time": 1123364400
+        },
+        {
+            "id": 192,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.09*2.0=",
+            "actual_output": "0.18",
+            "expected_output": "0.1800",
+            "is_correct": -1,
+            "time": 6976515800
+        },
+        {
+            "id": 193,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8.0\u00d72.0=",
+            "actual_output": "16.0",
+            "expected_output": "16.0000",
+            "is_correct": -1,
+            "time": 1150490100
+        },
+        {
+            "id": 194,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.4\u00d70.8=",
+            "actual_output": "0.32",
+            "expected_output": "0.3200",
+            "is_correct": -1,
+            "time": 1139190400
+        },
+        {
+            "id": 195,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n1.0\u00d70.7=",
+            "actual_output": "0.7",
+            "expected_output": "0.7000",
+            "is_correct": -1,
+            "time": 1125403400
+        },
+        {
+            "id": 196,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.0*3.0=",
+            "actual_output": "0.0*3.0= 0.0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 1514756000
+        },
+        {
+            "id": 197,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.9\u00d70.8=",
+            "actual_output": "0.72",
+            "expected_output": "0.7200",
+            "is_correct": -1,
+            "time": 1137026400
+        },
+        {
+            "id": 198,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.6*0.5=",
+            "actual_output": "0.3",
+            "expected_output": "0.3000",
+            "is_correct": -1,
+            "time": 1100567300
+        },
+        {
+            "id": 199,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.6\u00d70.4=",
+            "actual_output": "0.24",
+            "expected_output": "0.2400",
+            "is_correct": -1,
+            "time": 1152767900
+        },
+        {
+            "id": 200,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.1\u00d70.08=",
+            "actual_output": "0.008",
+            "expected_output": "0.0080",
+            "is_correct": -1,
+            "time": 1232993100
+        },
+        {
+            "id": 201,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6152\u00d732179=",
+            "actual_output": "198173336",
+            "expected_output": "197965208",
+            "is_correct": -1,
+            "time": 1381272100
+        },
+        {
+            "id": 202,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n91684*20008=",
+            "actual_output": "1833780136",
+            "expected_output": "1834413472",
+            "is_correct": -1,
+            "time": 1409484600
+        },
+        {
+            "id": 203,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n62195*99536=",
+            "actual_output": "619,783,024",
+            "expected_output": "6190641520",
+            "is_correct": -1,
+            "time": 1390654700
+        },
+        {
+            "id": 204,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5655\u00d742805=",
+            "actual_output": "231,724,025",
+            "expected_output": "242062275",
+            "is_correct": -1,
+            "time": 7200911000
+        },
+        {
+            "id": 205,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4032*84266=",
+            "actual_output": "34032 * 84266 = 284173536",
+            "expected_output": "339760512",
+            "is_correct": -1,
+            "time": 1892012000
+        },
+        {
+            "id": 206,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n35460\u00d726064=",
+            "actual_output": "923730240",
+            "expected_output": "924229440",
+            "is_correct": -1,
+            "time": 1425417500
+        },
+        {
+            "id": 207,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n92978\u00d728845=",
+            "actual_output": "267,333,030",
+            "expected_output": "2681950410",
+            "is_correct": -1,
+            "time": 1450392300
+        },
+        {
+            "id": 208,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n51677\u00d790778=",
+            "actual_output": "46917371866",
+            "expected_output": "4691134706",
+            "is_correct": -1,
+            "time": 1408236000
+        },
+        {
+            "id": 209,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9025*95266=",
+            "actual_output": "858733525",
+            "expected_output": "859775650",
+            "is_correct": -1,
+            "time": 1355768400
+        },
+        {
+            "id": 210,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n61081\u00d744496=",
+            "actual_output": "27227383424",
+            "expected_output": "2717860176",
+            "is_correct": -1,
+            "time": 1417269100
+        },
+        {
+            "id": 211,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n38010*88739=",
+            "actual_output": "338,313,290",
+            "expected_output": "3372969390",
+            "is_correct": -1,
+            "time": 1492578500
+        },
+        {
+            "id": 212,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n90161*91816=",
+            "actual_output": "83277353424",
+            "expected_output": "8278222376",
+            "is_correct": -1,
+            "time": 1510252700
+        },
+        {
+            "id": 213,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n45960*59693=",
+            "actual_output": "27417333420",
+            "expected_output": "2743490280",
+            "is_correct": -1,
+            "time": 1543569900
+        },
+        {
+            "id": 214,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n68163\u00d781808=",
+            "actual_output": "5577338344",
+            "expected_output": "5576278704",
+            "is_correct": -1,
+            "time": 1652655100
+        },
+        {
+            "id": 215,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n41393*30824=",
+            "actual_output": "1275133372",
+            "expected_output": "1275897832",
+            "is_correct": -1,
+            "time": 1010132100
+        },
+        {
+            "id": 216,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n56854\u00d724834=",
+            "actual_output": "1,417,333,536",
+            "expected_output": "1411912236",
+            "is_correct": -1,
+            "time": 6663567700
+        },
+        {
+            "id": 217,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n52443*53061=",
+            "actual_output": "27827340774",
+            "expected_output": "2782678023",
+            "is_correct": -1,
+            "time": 1055611600
+        },
+        {
+            "id": 218,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n71786\u00d721638=",
+            "actual_output": "1541733056",
+            "expected_output": "1553305468",
+            "is_correct": -1,
+            "time": 1065203000
+        },
+        {
+            "id": 219,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n11902\u00d740630=",
+            "actual_output": "482713060",
+            "expected_output": "483578260",
+            "is_correct": -1,
+            "time": 1023343100
+        },
+        {
+            "id": 220,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n50516\u00d717016=",
+            "actual_output": "9097742256",
+            "expected_output": "859580256",
+            "is_correct": -1,
+            "time": 1095241000
+        },
+        {
+            "id": 221,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n40588\u00d74621=",
+            "actual_output": "187273828",
+            "expected_output": "187557148",
+            "is_correct": -1,
+            "time": 1038698300
+        },
+        {
+            "id": 222,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n88254\u00d726228=",
+            "actual_output": "2.3163700000000003e+20",
+            "expected_output": "2314725912",
+            "is_correct": -1,
+            "time": 1558060700
+        },
+        {
+            "id": 223,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n98113*35747=",
+            "actual_output": "351,333,241,191",
+            "expected_output": "3507245411",
+            "is_correct": -1,
+            "time": 1247944700
+        },
+        {
+            "id": 224,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n28445*80568=",
+            "actual_output": "22927385360",
+            "expected_output": "2291756760",
+            "is_correct": -1,
+            "time": 1132997600
+        },
+        {
+            "id": 225,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n37739*66015=",
+            "actual_output": "25094336855",
+            "expected_output": "2491340085",
+            "is_correct": -1,
+            "time": 1099914800
+        },
+        {
+            "id": 226,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n16\u00f783=",
+            "actual_output": "0.19278125",
+            "expected_output": "0.1928",
+            "is_correct": -1,
+            "time": 1082798600
+        },
+        {
+            "id": 227,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n53\u00f730=",
+            "actual_output": "1.766666667",
+            "expected_output": "1.7667",
+            "is_correct": -1,
+            "time": 1430799400
+        },
+        {
+            "id": 229,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n50/95=",
+            "actual_output": "0.5263157894736842",
+            "expected_output": "0.5263",
+            "is_correct": -1,
+            "time": 1655067400
+        },
+        {
+            "id": 230,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n89/34=",
+            "actual_output": "2.61764705882353",
+            "expected_output": "2.6176",
+            "is_correct": -1,
+            "time": 1766532900
+        },
+        {
+            "id": 231,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n52\u00f740=",
+            "actual_output": "1.3",
+            "expected_output": "1.3000",
+            "is_correct": -1,
+            "time": 873886400
+        },
+        {
+            "id": 232,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n59\u00f714=",
+            "actual_output": "4.214285714285714",
+            "expected_output": "4.2143",
+            "is_correct": -1,
+            "time": 1613684400
+        },
+        {
+            "id": 233,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n79/79=",
+            "actual_output": "1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 738314200
+        },
+        {
+            "id": 234,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n15\u00f733=",
+            "actual_output": "0.4545454545 (repeating)",
+            "expected_output": "0.4545",
+            "is_correct": -1,
+            "time": 1388876800
+        },
+        {
+            "id": 235,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n28/39=",
+            "actual_output": "0.7179487179487179",
+            "expected_output": "0.7179",
+            "is_correct": -1,
+            "time": 1688841900
+        },
+        {
+            "id": 236,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2\u00f73=",
+            "actual_output": "2\u00f73=0.6666666666666666 (repeating)",
+            "expected_output": "0.6667",
+            "is_correct": -1,
+            "time": 2170139800
+        },
+        {
+            "id": 237,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n94/89=",
+            "actual_output": "94/89 = 1.0561797752808988",
+            "expected_output": "1.0562",
+            "is_correct": -1,
+            "time": 1758448100
+        },
+        {
+            "id": 238,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n82/40=",
+            "actual_output": "2.05",
+            "expected_output": "2.0500",
+            "is_correct": -1,
+            "time": 929382600
+        },
+        {
+            "id": 239,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n52\u00f742=",
+            "actual_output": "1.2381",
+            "expected_output": "1.2381",
+            "is_correct": -1,
+            "time": 1295197500
+        },
+        {
+            "id": 240,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n31\u00f755=",
+            "actual_output": "0.5636363636363636",
+            "expected_output": "0.5636",
+            "is_correct": -1,
+            "time": 1497447200
+        },
+        {
+            "id": 242,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n71/22=",
+            "actual_output": "3.2272727272727275",
+            "expected_output": "3.2273",
+            "is_correct": -1,
+            "time": 1854549900
+        },
+        {
+            "id": 243,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n77\u00f757=",
+            "actual_output": "1.3509",
+            "expected_output": "1.3509",
+            "is_correct": -1,
+            "time": 1539408800
+        },
+        {
+            "id": 244,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n33/22=",
+            "actual_output": "1.5",
+            "expected_output": "1.5000",
+            "is_correct": -1,
+            "time": 919507800
+        },
+        {
+            "id": 245,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n63\u00f74=",
+            "actual_output": "15.75",
+            "expected_output": "15.7500",
+            "is_correct": -1,
+            "time": 1054077200
+        },
+        {
+            "id": 246,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n97\u00f71=",
+            "actual_output": "97",
+            "expected_output": "97.0000",
+            "is_correct": -1,
+            "time": 801820700
+        },
+        {
+            "id": 247,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n98/83=",
+            "actual_output": "1.1807",
+            "expected_output": "1.1807",
+            "is_correct": -1,
+            "time": 1554922800
+        },
+        {
+            "id": 248,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n14\u00f785=",
+            "actual_output": "0.1647058824",
+            "expected_output": "0.1647",
+            "is_correct": -1,
+            "time": 1459683400
+        },
+        {
+            "id": 249,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n82/34=",
+            "actual_output": "2.4118",
+            "expected_output": "2.4118",
+            "is_correct": -1,
+            "time": 1512964000
+        },
+        {
+            "id": 250,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n50/18=",
+            "actual_output": "2.777777777777778",
+            "expected_output": "2.7778",
+            "is_correct": -1,
+            "time": 1902668400
+        },
+        {
+            "id": 251,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2^3=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 730436900
+        },
+        {
+            "id": 252,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3^3=",
+            "actual_output": "27",
+            "expected_output": "27",
+            "is_correct": -1,
+            "time": 877639500
+        },
+        {
+            "id": 253,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4^2=",
+            "actual_output": "16",
+            "expected_output": "16",
+            "is_correct": -1,
+            "time": 800975000
+        },
+        {
+            "id": 254,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n10^3=",
+            "actual_output": "1000",
+            "expected_output": "1000",
+            "is_correct": -1,
+            "time": 6462029800
+        },
+        {
+            "id": 255,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n1^3=",
+            "actual_output": "1^3 = 1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 1122964800
+        },
+        {
+            "id": 256,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n1^3=",
+            "actual_output": "1^3 = 1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 1060552100
+        },
+        {
+            "id": 257,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n7^4=",
+            "actual_output": "2401",
+            "expected_output": "2401",
+            "is_correct": -1,
+            "time": 1015354500
+        },
+        {
+            "id": 258,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2^2=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 769151300
+        },
+        {
+            "id": 259,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8^4=",
+            "actual_output": "4096",
+            "expected_output": "4096",
+            "is_correct": -1,
+            "time": 944162600
+        },
+        {
+            "id": 260,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n7^4=",
+            "actual_output": "2401",
+            "expected_output": "2401",
+            "is_correct": -1,
+            "time": 925703500
+        },
+        {
+            "id": 261,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3^2=",
+            "actual_output": "9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 786866000
+        },
+        {
+            "id": 262,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3^4=",
+            "actual_output": "81",
+            "expected_output": "81",
+            "is_correct": -1,
+            "time": 845629600
+        },
+        {
+            "id": 263,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n1^3=",
+            "actual_output": "1^3 = 1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 1114560100
+        },
+        {
+            "id": 264,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5^2=",
+            "actual_output": "25",
+            "expected_output": "25",
+            "is_correct": -1,
+            "time": 805967900
+        },
+        {
+            "id": 265,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9^4=",
+            "actual_output": "6561",
+            "expected_output": "6561",
+            "is_correct": -1,
+            "time": 919162100
+        },
+        {
+            "id": 266,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6^2=",
+            "actual_output": "36",
+            "expected_output": "36",
+            "is_correct": -1,
+            "time": 6350698700
+        },
+        {
+            "id": 267,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3^3=",
+            "actual_output": "27",
+            "expected_output": "27",
+            "is_correct": -1,
+            "time": 834018700
+        },
+        {
+            "id": 268,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8^4=",
+            "actual_output": "4096",
+            "expected_output": "4096",
+            "is_correct": -1,
+            "time": 912307100
+        },
+        {
+            "id": 269,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6^3=",
+            "actual_output": "216",
+            "expected_output": "216",
+            "is_correct": -1,
+            "time": 914290000
+        },
+        {
+            "id": 270,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3^3=",
+            "actual_output": "27",
+            "expected_output": "27",
+            "is_correct": -1,
+            "time": 848269500
+        },
+        {
+            "id": 271,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3^4=",
+            "actual_output": "81",
+            "expected_output": "81",
+            "is_correct": -1,
+            "time": 854180000
+        },
+        {
+            "id": 272,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3^4=",
+            "actual_output": "81",
+            "expected_output": "81",
+            "is_correct": -1,
+            "time": 882220700
+        },
+        {
+            "id": 273,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5^4=",
+            "actual_output": "625",
+            "expected_output": "625",
+            "is_correct": -1,
+            "time": 1028019700
+        },
+        {
+            "id": 274,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6^2=",
+            "actual_output": "36",
+            "expected_output": "36",
+            "is_correct": -1,
+            "time": 838202900
+        },
+        {
+            "id": 275,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6^3=",
+            "actual_output": "216",
+            "expected_output": "216",
+            "is_correct": -1,
+            "time": 900383000
+        },
+        {
+            "id": 276,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n7.3947^2.5384=",
+            "actual_output": "To calculate \\\\(7.3947^{2.5384}\\\\), we need to use a calculator or a math software because it's not a simple arithmetic operation. Here's the result:\n\n\\\\[7.3947^{2.5384} \\\\approx 28.9462\\\\]",
+            "expected_output": "160.5713",
+            "is_correct": -1,
+            "time": 5124834700
+        },
+        {
+            "id": 277,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6.4401^2.9179=",
+            "actual_output": "To calculate \\\\(6.4401^{2.9179}\\\\), we need to use a calculator or a computer program because it's not a simple arithmetic operation. Here's the result:\n\n\\\\[\n6.4401^{2.9179} \\\\approx 128.802\n\\\\]\n\nKeep in mind that this is an approximate value, as the exact result would involve more decimal places.",
+            "expected_output": "229.228",
+            "is_correct": -1,
+            "time": 6576283600
+        },
+        {
+            "id": 278,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3.0117^3.8748=",
+            "actual_output": "The correct answer is approximately 166.2636.",
+            "expected_output": "71.6638",
+            "is_correct": -1,
+            "time": 7149000300
+        },
+        {
+            "id": 279,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2.242^3.7342=",
+            "actual_output": "The correct answer is approximately 12.1416.",
+            "expected_output": "20.3865",
+            "is_correct": -1,
+            "time": 1559841600
+        },
+        {
+            "id": 280,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5.3126^3.8767=",
+            "actual_output": "To calculate \\\\(5.3126^{3.8767}\\\\), we would typically use a calculator or a computer program because it involves a non-integer exponent. Here's the result:\n\n\\\\[5.3126^{3.8767} \\\\approx 128.662\\\\]",
+            "expected_output": "648.333",
+            "is_correct": -1,
+            "time": 5050707000
+        },
+        {
+            "id": 281,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8.8132^2.1955=",
+            "actual_output": "To calculate \\\\(8.8132^{2.1955}\\\\), you would typically use a calculator or a computer program because it involves a non-integer exponent. Here's the result:\n\n\\\\(8.8132^{2.1955} \\\\approx 31.9462\\\\)",
+            "expected_output": "118.8614",
+            "is_correct": -1,
+            "time": 5208683000
+        },
+        {
+            "id": 282,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3.1699^2.0687=",
+            "actual_output": "10.2327210344937",
+            "expected_output": "10.8771",
+            "is_correct": -1,
+            "time": 1715116100
+        },
+        {
+            "id": 283,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n7.6455^3.5773=",
+            "actual_output": "To calculate \\\\(7.6455^{3.5773}\\\\), we would typically use a calculator or a computer program because it involves a non-integer exponent. Here's the result:\n\n\\\\[7.6455^{3.5773} \\\\approx 224.662\\\\]",
+            "expected_output": "1446.1319",
+            "is_correct": -1,
+            "time": 5353981000
+        },
+        {
+            "id": 284,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0.8723^2.159=",
+            "actual_output": "1.9782282703027014",
+            "expected_output": "0.7446",
+            "is_correct": -1,
+            "time": 1863874400
+        },
+        {
+            "id": 285,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4.3651^3.1882=",
+            "actual_output": "The correct answer is approximately 92.1126.",
+            "expected_output": "109.7563",
+            "is_correct": -1,
+            "time": 1611052100
+        },
+        {
+            "id": 286,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4.8237^3.2066=",
+            "actual_output": "The correct answer is approximately 42.9626.",
+            "expected_output": "155.3557",
+            "is_correct": -1,
+            "time": 1602885900
+        },
+        {
+            "id": 287,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4.8173^2.3094=",
+            "actual_output": "The correct answer is approximately 22.7611.",
+            "expected_output": "37.7456",
+            "is_correct": -1,
+            "time": 1551126600
+        },
+        {
+            "id": 288,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3.8519^3.8141=",
+            "actual_output": "134.6621411101411",
+            "expected_output": "171.3259",
+            "is_correct": -1,
+            "time": 1768701000
+        },
+        {
+            "id": 289,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6.3411^3.2906=",
+            "actual_output": "226.822102245604",
+            "expected_output": "436.1168",
+            "is_correct": -1,
+            "time": 1737915500
+        },
+        {
+            "id": 290,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4.8903^3.4272=",
+            "actual_output": "The correct answer is approximately 122.6622.",
+            "expected_output": "230.4043",
+            "is_correct": -1,
+            "time": 7226335500
+        },
+        {
+            "id": 291,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6.4981^2.6289=",
+            "actual_output": "To calculate \\\\(6.4981^{2.6289}\\\\), we would typically use a calculator or a computer program because it involves a non-integer exponent. Here's the result:\n\n\\\\[6.4981^{2.6289} \\\\approx 26.0662\\\\]",
+            "expected_output": "137.0043",
+            "is_correct": -1,
+            "time": 5158434700
+        },
+        {
+            "id": 292,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n1.1604^2.9258=",
+            "actual_output": "The correct answer is approximately 5.6322.",
+            "expected_output": "1.5454",
+            "is_correct": -1,
+            "time": 1551446000
+        },
+        {
+            "id": 293,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4.9319^2.3231=",
+            "actual_output": "The correct answer is approximately 22.6217.",
+            "expected_output": "40.7325",
+            "is_correct": -1,
+            "time": 1631633000
+        },
+        {
+            "id": 294,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n5.5507^2.0434=",
+            "actual_output": "The correct answer is approximately 32.3621.",
+            "expected_output": "33.1895",
+            "is_correct": -1,
+            "time": 1629705800
+        },
+        {
+            "id": 295,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8.7876^2.5821=",
+            "actual_output": "To calculate \\\\(8.7876^{2.5821}\\\\), we need to use a calculator or a computer program because it's not a simple arithmetic operation. Here's the result:\n\n\\\\[8.7876^{2.5821} \\\\approx 78.6629\\\\]",
+            "expected_output": "273.6324",
+            "is_correct": -1,
+            "time": 5126693300
+        },
+        {
+            "id": 296,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8.6112^3.7534=",
+            "actual_output": "To calculate \\\\(8.6112^{3.7534}\\\\), we would typically use a calculator or a computer program because it involves a non-integer exponent. Here's the result:\n\n\\\\[8.6112^{3.7534} \\\\approx 2222.8695\\\\]",
+            "expected_output": "3233.4638",
+            "is_correct": -1,
+            "time": 5694942500
+        },
+        {
+            "id": 297,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8.964^2.7688=",
+            "actual_output": "I'm sorry, but as an AI language model, I don't have the ability to perform calculations directly. However, you can easily calculate this using a calculator or an online tool. Just input the expression 8.964 raised to the power of 2.7688, and it will give you the result.",
+            "expected_output": "433.7976",
+            "is_correct": -1,
+            "time": 4982532000
+        },
+        {
+            "id": 298,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8.6178^2.9802=",
+            "actual_output": "206.96212141039244",
+            "expected_output": "613.2935",
+            "is_correct": -1,
+            "time": 1879265400
+        },
+        {
+            "id": 299,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2.3797^2.9197=",
+            "actual_output": "The correct answer is approximately 22.1656.",
+            "expected_output": "12.5699",
+            "is_correct": -1,
+            "time": 1638273800
+        },
+        {
+            "id": 300,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n9.2725^3.8687=",
+            "actual_output": "To calculate \\\\(9.2725^{3.8687}\\\\), we would typically use a calculator or a computer program because it involves a complex exponentiation. Here's the result:\n\n\\\\[9.2725^{3.8687} \\\\approx 3274.8662\\\\]",
+            "expected_output": "5518.1617",
+            "is_correct": -1,
+            "time": 5411043900
+        },
+        {
+            "id": 301,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne+e=",
+            "actual_output": "2e",
+            "expected_output": "5.4366",
+            "is_correct": -1,
+            "time": 847377800
+        },
+        {
+            "id": 302,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n4+e=",
+            "actual_output": "The equation 4+e cannot be solved for a specific value of e, as e is a mathematical constant approximately equal to 2.71828. Therefore, the expression remains as it is:\n\n4 + e",
+            "expected_output": "6.7183",
+            "is_correct": -1,
+            "time": 9317600300
+        },
+        {
+            "id": 303,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne+pi=",
+            "actual_output": "e + \u03c0 is approximately 5.81578947368421.",
+            "expected_output": "5.8598",
+            "is_correct": -1,
+            "time": 2185799900
+        },
+        {
+            "id": 304,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n8-e=",
+            "actual_output": "5",
+            "expected_output": "5.2817",
+            "is_correct": -1,
+            "time": 777084100
+        },
+        {
+            "id": 305,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n7/\u03c0=",
+            "actual_output": "approximately 2.2246467991473532",
+            "expected_output": "2.2282",
+            "is_correct": -1,
+            "time": 2039284100
+        },
+        {
+            "id": 306,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n0*2=",
+            "actual_output": "0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 824220400
+        },
+        {
+            "id": 307,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n\u03c0*4=",
+            "actual_output": "12.566370614359172",
+            "expected_output": "12.5660",
+            "is_correct": -1,
+            "time": 2735116300
+        },
+        {
+            "id": 308,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n\u03c0*\u03c0=",
+            "actual_output": "\u03c0*\u03c0 = 9.8696044010893586188344909998761511353... (approx.)",
+            "expected_output": "9.8690",
+            "is_correct": -1,
+            "time": 3807665300
+        },
+        {
+            "id": 309,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne*e=",
+            "actual_output": "e^2",
+            "expected_output": "7.3890",
+            "is_correct": -1,
+            "time": 933667100
+        },
+        {
+            "id": 310,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne*2=",
+            "actual_output": "2e",
+            "expected_output": "5.4366",
+            "is_correct": -1,
+            "time": 868174000
+        },
+        {
+            "id": 311,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n\u03c0+e=",
+            "actual_output": "\u03c0 + e \u2248 5.8284271247461903",
+            "expected_output": "5.8598",
+            "is_correct": -1,
+            "time": 2233727600
+        },
+        {
+            "id": 312,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne-e=",
+            "actual_output": "0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 807281700
+        },
+        {
+            "id": 313,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n1+e=",
+            "actual_output": "1 + e \u2248 2.71828",
+            "expected_output": "3.7183",
+            "is_correct": -1,
+            "time": 1614706100
+        },
+        {
+            "id": 314,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\npi/\u03c0=",
+            "actual_output": "1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 6279457200
+        },
+        {
+            "id": 315,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n2+6=",
+            "actual_output": "8",
+            "expected_output": "8.0000",
+            "is_correct": -1,
+            "time": 707870900
+        },
+        {
+            "id": 316,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne*pi=",
+            "actual_output": "e\u03c0 is a mathematical constant that represents the product of the mathematical constants e (approximately 2.71828) and \u03c0 (approximately 3.14159). The exact value of e\u03c0 is approximately 8.53942, but it is an irrational number and cannot be expressed as a finite decimal or a simple fraction.",
+            "expected_output": "8.5395",
+            "is_correct": -1,
+            "time": 5467562900
+        },
+        {
+            "id": 317,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n7*\u03c0=",
+            "actual_output": "21.9911485371721",
+            "expected_output": "21.9905",
+            "is_correct": -1,
+            "time": 2423324500
+        },
+        {
+            "id": 318,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n6-5=",
+            "actual_output": "1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 787385200
+        },
+        {
+            "id": 319,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne-pi=",
+            "actual_output": "e - \u03c0 is approximately equal to -0.42278433509846713.",
+            "expected_output": "-0.4232",
+            "is_correct": -1,
+            "time": 2475971200
+        },
+        {
+            "id": 320,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\npi-\u03c0=",
+            "actual_output": "0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 792807500
+        },
+        {
+            "id": 321,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n3*4=",
+            "actual_output": "12",
+            "expected_output": "12.0000",
+            "is_correct": -1,
+            "time": 813395500
+        },
+        {
+            "id": 322,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n\u03c0-1=",
+            "actual_output": "\u03c0 - 1 \u2248 2.14159 - 1 = 1.14159",
+            "expected_output": "2.1415",
+            "is_correct": -1,
+            "time": 2536069300
+        },
+        {
+            "id": 323,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne-5=",
+            "actual_output": "-2",
+            "expected_output": "-2.2817",
+            "is_correct": -1,
+            "time": 852484900
+        },
+        {
+            "id": 324,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne+pi=",
+            "actual_output": "e + \u03c0 is approximately 5.81578947368421.",
+            "expected_output": "5.8598",
+            "is_correct": -1,
+            "time": 2326194200
+        },
+        {
+            "id": 325,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ne-pi=",
+            "actual_output": "e - \u03c0 is approximately equal to -0.42278433509846713.",
+            "expected_output": "-0.4232",
+            "is_correct": -1,
+            "time": 2475197000
+        },
+        {
+            "id": 326,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 44 + 97) * 61 * 65=",
+            "actual_output": "The correct answer to the equation (44 + 97) * 61 * 65 is:\n\n1,264,915",
+            "expected_output": "559065.0000",
+            "is_correct": -1,
+            "time": 8269775300
+        },
+        {
+            "id": 327,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 4 * 64) * ( 39 + 12)=",
+            "actual_output": "First, calculate the values inside the parentheses:\n\n4 * 64 = 256\n39 + 12 = 51\n\nNow, multiply the results together:\n\n256 * 51 = 12,996\n\nSo, the correct answer is 12,996.",
+            "expected_output": "13056.0000",
+            "is_correct": -1,
+            "time": 5328783000
+        },
+        {
+            "id": 328,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 33 + 26=",
+            "actual_output": "The correct answer is 59.",
+            "expected_output": "59.0000",
+            "is_correct": -1,
+            "time": 1239127000
+        },
+        {
+            "id": 329,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 32 / 15=",
+            "actual_output": "2.1333333333333333",
+            "expected_output": "2.1333",
+            "is_correct": -1,
+            "time": 2453807000
+        },
+        {
+            "id": 330,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 8 - 90) / 95=",
+            "actual_output": "-0.8421",
+            "expected_output": "-0.8632",
+            "is_correct": -1,
+            "time": 1188692000
+        },
+        {
+            "id": 331,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 31 + 55) / ( 19 + 76)=",
+            "actual_output": "The correct answer to the expression (31 + 55) / (19 + 76) is:\n\n(86) / (95) = 0.9053",
+            "expected_output": "0.9053",
+            "is_correct": -1,
+            "time": 3901397100
+        },
+        {
+            "id": 332,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 50 * 67=",
+            "actual_output": "3350",
+            "expected_output": "3350.0000",
+            "is_correct": -1,
+            "time": 1047908700
+        },
+        {
+            "id": 333,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 11 * 17) + 56=",
+            "actual_output": "The correct answer is:\n\n1871 + 56 = 1927",
+            "expected_output": "243.0000",
+            "is_correct": -1,
+            "time": 1985208000
+        },
+        {
+            "id": 334,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 97 - 56) / ( 97 + 56) * 31=",
+            "actual_output": "To calculate the expression step by step:\n\n1. Subtract 56 from 97:\n   \\\\( 97 - 56 = 41 \\\\)\n\n2. Add 56 to 97:\n   \\\\( 97 + 56 = 153 \\\\)\n\n3. Divide 41 by 153:\n   \\\\( \\\\frac{41}{153} \\\\)\n\n4. Multiply the result by 31:\n   \\\\( \\\\frac{41}{153} \\\\times 31 \\\\)\n\nNow, let's perform the multiplication:\n\n\\\\( \\\\frac{41}{153} \\\\times 31 = \\\\frac{41 \\\\times 31}{153} \\\\)\n\n\\\\( = \\\\frac{1271}{153} \\\\)\n\nTo get the exact fraction, we leave it as it is. For a decimal approximation:\n\n\\\\( \\\\frac{1271}{153} \\\\approx 8.30131 \\\\)\n\nRounded to two decimal places:\n\n\\\\( \\\\frac{1271}{153} \\\\approx 8.30 \\\\)\n\nSo, the correct answer is approximately 8.30.",
+            "expected_output": "8.3072",
+            "is_correct": -1,
+            "time": 17748715400
+        },
+        {
+            "id": 335,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 0 * ( 95 * 68) + ( 26 / 45)=",
+            "actual_output": "The correct answer to the expression is:\n\n0 * (95 * 68) + (26 / 45) = 0 + 0.5777777777777776\n\n",
+            "expected_output": "0.5778",
+            "is_correct": -1,
+            "time": 4968872800
+        },
+        {
+            "id": 336,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 21 - ( 2 + 31)=",
+            "actual_output": "The correct answer is:\n21 - (2 + 31) = 21 - 33 = -12",
+            "expected_output": "-12.0000",
+            "is_correct": -1,
+            "time": 2545304600
+        },
+        {
+            "id": 337,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 88 - 42) * ( 33 * 41) - ( 13 - 27)=",
+            "actual_output": "The correct answer to the expression is:\n\n(88 - 42) * (33 * 41) - (13 - 27) = 46 * 1353 - (-14) = 62038 + 14 = 62052",
+            "expected_output": "62252.0000",
+            "is_correct": -1,
+            "time": 5054217900
+        },
+        {
+            "id": 338,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 79 + 75) / ( 46 + 51)=",
+            "actual_output": "The correct answer is:\n\n(79 + 75) / (46 + 51) = 154 / 97 \u2248 1.58773",
+            "expected_output": "1.5876",
+            "is_correct": -1,
+            "time": 9018448200
+        },
+        {
+            "id": 339,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 2 + 42) + ( 56 + 50)=",
+            "actual_output": "The correct answer is:\n\n(2 + 42) + (56 + 50) = 44 + 106 = 150",
+            "expected_output": "150.0000",
+            "is_correct": -1,
+            "time": 2939303400
+        },
+        {
+            "id": 340,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 38 + ( 26 / 67) * 19=",
+            "actual_output": "The correct answer is:\n\n38 + (26 / 67) * 19 = 38.6866 (rounded to four decimal places)",
+            "expected_output": "45.3731",
+            "is_correct": -1,
+            "time": 63663161300
+        },
+        {
+            "id": 341,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 75 + ( 35 / 30) + 72=",
+            "actual_output": "The correct answer to the expression 75 + (35 / 30) + 72 is:\n\n75 + 1.166666667 + 72 = 148.166666667\n\n",
+            "expected_output": "148.1667",
+            "is_correct": -1,
+            "time": 66116090000
+        },
+        {
+            "id": 343,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 21 - 43) / 50 + ( 65 - 37)=",
+            "actual_output": "The correct answer is:\n\n(21 - 43) / 50 + (65 - 37) = -22 / 50 + 28 = -0.44 + 28 = 27.56",
+            "expected_output": "27.5600",
+            "is_correct": -1,
+            "time": 5273419600
+        },
+        {
+            "id": 344,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 86 + 57) / 43=",
+            "actual_output": "The correct answer is:\n\n2.534883720930233",
+            "expected_output": "3.3256",
+            "is_correct": -1,
+            "time": 62894778600
+        },
+        {
+            "id": 345,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 22 * ( 6 - 53)=",
+            "actual_output": "-1094",
+            "expected_output": "-1034.0000",
+            "is_correct": -1,
+            "time": 107697902900
+        },
+        {
+            "id": 346,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
+            "actual_output": "The correct answer to the expression (24 + 22) * 18 / 79 is approximately 8.20253164557. However, since you asked for only the correct answer without the calculation, it's:\n\n8.20253164557",
+            "expected_output": "10.4810",
+            "is_correct": -1,
+            "time": 5516783100
+        },
+        {
+            "id": 347,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 47 - 99) * 86 * 99=",
+            "actual_output": "-721,364",
+            "expected_output": "-442728.0000",
+            "is_correct": -1,
+            "time": 1281081500
+        },
+        {
+            "id": 348,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 16 / 51=",
+            "actual_output": "0.3137254901960784",
+            "expected_output": "0.3137",
+            "is_correct": -1,
+            "time": 1938302600
+        },
+        {
+            "id": 349,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 51 - ( 92 - 77)=",
+            "actual_output": "51 - (92 - 77) = 51 - 15 = 36",
+            "expected_output": "36.0000",
+            "is_correct": -1,
+            "time": 2298900500
+        },
+        {
+            "id": 350,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n 77 / 81=",
+            "actual_output": "0.9519 (rounded to four decimal places)",
+            "expected_output": "0.9506",
+            "is_correct": -1,
+            "time": 1684053100
+        },
+        {
+            "id": 351,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-0.5\u03c0)=",
+            "actual_output": "-1",
+            "expected_output": "-1.0000",
+            "is_correct": -1,
+            "time": 872313400
+        },
+        {
+            "id": 352,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ntan(-0.17\u03c0)=",
+            "actual_output": "-tan(0.17\u03c0)",
+            "expected_output": "-0.5774",
+            "is_correct": -1,
+            "time": 1338704000
+        },
+        {
+            "id": 353,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(5.25\u03c0)=",
+            "actual_output": "-0.5",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 978595300
+        },
+        {
+            "id": 354,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-0.75\u03c0)=",
+            "actual_output": "cos(-0.75\u03c0) = cos(0.75\u03c0)\n\nSince cosine is an even function, cos(-x) = cos(x). Therefore:\n\ncos(0.75\u03c0) = -sin(0.25\u03c0)\n\nNow, 0.25\u03c0 is one-fourth of a full rotation in radians, which is a right angle or 90 degrees. The sine of 90 degrees is 1:\n\nsin(0.25\u03c0) = 1\n\nSo,\n\ncos(-0.75\u03c0) = -1",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 8800540300
+        },
+        {
+            "id": 355,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(0.75\u03c0)=",
+            "actual_output": "0.258819045102521",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 1835467700
+        },
+        {
+            "id": 356,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-3.75\u03c0)=",
+            "actual_output": "sin(-3.75\u03c0) = -0.75",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 1667960300
+        },
+        {
+            "id": 357,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ntan(2.67\u03c0)=",
+            "actual_output": "tan(2.67\u03c0) is approximately -0.1203.",
+            "expected_output": "-1.7321",
+            "is_correct": -1,
+            "time": 1875131800
+        },
+        {
+            "id": 358,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-9.75\u03c0)=",
+            "actual_output": "cos(-9.75\u03c0) = cos(9.75\u03c0) \n\nSince cosine is an even function, cos(-x) = cos(x). \n\nNow, we can evaluate cos(9.75\u03c0) in terms of radians. \n\n9.75\u03c0 is between 9\u03c0 and 10\u03c0, which means it's in the fourth quadrant where cosine is positive. \n\nWe can find an equivalent angle in the first quadrant (where cosine is also positive) by subtracting 2\u03c0 until we get an angle between 0 and 2\u03c0:\n\n9.75\u03c0 - 2\u03c0 = 7.75\u03c0\n7.75\u03c0 - 2\u03c0 = 5.75\u03c0\n5.75\u03c0 - 2\u03c0 = 3.75\u03c0\n\n3.75\u03c0 is between 3\u03c0 and 4\u03c0, which is in the third quadrant where cosine is negative. However, we already know that cos(9.75\u03c0) is positive due to the even nature of cosine. \n\nSo, we need to find the equivalent angle in the second quadrant (where cosine is positive):\n\n3.75\u03c0 + 2\u03c0 = 5.75\u03c0\n\nNow, we can find the cosine of 5.75\u03c0:\n\ncos(5.75\u03c0) = cos(\u03c0 + 2\u03c0/3)\n\nSince cos(\u03c0) = -1 and cos(2\u03c0/3) is the cosine of the angle in the second quadrant that is a third of the way around the unit circle, which is -1/2:\n\ncos(\u03c0 + 2\u03c0/3) = cos(\u03c0) * cos(2\u03c0/3) - sin(\u03c0) * sin(2\u03c0/3)\n              = -1 * (-1/2) - 0 * (\u221a3/2)\n              = 1/2\n\nTherefore, cos(-9.75\u03c0) = cos(9.75\u03c0) = 1/2 =0.5.",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 32942420300
+        },
+        {
+            "id": 359,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-7.0\u03c0)=",
+            "actual_output": "cos(-7.0\u03c0) = cos(7.0\u03c0) = -1",
+            "expected_output": "-1.0000",
+            "is_correct": -1,
+            "time": 1838621700
+        },
+        {
+            "id": 360,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-2.0\u03c0)=",
+            "actual_output": "1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 777675300
+        },
+        {
+            "id": 361,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ntan(-5.17\u03c0)=",
+            "actual_output": "To find the tangent of a negative angle in radians, you can use the periodic and odd nature of the tangent function. The tangent function has a period of \u03c0, which means that tan(\u03b8) = tan(\u03b8 + n\u03c0) for any integer n. Additionally, tan(-\u03b8) = -tan(\u03b8).\n\nGiven tan(-5.17\u03c0), we can rewrite it as:\n\ntan(-5.17\u03c0) = -tan(5.17\u03c0)\n\nNow, since 5.17\u03c0 is greater than 2\u03c0, we can subtract 2\u03c0 to find an equivalent angle within the first two periods of the tangent function:\n\n5.17\u03c0 - 2\u03c0 = 3.17\u03c0\n\nThis is still greater than \u03c0, so we subtract \u03c0 again:\n\n3.17\u03c0 - \u03c0 = 2.17\u03c0\n\nNow, 2.17\u03c0 is in the second quadrant, where tangent is positive. So, we can find an equivalent angle in the first quadrant, where tangent is also positive:\n\n2.17\u03c0 - \u03c0 = 1.17\u03c0\n\nThe tangent of 1.17\u03c0 is positive, and we know that tan(\u03c0/2) = \u221e, and as we approach \u03c0/2 from the left, the tangent value increases. Since 1.17\u03c0 is less than \u03c0/2, tan(1.17\u03c0) will be a large positive value.\n\nHowever, to find the exact value, we can express 1.17\u03c0 in terms of a fraction of \u03c0:\n\n1.17\u03c0 = (1.17/1)\u03c0 = (2.34/2)\u03c0\n\nThis is close to \u03c0/2, but not exactly. To find the tangent of this value, we would need to use numerical methods or a calculator, as it does not have a simple algebraic expression.\n\nUsing a calculator, we get:\n\ntan(-5.17\u03c0) \u2248 -tan(1.17\u03c0) \u2248 -2.61799387799\n\nSo, the correct answer is:\n\ntan(-5.17\u03c0) \u2248 -2.618",
+            "expected_output": "-0.5774",
+            "is_correct": -1,
+            "time": 30494840200
+        },
+        {
+            "id": 362,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-10.0\u03c0)=",
+            "actual_output": "0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 785764400
+        },
+        {
+            "id": 363,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-1.5\u03c0)=",
+            "actual_output": "sin(-1.5\u03c0) = -1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 1428361100
+        },
+        {
+            "id": 364,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ntan(1.0\u03c0)=",
+            "actual_output": "0",
+            "expected_output": "-0.0000",
+            "is_correct": -1,
+            "time": 777478900
+        },
+        {
+            "id": 365,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-30\u00b0)=",
+            "actual_output": "-\\\\frac{1}{2}",
+            "expected_output": "-0.5000",
+            "is_correct": -1,
+            "time": 1141197700
+        },
+        {
+            "id": 366,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-60\u00b0)=",
+            "actual_output": "0.5",
+            "expected_output": "0.5000",
+            "is_correct": -1,
+            "time": 903394600
+        },
+        {
+            "id": 367,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nsin(7.5\u03c0)=",
+            "actual_output": "0.5",
+            "expected_output": "-1.0000",
+            "is_correct": -1,
+            "time": 930266400
+        },
+        {
+            "id": 368,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nsin(7.0\u03c0)=",
+            "actual_output": "0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 803260900
+        },
+        {
+            "id": 369,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ntan(-6.33\u03c0)=",
+            "actual_output": "To find the tangent of a negative angle, you can use the periodic and odd nature of the tangent function. The tangent function has a period of \u03c0, which means that tan(\u03b8) = tan(\u03b8 + n\u03c0) for any integer n. Additionally, tan(-\u03b8) = -tan(\u03b8).\n\nGiven tan(-6.33\u03c0), we can find an equivalent angle in the first quadrant (0 to \u03c0/2) because the tangent function is positive in that quadrant, and then take the negative of that value due to the negative sign in the angle.\n\nSince -6.33\u03c0 is between -6\u03c0 and -5\u03c0, we can add \u03c0 to get an angle in the fourth quadrant (\u03c0 to 3\u03c0/2), where tangent is negative. However, we want to find the equivalent angle in the first quadrant:\n\n-6.33\u03c0 + 7\u03c0 = 0.67\u03c0\n\nNow, we know that tan(0.67\u03c0) will give us the positive value, and since we have a negative angle, we take the negative of that:\n\ntan(-6.33\u03c0) = -tan(0.67\u03c0)\n\nNow, we can calculate the numerical value:\n\ntan(0.67\u03c0) \u2248 tan(1.165) (converting radians to a more familiar decimal)\n\nUsing a calculator:\n\ntan(1.165) \u2248 2.675\n\nSo,\n\ntan(-6.33\u03c0) \u2248 -2.675",
+            "expected_output": "-1.7321",
+            "is_correct": -1,
+            "time": 22650022700
+        },
+        {
+            "id": 370,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-300\u00b0)=",
+            "actual_output": "cos(-300\u00b0) = cos(300\u00b0) = cos(360\u00b0 - 60\u00b0) = cos(60\u00b0) = 0.5",
+            "expected_output": "0.5000",
+            "is_correct": -1,
+            "time": 3230008000
+        },
+        {
+            "id": 371,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-3.25\u03c0)=",
+            "actual_output": "cos(-3.25\u03c0) = cos(3.25\u03c0)\n\nSince cosine is an even function, cos(\u03b8) = cos(-\u03b8). Therefore:\n\ncos(3.25\u03c0) = cos(\u03c0 + 2.25\u03c0) = -cos(2.25\u03c0)\n\nNow, we need to find cos(2.25\u03c0). We can express 2.25\u03c0 as a sum of multiples of \u03c0/2:\n\n2.25\u03c0 = 2\u03c0 + 0.25\u03c0 = 2\u03c0 + (\u03c0/4)\n\ncos(2\u03c0 + \u03c0/4) = cos(\u03c0/4) \n\nThe cosine of \u03c0/4 is equal to the square root of 2 divided by 2:\n\ncos(\u03c0/4) = \u221a2/2\n\nSo, cos(-3.25\u03c0) = -cos(2.25\u03c0) = - (\u221a2/2) = -0.7071 (approximately).",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 75222057900
+        },
+        {
+            "id": 372,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-210\u00b0)=",
+            "actual_output": "cos(-210\u00b0) = -cos(210\u00b0) = -cos(180\u00b0 - 30\u00b0) = -(-cos(30\u00b0)) = cos(30\u00b0) = \u221a3/2",
+            "expected_output": "-0.8660",
+            "is_correct": -1,
+            "time": 3679636200
+        },
+        {
+            "id": 373,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ntan(9.17\u03c0)=",
+            "actual_output": "To find the tangent of an angle in radians, you can use a calculator or recall the periodic nature of the tangent function. The tangent function has a period of \u03c0, which means that tan(\u03b8) = tan(\u03b8 + n\u03c0) for any integer n.\n\nGiven tan(9.17\u03c0), we can simplify by subtracting the nearest multiple of \u03c0 to stay within a single period of the function:\n\n9.17\u03c0 - 9\u03c0 = 0.17\u03c0\n\nNow we can find the tangent of 0.17\u03c0:\n\ntan(0.17\u03c0) \u2248 tan(0.17 * 180\u00b0/\u03c0) \u2248 tan(29.18\u00b0)\n\nUsing a calculator:\n\ntan(29.18\u00b0) \u2248 0.5545\n\nSo, tan(9.17\u03c0) \u2248 0.5545.",
+            "expected_output": "0.5774",
+            "is_correct": -1,
+            "time": 13477739900
+        },
+        {
+            "id": 374,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\ncos(7.75\u03c0)=",
+            "actual_output": "-0.7071067811865475",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 1970727800
+        },
+        {
+            "id": 375,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-5.75\u03c0)=",
+            "actual_output": "sin(-5.75\u03c0) = -0.7071067811865475",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 2293390000
+        },
+        {
+            "id": 376,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(71)=",
+            "actual_output": "To find the value of logarithm base 2 of 71, you would typically use a calculator or a table of logarithms. However, since I am an AI, I can compute it for you:\n\nlog\u2082(71) \u2248 6.170872\n\nThis is an approximate value, as logarithms are often irrational numbers and have non-terminating decimal representations.",
+            "expected_output": "6.1497",
+            "is_correct": -1,
+            "time": 5358834900
+        },
+        {
+            "id": 377,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(725)=",
+            "actual_output": "To find the value of log base 10 of 725, you would typically use a calculator, as it's not a simple logarithm that can be computed by hand easily. However, I can provide you an approximate value:\n\nlog10(725) \u2248 2.857\n\nKeep in mind that this is a rounded value. For more precision, you would need to use a calculator or logarithmic table.",
+            "expected_output": "2.8603",
+            "is_correct": -1,
+            "time": 6769053000
+        },
+        {
+            "id": 378,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(63)=",
+            "actual_output": "To find the value of log base 10 of 63, you can use a calculator or remember that log base 10 is the power to which 10 must be raised to get the number. However, for an exact answer, you would typically rely on a calculator or a table of logarithms. \n\nUsing a calculator:\n\nlog10(63) \u2248 1.8085",
+            "expected_output": "1.7993",
+            "is_correct": -1,
+            "time": 5545382400
+        },
+        {
+            "id": 379,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(149)=",
+            "actual_output": "To find the logarithm base 2 of 149, you would typically use a calculator or a logarithm table. However, since I am an AI, I can compute it for you:\n\nlog\u2082(149) \u2248 7.1054\n\nThis is an approximate value, as the exact value might involve a non-terminating decimal.",
+            "expected_output": "7.2192",
+            "is_correct": -1,
+            "time": 5833516100
+        },
+        {
+            "id": 380,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(876)=",
+            "actual_output": "To calculate the logarithm base 2 of 876, you would find the power to which 2 must be raised to get 876. Unfortunately, this is a non-integer value and typically requires a calculator or a computer to compute accurately. However, I can provide you with an approximate value.\n\nlog\u2082(876) \u2248 9.771\n\nThis is a rounded approximation to three decimal places. For a more precise value, you would need to use a calculator or a logarithm table.",
+            "expected_output": "9.7748",
+            "is_correct": -1,
+            "time": 7971603600
+        },
+        {
+            "id": 381,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(646)=",
+            "actual_output": "To calculate the logarithm base 2 of 646, you can use the properties of logarithms or a calculator. Since this is a numerical calculation, I'll provide the answer:\n\nlog\u2082(646) \u2248 9.3219",
+            "expected_output": "9.3354",
+            "is_correct": -1,
+            "time": 3909719400
+        },
+        {
+            "id": 382,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(213)=",
+            "actual_output": "To calculate the logarithm base 2 of 213, you would typically use a calculator or a logarithm table. However, since I am an AI, I can compute it for you:\n\nlog\u2082(213) \u2248 7.721566490153286\n\nThis is an approximate value, as the exact value may involve a non-terminating decimal.",
+            "expected_output": "7.7347",
+            "is_correct": -1,
+            "time": 5871340700
+        },
+        {
+            "id": 383,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(102)=",
+            "actual_output": "To find the value of logarithm base 2 of 102, you would typically use a calculator or a logarithm table. However, since I am an AI, I can compute it for you:\n\nlog\u2082(102) \u2248 6.683",
+            "expected_output": "6.6724",
+            "is_correct": -1,
+            "time": 4616956400
+        },
+        {
+            "id": 384,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nln(695)=",
+            "actual_output": "The natural logarithm of 695, denoted as ln(695), cannot be expressed exactly as a finite decimal or a simple fraction. However, it can be approximated using a calculator or numerical methods. Here's an approximate value:\n\n$$\n\\\\ln(695) \\\\approx 6.5614\n$$",
+            "expected_output": "6.5439",
+            "is_correct": -1,
+            "time": 5050113400
+        },
+        {
+            "id": 385,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(495)=",
+            "actual_output": "To find the logarithm of 495 to the base 10, you can use a calculator or the properties of logarithms. However, for exact values, you typically rely on a calculator. Here's the approximate value:\n\n\\\\[ \\\\log_{10}(495) \\\\approx 2.693 \\\\]",
+            "expected_output": "2.6946",
+            "is_correct": -1,
+            "time": 5306317400
+        },
+        {
+            "id": 386,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nln(779)=",
+            "actual_output": "The natural logarithm of 779, denoted as ln(779), cannot be expressed exactly as a finite decimal or a simple fraction. However, it can be approximated using a calculator or numerical methods. Here's an approximate value:\n\n$$\n\\\\ln(779) \\\\approx 6.64385618977\n$$",
+            "expected_output": "6.6580",
+            "is_correct": -1,
+            "time": 5987055900
+        },
+        {
+            "id": 387,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(16)=",
+            "actual_output": "To find the logarithm of 16 to the base 10, you can use the power rule of logarithms, which states that log base a (b^c) = c * log base a (b). In this case, we can express 16 as 10 raised to some power:\n\n16 = 10^x\n\nWe need to find the value of x such that 10^x = 16. Since 16 is not a power of 10, we can't express it directly as 10 to a whole number power. Instead, we can use a calculator or known logarithmic values to find the approximate value of x:\n\nlog10(16) \u2248 1.2041\n\nSo, log base 10 of 16 is approximately 1.2041.",
+            "expected_output": "1.2041",
+            "is_correct": -1,
+            "time": 11347124900
+        },
+        {
+            "id": 388,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(432)=",
+            "actual_output": "To calculate the logarithm base 2 of 432, you can use a calculator or an approximation if you're unable to compute it directly. However, the exact value is not a simple fraction or whole number, so it would typically be expressed as a decimal or in scientific notation.\n\nHere's the approximate value:\n\n\\\\[ \\\\log_2(432) \\\\approx 8.765 \\\\]\n\nThis is a rounded value to three decimal places.",
+            "expected_output": "8.7549",
+            "is_correct": -1,
+            "time": 6295949500
+        },
+        {
+            "id": 389,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(803)=",
+            "actual_output": "To calculate the logarithm base 2 of 803, you can use a calculator or an approximation method. However, an exact value is not easily expressed as a simple fraction or decimal. Here's the logarithm written in terms of a decimal approximation:\n\n\\\\[ \\\\log_2(803) \\\\approx 9.6449 \\\\]\n\nThis is the correct answer to the question, rounded to four decimal places.",
+            "expected_output": "9.6493",
+            "is_correct": -1,
+            "time": 6844365700
+        },
+        {
+            "id": 390,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nln(173)=",
+            "actual_output": "The natural logarithm of 173, denoted as ln(173), cannot be expressed exactly as a finite decimal or a simple fraction. However, it can be approximated using a calculator or numerical methods. Here's an approximate value:\n\n$$\n\\\\ln(173) \\\\approx 5.1648\n$$",
+            "expected_output": "5.1533",
+            "is_correct": -1,
+            "time": 4861142500
+        },
+        {
+            "id": 391,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nln(515)=",
+            "actual_output": "The correct answer is approximately 6.251.",
+            "expected_output": "6.2442",
+            "is_correct": -1,
+            "time": 1425823000
+        },
+        {
+            "id": 392,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(706)=",
+            "actual_output": "To find the value of $\\\\log_2(706)$, you would typically use a calculator or a logarithm table, as it's not a simple value that can be computed mentally. However, I can provide an approximate value.\n\n$$\\\\log_2(706) \\\\approx 9.4618$$",
+            "expected_output": "9.4635",
+            "is_correct": -1,
+            "time": 5417668000
+        },
+        {
+            "id": 393,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(812)=",
+            "actual_output": "To find the logarithm of 812 to the base 10, you can use a calculator or the properties of logarithms. However, since I am an AI and can compute this directly, the correct answer is:\n\nlog10(812) \u2248 2.908",
+            "expected_output": "2.9096",
+            "is_correct": -1,
+            "time": 4417699600
+        },
+        {
+            "id": 394,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(786)=",
+            "actual_output": "To find the value of log base 10 of 786, you would typically use a calculator or a logarithm table. However, since I am an AI, I can compute it for you:\n\nlog base 10 (786) \u2248 2.8942",
+            "expected_output": "2.8954",
+            "is_correct": -1,
+            "time": 5117527400
+        },
+        {
+            "id": 395,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nln(477)=",
+            "actual_output": "The natural logarithm of 477, denoted as ln(477), cannot be expressed exactly as a finite decimal or a simple fraction. However, it can be approximated using a calculator or numerical methods. Here's an approximate value:\n\n$$\n\\\\ln(477) \\\\approx 6.1644\n$$",
+            "expected_output": "6.1675",
+            "is_correct": -1,
+            "time": 4922927200
+        },
+        {
+            "id": 396,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(652)=",
+            "actual_output": "To find the value of log base 10 of 652, you would typically use a calculator, as it's not a simple logarithm that can be computed by hand easily. However, I can provide you an approximate value:\n\nlog10(652) \u2248 2.8147\n\nThis is a rounded value to four decimal places. For a more precise value, you would need to use a calculator or logarithmic table.",
+            "expected_output": "2.8142",
+            "is_correct": -1,
+            "time": 7304377600
+        },
+        {
+            "id": 397,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nln(247)=",
+            "actual_output": "The natural logarithm of 247, denoted as ln(247), cannot be expressed exactly as a finite decimal or a simple fraction. However, it can be approximated using a calculator or numerical methods. Here's an approximate value:\n\n$$\n\\\\ln(247) \\\\approx 5.526\n$$",
+            "expected_output": "5.5094",
+            "is_correct": -1,
+            "time": 4867028800
+        },
+        {
+            "id": 398,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(480)=",
+            "actual_output": "To calculate the logarithm base 2 of 480, you can use the properties of logarithms or a calculator. However, since I am an AI and can compute this directly, the result is:\n\nlog\u2082(480) \u2248 8.171875",
+            "expected_output": "8.9069",
+            "is_correct": -1,
+            "time": 4100983800
+        },
+        {
+            "id": 399,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(797)=",
+            "actual_output": "To find the value of log base 10 of 797, you would typically use a calculator or a logarithm table. However, since I am an AI, I can compute it for you:\n\nlog base 10 (797) \u2248 2.9012",
+            "expected_output": "2.9015",
+            "is_correct": -1,
+            "time": 4447165000
+        },
+        {
+            "id": 400,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\nln(264)=",
+            "actual_output": "The natural logarithm of 264, denoted as ln(264), cannot be expressed exactly as a finite decimal or a simple fraction. However, it can be approximated using a calculator or numerical methods. Here's an approximate value:\n\n$$\n\\\\ln(264) \\\\approx 5.56218\n$$",
+            "expected_output": "5.5759",
+            "is_correct": -1,
+            "time": 5052768200
+        },
+        {
+            "id": 342,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n ( 14 + 96) * 93 + ( 72 * 23)=",
+            "actual_output": "The correct answer to the equation is:\n\n(14 + 96) * 93 + (72 * 23) = 110 * 93 + 1656 = 10230 + 1656 = 11886",
+            "expected_output": "11886.0000",
+            "is_correct": -1,
+            "time": 9748487300
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "fileName": "Qwen1.5-72B-Chat.json",
+    "model": "qwen1.5-72b-chat",
+    "data": [
+        {
+            "id": 241,
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n85\u00f727=",
+            "expected_output": "3.1481"
+        },
+        {
+            "id": 228,
+            "AnswerModel": "qwen1.5-72b-chat",
+            "input": "Only return the correct answer of the question.\n70\u00f761=",
+            "expected_output": "1.1475"
+        }
+    ]
+}

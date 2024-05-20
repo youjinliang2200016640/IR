@@ -1,0 +1,4016 @@
+{
+    "fileName": "Llama-2-13B-Chat.json",
+    "model": "llama-2-13b-chat",
+    "data": [
+        {
+            "id": 0,
+            "class": "Euler Equation.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne^(i\u03c0)+1=",
+            "actual_output": "  Sure!\n\ne^(i\u03c0) + 1 = 0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 990353300
+        },
+        {
+            "id": 1,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n1+1=",
+            "actual_output": "  Sure!\n\n1+1=2",
+            "expected_output": "2",
+            "is_correct": -1,
+            "time": 933005500
+        },
+        {
+            "id": 2,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5+9=",
+            "actual_output": "  Sure!\n\n5+9 = 14",
+            "expected_output": "14",
+            "is_correct": -1,
+            "time": 879091300
+        },
+        {
+            "id": 3,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4+3=",
+            "actual_output": "  Sure!\n\n4+3 = 7",
+            "expected_output": "7",
+            "is_correct": -1,
+            "time": 865843400
+        },
+        {
+            "id": 4,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5+2=",
+            "actual_output": "  Sure!\n\n5+2 = 7",
+            "expected_output": "7",
+            "is_correct": -1,
+            "time": 882654200
+        },
+        {
+            "id": 5,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9+2=",
+            "actual_output": "  Sure!\n\n9+2=11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 856222100
+        },
+        {
+            "id": 6,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6+2=",
+            "actual_output": "  Sure!\n\n6+2 = 8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 890737000
+        },
+        {
+            "id": 7,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0+8=",
+            "actual_output": "  Sure!\n\n0+8 = 8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 6358107200
+        },
+        {
+            "id": 8,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0+10=",
+            "actual_output": "  Sure!\n\n0+10 = 10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 926401100
+        },
+        {
+            "id": 9,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9+3=",
+            "actual_output": "  Sure!\n\n9+3=12",
+            "expected_output": "12",
+            "is_correct": -1,
+            "time": 892894600
+        },
+        {
+            "id": 10,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6+6=",
+            "actual_output": "  Sure!\n\n6+6 = 12",
+            "expected_output": "12",
+            "is_correct": -1,
+            "time": 886617700
+        },
+        {
+            "id": 11,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5+6=",
+            "actual_output": "  Sure!\n\n5+6 = 11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 971425300
+        },
+        {
+            "id": 12,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5+4=",
+            "actual_output": "  Sure!\n\n5+4 = 9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 911327500
+        },
+        {
+            "id": 13,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5+0=",
+            "actual_output": "  Sure!\n\n5+0=5",
+            "expected_output": "5",
+            "is_correct": -1,
+            "time": 869401500
+        },
+        {
+            "id": 14,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5-1=",
+            "actual_output": "  Sure!\n\n5-1 = 4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 1388444500
+        },
+        {
+            "id": 15,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2-2=",
+            "actual_output": "  Sure!\n\n2-2 = 0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 1225524300
+        },
+        {
+            "id": 16,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n10-2=",
+            "actual_output": "  Sure!\n\n10-2 = 8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 1123745400
+        },
+        {
+            "id": 17,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4-10=",
+            "actual_output": "  Sure!\n\n4-10 = 6",
+            "expected_output": "-6",
+            "is_correct": -1,
+            "time": 1045643200
+        },
+        {
+            "id": 18,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2-8=",
+            "actual_output": "  Sure!\n\n2-8 = -6",
+            "expected_output": "-6",
+            "is_correct": -1,
+            "time": 1176828900
+        },
+        {
+            "id": 19,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n10-0=",
+            "actual_output": "  Sure!\n\n10-0 = 10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 9052739500
+        },
+        {
+            "id": 20,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n10-6=",
+            "actual_output": "  Sure!\n\n10-6=4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 1101171100
+        },
+        {
+            "id": 21,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0-5=",
+            "actual_output": "  Sure!\n\n0-5 = -5",
+            "expected_output": "-5",
+            "is_correct": -1,
+            "time": 1022226100
+        },
+        {
+            "id": 22,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9-5=",
+            "actual_output": "  Sure!\n\n9-5 = 4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 959012100
+        },
+        {
+            "id": 23,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n10-4=",
+            "actual_output": "  Sure!\n\n10-4 = 6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 1035986600
+        },
+        {
+            "id": 24,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2-3=",
+            "actual_output": "  Sure!\n\n2-3 = 1",
+            "expected_output": "-1",
+            "is_correct": -1,
+            "time": 1036485200
+        },
+        {
+            "id": 25,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9-1=",
+            "actual_output": "  Sure!\n\n9-1 = 8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 1022491000
+        },
+        {
+            "id": 26,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n65+82=",
+            "actual_output": "  Sure!\n\n65 + 82 = 147",
+            "expected_output": "147",
+            "is_correct": -1,
+            "time": 1552833600
+        },
+        {
+            "id": 27,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n57+70=",
+            "actual_output": "  Sure!\n\n57 + 70 = 127",
+            "expected_output": "127",
+            "is_correct": -1,
+            "time": 2100453700
+        },
+        {
+            "id": 28,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n53+27=",
+            "actual_output": "  Sure!\n\n53 + 27 = 80",
+            "expected_output": "80",
+            "is_correct": -1,
+            "time": 3040847100
+        },
+        {
+            "id": 29,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8+56=",
+            "actual_output": "  Sure!\n\n8 + 56 = 64",
+            "expected_output": "64",
+            "is_correct": -1,
+            "time": 1153301600
+        },
+        {
+            "id": 30,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n21+97=",
+            "actual_output": "  Sure!\n\n21 + 97 = 118",
+            "expected_output": "118",
+            "is_correct": -1,
+            "time": 1275333000
+        },
+        {
+            "id": 31,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n28+34=",
+            "actual_output": "  Sure!\n\n28 + 34 = 62",
+            "expected_output": "62",
+            "is_correct": -1,
+            "time": 7486984300
+        },
+        {
+            "id": 32,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n39+46=",
+            "actual_output": "  Sure!\n\n39 + 46 = 85",
+            "expected_output": "85",
+            "is_correct": -1,
+            "time": 1303258500
+        },
+        {
+            "id": 33,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n34+61=",
+            "actual_output": "  Sure!\n\n34 + 61 = 95",
+            "expected_output": "95",
+            "is_correct": -1,
+            "time": 1306259100
+        },
+        {
+            "id": 34,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2+4=",
+            "actual_output": "  Sure!\n\n2+4 = 6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 1225308200
+        },
+        {
+            "id": 35,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n69+6=",
+            "actual_output": "  Sure!\n\n69 + 6 = 75",
+            "expected_output": "75",
+            "is_correct": -1,
+            "time": 1288448300
+        },
+        {
+            "id": 36,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n16+73=",
+            "actual_output": "  Sure!\n\n16 + 73 = 89",
+            "expected_output": "89",
+            "is_correct": -1,
+            "time": 1299494300
+        },
+        {
+            "id": 37,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n16+59=",
+            "actual_output": "  Sure!\n\n16 + 59 = 75",
+            "expected_output": "75",
+            "is_correct": -1,
+            "time": 1470841900
+        },
+        {
+            "id": 38,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n26+10=",
+            "actual_output": "  Sure!\n\n26 + 10 = 36",
+            "expected_output": "36",
+            "is_correct": -1,
+            "time": 1320794700
+        },
+        {
+            "id": 39,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n97-82=",
+            "actual_output": "  Sure!\n\n97-82 = 15",
+            "expected_output": "15",
+            "is_correct": -1,
+            "time": 1342705700
+        },
+        {
+            "id": 40,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n91-12=",
+            "actual_output": "  Sure!\n\n91-12 = 79",
+            "expected_output": "79",
+            "is_correct": -1,
+            "time": 1284057900
+        },
+        {
+            "id": 41,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n71-88=",
+            "actual_output": "  Sure!\n\n71-88 = 17",
+            "expected_output": "-17",
+            "is_correct": -1,
+            "time": 986503200
+        },
+        {
+            "id": 42,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n99-93=",
+            "actual_output": "  Sure!\n\n99-93 = 6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 910459000
+        },
+        {
+            "id": 43,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9-71=",
+            "actual_output": "  Sure!\n\n9-71 = -62",
+            "expected_output": "-62",
+            "is_correct": -1,
+            "time": 6449916200
+        },
+        {
+            "id": 44,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n15-5=",
+            "actual_output": "  Sure!\n\n15-5=10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 907519900
+        },
+        {
+            "id": 45,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9-23=",
+            "actual_output": "  Sure!\n\n9-23 = -14",
+            "expected_output": "-14",
+            "is_correct": -1,
+            "time": 938389300
+        },
+        {
+            "id": 46,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n68-49=",
+            "actual_output": "  Sure!\n\n68-49 = 19",
+            "expected_output": "19",
+            "is_correct": -1,
+            "time": 1084741000
+        },
+        {
+            "id": 47,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n54-3=",
+            "actual_output": "  Sure!\n\n54-3 = 51",
+            "expected_output": "51",
+            "is_correct": -1,
+            "time": 941671500
+        },
+        {
+            "id": 48,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n7-7=",
+            "actual_output": "  Sure!\n\n7-7 = 0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 866696000
+        },
+        {
+            "id": 49,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n60-85=",
+            "actual_output": "  Sure!\n\n60-85 = -25",
+            "expected_output": "-25",
+            "is_correct": -1,
+            "time": 938647800
+        },
+        {
+            "id": 50,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n79-18=",
+            "actual_output": "  Sure!\n\n79-18 = 61",
+            "expected_output": "61",
+            "is_correct": -1,
+            "time": 948478700
+        },
+        {
+            "id": 51,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n184+44=",
+            "actual_output": "  Sure!\n\n184 + 44 = 228",
+            "expected_output": "228",
+            "is_correct": -1,
+            "time": 1062815800
+        },
+        {
+            "id": 52,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n459+315=",
+            "actual_output": "  Sure!\n\n459 + 315 = 774",
+            "expected_output": "774",
+            "is_correct": -1,
+            "time": 1010442500
+        },
+        {
+            "id": 53,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n461+822=",
+            "actual_output": "  Sure!\n\n461 + 822 = 1283",
+            "expected_output": "1283",
+            "is_correct": -1,
+            "time": 1040328100
+        },
+        {
+            "id": 54,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n64+185=",
+            "actual_output": "  Sure!\n\n64 + 185 = 249",
+            "expected_output": "249",
+            "is_correct": -1,
+            "time": 1067119800
+        },
+        {
+            "id": 55,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n116+16=",
+            "actual_output": "  Sure!\n\n116 + 16 = 132",
+            "expected_output": "132",
+            "is_correct": -1,
+            "time": 6515669600
+        },
+        {
+            "id": 56,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n243+281=",
+            "actual_output": "  Sure!\n\n243 + 281 = 524",
+            "expected_output": "524",
+            "is_correct": -1,
+            "time": 1074879200
+        },
+        {
+            "id": 57,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n501+515=",
+            "actual_output": "  Sure!\n\n501 + 515 = 1016",
+            "expected_output": "1016",
+            "is_correct": -1,
+            "time": 1058615600
+        },
+        {
+            "id": 58,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n636+766=",
+            "actual_output": "  Sure!\n\n636 + 766 = 1396",
+            "expected_output": "1402",
+            "is_correct": -1,
+            "time": 1048931200
+        },
+        {
+            "id": 59,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n870+97=",
+            "actual_output": "  Sure!\n\n870 + 97 = 967",
+            "expected_output": "967",
+            "is_correct": -1,
+            "time": 986444400
+        },
+        {
+            "id": 60,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n672+483=",
+            "actual_output": "  Sure!\n\n672 + 483 = 1155",
+            "expected_output": "1155",
+            "is_correct": -1,
+            "time": 1010221700
+        },
+        {
+            "id": 61,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n701+70=",
+            "actual_output": "  Sure!\n\n701 + 70 = 771",
+            "expected_output": "771",
+            "is_correct": -1,
+            "time": 1011440500
+        },
+        {
+            "id": 62,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n13+934=",
+            "actual_output": "  Sure!\n\n13 + 934 = 947",
+            "expected_output": "947",
+            "is_correct": -1,
+            "time": 1060143300
+        },
+        {
+            "id": 63,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n345+502=",
+            "actual_output": "  Sure!\n\n345 + 502 = 847",
+            "expected_output": "847",
+            "is_correct": -1,
+            "time": 1033302100
+        },
+        {
+            "id": 64,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n35-846=",
+            "actual_output": "  Sure!\n\n35-846 = -711",
+            "expected_output": "-811",
+            "is_correct": -1,
+            "time": 1032691100
+        },
+        {
+            "id": 65,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n721-847=",
+            "actual_output": "  Sure!\n\n721-847 = -126",
+            "expected_output": "-126",
+            "is_correct": -1,
+            "time": 1013556300
+        },
+        {
+            "id": 66,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n945-127=",
+            "actual_output": "  Sure!\n\n945-127 = 818",
+            "expected_output": "818",
+            "is_correct": -1,
+            "time": 1036837200
+        },
+        {
+            "id": 67,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n420-6=",
+            "actual_output": "  Sure!\n\n420-6 = 414",
+            "expected_output": "414",
+            "is_correct": -1,
+            "time": 6434339500
+        },
+        {
+            "id": 68,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n647-516=",
+            "actual_output": "  Sure!\n\n647-516 = 131",
+            "expected_output": "131",
+            "is_correct": -1,
+            "time": 1053589700
+        },
+        {
+            "id": 69,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n58-892=",
+            "actual_output": "  Sure!\n\n58-892 = -834",
+            "expected_output": "-834",
+            "is_correct": -1,
+            "time": 1008397200
+        },
+        {
+            "id": 70,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n311-221=",
+            "actual_output": "  Sure!\n\n311-221 = 90",
+            "expected_output": "90",
+            "is_correct": -1,
+            "time": 984229700
+        },
+        {
+            "id": 71,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n700-64=",
+            "actual_output": "  Sure!\n\n700-64 = 636",
+            "expected_output": "636",
+            "is_correct": -1,
+            "time": 983102300
+        },
+        {
+            "id": 72,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n479-7=",
+            "actual_output": "  Sure!\n\n479-7 = 472",
+            "expected_output": "472",
+            "is_correct": -1,
+            "time": 967810400
+        },
+        {
+            "id": 73,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n408-702=",
+            "actual_output": "  Sure!\n\n408-702 = -294",
+            "expected_output": "-294",
+            "is_correct": -1,
+            "time": 1006850600
+        },
+        {
+            "id": 74,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n585-983=",
+            "actual_output": "  Sure!\n\n585-983 = -408",
+            "expected_output": "-398",
+            "is_correct": -1,
+            "time": 991825400
+        },
+        {
+            "id": 75,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n681-831=",
+            "actual_output": "  Sure!\n\n681-831 = -150",
+            "expected_output": "-150",
+            "is_correct": -1,
+            "time": 993538400
+        },
+        {
+            "id": 76,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n221034337578+352470528397=",
+            "actual_output": "  Sure!\n\n221034337578 + 352470528397 = 253468865375",
+            "expected_output": "573504865975",
+            "is_correct": -1,
+            "time": 1570550100
+        },
+        {
+            "id": 77,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n946195468138+987210728275=",
+            "actual_output": "  Sure!\n\n946195468138 + 987210728275 = 1933402190113",
+            "expected_output": "1933406196413",
+            "is_correct": -1,
+            "time": 1587117300
+        },
+        {
+            "id": 78,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n678420482144+26140223017=",
+            "actual_output": "  Sure!\n\n678420482144 + 26140223017 = 678420482161",
+            "expected_output": "704560705161",
+            "is_correct": -1,
+            "time": 1526585100
+        },
+        {
+            "id": 79,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n234319923293+171632577931=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n234319923293 + 171632577931 = 251952496124",
+            "expected_output": "405952501224",
+            "is_correct": -1,
+            "time": 7234836400
+        },
+        {
+            "id": 80,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n936913097197+52653430976=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n936913097197 + 52653430976 = 146344649593",
+            "expected_output": "989566528173",
+            "is_correct": -1,
+            "time": 1748609700
+        },
+        {
+            "id": 81,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n623690866796+368029869233=",
+            "actual_output": "  Sure!\n\n623690866796 + 368029869233 = 991720536032",
+            "expected_output": "991720736029",
+            "is_correct": -1,
+            "time": 1540120300
+        },
+        {
+            "id": 82,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n352860887460+79374684075=",
+            "actual_output": "  Sure!\n\n352860887460 + 79374684075 = 432207728235",
+            "expected_output": "432235571535",
+            "is_correct": -1,
+            "time": 1580520900
+        },
+        {
+            "id": 83,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n72194749716+960193174801=",
+            "actual_output": "  Sure!\n\n72194749716 + 960193174801 = 98414067207",
+            "expected_output": "1032387924517",
+            "is_correct": -1,
+            "time": 1540771200
+        },
+        {
+            "id": 84,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n786403083014+675944857940=",
+            "actual_output": "  Sure!\n\n786403083014 + 675944857940 = 1462342740454",
+            "expected_output": "1462347940954",
+            "is_correct": -1,
+            "time": 1607634100
+        },
+        {
+            "id": 85,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n774426524175+721318944497=",
+            "actual_output": "  Sure!\n\n774426524175 + 721318944497 = 149574516692",
+            "expected_output": "1495745468672",
+            "is_correct": -1,
+            "time": 1562211100
+        },
+        {
+            "id": 86,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n485625085111+960366573672=",
+            "actual_output": "  Sure!\n\n485625085111 + 960366573672 = 581661660783",
+            "expected_output": "1445991658783",
+            "is_correct": -1,
+            "time": 1576045300
+        },
+        {
+            "id": 87,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n892325753741+494303803604=",
+            "actual_output": "  Sure!\n\n892325753741 + 494303803604 = 1386663557145",
+            "expected_output": "1386629557345",
+            "is_correct": -1,
+            "time": 1607800900
+        },
+        {
+            "id": 88,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n509059009811+621706279712=",
+            "actual_output": "  Sure!\n\n509059009811 + 621706279712 = 572265289523",
+            "expected_output": "1130765289523",
+            "is_correct": -1,
+            "time": 1575263900
+        },
+        {
+            "id": 89,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n979442624617-98210807692=",
+            "actual_output": "  Sure!\n\n979442624617 - 98210807692 = 2704804523",
+            "expected_output": "881231816925",
+            "is_correct": -1,
+            "time": 1497071400
+        },
+        {
+            "id": 90,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n373490079876-646750175965=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n373490079876 - 646750175965 = 308739903811",
+            "expected_output": "-273260096089",
+            "is_correct": -1,
+            "time": 1692487900
+        },
+        {
+            "id": 91,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n447310251389-473614891549=",
+            "actual_output": "  Sure!\n\n447310251389 - 473614891549 = 294295320840",
+            "expected_output": "-26304640160",
+            "is_correct": -1,
+            "time": 7128196400
+        },
+        {
+            "id": 92,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n177202792475-839074306801=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n177202792475 - 839074306801 = 93295361794",
+            "expected_output": "-661871514326",
+            "is_correct": -1,
+            "time": 1707337900
+        },
+        {
+            "id": 93,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n714637232158-667119914538=",
+            "actual_output": "  Sure!\n\n714637232158 - 667119914538 = 547517317620",
+            "expected_output": "47517317620",
+            "is_correct": -1,
+            "time": 1558624200
+        },
+        {
+            "id": 94,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n239717090420-428074519958=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n239717090420 - 428074519958 = 190702579462",
+            "expected_output": "-188357429538",
+            "is_correct": -1,
+            "time": 1781958500
+        },
+        {
+            "id": 95,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n861627389147-822542197957=",
+            "actual_output": "  Sure!\n\n861627389147 - 822542197957 = 449084581590",
+            "expected_output": "39085191190",
+            "is_correct": -1,
+            "time": 1593479200
+        },
+        {
+            "id": 96,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n522334417125-308500866990=",
+            "actual_output": "  Sure!\n\n522334417125 - 308500866990 = 213833550135",
+            "expected_output": "213833550135",
+            "is_correct": -1,
+            "time": 1590803800
+        },
+        {
+            "id": 97,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n927561013643-793883892689=",
+            "actual_output": "  Sure!\n\n927561013643 - 793883892689 = 1441727217754",
+            "expected_output": "133677120954",
+            "is_correct": -1,
+            "time": 1599176800
+        },
+        {
+            "id": 98,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n599957534944-518310453065=",
+            "actual_output": "  Sure!\n\n599957534944 - 518310453065 = 481647081889",
+            "expected_output": "81647081879",
+            "is_correct": -1,
+            "time": 1629292000
+        },
+        {
+            "id": 99,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n948519956922-198789750913=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n948519956922 - 198789750913 = 749730206019",
+            "expected_output": "749730206009",
+            "is_correct": -1,
+            "time": 1769647300
+        },
+        {
+            "id": 100,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n527653082067-742058336841=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n527653082067 - 742058336841 = 455594745226",
+            "expected_output": "-214405254774",
+            "is_correct": -1,
+            "time": 1728032500
+        },
+        {
+            "id": 101,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8+1=",
+            "actual_output": "  Sure!\n\n8+1 = 9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 910863000
+        },
+        {
+            "id": 102,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n10+(-3)=",
+            "actual_output": "  Sure!\n\n10 + (-3) = 7",
+            "expected_output": "7",
+            "is_correct": -1,
+            "time": 948951200
+        },
+        {
+            "id": 103,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-6+(-2)=",
+            "actual_output": "  Sure!\n\n-6 + (-2) = -8",
+            "expected_output": "-8",
+            "is_correct": -1,
+            "time": 6617017700
+        },
+        {
+            "id": 104,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-1+3=",
+            "actual_output": "  Sure!\n\n-1+3 = 2",
+            "expected_output": "2",
+            "is_correct": -1,
+            "time": 1082853000
+        },
+        {
+            "id": 105,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-7+(-1)=",
+            "actual_output": "  Sure!\n\n-7 + (-1) = -8",
+            "expected_output": "-8",
+            "is_correct": -1,
+            "time": 1161676700
+        },
+        {
+            "id": 106,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-4+(-6)=",
+            "actual_output": "  Sure!\n\n-4 + (-6) = -10",
+            "expected_output": "-10",
+            "is_correct": -1,
+            "time": 1253188800
+        },
+        {
+            "id": 107,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n10+7=",
+            "actual_output": "  Sure!\n\n10 + 7 = 17",
+            "expected_output": "17",
+            "is_correct": -1,
+            "time": 993006200
+        },
+        {
+            "id": 108,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5+(-5)=",
+            "actual_output": "  Sure!\n\n5 + (-5) = 0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 957073800
+        },
+        {
+            "id": 109,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2+1=",
+            "actual_output": "  Sure!\n\n2+1 = 3",
+            "expected_output": "3",
+            "is_correct": -1,
+            "time": 965888300
+        },
+        {
+            "id": 110,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-1+(-6)=",
+            "actual_output": "  Sure!\n\n-1 + (-6) = -7",
+            "expected_output": "-7",
+            "is_correct": -1,
+            "time": 952395100
+        },
+        {
+            "id": 111,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4+10=",
+            "actual_output": "  Sure!\n\n4+10 = 14",
+            "expected_output": "14",
+            "is_correct": -1,
+            "time": 939611200
+        },
+        {
+            "id": 112,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3+6=",
+            "actual_output": "  Sure!\n\n3+6=9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 871348900
+        },
+        {
+            "id": 113,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-8+9=",
+            "actual_output": "  Sure!\n\n-8+9 = 1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 898507700
+        },
+        {
+            "id": 114,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9-(-4)=",
+            "actual_output": "  Sure!\n\n9 - (-4) = 13",
+            "expected_output": "13",
+            "is_correct": -1,
+            "time": 992879700
+        },
+        {
+            "id": 115,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9-(-6)=",
+            "actual_output": "  Sure!\n\n9-(-6) = 9 + 6 = 15",
+            "expected_output": "15",
+            "is_correct": -1,
+            "time": 6599733000
+        },
+        {
+            "id": 116,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-5-(-2)=",
+            "actual_output": "  Sure!\n\n-5(-2) = -10",
+            "expected_output": "-3",
+            "is_correct": -1,
+            "time": 980989800
+        },
+        {
+            "id": 117,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-1-9=",
+            "actual_output": "  Sure!\n\n-1-9 = -10",
+            "expected_output": "-10",
+            "is_correct": -1,
+            "time": 999591200
+        },
+        {
+            "id": 118,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-6-10=",
+            "actual_output": "  Sure!\n\n-6-10 = -16",
+            "expected_output": "-16",
+            "is_correct": -1,
+            "time": 958000000
+        },
+        {
+            "id": 119,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5-(-6)=",
+            "actual_output": "  Sure!\n\n5 - (-6) = 11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 920559800
+        },
+        {
+            "id": 120,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-6-(-2)=",
+            "actual_output": "  Sure!\n\n-6-(-2) = 4",
+            "expected_output": "-4",
+            "is_correct": -1,
+            "time": 983113600
+        },
+        {
+            "id": 121,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8-(-7)=",
+            "actual_output": "  Sure!\n\n8 - (-7) = 15",
+            "expected_output": "15",
+            "is_correct": -1,
+            "time": 932314600
+        },
+        {
+            "id": 122,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-8-1=",
+            "actual_output": "  Sure!\n\n-8-1 = -9",
+            "expected_output": "-9",
+            "is_correct": -1,
+            "time": 927394900
+        },
+        {
+            "id": 123,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n1-(-3)=",
+            "actual_output": "  Sure!\n\n1-(-3) = 4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 1206570000
+        },
+        {
+            "id": 124,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6-(-5)=",
+            "actual_output": "  Sure!\n\n6 - (-5) = 11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 956536200
+        },
+        {
+            "id": 125,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9-(-2)=",
+            "actual_output": "  Sure!\n\n9 - (-2) = 11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 963393600
+        },
+        {
+            "id": 126,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.5+0.24=",
+            "actual_output": "  Sure!\n\n0.5 + 0.24 = 0.74",
+            "expected_output": "0.7400",
+            "is_correct": -1,
+            "time": 1053946100
+        },
+        {
+            "id": 127,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.0069+(-0.86)=",
+            "actual_output": "  Sure!\n\n0.0069 + (-0.86) = -0.8531",
+            "expected_output": "-0.8531",
+            "is_correct": -1,
+            "time": 6714591900
+        },
+        {
+            "id": 128,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-39.0+(-0.07)=",
+            "actual_output": "  Sure!\n\n-39.0 + (-0.07) = -39.07",
+            "expected_output": "-39.0700",
+            "is_correct": -1,
+            "time": 1143729200
+        },
+        {
+            "id": 129,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-0.0089+(-22.0)=",
+            "actual_output": "  Sure!\n\n-0.0089 + (-22.0) = -22.0089",
+            "expected_output": "-22.0089",
+            "is_correct": -1,
+            "time": 1215459900
+        },
+        {
+            "id": 130,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-0.0074+(-0.26)=",
+            "actual_output": "  Sure!\n\n0.0074 + (-0.26) = -0.2526",
+            "expected_output": "-0.2674",
+            "is_correct": -1,
+            "time": 1172871400
+        },
+        {
+            "id": 131,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-0.038+0.0092=",
+            "actual_output": "  Sure!\n\n0.038 + 0.0092 = 0.0472",
+            "expected_output": "-0.0288",
+            "is_correct": -1,
+            "time": 1186568500
+        },
+        {
+            "id": 132,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n88.0+(-0.54)=",
+            "actual_output": "  Sure!\n\n88.0 + (-0.54) = 87.46",
+            "expected_output": "87.4600",
+            "is_correct": -1,
+            "time": 1131135200
+        },
+        {
+            "id": 133,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n63.0+0.074=",
+            "actual_output": "  Sure!\n\n63.0 + 0.074 = 63.074",
+            "expected_output": "63.0740",
+            "is_correct": -1,
+            "time": 1172115400
+        },
+        {
+            "id": 134,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-0.0069+3.6=",
+            "actual_output": "  Sure!\n\n0.0069 + 3.6 = 3.6069",
+            "expected_output": "3.5931",
+            "is_correct": -1,
+            "time": 1152940100
+        },
+        {
+            "id": 135,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-16.0+0.08=",
+            "actual_output": "  Sure!\n\n-16.0 + 0.08 = -15.92",
+            "expected_output": "-15.9200",
+            "is_correct": -1,
+            "time": 1117846400
+        },
+        {
+            "id": 136,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n64.0+(-0.83)=",
+            "actual_output": "  Sure!\n\n64.0 + (-0.83) = 63.17",
+            "expected_output": "63.1700",
+            "is_correct": -1,
+            "time": 1131114300
+        },
+        {
+            "id": 137,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-0.0067+0.085=",
+            "actual_output": "  Sure!\n\n0.0067 + 0.085 = 0.0917",
+            "expected_output": "0.0783",
+            "is_correct": -1,
+            "time": 1176343700
+        },
+        {
+            "id": 138,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-0.099+0.84=",
+            "actual_output": "  Sure!\n\n0.099 + 0.84 = 0.939",
+            "expected_output": "0.7410",
+            "is_correct": -1,
+            "time": 1110712200
+        },
+        {
+            "id": 139,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-23.0-(-0.43)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n-23.0 - (-0.43) = -23.43",
+            "expected_output": "-22.5700",
+            "is_correct": -1,
+            "time": 6796599600
+        },
+        {
+            "id": 140,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.054-(-0.045)=",
+            "actual_output": "  Sure!\n\n0.054 - (-0.045) = 0.099",
+            "expected_output": "0.0990",
+            "is_correct": -1,
+            "time": 1178206200
+        },
+        {
+            "id": 141,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.21-0.36=",
+            "actual_output": "  Sure!\n\n0.21-0.36 = -0.15",
+            "expected_output": "-0.1500",
+            "is_correct": -1,
+            "time": 1063931500
+        },
+        {
+            "id": 142,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-23.0-(-2.0)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n-23.0 - (-2.0) = -21.0",
+            "expected_output": "-21.0000",
+            "is_correct": -1,
+            "time": 1238402300
+        },
+        {
+            "id": 143,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-0.06-(-3.1)=",
+            "actual_output": "  Sure!\n\n-0.06 - (-3.1) = 3.04",
+            "expected_output": "3.0400",
+            "is_correct": -1,
+            "time": 1182776600
+        },
+        {
+            "id": 144,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.78-0.79=",
+            "actual_output": "  Sure!\n\n0.78-0.79 = -0.01",
+            "expected_output": "-0.0100",
+            "is_correct": -1,
+            "time": 1056412300
+        },
+        {
+            "id": 145,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-0.39-(-0.19)=",
+            "actual_output": "  Sure!\n\n-0.39 - (-0.19) = -0.58",
+            "expected_output": "-0.2000",
+            "is_correct": -1,
+            "time": 1115495700
+        },
+        {
+            "id": 146,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2.2-(-1.0)=",
+            "actual_output": "  Sure!\n\n2.2 - (-1.0) = 3.2",
+            "expected_output": "3.2000",
+            "is_correct": -1,
+            "time": 1031103700
+        },
+        {
+            "id": 147,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n-0.045-(-0.049)=",
+            "actual_output": "  Sure!\n\n-0.045 - (-0.049) = 0.004",
+            "expected_output": "0.0040",
+            "is_correct": -1,
+            "time": 1198949800
+        },
+        {
+            "id": 148,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n20.0-0.0097=",
+            "actual_output": "  Sure!\n\n20.0 - 0.0097 = 19.9903",
+            "expected_output": "19.9903",
+            "is_correct": -1,
+            "time": 1178562600
+        },
+        {
+            "id": 149,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2.9-0.11=",
+            "actual_output": "  Sure!\n\n2.9-0.11 = 2.8",
+            "expected_output": "2.7900",
+            "is_correct": -1,
+            "time": 983131600
+        },
+        {
+            "id": 150,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.15-0.032=",
+            "actual_output": "  Sure!\n\n0.15 - 0.032 = 0.118",
+            "expected_output": "0.1180",
+            "is_correct": -1,
+            "time": 1139477700
+        },
+        {
+            "id": 151,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n78*64=",
+            "actual_output": "  Sure!\n\n78*64 = 5,072",
+            "expected_output": "4992",
+            "is_correct": -1,
+            "time": 6500472100
+        },
+        {
+            "id": 152,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n62\u00d742=",
+            "actual_output": "  Sure!\n\n62 x 42 = 2584",
+            "expected_output": "2604",
+            "is_correct": -1,
+            "time": 1024373700
+        },
+        {
+            "id": 153,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n37*39=",
+            "actual_output": "  Sure!\n\n37*39 = 1433",
+            "expected_output": "1443",
+            "is_correct": -1,
+            "time": 978669300
+        },
+        {
+            "id": 154,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n61\u00d720=",
+            "actual_output": "  Sure!\n\n61 x 20 = 1220",
+            "expected_output": "1220",
+            "is_correct": -1,
+            "time": 973234400
+        },
+        {
+            "id": 155,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n11\u00d749=",
+            "actual_output": "  Sure!\n\n11 x 49 = 539",
+            "expected_output": "539",
+            "is_correct": -1,
+            "time": 1021527400
+        },
+        {
+            "id": 156,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n44*38=",
+            "actual_output": "  Sure!\n\n44 x 38 = 1692",
+            "expected_output": "1672",
+            "is_correct": -1,
+            "time": 1008247300
+        },
+        {
+            "id": 157,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n7*8=",
+            "actual_output": "  Sure!\n\n7*8 = 56",
+            "expected_output": "56",
+            "is_correct": -1,
+            "time": 906523500
+        },
+        {
+            "id": 158,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8\u00d757=",
+            "actual_output": "  Sure!\n\n8 \u00d7 57 = 456",
+            "expected_output": "456",
+            "is_correct": -1,
+            "time": 968748100
+        },
+        {
+            "id": 159,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n20*16=",
+            "actual_output": "  Sure!\n\n20*16 = 320",
+            "expected_output": "320",
+            "is_correct": -1,
+            "time": 944627500
+        },
+        {
+            "id": 160,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n68\u00d763=",
+            "actual_output": "  Sure!\n\n68 \u00d7 63 = 4364",
+            "expected_output": "4284",
+            "is_correct": -1,
+            "time": 1057371300
+        },
+        {
+            "id": 161,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n46*78=",
+            "actual_output": "  Sure!\n\n46*78 = 3648",
+            "expected_output": "3588",
+            "is_correct": -1,
+            "time": 986354800
+        },
+        {
+            "id": 162,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n38\u00d742=",
+            "actual_output": "  Sure!\n\n38 \u00d7 42 = 1664",
+            "expected_output": "1596",
+            "is_correct": -1,
+            "time": 993875100
+        },
+        {
+            "id": 163,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n61\u00d772=",
+            "actual_output": "  Sure!\n\n61 x 72 = 4322",
+            "expected_output": "4392",
+            "is_correct": -1,
+            "time": 6485542100
+        },
+        {
+            "id": 164,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n63\u00d737=",
+            "actual_output": "  Sure!\n\n63 x 37 = 2341",
+            "expected_output": "2331",
+            "is_correct": -1,
+            "time": 1023513200
+        },
+        {
+            "id": 165,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n58\u00d731=",
+            "actual_output": "  Sure!\n\n58 \u00d7 31 = 1788",
+            "expected_output": "1798",
+            "is_correct": -1,
+            "time": 1013234000
+        },
+        {
+            "id": 166,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n50\u00d789=",
+            "actual_output": "  Sure!\n\n50 x 89 = 4450",
+            "expected_output": "4450",
+            "is_correct": -1,
+            "time": 997657400
+        },
+        {
+            "id": 167,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2\u00d789=",
+            "actual_output": "  Sure!\n\n2 x 89 = 178",
+            "expected_output": "178",
+            "is_correct": -1,
+            "time": 973205700
+        },
+        {
+            "id": 168,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n97*17=",
+            "actual_output": "  Sure!\n\n97*17 = 1629",
+            "expected_output": "1649",
+            "is_correct": -1,
+            "time": 993942300
+        },
+        {
+            "id": 169,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n79*17=",
+            "actual_output": "  Sure!\n\n79*17 = 1333",
+            "expected_output": "1343",
+            "is_correct": -1,
+            "time": 972171500
+        },
+        {
+            "id": 170,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n55\u00d762=",
+            "actual_output": "  Sure!\n\n55 x 62 = 3390",
+            "expected_output": "3410",
+            "is_correct": -1,
+            "time": 1005446400
+        },
+        {
+            "id": 171,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n66\u00d745=",
+            "actual_output": "  Sure!\n\n66 x 45 = 2990",
+            "expected_output": "2970",
+            "is_correct": -1,
+            "time": 1033520100
+        },
+        {
+            "id": 172,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n85\u00d747=",
+            "actual_output": "  Sure!\n\n85 \u00d7 47 = 3995",
+            "expected_output": "3995",
+            "is_correct": -1,
+            "time": 1003192700
+        },
+        {
+            "id": 173,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9\u00d792=",
+            "actual_output": "  Sure!\n\n9 x 92 = 838",
+            "expected_output": "828",
+            "is_correct": -1,
+            "time": 970947600
+        },
+        {
+            "id": 174,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n28*53=",
+            "actual_output": "  Sure!\n\n28*53 = 1484",
+            "expected_output": "1484",
+            "is_correct": -1,
+            "time": 969347100
+        },
+        {
+            "id": 175,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n69\u00d70=",
+            "actual_output": "  Sure!\n\n69 \u00d7 0 = 0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 6533234700
+        },
+        {
+            "id": 176,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3.0\u00d76.0=",
+            "actual_output": "  Sure!\n\n3.0 \u00d7 6.0 = 18.0",
+            "expected_output": "18.0000",
+            "is_correct": -1,
+            "time": 1528126000
+        },
+        {
+            "id": 177,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.7*1.0=",
+            "actual_output": "  Sure!\n\n0.7 * 1.0 = 0.7",
+            "expected_output": "0.7000",
+            "is_correct": -1,
+            "time": 1026458000
+        },
+        {
+            "id": 178,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.1*1.0=",
+            "actual_output": "  Sure!\n\n0.1 * 1.0 = 0.1",
+            "expected_output": "0.1000",
+            "is_correct": -1,
+            "time": 1022816600
+        },
+        {
+            "id": 179,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.6\u00d74.0=",
+            "actual_output": "  Sure!\n\n0.6 x 4.0 = 2.4",
+            "expected_output": "2.4000",
+            "is_correct": -1,
+            "time": 1049010100
+        },
+        {
+            "id": 180,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5.0*0.09=",
+            "actual_output": "  Sure!\n\n5.0*0.09 = 0.45",
+            "expected_output": "0.4500",
+            "is_correct": -1,
+            "time": 1055710100
+        },
+        {
+            "id": 181,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.3\u00d70.3=",
+            "actual_output": "  Sure!\n\n0.3 x 0.3 = 0.09",
+            "expected_output": "0.0900",
+            "is_correct": -1,
+            "time": 1043273600
+        },
+        {
+            "id": 182,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3.0\u00d70.3=",
+            "actual_output": "  Sure!\n\n3.0 \u00d7 0.3 = 0.9",
+            "expected_output": "0.9000",
+            "is_correct": -1,
+            "time": 1063722200
+        },
+        {
+            "id": 183,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.4*5.0=",
+            "actual_output": "  Sure!\n\n0.4 * 5.0 = 2.0",
+            "expected_output": "2.0000",
+            "is_correct": -1,
+            "time": 1021935100
+        },
+        {
+            "id": 184,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8.0*1.0=",
+            "actual_output": "  Sure!\n\n8.0*1.0 = 8",
+            "expected_output": "8.0000",
+            "is_correct": -1,
+            "time": 949489100
+        },
+        {
+            "id": 185,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.0\u00d70.7=",
+            "actual_output": "  Sure!\n\n0.0 x 0.7 = 0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 966677900
+        },
+        {
+            "id": 186,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.1*3.0=",
+            "actual_output": "  Sure!\n\n0.1 * 3.0 = 0.3",
+            "expected_output": "0.3000",
+            "is_correct": -1,
+            "time": 1045195500
+        },
+        {
+            "id": 187,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5.0\u00d70.0=",
+            "actual_output": "  Sure!\n\n5.0 \u00d7 0.0 = 0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 6475597800
+        },
+        {
+            "id": 188,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4.0\u00d70.0=",
+            "actual_output": "  Sure!\n\n4.0 \u00d7 0.0 = 0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 1026136500
+        },
+        {
+            "id": 189,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2.0\u00d76.0=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n2.0 x 6.0 = 12.0",
+            "expected_output": "12.0000",
+            "is_correct": -1,
+            "time": 1241554900
+        },
+        {
+            "id": 190,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8.0*0.8=",
+            "actual_output": "  Sure!\n\n8.0*0.8 = 6.4",
+            "expected_output": "6.4000",
+            "is_correct": -1,
+            "time": 1145928900
+        },
+        {
+            "id": 191,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3.0*2.0=",
+            "actual_output": "  Sure!\n\n3.0*2.0 = 6.0",
+            "expected_output": "6.0000",
+            "is_correct": -1,
+            "time": 1045603700
+        },
+        {
+            "id": 192,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.09*2.0=",
+            "actual_output": "  Sure!\n\n0.09 * 2.0 = 0.18",
+            "expected_output": "0.1800",
+            "is_correct": -1,
+            "time": 1097268000
+        },
+        {
+            "id": 193,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8.0\u00d72.0=",
+            "actual_output": "  Sure!\n\n8.0 x 2.0 = 16.0",
+            "expected_output": "16.0000",
+            "is_correct": -1,
+            "time": 1051953400
+        },
+        {
+            "id": 194,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.4\u00d70.8=",
+            "actual_output": "  Sure!\n\n0.4 x 0.8 = 0.32",
+            "expected_output": "0.3200",
+            "is_correct": -1,
+            "time": 1050722900
+        },
+        {
+            "id": 195,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n1.0\u00d70.7=",
+            "actual_output": "  Sure!\n\n1.0 \u00d7 0.7 = 0.7",
+            "expected_output": "0.7000",
+            "is_correct": -1,
+            "time": 1023290400
+        },
+        {
+            "id": 196,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.0*3.0=",
+            "actual_output": "  Sure!\n\n0.0 * 3.0 = 0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 983938300
+        },
+        {
+            "id": 197,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.9\u00d70.8=",
+            "actual_output": "  Sure!\n\n0.9 x 0.8 = 0.72",
+            "expected_output": "0.7200",
+            "is_correct": -1,
+            "time": 1040387300
+        },
+        {
+            "id": 198,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.6*0.5=",
+            "actual_output": "  Sure!\n\n0.6 * 0.5 = 0.3",
+            "expected_output": "0.3000",
+            "is_correct": -1,
+            "time": 1070640400
+        },
+        {
+            "id": 199,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.6\u00d70.4=",
+            "actual_output": "  Sure!\n\n0.6 x 0.4 = 0.24",
+            "expected_output": "0.2400",
+            "is_correct": -1,
+            "time": 6599309100
+        },
+        {
+            "id": 200,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.1\u00d70.08=",
+            "actual_output": "  Sure!\n\n0.1 x 0.08 = 0.008",
+            "expected_output": "0.0080",
+            "is_correct": -1,
+            "time": 1096524000
+        },
+        {
+            "id": 201,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6152\u00d732179=",
+            "actual_output": "  Sure!\n\n6152 x 32179 = 200,000,088",
+            "expected_output": "197965208",
+            "is_correct": -1,
+            "time": 1550453800
+        },
+        {
+            "id": 202,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n91684*20008=",
+            "actual_output": "  Sure!\n\n91684 * 20008 = 1833632000",
+            "expected_output": "1834413472",
+            "is_correct": -1,
+            "time": 1251333700
+        },
+        {
+            "id": 203,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n62195*99536=",
+            "actual_output": "  Sure!\n\n62195 * 99536 = 612992250",
+            "expected_output": "6190641520",
+            "is_correct": -1,
+            "time": 1279982800
+        },
+        {
+            "id": 204,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5655\u00d742805=",
+            "actual_output": "  Sure!\n\n5655 x 42805 = 244,922,500",
+            "expected_output": "242062275",
+            "is_correct": -1,
+            "time": 1298199000
+        },
+        {
+            "id": 205,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4032*84266=",
+            "actual_output": "  Sure!\n\n4032 * 84266 = 337,892,880",
+            "expected_output": "339760512",
+            "is_correct": -1,
+            "time": 1295637900
+        },
+        {
+            "id": 206,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n35460\u00d726064=",
+            "actual_output": "  Sure!\n\n35460 x 26064 = 926,524,000",
+            "expected_output": "924229440",
+            "is_correct": -1,
+            "time": 1263893300
+        },
+        {
+            "id": 207,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n92978\u00d728845=",
+            "actual_output": "  Sure! Here's the calculation:\n\n92978 \u00d7 28845 = 26789955.",
+            "expected_output": "2681950410",
+            "is_correct": -1,
+            "time": 1376157600
+        },
+        {
+            "id": 208,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n51677\u00d790778=",
+            "actual_output": "  Sure!\n\n51677 \u00d7 90778 = 465,531,336",
+            "expected_output": "4691134706",
+            "is_correct": -1,
+            "time": 1307960500
+        },
+        {
+            "id": 209,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9025*95266=",
+            "actual_output": "  Sure!\n\n9025 * 95266 = 86653500",
+            "expected_output": "859775650",
+            "is_correct": -1,
+            "time": 1303079200
+        },
+        {
+            "id": 210,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n61081\u00d744496=",
+            "actual_output": "  Sure!\n\n61081 \u00d7 44496 = 275,524,664",
+            "expected_output": "2717860176",
+            "is_correct": -1,
+            "time": 1281531100
+        },
+        {
+            "id": 211,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n38010*88739=",
+            "actual_output": "  Sure!\n\n38010 * 88739 = 336,539,700",
+            "expected_output": "3372969390",
+            "is_correct": -1,
+            "time": 6801202600
+        },
+        {
+            "id": 212,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n90161*91816=",
+            "actual_output": "  Sure!\n\n90161 * 91816 = 8,299,966,666",
+            "expected_output": "8278222376",
+            "is_correct": -1,
+            "time": 1502070300
+        },
+        {
+            "id": 213,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n45960*59693=",
+            "actual_output": "  Sure!\n\n45960 * 59693 = 274,938,400",
+            "expected_output": "2743490280",
+            "is_correct": -1,
+            "time": 1810790400
+        },
+        {
+            "id": 214,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n68163\u00d781808=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n68163 \u00d7 81808 = 556,322,444.",
+            "expected_output": "5576278704",
+            "is_correct": -1,
+            "time": 1454822300
+        },
+        {
+            "id": 215,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n41393*30824=",
+            "actual_output": "  Sure!\n\n41393 * 30824 = 125352222.",
+            "expected_output": "1275897832",
+            "is_correct": -1,
+            "time": 1388027600
+        },
+        {
+            "id": 216,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n56854\u00d724834=",
+            "actual_output": "  Sure!\n\n56854 \u00d7 24834 = 139529220.",
+            "expected_output": "1411912236",
+            "is_correct": -1,
+            "time": 1374817500
+        },
+        {
+            "id": 217,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n52443*53061=",
+            "actual_output": "  Sure!\n\n52443 * 53061 = 282,513,333",
+            "expected_output": "2782678023",
+            "is_correct": -1,
+            "time": 1295405600
+        },
+        {
+            "id": 218,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n71786\u00d721638=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n71786 \u00d7 21638 = 155522424",
+            "expected_output": "1553305468",
+            "is_correct": -1,
+            "time": 1425426500
+        },
+        {
+            "id": 219,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n11902\u00d740630=",
+            "actual_output": "  Sure!\n\n11902 x 40630 = 47926200",
+            "expected_output": "483578260",
+            "is_correct": -1,
+            "time": 1242444500
+        },
+        {
+            "id": 220,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n50516\u00d717016=",
+            "actual_output": "  Sure!\n\n50516 \u00d7 17016 = 855,324,800",
+            "expected_output": "859580256",
+            "is_correct": -1,
+            "time": 1282234900
+        },
+        {
+            "id": 221,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n40588\u00d74621=",
+            "actual_output": "  Sure!\n\n40588 \u00d7 4621 = 190,316,888",
+            "expected_output": "187557148",
+            "is_correct": -1,
+            "time": 1255424100
+        },
+        {
+            "id": 222,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n88254\u00d726228=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n88254 \u00d7 26228 = 22652244.",
+            "expected_output": "2314725912",
+            "is_correct": -1,
+            "time": 1364254800
+        },
+        {
+            "id": 223,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n98113*35747=",
+            "actual_output": "  Sure!\n\n98113 * 35747 = 345,551,101",
+            "expected_output": "3507245411",
+            "is_correct": -1,
+            "time": 6960424000
+        },
+        {
+            "id": 224,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n28445*80568=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n28445 * 80568 = 229,556,600",
+            "expected_output": "2291756760",
+            "is_correct": -1,
+            "time": 1491141100
+        },
+        {
+            "id": 225,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n37739*66015=",
+            "actual_output": "  Sure!\n\n37739 * 66015 = 249,976,450",
+            "expected_output": "2491340085",
+            "is_correct": -1,
+            "time": 1523892600
+        },
+        {
+            "id": 226,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n16\u00f783=",
+            "actual_output": "  Sure!\n\n16 \u00f7 83 = 2",
+            "expected_output": "0.1928",
+            "is_correct": -1,
+            "time": 1337798400
+        },
+        {
+            "id": 227,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n53\u00f730=",
+            "actual_output": "  Sure!\n\n53 \u00f7 30 = 1",
+            "expected_output": "1.7667",
+            "is_correct": -1,
+            "time": 1004126200
+        },
+        {
+            "id": 228,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n70\u00f761=",
+            "actual_output": "  Sure!\n\n70 \u00f7 61 = 1",
+            "expected_output": "1.1475",
+            "is_correct": -1,
+            "time": 986933400
+        },
+        {
+            "id": 229,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n50/95=",
+            "actual_output": "  Sure!\n\n50/95 = 0.53",
+            "expected_output": "0.5263",
+            "is_correct": -1,
+            "time": 1011876700
+        },
+        {
+            "id": 230,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n89/34=",
+            "actual_output": "  Sure!\n\n89/34 = 2",
+            "expected_output": "2.6176",
+            "is_correct": -1,
+            "time": 951903200
+        },
+        {
+            "id": 231,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n52\u00f740=",
+            "actual_output": "  Sure!\n\n52 \u00f7 40 = 1",
+            "expected_output": "1.3000",
+            "is_correct": -1,
+            "time": 991378400
+        },
+        {
+            "id": 232,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n59\u00f714=",
+            "actual_output": "  Sure!\n\n59 \u00f7 14 = 4",
+            "expected_output": "4.2143",
+            "is_correct": -1,
+            "time": 989601700
+        },
+        {
+            "id": 233,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n79/79=",
+            "actual_output": "  Sure!\n\n79/79 = 1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 919975100
+        },
+        {
+            "id": 234,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n15\u00f733=",
+            "actual_output": "  Sure!\n\n15 \u00f7 33 = 4",
+            "expected_output": "0.4545",
+            "is_correct": -1,
+            "time": 1382234100
+        },
+        {
+            "id": 235,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n28/39=",
+            "actual_output": "  Sure!\n\n28/39 = 7",
+            "expected_output": "0.7179",
+            "is_correct": -1,
+            "time": 6455175700
+        },
+        {
+            "id": 236,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2\u00f73=",
+            "actual_output": "  Sure!\n\n2\u00f73 = 0",
+            "expected_output": "0.6667",
+            "is_correct": -1,
+            "time": 915269400
+        },
+        {
+            "id": 237,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n94/89=",
+            "actual_output": "  Sure!\n\n94/89 = 1",
+            "expected_output": "1.0562",
+            "is_correct": -1,
+            "time": 913329000
+        },
+        {
+            "id": 238,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n82/40=",
+            "actual_output": "  Sure!\n\n82/40 = 2",
+            "expected_output": "2.0500",
+            "is_correct": -1,
+            "time": 944171200
+        },
+        {
+            "id": 239,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n52\u00f742=",
+            "actual_output": "  Sure!\n\n52 \u00f7 42 = 1",
+            "expected_output": "1.2381",
+            "is_correct": -1,
+            "time": 964331400
+        },
+        {
+            "id": 240,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n31\u00f755=",
+            "actual_output": "  Sure!\n\n31 \u00f7 55 = 0 with a remainder of 24.",
+            "expected_output": "0.5636",
+            "is_correct": -1,
+            "time": 1181105200
+        },
+        {
+            "id": 241,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n85\u00f727=",
+            "actual_output": "  Sure!\n\n85 \u00f7 27 = 3",
+            "expected_output": "3.1481",
+            "is_correct": -1,
+            "time": 1007837000
+        },
+        {
+            "id": 242,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n71/22=",
+            "actual_output": "  Sure!\n\n71/22 = 3",
+            "expected_output": "3.2273",
+            "is_correct": -1,
+            "time": 1046575700
+        },
+        {
+            "id": 243,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n77\u00f757=",
+            "actual_output": "  Sure!\n\n77 \u00f7 57 = 1",
+            "expected_output": "1.3509",
+            "is_correct": -1,
+            "time": 982813200
+        },
+        {
+            "id": 244,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n33/22=",
+            "actual_output": "  Sure!\n\n33/22 = 1",
+            "expected_output": "1.5000",
+            "is_correct": -1,
+            "time": 1260508300
+        },
+        {
+            "id": 245,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n63\u00f74=",
+            "actual_output": "  Sure!\n\n63 \u00f7 4 = 15",
+            "expected_output": "15.7500",
+            "is_correct": -1,
+            "time": 1015466200
+        },
+        {
+            "id": 246,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n97\u00f71=",
+            "actual_output": "  Sure!\n\n97 \u00f7 1 = 97",
+            "expected_output": "97.0000",
+            "is_correct": -1,
+            "time": 1002002900
+        },
+        {
+            "id": 247,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n98/83=",
+            "actual_output": "  Sure!\n\n98/83 = 1",
+            "expected_output": "1.1807",
+            "is_correct": -1,
+            "time": 6461158900
+        },
+        {
+            "id": 248,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n14\u00f785=",
+            "actual_output": "  Sure!\n\n14 \u00f7 85 = 1",
+            "expected_output": "0.1647",
+            "is_correct": -1,
+            "time": 994610000
+        },
+        {
+            "id": 249,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n82/34=",
+            "actual_output": "  Sure!\n\n82/34 = 2",
+            "expected_output": "2.4118",
+            "is_correct": -1,
+            "time": 1007902400
+        },
+        {
+            "id": 250,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n50/18=",
+            "actual_output": "  Sure!\n\n50/18 = 2",
+            "expected_output": "2.7778",
+            "is_correct": -1,
+            "time": 971090700
+        },
+        {
+            "id": 251,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2^3=",
+            "actual_output": "  Sure!\n\n2^3 = 8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 1021230900
+        },
+        {
+            "id": 252,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3^3=",
+            "actual_output": "  Sure!\n\n3^3 = 27",
+            "expected_output": "27",
+            "is_correct": -1,
+            "time": 1116275500
+        },
+        {
+            "id": 253,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4^2=",
+            "actual_output": "  Sure!\n\n4^2 = 16",
+            "expected_output": "16",
+            "is_correct": -1,
+            "time": 893563200
+        },
+        {
+            "id": 254,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n10^3=",
+            "actual_output": "  Sure!\n\n10^3 = 1000",
+            "expected_output": "1000",
+            "is_correct": -1,
+            "time": 972862500
+        },
+        {
+            "id": 255,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n1^3=",
+            "actual_output": "  Sure!\n\n1^3 = 1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 1054031400
+        },
+        {
+            "id": 256,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n1^3=",
+            "actual_output": "  Sure!\n\n1^3 = 1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 897243300
+        },
+        {
+            "id": 257,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n7^4=",
+            "actual_output": "  Sure!\n\n7^4 = 34",
+            "expected_output": "2401",
+            "is_correct": -1,
+            "time": 959420800
+        },
+        {
+            "id": 258,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2^2=",
+            "actual_output": "  Sure!\n\n2^2 = 4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 984596700
+        },
+        {
+            "id": 259,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8^4=",
+            "actual_output": "  Sure!\n\n8^4 = 656",
+            "expected_output": "4096",
+            "is_correct": -1,
+            "time": 6522033300
+        },
+        {
+            "id": 260,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n7^4=",
+            "actual_output": "  Sure!\n\n7^4 = 34",
+            "expected_output": "2401",
+            "is_correct": -1,
+            "time": 962001500
+        },
+        {
+            "id": 261,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3^2=",
+            "actual_output": "  Sure!\n\n3^2 = 9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 945688000
+        },
+        {
+            "id": 262,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3^4=",
+            "actual_output": "  Sure!\n\n3^4 = 81",
+            "expected_output": "81",
+            "is_correct": -1,
+            "time": 910275400
+        },
+        {
+            "id": 263,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n1^3=",
+            "actual_output": "  Sure!\n\n1^3 = 1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 897676500
+        },
+        {
+            "id": 264,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5^2=",
+            "actual_output": "  Sure!\n\n5^2 = 25",
+            "expected_output": "25",
+            "is_correct": -1,
+            "time": 966646500
+        },
+        {
+            "id": 265,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9^4=",
+            "actual_output": "  Sure!\n\n9^4 = 6561",
+            "expected_output": "6561",
+            "is_correct": -1,
+            "time": 1074471200
+        },
+        {
+            "id": 266,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6^2=",
+            "actual_output": "  Sure!\n\n6^2 = 36",
+            "expected_output": "36",
+            "is_correct": -1,
+            "time": 929613900
+        },
+        {
+            "id": 267,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3^3=",
+            "actual_output": "  Sure!\n\n3^3 = 27",
+            "expected_output": "27",
+            "is_correct": -1,
+            "time": 957054700
+        },
+        {
+            "id": 268,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8^4=",
+            "actual_output": "  Sure!\n\n8^4 = 656",
+            "expected_output": "4096",
+            "is_correct": -1,
+            "time": 1129704400
+        },
+        {
+            "id": 269,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6^3=",
+            "actual_output": "  Sure!\n\n6^3 = 216",
+            "expected_output": "216",
+            "is_correct": -1,
+            "time": 940266900
+        },
+        {
+            "id": 270,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3^3=",
+            "actual_output": "  Sure!\n\n3^3 = 27",
+            "expected_output": "27",
+            "is_correct": -1,
+            "time": 934356400
+        },
+        {
+            "id": 271,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3^4=",
+            "actual_output": "  Sure!\n\n3^4 = 81",
+            "expected_output": "81",
+            "is_correct": -1,
+            "time": 6453968700
+        },
+        {
+            "id": 272,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3^4=",
+            "actual_output": "  Sure!\n\n3^4 = 81",
+            "expected_output": "81",
+            "is_correct": -1,
+            "time": 946012900
+        },
+        {
+            "id": 273,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5^4=",
+            "actual_output": "  Sure!\n\n5^4 = 625",
+            "expected_output": "625",
+            "is_correct": -1,
+            "time": 1271190300
+        },
+        {
+            "id": 274,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6^2=",
+            "actual_output": "  Sure!\n\n6^2 = 36",
+            "expected_output": "36",
+            "is_correct": -1,
+            "time": 1140542700
+        },
+        {
+            "id": 275,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6^3=",
+            "actual_output": "  Sure!\n\n6^3 = 216",
+            "expected_output": "216",
+            "is_correct": -1,
+            "time": 1149930000
+        },
+        {
+            "id": 276,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n7.3947^2.5384=",
+            "actual_output": "  Sure!\n\n7.3947^2.5384 = 20.59",
+            "expected_output": "160.5713",
+            "is_correct": -1,
+            "time": 1223826200
+        },
+        {
+            "id": 277,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6.4401^2.9179=",
+            "actual_output": "  Sure!\n\n6.4401^2.9179 = 21.3553",
+            "expected_output": "229.228",
+            "is_correct": -1,
+            "time": 1242561500
+        },
+        {
+            "id": 278,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3.0117^3.8748=",
+            "actual_output": "  Sure!\n\n3.0117^3.8748 = 12.35",
+            "expected_output": "71.6638",
+            "is_correct": -1,
+            "time": 1206665500
+        },
+        {
+            "id": 279,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2.242^3.7342=",
+            "actual_output": "  Sure!\n\n2.242^3.7342 = 11.355",
+            "expected_output": "20.3865",
+            "is_correct": -1,
+            "time": 1178015200
+        },
+        {
+            "id": 280,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5.3126^3.8767=",
+            "actual_output": "  Sure!\n\n5.3126^3.8767 = 125.52",
+            "expected_output": "648.333",
+            "is_correct": -1,
+            "time": 1227668800
+        },
+        {
+            "id": 281,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8.8132^2.1955=",
+            "actual_output": "  Sure!\n\n8.8132^2.1955 = 22.35",
+            "expected_output": "118.8614",
+            "is_correct": -1,
+            "time": 1220118600
+        },
+        {
+            "id": 282,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3.1699^2.0687=",
+            "actual_output": "  Sure!\n\n3.1699^2.0687 = 10.0000",
+            "expected_output": "10.8771",
+            "is_correct": -1,
+            "time": 1216641600
+        },
+        {
+            "id": 283,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n7.6455^3.5773=",
+            "actual_output": "  Sure!\n\n7.6455^3.5773 = 231.42",
+            "expected_output": "1446.1319",
+            "is_correct": -1,
+            "time": 6671957400
+        },
+        {
+            "id": 284,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0.8723^2.159=",
+            "actual_output": "  Sure!\n\n0.8723^2.159 = 1.995",
+            "expected_output": "0.7446",
+            "is_correct": -1,
+            "time": 1158601100
+        },
+        {
+            "id": 285,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4.3651^3.1882=",
+            "actual_output": "  Sure!\n\n4.3651^3.1882 = 12.7553",
+            "expected_output": "109.7563",
+            "is_correct": -1,
+            "time": 1207157300
+        },
+        {
+            "id": 286,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4.8237^3.2066=",
+            "actual_output": "  Sure!\n\n4.8237^3.2066 = 16.39",
+            "expected_output": "155.3557",
+            "is_correct": -1,
+            "time": 1192852500
+        },
+        {
+            "id": 287,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4.8173^2.3094=",
+            "actual_output": "  Sure!\n\n4.8173^2.3094 = 12.35",
+            "expected_output": "37.7456",
+            "is_correct": -1,
+            "time": 1162446300
+        },
+        {
+            "id": 288,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3.8519^3.8141=",
+            "actual_output": "  Sure!\n\n3.8519^3.8141 = 12.355",
+            "expected_output": "171.3259",
+            "is_correct": -1,
+            "time": 1220681900
+        },
+        {
+            "id": 289,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6.3411^3.2906=",
+            "actual_output": "  Sure!\n\n6.3411^3.2906 = 215.52",
+            "expected_output": "436.1168",
+            "is_correct": -1,
+            "time": 1188362600
+        },
+        {
+            "id": 290,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4.8903^3.4272=",
+            "actual_output": "  Sure!\n\n4.8903^3.4272 = 17.3429",
+            "expected_output": "230.4043",
+            "is_correct": -1,
+            "time": 1220831100
+        },
+        {
+            "id": 291,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6.4981^2.6289=",
+            "actual_output": "  Sure!\n\n6.4981^2.6289 = 177.42",
+            "expected_output": "137.0043",
+            "is_correct": -1,
+            "time": 1240159000
+        },
+        {
+            "id": 292,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n1.1604^2.9258=",
+            "actual_output": "  Sure!\n\n1.1604^2.9258 = 3.452",
+            "expected_output": "1.5454",
+            "is_correct": -1,
+            "time": 1165944100
+        },
+        {
+            "id": 293,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4.9319^2.3231=",
+            "actual_output": "  Sure!\n\n4.9319^2.3231 = 123.45",
+            "expected_output": "40.7325",
+            "is_correct": -1,
+            "time": 1196166900
+        },
+        {
+            "id": 294,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n5.5507^2.0434=",
+            "actual_output": "  Sure!\n\n5.5507^2.0434 = 12,997.31",
+            "expected_output": "33.1895",
+            "is_correct": -1,
+            "time": 1254845800
+        },
+        {
+            "id": 295,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8.7876^2.5821=",
+            "actual_output": "  Sure!\n\n8.7876^2.5821 = 234.59",
+            "expected_output": "273.6324",
+            "is_correct": -1,
+            "time": 6761507700
+        },
+        {
+            "id": 296,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8.6112^3.7534=",
+            "actual_output": "  Sure!\n\n8.6112^3.7534 = 221.42",
+            "expected_output": "3233.4638",
+            "is_correct": -1,
+            "time": 1199572500
+        },
+        {
+            "id": 297,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8.964^2.7688=",
+            "actual_output": "  Sure!\n\n8.964^2.7688 = 250.32",
+            "expected_output": "433.7976",
+            "is_correct": -1,
+            "time": 1234282000
+        },
+        {
+            "id": 298,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8.6178^2.9802=",
+            "actual_output": "  Sure!\n\n8.6178^2.9802 = 25.65",
+            "expected_output": "613.2935",
+            "is_correct": -1,
+            "time": 1261040300
+        },
+        {
+            "id": 299,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2.3797^2.9197=",
+            "actual_output": "  Sure!\n\n2.3797^2.9197 = 7.3553",
+            "expected_output": "12.5699",
+            "is_correct": -1,
+            "time": 1254384200
+        },
+        {
+            "id": 300,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n9.2725^3.8687=",
+            "actual_output": "  Sure!\n\n9.2725^3.8687 = 32.1552",
+            "expected_output": "5518.1617",
+            "is_correct": -1,
+            "time": 1187472900
+        },
+        {
+            "id": 301,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne+e=",
+            "actual_output": "  Sure!\n\ne + e = 2",
+            "expected_output": "5.4366",
+            "is_correct": -1,
+            "time": 935865000
+        },
+        {
+            "id": 302,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n4+e=",
+            "actual_output": "  Sure!\n\n4 + e = 5",
+            "expected_output": "6.7183",
+            "is_correct": -1,
+            "time": 884934000
+        },
+        {
+            "id": 303,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne+pi=",
+            "actual_output": "  e + \u03c0 = 2.71828",
+            "expected_output": "5.8598",
+            "is_correct": -1,
+            "time": 1090350500
+        },
+        {
+            "id": 304,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n8-e=",
+            "actual_output": "  Sure!\n\n8-e = 0",
+            "expected_output": "5.2817",
+            "is_correct": -1,
+            "time": 944140500
+        },
+        {
+            "id": 305,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n7/\u03c0=",
+            "actual_output": "  Sure!\n\n7/\u03c0 = 2",
+            "expected_output": "2.2282",
+            "is_correct": -1,
+            "time": 904198700
+        },
+        {
+            "id": 306,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n0*2=",
+            "actual_output": "  Sure!\n\n0*2 = 0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 993876800
+        },
+        {
+            "id": 307,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n\u03c0*4=",
+            "actual_output": "  Sure!\n\n\u03c0*4 = 12",
+            "expected_output": "12.5660",
+            "is_correct": -1,
+            "time": 6444500000
+        },
+        {
+            "id": 308,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n\u03c0*\u03c0=",
+            "actual_output": "  Sure!\n\n\u03c0*\u03c0 = 32",
+            "expected_output": "9.8690",
+            "is_correct": -1,
+            "time": 1078856500
+        },
+        {
+            "id": 309,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne*e=",
+            "actual_output": "  Sure!\n\ne*e = e^2 = 2",
+            "expected_output": "7.3890",
+            "is_correct": -1,
+            "time": 1096337700
+        },
+        {
+            "id": 310,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne*2=",
+            "actual_output": "  Sure!\n\ne*2 = 4",
+            "expected_output": "5.4366",
+            "is_correct": -1,
+            "time": 901560700
+        },
+        {
+            "id": 311,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n\u03c0+e=",
+            "actual_output": "  Sure!\n\n\u03c0 + e = 3.14159",
+            "expected_output": "5.8598",
+            "is_correct": -1,
+            "time": 1055480200
+        },
+        {
+            "id": 312,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne-e=",
+            "actual_output": "  Sure!\n\ne^2 = 4",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 917426800
+        },
+        {
+            "id": 313,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n1+e=",
+            "actual_output": "  Sure!\n\n1 + e = 2",
+            "expected_output": "3.7183",
+            "is_correct": -1,
+            "time": 958843300
+        },
+        {
+            "id": 314,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\npi/\u03c0=",
+            "actual_output": "  Sure!\n\n\u03c0 = 3.14",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 937200900
+        },
+        {
+            "id": 315,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n2+6=",
+            "actual_output": "  Sure!\n\n2+6 = 8",
+            "expected_output": "8.0000",
+            "is_correct": -1,
+            "time": 910032800
+        },
+        {
+            "id": 316,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne*pi=",
+            "actual_output": "  Sure!\n\ne\u03c0 = 2.782745623744756",
+            "expected_output": "8.5395",
+            "is_correct": -1,
+            "time": 1213997600
+        },
+        {
+            "id": 317,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n7*\u03c0=",
+            "actual_output": "  Sure!\n\n7*\u03c0 = 22",
+            "expected_output": "21.9905",
+            "is_correct": -1,
+            "time": 960480000
+        },
+        {
+            "id": 318,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n6-5=",
+            "actual_output": "  Sure!\n\n6-5 = 1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 911779600
+        },
+        {
+            "id": 319,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne-pi=",
+            "actual_output": "  Sure!\n\ne\u03c0 = 2.71828",
+            "expected_output": "-0.4232",
+            "is_correct": -1,
+            "time": 6573550600
+        },
+        {
+            "id": 320,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\npi-\u03c0=",
+            "actual_output": "  Sure!\n\n\u03c0-\u03c0 = 0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 919356700
+        },
+        {
+            "id": 321,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n3*4=",
+            "actual_output": "  Sure!\n\n3*4 = 12",
+            "expected_output": "12.0000",
+            "is_correct": -1,
+            "time": 939088400
+        },
+        {
+            "id": 322,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n\u03c0-1=",
+            "actual_output": "  Sure!\n\n\u03c0-1 = 0",
+            "expected_output": "2.1415",
+            "is_correct": -1,
+            "time": 932807100
+        },
+        {
+            "id": 323,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne-5=",
+            "actual_output": "  Sure!\n\ne-5 = -5",
+            "expected_output": "-2.2817",
+            "is_correct": -1,
+            "time": 929669000
+        },
+        {
+            "id": 324,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne+pi=",
+            "actual_output": "  e + \u03c0 = 2.71828",
+            "expected_output": "5.8598",
+            "is_correct": -1,
+            "time": 988364800
+        },
+        {
+            "id": 325,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ne-pi=",
+            "actual_output": "  Sure!\n\ne\u03c0 = 2.71828",
+            "expected_output": "-0.4232",
+            "is_correct": -1,
+            "time": 986671000
+        },
+        {
+            "id": 326,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 44 + 97) * 61 * 65=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(44 + 97) * 61 * 65 =\n\n(141) * 61 * 65 =\n\n9175 =\n\nSo the correct answer is 9175.",
+            "expected_output": "559065.0000",
+            "is_correct": -1,
+            "time": 1957119100
+        },
+        {
+            "id": 327,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 4 * 64) * ( 39 + 12)=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(4 * 64) * (39 + 12) = 4 * 64 * 51 = 256 * 51 = 13,064.",
+            "expected_output": "13056.0000",
+            "is_correct": -1,
+            "time": 1866887100
+        },
+        {
+            "id": 328,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 33 + 26=",
+            "actual_output": "  Sure!\n\n33 + 26 = 59",
+            "expected_output": "59.0000",
+            "is_correct": -1,
+            "time": 1012273000
+        },
+        {
+            "id": 329,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 32 / 15=",
+            "actual_output": "  Sure!\n\n32 / 15 = 2",
+            "expected_output": "2.1333",
+            "is_correct": -1,
+            "time": 963431900
+        },
+        {
+            "id": 330,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 8 - 90) / 95=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(8 - 90) / 95 = -81 / 95 = -0.853",
+            "expected_output": "-0.8632",
+            "is_correct": -1,
+            "time": 2011012000
+        },
+        {
+            "id": 331,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 31 + 55) / ( 19 + 76)=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(31 + 55) / (19 + 76) = (86) / (95) = 0.91",
+            "expected_output": "0.9053",
+            "is_correct": -1,
+            "time": 7079544500
+        },
+        {
+            "id": 332,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 50 * 67=",
+            "actual_output": "  Sure!\n\n50 * 67 = 3350",
+            "expected_output": "3350.0000",
+            "is_correct": -1,
+            "time": 999200400
+        },
+        {
+            "id": 333,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 11 * 17) + 56=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(11 * 17) + 56 = 11 * 17 = 187 + 56 = 243",
+            "expected_output": "243.0000",
+            "is_correct": -1,
+            "time": 1575978000
+        },
+        {
+            "id": 334,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 97 - 56) / ( 97 + 56) * 31=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(97 - 56) / (97 + 56) * 31 =\n\n(41) / (153) * 31 =\n\n41 / 31 * 31 =\n\n13 * 31 =\n\n39\n\nSo the correct answer is 39.",
+            "expected_output": "8.3072",
+            "is_correct": -1,
+            "time": 2381380200
+        },
+        {
+            "id": 335,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 0 * ( 95 * 68) + ( 26 / 45)=",
+            "actual_output": "  Sure! Here's the calculation:\n\n0 * (95 * 68) + (26 / 45) =\n\n0 * 6280 + 26 / 45 =\n\n6280 + 26 =\n\n6306",
+            "expected_output": "0.5778",
+            "is_correct": -1,
+            "time": 2027745800
+        },
+        {
+            "id": 336,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 21 - ( 2 + 31)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\n21 - (2 + 31) = 21 - 33 = -12.",
+            "expected_output": "-12.0000",
+            "is_correct": -1,
+            "time": 1406615500
+        },
+        {
+            "id": 337,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 88 - 42) * ( 33 * 41) - ( 13 - 27)=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(88 - 42) * (33 * 41) - (13 - 27)\n\n= 46 * 133 - 13 - 27\n\n= 6249 - 36 - 27\n\n= 6216\n\nSo the correct answer is 6216.",
+            "expected_output": "62252.0000",
+            "is_correct": -1,
+            "time": 2534997200
+        },
+        {
+            "id": 338,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 79 + 75) / ( 46 + 51)=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(79 + 75) / (46 + 51) = (154) / (97) = 1.58",
+            "expected_output": "1.5876",
+            "is_correct": -1,
+            "time": 1595350700
+        },
+        {
+            "id": 339,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 2 + 42) + ( 56 + 50)=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(2 + 42) + (56 + 50) =\n\n2 + 42 = 44\n\n56 + 50 = 106\n\nSo the final answer is:\n\n44 + 106 = 148",
+            "expected_output": "150.0000",
+            "is_correct": -1,
+            "time": 2161713400
+        },
+        {
+            "id": 340,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 38 + ( 26 / 67) * 19=",
+            "actual_output": "  Sure! Here's the calculation:\n\n38 + (26 / 67) * 19 =\n\n38 + (26 / 67) * 19 =\n\n38 + (26 / 67) * 19 =\n\n38 + 26 * 19 / 67 =\n\n38 + 26 * 19 / 67 =\n\n38 + 26 * 19 =\n\n38 + 26 * 19 =\n\n38 + 424 =\n\n38 + 424 =\n\n462",
+            "expected_output": "45.3731",
+            "is_correct": -1,
+            "time": 3637337000
+        },
+        {
+            "id": 341,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 75 + ( 35 / 30) + 72=",
+            "actual_output": "  Sure! Here's the calculation:\n\n75 + (35 / 30) + 72 =\n\n75 + 35 / 30 =\n\n75 + 11 =\n\n86",
+            "expected_output": "148.1667",
+            "is_correct": -1,
+            "time": 1752516800
+        },
+        {
+            "id": 342,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 14 + 96) * 93 + ( 72 * 23)=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(14 + 96) * 93 + (72 * 23) =\n\n(100 * 93) + (72 * 23) =\n\n9300 + 1644 =\n\n10944",
+            "expected_output": "11886.0000",
+            "is_correct": -1,
+            "time": 2139381100
+        },
+        {
+            "id": 343,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 21 - 43) / 50 + ( 65 - 37)=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(21 - 43) / 50 = -22 / 50 = -0.44\n\n(65 - 37) = 28\n\nSo, the final answer is:\n\n-0.44 + 28 = 27.56",
+            "expected_output": "27.5600",
+            "is_correct": -1,
+            "time": 7810576200
+        },
+        {
+            "id": 344,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 86 + 57) / 43=",
+            "actual_output": "  Sure!\n\n(86 + 57) / 43 = 143 / 43 = 3",
+            "expected_output": "3.3256",
+            "is_correct": -1,
+            "time": 1259556000
+        },
+        {
+            "id": 345,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 22 * ( 6 - 53)=",
+            "actual_output": "  Sure! Here's the calculation:\n\n22 * (6 - 53) = 22 * (-47) = -994.",
+            "expected_output": "-1034.0000",
+            "is_correct": -1,
+            "time": 1458108400
+        },
+        {
+            "id": 346,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(24 + 22) * 18 / 79 = (46) * 18 / 79 = 824 / 79 = 10.5\n\nSo the correct answer is 10.5.",
+            "expected_output": "10.4810",
+            "is_correct": -1,
+            "time": 2038373500
+        },
+        {
+            "id": 347,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n ( 47 - 99) * 86 * 99=",
+            "actual_output": "  Sure! Here's the calculation:\n\n(47 - 99) * 86 * 99 = 0 * 86 * 99 = 0",
+            "expected_output": "-442728.0000",
+            "is_correct": -1,
+            "time": 1493228300
+        },
+        {
+            "id": 348,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 16 / 51=",
+            "actual_output": "  Sure!\n\n16 / 51 = 3",
+            "expected_output": "0.3137",
+            "is_correct": -1,
+            "time": 961611600
+        },
+        {
+            "id": 349,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 51 - ( 92 - 77)=",
+            "actual_output": "  Sure! Here's the calculation:\n\n51 - (92 - 77) = 51 - 15 = 36",
+            "expected_output": "36.0000",
+            "is_correct": -1,
+            "time": 1359848700
+        },
+        {
+            "id": 350,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\n 77 / 81=",
+            "actual_output": "  Sure!\n\n77 / 81 = 0.95",
+            "expected_output": "0.9506",
+            "is_correct": -1,
+            "time": 1001738100
+        },
+        {
+            "id": 351,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-0.5\u03c0)=",
+            "actual_output": "  Sure!\n\nsin(-0.5\u03c0) = -1",
+            "expected_output": "-1.0000",
+            "is_correct": -1,
+            "time": 979603800
+        },
+        {
+            "id": 352,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ntan(-0.17\u03c0)=",
+            "actual_output": "  Sure!\n\ntan(-0.17\u03c0) = -1.42",
+            "expected_output": "-0.5774",
+            "is_correct": -1,
+            "time": 1138461100
+        },
+        {
+            "id": 353,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(5.25\u03c0)=",
+            "actual_output": "  Sure!\n\ncos(5.25\u03c0) = -0.7071067811865477",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 1337022400
+        },
+        {
+            "id": 354,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-0.75\u03c0)=",
+            "actual_output": "  Sure!\n\ncos(-0.75\u03c0) = -0.866025403998386",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 1338924300
+        },
+        {
+            "id": 355,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(0.75\u03c0)=",
+            "actual_output": "  Sure!\n\ncos(0.75\u03c0) = -0.7071067811865486",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 6882468600
+        },
+        {
+            "id": 356,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-3.75\u03c0)=",
+            "actual_output": "  Sure!\n\nsin(-3.75\u03c0) = -1",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 1029003600
+        },
+        {
+            "id": 357,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ntan(2.67\u03c0)=",
+            "actual_output": "  Sure!\n\ntan(2.67\u03c0) = 1.42",
+            "expected_output": "-1.7321",
+            "is_correct": -1,
+            "time": 1108806900
+        },
+        {
+            "id": 358,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-9.75\u03c0)=",
+            "actual_output": "  Sure!\n\ncos(-9.75\u03c0) = -1",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 1129496300
+        },
+        {
+            "id": 359,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-7.0\u03c0)=",
+            "actual_output": "  Sure!\n\ncos(-7.0\u03c0) = -1",
+            "expected_output": "-1.0000",
+            "is_correct": -1,
+            "time": 1032963900
+        },
+        {
+            "id": 360,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-2.0\u03c0)=",
+            "actual_output": "  Sure!\n\ncos(-2.0\u03c0) = -1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 980393400
+        },
+        {
+            "id": 361,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ntan(-5.17\u03c0)=",
+            "actual_output": "  Sure!\n\ntan(-5.17\u03c0) = -1.42",
+            "expected_output": "-0.5774",
+            "is_correct": -1,
+            "time": 1068698500
+        },
+        {
+            "id": 362,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-10.0\u03c0)=",
+            "actual_output": "  Sure!\n\nsin(-10.0\u03c0) = -1",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 1009343400
+        },
+        {
+            "id": 363,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-1.5\u03c0)=",
+            "actual_output": "  Sure!\n\nsin(-1.5\u03c0) = -1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 972975000
+        },
+        {
+            "id": 364,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ntan(1.0\u03c0)=",
+            "actual_output": "  Sure!\n\ntan(1.0\u03c0) = 0",
+            "expected_output": "-0.0000",
+            "is_correct": -1,
+            "time": 962793400
+        },
+        {
+            "id": 365,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-30\u00b0)=",
+            "actual_output": "  Sure!\n\nsin(-30\u00b0) = -1/2",
+            "expected_output": "-0.5000",
+            "is_correct": -1,
+            "time": 1068445400
+        },
+        {
+            "id": 366,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-60\u00b0)=",
+            "actual_output": "  Sure!\n\ncos(-60\u00b0) = -1",
+            "expected_output": "0.5000",
+            "is_correct": -1,
+            "time": 961779300
+        },
+        {
+            "id": 367,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nsin(7.5\u03c0)=",
+            "actual_output": "  Sure!\n\nsin(7.5\u03c0) = -0.816497592",
+            "expected_output": "-1.0000",
+            "is_correct": -1,
+            "time": 6693096300
+        },
+        {
+            "id": 368,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nsin(7.0\u03c0)=",
+            "actual_output": "  Sure!\n\nsin(7.0\u03c0) = -1",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 975649600
+        },
+        {
+            "id": 369,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ntan(-6.33\u03c0)=",
+            "actual_output": "  Sure!\n\ntan(-6.33\u03c0) = -1.42",
+            "expected_output": "-1.7321",
+            "is_correct": -1,
+            "time": 1056087000
+        },
+        {
+            "id": 370,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-300\u00b0)=",
+            "actual_output": "  Sure!\n\ncos(-300\u00b0) = -1",
+            "expected_output": "0.5000",
+            "is_correct": -1,
+            "time": 990049100
+        },
+        {
+            "id": 371,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-3.25\u03c0)=",
+            "actual_output": "  Sure!\n\ncos(-3.25\u03c0) = -1",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 1004677200
+        },
+        {
+            "id": 372,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(-210\u00b0)=",
+            "actual_output": "  Sure!\n\ncos(-210\u00b0) = -1",
+            "expected_output": "-0.8660",
+            "is_correct": -1,
+            "time": 974393200
+        },
+        {
+            "id": 373,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ntan(9.17\u03c0)=",
+            "actual_output": "  Sure!\n\ntan(9.17\u03c0) = 2.35",
+            "expected_output": "0.5774",
+            "is_correct": -1,
+            "time": 1066466600
+        },
+        {
+            "id": 374,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\ncos(7.75\u03c0)=",
+            "actual_output": "  Sure!\n\ncos(7.75\u03c0) = -0.5",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 1022622200
+        },
+        {
+            "id": 375,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nsin(-5.75\u03c0)=",
+            "actual_output": "  Sure!\n\nsin(-5.75\u03c0) = -1",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 1009430700
+        },
+        {
+            "id": 376,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(71)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\nlog 2(71) = 4",
+            "expected_output": "6.1497",
+            "is_correct": -1,
+            "time": 1116904000
+        },
+        {
+            "id": 377,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(725)=",
+            "actual_output": "  Sure!\n\nlog 10(725) = 3",
+            "expected_output": "2.8603",
+            "is_correct": -1,
+            "time": 1033805800
+        },
+        {
+            "id": 378,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(63)=",
+            "actual_output": "  Sure!\n\nlog 10(63) = 5",
+            "expected_output": "1.7993",
+            "is_correct": -1,
+            "time": 1090988400
+        },
+        {
+            "id": 379,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(149)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\nlog 2(149) = 6",
+            "expected_output": "7.2192",
+            "is_correct": -1,
+            "time": 6844996200
+        },
+        {
+            "id": 380,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(876)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\nlog 2(876) = 12",
+            "expected_output": "9.7748",
+            "is_correct": -1,
+            "time": 1840477600
+        },
+        {
+            "id": 381,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(646)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\nlog 2(646) = 12",
+            "expected_output": "9.3354",
+            "is_correct": -1,
+            "time": 1298263400
+        },
+        {
+            "id": 382,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(213)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\nlog 2(213) = 6",
+            "expected_output": "7.7347",
+            "is_correct": -1,
+            "time": 2090932200
+        },
+        {
+            "id": 383,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(102)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\nlog 2(102) = 5",
+            "expected_output": "6.6724",
+            "is_correct": -1,
+            "time": 1194676900
+        },
+        {
+            "id": 384,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nln(695)=",
+            "actual_output": "  Sure!\n\nln(695) = 13.31",
+            "expected_output": "6.5439",
+            "is_correct": -1,
+            "time": 1099123200
+        },
+        {
+            "id": 385,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(495)=",
+            "actual_output": "  Sure!\n\nlog 10(495) = 4",
+            "expected_output": "2.6946",
+            "is_correct": -1,
+            "time": 1024688400
+        },
+        {
+            "id": 386,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nln(779)=",
+            "actual_output": "  Sure!\n\nln(779) = 10",
+            "expected_output": "6.6580",
+            "is_correct": -1,
+            "time": 1647295000
+        },
+        {
+            "id": 387,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(16)=",
+            "actual_output": "  Sure!\n\nlog 10(16) = 4",
+            "expected_output": "1.2041",
+            "is_correct": -1,
+            "time": 988629100
+        },
+        {
+            "id": 388,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(432)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\nlog 2(432) = 6",
+            "expected_output": "8.7549",
+            "is_correct": -1,
+            "time": 1191802200
+        },
+        {
+            "id": 389,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(803)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\nlog 2(803) = 10",
+            "expected_output": "9.6493",
+            "is_correct": -1,
+            "time": 1178966300
+        },
+        {
+            "id": 390,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nln(173)=",
+            "actual_output": "  Sure!\n\nln(173) = 4.61",
+            "expected_output": "5.1533",
+            "is_correct": -1,
+            "time": 1061283500
+        },
+        {
+            "id": 391,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nln(515)=",
+            "actual_output": "  Sure!\n\nln(515) = 6",
+            "expected_output": "6.2442",
+            "is_correct": -1,
+            "time": 6603170000
+        },
+        {
+            "id": 392,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(706)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\nlog 2(706) = 4",
+            "expected_output": "9.4635",
+            "is_correct": -1,
+            "time": 1274938700
+        },
+        {
+            "id": 393,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(812)=",
+            "actual_output": "  Sure!\n\nlog 10(812) = 3",
+            "expected_output": "2.9096",
+            "is_correct": -1,
+            "time": 1060504700
+        },
+        {
+            "id": 394,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(786)=",
+            "actual_output": "  Sure!\n\nlog 10(786) = 3",
+            "expected_output": "2.8954",
+            "is_correct": -1,
+            "time": 1688621200
+        },
+        {
+            "id": 395,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nln(477)=",
+            "actual_output": "  Sure!\n\nln(477) = 6",
+            "expected_output": "6.1675",
+            "is_correct": -1,
+            "time": 976840500
+        },
+        {
+            "id": 396,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(652)=",
+            "actual_output": "  Sure!\n\nlog 10(652) = 4",
+            "expected_output": "2.8142",
+            "is_correct": -1,
+            "time": 1754369000
+        },
+        {
+            "id": 397,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nln(247)=",
+            "actual_output": "  Sure!\n\nln(247) = 4",
+            "expected_output": "5.5094",
+            "is_correct": -1,
+            "time": 4290057100
+        },
+        {
+            "id": 398,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 2(480)=",
+            "actual_output": "  Sure! Here's the correct answer:\n\nlog 2(480) = 6",
+            "expected_output": "8.9069",
+            "is_correct": -1,
+            "time": 1441710200
+        },
+        {
+            "id": 399,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nlog 10(797)=",
+            "actual_output": "  Sure!\n\nlog 10(797) = 3",
+            "expected_output": "2.9015",
+            "is_correct": -1,
+            "time": 1036535800
+        },
+        {
+            "id": 400,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "Only return the correct answer of the question.\nln(264)=",
+            "actual_output": "  Sure!\n\nln(264) = 8",
+            "expected_output": "5.5759",
+            "is_correct": -1,
+            "time": 1022013400
+        }
+    ]
+}
