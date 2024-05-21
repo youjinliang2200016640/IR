@@ -901,6 +901,2556 @@
             "expected_output": "881231816925",
             "is_correct": -1,
             "time": 1318557300
+        },
+        {
+            "id": 0,
+            "class": "Euler Equation.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ne^(i\u03c0)+1=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 756006500
+        },
+        {
+            "id": 1,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n1+1=",
+            "actual_output": "2",
+            "expected_output": "2",
+            "is_correct": -1,
+            "time": 733831200
+        },
+        {
+            "id": 2,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+9=",
+            "actual_output": "14",
+            "expected_output": "14",
+            "is_correct": -1,
+            "time": 784051700
+        },
+        {
+            "id": 3,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4+3=",
+            "actual_output": "7",
+            "expected_output": "7",
+            "is_correct": -1,
+            "time": 755699500
+        },
+        {
+            "id": 4,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+2=",
+            "actual_output": "7",
+            "expected_output": "7",
+            "is_correct": -1,
+            "time": 748606700
+        },
+        {
+            "id": 5,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9+2=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 6317551100
+        },
+        {
+            "id": 6,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6+2=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 743780200
+        },
+        {
+            "id": 7,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0+8=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 762218900
+        },
+        {
+            "id": 8,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0+10=",
+            "actual_output": "10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 881214200
+        },
+        {
+            "id": 9,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9+3=",
+            "actual_output": "12",
+            "expected_output": "12",
+            "is_correct": -1,
+            "time": 764917000
+        },
+        {
+            "id": 10,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6+6=",
+            "actual_output": "12",
+            "expected_output": "12",
+            "is_correct": -1,
+            "time": 764899100
+        },
+        {
+            "id": 11,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+6=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 814557800
+        },
+        {
+            "id": 12,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+4=",
+            "actual_output": "9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 733438300
+        },
+        {
+            "id": 13,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+0=",
+            "actual_output": "5",
+            "expected_output": "5",
+            "is_correct": -1,
+            "time": 857045900
+        },
+        {
+            "id": 14,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5-1=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 725237200
+        },
+        {
+            "id": 15,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2-2=",
+            "actual_output": "The correct answer to the question \"2-2=\" is 0. \n\nTo arrive at this answer, we need to subtract 2 from 2. When we subtract 2 from 2, we are essentially taking away 2 from 2. Since we are taking away the same number that we started with, we are left with nothing. Therefore, the answer to the question \"2-2=\" is 0.",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 3806516700
+        },
+        {
+            "id": 16,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n10-2=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 737918300
+        },
+        {
+            "id": 17,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4-10=",
+            "actual_output": "The correct answer to the question \"4-10=\" is -6. \n\nTo arrive at this answer, we need to subtract 10 from 4. We can do this by starting with 4 and counting backwards 10 times. \n\n4, 3, 2, 1, 0, -1, -2, -3, -4, -5, -6. \n\nTherefore, the answer is -6.",
+            "expected_output": "-6",
+            "is_correct": -1,
+            "time": 4703987100
+        },
+        {
+            "id": 18,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2-8=",
+            "actual_output": "The correct answer to the question \"2-8=\" is -6. \n\nTo arrive at this answer, we need to subtract 8 from 2. When we subtract a larger number from a smaller number, we need to borrow from the next place value. In this case, we need to borrow from the tens place, which means we need to subtract 1 from the ones place and add 10 to the tens place. \n\nSo, we have:\n\n2-8 = -6\n\nTherefore, the correct answer to the question \"2-8=\" is -6.",
+            "expected_output": "-6",
+            "is_correct": -1,
+            "time": 5471253700
+        },
+        {
+            "id": 19,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n10-0=",
+            "actual_output": "10-0=10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 969032700
+        },
+        {
+            "id": 20,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n10-6=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 922742500
+        },
+        {
+            "id": 21,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0-5=",
+            "actual_output": "The correct answer to the question \"0-5=\" is -5. \n\nTo understand why, let's break down the problem. \n\nWhen we subtract a number from 0, we are essentially moving backwards on the number line. For example, if we subtract 3 from 0, we move 3 steps backwards on the number line, which takes us to -3. \n\nSimilarly, when we subtract 5 from 0, we move 5 steps backwards on the number line, which takes us to -5. \n\nTherefore, the correct answer to the question \"0-5=\" is -5.",
+            "expected_output": "-5",
+            "is_correct": -1,
+            "time": 5770539800
+        },
+        {
+            "id": 22,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-5=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 739893200
+        },
+        {
+            "id": 23,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n10-4=",
+            "actual_output": "6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 696679800
+        },
+        {
+            "id": 24,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2-3=",
+            "actual_output": "The correct answer to the question \"2-3=\" is -1. \n\nTo arrive at this answer, we need to subtract 3 from 2. When we do this, we get a negative number, which means that the result is less than zero. \n\nIt's important to note that when we subtract a larger number from a smaller number, the result will always be negative. In this case, 3 is larger than 2, so the result is negative. \n\nIt's also important to remember that when we subtract a negative number from another negative number, the result will be positive. For example, -2 - (-3) = 1. \n\nIn summary, the correct answer to the question \"2-3=\" is -1, which is obtained by subtracting 3 from 2.",
+            "expected_output": "-1",
+            "is_correct": -1,
+            "time": 7415470700
+        },
+        {
+            "id": 25,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-1=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 746525000
+        },
+        {
+            "id": 26,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n65+82=",
+            "actual_output": "The correct answer to the question \"65+82=\" is 147. \n\nTo arrive at this answer, we need to add the two numbers together. We can do this by lining up the digits in the ones place and adding them together, then moving to the tens place and adding those digits together, and so on. \n\nStarting with the ones place, we have 5 and 2, which add up to 7. Moving to the tens place, we have 6 and 8, which add up to 14. Finally, we move to the hundreds place, where we have no digits to add. \n\nTherefore, the final answer is 147.",
+            "expected_output": "147",
+            "is_correct": -1,
+            "time": 6577092300
+        },
+        {
+            "id": 27,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n57+70=",
+            "actual_output": "57+70=127",
+            "expected_output": "127",
+            "is_correct": -1,
+            "time": 1091293300
+        },
+        {
+            "id": 28,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n53+27=",
+            "actual_output": "80",
+            "expected_output": "80",
+            "is_correct": -1,
+            "time": 880440800
+        },
+        {
+            "id": 29,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8+56=",
+            "actual_output": "64",
+            "expected_output": "64",
+            "is_correct": -1,
+            "time": 6293828100
+        },
+        {
+            "id": 30,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n21+97=",
+            "actual_output": "118",
+            "expected_output": "118",
+            "is_correct": -1,
+            "time": 829077700
+        },
+        {
+            "id": 31,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n28+34=",
+            "actual_output": "62",
+            "expected_output": "62",
+            "is_correct": -1,
+            "time": 877577800
+        },
+        {
+            "id": 32,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n39+46=",
+            "actual_output": "85",
+            "expected_output": "85",
+            "is_correct": -1,
+            "time": 794194900
+        },
+        {
+            "id": 33,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n34+61=",
+            "actual_output": "95",
+            "expected_output": "95",
+            "is_correct": -1,
+            "time": 792798400
+        },
+        {
+            "id": 34,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2+4=",
+            "actual_output": "6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 785322100
+        },
+        {
+            "id": 35,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n69+6=",
+            "actual_output": "75",
+            "expected_output": "75",
+            "is_correct": -1,
+            "time": 841389000
+        },
+        {
+            "id": 36,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n16+73=",
+            "actual_output": "89",
+            "expected_output": "89",
+            "is_correct": -1,
+            "time": 832582900
+        },
+        {
+            "id": 37,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n16+59=",
+            "actual_output": "75",
+            "expected_output": "75",
+            "is_correct": -1,
+            "time": 799897900
+        },
+        {
+            "id": 38,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n26+10=",
+            "actual_output": "36",
+            "expected_output": "36",
+            "is_correct": -1,
+            "time": 841121500
+        },
+        {
+            "id": 39,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n97-82=",
+            "actual_output": "15",
+            "expected_output": "15",
+            "is_correct": -1,
+            "time": 745549400
+        },
+        {
+            "id": 40,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n91-12=",
+            "actual_output": "79",
+            "expected_output": "79",
+            "is_correct": -1,
+            "time": 876617300
+        },
+        {
+            "id": 41,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n71-88=",
+            "actual_output": "The correct answer to the question \"71-88=\" is -17. \n\nTo arrive at this answer, we need to subtract 88 from 71. We can do this by starting with the ones place and subtracting 8 from 1, which gives us -7. Since we cannot have a negative digit in the ones place, we need to borrow 1 from the tens place, which makes the tens place 6. We then subtract 8 from 6, which gives us -2. Again, we cannot have a negative digit in the tens place, so we need to borrow 1 from the hundreds place, which makes the hundreds place 6. We then subtract 8 from 6, which gives us -2. Finally, we subtract 8 from 7, which gives us -1. Therefore, the correct answer to the question \"71-88=\" is -17.",
+            "expected_output": "-17",
+            "is_correct": -1,
+            "time": 14265042800
+        },
+        {
+            "id": 42,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n99-93=",
+            "actual_output": "6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 738153200
+        },
+        {
+            "id": 43,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-71=",
+            "actual_output": "The correct answer to the question \"9-71=\" is -62. \n\nTo arrive at this answer, we need to subtract 71 from 9. We can do this by borrowing from the tens place, which gives us 19. Then, we can subtract 71 from 19, which gives us -52. Finally, we can add the borrowed 10 to -52, which gives us -62. \n\nTherefore, the correct answer to the question \"9-71=\" is -62.",
+            "expected_output": "-62",
+            "is_correct": -1,
+            "time": 5480618500
+        },
+        {
+            "id": 44,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n15-5=",
+            "actual_output": "10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 832132300
+        },
+        {
+            "id": 45,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-23=",
+            "actual_output": "The correct answer to the question \"9-23=\" is -14. \n\nTo arrive at this answer, we need to subtract 23 from 9. We can do this by borrowing from the tens place, which gives us 19. Then, we can subtract 23 from 19, which gives us -4. Finally, we can add the negative sign to get the final answer of -14.",
+            "expected_output": "-14",
+            "is_correct": -1,
+            "time": 4486276700
+        },
+        {
+            "id": 46,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n68-49=",
+            "actual_output": "19",
+            "expected_output": "19",
+            "is_correct": -1,
+            "time": 841212800
+        },
+        {
+            "id": 47,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n54-3=",
+            "actual_output": "54-3=51",
+            "expected_output": "51",
+            "is_correct": -1,
+            "time": 1021631400
+        },
+        {
+            "id": 48,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n7-7=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 741005200
+        },
+        {
+            "id": 49,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n60-85=",
+            "actual_output": "The correct answer to the question \"60-85=\" is -25. \n\nTo arrive at this answer, we need to subtract 85 from 60. We can do this by starting with the ones place and subtracting 5 from 0, which gives us -5. Then we move to the tens place and subtract 8 from 6, which gives us -2. Finally, we add the two results together to get -25. \n\nIt's important to note that the answer is negative because 85 is greater than 60, so the result is a negative number.",
+            "expected_output": "-25",
+            "is_correct": -1,
+            "time": 6049688300
+        },
+        {
+            "id": 50,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n79-18=",
+            "actual_output": "61",
+            "expected_output": "61",
+            "is_correct": -1,
+            "time": 816400600
+        },
+        {
+            "id": 51,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n184+44=",
+            "actual_output": "228",
+            "expected_output": "228",
+            "is_correct": -1,
+            "time": 825188500
+        },
+        {
+            "id": 52,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n459+315=",
+            "actual_output": "774",
+            "expected_output": "774",
+            "is_correct": -1,
+            "time": 858294300
+        },
+        {
+            "id": 53,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n461+822=",
+            "actual_output": "461+822=1283",
+            "expected_output": "1283",
+            "is_correct": -1,
+            "time": 6660797900
+        },
+        {
+            "id": 54,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n64+185=",
+            "actual_output": "The correct answer to the question \"64+185=\" is 249. \n\nTo arrive at this answer, we can use the standard algorithm for addition. We start by adding the ones digits of the two numbers, which gives us 4+5=9. We then move on to the tens digits, which gives us 6+8=14. Since 14 is greater than 10, we carry the 1 over to the hundreds place and write down the 4. Finally, we add the hundreds digits, which gives us 1+1=2. Putting it all together, we get 249 as the final answer.",
+            "expected_output": "249",
+            "is_correct": -1,
+            "time": 6747595300
+        },
+        {
+            "id": 55,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n116+16=",
+            "actual_output": "132",
+            "expected_output": "132",
+            "is_correct": -1,
+            "time": 823848900
+        },
+        {
+            "id": 56,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n243+281=",
+            "actual_output": "524",
+            "expected_output": "524",
+            "is_correct": -1,
+            "time": 836333000
+        },
+        {
+            "id": 57,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n501+515=",
+            "actual_output": "1016",
+            "expected_output": "1016",
+            "is_correct": -1,
+            "time": 933647900
+        },
+        {
+            "id": 58,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n636+766=",
+            "actual_output": "1402",
+            "expected_output": "1402",
+            "is_correct": -1,
+            "time": 891729900
+        },
+        {
+            "id": 59,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n870+97=",
+            "actual_output": "870+97=967",
+            "expected_output": "967",
+            "is_correct": -1,
+            "time": 1117126800
+        },
+        {
+            "id": 60,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n672+483=",
+            "actual_output": "1155",
+            "expected_output": "1155",
+            "is_correct": -1,
+            "time": 911693700
+        },
+        {
+            "id": 61,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n701+70=",
+            "actual_output": "771",
+            "expected_output": "771",
+            "is_correct": -1,
+            "time": 817019000
+        },
+        {
+            "id": 62,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n13+934=",
+            "actual_output": "1047",
+            "expected_output": "947",
+            "is_correct": -1,
+            "time": 855496600
+        },
+        {
+            "id": 63,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n345+502=",
+            "actual_output": "847",
+            "expected_output": "847",
+            "is_correct": -1,
+            "time": 885848600
+        },
+        {
+            "id": 64,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n35-846=",
+            "actual_output": "-811",
+            "expected_output": "-811",
+            "is_correct": -1,
+            "time": 904818900
+        },
+        {
+            "id": 65,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n721-847=",
+            "actual_output": "-126",
+            "expected_output": "-126",
+            "is_correct": -1,
+            "time": 6326416600
+        },
+        {
+            "id": 66,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n945-127=",
+            "actual_output": "818",
+            "expected_output": "818",
+            "is_correct": -1,
+            "time": 809681500
+        },
+        {
+            "id": 67,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n420-6=",
+            "actual_output": "414",
+            "expected_output": "414",
+            "is_correct": -1,
+            "time": 844621900
+        },
+        {
+            "id": 0,
+            "class": "Euler Equation.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ne^(i\u03c0)+1=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 764605500
+        },
+        {
+            "id": 1,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n1+1=",
+            "actual_output": "2",
+            "expected_output": "2",
+            "is_correct": -1,
+            "time": 772443800
+        },
+        {
+            "id": 2,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+9=",
+            "actual_output": "14",
+            "expected_output": "14",
+            "is_correct": -1,
+            "time": 823773300
+        },
+        {
+            "id": 3,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4+3=",
+            "actual_output": "7",
+            "expected_output": "7",
+            "is_correct": -1,
+            "time": 850333300
+        },
+        {
+            "id": 4,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+2=",
+            "actual_output": "7",
+            "expected_output": "7",
+            "is_correct": -1,
+            "time": 783873800
+        },
+        {
+            "id": 5,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9+2=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 822508300
+        },
+        {
+            "id": 6,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6+2=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 908266100
+        },
+        {
+            "id": 7,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0+8=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 854288900
+        },
+        {
+            "id": 8,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0+10=",
+            "actual_output": "10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 842181600
+        },
+        {
+            "id": 9,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9+3=",
+            "actual_output": "12",
+            "expected_output": "12",
+            "is_correct": -1,
+            "time": 863818500
+        },
+        {
+            "id": 10,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6+6=",
+            "actual_output": "12",
+            "expected_output": "12",
+            "is_correct": -1,
+            "time": 939277300
+        },
+        {
+            "id": 11,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+6=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 788851800
+        },
+        {
+            "id": 12,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+4=",
+            "actual_output": "9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 6271545900
+        },
+        {
+            "id": 13,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+0=",
+            "actual_output": "5",
+            "expected_output": "5",
+            "is_correct": -1,
+            "time": 776918200
+        },
+        {
+            "id": 14,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5-1=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 846229300
+        },
+        {
+            "id": 15,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2-2=",
+            "actual_output": "The correct answer to the question \"2-2=\" is 0. \n\nTo arrive at this answer, we need to subtract 2 from 2. When we subtract 2 from 2, we are essentially taking away 2 from 2. Since we are taking away the same number that we started with, we are left with nothing. Therefore, the answer to the question \"2-2=\" is 0.",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 5451482000
+        },
+        {
+            "id": 16,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n10-2=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 716008400
+        },
+        {
+            "id": 17,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4-10=",
+            "actual_output": "The correct answer to the question \"4-10=\" is -6. \n\nTo arrive at this answer, we need to subtract 10 from 4. We can do this by starting with 4 and counting backwards 10 times. \n\n4, 3, 2, 1, 0, -1, -2, -3, -4, -5, -6. \n\nTherefore, the answer is -6.",
+            "expected_output": "-6",
+            "is_correct": -1,
+            "time": 66530516800
+        },
+        {
+            "id": 18,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2-8=",
+            "actual_output": "The correct answer to the question \"2-8=\" is -6. \n\nTo arrive at this answer, we need to subtract 8 from 2. When we subtract a larger number from a smaller number, we need to borrow from the next place value. In this case, we need to borrow from the tens place, which means we need to subtract 1 from the ones place and add 10 to the tens place. \n\nSo, we have:\n\n2-8 = -6\n\nTherefore, the correct answer to the question \"2-8=\" is -6.",
+            "expected_output": "-6",
+            "is_correct": -1,
+            "time": 7446949100
+        },
+        {
+            "id": 19,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n10-0=",
+            "actual_output": "10-0=10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 1146270700
+        },
+        {
+            "id": 20,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n10-6=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 807404900
+        },
+        {
+            "id": 21,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0-5=",
+            "actual_output": "The correct answer to the question \"0-5=\" is -5. \n\nTo understand why, let's break down the problem. \n\nWhen we subtract a number from 0, we are essentially moving backwards on the number line. For example, if we subtract 3 from 0, we move 3 steps backwards on the number line, which takes us to -3. \n\nSimilarly, when we subtract 5 from 0, we move 5 steps backwards on the number line, which takes us to -5. \n\nTherefore, the correct answer to the question \"0-5=\" is -5.",
+            "expected_output": "-5",
+            "is_correct": -1,
+            "time": 7883800500
+        },
+        {
+            "id": 22,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-5=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 781045600
+        },
+        {
+            "id": 23,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n10-4=",
+            "actual_output": "6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 784208400
+        },
+        {
+            "id": 24,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2-3=",
+            "actual_output": "The correct answer to the question \"2-3=\" is -1. \n\nTo arrive at this answer, we need to subtract 3 from 2. When we do this, we get a negative number, which means that the result is less than zero. \n\nIt's important to note that when we subtract a larger number from a smaller number, the result will always be negative. In this case, 3 is larger than 2, so the result is negative. \n\nIt's also important to remember that when we subtract a negative number from another negative number, the result will be positive. For example, -2 - (-3) = 1. \n\nIn summary, the correct answer to the question \"2-3=\" is -1, which is obtained by subtracting 3 from 2.",
+            "expected_output": "-1",
+            "is_correct": -1,
+            "time": 10109474600
+        },
+        {
+            "id": 25,
+            "class": "Add \\& Subtract of two integers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-1=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 786891500
+        },
+        {
+            "id": 26,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n65+82=",
+            "actual_output": "The correct answer to the question \"65+82=\" is 147. \n\nTo arrive at this answer, we need to add the two numbers together. We can do this by lining up the digits in the ones place and adding them together, then moving to the tens place and adding those digits together, and so on. \n\nStarting with the ones place, we have 5 and 2, which add up to 7. Moving to the tens place, we have 6 and 8, which add up to 14. Finally, we move to the hundreds place, where we have no digits to add. \n\nTherefore, the final answer is 147.",
+            "expected_output": "147",
+            "is_correct": -1,
+            "time": 8835596100
+        },
+        {
+            "id": 27,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n57+70=",
+            "actual_output": "57+70=127",
+            "expected_output": "127",
+            "is_correct": -1,
+            "time": 1336129900
+        },
+        {
+            "id": 28,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n53+27=",
+            "actual_output": "80",
+            "expected_output": "80",
+            "is_correct": -1,
+            "time": 865667300
+        },
+        {
+            "id": 29,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8+56=",
+            "actual_output": "64",
+            "expected_output": "64",
+            "is_correct": -1,
+            "time": 6330592100
+        },
+        {
+            "id": 30,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n21+97=",
+            "actual_output": "118",
+            "expected_output": "118",
+            "is_correct": -1,
+            "time": 889877600
+        },
+        {
+            "id": 31,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n28+34=",
+            "actual_output": "62",
+            "expected_output": "62",
+            "is_correct": -1,
+            "time": 887812100
+        },
+        {
+            "id": 32,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n39+46=",
+            "actual_output": "85",
+            "expected_output": "85",
+            "is_correct": -1,
+            "time": 831656700
+        },
+        {
+            "id": 33,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n34+61=",
+            "actual_output": "95",
+            "expected_output": "95",
+            "is_correct": -1,
+            "time": 892551400
+        },
+        {
+            "id": 34,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2+4=",
+            "actual_output": "6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 770243300
+        },
+        {
+            "id": 35,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n69+6=",
+            "actual_output": "75",
+            "expected_output": "75",
+            "is_correct": -1,
+            "time": 846503900
+        },
+        {
+            "id": 36,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n16+73=",
+            "actual_output": "89",
+            "expected_output": "89",
+            "is_correct": -1,
+            "time": 871714500
+        },
+        {
+            "id": 37,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n16+59=",
+            "actual_output": "75",
+            "expected_output": "75",
+            "is_correct": -1,
+            "time": 935032100
+        },
+        {
+            "id": 38,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n26+10=",
+            "actual_output": "36",
+            "expected_output": "36",
+            "is_correct": -1,
+            "time": 869589900
+        },
+        {
+            "id": 39,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n97-82=",
+            "actual_output": "15",
+            "expected_output": "15",
+            "is_correct": -1,
+            "time": 830757400
+        },
+        {
+            "id": 40,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n91-12=",
+            "actual_output": "79",
+            "expected_output": "79",
+            "is_correct": -1,
+            "time": 847968600
+        },
+        {
+            "id": 41,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n71-88=",
+            "actual_output": "The correct answer to the question \"71-88=\" is -17. \n\nTo arrive at this answer, we need to subtract 88 from 71. We can do this by starting with the ones place and subtracting 8 from 1, which gives us -7. Since we cannot have a negative digit in the ones place, we need to borrow 1 from the tens place, which makes the tens place 6. We then subtract 8 from 6, which gives us -2. Again, we cannot have a negative digit in the tens place, so we need to borrow 1 from the hundreds place, which makes the hundreds place 6. We then subtract 8 from 6, which gives us -2. Finally, we subtract 8 from 7, which gives us -1. Therefore, the correct answer to the question \"71-88=\" is -17.",
+            "expected_output": "-17",
+            "is_correct": -1,
+            "time": 17181136700
+        },
+        {
+            "id": 42,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n99-93=",
+            "actual_output": "6",
+            "expected_output": "6",
+            "is_correct": -1,
+            "time": 755301200
+        },
+        {
+            "id": 43,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-71=",
+            "actual_output": "The correct answer to the question \"9-71=\" is -62. \n\nTo arrive at this answer, we need to subtract 71 from 9. We can do this by borrowing from the tens place, which gives us 19. Then, we can subtract 71 from 19, which gives us -52. Finally, we can add the borrowed 10 to -52, which gives us -62. \n\nTherefore, the correct answer to the question \"9-71=\" is -62.",
+            "expected_output": "-62",
+            "is_correct": -1,
+            "time": 7312155100
+        },
+        {
+            "id": 44,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n15-5=",
+            "actual_output": "10",
+            "expected_output": "10",
+            "is_correct": -1,
+            "time": 848776700
+        },
+        {
+            "id": 45,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-23=",
+            "actual_output": "The correct answer to the question \"9-23=\" is -14. \n\nTo arrive at this answer, we need to subtract 23 from 9. We can do this by borrowing from the tens place, which gives us 19. Then, we can subtract 23 from 19, which gives us -4. Finally, we can add the negative sign to get the final answer of -14.",
+            "expected_output": "-14",
+            "is_correct": -1,
+            "time": 5910259400
+        },
+        {
+            "id": 46,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n68-49=",
+            "actual_output": "19",
+            "expected_output": "19",
+            "is_correct": -1,
+            "time": 842221800
+        },
+        {
+            "id": 47,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n54-3=",
+            "actual_output": "54-3=51",
+            "expected_output": "51",
+            "is_correct": -1,
+            "time": 1194295500
+        },
+        {
+            "id": 48,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n7-7=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 839313200
+        },
+        {
+            "id": 49,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n60-85=",
+            "actual_output": "The correct answer to the question \"60-85=\" is -25. \n\nTo arrive at this answer, we need to subtract 85 from 60. We can do this by starting with the ones place and subtracting 5 from 0, which gives us -5. Then we move to the tens place and subtract 8 from 6, which gives us -2. Finally, we add the two results together to get -25. \n\nIt's important to note that the answer is negative because 85 is greater than 60, so the result is a negative number.",
+            "expected_output": "-25",
+            "is_correct": -1,
+            "time": 8304915500
+        },
+        {
+            "id": 50,
+            "class": "Add \\& Subtract of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n79-18=",
+            "actual_output": "61",
+            "expected_output": "61",
+            "is_correct": -1,
+            "time": 949622600
+        },
+        {
+            "id": 51,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n184+44=",
+            "actual_output": "228",
+            "expected_output": "228",
+            "is_correct": -1,
+            "time": 996658100
+        },
+        {
+            "id": 52,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n459+315=",
+            "actual_output": "774",
+            "expected_output": "774",
+            "is_correct": -1,
+            "time": 977752100
+        },
+        {
+            "id": 53,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n461+822=",
+            "actual_output": "461+822=1283",
+            "expected_output": "1283",
+            "is_correct": -1,
+            "time": 6959552400
+        },
+        {
+            "id": 54,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n64+185=",
+            "actual_output": "The correct answer to the question \"64+185=\" is 249. \n\nTo arrive at this answer, we can use the standard algorithm for addition. We start by adding the ones digits of the two numbers, which gives us 4+5=9. We then move on to the tens digits, which gives us 6+8=14. Since 14 is greater than 10, we carry the 1 over to the hundreds place and write down the 4. Finally, we add the hundreds digits, which gives us 1+1=2. Putting it all together, we get 249 as the final answer.",
+            "expected_output": "249",
+            "is_correct": -1,
+            "time": 9055981000
+        },
+        {
+            "id": 55,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n116+16=",
+            "actual_output": "132",
+            "expected_output": "132",
+            "is_correct": -1,
+            "time": 883081600
+        },
+        {
+            "id": 56,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n243+281=",
+            "actual_output": "524",
+            "expected_output": "524",
+            "is_correct": -1,
+            "time": 877413900
+        },
+        {
+            "id": 57,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n501+515=",
+            "actual_output": "1016",
+            "expected_output": "1016",
+            "is_correct": -1,
+            "time": 937370300
+        },
+        {
+            "id": 58,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n636+766=",
+            "actual_output": "1402",
+            "expected_output": "1402",
+            "is_correct": -1,
+            "time": 1034830900
+        },
+        {
+            "id": 59,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n870+97=",
+            "actual_output": "870+97=967",
+            "expected_output": "967",
+            "is_correct": -1,
+            "time": 1316487500
+        },
+        {
+            "id": 60,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n672+483=",
+            "actual_output": "1155",
+            "expected_output": "1155",
+            "is_correct": -1,
+            "time": 943553700
+        },
+        {
+            "id": 61,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n701+70=",
+            "actual_output": "771",
+            "expected_output": "771",
+            "is_correct": -1,
+            "time": 965195000
+        },
+        {
+            "id": 62,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n13+934=",
+            "actual_output": "1047",
+            "expected_output": "947",
+            "is_correct": -1,
+            "time": 977909700
+        },
+        {
+            "id": 63,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n345+502=",
+            "actual_output": "847",
+            "expected_output": "847",
+            "is_correct": -1,
+            "time": 968597100
+        },
+        {
+            "id": 64,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n35-846=",
+            "actual_output": "-811",
+            "expected_output": "-811",
+            "is_correct": -1,
+            "time": 959608600
+        },
+        {
+            "id": 65,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n721-847=",
+            "actual_output": "-126",
+            "expected_output": "-126",
+            "is_correct": -1,
+            "time": 6485016500
+        },
+        {
+            "id": 66,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n945-127=",
+            "actual_output": "818",
+            "expected_output": "818",
+            "is_correct": -1,
+            "time": 843788200
+        },
+        {
+            "id": 67,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n420-6=",
+            "actual_output": "414",
+            "expected_output": "414",
+            "is_correct": -1,
+            "time": 893115600
+        },
+        {
+            "id": 68,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n647-516=",
+            "actual_output": "To find the correct answer for the subtraction problem 647 - 516, follow these steps:\n\nStep 1: Identify the numbers to be subtracted.\nIn this case, we have 647 as the minuend (the number being subtracted from) and 516 as the subtrahend (the number being subtracted).\n\nStep 2: Perform the subtraction.\nStart by subtracting the ones place: 7 - 6 = 1. Since 7 is greater than 6, we don't need to borrow from the tens place.\n\nNext, subtract the tens place: 4 - 1 = 3. Since 4 is greater than 1, we don't need to borrow from the hundreds place.\n\nFinally, subtract the hundreds place: 6 - 5 = 1. Since 6 is greater than 5, we don't need to borrow from any higher place values.\n\nStep 3: Write the final answer.\nThe correct answer for the subtraction problem 647 - 516 is 131.",
+            "expected_output": "131",
+            "is_correct": -1,
+            "time": 14287100300
+        },
+        {
+            "id": 69,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n58-892=",
+            "actual_output": "To find the correct answer for the subtraction problem 58 - 892, we will follow these steps:\n\n1. Start with the ones place: 8 (in 58) - 2 (in 892). Since 8 is less than 2, we need to borrow from the tens place.\n2. Borrow 1 from the tens place, making the ones place 18.\n3. Subtract 2 from 18: 18 - 2 = 16.\n4. Now, subtract the tens place: 5 (in 58) - 9 (in 892) - 1 (borrowed from the tens place). This gives us -4.\n5. Since we cannot have a negative number in the tens place, we need to borrow from the hundreds place.\n6. Borrow 1 from the hundreds place, making the tens place 15.\n7. Subtract 9 from 15: 15 - 9 = 6.\n8. Finally, subtract the hundreds place: 0 (in 58) - 8 (in 892) - 1 (borrowed from the hundreds place). This gives us -7.\n9. Since we cannot have a negative number in the hundreds place, we need to borrow from the thousands place.\n10. Borrow 1 from the thousands place, making the hundreds place 10.\n11. Subtract 8 from 10: 10 - 8 = 2.\n12. The final result is 2616.\n\nSo, the correct answer for the subtraction problem 58 - 892 is 2616.",
+            "expected_output": "-834",
+            "is_correct": -1,
+            "time": 22065904900
+        },
+        {
+            "id": 70,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n311-221=",
+            "actual_output": "90",
+            "expected_output": "90",
+            "is_correct": -1,
+            "time": 853367900
+        },
+        {
+            "id": 71,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n700-64=",
+            "actual_output": "The correct answer to the question \"700-64=\" is 636. \n\nTo arrive at this answer, we can use the following steps:\n\n1. Start with the number 700.\n2. Subtract 64 from 700.\n3. To do this, we can start by subtracting 4 from 0. Since 0 is less than 4, we need to borrow 1 from the 7 in the hundreds place. This gives us 10 in the tens place.\n4. Now we can subtract 4 from 10, which gives us 6.\n5. Finally, we subtract 6 from 7, which gives us 1.\n6. Therefore, the answer is 636.\n\nIt is important to note that when subtracting, we always start from the rightmost digit and work our way to the left. If we encounter a situation where we need to borrow, we borrow from the next place value to the left.",
+            "expected_output": "636",
+            "is_correct": -1,
+            "time": 13123414700
+        },
+        {
+            "id": 72,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n479-7=",
+            "actual_output": "472",
+            "expected_output": "472",
+            "is_correct": -1,
+            "time": 902828500
+        },
+        {
+            "id": 73,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n408-702=",
+            "actual_output": "To find the correct answer for the subtraction problem 408 - 702, we will follow these steps:\n\nStep 1: Write down the problem\n408 - 702\n\nStep 2: Subtract the ones place\n8 - 2 = 6\n\nStep 3: Subtract the tens place\n0 - 0 = 0\n\nStep 4: Subtract the hundreds place\n4 - 7 = -3\n\nStep 5: Since we have a negative number in the hundreds place, we need to borrow from the thousands place. To do this, we will subtract 1 from the thousands place and add 10 to the hundreds place.\n3 - 1 = 2 (thousands place)\n2 + 10 = 12 (hundreds place)\n\nStep 6: Subtract the thousands place\n1 - 0 = 1\n\nStep 7: Write down the final answer\n122\n\nThe correct answer for the subtraction problem 408 - 702 is 122.",
+            "expected_output": "-294",
+            "is_correct": -1,
+            "time": 14026833400
+        },
+        {
+            "id": 74,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n585-983=",
+            "actual_output": "-398",
+            "expected_output": "-398",
+            "is_correct": -1,
+            "time": 1045924800
+        },
+        {
+            "id": 75,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n681-831=",
+            "actual_output": "To find the correct answer for the subtraction problem 681 - 831, we will follow these steps:\n\n1. Start with the ones place: 1 - 1 = 0. Write down the 0.\n2. Move to the tens place: 8 - 3 = 5. Write down the 5.\n3. Move to the hundreds place: 6 - 8 = -2. Since we cannot have a negative number in the hundreds place, we will borrow 1 from the thousands place, making the 6 become 5 and adding 10 to the tens place.\n4. Now, in the tens place, we have 15 - 3 = 12. Write down the 2.\n5. In the hundreds place, we have 5 - 8 = -3. Borrow 1 from the thousands place again, making the 5 become 4 and adding 10 to the tens place.\n6. Now, in the tens place, we have 22 - 3 = 19. Write down the 9.\n7. In the hundreds place, we have 4 - 8 = -4. Borrow 1 from the thousands place again, making the 4 become 3 and adding 10 to the tens place.\n8. Now, in the tens place, we have 99 - 3 = 96. Write down the 6.\n9. In the hundreds place, we have 3 - 8 = -5. Borrow 1 from the thousands place again, making the 3 become 2 and adding 10 to the tens place.\n10. Now, in the tens place, we have 69 - 3 = 66. Write down the 6.\n11. In the hundreds place, we have 2 - 8 = -6. Borrow 1 from the thousands place again, making the 2 become 1 and adding 10 to the tens place.\n12. Now, in the tens place, we have 66 - 3 = 63. Write down the 3.\n13. In the hundreds place, we have 1 - 8 = -7. Borrow 1 from the thousands place again, making the 1 become 0 and adding 10 to the tens place.\n14. Now, in the tens place, we have 33 - 3 = 30. Write down the 3.\n15. In the hundreds place, we have 0 - 8 = -8. Since we cannot borrow from the thousands place again, we will write down the 0 and add a negative sign in front of the answer.\n\nThe correct answer for the subtraction problem 681 - 831 is -150.",
+            "expected_output": "-150",
+            "is_correct": -1,
+            "time": 36710702000
+        },
+        {
+            "id": 76,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n221034337578+352470528397=",
+            "actual_output": "573505065975",
+            "expected_output": "573504865975",
+            "is_correct": -1,
+            "time": 1493612100
+        },
+        {
+            "id": 77,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n946195468138+987210728275=",
+            "actual_output": "946195468138 + 987210728275 = 1933406196413",
+            "expected_output": "1933406196413",
+            "is_correct": -1,
+            "time": 3227466300
+        },
+        {
+            "id": 78,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n678420482144+26140223017=",
+            "actual_output": "678420482144 + 26140223017 = 704560705161",
+            "expected_output": "704560705161",
+            "is_correct": -1,
+            "time": 3113543100
+        },
+        {
+            "id": 79,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n234319923293+171632577931=",
+            "actual_output": "405952501224",
+            "expected_output": "405952501224",
+            "is_correct": -1,
+            "time": 1445576300
+        },
+        {
+            "id": 80,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n936913097197+52653430976=",
+            "actual_output": "989566529743",
+            "expected_output": "989566528173",
+            "is_correct": -1,
+            "time": 1467943500
+        },
+        {
+            "id": 81,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n623690866796+368029869233=",
+            "actual_output": "991720735929",
+            "expected_output": "991720736029",
+            "is_correct": -1,
+            "time": 1387915200
+        },
+        {
+            "id": 82,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n352860887460+79374684075=",
+            "actual_output": "352860887460 + 79374684075 = 432235571535",
+            "expected_output": "432235571535",
+            "is_correct": -1,
+            "time": 3135377600
+        },
+        {
+            "id": 83,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n72194749716+960193174801=",
+            "actual_output": "72194749716 + 960193174801 = 1032387924517",
+            "expected_output": "1032387924517",
+            "is_correct": -1,
+            "time": 3191518600
+        },
+        {
+            "id": 84,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n786403083014+675944857940=",
+            "actual_output": "786403083014 + 675944857940 = 1462347940954",
+            "expected_output": "1462347940954",
+            "is_correct": -1,
+            "time": 3186715300
+        },
+        {
+            "id": 85,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n774426524175+721318944497=",
+            "actual_output": "774426524175 + 721318944497 = 1495745468672",
+            "expected_output": "1495745468672",
+            "is_correct": -1,
+            "time": 3268699100
+        },
+        {
+            "id": 86,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n485625085111+960366573672=",
+            "actual_output": "485625085111 + 960366573672 = 1445991658783",
+            "expected_output": "1445991658783",
+            "is_correct": -1,
+            "time": 3241562200
+        },
+        {
+            "id": 87,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n892325753741+494303803604=",
+            "actual_output": "892325753741 + 494303803604 = 1386629557345",
+            "expected_output": "1386629557345",
+            "is_correct": -1,
+            "time": 3285955600
+        },
+        {
+            "id": 88,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n509059009811+621706279712=",
+            "actual_output": "509059009811 + 621706279712 = 1130765289523",
+            "expected_output": "1130765289523",
+            "is_correct": -1,
+            "time": 8698677800
+        },
+        {
+            "id": 89,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n979442624617-98210807692=",
+            "actual_output": "881231816995",
+            "expected_output": "881231816925",
+            "is_correct": -1,
+            "time": 1471567300
+        },
+        {
+            "id": 92,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n177202792475-839074306801=",
+            "actual_output": "To find the correct answer, we need to subtract the second number from the first number. \n\nStep 1: Write down the numbers in columns, lining up the digits according to their place values.\n```\n177202792475\n-839074306801\n```\n\nStep 2: Subtract the digits in each column, starting from the rightmost column.\n```\n177202792475\n-839074306801\n----------\n-661867514326\n```\n\nStep 3: The result is -661867514326. This means that 177202792475 is less than 839074306801 by 661867514326.\n\nTherefore, the correct answer to the question is -661867514326.",
+            "expected_output": "-661871514326",
+            "is_correct": -1,
+            "time": 138143935700
+        },
+        {
+            "id": 93,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n714637232158-667119914538=",
+            "actual_output": "To find the correct answer, we need to subtract the two numbers:\n\n714637232158 - 667119914538\n\nFirst, let's subtract the ones place:\n\n8 - 8 = 0\n\nNext, let's subtract the tens place:\n\n5 - 9 = -4\n\nSince we got a negative number, we need to borrow from the hundreds place:\n\n15 - 9 = 6\n\nNow, let's subtract the hundreds place:\n\n2 - 1 = 1\n\nNext, let's subtract the thousands place:\n\n3 - 1 = 2\n\nNow, let's subtract the ten thousands place:\n\n7 - 1 = 6\n\nFinally, let's subtract the hundred thousands place:\n\n4 - 1 = 3\n\nPutting it all together, the correct answer is:\n\n714637232158 - 667119914538 = 475173176620",
+            "expected_output": "47517317620",
+            "is_correct": -1,
+            "time": 16853882700
+        },
+        {
+            "id": 112,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3+6=",
+            "actual_output": "9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 52316633300
+        },
+        {
+            "id": 113,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-8+9=",
+            "actual_output": "1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 869316400
+        },
+        {
+            "id": 114,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-(-4)=",
+            "actual_output": "9-(-4)=9+4=13",
+            "expected_output": "13",
+            "is_correct": -1,
+            "time": 1582255000
+        },
+        {
+            "id": 115,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-(-6)=",
+            "actual_output": "9-(-6) = 9+6 = 15",
+            "expected_output": "15",
+            "is_correct": -1,
+            "time": 1888927500
+        },
+        {
+            "id": 116,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-5-(-2)=",
+            "actual_output": "-3",
+            "expected_output": "-3",
+            "is_correct": -1,
+            "time": 877668000
+        },
+        {
+            "id": 117,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-1-9=",
+            "actual_output": "-10",
+            "expected_output": "-10",
+            "is_correct": -1,
+            "time": 986037500
+        },
+        {
+            "id": 118,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-6-10=",
+            "actual_output": "-16",
+            "expected_output": "-16",
+            "is_correct": -1,
+            "time": 935809400
+        },
+        {
+            "id": 119,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5-(-6)=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 932310700
+        },
+        {
+            "id": 120,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-6-(-2)=",
+            "actual_output": "-6-(-2) = -6+2 = -4",
+            "expected_output": "-4",
+            "is_correct": -1,
+            "time": 1747319300
+        },
+        {
+            "id": 121,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8-(-7)=",
+            "actual_output": "8-(-7) = 8+7 = 15",
+            "expected_output": "15",
+            "is_correct": -1,
+            "time": 1752844100
+        },
+        {
+            "id": 122,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-8-1=",
+            "actual_output": "-9",
+            "expected_output": "-9",
+            "is_correct": -1,
+            "time": 881423200
+        },
+        {
+            "id": 123,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n1-(-3)=",
+            "actual_output": "1-(-3)=1+3=4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 1419927100
+        },
+        {
+            "id": 124,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6-(-5)=",
+            "actual_output": "11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 911939800
+        },
+        {
+            "id": 125,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9-(-2)=",
+            "actual_output": "9-(-2)=9+2=11",
+            "expected_output": "11",
+            "is_correct": -1,
+            "time": 6988681800
+        },
+        {
+            "id": 126,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.5+0.24=",
+            "actual_output": "0.74",
+            "expected_output": "0.7400",
+            "is_correct": -1,
+            "time": 1002210900
+        },
+        {
+            "id": 127,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.0069+(-0.86)=",
+            "actual_output": "-0.8531",
+            "expected_output": "-0.8531",
+            "is_correct": -1,
+            "time": 1266022500
+        },
+        {
+            "id": 128,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-39.0+(-0.07)=",
+            "actual_output": "-39.07",
+            "expected_output": "-39.0700",
+            "is_correct": -1,
+            "time": 1232637300
+        },
+        {
+            "id": 129,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-0.0089+(-22.0)=",
+            "actual_output": "-22.0089",
+            "expected_output": "-22.0089",
+            "is_correct": -1,
+            "time": 1269325400
+        },
+        {
+            "id": 130,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-0.0074+(-0.26)=",
+            "actual_output": "-0.2674",
+            "expected_output": "-0.2674",
+            "is_correct": -1,
+            "time": 1244260800
+        },
+        {
+            "id": 131,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-0.038+0.0092=",
+            "actual_output": "To find the correct answer for the given question, we need to add the two numbers together:\n\n-0.038 + 0.0092\n\nTo add these numbers, we can follow these steps:\n\nStep 1: Line up the decimal points.\n-0.038\n+0.0092\n\nStep 2: Add the numbers as usual, starting from the rightmost digit.\n-0.038\n+0.0092\n-----\n-0.0288\n\nStep 3: Place the decimal point in the result.\n-0.0288\n\nSo, the correct answer for the given question is -0.0288.",
+            "expected_output": "-0.0288",
+            "is_correct": -1,
+            "time": 11618155400
+        },
+        {
+            "id": 132,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n88.0+(-0.54)=",
+            "actual_output": "87.46",
+            "expected_output": "87.4600",
+            "is_correct": -1,
+            "time": 1066479600
+        },
+        {
+            "id": 133,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n63.0+0.074=",
+            "actual_output": "63.074",
+            "expected_output": "63.0740",
+            "is_correct": -1,
+            "time": 1144016200
+        },
+        {
+            "id": 134,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-0.0069+3.6=",
+            "actual_output": "3.5931",
+            "expected_output": "3.5931",
+            "is_correct": -1,
+            "time": 1135825100
+        },
+        {
+            "id": 135,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-16.0+0.08=",
+            "actual_output": "To find the correct answer for the question, we need to perform the mathematical operation of addition. \n\nStep 1: Identify the numbers involved in the operation.\nIn this case, we have two numbers: -16.0 and 0.08.\n\nStep 2: Perform the addition operation.\nTo add these two numbers, we need to align the decimal points and add the corresponding digits. \n\n-16.0\n+0.08\n-----\n-15.92\n\nStep 3: Write the final answer.\nThe correct answer for the question is -15.92.",
+            "expected_output": "-15.9200",
+            "is_correct": -1,
+            "time": 10038744900
+        },
+        {
+            "id": 136,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n64.0+(-0.83)=",
+            "actual_output": "63.17",
+            "expected_output": "63.1700",
+            "is_correct": -1,
+            "time": 4398148600
+        },
+        {
+            "id": 137,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-0.0067+0.085=",
+            "actual_output": "To find the correct answer, we need to add the two numbers together:\n\n-0.0067 + 0.085\n\nFirst, let's add the positive number (0.085) to the negative number (-0.0067). To do this, we can think of it as adding the absolute values of the numbers and then applying the negative sign to the result.\n\n|0.085| = 0.085\n|-0.0067| = 0.0067\n\nNow, add the absolute values:\n\n0.085 + 0.0067 = 0.0917\n\nSince the original problem had a negative number, we apply the negative sign to the result:\n\n-0.0917\n\nSo, the correct answer is:\n\n-0.0067 + 0.085 = -0.0917",
+            "expected_output": "0.0783",
+            "is_correct": -1,
+            "time": 20189084800
+        },
+        {
+            "id": 138,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-0.099+0.84=",
+            "actual_output": "To find the correct answer for the question, we need to add the two numbers together:\n\n-0.099 + 0.84\n\nTo add these numbers, we can first add the positive number (0.84) to the negative number (-0.099). To do this, we can think of the negative number as a subtraction:\n\n0.84 - 0.099\n\nNow, we can perform the subtraction:\n\n0.84 - 0.099 = 0.741\n\nSo, the correct answer for the question is:\n\n-0.099 + 0.84 = 0.741",
+            "expected_output": "0.7410",
+            "is_correct": -1,
+            "time": 9986386700
+        },
+        {
+            "id": 139,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-23.0-(-0.43)=",
+            "actual_output": "To find the correct answer for the question -23.0 - (-0.43), we need to perform the subtraction operation.\n\nStep 1: Identify the numbers involved in the subtraction.\nIn this case, we have -23.0 and -0.43.\n\nStep 2: Perform the subtraction.\nTo subtract two negative numbers, we can first add them and then put a negative sign in front of the result. So, we will add -23.0 and -0.43.\n\n-23.0 + (-0.43) = -23.43\n\nStep 3: Put a negative sign in front of the result.\nSince both numbers are negative, the result will also be negative.\n\n-(-23.43) = 23.43\n\nSo, the correct answer for the question -23.0 - (-0.43) is 23.43.",
+            "expected_output": "-22.5700",
+            "is_correct": -1,
+            "time": 13715796100
+        },
+        {
+            "id": 140,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.054-(-0.045)=",
+            "actual_output": "0.099",
+            "expected_output": "0.0990",
+            "is_correct": -1,
+            "time": 1077494100
+        },
+        {
+            "id": 141,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.21-0.36=",
+            "actual_output": "-0.15",
+            "expected_output": "-0.1500",
+            "is_correct": -1,
+            "time": 1055069500
+        },
+        {
+            "id": 142,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-23.0-(-2.0)=",
+            "actual_output": "To find the correct answer for the question -23.0 - (-2.0), we need to perform the subtraction operation.\n\nStep 1: Identify the numbers involved in the subtraction.\nIn this case, we have -23.0 and -2.0.\n\nStep 2: Perform the subtraction.\nTo subtract two negative numbers, we can first add them and then put a negative sign in front of the result. So, we will add -23.0 and -2.0.\n\n-23.0 + (-2.0) = -25.0\n\nStep 3: Put a negative sign in front of the result.\nSince both numbers are negative, the result will also be negative.\n\n-(-25.0) = 25.0\n\nSo, the correct answer for the question -23.0 - (-2.0) is 25.0.",
+            "expected_output": "-21.0000",
+            "is_correct": -1,
+            "time": 13199574800
+        },
+        {
+            "id": 143,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-0.06-(-3.1)=",
+            "actual_output": "To solve the equation -0.06-(-3.1), we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction).\n\nFirst, we need to simplify the expression inside the parentheses. Since there are no parentheses in this equation, we can move on to the next step.\n\nNext, we need to perform any operations involving exponents. There are no exponents in this equation, so we can move on to the next step.\n\nThen, we need to perform any multiplication or division operations from left to right. There are no multiplication or division operations in this equation, so we can move on to the next step.\n\nFinally, we need to perform any addition or subtraction operations from left to right. In this case, we have -0.06 and -3.1. To subtract a negative number, we can add its opposite. So, -0.06-(-3.1) is equivalent to -0.06+3.1.\n\nNow, we can add the two numbers together. -0.06+3.1 is equal to 3.04.\n\nTherefore, the correct answer to the question -0.06-(-3.1) is 3.04.",
+            "expected_output": "3.0400",
+            "is_correct": -1,
+            "time": 16540120100
+        },
+        {
+            "id": 144,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.78-0.79=",
+            "actual_output": "The correct answer to the question \"0.78-0.79=\" is -0.01. \n\nTo arrive at this answer, we need to subtract 0.79 from 0.78. We can do this by lining up the decimal points and subtracting the digits in each place value. \n\nStarting with the ones place, we have 7 and 9. Since 7 is less than 9, we need to borrow from the tenths place. This means we subtract 1 from the 8 in the tenths place and add 10 to the 7 in the ones place. \n\nNow we have 17 and 9. Subtracting 9 from 17 gives us 8. \n\nMoving on to the tenths place, we have 8 and 9. Since 8 is less than 9, we need to borrow from the hundredths place. This means we subtract 1 from the 8 in the hundredths place and add 10 to the 8 in the tenths place. \n\nNow we have 18 and 9. Subtracting 9 from 18 gives us 9. \n\nFinally, we have 9 in the hundredths place. Since 9 is greater than 0, we don't need to borrow from the thousandths place. \n\nTherefore, the correct answer to the question \"0.78-0.79=\" is -0.01.",
+            "expected_output": "-0.0100",
+            "is_correct": -1,
+            "time": 18711325000
+        },
+        {
+            "id": 145,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-0.39-(-0.19)=",
+            "actual_output": "-0.2",
+            "expected_output": "-0.2000",
+            "is_correct": -1,
+            "time": 932774200
+        },
+        {
+            "id": 146,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2.2-(-1.0)=",
+            "actual_output": "To find the correct answer to the question 2.2 - (-1.0), we need to perform the subtraction operation.\n\nStep 1: Identify the numbers involved in the subtraction.\nIn this case, we have 2.2 and -1.0.\n\nStep 2: Perform the subtraction.\nTo subtract a negative number, we can think of it as adding the absolute value of that number. So, we can rewrite the subtraction as 2.2 + 1.0.\n\nStep 3: Add the numbers.\n2.2 + 1.0 = 3.2\n\nStep 4: Write the final answer.\nThe correct answer to the question 2.2 - (-1.0) is 3.2.",
+            "expected_output": "3.2000",
+            "is_correct": -1,
+            "time": 9852980700
+        },
+        {
+            "id": 147,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-0.045-(-0.049)=",
+            "actual_output": "0.004",
+            "expected_output": "0.0040",
+            "is_correct": -1,
+            "time": 994929900
+        },
+        {
+            "id": 148,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n20.0-0.0097=",
+            "actual_output": "19.9903",
+            "expected_output": "19.9903",
+            "is_correct": -1,
+            "time": 1137065900
+        },
+        {
+            "id": 149,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2.9-0.11=",
+            "actual_output": "2.79",
+            "expected_output": "2.7900",
+            "is_correct": -1,
+            "time": 941104600
+        },
+        {
+            "id": 150,
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.15-0.032=",
+            "actual_output": "0.118",
+            "expected_output": "0.1180",
+            "is_correct": -1,
+            "time": 1014120500
+        },
+        {
+            "id": 151,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n78*64=",
+            "actual_output": "To find the correct answer to the question 78 * 64, we can use the standard multiplication algorithm. Here's a step-by-step breakdown of the process:\n\n1. Multiply the ones digit of the first number (8) by the ones digit of the second number (4) and write the result (32) below the line.\n\n2. Multiply the tens digit of the first number (7) by the ones digit of the second number (4) and write the result (28) below the line, but to the left of the previous result.\n\n3. Multiply the ones digit of the first number (8) by the tens digit of the second number (6) and write the result (48) below the line, but to the left of the previous result.\n\n4. Multiply the tens digit of the first number (7) by the tens digit of the second number (6) and write the result (42) below the line, but to the left of the previous result.\n\n5. Add all the results obtained in steps 1-4. The sum is the final answer.\n\nFollowing these steps, we get:\n\n   78\n\u00d7 64\n------\n   32\n  28\n+48\n+42\n------\n  4992\n\nSo, the correct answer to the question 78 * 64 is 4992.",
+            "expected_output": "4992",
+            "is_correct": -1,
+            "time": 18060117400
+        },
+        {
+            "id": 152,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n62\u00d742=",
+            "actual_output": "2584",
+            "expected_output": "2604",
+            "is_correct": -1,
+            "time": 1021526500
+        },
+        {
+            "id": 153,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n37*39=",
+            "actual_output": "37 * 39 = 39 * (30 + 7) = 39 * 30 + 39 * 7 = 1170 + 273 = 1443",
+            "expected_output": "1443",
+            "is_correct": -1,
+            "time": 3648373200
+        },
+        {
+            "id": 154,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n61\u00d720=",
+            "actual_output": "1220",
+            "expected_output": "1220",
+            "is_correct": -1,
+            "time": 1053790600
+        },
+        {
+            "id": 155,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n11\u00d749=",
+            "actual_output": "539",
+            "expected_output": "539",
+            "is_correct": -1,
+            "time": 875115000
+        },
+        {
+            "id": 156,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n44*38=",
+            "actual_output": "44 * 38 = 44 * (30 + 8) = 44 * 30 + 44 * 8 = 1320 + 352 = 1672",
+            "expected_output": "1672",
+            "is_correct": -1,
+            "time": 9241421600
+        },
+        {
+            "id": 157,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n7*8=",
+            "actual_output": "56",
+            "expected_output": "56",
+            "is_correct": -1,
+            "time": 825616100
+        },
+        {
+            "id": 158,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8\u00d757=",
+            "actual_output": "456",
+            "expected_output": "456",
+            "is_correct": -1,
+            "time": 921978800
+        },
+        {
+            "id": 159,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n20*16=",
+            "actual_output": "20 * 16 = 320",
+            "expected_output": "320",
+            "is_correct": -1,
+            "time": 1347933400
+        },
+        {
+            "id": 160,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n68\u00d763=",
+            "actual_output": "4284",
+            "expected_output": "4284",
+            "is_correct": -1,
+            "time": 1005955400
+        },
+        {
+            "id": 161,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n46*78=",
+            "actual_output": "3588",
+            "expected_output": "3588",
+            "is_correct": -1,
+            "time": 933221300
+        },
+        {
+            "id": 162,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n38\u00d742=",
+            "actual_output": "1596",
+            "expected_output": "1596",
+            "is_correct": -1,
+            "time": 960439400
+        },
+        {
+            "id": 163,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n61\u00d772=",
+            "actual_output": "4412",
+            "expected_output": "4392",
+            "is_correct": -1,
+            "time": 1254690600
+        },
+        {
+            "id": 164,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n63\u00d737=",
+            "actual_output": "2331",
+            "expected_output": "2331",
+            "is_correct": -1,
+            "time": 994859900
+        },
+        {
+            "id": 165,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n58\u00d731=",
+            "actual_output": "58\u00d731=1798",
+            "expected_output": "1798",
+            "is_correct": -1,
+            "time": 1311110700
+        },
+        {
+            "id": 166,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n50\u00d789=",
+            "actual_output": "4450",
+            "expected_output": "4450",
+            "is_correct": -1,
+            "time": 1435255200
+        },
+        {
+            "id": 167,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2\u00d789=",
+            "actual_output": "178",
+            "expected_output": "178",
+            "is_correct": -1,
+            "time": 867028800
+        },
+        {
+            "id": 168,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n97*17=",
+            "actual_output": "97*17 = 1649",
+            "expected_output": "1649",
+            "is_correct": -1,
+            "time": 6827283700
+        },
+        {
+            "id": 169,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n79*17=",
+            "actual_output": "79 * 17 = 79 * (10 + 7) = 79 * 10 + 79 * 7 = 790 + 553 = 1343",
+            "expected_output": "1343",
+            "is_correct": -1,
+            "time": 3661254600
+        },
+        {
+            "id": 170,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n55\u00d762=",
+            "actual_output": "3410",
+            "expected_output": "3410",
+            "is_correct": -1,
+            "time": 949112200
+        },
+        {
+            "id": 171,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n66\u00d745=",
+            "actual_output": "66 * 45 = 66 * (40 + 5) = 66 * 40 + 66 * 5 = 2640 + 330 = 2970",
+            "expected_output": "2970",
+            "is_correct": -1,
+            "time": 3728631200
+        },
+        {
+            "id": 172,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n85\u00d747=",
+            "actual_output": "85 * 47 = 85 * (40 + 7) = 85 * 40 + 85 * 7 = 3400 + 595 = 40",
+            "expected_output": "3995",
+            "is_correct": -1,
+            "time": 3628408800
+        },
+        {
+            "id": 173,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9\u00d792=",
+            "actual_output": "828",
+            "expected_output": "828",
+            "is_correct": -1,
+            "time": 908295200
+        },
+        {
+            "id": 174,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n28*53=",
+            "actual_output": "28*53=1484",
+            "expected_output": "1484",
+            "is_correct": -1,
+            "time": 1320141600
+        },
+        {
+            "id": 175,
+            "class": "Multiply two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n69\u00d70=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 789514700
+        },
+        {
+            "id": 176,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3.0\u00d76.0=",
+            "actual_output": "18.0",
+            "expected_output": "18.0000",
+            "is_correct": -1,
+            "time": 975514600
+        },
+        {
+            "id": 177,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.7*1.0=",
+            "actual_output": "0.7*1.0=0.7",
+            "expected_output": "0.7000",
+            "is_correct": -1,
+            "time": 1357382500
+        },
+        {
+            "id": 178,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.1*1.0=",
+            "actual_output": "0.1*1.0=0.1",
+            "expected_output": "0.1000",
+            "is_correct": -1,
+            "time": 1411176100
+        },
+        {
+            "id": 179,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.6\u00d74.0=",
+            "actual_output": "0.6\u00d74.0=2.4",
+            "expected_output": "2.4000",
+            "is_correct": -1,
+            "time": 1368684100
+        },
+        {
+            "id": 180,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5.0*0.09=",
+            "actual_output": "0.45",
+            "expected_output": "0.4500",
+            "is_correct": -1,
+            "time": 6449740400
+        },
+        {
+            "id": 181,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.3\u00d70.3=",
+            "actual_output": "0.09",
+            "expected_output": "0.0900",
+            "is_correct": -1,
+            "time": 971177800
+        },
+        {
+            "id": 182,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3.0\u00d70.3=",
+            "actual_output": "0.9",
+            "expected_output": "0.9000",
+            "is_correct": -1,
+            "time": 919271500
+        },
+        {
+            "id": 183,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.4*5.0=",
+            "actual_output": "To find the correct answer to the question, we need to multiply 0.4 by 5.0. \n\nStep 1: Multiply the numbers\n0.4 * 5.0 = 2.0\n\nStep 2: Round the result if necessary\nSince the question does not require rounding, we can leave the result as is.\n\nThe correct answer to the question is 2.0.",
+            "expected_output": "2.0000",
+            "is_correct": -1,
+            "time": 5912801800
+        },
+        {
+            "id": 184,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8.0*1.0=",
+            "actual_output": "8.0*1.0=8.0",
+            "expected_output": "8.0000",
+            "is_correct": -1,
+            "time": 1420097400
+        },
+        {
+            "id": 185,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.0\u00d70.7=",
+            "actual_output": "0.0\u00d70.7=0.0\n\nExplanation: When multiplying two numbers, the result is the product of the two numbers. In this case, the product of 0.0 and 0.7 is 0.0.",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 3898029300
+        },
+        {
+            "id": 186,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.1*3.0=",
+            "actual_output": "0.1*3.0=0.3",
+            "expected_output": "0.3000",
+            "is_correct": -1,
+            "time": 1419388200
+        },
+        {
+            "id": 187,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5.0\u00d70.0=",
+            "actual_output": "0.0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 905974800
+        },
+        {
+            "id": 188,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4.0\u00d70.0=",
+            "actual_output": "0.0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 935765200
+        },
+        {
+            "id": 189,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2.0\u00d76.0=",
+            "actual_output": "12.0",
+            "expected_output": "12.0000",
+            "is_correct": -1,
+            "time": 1005199300
+        },
+        {
+            "id": 190,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8.0*0.8=",
+            "actual_output": "6.4",
+            "expected_output": "6.4000",
+            "is_correct": -1,
+            "time": 1253753100
+        },
+        {
+            "id": 191,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3.0*2.0=",
+            "actual_output": "6.0",
+            "expected_output": "6.0000",
+            "is_correct": -1,
+            "time": 904806400
+        },
+        {
+            "id": 192,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.09*2.0=",
+            "actual_output": "0.09 * 2.0 = 0.18",
+            "expected_output": "0.1800",
+            "is_correct": -1,
+            "time": 7141982300
+        },
+        {
+            "id": 193,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8.0\u00d72.0=",
+            "actual_output": "16.0",
+            "expected_output": "16.0000",
+            "is_correct": -1,
+            "time": 994136700
+        },
+        {
+            "id": 194,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.4\u00d70.8=",
+            "actual_output": "0.32",
+            "expected_output": "0.3200",
+            "is_correct": -1,
+            "time": 1004154300
+        },
+        {
+            "id": 195,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n1.0\u00d70.7=",
+            "actual_output": "0.7",
+            "expected_output": "0.7000",
+            "is_correct": -1,
+            "time": 1182483600
+        },
+        {
+            "id": 196,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.0*3.0=",
+            "actual_output": "0.0*3.0=0.0\n\nExplanation: When we multiply 0.0 by 3.0, the answer is 0.0 because multiplying any number by 0 gives us 0 as the result.",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 3797348200
+        },
+        {
+            "id": 197,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.9\u00d70.8=",
+            "actual_output": "0.72",
+            "expected_output": "0.7200",
+            "is_correct": -1,
+            "time": 993742000
+        },
+        {
+            "id": 198,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.6*0.5=",
+            "actual_output": "0.3",
+            "expected_output": "0.3000",
+            "is_correct": -1,
+            "time": 876470500
+        },
+        {
+            "id": 199,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.6\u00d70.4=",
+            "actual_output": "0.24",
+            "expected_output": "0.2400",
+            "is_correct": -1,
+            "time": 1017369200
+        },
+        {
+            "id": 200,
+            "class": "Multiply two decimal numbers within 10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.1\u00d70.08=",
+            "actual_output": "0.008",
+            "expected_output": "0.0080",
+            "is_correct": -1,
+            "time": 1105816600
+        },
+        {
+            "id": 201,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6152\u00d732179=",
+            "actual_output": "6152 * 32179 = 32179 * (6000 + 100 + 50 + 2) = 32179 * 6000 + 32179 * 100 + 32179 * 50 + 32179 * 2 = 193074000 + 3217900 + 1608950 + 64358 = 196291900 + 1608950 + 64358 = 197900850 + 64358 = 197965208",
+            "expected_output": "197965208",
+            "is_correct": -1,
+            "time": 11951865900
+        },
+        {
+            "id": 202,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n91684*20008=",
+            "actual_output": "91684 * 20008 = 91684 * (20000 + 8) = 91684 * 20000 + 91684 * 8 = 1833680000 + 733472 = 18337533472",
+            "expected_output": "1834413472",
+            "is_correct": -1,
+            "time": 6375783200
+        },
+        {
+            "id": 203,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n62195*99536=",
+            "actual_output": "62195 * 99536 = 99536 * (60000 + 2000 + 100 + 90 + 5) = 99536 * 60000 + 99536 * 2000 + 99536 * 100 + 99536 * 90 + 99536 * 5 = 5972160000 + 199072000 + 9953600 + 8958240 + 497680 = 6171232000 + 9953600 + 8958240 + 497680 = 6181185600 + 8958240 + 497680 = 6189143840 + 497680 = 6189641520",
+            "expected_output": "6190641520",
+            "is_correct": -1,
+            "time": 51926812100
+        },
+        {
+            "id": 204,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5655\u00d742805=",
+            "actual_output": "5655 * 42805 = 42805 * (5000 + 600 + 50 + 5) = 42805 * 5000 + 42805 * 600 + 42805 * 50 + 42805 * 5 = 214025000 + 25683000 + 2140250 + 214025 = 239708000 + 2140250 + 214025 = 241848250 + 214025 = 242062275",
+            "expected_output": "242062275",
+            "is_correct": -1,
+            "time": 13160245000
+        },
+        {
+            "id": 206,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n35460\u00d726064=",
+            "actual_output": "35460 * 26064 = 35460 * (20000 + 6000 + 60 + 4) = 35460 * 20000 + 35460 * 6000 + 35460 * 60 + 35460 * 4 = 709200000 + 212760000 + 2127600 + 141840 = 921960000 + 2127600 + 141840 = 924087600 + 141840 = 924229440",
+            "expected_output": "924229440",
+            "is_correct": -1,
+            "time": 13266330700
+        },
+        {
+            "id": 207,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n92978\u00d728845=",
+            "actual_output": "92978 * 28845 = 92978 * (20000 + 8000 + 800 + 40 + 5) = 92978 * 20000 + 92978 * 8000 + 92978 * 800 + 92978 * 40 + 92978 * 5 = 1859560000 + 743824000 + 74382400 + 3719120 + 464890 = 2593384000 + 74382400 + 3719120 + 464890 = 2667766400 + 3719120 + 464890 = 2671485520 + 464890 = 2671950410",
+            "expected_output": "2681950410",
+            "is_correct": -1,
+            "time": 18275310900
         }
     ]
 }
