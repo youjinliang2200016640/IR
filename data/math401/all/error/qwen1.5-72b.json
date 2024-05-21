@@ -127,6 +127,42 @@
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\n4032*84266=",
             "expected_output": "339760512"
+        },
+        {
+            "id": 208,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n51677\u00d790778=",
+            "expected_output": "4691134706"
+        },
+        {
+            "id": 209,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9025*95266=",
+            "expected_output": "859775650"
+        },
+        {
+            "id": 210,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n61081\u00d744496=",
+            "expected_output": "2717860176"
+        },
+        {
+            "id": 211,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n38010*88739=",
+            "expected_output": "3372969390"
+        },
+        {
+            "id": 212,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n90161*91816=",
+            "expected_output": "8278222376"
+        },
+        {
+            "id": 215,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n41393*30824=",
+            "expected_output": "1275897832"
         }
     ]
 }
