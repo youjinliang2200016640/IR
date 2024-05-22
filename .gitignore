@@ -20,3 +20,6 @@ MATH/
 !evaluate_code.ipynb
 *.docx
 *.tmp
+/data/math401/saveExtra/
+/data/math401/saveTotal/
+/data/math401/extra_10.json
