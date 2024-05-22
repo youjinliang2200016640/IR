@@ -3994,7 +3994,7 @@
         },
         {
             "id": 343,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\n ( 21 - 43) / 50 + ( 65 - 37)=",
             "actual_output": "-0.44 + 28 = 27.56",
@@ -4004,7 +4004,7 @@
         },
         {
             "id": 306,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
             "AnswerModel": "qwen-14b-chat",
             "input": "Only return the correct answer of the question.\n0*2=",
             "actual_output": "0",

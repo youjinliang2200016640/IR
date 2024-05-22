@@ -3944,7 +3944,7 @@
         },
         {
             "id": 284,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
             "AnswerModel": "qwen-7b-chat",
             "input": "Only return the correct answer of the question.\n0.8723^2.159=",
             "actual_output": "0.7436",
@@ -3954,7 +3954,7 @@
         },
         {
             "id": 283,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
             "AnswerModel": "qwen-7b-chat",
             "input": "Only return the correct answer of the question.\n7.6455^3.5773=",
             "actual_output": "1494000000",
@@ -3964,7 +3964,7 @@
         },
         {
             "id": 282,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
             "AnswerModel": "qwen-7b-chat",
             "input": "Only return the correct answer of the question.\n3.1699^2.0687=",
             "actual_output": "11.4602",
@@ -3974,7 +3974,7 @@
         },
         {
             "id": 281,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
             "AnswerModel": "qwen-7b-chat",
             "input": "Only return the correct answer of the question.\n8.8132^2.1955=",
             "actual_output": "159.4606",
@@ -3984,7 +3984,7 @@
         },
         {
             "id": 280,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
             "AnswerModel": "qwen-7b-chat",
             "input": "Only return the correct answer of the question.\n5.3126^3.8767=",
             "actual_output": "14340000000",
@@ -3994,7 +3994,7 @@
         },
         {
             "id": 279,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
             "AnswerModel": "qwen-7b-chat",
             "input": "Only return the correct answer of the question.\n2.242^3.7342=",
             "actual_output": "14420000000",
@@ -4004,7 +4004,7 @@
         },
         {
             "id": 278,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
             "AnswerModel": "qwen-7b-chat",
             "input": "Only return the correct answer of the question.\n3.0117^3.8748=",
             "actual_output": "1434000000000000000000",

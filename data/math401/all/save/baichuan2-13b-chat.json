@@ -2911,7 +2911,7 @@
             "expected_output": -0.4232,
             "is_correct": 0,
             "time": 3667710400,
-            "extract_answer":null
+            "extract_answer": null
         },
         {
             "id": 320,
@@ -2972,7 +2972,7 @@
             "expected_output": -0.4232,
             "is_correct": 0,
             "time": 3639435400,
-            "extract_answer":null
+            "extract_answer": null
         },
         {
             "id": 326,
@@ -3716,7 +3716,7 @@
         },
         {
             "id": 336,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n 21 - ( 2 + 31)=",
             "actual_output": "21 - (2 + 31) = 21 - 33 = -12 ",
@@ -3726,7 +3726,7 @@
         },
         {
             "id": 246,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Division of two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n97\u00f71=",
             "actual_output": "97 \u00f7 1 = 97 ",
@@ -3736,7 +3736,7 @@
         },
         {
             "id": 245,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Division of two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n63\u00f74=",
             "actual_output": "The correct answer is 15.75. ",
@@ -3746,7 +3746,7 @@
         },
         {
             "id": 244,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Division of two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n33/22=",
             "actual_output": "The correct answer is 1.5. ",
@@ -3756,7 +3756,7 @@
         },
         {
             "id": 207,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n92978\u00d728845=",
             "actual_output": "The correct answer is 267772260. ",
@@ -3766,7 +3766,7 @@
         },
         {
             "id": 206,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n35460\u00d726064=",
             "actual_output": "The correct answer is 924012960. ",
@@ -3776,7 +3776,7 @@
         },
         {
             "id": 205,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n4032*84266=",
             "actual_output": "The correct answer is 347688912. ",
@@ -3786,7 +3786,7 @@
         },
         {
             "id": 204,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n5655\u00d742805=",
             "actual_output": "The correct answer is:\n\n5655 \u00d7 42805 = 237989175 ",
@@ -3796,7 +3796,7 @@
         },
         {
             "id": 167,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n2\u00d789=",
             "actual_output": "The correct answer is 178. ",
@@ -3806,7 +3806,7 @@
         },
         {
             "id": 166,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n50\u00d789=",
             "actual_output": "4450 ",
@@ -3816,7 +3816,7 @@
         },
         {
             "id": 165,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n58\u00d731=",
             "actual_output": "The correct answer is 1808. ",
@@ -3826,7 +3826,7 @@
         },
         {
             "id": 164,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n63\u00d737=",
             "actual_output": "2381 ",
@@ -3836,7 +3836,7 @@
         },
         {
             "id": 127,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n0.0069+(-0.86)=",
             "actual_output": "0.0069 + (-0.86) = -0.8531 ",
@@ -3846,7 +3846,7 @@
         },
         {
             "id": 126,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n0.5+0.24=",
             "actual_output": "0.74 ",
@@ -3856,7 +3856,7 @@
         },
         {
             "id": 125,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within -10~10.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n9-(-2)=",
             "actual_output": "9-(-2)=9+2=11 ",
@@ -3866,7 +3866,7 @@
         },
         {
             "id": 124,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within -10~10.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n6-(-5)=",
             "actual_output": "6-(-5)=11 ",
@@ -3876,7 +3876,7 @@
         },
         {
             "id": 87,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n892325753741+494303803604=",
             "actual_output": "The correct answer is: 1386628557345 ",
@@ -3886,7 +3886,7 @@
         },
         {
             "id": 86,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n485625085111+960366573672=",
             "actual_output": "The correct answer is: 1446001658783 ",
@@ -3896,7 +3896,7 @@
         },
         {
             "id": 85,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n774426524175+721318944497=",
             "actual_output": "The correct answer is: 774426524175 + 721318944497 = 1495745468672 ",
@@ -3906,7 +3906,7 @@
         },
         {
             "id": 84,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n786403083014+675944857940=",
             "actual_output": "The correct answer is: 146234794054 ",
@@ -3916,7 +3916,7 @@
         },
         {
             "id": 47,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n54-3=",
             "actual_output": "The correct answer is 51. ",
@@ -3926,7 +3926,7 @@
         },
         {
             "id": 46,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n68-49=",
             "actual_output": "68 - 49 = 19 ",
@@ -3936,7 +3936,7 @@
         },
         {
             "id": 45,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n9-23=",
             "actual_output": "The correct answer is -14. ",
@@ -3946,7 +3946,7 @@
         },
         {
             "id": 44,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n15-5=",
             "actual_output": "15-5=10 ",
@@ -3956,7 +3956,7 @@
         },
         {
             "id": 43,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n9-71=",
             "actual_output": "The correct answer is -62. ",
@@ -3966,7 +3966,7 @@
         },
         {
             "id": 6,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 10.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n6+2=",
             "actual_output": "The correct answer is 8. ",
@@ -3976,7 +3976,7 @@
         },
         {
             "id": 5,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 10.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n9+2=",
             "actual_output": "The correct answer is 11. ",
@@ -3986,7 +3986,7 @@
         },
         {
             "id": 4,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 10.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n5+2=",
             "actual_output": "The correct answer is 7. ",
@@ -3996,7 +3996,7 @@
         },
         {
             "id": 3,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 10.",
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n4+3=",
             "actual_output": "The correct answer is 7. ",

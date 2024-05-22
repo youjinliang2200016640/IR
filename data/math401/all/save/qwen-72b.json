@@ -3784,7 +3784,7 @@
         },
         {
             "id": 375,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\nsin(-5.75\u03c0)=",
             "actual_output": "The correct answer to the question \"sin(-5.75\u03c0) = ?\" is approximately -0.9999999999999998.",
@@ -3794,7 +3794,7 @@
         },
         {
             "id": 374,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\ncos(7.75\u03c0)=",
             "actual_output": "The correct answer to the question \"cos(7.75\u03c0) = ?\" is -0.7071067811865476.",
@@ -3804,7 +3804,7 @@
         },
         {
             "id": 371,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\ncos(-3.25\u03c0)=",
             "actual_output": "The correct answer to the question \"cos(-3.25\u03c0) = ?\" is approximately 0.9999999999999998.",
@@ -3814,7 +3814,7 @@
         },
         {
             "id": 370,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\ncos(-300\u00b0)=",
             "actual_output": "The correct answer to the question \"cos(-300\u00b0) = ?\" is 0.866.",
@@ -3824,7 +3824,7 @@
         },
         {
             "id": 369,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\ntan(-6.33\u03c0)=",
             "actual_output": "tan(-6.33\u03c0) = -0.0001463001309493975",
@@ -3834,7 +3834,7 @@
         },
         {
             "id": 334,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n ( 97 - 56) / ( 97 + 56) * 31=",
             "actual_output": "The correct answer to the question is 10.5.",
@@ -3844,7 +3844,7 @@
         },
         {
             "id": 333,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n ( 11 * 17) + 56=",
             "actual_output": "The correct answer to the question is 243.",
@@ -3854,7 +3854,7 @@
         },
         {
             "id": 332,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n 50 * 67=",
             "actual_output": "The correct answer to the question \"50 * 67 = ?\" is 3350.",
@@ -3864,7 +3864,7 @@
         },
         {
             "id": 324,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\ne+pi=",
             "actual_output": "The correct answer to the question \"What is the value of e + pi?\" is approximately 5.8284271247461902.",
@@ -3874,7 +3874,7 @@
         },
         {
             "id": 318,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n6-5=",
             "actual_output": "The correct answer to the question \"6-5=\" is 1.",
@@ -3884,7 +3884,7 @@
         },
         {
             "id": 311,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\n\u03c0+e=",
             "actual_output": "The correct answer to the question is not provided. Please provide the question so I can assist you better.",
@@ -3894,7 +3894,7 @@
         },
         {
             "id": 310,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\ne*2=",
             "actual_output": "The correct answer to the question \"What is the value of e*2?\" is 2.718281828459045*2 = 5.43656365691809.",
@@ -3904,7 +3904,7 @@
         },
         {
             "id": 309,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
             "AnswerModel": "qwen-72b",
             "input": "Only return the correct answer of the question.\ne*e=",
             "actual_output": "The correct answer to the question \"What is the value of e*e?\" is 7.38905609893065.",

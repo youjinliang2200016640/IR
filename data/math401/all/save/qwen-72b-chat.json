@@ -4004,7 +4004,7 @@
         },
         {
             "id": 49,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "qwen-72b-chat",
             "input": "Only return the correct answer of the question.\n60-85=",
             "actual_output": "-25",

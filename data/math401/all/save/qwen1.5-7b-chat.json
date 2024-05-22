@@ -3884,7 +3884,7 @@
         },
         {
             "id": 84,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n786403083014+675944857940=",
             "actual_output": "1462347941954",
@@ -3894,7 +3894,7 @@
         },
         {
             "id": 83,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n72194749716+960193174801=",
             "actual_output": "The correct answer is:\n\n1032387672567",
@@ -3904,7 +3904,7 @@
         },
         {
             "id": 82,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n352860887460+79374684075=",
             "actual_output": "352860887460 + 79374684075 = 432235571535",
@@ -3914,7 +3914,7 @@
         },
         {
             "id": 81,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n623690866796+368029869233=",
             "actual_output": "The correct answer is:\n\n991720735039",
@@ -3924,7 +3924,7 @@
         },
         {
             "id": 80,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n936913097197+52653430976=",
             "actual_output": "989567407163",
@@ -3934,7 +3934,7 @@
         },
         {
             "id": 79,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n234319923293+171632577931=",
             "actual_output": "The correct answer is:\n\n305952505224",
@@ -3944,7 +3944,7 @@
         },
         {
             "id": 42,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n99-93=",
             "actual_output": "99 - 93 = 6",
@@ -3954,7 +3954,7 @@
         },
         {
             "id": 41,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n71-88=",
             "actual_output": "-17",
@@ -3964,7 +3964,7 @@
         },
         {
             "id": 40,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n91-12=",
             "actual_output": "The correct answer is:\n\n91 - 12 = 79",
@@ -3974,7 +3974,7 @@
         },
         {
             "id": 39,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n97-82=",
             "actual_output": "97 - 82 = 15",
@@ -3984,7 +3984,7 @@
         },
         {
             "id": 38,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n26+10=",
             "actual_output": "26+10=36",
@@ -3994,7 +3994,7 @@
         },
         {
             "id": 37,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n16+59=",
             "actual_output": "65",
@@ -4004,7 +4004,7 @@
         },
         {
             "id": 36,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\n16+73=",
             "actual_output": "16 + 73 = 89",

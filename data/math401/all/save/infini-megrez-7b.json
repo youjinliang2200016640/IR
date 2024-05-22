@@ -3684,7 +3684,7 @@
         },
         {
             "id": 292,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n1.1604^2.9258=",
             "actual_output": " 1.1604^2.9258= 1.1604^2 * 2.9258 1.1604^2 * 2.9258 \u2248 3.55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555",
@@ -3694,7 +3694,7 @@
         },
         {
             "id": 289,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n6.3411^3.2906=",
             "actual_output": " 6.3411^3.2906= = 6.3411^3.2906^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.2906^...^3.2906^3.290",
@@ -3704,7 +3704,7 @@
         },
         {
             "id": 221,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n40588\u00d74621=",
             "actual_output": " 40588\u00d74621=20,030,000",
@@ -3714,7 +3714,7 @@
         },
         {
             "id": 220,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n50516\u00d717016=",
             "actual_output": " 50516\u00d717016=89,999,999,996",
@@ -3724,7 +3724,7 @@
         },
         {
             "id": 219,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n11902\u00d740630=",
             "actual_output": " 11902\u00d740630= 47,641,290\n\nThat's the correct answer.",
@@ -3734,7 +3734,7 @@
         },
         {
             "id": 218,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n71786\u00d721638=",
             "actual_output": " 71786\u00d721638=15,977,444 \n\nPlease provide the next question.",
@@ -3744,7 +3744,7 @@
         },
         {
             "id": 217,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n52443*53061=",
             "actual_output": " 52443 * 53061 = 2,977,440,4361\n\nThe correct answer is 2,977,440,4361.",
@@ -3754,7 +3754,7 @@
         },
         {
             "id": 180,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two decimal numbers within 10.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n5.0*0.09=",
             "actual_output": " 4.9",
@@ -3764,7 +3764,7 @@
         },
         {
             "id": 179,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two decimal numbers within 10.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n0.6\u00d74.0=",
             "actual_output": " 2.4",
@@ -3774,7 +3774,7 @@
         },
         {
             "id": 178,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two decimal numbers within 10.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n0.1*1.0=",
             "actual_output": " 0.1 * 1.0 = 0.1",
@@ -3784,7 +3784,7 @@
         },
         {
             "id": 177,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two decimal numbers within 10.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n0.7*1.0=",
             "actual_output": " 0.7 * 1.0 = 0.7",
@@ -3794,7 +3794,7 @@
         },
         {
             "id": 176,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two decimal numbers within 10.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n3.0\u00d76.0=",
             "actual_output": " 18.0",
@@ -3804,7 +3804,7 @@
         },
         {
             "id": 175,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n69\u00d70=",
             "actual_output": " 69\u00d70=0",
@@ -3814,7 +3814,7 @@
         },
         {
             "id": 138,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n-0.099+0.84=",
             "actual_output": " The correct answer is:\n0.84",
@@ -3824,7 +3824,7 @@
         },
         {
             "id": 137,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n-0.0067+0.085=",
             "actual_output": " 0.085",
@@ -3834,7 +3834,7 @@
         },
         {
             "id": 136,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n64.0+(-0.83)=",
             "actual_output": " 64.0 - 0.83 = 63.17",
@@ -3844,7 +3844,7 @@
         },
         {
             "id": 135,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n-16.0+0.08=",
             "actual_output": " 16.08",
@@ -3854,7 +3854,7 @@
         },
         {
             "id": 134,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n-0.0069+3.6=",
             "actual_output": " The correct answer is:\n\n3.6000",
@@ -3864,7 +3864,7 @@
         },
         {
             "id": 133,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two decimal numbers within -100~100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n63.0+0.074=",
             "actual_output": " 63.0 + 0.074 = 63.074",
@@ -3874,7 +3874,7 @@
         },
         {
             "id": 73,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n408-702=",
             "actual_output": " 408-702=",
@@ -3884,7 +3884,7 @@
         },
         {
             "id": 72,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n479-7=",
             "actual_output": " 479-7=472",
@@ -3894,7 +3894,7 @@
         },
         {
             "id": 71,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n700-64=",
             "actual_output": " The correct answer of the question is 649.",
@@ -3904,7 +3904,7 @@
         },
         {
             "id": 70,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n311-221=",
             "actual_output": " The correct answer of the question is 311 minus 221 is 90.",
@@ -3914,7 +3914,7 @@
         },
         {
             "id": 69,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n58-892=",
             "actual_output": " 58-892= 1410",
@@ -3924,7 +3924,7 @@
         },
         {
             "id": 68,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n647-516=",
             "actual_output": " The correct answer of the question is 140.",
@@ -3934,7 +3934,7 @@
         },
         {
             "id": 67,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 1,000.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n420-6=",
             "actual_output": " 420-6= 414",
@@ -3944,7 +3944,7 @@
         },
         {
             "id": 30,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n21+97=",
             "actual_output": " 21 + 97 = 118",
@@ -3954,7 +3954,7 @@
         },
         {
             "id": 29,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n8+56=",
             "actual_output": " 56",
@@ -3964,7 +3964,7 @@
         },
         {
             "id": 28,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n53+27=",
             "actual_output": " 53 + 27 = 80",
@@ -3974,7 +3974,7 @@
         },
         {
             "id": 27,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n57+70=",
             "actual_output": " 127",
@@ -3984,7 +3984,7 @@
         },
         {
             "id": 26,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 100.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n65+82=",
             "actual_output": " 65 + 82 = 147",
@@ -3994,7 +3994,7 @@
         },
         {
             "id": 25,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 10.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n9-1=",
             "actual_output": " 9-1=8",
@@ -4004,7 +4004,7 @@
         },
         {
             "id": 24,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Add \\& Subtract of two integers within 10.",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\n2-3=",
             "actual_output": " 2-3= 5",

@@ -3984,7 +3984,7 @@
         },
         {
             "id": 342,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
             "AnswerModel": "qwen1.5-72b-chat",
             "input": "Only return the correct answer of the question.\n ( 14 + 96) * 93 + ( 72 * 23)=",
             "actual_output": "The correct answer to the equation is:\n\n(14 + 96) * 93 + (72 * 23) = 110 * 93 + 1656 = 10230 + 1656 = 11886",

@@ -1901,6 +1901,1346 @@
             "expected_output": "1411912236",
             "is_correct": -1,
             "time": 83037199800
+        },
+        {
+            "id": 217,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n52443*53061=",
+            "actual_output": "52443 * 53061 = 53061 * (50000 + 2000 + 400 + 40 + 3) = 53061 * 50000 + 53061 * 2000 + 53061 * 400 + 53061 * 40 + 53061 * 3 = 2653050000 + 106122000 + 21224400 + 2122440 + 159183 = 2759172000 + 21224400 + 2122440 + 159183 = 2780396400 + 2122440 + 159183 = 2782518840 + 159183 = 2782678023",
+            "expected_output": "2782678023",
+            "is_correct": -1,
+            "time": 156412474300
+        },
+        {
+            "id": 218,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n71786\u00d721638=",
+            "actual_output": "71786 * 21638 = 71786 * (20000 + 1000 + 600 + 30 + 8) = 71786 * 20000 + 71786 * 1000 + 71786 * 600 + 71786 * 30 + 71786 * 8 = 1435720000 + 71786000 + 43071600 + 2153580 + 574288 = 1507506000 + 43071600 + 2153580 + 574288 = 1550577600 + 2153580 + 574288 = 1552731180 + 574288 = 1553305468",
+            "expected_output": "1553305468",
+            "is_correct": -1,
+            "time": 21657502600
+        },
+        {
+            "id": 219,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n11902\u00d740630=",
+            "actual_output": "11902 * 40630 = 40630 * (10000 + 1000 + 900 + 2) = 40630 * 10000 + 40630 * 1000 + 40630 * 900 + 40630 * 2 = 406300000 + 40630000 + 36567000 + 81260 = 446930000 + 36567000 + 81260 = 483497000 + 81260 = 483578260",
+            "expected_output": "483578260",
+            "is_correct": -1,
+            "time": 14128165200
+        },
+        {
+            "id": 220,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n50516\u00d717016=",
+            "actual_output": "50516 * 17016 = 50516 * (10000 + 7000 + 10 + 6) = 50516 * 10000 + 50516 * 7000 + 50516 * 10 + 50516 * 6 = 505160000 + 353612000 + 505160 + 303096 = 858772000 + 505160 + 303096 = 859277160 + 303096 = 859580256",
+            "expected_output": "859580256",
+            "is_correct": -1,
+            "time": 13828650000
+        },
+        {
+            "id": 221,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n40588\u00d74621=",
+            "actual_output": "40588 * 4621 = 40588 * (4000 + 600 + 20 + 1) = 40588 * 4000 + 40588 * 600 + 40588 * 20 + 40588 * 1 = 162352000 + 24352800 + 811760 + 40588 = 186704800 + 811760 + 40588 = 187516560 + 40588 = 187557148",
+            "expected_output": "187557148",
+            "is_correct": -1,
+            "time": 12673425400
+        },
+        {
+            "id": 222,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n88254\u00d726228=",
+            "actual_output": "88254 * 26228 = 88254 * (20000 + 6000 + 200 + 20 + 8) = 88254 * 20000 + 88254 * 6000 + 88254 * 200 + 88254 * 20 + 88254 * 8 = 1765080000 + 529524000 + 17650800 + 1765080 + 706032 = 2294604000 + 17650800 + 1765080 + 706032 = 2312254800 + 1765080 + 706032 = 2314019880 + 706032 = 2314725912",
+            "expected_output": "2314725912",
+            "is_correct": -1,
+            "time": 19592646000
+        },
+        {
+            "id": 223,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n98113*35747=",
+            "actual_output": "98113 * 35747 = 98113 * (30000 + 5000 + 700 + 40 + 7) = 98113 * 30000 + 98113 * 5000 + 98113 * 700 + 98113 * 40 + 98113 * 7 = 2943390000 + 490565000 + 68679100 + 3924520 + 686791 = 3433955000 + 68679100 + 3924520 + 686791 = 3502634100 + 3924520 + 686791 = 3506558620 + 686791 = 3507245411",
+            "expected_output": "3507245411",
+            "is_correct": -1,
+            "time": 19611689600
+        },
+        {
+            "id": 224,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n28445*80568=",
+            "actual_output": "28445 * 80568 = 80568 * (20000 + 8000 + 400 + 40 + 5) = 80568 * 20000 + 80568 * 8000 + 80568 * 400 + 80568 * 40 + 80568 * 5 = 1611360000 + 644544000 + 32227200 + 3222720 + 402840 = 2255904000 + 32227200 + 3222720 + 402840 = 2288131200 + 3222720 + 402840 = 2291353920 + 402840 = 2291756760",
+            "expected_output": "2291756760",
+            "is_correct": -1,
+            "time": 18212237600
+        },
+        {
+            "id": 225,
+            "class": "Multiply two integers within 100,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n37739*66015=",
+            "actual_output": "37739 * 66015 = 66015 * (30000 + 7000 + 700 + 30 + 9) = 66015 * 30000 + 66015 * 7000 + 66015 * 700 + 66015 * 30 + 66015 * 9 = 1980450000 + 462105000 + 46210500 + 1980450 + 594135 = 2442555000 + 46210500 + 1980450 + 594135 = 2488765500 + 1980450 + 594135 = 2490745950 + 594135 = 2491340085",
+            "expected_output": "2491340085",
+            "is_correct": -1,
+            "time": 17957900000
+        },
+        {
+            "id": 226,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n16\u00f783=",
+            "actual_output": "The correct answer to the question \"16\u00f783\" is 0.1927710843373494. This is because 16 divided by 83 is equal to 0.1927710843373494 when rounded to 10 decimal places.",
+            "expected_output": "0.1928",
+            "is_correct": -1,
+            "time": 6192565100
+        },
+        {
+            "id": 227,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n53\u00f730=",
+            "actual_output": "53\u00f730=1.7666666666666667",
+            "expected_output": "1.7667",
+            "is_correct": -1,
+            "time": 2655908500
+        },
+        {
+            "id": 228,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n70\u00f761=",
+            "actual_output": "To find the correct answer for the division problem 70\u00f761, we can follow these steps:\n\nStep 1: Divide the dividend (70) by the divisor (61).\n\nStep 2: Since 61 is a prime number, we can't divide 70 by 61 directly. We can use long division to find the quotient and remainder.\n\nStep 3: Set up the long division problem as follows:\n\n       ____\n61 | 70\n\nStep 4: Divide 61 into 70. Since 61 \u00d7 1 = 61, we can write 1 as the quotient and subtract 61 from 70 to get the remainder.\n\n       1\n       ____\n61 | 70\n     -61\n     ----\n       9\n\nStep 5: Since the remainder is 9, we can write the final answer as 1 with a remainder of 9.\n\nSo, the correct answer for the division problem 70\u00f761 is 1 with a remainder of 9.",
+            "expected_output": "1.1475",
+            "is_correct": -1,
+            "time": 74897332900
+        },
+        {
+            "id": 229,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n50/95=",
+            "actual_output": "0.526",
+            "expected_output": "0.5263",
+            "is_correct": -1,
+            "time": 1512570500
+        },
+        {
+            "id": 230,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n89/34=",
+            "actual_output": "89/34=2.6176",
+            "expected_output": "2.6176",
+            "is_correct": -1,
+            "time": 2333141000
+        },
+        {
+            "id": 231,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n52\u00f740=",
+            "actual_output": "52\u00f740=1.3",
+            "expected_output": "1.3000",
+            "is_correct": -1,
+            "time": 1766914900
+        },
+        {
+            "id": 232,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n59\u00f714=",
+            "actual_output": "4.214",
+            "expected_output": "4.2143",
+            "is_correct": -1,
+            "time": 1628382900
+        },
+        {
+            "id": 233,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n79/79=",
+            "actual_output": "1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 1510952900
+        },
+        {
+            "id": 240,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n31\u00f755=",
+            "actual_output": "0.5636",
+            "expected_output": "0.5636",
+            "is_correct": -1,
+            "time": 116170261600
+        },
+        {
+            "id": 241,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n85\u00f727=",
+            "actual_output": "85\u00f727=3.111111111111111\n\nThe correct answer is 3.111111111111111.",
+            "expected_output": "3.1481",
+            "is_correct": -1,
+            "time": 6322102900
+        },
+        {
+            "id": 242,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n71/22=",
+            "actual_output": "3.227",
+            "expected_output": "3.2273",
+            "is_correct": -1,
+            "time": 1903701800
+        },
+        {
+            "id": 244,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n33/22=",
+            "actual_output": "33/22=1.5",
+            "expected_output": "1.5000",
+            "is_correct": -1,
+            "time": 64063339900
+        },
+        {
+            "id": 245,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n63\u00f74=",
+            "actual_output": "15.75",
+            "expected_output": "15.7500",
+            "is_correct": -1,
+            "time": 2979889800
+        },
+        {
+            "id": 246,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n97\u00f71=",
+            "actual_output": "97\u00f71=97",
+            "expected_output": "97.0000",
+            "is_correct": -1,
+            "time": 1822652900
+        },
+        {
+            "id": 248,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n14\u00f785=",
+            "actual_output": "To find the correct answer for the division problem 14\u00f785, we need to divide 14 by 85. \n\nStep 1: Write down the division problem: 14 \u00f7 85\n\nStep 2: Divide 14 by 85. Since 85 is greater than 14, we can't divide 14 by 85. Therefore, the answer is 0 with a remainder of 14.\n\nStep 3: Write down the answer: 0 R 14\n\nSo, the correct answer for the division problem 14\u00f785 is 0 with a remainder of 14.",
+            "expected_output": "0.1647",
+            "is_correct": -1,
+            "time": 178561187500
+        },
+        {
+            "id": 249,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n82/34=",
+            "actual_output": "82 divided by 34 is equal to 2.4117647058823529.",
+            "expected_output": "2.4118",
+            "is_correct": -1,
+            "time": 3116728900
+        },
+        {
+            "id": 251,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2^3=",
+            "actual_output": "8",
+            "expected_output": "8",
+            "is_correct": -1,
+            "time": 125176653200
+        },
+        {
+            "id": 252,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3^3=",
+            "actual_output": "27",
+            "expected_output": "27",
+            "is_correct": -1,
+            "time": 939905400
+        },
+        {
+            "id": 253,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4^2=",
+            "actual_output": "16",
+            "expected_output": "16",
+            "is_correct": -1,
+            "time": 1051573800
+        },
+        {
+            "id": 254,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n10^3=",
+            "actual_output": "1000",
+            "expected_output": "1000",
+            "is_correct": -1,
+            "time": 1105533900
+        },
+        {
+            "id": 255,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n1^3=",
+            "actual_output": "1^3 = 1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 1248243200
+        },
+        {
+            "id": 256,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n1^3=",
+            "actual_output": "1^3 = 1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 1206514500
+        },
+        {
+            "id": 257,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n7^4=",
+            "actual_output": "2401",
+            "expected_output": "2401",
+            "is_correct": -1,
+            "time": 1070172000
+        },
+        {
+            "id": 258,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2^2=",
+            "actual_output": "4",
+            "expected_output": "4",
+            "is_correct": -1,
+            "time": 877835200
+        },
+        {
+            "id": 259,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8^4=",
+            "actual_output": "4096",
+            "expected_output": "4096",
+            "is_correct": -1,
+            "time": 1065480600
+        },
+        {
+            "id": 260,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n7^4=",
+            "actual_output": "2401",
+            "expected_output": "2401",
+            "is_correct": -1,
+            "time": 1134327400
+        },
+        {
+            "id": 261,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3^2=",
+            "actual_output": "9",
+            "expected_output": "9",
+            "is_correct": -1,
+            "time": 880599000
+        },
+        {
+            "id": 262,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3^4=",
+            "actual_output": "81",
+            "expected_output": "81",
+            "is_correct": -1,
+            "time": 923367500
+        },
+        {
+            "id": 263,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n1^3=",
+            "actual_output": "1^3 = 1",
+            "expected_output": "1",
+            "is_correct": -1,
+            "time": 6682096000
+        },
+        {
+            "id": 264,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5^2=",
+            "actual_output": "25",
+            "expected_output": "25",
+            "is_correct": -1,
+            "time": 890924300
+        },
+        {
+            "id": 265,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9^4=",
+            "actual_output": "6561",
+            "expected_output": "6561",
+            "is_correct": -1,
+            "time": 1035101400
+        },
+        {
+            "id": 266,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6^2=",
+            "actual_output": "36",
+            "expected_output": "36",
+            "is_correct": -1,
+            "time": 894592500
+        },
+        {
+            "id": 267,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3^3=",
+            "actual_output": "27",
+            "expected_output": "27",
+            "is_correct": -1,
+            "time": 920432100
+        },
+        {
+            "id": 268,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8^4=",
+            "actual_output": "4096",
+            "expected_output": "4096",
+            "is_correct": -1,
+            "time": 1129846700
+        },
+        {
+            "id": 270,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3^3=",
+            "actual_output": "27",
+            "expected_output": "27",
+            "is_correct": -1,
+            "time": 115517385800
+        },
+        {
+            "id": 271,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3^4=",
+            "actual_output": "81",
+            "expected_output": "81",
+            "is_correct": -1,
+            "time": 877101800
+        },
+        {
+            "id": 272,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3^4=",
+            "actual_output": "81",
+            "expected_output": "81",
+            "is_correct": -1,
+            "time": 938084100
+        },
+        {
+            "id": 273,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5^4=",
+            "actual_output": "625",
+            "expected_output": "625",
+            "is_correct": -1,
+            "time": 925762800
+        },
+        {
+            "id": 274,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6^2=",
+            "actual_output": "36",
+            "expected_output": "36",
+            "is_correct": -1,
+            "time": 877113000
+        },
+        {
+            "id": 275,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6^3=",
+            "actual_output": "216",
+            "expected_output": "216",
+            "is_correct": -1,
+            "time": 930317000
+        },
+        {
+            "id": 286,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4.8237^3.2066=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 4.8237 raised to the power of 3.2066. This can be done using the following steps:\n\nStep 1: Identify the base and exponent\nIn this case, the base is 4.8237 and the exponent is 3.2066.\n\nStep 2: Calculate the value of the base raised to the power of the exponent\nTo do this, we can use a calculator or a computer program that supports scientific notation. The result is approximately 52.999.\n\nTherefore, the correct answer to the question is 52.999.",
+            "expected_output": "155.3557",
+            "is_correct": -1,
+            "time": 99822939400
+        },
+        {
+            "id": 287,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4.8173^2.3094=",
+            "actual_output": "To find the correct answer to the question, we need to perform the calculation 4.8173 raised to the power of 2.3094. Here's the step-by-step process:\n\nStep 1: Identify the base and exponent.\nIn this case, the base is 4.8173, and the exponent is 2.3094.\n\nStep 2: Perform the calculation.\nTo calculate the result, we need to raise the base to the power of the exponent. This can be done using a calculator or by using the formula for exponentiation:\n\n4.8173^2.3094 = 4.8173 \u00d7 4.8173 \u00d7 4.8173^(0.3094)\n\nStep 3: Calculate the result.\nUsing a calculator or a computer program, we can find the result of the calculation:\n\n4.8173^2.3094 \u2248 22.7929\n\nSo, the correct answer to the question is approximately 22.7929.",
+            "expected_output": "37.7456",
+            "is_correct": -1,
+            "time": 17273662700
+        },
+        {
+            "id": 288,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3.8519^3.8141=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 3.8519 raised to the power of 3.8141. This can be done using a calculator or a computer program that supports exponentiation.\n\nUsing a calculator or a computer program, we find that:\n\n3.8519^3.8141 \u2248 102.999\n\nTherefore, the correct answer to the question is 102.999.",
+            "expected_output": "171.3259",
+            "is_correct": -1,
+            "time": 7690651300
+        },
+        {
+            "id": 289,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6.3411^3.2906=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 6.3411 raised to the power of 3.2906. This can be done using the following steps:\n\nStep 1: Identify the base and exponent\nIn this case, the base is 6.3411 and the exponent is 3.2906.\n\nStep 2: Calculate the value of the base raised to the power of the exponent\nTo do this, we can use a calculator or a computer program that supports scientific notation. The result is approximately 222.999.\n\nTherefore, the correct answer to the question is 222.999.",
+            "expected_output": "436.1168",
+            "is_correct": -1,
+            "time": 10395033200
+        },
+        {
+            "id": 290,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4.8903^3.4272=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 4.8903 raised to the power of 3.4272. This can be done using a calculator or by using the exponentiation formula.\n\nUsing a calculator, we can enter the expression 4.8903^3.4272 and press the equals button to get the result. The correct answer is approximately 142.99.\n\nAlternatively, we can use the exponentiation formula, which states that a^b = e^(b*ln(a)). In this case, we have a = 4.8903 and b = 3.4272. Using a calculator, we can calculate the natural logarithm of 4.8903, which is approximately 1.579. Multiplying this by 3.4272 gives us 5.402. Finally, we can raise e to the power of 5.402 to get the result, which is approximately 142.99.\n\nTherefore, the correct answer to the question is approximately 142.99.",
+            "expected_output": "230.4043",
+            "is_correct": -1,
+            "time": 16226390500
+        },
+        {
+            "id": 291,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6.4981^2.6289=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 6.4981 raised to the power of 2.6289. This can be done using the following steps:\n\nStep 1: Identify the base and exponent\nIn this case, the base is 6.4981 and the exponent is 2.6289.\n\nStep 2: Use a calculator or a computer program to calculate the value\nUsing a calculator or a computer program, we can calculate the value of 6.4981 raised to the power of 2.6289. The result is approximately 102.99.\n\nTherefore, the correct answer to the question is 102.99.",
+            "expected_output": "137.0043",
+            "is_correct": -1,
+            "time": 10497092800
+        },
+        {
+            "id": 292,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n1.1604^2.9258=",
+            "actual_output": "To find the correct answer, we need to calculate the value of 1.1604 raised to the power of 2.9258. Here's the step-by-step process:\n\nStep 1: Identify the base and exponent\nIn this case, the base is 1.1604 and the exponent is 2.9258.\n\nStep 2: Calculate the value\nTo calculate the value, we raise the base to the power of the exponent. In this case, we have:\n\n1.1604^2.9258 = 11.2422\n\nStep 3: Return the correct answer\nThe correct answer to the question is 11.2422.",
+            "expected_output": "1.5454",
+            "is_correct": -1,
+            "time": 10479051800
+        },
+        {
+            "id": 293,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4.9319^2.3231=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 4.9319 raised to the power of 2.3231. This can be done using the following steps:\n\nStep 1: Identify the base and exponent\nIn this case, the base is 4.9319 and the exponent is 2.3231.\n\nStep 2: Calculate the value of the base raised to the power of the exponent\nTo do this, we can use a calculator or a computer program that supports exponentiation. The result is approximately 24.299.\n\nTherefore, the correct answer to the question is 24.299.",
+            "expected_output": "40.7325",
+            "is_correct": -1,
+            "time": 9868095300
+        },
+        {
+            "id": 294,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5.5507^2.0434=",
+            "actual_output": "To find the correct answer, we need to perform the calculation 5.5507^2.0434. Here's the step-by-step process:\n\nStep 1: Identify the base and exponent.\nIn this case, the base is 5.5507, and the exponent is 2.0434.\n\nStep 2: Perform the calculation.\nTo calculate the result, we raise the base to the power of the exponent:\n5.5507^2.0434 \u2248 14.9999\n\nStep 3: Round the result if necessary.\nSince the question does not specify a specific number of decimal places, we can leave the result as is.\n\nThe correct answer is 14.9999.",
+            "expected_output": "33.1895",
+            "is_correct": -1,
+            "time": 10945466100
+        },
+        {
+            "id": 295,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8.7876^2.5821=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 8.7876 raised to the power of 2.5821. This can be done using the following steps:\n\nStep 1: Convert the exponent to a decimal value\n2.5821 can be converted to a decimal value by multiplying it by 10000 and then dividing by 10000. This gives us:\n\n2.5821 * 10000 / 10000 = 2.5821\n\nStep 2: Calculate the value of 8.7876 raised to the power of 2.5821\nTo calculate the value of 8.7876 raised to the power of 2.5821, we can use a calculator or a computer program. The result is:\n\n8.7876^2.5821 = 102.999\n\nTherefore, the correct answer to the question is 102.999.",
+            "expected_output": "273.6324",
+            "is_correct": -1,
+            "time": 15105426400
+        },
+        {
+            "id": 296,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8.6112^3.7534=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 8.6112 raised to the power of 3.7534. This can be done using the following steps:\n\nStep 1: Identify the base and exponent\nIn this case, the base is 8.6112 and the exponent is 3.7534.\n\nStep 2: Calculate the value of the base raised to the power of the exponent\nTo do this, we can use a calculator or a computer program that supports scientific notation. The result is approximately 1,000,000,000.\n\nTherefore, the correct answer to the question is 1,000,000,000.",
+            "expected_output": "3233.4638",
+            "is_correct": -1,
+            "time": 10238137200
+        },
+        {
+            "id": 297,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8.964^2.7688=",
+            "actual_output": "To find the correct answer for the given expression, we need to use a calculator or a computer program that can handle complex calculations. \n\nUsing a calculator or a computer program, we can find that the correct answer for the expression 8.964^2.7688 is approximately 129.99. \n\nTherefore, the correct answer for the given expression is 129.99.",
+            "expected_output": "433.7976",
+            "is_correct": -1,
+            "time": 5507263900
+        },
+        {
+            "id": 298,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8.6178^2.9802=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 8.6178 raised to the power of 2.9802. This can be done using the following steps:\n\nStep 1: Calculate the value of 8.6178 raised to the power of 2.9802 using a calculator or a computer program. The result is approximately 1,000.0000.\n\nStep 2: Round the result to the nearest whole number. Since the result is already a whole number, we can simply write it as 1,000.\n\nTherefore, the correct answer to the question is 1,000.",
+            "expected_output": "613.2935",
+            "is_correct": -1,
+            "time": 8722403300
+        },
+        {
+            "id": 299,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2.3797^2.9197=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 2.3797 raised to the power of 2.9197. This can be done using a calculator or by using the exponentiation formula.\n\nUsing a calculator, we can enter the expression 2.3797^2.9197 and press the equals button to get the result. The correct answer is approximately 22.999.\n\nAlternatively, we can use the exponentiation formula, which states that a^b = e^(b*ln(a)). In this case, we have a = 2.3797 and b = 2.9197. Using a calculator, we can calculate the natural logarithm of 2.3797, which is approximately 0.899. Multiplying this by 2.9197 gives us 2.618. Finally, we can raise e to the power of 2.618 to get the result, which is approximately 22.999.\n\nTherefore, the correct answer to the question is approximately 22.999.",
+            "expected_output": "12.5699",
+            "is_correct": -1,
+            "time": 13885614500
+        },
+        {
+            "id": 304,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8-e=",
+            "actual_output": "To find the correct answer for the equation 8 - e = ?, we need to determine the value of e. \n\nStep 1: Identify the equation\nThe equation is 8 - e = ?.\n\nStep 2: Isolate the variable e\nTo isolate e, we need to get rid of the constant term (8) on the left side of the equation. We can do this by subtracting 8 from both sides of the equation:\n\n8 - e - 8 = ? - 8\n\nThis simplifies to:\n\n-e = ? - 8\n\nStep 3: Solve for e\nNow, we need to get rid of the negative sign in front of e. We can do this by multiplying both sides of the equation by -1:\n\n(-1)(-e) = (-1)(? - 8)\n\nThis simplifies to:\n\ne = 8 - ?\n\nStep 4: Determine the correct answer\nSince we are only asked to return the correct answer, we can simply state that the correct answer is 8 - e.",
+            "expected_output": "5.2817",
+            "is_correct": -1,
+            "time": 54850532400
+        },
+        {
+            "id": 305,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n7/\u03c0=",
+            "actual_output": "The correct answer to the question \"7/\u03c0 = ?\" is approximately 2.208. \n\nTo arrive at this answer, we need to divide 7 by \u03c0 (pi), which is a mathematical constant that represents the ratio of a circle's circumference to its diameter. The value of \u03c0 is approximately 3.14159265358979323846... \n\nTo divide 7 by \u03c0, we can use a calculator or perform the division manually. Using a calculator, we get:\n\n7/\u03c0 \u2248 2.208\n\nTherefore, the correct answer to the question \"7/\u03c0 = ?\" is approximately 2.208.",
+            "expected_output": "2.2282",
+            "is_correct": -1,
+            "time": 11728872900
+        },
+        {
+            "id": 306,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0*2=",
+            "actual_output": "0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 827402000
+        },
+        {
+            "id": 307,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n\u03c0*4=",
+            "actual_output": "12.56",
+            "expected_output": "12.5660",
+            "is_correct": -1,
+            "time": 1154934200
+        },
+        {
+            "id": 309,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ne*e=",
+            "actual_output": "e*e=2.718281828459045",
+            "expected_output": "7.3890",
+            "is_correct": -1,
+            "time": 84918801200
+        },
+        {
+            "id": 310,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ne*2=",
+            "actual_output": "e*2=2e",
+            "expected_output": "5.4366",
+            "is_correct": -1,
+            "time": 1622966300
+        },
+        {
+            "id": 320,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\npi-\u03c0=",
+            "actual_output": "The correct answer to the question \"pi-\u03c0=\" is 0. \n\nExplanation: \n- Pi (\u03c0) is a mathematical constant that represents the ratio of a circle's circumference to its diameter. It is approximately equal to 3.14159. \n- The symbol \u03c0 is used to represent this constant. \n- Therefore, when we subtract \u03c0 from pi, we are essentially subtracting the same value from itself, which results in 0.",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 69150691800
+        },
+        {
+            "id": 321,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3*4=",
+            "actual_output": "12",
+            "expected_output": "12.0000",
+            "is_correct": -1,
+            "time": 1001346200
+        },
+        {
+            "id": 322,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n\u03c0-1=",
+            "actual_output": "2.1415-1=1.1415",
+            "expected_output": "2.1415",
+            "is_correct": -1,
+            "time": 2020308300
+        },
+        {
+            "id": 323,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ne-5=",
+            "actual_output": "e-5=",
+            "expected_output": "-2.2817",
+            "is_correct": -1,
+            "time": 1134220200
+        },
+        {
+            "id": 324,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ne+pi=",
+            "actual_output": "e+pi=5.85983152173403",
+            "expected_output": "5.8598",
+            "is_correct": -1,
+            "time": 2332778200
+        },
+        {
+            "id": 325,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ne-pi=",
+            "actual_output": "e-pi = -0.4232200158592405",
+            "expected_output": "-0.4232",
+            "is_correct": -1,
+            "time": 2640462600
+        },
+        {
+            "id": 332,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n 50 * 67=",
+            "actual_output": "3350",
+            "expected_output": "3350.0000",
+            "is_correct": -1,
+            "time": 165972472900
+        },
+        {
+            "id": 333,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 11 * 17) + 56=",
+            "actual_output": "243",
+            "expected_output": "243.0000",
+            "is_correct": -1,
+            "time": 1103355900
+        },
+        {
+            "id": 334,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 97 - 56) / ( 97 + 56) * 31=",
+            "actual_output": "To solve this problem, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\nFirst, we need to simplify the parentheses: \n\n(97 - 56) / (97 + 56) \n\n= 41 / 153 \n\nNext, we need to multiply this fraction by 31: \n\n41 / 153 * 31 \n\n= 1271 / 153 \n\nFinally, we need to simplify this fraction by dividing both the numerator and denominator by their greatest common factor, which is 1: \n\n1271 / 153 \n\n= 8.321 \n\nTherefore, the correct answer is 8.321.",
+            "expected_output": "8.3072",
+            "is_correct": -1,
+            "time": 17230129400
+        },
+        {
+            "id": 335,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n 0 * ( 95 * 68) + ( 26 / 45)=",
+            "actual_output": "0 * ( 95 * 68) + ( 26 / 45) = 0 * 6460 + ( 26 / 45) = 0 + ( 26 / 45) = 0.5778",
+            "expected_output": "0.5778",
+            "is_correct": -1,
+            "time": 5133769900
+        },
+        {
+            "id": 336,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n 21 - ( 2 + 31)=",
+            "actual_output": "To solve this problem, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\nIn this problem, we have two operations: addition and subtraction. We need to perform the addition operation first, and then the subtraction operation. \n\nSo, let's start with the addition operation: \n\n2 + 31 = 33 \n\nNow, we can substitute this value back into the original problem: \n\n21 - 33 = -12 \n\nTherefore, the correct answer to the problem is -12.",
+            "expected_output": "-12.0000",
+            "is_correct": -1,
+            "time": 10106423300
+        },
+        {
+            "id": 337,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 88 - 42) * ( 33 * 41) - ( 13 - 27)=",
+            "actual_output": "Let's break down the problem step by step:\n\n1. Calculate the value inside the parentheses: (88 - 42) = 46\n2. Multiply the result by the next set of parentheses: 46 * (33 * 41)\n3. Calculate the value inside the second set of parentheses: 33 * 41 = 1353\n4. Multiply the result by the value from step 1: 46 * 1353 = 62238\n5. Calculate the value inside the last set of parentheses: (13 - 27) = -14\n6. Subtract the result from step 5 from the result from step 4: 62238 - (-14) = 62238 + 14 = 62252\n\nSo, the correct answer is 62252.",
+            "expected_output": "62252.0000",
+            "is_correct": -1,
+            "time": 15004464900
+        },
+        {
+            "id": 338,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 79 + 75) / ( 46 + 51)=",
+            "actual_output": "(79 + 75) / (46 + 51) = 154 / 97 = 1.587654275862069",
+            "expected_output": "1.5876",
+            "is_correct": -1,
+            "time": 4029629500
+        },
+        {
+            "id": 339,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 2 + 42) + ( 56 + 50)=",
+            "actual_output": "To find the correct answer, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\nFirst, we need to simplify the expressions inside the parentheses:\n\n(2 + 42) = 44\n(56 + 50) = 106\n\nNow, we can rewrite the equation as:\n\n44 + 106 = ?\n\nNext, we need to perform the addition operation:\n\n44 + 106 = 150\n\nTherefore, the correct answer to the question is 150.",
+            "expected_output": "150.0000",
+            "is_correct": -1,
+            "time": 10463094300
+        },
+        {
+            "id": 340,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n 38 + ( 26 / 67) * 19=",
+            "actual_output": "To solve this problem, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\nFirst, we need to perform the division operation: \n\n26 / 67 = 0.3880952380952381\n\nNext, we need to perform the multiplication operation: \n\n0.3880952380952381 * 19 = 7.373809523809524\n\nFinally, we need to perform the addition operation: \n\n38 + 7.373809523809524 = 45.37380952380952\n\nTherefore, the correct answer to the question is 45.37380952380952.",
+            "expected_output": "45.3731",
+            "is_correct": -1,
+            "time": 28471936700
+        },
+        {
+            "id": 341,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n 75 + ( 35 / 30) + 72=",
+            "actual_output": "To find the correct answer, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\n1. First, we need to perform the division operation: 35 / 30 = 1.1666666666666667 (rounded to 1.17).\n\n2. Next, we need to perform the addition operations: 75 + 1.17 + 72 = 148.17.\n\nTherefore, the correct answer to the question is 148.17.",
+            "expected_output": "148.1667",
+            "is_correct": -1,
+            "time": 10345978200
+        },
+        {
+            "id": 342,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 14 + 96) * 93 + ( 72 * 23)=",
+            "actual_output": "To find the correct answer, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\nFirst, we need to perform the operations inside the parentheses. However, there are no parentheses in this question, so we can move on to the next step.\n\nNext, we need to perform any exponents. Again, there are no exponents in this question, so we can move on to the next step.\n\nNext, we need to perform any multiplication or division operations from left to right. In this case, we have two multiplication operations: 14 + 96 and 72 * 23. We can start with the first one:\n\n14 + 96 = 110\n\nNow we can move on to the second multiplication operation:\n\n72 * 23 = 1656\n\nNow we can substitute these values back into the original equation:\n\n(110) * 93 + (1656) = 10230 + 1656 = 11886\n\nTherefore, the correct answer to the question is 11886.",
+            "expected_output": "11886.0000",
+            "is_correct": -1,
+            "time": 17083789800
+        },
+        {
+            "id": 343,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 21 - 43) / 50 + ( 65 - 37)=",
+            "actual_output": "To solve this problem, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\nFirst, we need to simplify the expressions inside the parentheses: \n\n(21 - 43) / 50 = -22 / 50 = -0.44 \n\n(65 - 37) = 28 \n\nNext, we need to perform the multiplication and division operations from left to right: \n\n-0.44 + 28 = 27.56 \n\nTherefore, the correct answer to the question is 27.56.",
+            "expected_output": "27.5600",
+            "is_correct": -1,
+            "time": 9963294600
+        },
+        {
+            "id": 344,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 86 + 57) / 43=",
+            "actual_output": "The correct answer to the question (86 + 57) / 43 is 3.",
+            "expected_output": "3.3256",
+            "is_correct": -1,
+            "time": 2285259400
+        },
+        {
+            "id": 345,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n 22 * ( 6 - 53)=",
+            "actual_output": "-1034",
+            "expected_output": "-1034.0000",
+            "is_correct": -1,
+            "time": 1329201200
+        },
+        {
+            "id": 346,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
+            "actual_output": "To find the correct answer, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\nFirst, we need to perform the addition operation inside the parentheses: \n\n24 + 22 = 46 \n\nNext, we need to multiply the result by 18: \n\n46 * 18 = 828 \n\nFinally, we need to divide the result by 79: \n\n828 / 79 = 10.48 (rounded to two decimal places) \n\nTherefore, the correct answer to the question is 10.48.",
+            "expected_output": "10.4810",
+            "is_correct": -1,
+            "time": 9986474900
+        },
+        {
+            "id": 347,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 47 - 99) * 86 * 99=",
+            "actual_output": "To find the correct answer, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\nFirst, we need to perform the subtraction operation inside the parentheses: \n\n47 - 99 = -52 \n\nNext, we need to multiply -52 by 86: \n\n-52 * 86 = -4472 \n\nFinally, we need to multiply -4472 by 99: \n\n-4472 * 99 = -442728 \n\nTherefore, the correct answer to the question is -442728.",
+            "expected_output": "-442728.0000",
+            "is_correct": -1,
+            "time": 10223461700
+        },
+        {
+            "id": 348,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n 16 / 51=",
+            "actual_output": "To find the correct answer for the division problem 16 / 51, we can follow these steps:\n\nStep 1: Divide 16 by 51.\nStep 2: If the division is not exact, round the result to the nearest whole number.\n\nLet's perform the division:\n\n16 \u00f7 51 = 0.3137254901960784\n\nSince the division is not exact, we need to round the result to the nearest whole number. In this case, the result is closer to 0 than to 1, so we round down.\n\nThe correct answer for the division problem 16 / 51 is 0.",
+            "expected_output": "0.3137",
+            "is_correct": -1,
+            "time": 10288836800
+        },
+        {
+            "id": 349,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n 51 - ( 92 - 77)=",
+            "actual_output": "To solve this problem, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\nFirst, we need to simplify the expression inside the parentheses: \n\n92 - 77 = 15 \n\nNow, we can substitute this value back into the original expression: \n\n51 - 15 = 36 \n\nTherefore, the correct answer to the question is 36.",
+            "expected_output": "36.0000",
+            "is_correct": -1,
+            "time": 7399784100
+        },
+        {
+            "id": 350,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n 77 / 81=",
+            "actual_output": "To find the correct answer for the division problem 77 divided by 81, we can follow these steps:\n\nStep 1: Divide 77 by 81.\n77 \u00f7 81 = 0.9457\n\nStep 2: Round the result to the nearest whole number.\n0.9457 rounded to the nearest whole number is 1.\n\nSo, the correct answer for the division problem 77 divided by 81 is 1.",
+            "expected_output": "0.9506",
+            "is_correct": -1,
+            "time": 7484255800
+        },
+        {
+            "id": 351,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nsin(-0.5\u03c0)=",
+            "actual_output": "The correct answer to the question \"sin(-0.5\u03c0) = ?\" is -1.\n\nTo understand why this is the case, let's first look at the definition of the sine function. The sine function is a periodic function that maps an angle in radians to a value between -1 and 1. It is defined as the ratio of the length of the side opposite the angle to the length of the hypotenuse in a right triangle.\n\nNow, let's consider the angle -0.5\u03c0. This angle is equivalent to -180 degrees or -\u03c0 radians. In the unit circle, this angle corresponds to the point (-1, 0). The sine function at this angle is equal to the y-coordinate of this point, which is -1.\n\nTherefore, sin(-0.5\u03c0) = -1.",
+            "expected_output": "-1.0000",
+            "is_correct": -1,
+            "time": 11836524300
+        },
+        {
+            "id": 352,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ntan(-0.17\u03c0)=",
+            "actual_output": "To find the tangent of -0.17\u03c0, we first need to convert the angle from radians to degrees. \n\n-0.17\u03c0 = -0.17 * 180\u00b0/\u03c0 \u2248 -30.69\u00b0\n\nNow, we can use the tangent function to find the value:\n\ntan(-30.69\u00b0) \u2248 -0.5736\n\nSo, the correct answer is:\n\ntan(-0.17\u03c0) \u2248 -0.5736",
+            "expected_output": "-0.5774",
+            "is_correct": -1,
+            "time": 7977576700
+        },
+        {
+            "id": 353,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(5.25\u03c0)=",
+            "actual_output": "cos(5.25\u03c0) = cos(5\u03c0 + 0.25\u03c0) = cos(5\u03c0)cos(0.25\u03c0) - sin(5\u03c0)sin(0.25\u03c0)\n\ncos(5\u03c0) = cos(5\u03c0 - 2\u03c0) = cos(3\u03c0) = -1\nsin(5\u03c0) = sin(5\u03c0 - 2\u03c0) = sin(3\u03c0) = 0\n\ncos(0.25\u03c0) = cos(\u03c0/4) = \u221a2/2\nsin(0.25\u03c0) = sin(\u03c0/4) = \u221a2/2\n\ncos(5.25\u03c0) = (-1)(\u221a2/2) - (0)(\u221a2/2) = -\u221a2/2\n\nTherefore, the correct answer is -\u221a2/2.",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 12974165000
+        },
+        {
+            "id": 354,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(-0.75\u03c0)=",
+            "actual_output": "cos(-0.75\u03c0) = cos(0.75\u03c0) = -0.7071",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 2344612600
+        },
+        {
+            "id": 355,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(0.75\u03c0)=",
+            "actual_output": "cos(0.75\u03c0) = cos(3\u03c0/4) = -\u221a2/2",
+            "expected_output": "-0.7071",
+            "is_correct": -1,
+            "time": 2209186500
+        },
+        {
+            "id": 356,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nsin(-3.75\u03c0)=",
+            "actual_output": "To find the value of sin(-3.75\u03c0), we need to use the unit circle and the reference angle. \n\nStep 1: Convert the angle to its equivalent in the interval [0, 2\u03c0).\n-3.75\u03c0 is equivalent to 2.25\u03c0 in the interval [0, 2\u03c0).\n\nStep 2: Determine the reference angle.\nThe reference angle is the acute angle formed between the terminal side of the angle and the x-axis. In this case, the reference angle is 0.25\u03c0.\n\nStep 3: Determine the quadrant.\nSince the angle is in the fourth quadrant, the sine function is negative.\n\nStep 4: Find the sine value of the reference angle.\nUsing the unit circle, we find that sin(0.25\u03c0) = 0.5.\n\nStep 5: Determine the sign of the sine value.\nSince the angle is in the fourth quadrant, the sine function is negative. Therefore, sin(-3.75\u03c0) = -sin(0.25\u03c0) = -0.5.\n\nSo, the correct answer is sin(-3.75\u03c0) = -0.5.",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 17095043600
+        },
+        {
+            "id": 358,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(-9.75\u03c0)=",
+            "actual_output": "cos(-9.75\u03c0) = cos(9.75\u03c0) = cos(2\u03c0 + 7.75\u03c0) = cos(7.75\u03c0) = cos(2\u03c0 - 0.25\u03c0) = cos(0.25\u03c0) = cos(\u03c0/4) = \u221a2/2",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 5918025700
+        },
+        {
+            "id": 359,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(-7.0\u03c0)=",
+            "actual_output": "cos(-7.0\u03c0) = cos(7.0\u03c0) = cos(2\u03c0*3.5) = cos(0) = 1",
+            "expected_output": "-1.0000",
+            "is_correct": -1,
+            "time": 3041170700
+        },
+        {
+            "id": 360,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(-2.0\u03c0)=",
+            "actual_output": "cos(-2.0\u03c0) = cos(2.0\u03c0) = 1",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 1982603400
+        },
+        {
+            "id": 361,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ntan(-5.17\u03c0)=",
+            "actual_output": "tan(-5.17\u03c0) = -1.0000000000000002",
+            "expected_output": "-0.5774",
+            "is_correct": -1,
+            "time": 2650630600
+        },
+        {
+            "id": 362,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nsin(-10.0\u03c0)=",
+            "actual_output": "The correct answer to the question \"sin(-10.0\u03c0) = ?\" is 0. \n\nTo understand why, let's break down the problem. \n\nFirst, we need to simplify the expression -10.0\u03c0. Since \u03c0 is approximately equal to 3.14, we can rewrite -10.0\u03c0 as -10.0 * 3.14, which equals -31.4. \n\nNext, we need to evaluate the sine function at -31.4. The sine function is defined as the ratio of the length of the side opposite the angle to the length of the hypotenuse in a right triangle. \n\nIn this case, we can use the unit circle to evaluate the sine function. The unit circle is a circle with a radius of 1 centered at the origin of the coordinate plane. The sine function is equal to the y-coordinate of the point where the terminal side of the angle intersects the unit circle. \n\nSince -31.4 is equivalent to -10\u03c0 + 0.6\u03c0, we can use the unit circle to find the sine of -10\u03c0 + 0.6\u03c0. The point where the terminal side of this angle intersects the unit circle is (0, 1), which means the sine of -10\u03c0 + 0.6\u03c0 is 1. \n\nHowever, we need to evaluate the sine of -10.0\u03c0, not -10\u03c0 + 0.6\u03c0. Since -10.0\u03c0 is equivalent to -10\u03c0 + 0, we can use the unit circle to find the sine of -10\u03c0 + 0. The point where the terminal side of this angle intersects the unit circle is (0, 0), which means the sine of -10\u03c0 + 0 is 0. \n\nTherefore, the correct answer to the question \"sin(-10.0\u03c0) = ?\" is 0.",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 29794953800
+        },
+        {
+            "id": 363,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nsin(-1.5\u03c0)=",
+            "actual_output": "To find the value of sin(-1.5\u03c0), we need to use the unit circle and the reference angle. \n\nStep 1: Convert the angle to radians.\n-1.5\u03c0 = -1.5 * (180\u00b0/\u03c0) \u2248 -270\u00b0\n\nStep 2: Find the reference angle.\nThe reference angle is the angle between the terminal side of the given angle and the x-axis. In this case, the reference angle is 90\u00b0.\n\nStep 3: Determine the quadrant.\nSince the reference angle is 90\u00b0, the given angle is in the second quadrant.\n\nStep 4: Find the sine value.\nIn the second quadrant, the sine value is positive. The sine value of the reference angle (90\u00b0) is 1.\n\nStep 5: Determine the sign of the sine value.\nSince the angle is in the second quadrant, the sine value is positive.\n\nTherefore, sin(-1.5\u03c0) = 1.",
+            "expected_output": "1.0000",
+            "is_correct": -1,
+            "time": 137006256700
+        },
+        {
+            "id": 364,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ntan(1.0\u03c0)=",
+            "actual_output": "tan(1.0\u03c0) = 0",
+            "expected_output": "-0.0000",
+            "is_correct": -1,
+            "time": 1381860700
+        },
+        {
+            "id": 365,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nsin(-30\u00b0)=",
+            "actual_output": "-0.5",
+            "expected_output": "-0.5000",
+            "is_correct": -1,
+            "time": 992147000
+        },
+        {
+            "id": 366,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(-60\u00b0)=",
+            "actual_output": "cos(-60\u00b0) = cos(60\u00b0) = 0.5",
+            "expected_output": "0.5000",
+            "is_correct": -1,
+            "time": 1968625600
+        },
+        {
+            "id": 367,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nsin(7.5\u03c0)=",
+            "actual_output": "sin(7.5\u03c0) = 0",
+            "expected_output": "-1.0000",
+            "is_correct": -1,
+            "time": 1413838800
+        },
+        {
+            "id": 368,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nsin(7.0\u03c0)=",
+            "actual_output": "sin(7.0\u03c0) = 0",
+            "expected_output": "0.0000",
+            "is_correct": -1,
+            "time": 1397295900
+        },
+        {
+            "id": 376,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(71)=",
+            "actual_output": "log 2(71) = 6.154",
+            "expected_output": "6.1497",
+            "is_correct": -1,
+            "time": 123988572200
+        },
+        {
+            "id": 377,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 10(725)=",
+            "actual_output": "log 10(725) = 2.859",
+            "expected_output": "2.8603",
+            "is_correct": -1,
+            "time": 4925551800
+        },
+        {
+            "id": 378,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 10(63)=",
+            "actual_output": "log 10(63) = 1.8021",
+            "expected_output": "1.7993",
+            "is_correct": -1,
+            "time": 2455797300
+        },
+        {
+            "id": 379,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(149)=",
+            "actual_output": "log 2(149) = 7.207",
+            "expected_output": "7.2192",
+            "is_correct": -1,
+            "time": 8937030900
+        },
+        {
+            "id": 380,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(876)=",
+            "actual_output": "log 2(876) = 9.782",
+            "expected_output": "9.7748",
+            "is_correct": -1,
+            "time": 1855081300
+        },
+        {
+            "id": 381,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(646)=",
+            "actual_output": "log 2(646) = 9.999999999999999",
+            "expected_output": "9.3354",
+            "is_correct": -1,
+            "time": 2723150300
+        },
+        {
+            "id": 382,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(213)=",
+            "actual_output": "log 2(213) = 8.72281",
+            "expected_output": "7.7347",
+            "is_correct": -1,
+            "time": 1994077500
+        },
+        {
+            "id": 383,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(102)=",
+            "actual_output": "log 2(102) = 6.674286",
+            "expected_output": "6.6724",
+            "is_correct": -1,
+            "time": 2060186300
+        },
+        {
+            "id": 385,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 10(495)=",
+            "actual_output": "log 10(495) = 2.695",
+            "expected_output": "2.6946",
+            "is_correct": -1,
+            "time": 139501419100
+        },
+        {
+            "id": 386,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nln(779)=",
+            "actual_output": "ln(779)\u22486.65",
+            "expected_output": "6.6580",
+            "is_correct": -1,
+            "time": 1553500100
+        },
+        {
+            "id": 387,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 10(16)=",
+            "actual_output": "log 10(16) = 1.2041",
+            "expected_output": "1.2041",
+            "is_correct": -1,
+            "time": 1888324100
+        },
+        {
+            "id": 388,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(432)=",
+            "actual_output": "log 2(432) = 8.7749",
+            "expected_output": "8.7549",
+            "is_correct": -1,
+            "time": 1954790200
+        },
+        {
+            "id": 389,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(803)=",
+            "actual_output": "log 2(803) = 9.664",
+            "expected_output": "9.6493",
+            "is_correct": -1,
+            "time": 1804971700
+        },
+        {
+            "id": 390,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nln(173)=",
+            "actual_output": "ln(173)\u22485.14",
+            "expected_output": "5.1533",
+            "is_correct": -1,
+            "time": 1579273200
+        },
+        {
+            "id": 391,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nln(515)=",
+            "actual_output": "ln(515)\u22486.251",
+            "expected_output": "6.2442",
+            "is_correct": -1,
+            "time": 1602666600
+        },
+        {
+            "id": 392,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(706)=",
+            "actual_output": "log 2(706) = 9.828",
+            "expected_output": "9.4635",
+            "is_correct": -1,
+            "time": 1802438000
+        },
+        {
+            "id": 393,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 10(812)=",
+            "actual_output": "log 10(812) = 3.911",
+            "expected_output": "2.9096",
+            "is_correct": -1,
+            "time": 1888057500
+        },
+        {
+            "id": 394,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 10(786)=",
+            "actual_output": "log 10(786) = 2.8971",
+            "expected_output": "2.8954",
+            "is_correct": -1,
+            "time": 1943534400
+        },
+        {
+            "id": 396,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 10(652)=",
+            "actual_output": "log 10(652) = 2.8147",
+            "expected_output": "2.8142",
+            "is_correct": -1,
+            "time": 87657002000
+        },
+        {
+            "id": 397,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nln(247)=",
+            "actual_output": "ln(247)\u22485.527",
+            "expected_output": "5.5094",
+            "is_correct": -1,
+            "time": 1593989200
+        },
+        {
+            "id": 398,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(480)=",
+            "actual_output": "log 2(480) = 8.9718",
+            "expected_output": "8.9069",
+            "is_correct": -1,
+            "time": 1926287700
+        },
+        {
+            "id": 399,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nlog 10(797)=",
+            "actual_output": "log 10(797) = 2.902",
+            "expected_output": "2.9015",
+            "is_correct": -1,
+            "time": 1891172100
+        },
+        {
+            "id": 400,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nln(264)=",
+            "actual_output": "ln(264) \u2248 5.564",
+            "expected_output": "5.5759",
+            "is_correct": -1,
+            "time": 1679040600
         }
     ]
 }

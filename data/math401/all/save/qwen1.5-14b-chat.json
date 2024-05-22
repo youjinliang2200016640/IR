@@ -3914,7 +3914,7 @@
         },
         {
             "id": 261,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n3^2=",
             "actual_output": "9",
@@ -3924,7 +3924,7 @@
         },
         {
             "id": 260,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n7^4=",
             "actual_output": "7^4 = 2401",
@@ -3934,7 +3934,7 @@
         },
         {
             "id": 259,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n8^4=",
             "actual_output": "4096",
@@ -3944,7 +3944,7 @@
         },
         {
             "id": 258,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n2^2=",
             "actual_output": "4",
@@ -3954,7 +3954,7 @@
         },
         {
             "id": 221,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n40588\u00d74621=",
             "actual_output": "18811,8188",
@@ -3964,7 +3964,7 @@
         },
         {
             "id": 220,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n50516\u00d717016=",
             "actual_output": "857915056",
@@ -3974,7 +3974,7 @@
         },
         {
             "id": 219,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n11902\u00d740630=",
             "actual_output": "The product of 11902 and 40630 is 487,172,820.",
@@ -3984,7 +3984,7 @@
         },
         {
             "id": 218,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n71786\u00d721638=",
             "actual_output": "1551721788",
@@ -3994,7 +3994,7 @@
         },
         {
             "id": 217,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n52443*53061=",
             "actual_output": "The product of 52443 and 53061 is 278,551,026.",
@@ -4004,7 +4004,7 @@
         },
         {
             "id": 216,
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "class": "Multiply two integers within 100,000.",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\n56854\u00d724834=",
             "actual_output": "141,021,232",
