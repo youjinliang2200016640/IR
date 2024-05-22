@@ -6,7 +6,8 @@
             "id": 297,
             "AnswerModel": "baichuan2-13b-chat",
             "input": "Only return the correct answer of the question.\n8.964^2.7688=",
-            "expected_output": "433.7976"
+            "expected_output": "433.7976",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         }
     ]
 }

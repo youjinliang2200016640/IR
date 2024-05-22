@@ -3407,7 +3407,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\ncos(5.25\u03c0)=",
-            "actual_output": "To find the value of cosine (cos) at an angle of 5.25\u03c0 radians, you can use the unit circle or a calculator. \n\nRecall that the cosine function has a period of 2\u03c0, so you can subtract or add multiples of 2\u03c0 to the given angle to find an equivalent angle within one period.\n\n5.25\u03c0 radians is close to 9\u03c0/4 radians, which is in the first quadrant where cos is positive. \n\ncos(9\u03c0/4) = \u221a2 / 2\n\nSo, cos(5.25\u03c0) = cos(9\u03c0/4) = \u221a2 / 2.",
+            "actual_output": "To find the value of cosine (cos) at an angle of 5.25\u03c0 radians, you can use the unit circle or a calculator. \n\nRecall that the cosine function has a period of 2\u03c0, so you can subtract or add multiples of 2\u03c0 to the given angle to find an equivalent angle within one period.\n\n5.25\u03c0 radians is close to 9\u03c0/4 radians, which is in the first quadrant where cos is positive. \n\ncos(9\u03c0/4) = \u221a2 / 2\n\nSo, cos(5.25\u03c0) = cos(9\u03c0/4) = \u221a2 / 2 #= 0.7071067812.",
             "expected_output": "-0.7071",
             "is_correct": -1,
             "time": 2418960400
@@ -3597,7 +3597,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\ncos(-210\u00b0)=",
-            "actual_output": "To find the cosine of -210\u00b0, you can use the fact that cosine is a periodic function with a period of 360\u00b0. You can subtract multiples of 360\u00b0 from the angle to find an equivalent in the range of 0\u00b0 to 360\u00b0 where cosine is easier to compute.\n\n-210\u00b0 is in the third quadrant, where cosine is negative. You can convert it to the first quadrant (0\u00b0 to 90\u00b0) by adding 360\u00b0:\n\n-210\u00b0 + 360\u00b0 = 150\u00b0\n\nNow, you can find the cosine of 150\u00b0:\n\ncos(150\u00b0) = -\u221a3/2\n\nSo, cos(-210\u00b0) = -\u221a3/2.",
+            "actual_output": "To find the cosine of -210\u00b0, you can use the fact that cosine is a periodic function with a period of 360\u00b0. You can subtract multiples of 360\u00b0 from the angle to find an equivalent in the range of 0\u00b0 to 360\u00b0 where cosine is easier to compute.\n\n-210\u00b0 is in the third quadrant, where cosine is negative. You can convert it to the first quadrant (0\u00b0 to 90\u00b0) by adding 360\u00b0:\n\n-210\u00b0 + 360\u00b0 = 150\u00b0\n\nNow, you can find the cosine of 150\u00b0:\n\ncos(150\u00b0) = -\u221a3/2\n\nSo, cos(-210\u00b0) = -\u221a3/2 #= -0.8660254038.",
             "expected_output": "-0.8660",
             "is_correct": -1,
             "time": 2801927100
@@ -3627,7 +3627,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-7b-chat",
             "input": "Only return the correct answer of the question.\nsin(-5.75\u03c0)=",
-            "actual_output": "To find the sine of -5.75\u03c0, you can use the property of sine that states sin(-\u03b8) = -sin(\u03b8) when \u03b8 is in radians. Since -5.75\u03c0 is in the fourth quadrant, where sine is positive, you need to convert it to an equivalent angle in the first or second quadrant where sine is negative.\n\n-5.75\u03c0 = -4\u03c0 + \u03c0.5 (because \u03c0.5 is in the first quadrant and -4\u03c0 is in the fourth)\n\nNow, calculate sin(-4\u03c0 + \u03c0.5):\n\nsin(-4\u03c0 + \u03c0.5) = sin(\u03c0.5) = \u221a2/2 (since \u03c0.5 radians is approximately 0.7854 radians, which is in the first quadrant)\n\nSo, sin(-5.75\u03c0) = -\u221a2/2.",
+            "actual_output": "To find the sine of -5.75\u03c0, you can use the property of sine that states sin(-\u03b8) = -sin(\u03b8) when \u03b8 is in radians. Since -5.75\u03c0 is in the fourth quadrant, where sine is positive, you need to convert it to an equivalent angle in the first or second quadrant where sine is negative.\n\n-5.75\u03c0 = -4\u03c0 + \u03c0.5 (because \u03c0.5 is in the first quadrant and -4\u03c0 is in the fourth)\n\nNow, calculate sin(-4\u03c0 + \u03c0.5):\n\nsin(-4\u03c0 + \u03c0.5) = sin(\u03c0.5) = \u221a2/2 (since \u03c0.5 radians is approximately 0.7854 radians, which is in the first quadrant)\n\nSo, sin(-5.75\u03c0) = -\u221a2/2 = -0.7071067812.",
             "expected_output": "0.7071",
             "is_correct": -1,
             "time": 62984299700

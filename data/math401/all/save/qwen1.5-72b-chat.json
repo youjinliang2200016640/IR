@@ -3697,7 +3697,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-72b-chat",
             "input": "Only return the correct answer of the question.\ncos(-210\u00b0)=",
-            "actual_output": "cos(-210\u00b0) = -cos(210\u00b0) = -cos(180\u00b0 - 30\u00b0) = -(-cos(30\u00b0)) = cos(30\u00b0) = \u221a3/2",
+            "actual_output": "cos(-210\u00b0) = -cos(210\u00b0) = -cos(180\u00b0 - 30\u00b0) = -(-cos(30\u00b0)) = cos(30\u00b0) = \u221a3/2 = 0.8660254038",
             "expected_output": "-0.8660",
             "is_correct": -1,
             "time": 3679636200

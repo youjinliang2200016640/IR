@@ -3911,6 +3911,26 @@
             "expected_output": "7.3890",
             "is_correct": -1,
             "time": 41006804700
+        },
+        {
+            "id": 335,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\n 0 * ( 95 * 68) + ( 26 / 45)=",
+            "actual_output": "The correct answer to the question is:\n\n0 * (95 * 68) + (26 / 45) = 0 + 0.5777777777777778 = 0.5777777777777778",
+            "expected_output": "0.5778",
+            "is_correct": -1,
+            "time": 85778006200
+        },
+        {
+            "id": 338,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\n ( 79 + 75) / ( 46 + 51)=",
+            "actual_output": "The correct answer to the question is 1.54.",
+            "expected_output": "1.5876",
+            "is_correct": -1,
+            "time": 2430309000
         }
     ]
 }

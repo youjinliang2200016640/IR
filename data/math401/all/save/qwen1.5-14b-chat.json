@@ -3487,7 +3487,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\ncos(-9.75\u03c0)=",
-            "actual_output": "The cosine function has a period of 2\u03c0, so to find the value of cos(-9.75\u03c0), we can simplify the angle within one period:\n\n-9.75\u03c0 = -10\u03c0 + 0.25\u03c0\n\nNow, the cosine of an angle is the same as the cosine of the angle within one period plus 2\u03c0k (where k is an integer). Since 0.25\u03c0 is within the first period, we can directly calculate cos(0.25\u03c0):\n\ncos(0.25\u03c0) = cos(\u03c0/4)\n\nThe cosine of \u03c0/4 is well-known to be \u221a2/2.\n\nSo, cos(-9.75\u03c0) = cos(0.25\u03c0) = \u221a2/2.",
+            "actual_output": "The cosine function has a period of 2\u03c0, so to find the value of cos(-9.75\u03c0), we can simplify the angle within one period:\n\n-9.75\u03c0 = -10\u03c0 + 0.25\u03c0\n\nNow, the cosine of an angle is the same as the cosine of the angle within one period plus 2\u03c0k (where k is an integer). Since 0.25\u03c0 is within the first period, we can directly calculate cos(0.25\u03c0):\n\ncos(0.25\u03c0) = cos(\u03c0/4)\n\nThe cosine of \u03c0/4 is well-known to be \u221a2/2.\n\nSo, cos(-9.75\u03c0) = cos(0.25\u03c0) = \u221a2/2 #= 0.7071067812.",
             "expected_output": "0.7071",
             "is_correct": -1,
             "time": 4626077200
@@ -3627,7 +3627,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\ncos(-210\u00b0)=",
-            "actual_output": "The cosine of -210\u00b0 can be found using the unit circle or the properties of cosine. In the context of the unit circle, -210\u00b0 is in the third quadrant, where cosine is negative. Since cosine is an even function, it's the same as cosine of the positive angle that's 180\u00b0 more than -210\u00b0, which is 30\u00b0 (since 360\u00b0 - 210\u00b0 = 150\u00b0 and 150\u00b0 + 180\u00b0 = 330\u00b0, but 330\u00b0 is in the same spot as 30\u00b0 on the unit circle).\n\nSo, cos(-210\u00b0) = cos(30\u00b0).\n\nNow, using the 30-60-90 triangle, we know that the cosine of 30\u00b0 is \u221a3/2.\n\nTherefore, cos(-210\u00b0) = \u221a3/2.",
+            "actual_output": "The cosine of -210\u00b0 can be found using the unit circle or the properties of cosine. In the context of the unit circle, -210\u00b0 is in the third quadrant, where cosine is negative. Since cosine is an even function, it's the same as cosine of the positive angle that's 180\u00b0 more than -210\u00b0, which is 30\u00b0 (since 360\u00b0 - 210\u00b0 = 150\u00b0 and 150\u00b0 + 180\u00b0 = 330\u00b0, but 330\u00b0 is in the same spot as 30\u00b0 on the unit circle).\n\nSo, cos(-210\u00b0) = cos(30\u00b0).\n\nNow, using the 30-60-90 triangle, we know that the cosine of 30\u00b0 is \u221a3/2.\n\nTherefore, cos(-210\u00b0) = \u221a3/2 #=0.8660254038.",
             "expected_output": "-0.8660",
             "is_correct": -1,
             "time": 64998722300
@@ -3657,7 +3657,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-14b-chat",
             "input": "Only return the correct answer of the question.\nsin(-5.75\u03c0)=",
-            "actual_output": "The sine function has a period of 2\u03c0. To find the sine of -5.75\u03c0, we can subtract multiples of 2\u03c0 until we get an angle within one period:\n\n-5.75\u03c0 = -6\u03c0 + 0.25\u03c0\n\nNow, we can find the sine of 0.25\u03c0, which is the same as \u03c0/4, since \u03c0 is half of a full rotation:\n\nsin(\u03c0/4) = \u221a2 / 2\n\nSo, sin(-5.75\u03c0) = \u221a2 / 2.",
+            "actual_output": "The sine function has a period of 2\u03c0. To find the sine of -5.75\u03c0, we can subtract multiples of 2\u03c0 until we get an angle within one period:\n\n-5.75\u03c0 = -6\u03c0 + 0.25\u03c0\n\nNow, we can find the sine of 0.25\u03c0, which is the same as \u03c0/4, since \u03c0 is half of a full rotation:\n\nsin(\u03c0/4) = \u221a2 / 2\n\nSo, sin(-5.75\u03c0) = \u221a2 / 2 #= 0.7071067812.",
             "expected_output": "0.7071",
             "is_correct": -1,
             "time": 3240461700

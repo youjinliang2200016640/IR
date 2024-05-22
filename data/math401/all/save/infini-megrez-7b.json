@@ -3187,7 +3187,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\nsin(-0.5\u03c0)=",
-            "actual_output": " sin(-0.5\u03c0) = -sin(\u03c0/2) = -\u221a2/2",
+            "actual_output": " sin(-0.5\u03c0) = -sin(\u03c0/2) = -\u221a2/2 = -0.7071067812",
             "expected_output": "-1.0000",
             "is_correct": -1,
             "time": 855153100
@@ -3317,7 +3317,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\ntan(1.0\u03c0)=",
-            "actual_output": " The tangent function is defined for all positive angles. When you take the tangent of an angle, it is equal to the arctangent of the side of a right triangle opposite the angle. The arctangent of an angle is the complementary angle's complement minus the angle itself.\n\nSo, for an angle of \u03c0/4 radians (1.0\u03c0 in decimal), the tangent of \u03c0/4 is:\n\ntan(\u03c0/4) = 1/\u221a2\n\nHowever, since \u03c0/4 is less than \u03c0, the arctangent of \u03c0/4 is the complementary angle, \u03c0, minus \u03c0/4, which is approximately 0.876515625. Then, the arctangent of \u03c0/4 is:\n\narctan(\u03c0/4) - \u03c0/4\n\nNow, we know that the tangent of an angle is equal to the arctangent of the complementary angle minus the angle. So, for \u03c0/4, we have:\n\ntan(\u03c0/4) - \u03c0/4\n\nCalculating this, we find:\n\ntan(\u03c0/4) - \u03c0/4 = 1/\u221a2 - \u03c0/4\ntan(\u03c0/4) - \u03c0/4 = 1/2 - \u03c0/8\ntan(\u03c0/4) - \u03c0/4 = -1/4\n\nSince the tangent function is only defined for positive angles, the expression is not defined and the answer is not a real number.",
+            "actual_output": " The tangent function is defined for all positive angles. When you take the tangent of an angle, it is equal to the arctangent of the side of a right triangle opposite the angle. The arctangent of an angle is the complementary angle's complement minus the angle itself.\n\nSo, for an angle of \u03c0/4 radians (1.0\u03c0 in decimal), the tangent of \u03c0/4 is:\n\ntan(\u03c0/4) = 1/\u221a2\n\nHowever, since \u03c0/4 is less than \u03c0, the arctangent of \u03c0/4 is the complementary angle, \u03c0, minus \u03c0/4, which is approximately 0.876515625. Then, the arctangent of \u03c0/4 is:\n\narctan(\u03c0/4) - \u03c0/4\n\nNow, we know that the tangent of an angle is equal to the arctangent of the complementary angle minus the angle. So, for \u03c0/4, we have:\n\ntan(\u03c0/4) - \u03c0/4\n\nCalculating this, we find:\n\ntan(\u03c0/4) - \u03c0/4 = 1/\u221a2 - \u03c0/4\ntan(\u03c0/4) - \u03c0/4 = 1/2 - \u03c0/8\ntan(\u03c0/4) - \u03c0/4 = -1/4 #= -0.25\n\nSince the tangent function is only defined for positive angles, the expression is not defined and the answer is not a real number.",
             "expected_output": "-0.0000",
             "is_correct": -1,
             "time": 5065098100
@@ -3327,7 +3327,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "infini-megrez-7b",
             "input": "Only return the correct answer of the question.\nsin(-30\u00b0)=",
-            "actual_output": " sin(-30\u00b0) \u7b49\u4e8e -\u221a3 \u5f27\u5ea6\u3002",
+            "actual_output": " sin(-30\u00b0) \u7b49\u4e8e -\u221a3 #= 1.732050808 \u5f27\u5ea6\u3002",
             "expected_output": "-0.5000",
             "is_correct": -1,
             "time": 1329477300
