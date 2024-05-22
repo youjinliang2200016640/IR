@@ -3267,7 +3267,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\nsin(-5.75\u03c0)=",
-            "actual_output": "To find the value of sin(-5.75π), we need to use the unit circle and the reference angle. \n\nStep 1: Convert the angle to its equivalent in the interval [0, 2π).\n-5.75π is equivalent to 5.75π - 6π = -0.25π.\n\nStep 2: Determine the reference angle.\nThe reference angle for -0.25π is 0.25π.\n\nStep 3: Find the sine value of the reference angle.\nUsing the unit circle, we find that sin(0.25π) = 0.5.\n\nStep 4: Determine the sign of the sine value.\nSince the angle is in the fourth quadrant, the sine value is negative.\n\nTherefore, sin(-5.75π) = -0.5.",
+            "actual_output": "To find the value of sin(-5.75\u03c0), we need to use the unit circle and the reference angle. \n\nStep 1: Convert the angle to its equivalent in the interval [0, 2\u03c0).\n-5.75\u03c0 is equivalent to 5.75\u03c0 - 6\u03c0 = -0.25\u03c0.\n\nStep 2: Determine the reference angle.\nThe reference angle for -0.25\u03c0 is 0.25\u03c0.\n\nStep 3: Find the sine value of the reference angle.\nUsing the unit circle, we find that sin(0.25\u03c0) = 0.5.\n\nStep 4: Determine the sign of the sine value.\nSince the angle is in the fourth quadrant, the sine value is negative.\n\nTherefore, sin(-5.75\u03c0) = -0.5.",
             "expected_output": "0.7071",
             "is_correct": -1,
             "time": 7385000000
@@ -3277,7 +3277,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\ncos(7.75\u03c0)=",
-            "actual_output": "cos(7.75π) = cos(7.75π - 8π) = cos(-0.25π) = cos(π/4) = √2/2 #= 0.7071067812",
+            "actual_output": "cos(7.75\u03c0) = cos(7.75\u03c0 - 8\u03c0) = cos(-0.25\u03c0) = cos(\u03c0/4) = \u221a2/2 #= 0.7071067812",
             "expected_output": "0.7071",
             "is_correct": -1,
             "time": 2579000000
@@ -3287,7 +3287,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\ntan(9.17\u03c0)=",
-            "actual_output": "tan(9.17π) = tan(9.17π - 6π) = tan(3.17π) = tan(3.17π - 2π) = tan(1.17π) = tan(1.17π - π) = tan(0.17π) = tan(0.17π - 0.14π) = tan(0.03π) = tan(0.03π - 0.02π) = tan(0.01π) = tan(0.01π - 0.00π) = tan(0.00π) = tan(0) = 0",
+            "actual_output": "tan(9.17\u03c0) = tan(9.17\u03c0 - 6\u03c0) = tan(3.17\u03c0) = tan(3.17\u03c0 - 2\u03c0) = tan(1.17\u03c0) = tan(1.17\u03c0 - \u03c0) = tan(0.17\u03c0) = tan(0.17\u03c0 - 0.14\u03c0) = tan(0.03\u03c0) = tan(0.03\u03c0 - 0.02\u03c0) = tan(0.01\u03c0) = tan(0.01\u03c0 - 0.00\u03c0) = tan(0.00\u03c0) = tan(0) = 0",
             "expected_output": "0.5774",
             "is_correct":-1,
             "time": 6663000000
@@ -3297,7 +3297,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\ncos(-210\u00b0)=",
-            "actual_output":"cos(-210°) = cos(210°) = cos(180° + 30°) = -cos(30°) = -√3/2 #= -0.8660254038",
+            "actual_output":"cos(-210\u00b0) = cos(210\u00b0) = cos(180\u00b0 + 30\u00b0) = -cos(30\u00b0) = -\u221a3/2 #= -0.8660254038",
             "expected_output": "-0.8660",
             "is_correct":-1,
             "time":2667000000
@@ -3307,7 +3307,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\ncos(-3.25\u03c0)=",
-            "actual_output":"cos(-3.25π) = cos(3.25π) = cos(3π + 0.25π) = cos(3π)cos(0.25π) - sin(3π)sin(0.25π) = -1 * cos(0.25π) = -cos(0.25π) = -cos(π/4) = -√2/2 #= -0.7071067812.",
+            "actual_output":"cos(-3.25\u03c0) = cos(3.25\u03c0) = cos(3\u03c0 + 0.25\u03c0) = cos(3\u03c0)cos(0.25\u03c0) - sin(3\u03c0)sin(0.25\u03c0) = -1 * cos(0.25\u03c0) = -cos(0.25\u03c0) = -cos(\u03c0/4) = -\u221a2/2 #= -0.7071067812.",
             "expected_output": "-0.7071",
             "is_correct":-1,
             "time":4514000000
@@ -3317,7 +3317,7 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\ncos(-300\u00b0)=",
-            "actual_output":"cos(-300°) = cos(300°) = cos(300° - 360°) = cos(-60°) = cos(60°) = 1/2 #= 0.5",
+            "actual_output":"cos(-300\u00b0) = cos(300\u00b0) = cos(300\u00b0 - 360\u00b0) = cos(-60\u00b0) = cos(60\u00b0) = 1/2 #= 0.5",
             "expected_output": "0.5000",
             "is_correct":-1,
             "time":2870000000
