@@ -1,0 +1,206 @@
+{
+    "fileName": "reverse_Polish_Notation.json",
+    "info": "the datas contained in this file are drawn from the class \"Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.\" of `math401.json` and the equivalent polish notation of the original input.",
+    "data": [
+        {
+            "id": "326_Reverse_Polish_Notation",
+            "input": "44 97 + 61 * 65 * =",
+            "input_infix": " ( 44 + 97) * 61 * 65=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "559065.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "327_Reverse_Polish_Notation",
+            "input": "4 64 * 39 12 + * =",
+            "input_infix": " ( 4 * 64) * ( 39 + 12)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "13056.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "328_Reverse_Polish_Notation",
+            "input": "33 26 + =",
+            "input_infix": " 33 + 26=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "59.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "329_Reverse_Polish_Notation",
+            "input": "32 15 / =",
+            "input_infix": " 32 / 15=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "2.1333",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "330_Reverse_Polish_Notation",
+            "input": "8 90 - 95 / =",
+            "input_infix": " ( 8 - 90) / 95=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "-0.8632",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "331_Reverse_Polish_Notation",
+            "input": "31 55 + 19 76 + / =",
+            "input_infix": " ( 31 + 55) / ( 19 + 76)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "0.9053",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "332_Reverse_Polish_Notation",
+            "input": "50 67 * =",
+            "input_infix": " 50 * 67=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "3350.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "333_Reverse_Polish_Notation",
+            "input": "11 17 * 56 + =",
+            "input_infix": " ( 11 * 17) + 56=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "243.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "334_Reverse_Polish_Notation",
+            "input": "97 56 - 97 56 + / 31 * =",
+            "input_infix": " ( 97 - 56) / ( 97 + 56) * 31=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "8.3072",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "335_Reverse_Polish_Notation",
+            "input": "0 95 68 * * 26 45 / + =",
+            "input_infix": " 0 * ( 95 * 68) + ( 26 / 45)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "0.5778",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "336_Reverse_Polish_Notation",
+            "input": "21 2 31 + - =",
+            "input_infix": " 21 - ( 2 + 31)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "-12.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "337_Reverse_Polish_Notation",
+            "input": "88 42 - 33 41 * * 13 27 - - =",
+            "input_infix": " ( 88 - 42) * ( 33 * 41) - ( 13 - 27)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "62252.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "338_Reverse_Polish_Notation",
+            "input": "79 75 + 46 51 + / =",
+            "input_infix": " ( 79 + 75) / ( 46 + 51)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "1.5876",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "339_Reverse_Polish_Notation",
+            "input": "2 42 + 56 50 + + =",
+            "input_infix": " ( 2 + 42) + ( 56 + 50)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "150.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "340_Reverse_Polish_Notation",
+            "input": "38 26 67 / 19 * + =",
+            "input_infix": " 38 + ( 26 / 67) * 19=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "45.3731",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "341_Reverse_Polish_Notation",
+            "input": "75 35 30 / + 72 + =",
+            "input_infix": " 75 + ( 35 / 30) + 72=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "148.1667",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "342_Reverse_Polish_Notation",
+            "input": "14 96 + 93 * 72 23 * + =",
+            "input_infix": " ( 14 + 96) * 93 + ( 72 * 23)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "11886.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "343_Reverse_Polish_Notation",
+            "input": "21 43 - 50 / 65 37 - + =",
+            "input_infix": " ( 21 - 43) / 50 + ( 65 - 37)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "27.5600",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "344_Reverse_Polish_Notation",
+            "input": "86 57 + 43 / =",
+            "input_infix": " ( 86 + 57) / 43=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "3.3256",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "345_Reverse_Polish_Notation",
+            "input": "22 6 53 - * =",
+            "input_infix": " 22 * ( 6 - 53)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "-1034.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "346_Reverse_Polish_Notation",
+            "input": "24 22 + 18 * 79 / =",
+            "input_infix": " ( 24 + 22) * 18 / 79=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "10.4810",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "347_Reverse_Polish_Notation",
+            "input": "47 99 - 86 * 99 * =",
+            "input_infix": " ( 47 - 99) * 86 * 99=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "-442728.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "348_Reverse_Polish_Notation",
+            "input": "16 51 / =",
+            "input_infix": " 16 / 51=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "0.3137",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "349_Reverse_Polish_Notation",
+            "input": "51 92 77 - - =",
+            "input_infix": " 51 - ( 92 - 77)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "36.0000",
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "id": "350_Reverse_Polish_Notation",
+            "input": "77 81 / =",
+            "input_infix": " 77 / 81=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "expected_output": "0.9506",
+            "class": "Reverse Polish Noations"
+        }
+    ]
+}

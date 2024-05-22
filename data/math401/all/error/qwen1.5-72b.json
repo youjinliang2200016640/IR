@@ -321,70 +321,16 @@
             "expected_output": "5.8598"
         },
         {
-            "id": 312,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ne-e=",
-            "expected_output": "0.0000"
-        },
-        {
-            "id": 313,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n1+e=",
-            "expected_output": "3.7183"
-        },
-        {
             "id": 314,
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\npi/\u03c0=",
             "expected_output": "1.0000"
         },
         {
-            "id": 315,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n2+6=",
-            "expected_output": "8.0000"
-        },
-        {
-            "id": 316,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ne*pi=",
-            "expected_output": "8.5395"
-        },
-        {
-            "id": 317,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n7*\u03c0=",
-            "expected_output": "21.9905"
-        },
-        {
-            "id": 318,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n6-5=",
-            "expected_output": "1.0000"
-        },
-        {
-            "id": 319,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ne-pi=",
-            "expected_output": "-0.4232"
-        },
-        {
-            "id": 326,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n ( 44 + 97) * 61 * 65=",
-            "expected_output": "559065.0000"
-        },
-        {
             "id": 327,
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\n ( 4 * 64) * ( 39 + 12)=",
             "expected_output": "13056.0000"
-        },
-        {
-            "id": 328,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n 33 + 26=",
-            "expected_output": "59.0000"
         },
         {
             "id": 329,
@@ -415,54 +361,14 @@
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\ntan(-6.33\u03c0)=",
             "expected_output": "-1.7321"
-        },
-        {
-            "id": 370,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ncos(-300\u00b0)=",
-            "expected_output": "0.5000"
-        },
-        {
-            "id": 371,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ncos(-3.25\u03c0)=",
-            "expected_output": "-0.7071"
-        },
-        {
-            "id": 372,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ncos(-210\u00b0)=",
-            "expected_output": "-0.8660"
-        },
-        {
-            "id": 373,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ntan(9.17\u03c0)=",
-            "expected_output": "0.5774"
-        },
-        {
-            "id": 374,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ncos(7.75\u03c0)=",
-            "expected_output": "0.7071"
-        },
-        {
-            "id": 375,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\nsin(-5.75\u03c0)=",
-            "expected_output": "0.7071"
-        },
-        {
-            "id": 384,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\nln(695)=",
-            "expected_output": "6.5439"
-        },
-        {
-            "id": 395,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\nln(477)=",
-            "expected_output": "6.1675"
         }
+
+
+
+
+
+
+
+
     ]
 }

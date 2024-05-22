@@ -3241,6 +3241,177 @@
             "expected_output": "5.5759",
             "is_correct": -1,
             "time": 1679040600
+        },
+        {
+            "id": 395,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nln(477)=",
+            "actual_output":"ln(477)≈6.162",
+            "expected_output": "6.1675",
+            "is_correct": -1,
+            "time": 1521000000
+        },
+        {
+            "id": 384,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nln(695)=",
+            "actual_output": "ln(695)≈6.52",
+            "expected_output": "6.5439",
+            "is_correct" :-1,
+            "time": 1562000000
+        },
+        {
+            "id": 375,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\nsin(-5.75\u03c0)=",
+            "actual_output": "To find the value of sin(-5.75π), we need to use the unit circle and the reference angle. \n\nStep 1: Convert the angle to its equivalent in the interval [0, 2π).\n-5.75π is equivalent to 5.75π - 6π = -0.25π.\n\nStep 2: Determine the reference angle.\nThe reference angle for -0.25π is 0.25π.\n\nStep 3: Find the sine value of the reference angle.\nUsing the unit circle, we find that sin(0.25π) = 0.5.\n\nStep 4: Determine the sign of the sine value.\nSince the angle is in the fourth quadrant, the sine value is negative.\n\nTherefore, sin(-5.75π) = -0.5.",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 7385000000
+        },
+        {
+            "id": 374,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(7.75\u03c0)=",
+            "actual_output": "cos(7.75π) = cos(7.75π - 8π) = cos(-0.25π) = cos(π/4) = √2/2 #= 0.7071067812",
+            "expected_output": "0.7071",
+            "is_correct": -1,
+            "time": 2579000000
+        },
+        {
+            "id": 373,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ntan(9.17\u03c0)=",
+            "actual_output": "tan(9.17π) = tan(9.17π - 6π) = tan(3.17π) = tan(3.17π - 2π) = tan(1.17π) = tan(1.17π - π) = tan(0.17π) = tan(0.17π - 0.14π) = tan(0.03π) = tan(0.03π - 0.02π) = tan(0.01π) = tan(0.01π - 0.00π) = tan(0.00π) = tan(0) = 0",
+            "expected_output": "0.5774",
+            "is_correct":-1,
+            "time": 6663000000
+        },
+        {
+            "id": 372,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(-210\u00b0)=",
+            "actual_output":"cos(-210°) = cos(210°) = cos(180° + 30°) = -cos(30°) = -√3/2 #= -0.8660254038",
+            "expected_output": "-0.8660",
+            "is_correct":-1,
+            "time":2667000000
+        },
+        {
+            "id": 371,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(-3.25\u03c0)=",
+            "actual_output":"cos(-3.25π) = cos(3.25π) = cos(3π + 0.25π) = cos(3π)cos(0.25π) - sin(3π)sin(0.25π) = -1 * cos(0.25π) = -cos(0.25π) = -cos(π/4) = -√2/2 #= -0.7071067812.",
+            "expected_output": "-0.7071",
+            "is_correct":-1,
+            "time":4514000000
+        },
+        {
+            "id": 370,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ncos(-300\u00b0)=",
+            "actual_output":"cos(-300°) = cos(300°) = cos(300° - 360°) = cos(-60°) = cos(60°) = 1/2 #= 0.5",
+            "expected_output": "0.5000",
+            "is_correct":-1,
+            "time":2870000000
+        },
+        {
+            "id": 328,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n 33 + 26=",
+            "actual_output":"59",
+            "expected_output": "59.0000",
+            "is_correct":-1,
+            "time":14027000000
+        },
+        {
+            "id": 326,
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n ( 44 + 97) * 61 * 65=",
+            "actual_output":"To find the correct answer, we need to follow the order of operations, which is also known as PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction). \n\nFirst, we need to add 44 and 97, which gives us 141. \n\nNext, we need to multiply 141 by 61, which gives us 8601. \n\nFinally, we need to multiply 8601 by 65, which gives us the final answer of 559,065. \n\nTherefore, the correct answer to the question is 559,065.",
+            "expected_output": "559065.0000",
+            "is_correct":-1,
+            "time":145220000000
+        },
+        {
+            "id": 319,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ne-pi=",
+            "actual_output":"e-pi = -0.4232200158592405",
+            "expected_output": "-0.4232",
+            "is_correct":-1,
+            "time": 2782000000
+        },
+        {
+            "id": 318,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6-5=",
+            "actual_output":"1",
+            "expected_output": "1.0000",
+            "is_correct":-1,
+            "time":1224000000
+        },
+        {
+            "id": 317,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n7*\u03c0=",
+            "actual_output":"21.99746",
+            "expected_output": "21.9905",
+            "is_correct":-1,
+            "time":1863000000
+        },
+        {
+            "id": 316,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ne*pi=",
+            "actual_output":"27.21110255098",
+            "expected_output": "8.5395",
+            "is_correct":-1,
+            "time":1988000000
+        },
+        {
+            "id": 315,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2+6=",
+            "actual_output":"8",
+            "expected_output": "8.0000",
+            "is_correct":-1,
+            "time":1227000000
+        },
+        {
+            "id": 313,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n1+e=",
+            "actual_output":"The correct answer to the question \"1+e=\" is e+1. \n\nExplanation: \n- The variable \"e\" is a mathematical constant that represents the base of the natural logarithm. \n- When we add 1 to \"e\", we get \"e+1\". \n- Therefore, the correct answer to the question is \"e+1\".",
+            "expected_output": 3.7183,
+            "is_correct":0,
+            "time":48146000000,
+            "extract_answer":null
+        },
+        {
+            "id": 312,
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\ne-e=",
+            "actual_output":"e-e=0",
+            "expected_output": "0.0000",
+            "is_correct":-1,
+            "time":1406000000
         }
     ]
 }
