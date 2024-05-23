@@ -3,25 +3,11 @@
     "model": "qwen-72b",
     "data": [
         {
-            "id": 300,
+            "id": 373,
             "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\n9.2725^3.8687=",
-            "expected_output": "5518.1617",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 308,
-            "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\n\u03c0*\u03c0=",
-            "expected_output": "9.8690",
-            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
-        },
-        {
-            "id": 346,
-            "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
-            "expected_output": "10.4810",
-            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
+            "input": "Only return the correct answer of the question.\ntan(9.17\u03c0)=",
+            "expected_output": "0.5774",
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
             "id": 357,
@@ -31,32 +17,25 @@
             "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
-            "id": 364,
+            "id": 346,
             "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\ntan(1.0\u03c0)=",
-            "expected_output": "-0.0000",
-            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
+            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
+            "expected_output": "10.4810",
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
         },
         {
-            "id": 373,
+            "id": 308,
             "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\ntan(9.17\u03c0)=",
-            "expected_output": "0.5774",
-            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
+            "input": "Only return the correct answer of the question.\n\u03c0*\u03c0=",
+            "expected_output": "9.8690",
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
-            "id": 376,
+            "id": 300,
             "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\nlog 2(71)=",
-            "expected_output": "6.1497",
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
-        },
-        {
-            "id": 391,
-            "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\nln(515)=",
-            "expected_output": "6.2442",
-            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$."
+            "input": "Only return the correct answer of the question.\n9.2725^3.8687=",
+            "expected_output": "5518.1617",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         }
     ]
 }

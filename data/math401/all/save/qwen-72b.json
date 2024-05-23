@@ -3931,6 +3931,36 @@
             "expected_output": "1.5876",
             "is_correct": -1,
             "time": 2430309000
+        },
+        {
+            "id": 391,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\nln(515)=",
+            "actual_output": "The correct answer to the question \"ln(515) = ?\" is approximately 6.25.",
+            "expected_output": "6.2442",
+            "is_correct": -1,
+            "time": 1603542100
+        },
+        {
+            "id": 376,
+            "class": "Logarithm of integers within 1000 of different bases: $2,e,10$.",
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\nlog 2(71)=",
+            "actual_output": "The correct answer to the question \"log 2(71) = ?\" is approximately 6.15.",
+            "expected_output": "6.1497",
+            "is_correct": -1,
+            "time": 1597147800
+        },
+        {
+            "id": 364,
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).",
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\ntan(1.0\u03c0)=",
+            "actual_output": "The correct answer to the question \"tan(1.0\u03c0) = ?\" is 0.",
+            "expected_output": "-0.0000",
+            "is_correct": -1,
+            "time": 2262082800
         }
     ]
 }

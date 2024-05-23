@@ -3841,6 +3841,16 @@
             "expected_output": "10",
             "is_correct": -1,
             "time": 745700600
+        },
+        {
+            "id": 69,
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "Only return the correct answer of the question.\n58-892=",
+            "actual_output":"-887",
+            "expected_output": "-834",
+            "is_correct":-1,
+            "class": "Add \\& Subtract of two integers within 1,000.",
+            "time":120000000000
         }
     ]
 }
