@@ -3,25 +3,11 @@
     "model": "qwen-72b",
     "data": [
         {
-            "id": 373,
+            "id": 300,
             "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\ntan(9.17\u03c0)=",
-            "expected_output": "0.5774",
-            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
-        },
-        {
-            "id": 357,
-            "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\ntan(2.67\u03c0)=",
-            "expected_output": "-1.7321",
-            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
-        },
-        {
-            "id": 346,
-            "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
-            "expected_output": "10.4810",
-            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
+            "input": "Only return the correct answer of the question.\n9.2725^3.8687=",
+            "expected_output": "5518.1617",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
             "id": 308,
@@ -31,11 +17,25 @@
             "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
-            "id": 300,
+            "id": 346,
             "AnswerModel": "qwen-72b",
-            "input": "Only return the correct answer of the question.\n9.2725^3.8687=",
-            "expected_output": "5518.1617",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
+            "input": "Only return the correct answer of the question.\n ( 24 + 22) * 18 / 79=",
+            "expected_output": "10.4810",
+            "class": "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division."
+        },
+        {
+            "id": 357,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\ntan(2.67\u03c0)=",
+            "expected_output": "-1.7321",
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
+        },
+        {
+            "id": 373,
+            "AnswerModel": "qwen-72b",
+            "input": "Only return the correct answer of the question.\ntan(9.17\u03c0)=",
+            "expected_output": "0.5774",
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         }
     ]
 }

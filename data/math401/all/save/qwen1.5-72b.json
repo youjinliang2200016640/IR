@@ -3562,6 +3562,36 @@
             "expected_output": "81647081879",
             "is_correct": -1,
             "time": 2462902800
+        },
+        {
+            "id": 108,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5+(-5)=",
+            "actual_output": "0",
+            "expected_output": "0",
+            "is_correct": -1,
+            "time": 131996521500
+        },
+        {
+            "id": 109,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2+1=",
+            "actual_output": "3",
+            "expected_output": "3",
+            "is_correct": -1,
+            "time": 1633476500
+        },
+        {
+            "id": 239,
+            "class": "Division of two integers within 100.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n52\u00f742=",
+            "actual_output": "52\u00f742=1.238",
+            "expected_output": "1.2381",
+            "is_correct": -1,
+            "time": 103470471400
         }
     ]
 }
