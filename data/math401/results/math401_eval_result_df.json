@@ -16,20 +16,36 @@
         "qwen1.5-7b-chat":0.5810473815
     },
     "Nan_Ratio":{
-        "baichuan2-13b-base":0.0831168831,
-        "baichuan2-13b-chat":0.015,
+        "baichuan2-13b-base":0.1197007481,
+        "baichuan2-13b-chat":0.0174563591,
         "baichuan2-7b-chat":0.0174563591,
         "infini-megrez-7b":0.1047381546,
         "llama-2-13b-chat":0.0,
         "llama-2-7b-chat":0.0099750623,
         "qwen-14b-chat":0.0,
-        "qwen-72b":0.0101010101,
+        "qwen-72b":0.0224438903,
         "qwen-72b-chat":0.0,
         "qwen-7b-chat":0.0024937656,
         "qwen1.5-14b-chat":0.0024937656,
-        "qwen1.5-72b":0.0054495913,
-        "qwen1.5-72b-chat":0.0,
+        "qwen1.5-72b":0.0897755611,
+        "qwen1.5-72b-chat":0.0049875312,
         "qwen1.5-7b-chat":0.0
+    },
+    "missingReplyNum":{
+        "baichuan2-13b-base":16,
+        "baichuan2-13b-chat":1,
+        "baichuan2-7b-chat":0,
+        "infini-megrez-7b":0,
+        "llama-2-13b-chat":0,
+        "llama-2-7b-chat":0,
+        "qwen-14b-chat":0,
+        "qwen-72b":5,
+        "qwen-72b-chat":0,
+        "qwen-7b-chat":0,
+        "qwen1.5-14b-chat":0,
+        "qwen1.5-72b":34,
+        "qwen1.5-72b-chat":2,
+        "qwen1.5-7b-chat":0
     },
     "RE_Dict":{
         "baichuan2-13b-base":{

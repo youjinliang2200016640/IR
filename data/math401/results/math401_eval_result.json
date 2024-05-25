@@ -5,7 +5,8 @@
         {
             "model": "baichuan2-13b-base",
             "Accuracy": 0.4025974025974026,
-            "Nan_Ratio": 0.08311688311688312,
+            "Nan_Ratio": 0.11970074812967581,
+            "missingReplyNum": 16,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -397,7 +398,8 @@
         {
             "model": "baichuan2-13b-chat",
             "Accuracy": 0.5525,
-            "Nan_Ratio": 0.015,
+            "Nan_Ratio": 0.017456359102244388,
+            "missingReplyNum": 1,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -805,6 +807,7 @@
             "model": "baichuan2-7b-chat",
             "Accuracy": 0.45885286783042395,
             "Nan_Ratio": 0.017456359102244388,
+            "missingReplyNum": 0,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -1213,6 +1216,7 @@
             "model": "infini-megrez-7b",
             "Accuracy": 0.30174563591022446,
             "Nan_Ratio": 0.10473815461346633,
+            "missingReplyNum": 0,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -1621,6 +1625,7 @@
             "model": "llama-2-13b-chat",
             "Accuracy": 0.46384039900249374,
             "Nan_Ratio": 0.0,
+            "missingReplyNum": 0,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -2029,6 +2034,7 @@
             "model": "llama-2-7b-chat",
             "Accuracy": 0.4339152119700748,
             "Nan_Ratio": 0.00997506234413965,
+            "missingReplyNum": 0,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -2437,6 +2443,7 @@
             "model": "qwen-14b-chat",
             "Accuracy": 0.6683291770573566,
             "Nan_Ratio": 0.0,
+            "missingReplyNum": 0,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -2845,6 +2852,7 @@
             "model": "qwen-72b-chat",
             "Accuracy": 0.6633416458852868,
             "Nan_Ratio": 0.0,
+            "missingReplyNum": 0,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -3252,7 +3260,8 @@
         {
             "model": "qwen-72b",
             "Accuracy": 0.6515151515151515,
-            "Nan_Ratio": 0.010101010101010102,
+            "Nan_Ratio": 0.022443890274314215,
+            "missingReplyNum": 5,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -3656,6 +3665,7 @@
             "model": "qwen-7b-chat",
             "Accuracy": 0.5411471321695761,
             "Nan_Ratio": 0.0024937655860349127,
+            "missingReplyNum": 0,
             "RE_Dict": {
                 "0": 1.0,
                 "1": 0.0,
@@ -4064,6 +4074,7 @@
             "model": "qwen1.5-14b-chat",
             "Accuracy": 0.6882793017456359,
             "Nan_Ratio": 0.0024937655860349127,
+            "missingReplyNum": 0,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -4471,7 +4482,8 @@
         {
             "model": "qwen1.5-72b-chat",
             "Accuracy": 0.6666666666666666,
-            "Nan_Ratio": 0.0,
+            "Nan_Ratio": 0.004987531172069825,
+            "missingReplyNum": 2,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -4877,7 +4889,8 @@
         {
             "model": "qwen1.5-72b",
             "Accuracy": 0.7547683923705722,
-            "Nan_Ratio": 0.005449591280653951,
+            "Nan_Ratio": 0.08977556109725686,
+            "missingReplyNum": 34,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
@@ -5252,6 +5265,7 @@
             "model": "qwen1.5-7b-chat",
             "Accuracy": 0.5810473815461347,
             "Nan_Ratio": 0.0,
+            "missingReplyNum": 0,
             "RE_Dict": {
                 "0": 0.0,
                 "1": 0.0,
