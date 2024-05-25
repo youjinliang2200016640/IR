@@ -3,212 +3,23 @@
     "model": "qwen1.5-72b",
     "data": [
         {
-            "id": 90,
+            "id": 369,
             "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n373490079876-646750175965=",
-            "expected_output": "-273260096089",
-            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
+            "input": "Only return the correct answer of the question.\ntan(-6.33\u03c0)=",
+            "expected_output": "-1.7321",
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
-            "id": 91,
+            "id": 357,
             "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n447310251389-473614891549=",
-            "expected_output": "-26304640160",
-            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
+            "input": "Only return the correct answer of the question.\ntan(2.67\u03c0)=",
+            "expected_output": "-1.7321",
+            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
         },
         {
-            "id": 94,
+            "id": 311,
             "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n239717090420-428074519958=",
-            "expected_output": "-188357429538",
-            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
-        },
-        {
-            "id": 97,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n927561013643-793883892689=",
-            "expected_output": "133677120954",
-            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
-        },
-        {
-            "id": 205,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n4032*84266=",
-            "expected_output": "339760512",
-            "class": "Multiply two integers within 100,000."
-        },
-        {
-            "id": 208,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n51677\u00d790778=",
-            "expected_output": "4691134706",
-            "class": "Multiply two integers within 100,000."
-        },
-        {
-            "id": 209,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n9025*95266=",
-            "expected_output": "859775650",
-            "class": "Multiply two integers within 100,000."
-        },
-        {
-            "id": 210,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n61081\u00d744496=",
-            "expected_output": "2717860176",
-            "class": "Multiply two integers within 100,000."
-        },
-        {
-            "id": 211,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n38010*88739=",
-            "expected_output": "3372969390",
-            "class": "Multiply two integers within 100,000."
-        },
-        {
-            "id": 212,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n90161*91816=",
-            "expected_output": "8278222376",
-            "class": "Multiply two integers within 100,000."
-        },
-        {
-            "id": 215,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n41393*30824=",
-            "expected_output": "1275897832",
-            "class": "Multiply two integers within 100,000."
-        },
-        {
-            "id": 234,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n15\u00f733=",
-            "expected_output": "0.4545",
-            "class": "Division of two integers within 100."
-        },
-        {
-            "id": 235,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n28/39=",
-            "expected_output": "0.7179",
-            "class": "Division of two integers within 100."
-        },
-        {
-            "id": 236,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n2\u00f73=",
-            "expected_output": "0.6667",
-            "class": "Division of two integers within 100."
-        },
-        {
-            "id": 237,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n94/89=",
-            "expected_output": "1.0562",
-            "class": "Division of two integers within 100."
-        },
-        {
-            "id": 238,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n82/40=",
-            "expected_output": "2.0500",
-            "class": "Division of two integers within 100."
-        },
-        {
-            "id": 243,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n77\u00f757=",
-            "expected_output": "1.3509",
-            "class": "Division of two integers within 100."
-        },
-        {
-            "id": 247,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n98/83=",
-            "expected_output": "1.1807",
-            "class": "Division of two integers within 100."
-        },
-        {
-            "id": 250,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n50/18=",
-            "expected_output": "2.7778",
-            "class": "Division of two integers within 100."
-        },
-        {
-            "id": 276,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n7.3947^2.5384=",
-            "expected_output": "160.5713",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 278,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n3.0117^3.8748=",
-            "expected_output": "71.6638",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 279,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n2.242^3.7342=",
-            "expected_output": "20.3865",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 280,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n5.3126^3.8767=",
-            "expected_output": "648.333",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 281,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n8.8132^2.1955=",
-            "expected_output": "118.8614",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 282,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n3.1699^2.0687=",
-            "expected_output": "10.8771",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 283,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n7.6455^3.5773=",
-            "expected_output": "1446.1319",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 300,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n9.2725^3.8687=",
-            "expected_output": "5518.1617",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 301,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ne+e=",
-            "expected_output": "5.4366",
-            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
-        },
-        {
-            "id": 302,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n4+e=",
-            "expected_output": "6.7183",
-            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
-        },
-        {
-            "id": 303,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ne+pi=",
+            "input": "Only return the correct answer of the question.\n\u03c0+e=",
             "expected_output": "5.8598",
             "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
@@ -220,25 +31,214 @@
             "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
-            "id": 311,
+            "id": 303,
             "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n\u03c0+e=",
+            "input": "Only return the correct answer of the question.\ne+pi=",
             "expected_output": "5.8598",
             "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
-            "id": 357,
+            "id": 302,
             "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ntan(2.67\u03c0)=",
-            "expected_output": "-1.7321",
-            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
+            "input": "Only return the correct answer of the question.\n4+e=",
+            "expected_output": "6.7183",
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
         },
         {
-            "id": 369,
+            "id": 301,
             "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\ntan(-6.33\u03c0)=",
-            "expected_output": "-1.7321",
-            "class": "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs)."
+            "input": "Only return the correct answer of the question.\ne+e=",
+            "expected_output": "5.4366",
+            "class": "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$)."
+        },
+        {
+            "id": 300,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9.2725^3.8687=",
+            "expected_output": "5518.1617",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
+        },
+        {
+            "id": 283,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n7.6455^3.5773=",
+            "expected_output": "1446.1319",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
+        },
+        {
+            "id": 282,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3.1699^2.0687=",
+            "expected_output": "10.8771",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
+        },
+        {
+            "id": 281,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n8.8132^2.1955=",
+            "expected_output": "118.8614",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
+        },
+        {
+            "id": 280,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n5.3126^3.8767=",
+            "expected_output": "648.333",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
+        },
+        {
+            "id": 279,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2.242^3.7342=",
+            "expected_output": "20.3865",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
+        },
+        {
+            "id": 278,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n3.0117^3.8748=",
+            "expected_output": "71.6638",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
+        },
+        {
+            "id": 276,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n7.3947^2.5384=",
+            "expected_output": "160.5713",
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
+        },
+        {
+            "id": 250,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n50/18=",
+            "expected_output": "2.7778",
+            "class": "Division of two integers within 100."
+        },
+        {
+            "id": 247,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n98/83=",
+            "expected_output": "1.1807",
+            "class": "Division of two integers within 100."
+        },
+        {
+            "id": 243,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n77\u00f757=",
+            "expected_output": "1.3509",
+            "class": "Division of two integers within 100."
+        },
+        {
+            "id": 238,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n82/40=",
+            "expected_output": "2.0500",
+            "class": "Division of two integers within 100."
+        },
+        {
+            "id": 237,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n94/89=",
+            "expected_output": "1.0562",
+            "class": "Division of two integers within 100."
+        },
+        {
+            "id": 236,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n2\u00f73=",
+            "expected_output": "0.6667",
+            "class": "Division of two integers within 100."
+        },
+        {
+            "id": 235,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n28/39=",
+            "expected_output": "0.7179",
+            "class": "Division of two integers within 100."
+        },
+        {
+            "id": 234,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n15\u00f733=",
+            "expected_output": "0.4545",
+            "class": "Division of two integers within 100."
+        },
+        {
+            "id": 215,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n41393*30824=",
+            "expected_output": "1275897832",
+            "class": "Multiply two integers within 100,000."
+        },
+        {
+            "id": 212,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n90161*91816=",
+            "expected_output": "8278222376",
+            "class": "Multiply two integers within 100,000."
+        },
+        {
+            "id": 211,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n38010*88739=",
+            "expected_output": "3372969390",
+            "class": "Multiply two integers within 100,000."
+        },
+        {
+            "id": 210,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n61081\u00d744496=",
+            "expected_output": "2717860176",
+            "class": "Multiply two integers within 100,000."
+        },
+        {
+            "id": 209,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n9025*95266=",
+            "expected_output": "859775650",
+            "class": "Multiply two integers within 100,000."
+        },
+        {
+            "id": 208,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n51677\u00d790778=",
+            "expected_output": "4691134706",
+            "class": "Multiply two integers within 100,000."
+        },
+        {
+            "id": 205,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4032*84266=",
+            "expected_output": "339760512",
+            "class": "Multiply two integers within 100,000."
+        },
+        {
+            "id": 97,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n927561013643-793883892689=",
+            "expected_output": "133677120954",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
+        },
+        {
+            "id": 94,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n239717090420-428074519958=",
+            "expected_output": "-188357429538",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
+        },
+        {
+            "id": 91,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n447310251389-473614891549=",
+            "expected_output": "-26304640160",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
+        },
+        {
+            "id": 90,
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n373490079876-646750175965=",
+            "expected_output": "-273260096089",
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         }
     ]
 }
