@@ -24,39 +24,11 @@
             "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
         },
         {
-            "id": 95,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n861627389147-822542197957=",
-            "expected_output": "39085191190",
-            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
-        },
-        {
-            "id": 96,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n522334417125-308500866990=",
-            "expected_output": "213833550135",
-            "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
-        },
-        {
             "id": 97,
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\n927561013643-793883892689=",
             "expected_output": "133677120954",
             "class": "Add \\& Subtract of two integers within 1,000,000,000,000."
-        },
-        {
-            "id": 110,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n-1+(-6)=",
-            "expected_output": "-7",
-            "class": "Add \\& Subtract of two integers within -10~10."
-        },
-        {
-            "id": 111,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n4+10=",
-            "expected_output": "14",
-            "class": "Add \\& Subtract of two integers within -10~10."
         },
         {
             "id": 205,
@@ -164,24 +136,10 @@
             "class": "Division of two integers within 100."
         },
         {
-            "id": 269,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n6^3=",
-            "expected_output": "216",
-            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4."
-        },
-        {
             "id": 276,
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\n7.3947^2.5384=",
             "expected_output": "160.5713",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 277,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n6.4401^2.9179=",
-            "expected_output": "229.228",
             "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {
@@ -224,20 +182,6 @@
             "AnswerModel": "qwen1.5-72b",
             "input": "Only return the correct answer of the question.\n7.6455^3.5773=",
             "expected_output": "1446.1319",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 284,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n0.8723^2.159=",
-            "expected_output": "0.7446",
-            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
-        },
-        {
-            "id": 285,
-            "AnswerModel": "qwen1.5-72b",
-            "input": "Only return the correct answer of the question.\n4.3651^3.1882=",
-            "expected_output": "109.7563",
             "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent."
         },
         {

@@ -3592,6 +3592,86 @@
             "expected_output": "1.2381",
             "is_correct": -1,
             "time": 103470471400
+        },
+        {
+            "id": 111,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4+10=",
+            "actual_output": "14",
+            "expected_output": "14",
+            "is_correct": -1,
+            "time": 1246086600
+        },
+        {
+            "id": 110,
+            "class": "Add \\& Subtract of two integers within -10~10.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n-1+(-6)=",
+            "actual_output": "-7",
+            "expected_output": "-7",
+            "is_correct": -1,
+            "time": 1153795800
+        },
+        {
+            "id": 96,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n522334417125-308500866990=",
+            "actual_output": "To find the correct answer, we need to subtract the two numbers:\n\n522334417125 - 308500866990\n\nFirst, let's subtract the ones place:\n\n5 - 0 = 5\n\nNext, let's subtract the tens place:\n\n2 - 0 = 2\n\nNow, let's subtract the hundreds place:\n\n3 - 0 = 3\n\nNext, let's subtract the thousands place:\n\n4 - 0 = 4\n\nNow, let's subtract the ten thousands place:\n\n4 - 0 = 4\n\nNext, let's subtract the hundred thousands place:\n\n1 - 0 = 1\n\nNow, let's subtract the millions place:\n\n7 - 0 = 7\n\nNext, let's subtract the ten millions place:\n\n1 - 0 = 1\n\nNow, let's subtract the hundred millions place:\n\n1 - 0 = 1\n\nNext, let's subtract the billions place:\n\n7 - 0 = 7\n\nNow, let's subtract the ten billions place:\n\n1 - 0 = 1\n\nFinally, let's subtract the hundred billions place:\n\n1 - 0 = 1\n\nSo, the correct answer is:\n\n522334417125 - 308500866990 = 213833550135",
+            "expected_output": "213833550135",
+            "is_correct": -1,
+            "time": 20745578200
+        },
+        {
+            "id": 95,
+            "class": "Add \\& Subtract of two integers within 1,000,000,000,000.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n861627389147-822542197957=",
+            "actual_output": "861627389147 - 822542197957 = 39085191190",
+            "expected_output": "39085191190",
+            "is_correct": -1,
+            "time": 3511607000
+        },
+        {
+            "id": 277,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6.4401^2.9179=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 6.4401 raised to the power of 2.9179. Here's the step-by-step process:\n\nStep 1: Identify the base and exponent\nIn this case, the base is 6.4401 and the exponent is 2.9179.\n\nStep 2: Calculate the value\nTo calculate the value, we raise the base to the power of the exponent. In this case, we have:\n\n6.4401^2.9179 = 142.99999999999998\n\nStep 3: Round the answer\nSince the question does not specify the number of decimal places, we can round the answer to the nearest whole number:\n\n143\n\nSo, the correct answer to the question is 143.",
+            "expected_output": "229.228",
+            "is_correct": -1,
+            "time": 97004716700
+        },
+        {
+            "id": 269,
+            "class": "Exponentiation of with integer base within 10 and integer exponent within 2~4.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n6^3=",
+            "actual_output": "216",
+            "expected_output": "216",
+            "is_correct": -1,
+            "time": 125221779600
+        },
+        {
+            "id": 284,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n0.8723^2.159=",
+            "actual_output": "To find the correct answer for the question, we need to calculate the value of 0.8723 raised to the power of 2.159. Here's the step-by-step process:\n\nStep 1: Identify the base and exponent\nIn this case, the base is 0.8723 and the exponent is 2.159.\n\nStep 2: Calculate the value\nTo calculate the value, we raise the base to the power of the exponent. In this case, we have:\n\n0.8723^2.159 = 0.5242\n\nStep 3: Return the correct answer\nThe correct answer for the question is 0.5242.",
+            "expected_output": "0.7446",
+            "is_correct": -1,
+            "time": 133810221500
+        },
+        {
+            "id": 285,
+            "class": "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.",
+            "AnswerModel": "qwen1.5-72b",
+            "input": "Only return the correct answer of the question.\n4.3651^3.1882=",
+            "actual_output": "To find the correct answer to the question, we need to calculate the value of 4.3651 raised to the power of 3.1882. This can be done using the following steps:\n\nStep 1: Identify the base and exponent\nIn this case, the base is 4.3651 and the exponent is 3.1882.\n\nStep 2: Calculate the value of the base raised to the power of the exponent\nTo do this, we can use a calculator or a computer program that supports scientific notation. The result is approximately 38.999.\n\nTherefore, the correct answer to the question is 38.999.",
+            "expected_output": "109.7563",
+            "is_correct": -1,
+            "time": 15970584200
         }
     ]
 }
