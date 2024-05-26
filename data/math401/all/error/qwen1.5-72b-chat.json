@@ -8,13 +8,6 @@
             "input": "Only return the correct answer of the question.\n70\u00f761=",
             "expected_output": "1.1475",
             "class": "Division of two integers within 100."
-        },
-        {
-            "id": 241,
-            "AnswerModel": "qwen1.5-72b-chat",
-            "input": "Only return the correct answer of the question.\n85\u00f727=",
-            "expected_output": "3.1481",
-            "class": "Division of two integers within 100."
         }
     ]
 }

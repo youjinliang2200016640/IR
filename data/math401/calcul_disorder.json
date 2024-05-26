@@ -1,28 +1,156 @@
 {
-    "fileName": "calcul_disorder.json",
-    "info": "the datas contained in this file are either the item drawn from `math50.json` or new item ,that is not the standard math format.",
+    "fileName": "reverse_Polish_Notation.json",
+    "info": "the datas contained in this file are drawn from the class \"Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.\" of `math401.json` and the equivalent polish notation of the original input.",
     "data": [
         {
-            "id": "33_disorder_01",
-            "input": "2**2",
-            "expected_output": "4"
+            "input": "44 97 + 61 * 65 * =",
+            "expected_output": "559065.0000",
+            "id": 326,
+            "class": "Reverse Polish Noations"
         },
         {
-            "id": "33_disorder_01",
-            "input": "6**2=",
-            "expected_output": "36"
+            "input": "4 64 * 39 12 + * =",
+            "expected_output": "13056.0000",
+            "id": 327,
+            "class": "Reverse Polish Noations"
         },
         {
-            "id": "41_disorder_01",
+            "input": "33 26 + =",
+            "expected_output": "59.0000",
+            "id": 328,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "32 15 / =",
+            "expected_output": "2.1333",
+            "id": 329,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "8 90 - 95 / =",
+            "expected_output": "-0.8632",
+            "id": 330,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "31 55 + 19 76 + / =",
+            "expected_output": "0.9053",
+            "id": 331,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "50 67 * =",
+            "expected_output": "3350.0000",
+            "id": 332,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "11 17 * 56 + =",
+            "expected_output": "243.0000",
+            "id": 333,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "97 56 - 97 56 + / 31 * =",
+            "expected_output": "8.3072",
+            "id": 334,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "0 95 68 * * 26 45 / + =",
+            "expected_output": "0.5778",
+            "id": 335,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "21 2 31 + - =",
+            "expected_output": "-12.0000",
+            "id": 336,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "88 42 - 33 41 * * 13 27 - - =",
+            "expected_output": "62252.0000",
+            "id": 337,
+            "class": "Reverse Polish Noations"
+        },
+        {
             "input": "79 75 + 46 51 + / =",
-            "instructions": "please return the answer to the following reverse Polish notation",
-            "expected_output": "1.5876"
+            "expected_output": "1.5876",
+            "id": 338,
+            "class": "Reverse Polish Noations"
         },
         {
-            "id": "42_disorder_01",
+            "input": "2 42 + 56 50 + + =",
+            "expected_output": "150.0000",
+            "id": 339,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "38 26 67 / 19 * + =",
+            "expected_output": "45.3731",
+            "id": 340,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "75 35 30 / + 72 + =",
+            "expected_output": "148.1667",
+            "id": 341,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "14 96 + 93 * 72 23 * + =",
+            "expected_output": "11886.0000",
+            "id": 342,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "21 43 - 50 / 65 37 - + =",
+            "expected_output": "27.5600",
+            "id": 343,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "86 57 + 43 / =",
+            "expected_output": "3.3256",
+            "id": 344,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "22 6 53 - * =",
+            "expected_output": "-1034.0000",
+            "id": 345,
+            "class": "Reverse Polish Noations"
+        },
+        {
             "input": "24 22 + 18 * 79 / =",
-            "instructions": "please return the answer to the following reverse Polish notation",
-            "expected_output": "10.4810"
+            "expected_output": "10.4810",
+            "id": 346,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "47 99 - 86 * 99 * =",
+            "expected_output": "-442728.0000",
+            "id": 347,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "16 51 / =",
+            "expected_output": "0.3137",
+            "id": 348,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "51 92 77 - - =",
+            "expected_output": "36.0000",
+            "id": 349,
+            "class": "Reverse Polish Noations"
+        },
+        {
+            "input": "77 81 / =",
+            "expected_output": "0.9506",
+            "id": 350,
+            "class": "Reverse Polish Noations"
         }
     ]
 }
