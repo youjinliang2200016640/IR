@@ -1,0 +1,63 @@
+{
+    "fileName": "qwen-14b-chat.json",
+    "model": "qwen-14b-chat",
+    "data": {
+        "TRUE": {
+            "Euler Equation.": 1,
+            "Add \\& Subtract of two integers within 10.": 25,
+            "Add \\& Subtract of two integers within 100.": 25,
+            "Add \\& Subtract of two integers within 1,000.": 24,
+            "Add \\& Subtract of two integers within 1,000,000,000,000.": 15,
+            "Add \\& Subtract of two integers within -10~10.": 25,
+            "Add \\& Subtract of two decimal numbers within -100~100.": 23,
+            "Multiply two integers within 100.": 22,
+            "Multiply two decimal numbers within 10.": 25,
+            "Multiply two integers within 100,000.": 0,
+            "Division of two integers within 100.": 22,
+            "Exponentiation of with integer base within 10 and integer exponent within 2~4.": 25,
+            "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.": 0,
+            "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).": 14,
+            "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.": 9,
+            "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).": 9,
+            "Logarithm of integers within 1000 of different bases: $2,e,10$.": 4
+        },
+        "FALSE": {
+            "Euler Equation.": 0,
+            "Add \\& Subtract of two integers within 10.": 0,
+            "Add \\& Subtract of two integers within 100.": 0,
+            "Add \\& Subtract of two integers within 1,000.": 1,
+            "Add \\& Subtract of two integers within 1,000,000,000,000.": 10,
+            "Add \\& Subtract of two integers within -10~10.": 0,
+            "Add \\& Subtract of two decimal numbers within -100~100.": 2,
+            "Multiply two integers within 100.": 3,
+            "Multiply two decimal numbers within 10.": 0,
+            "Multiply two integers within 100,000.": 25,
+            "Division of two integers within 100.": 3,
+            "Exponentiation of with integer base within 10 and integer exponent within 2~4.": 0,
+            "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.": 25,
+            "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).": 11,
+            "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.": 16,
+            "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).": 16,
+            "Logarithm of integers within 1000 of different bases: $2,e,10$.": 21
+        },
+        "NAN": {
+            "Euler Equation.": 0,
+            "Add \\& Subtract of two integers within 10.": 0,
+            "Add \\& Subtract of two integers within 100.": 0,
+            "Add \\& Subtract of two integers within 1,000.": 0,
+            "Add \\& Subtract of two integers within 1,000,000,000,000.": 0,
+            "Add \\& Subtract of two integers within -10~10.": 0,
+            "Add \\& Subtract of two decimal numbers within -100~100.": 0,
+            "Multiply two integers within 100.": 0,
+            "Multiply two decimal numbers within 10.": 0,
+            "Multiply two integers within 100,000.": 0,
+            "Division of two integers within 100.": 0,
+            "Exponentiation of with integer base within 10 and integer exponent within 2~4.": 0,
+            "Exponentiation of with a decimal number within 10 as the base and a decimal number within 2~4 as the exponent.": 0,
+            "Add, Subtract \\& Multiply with one integer within 10 and a common irrational number (i.e. $e$ or $\\pi$).": 0,
+            "Long arithmetic expressions with brackets, involved integers are all within 100 and operators contain add, subtract, multiply, and division.": 0,
+            "Trigonometry functions including $\\sin$, $\\cos$, and $\tan$. Inputs can be in the format of degrees and radians ($\\pi$ can also appear in the inputs).": 0,
+            "Logarithm of integers within 1000 of different bases: $2,e,10$.": 0
+        }
+    }
+}
