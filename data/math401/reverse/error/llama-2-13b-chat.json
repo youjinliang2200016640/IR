@@ -1,0 +1,18 @@
+{
+    "fileName": "Llama-2-13B-Chat.json",
+    "model": "llama-2-13b-chat",
+    "data": [
+        {
+            "id": "335_Reverse_Polish_Notation",
+            "class": "Reverse Polish Noations",
+            "AnswerModel": "llama-2-13b-chat",
+            "input": "0 95 68 * * 26 45 / + =",
+            "input_infix": " 0 * ( 95 * 68) + ( 26 / 45)=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "actual_output": "",
+            "expected_output": "0.5778",
+            "is_correct": -1,
+            "time": -1
+        }
+    ]
+}

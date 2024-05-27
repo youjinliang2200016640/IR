@@ -1,0 +1,42 @@
+{
+    "fileName": "Baichuan2-13B-Base.json",
+    "model": "baichuan2-13b-base",
+    "data": [
+        {
+            "id": "348_Reverse_Polish_Notation",
+            "class": "Reverse Polish Noations",
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "16 51 / =",
+            "input_infix": " 16 / 51=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "actual_output": "",
+            "expected_output": "0.3137",
+            "is_correct": -1,
+            "time": -1
+        },
+        {
+            "id": "347_Reverse_Polish_Notation",
+            "class": "Reverse Polish Noations",
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "47 99 - 86 * 99 * =",
+            "input_infix": " ( 47 - 99) * 86 * 99=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "actual_output": "",
+            "expected_output": "-442728.0000",
+            "is_correct": -1,
+            "time": -1
+        },
+        {
+            "id": "330_Reverse_Polish_Notation",
+            "class": "Reverse Polish Noations",
+            "AnswerModel": "baichuan2-13b-base",
+            "input": "8 90 - 95 / =",
+            "input_infix": " ( 8 - 90) / 95=",
+            "instructions": "please only return the answer to the following reverse Polish notation",
+            "actual_output": "",
+            "expected_output": "-0.8632",
+            "is_correct": -1,
+            "time": -1
+        }
+    ]
+}
