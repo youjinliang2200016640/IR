@@ -16,19 +16,6 @@
             "extract_answer": 29999.0
         },
         {
-            "id": "326_Reverse_Polish_Notation",
-            "class": "Reverse Polish Noations",
-            "AnswerModel": "qwen-72b",
-            "input": "44 97 + 61 * 65 * =",
-            "input_infix": " ( 44 + 97) * 61 * 65=",
-            "instructions": "please only return the answer to the following reverse Polish notation",
-            "actual_output": "The answer to the reverse Polish notation expression 44 97 + 61 * 65 * = is 34,999.",
-            "expected_output": 559065.0,
-            "is_correct": 0,
-            "time": 1998089400,
-            "extract_answer": 34999.0
-        },
-        {
             "id": "327_Reverse_Polish_Notation",
             "class": "Reverse Polish Noations",
             "AnswerModel": "qwen-72b",

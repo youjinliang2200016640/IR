@@ -25,3 +25,4 @@ MATH/
 /data/math401/extra_10.json
 /data/math401/results/*
 !/data/math401/results/math*
+!/data/math401/results/reverse*
