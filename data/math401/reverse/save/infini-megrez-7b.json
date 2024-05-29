@@ -10,9 +10,10 @@
             "input_infix": " ( 44 + 97) * 61 * 65=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The given reverse Polish notation (RPN) expression 44 97 + 61 * 65 * = translates to the following:\n\n44 + 97 * 65 = 44 + 97 * 65\n\nNow, let's solve for the product:\n\n65 * 97 = 65 * 97\n\nFinally, we add 44 to the result:\n\n44 + 65 * 97 = 44 + 65 * 97\n\n44 + 65 * 97 = 44 + 65 * 97\n\nThe result is 44 + 65 * 97.",
-            "expected_output": "559065.0000",
-            "is_correct": -1,
-            "time": 3036504400
+            "expected_output": 559065.0,
+            "is_correct": 0,
+            "time": 3036504400,
+            "extract_answer": 97.0
         },
         {
             "id": "327_Reverse_Polish_Notation",
@@ -22,9 +23,10 @@
             "input_infix": " ( 4 * 64) * ( 39 + 12)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The given expression in reverse Polish notation, 4 64 * 39 12 + *, translates to the following:\n\n4 * 64 + 39 12 = 256 + 39 12 = 395 12 = 39512\n\nSo, the answer in decimal form is 39512.",
-            "expected_output": "13056.0000",
-            "is_correct": -1,
-            "time": 2019808700
+            "expected_output": 13056.0,
+            "is_correct": 0,
+            "time": 2019808700,
+            "extract_answer": 39512.0
         },
         {
             "id": "328_Reverse_Polish_Notation",
@@ -34,9 +36,10 @@
             "input_infix": " 33 + 26=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u5728\u6ce2\u5170\u5f0f\uff08Reverse Polish Notation, RPN\uff09\u4e2d\uff0c\u6570\u5b57\u6309\u7167\u5b83\u4eec\u5728\u64cd\u4f5c\u6570\u4e2d\u7684\u51fa\u73b0\u987a\u5e8f\u8fd4\u56de\u3002\u4e0b\u9762\u662f\u64cd\u4f5c\u6b65\u9aa4\uff1a\n\n1. \u5c06\u64cd\u4f5c\u7b26\u548c\u5176\u64cd\u4f5c\u6570\u62ec\u53f7\u5185\u7684\u6570\u5b57\u5206\u522b\u53d6\u51fa\u3002\n2. \u5c06\u64cd\u4f5c\u7b26\u4e0e\u64cd\u4f5c\u6570\u6309\u987a\u5e8f\u7ed3\u5408\u3002\n3. \u91cd\u590d\u6b64\u8fc7\u7a0b\uff0c\u76f4\u5230\u6240\u6709\u64cd\u4f5c\u90fd\u5b8c\u6210\u3002\n\n\u4ee533 26\u4e3a\u4f8b\uff0c\u64cd\u4f5c\u6b65\u9aa4\u5982\u4e0b\uff1a\n\n1. \u53d6\u51fa\u64cd\u4f5c\u7b26\u201c33\u201d\u3002\n2. \u5c06\u201c33\u201d\u4e0e\u64cd\u4f5c\u6570\u201c26\u201d\u7ed3\u5408\uff0c\u7ed3\u679c\u662f\u201c33 26\u201d\u3002\n3. \u91cd\u590d\u6b65\u9aa42\uff0c\u53d6\u51fa\u64cd\u4f5c\u6570\u201c26\u201d\u3002\n4. \u5c06\u6b65\u9aa43\u7684\u7ed3\u679c\u201c33 26\u201d\u4e0e\u64cd\u4f5c\u6570\u201c26\u201d\u7ed3\u5408\uff0c\u7ed3\u679c\u662f\u201c33 26 26\u201d\u3002\n5. \u91cd\u590d\u6b65\u9aa44\uff0c\u53d6\u51fa\u64cd\u4f5c\u6570\u201c26\u201d\u3002\n6. \u5c06\u6b65\u9aa45\u7684\u7ed3\u679c\u201c33 26 26\u201d\u4e0e\u64cd\u4f5c\u6570\u201c26\u201d\u7ed3\u5408\uff0c\u7ed3\u679c\u662f\u201c33 26 26 26\u201d\u3002\n7. \u91cd\u590d\u6b65\u9aa46\uff0c\u53d6\u51fa\u64cd\u4f5c\u6570\u201c26\u201d\u3002\n8. \u5c06\u6b65\u9aa47\u7684\u7ed3\u679c\u201c33 26 26 26\u201d\u4e0e\u64cd\u4f5c\u6570\u201c26\u201d\u7ed3\u5408\uff0c\u7ed3\u679c\u662f\u201c33 26 26 26 26\u201d\u3002\n9. \u91cd\u590d\u6b65\u9aa48\uff0c\u53d6\u51fa\u64cd\u4f5c\u6570\u201c26\u201d\u3002\n10. \u6700\u540e\uff0c\u5c06\u6240\u6709\u64cd\u4f5c\u6570\u201c26\u201d\u7ed3\u5408\u5f97\u5230\u7ed3\u679c\uff1a33 26 33 26 26 26 = A\n\n\u56e0\u6b64\uff0c\u6309\u7167\u6ce2\u5170\u5f0f\u8ba1\u7b97\u7684\u7ed3\u679c\u662f\u201cA\u201d\u3002",
-            "expected_output": "59.0000",
-            "is_correct": -1,
-            "time": 130796264300
+            "expected_output": 59.0,
+            "is_correct": 0,
+            "time": 130796264300,
+            "extract_answer": null
         },
         {
             "id": "329_Reverse_Polish_Notation",
@@ -46,9 +49,10 @@
             "input_infix": " 32 / 15=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The reverse Polish notation for 32 15 is written as 32 15 /.\n\nHere is the calculation in reverse:\n\n1. 32 15\n   -------------------------\n   - 32 \u00f7 4 = 8\n   - 8 \u00f7 2 = 4\n   - 4 \u00f7 2 = 2\n   - 2 \u00f7 2 = 1\n   - 1 \u00f7 4 = 0.25\n   - 0.25 \u00f7 4 = 0.0625\n\nSo, 32 15 / = 8 4 2 4 2 1 4 0.25 0.0625.",
-            "expected_output": "2.1333",
-            "is_correct": -1,
-            "time": 3044331100
+            "expected_output": 2.1333,
+            "is_correct": 0,
+            "time": 3044331100,
+            "extract_answer": 0.0625
         },
         {
             "id": "330_Reverse_Polish_Notation",
@@ -58,9 +62,10 @@
             "input_infix": " ( 8 - 90) / 95=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u5728\u6ce2\u5170\u5f0f\uff08Reverse Polish Notation\uff0c\u7f29\u5199\u4e3a RPN\uff09\u4e2d\uff0c\u901a\u5e38\u4f7f\u7528\u6570\u5b57\u6765\u8868\u793a\u64cd\u4f5c\u800c\u4e0d\u662f\u5177\u4f53\u7684\u8868\u8fbe\u5f0f\u3002\u4f8b\u5982\uff0c\u5728\u6807\u51c6\u7684\u6ce2\u5170\u5f0f\u4e2d\uff0c\u8868\u8fbe\u5f0f 8 90 - 95 \u53ef\u4ee5\u5199\u4f5c 8 - 95 / 90\u3002\n\n\u5728\u60a8\u63d0\u4f9b\u7684\u683c\u5f0f\u4e0b\uff0c8 90 - 95 / \u53ef\u4ee5\u88ab\u89e3\u91ca\u4e3a\uff1a\n\n- 8 - 95 / 90\n- 8 - 95 / 90\n- 8 - 95 / 90\n- 8 - 95 / 90\n- 8 - 95 / 90\n- 8 - 95 / 90\n- 8 - 95 / 90\n- 8 - 95 / 90\n\n\u6bcf\u4e00\u6b65\u64cd\u4f5c\u90fd\u662f\u9664\u6cd5\uff0c\u9664\u6570\u90fd\u662f 90\u3002\u56e0\u6b64\uff0c\u6700\u7ec8\u7684\u7ed3\u679c\u662f 8\u3002",
-            "expected_output": "-0.8632",
-            "is_correct": -1,
-            "time": 3515031700
+            "expected_output": -0.8632,
+            "is_correct": 0,
+            "time": 3515031700,
+            "extract_answer": 8
         },
         {
             "id": "331_Reverse_Polish_Notation",
@@ -70,9 +75,10 @@
             "input_infix": " ( 31 + 55) / ( 19 + 76)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u5728\u6ce2\u5170\u5f0f\uff08Rozwi\u0105zek Polny\uff09\u6570\u5b66\u8bb0\u6cd5\u4e2d\uff0c\u52a0\u6cd5\u53ef\u4ee5\u4ee5\u4e24\u79cd\u5f62\u5f0f\u8868\u8fbe\uff1a\n\n1. \u76f4\u63a5\u76f8\u52a0\uff1a\u8fd9\u662f\u6807\u51c6\u7684\u52a0\u6cd5\uff0c\u65e0\u9700\u53cd\u8f6c\u3002\n2. \u9006\u6ce2\u5170\u5f0f\uff08Wi\u0105zanie Polne Odrazu\uff09\uff0c\u4e5f\u79f0\u4e3a\u9006\u6ce2\u5170\u8bb0\u53f7\u52a0\u6cd5\uff0c\u9700\u8981\u5c06\u64cd\u4f5c\u6570\u4ece\u53f3\u5411\u5de6\u9010\u4e2a\u5012\u5e8f\u6392\u5217\u3002\n\n\u4e0b\u9762\u662f\u5c06\u6807\u51c6\u7684\u52a0\u6cd5\u8f6c\u6362\u4e3a\u9006\u6ce2\u5170\u5f0f\u901a\u5e38\u9700\u8981\u505a\u7684\u53cd\u8f6c\u64cd\u4f5c\uff1a\n\n31 + 55 + 19 + 76 + / = 121 + 197 + 55 + 31 /\n\n\u5c06\u6b64\u53cd\u8f6c\u64cd\u4f5c\u4ece\u53f3\u5411\u5de6\u8fdb\u884c\uff1a\n\n19 76 + 31 55 + / = 121 + 197 + 55 /\n\n\u73b0\u5728\uff0c\u6211\u4eec\u9700\u8981\u5c06\u7ed3\u679c\u8f6c\u6362\u56de\u6807\u51c6\u7684\u6ce2\u5170\u5f0f\uff0c\u5373\u5c06\u5c0f\u6570\u70b9\u79fb\u52a8\u5230\u52a0\u6cd5\u7b26\u53f7\u4e0a\uff1a\n\n19 76 + 31 55 + / = 121 + 197 + 55 / = 317 + 55 = 372\n\n\u6240\u4ee5\uff0c\u9006\u6ce2\u5170\u8bb0\u53f7\u4e0b\u7684\u52a0\u6cd5\u7ed3\u679c\u4e3a 372\u3002",
-            "expected_output": "0.9053",
-            "is_correct": -1,
-            "time": 3712653200
+            "expected_output": 0.9053,
+            "is_correct": 0,
+            "time": 3712653200,
+            "extract_answer": 372
         },
         {
             "id": "332_Reverse_Polish_Notation",
@@ -82,9 +88,10 @@
             "input_infix": " 50 * 67=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The answer you requested in reverse Polish notation is 50 67 *.",
-            "expected_output": "3350.0000",
-            "is_correct": -1,
-            "time": 1179146200
+            "expected_output": 3350.0,
+            "is_correct": 0,
+            "time": 1179146200,
+            "extract_answer": 67
         },
         {
             "id": "333_Reverse_Polish_Notation",
@@ -94,9 +101,10 @@
             "input_infix": " ( 11 * 17) + 56=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The answer to the reverse Polish notation is:\n\n11 17 * 56 + = 111756 + = 11756 + = 129136",
-            "expected_output": "243.0000",
-            "is_correct": -1,
-            "time": 1415235800
+            "expected_output": 243.0,
+            "is_correct": 0,
+            "time": 1415235800,
+            "extract_answer": 129136
         },
         {
             "id": "334_Reverse_Polish_Notation",
@@ -106,9 +114,10 @@
             "input_infix": " ( 97 - 56) / ( 97 + 56) * 31=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The given reverse Polish notation (RPN) expression 97 56 - 97 56 + / 31 * is translated back into standard mathematical notation as follows:\n\n- 97 - 56 = 41\n- 97 + 56 = 153\n- / 31 = 3\n- 31 * 41 = 1231\n\nSo, the result of applying the operations in reverse order is 41, 153, 3, and 1231, respectively.",
-            "expected_output": "8.3072",
-            "is_correct": -1,
-            "time": 2521220400
+            "expected_output": 8.3072,
+            "is_correct": 0,
+            "time": 2521220400,
+            "extract_answer": 1231
         },
         {
             "id": "335_Reverse_Polish_Notation",
@@ -118,9 +127,10 @@
             "input_infix": " 0 * ( 95 * 68) + ( 26 / 45)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The given reverse Polish notation (RPN) expression translates to the following:\n\n0 * 95 + 68 * 45 / +\n\nTo perform this expression in the order of operations, we first multiply:\n\n68 * 45\n\nThen, we divide:\n\n68 * 45 / +\n\nHere, the multiplication sign in front of the last operator, /, indicates division, which is then performed last.\n\nThe result of this calculation is:\n\n0 * 95 + 68 * 45\n\nNow, we multiply 0 by 95:\n\n0 * 95 = 0\n\nThen, we multiply 68 by 45:\n\n68 * 45 = 3060\n\nFinally, we add the results:\n\n0 + 3060 = 3060\n\nSo, the original RPN expression 0 95 68 * * 26 45 / + = A equals 3060 in decimal form.",
-            "expected_output": "0.5778",
-            "is_correct": -1,
-            "time": 3353308400
+            "expected_output": 0.5778,
+            "is_correct": 0,
+            "time": 3353308400,
+            "extract_answer": 3060
         },
         {
             "id": "336_Reverse_Polish_Notation",
@@ -130,9 +140,10 @@
             "input_infix": " 21 - ( 2 + 31)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u5728\u6ce2\u5170\u5f0f\uff08Rozwi\u0105zek Polny\uff09\u6570\u5b66\u8bb0\u6cd5\u4e2d\uff0c\u52a0\u6cd5\u548c\u51cf\u6cd5\u53ef\u4ee5\u7528\u4ee5\u4e0b\u7b26\u53f7\u8868\u793a\uff1a\n\n+ - = \u8868\u793a\u52a0\u53f7\u3001\u51cf\u53f7\u3001\u7b49\u4e8e\u53f7\u3002\n\n\u6ce2\u5170\u5f0f\uff08Rozwi\u0105zek Polny\uff09\u662f\u4e00\u79cd\u6570\u5b66\u8bb0\u6cd5\uff0c\u7531\u6ce2\u5170\u6570\u5b66\u5bb6\u548c\u5de5\u7a0b\u5e08Wojciech Narutowicz\u572819\u4e16\u7eaa\u672b\u53d1\u660e\u3002\u5b83\u4e3b\u8981\u7528\u4e8e\u8ba1\u7b97\uff0c\u5c24\u5176\u662f\u5728\u8ba1\u7b97\u5668\u548c\u624b\u5934\u4e0a\u4e66\u5199\uff0c\u4ee5\u7b80\u5316\u6570\u5b57\u7684\u8868\u8fbe\u3002\u8fd9\u79cd\u8bb0\u6cd5\u5728\u6ce2\u5170\u548c\u5176\u4ed6\u4e00\u4e9b\u56fd\u5bb6\u7684\u6559\u80b2\u4f53\u7cfb\u4e2d\u88ab\u5e7f\u6cdb\u4f7f\u7528\u3002",
-            "expected_output": "-12.0000",
-            "is_correct": -1,
-            "time": 2115112900
+            "expected_output": -12.0,
+            "is_correct": 0,
+            "time": 2115112900,
+            "extract_answer": 19
         },
         {
             "id": "337_Reverse_Polish_Notation",
@@ -142,9 +153,10 @@
             "input_infix": " ( 88 - 42) * ( 33 * 41) - ( 13 - 27)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u9006\u6ce2\u5170\u7b97\u6cd5\uff08Reverse Polish Notation, RPN\uff09\u662f\u4e00\u79cd\u6570\u5b66\u8868\u8fbe\u65b9\u5f0f\uff0c\u5b83\u5c06\u8868\u8fbe\u5f0f\u6216\u516c\u5f0f\u5206\u89e3\u4e3a\u5404\u4e2a\u8fd0\u7b97\u7b26\u7684\u987a\u5e8f\u7ec4\u5408\u3002\u8fd9\u79cd\u8868\u8fbe\u65b9\u5f0f\u662f\u6ce2\u5170\u5f0f\uff08Polish notation\uff09\u7684\u9006\u8fc7\u7a0b\uff0c\u6ce2\u5170\u5f0f\u662f\u5c06\u8fd0\u7b97\u7b26\u4ece\u5de6\u5230\u53f3\u9010\u4e00\u7ed3\u5408\u8d77\u6765\u3002\u9006\u6ce2\u5170\u7b97\u6cd5\u5e38\u7528\u4e8e\u8ba1\u7b97\u5668\u6216\u7f16\u7a0b\u8bed\u8a00\u4e2d\uff0c\u4ee5\u4fbf\u81ea\u52a8\u5730\u5c06\u4e00\u4e2a\u8868\u8fbe\u5f0f\u8ba1\u7b97\u4e3a\u53e6\u4e00\u4e2a\u8868\u8fbe\u5f0f\u3002\n\n\u4e0b\u9762\u662f\u4f7f\u7528\u9006\u6ce2\u5170\u7b97\u6cd5\u7684\u4f8b\u5b50\uff1a\n\n1. 88 42 = 88 + 42\n2. 33 41 = 33 * 41\n3. 41 13 27 - = 41 - 13 27\n4. - - = 00\n\n\u5c06\u8fd9\u4e9b\u8868\u8fbe\u5f0f\u7ec4\u5408\u8d77\u6765\uff0c\u6211\u4eec\u53ef\u4ee5\u5f97\u5230\uff1a\n\n88 42 + 33 41 * 41 - 13 27 + 00\n\n\u8fd9\u770b\u8d77\u6765\u50cf\u662f\u4e00\u4e2a\u7b80\u5355\u7684\u8868\u8fbe\u5f0f\uff0c\u4f46\u901a\u5e38\u5728\u5b9e\u9645\u5e94\u7528\u4e2d\uff0c\u9006\u6ce2\u5170\u7b97\u6cd5\u4f1a\u88ab\u7528\u4e8e\u6784\u5efa\u66f4\u590d\u6742\u7684\u8868\u8fbe\u5f0f\uff0c\u4f8b\u5982\uff1a\n\n88 42 + 33 41 13 27 - 00\n\n\u5728\u7f16\u7a0b\u8bed\u8a00\u4e2d\uff0c\u9006\u6ce2\u5170\u7b97\u6cd5\u901a\u5e38\u88ab\u5b9e\u73b0\u4e3a\u4e00\u4e2a\u8868\u8fbe\u5f0f\u8ba1\u7b97\u7684\u51fd\u6570\uff0c\u5b83\u63a5\u53d7\u4e00\u4e2a\u8868\u8fbe\u5f0f\u5e76\u8fd4\u56de\u8ba1\u7b97\u540e\u7684\u7ed3\u679c\u3002",
-            "expected_output": "62252.0000",
-            "is_correct": -1,
-            "time": 4592451600
+            "expected_output": 62252.0,
+            "is_correct": 0,
+            "time": 4592451600,
+            "extract_answer": 0
         },
         {
             "id": "338_Reverse_Polish_Notation",
@@ -154,9 +166,10 @@
             "input_infix": " ( 79 + 75) / ( 46 + 51)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u5728\u6ce2\u5170\u5f0f\uff08Rozwi\u0105zek Polny\uff09\u6570\u5b66\u8bb0\u6cd5\u4e2d\uff0c\u52a0\u6cd5\u53ef\u4ee5\u4ee5\u4ee5\u4e0b\u5f62\u5f0f\u8868\u793a\uff1a\n\na + b = c\n\n\u5176\u4e2d\uff0ca \u548c b \u662f\u52a0\u6570\uff0cc \u662f\u548c\u3002\n\n\u5728\u8fd9\u4e2a\u683c\u5f0f\u4e2d\uff0c\u4e58\u6cd5\u662f\u901a\u8fc7\u5c06\u52a0\u6cd5\u64cd\u4f5c\u5e8f\u5217\u5316\u6765\u5b9e\u73b0\u7684\u3002\u4f8b\u5982\uff0c79 75 + 46 51 + / \u53ef\u4ee5\u6309\u7167\u4ee5\u4e0b\u6b65\u9aa4\u6765\u7406\u89e3\uff1a\n\n1. \u9996\u5148\uff0c\u5c06\u8f83\u5927\u7684\u6570\u5b57\u653e\u5728\u53f3\u8fb9\uff0c\u5373 79 75 + 46 51\u3002\n2. \u5c0679 75 + 46 51 \u5199\u6210\u4e58\u6cd5\u5f62\u5f0f\uff0c\u5373 (79 + 46) + (51 + 46)\u3002\n3. \u6267\u884c\u6bcf\u4e00\u6b65\u64cd\u4f5c\uff0c\u5f97\u5230\u548c\u3002\n\n\u6240\u4ee5\uff0c79 75 + 46 51 + / = 125 + 103 = 228\u3002",
-            "expected_output": "1.5876",
-            "is_correct": -1,
-            "time": 3521335900
+            "expected_output": 1.5876,
+            "is_correct": 0,
+            "time": 3521335900,
+            "extract_answer": 228
         },
         {
             "id": "339_Reverse_Polish_Notation",
@@ -166,9 +179,10 @@
             "input_infix": " ( 2 + 42) + ( 56 + 50)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The answer to the reverse Polish notation for addition is:\n\n2 + 42 + 56 + 50 + = 151",
-            "expected_output": "150.0000",
-            "is_correct": -1,
-            "time": 1264570200
+            "expected_output": 150.0,
+            "is_correct": 0,
+            "time": 1264570200,
+            "extract_answer": 151
         },
         {
             "id": "340_Reverse_Polish_Notation",
@@ -178,9 +192,10 @@
             "input_infix": " 38 + ( 26 / 67) * 19=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u5728\u6ce2\u5170\u8bed\u4e2d\uff0c\u6570\u5b57\u901a\u5e38\u6309\u7167\u4ece\u5de6\u5230\u53f3\u7684\u987a\u5e8f\u5199\u4f5c\uff0c\u5e76\u4f7f\u7528\u79f0\u4e3a \"p\u00f3zca\" \u7684\u8fd0\u7b97\u7b26\uff08\u5373 \"\u70b9\"\uff09\u6765\u8868\u793a\u8fd0\u7b97\u3002\u60a8\u7ed9\u51fa\u7684\u9006\u6ce2\u5170\u5f0f\uff08Reverse Polish Notation\uff0cRPN\uff09\u8868\u793a\u65b9\u6cd5\uff0c\u5373\u5728\u5355\u8bcd\u4e4b\u95f4\u4f7f\u7528\u70b9\u800c\u4e0d\u662f\u7a7a\u683c\u6765\u8868\u793a\u8fd0\u7b97\uff0c\u662f\u4e00\u79cd\u5e38\u89c1\u7684\u8868\u793a\u65b9\u6cd5\uff0c\u7279\u522b\u662f\u5728\u6ce2\u5170\u8bed\u4e2d\u3002\n\n\u9006\u6ce2\u5170\u5f0f\u8fd0\u7b97\u89c4\u5219\u5982\u4e0b\uff1a\n\n1. \u5355\u8bcd\u9010\u4e2a\u52a0\u5165\uff0c\u76f4\u5230\u9047\u5230 \"\u70b9\"\u3002\n2. \u9047\u5230 \"\u70b9\" \u65f6\uff0c\u505c\u6b62\u52a0\u5165\u5355\u8bcd\uff0c\u5e76\u4ece\u9047\u5230 \"\u70b9\" \u7684\u4f4d\u7f6e\u5f00\u59cb\u8fdb\u884c\u8fd0\u7b97\u3002\n3. \u5b8c\u6210\u8fd0\u7b97\u540e\uff0c\u7ee7\u7eed\u6dfb\u52a0\u4e0b\u4e00\u4e2a\u5355\u8bcd\u3002\n\n\u60a8\u7ed9\u51fa\u7684 38 26 67 / 19 * + \u7684\u9006\u6ce2\u5170\u5f0f\u8868\u793a\u662f\uff1a\n\n1. 38 26 67 / 19 \u8868\u793a\u5148\u5c06 38 \u9664\u4ee5 19\uff0c\u5f97\u5230\u7684\u7b54\u6848 2 \u4f5c\u4e3a\u540e\u7eed\u64cd\u4f5c\u7684\u57fa\u7840\u3002\n2. * + \u8868\u793a\u5148\u8fdb\u884c\u4e58\u6cd5\u8fd0\u7b97\uff0c\u7136\u540e\u5728\u7ed3\u679c\u4e0a\u8fdb\u884c\u52a0\u6cd5\u8fd0\u7b97\u3002\n\n\u5c06\u8fd9\u4e9b\u6b65\u9aa4\u7ed3\u5408\u8d77\u6765\uff0c\u6211\u4eec\u53ef\u4ee5\u5f97\u5230\uff1a\n\n38 26 67 / 19 * + = 2 2\n\n\u8fd9\u610f\u5473\u7740\u5728\u9006\u6ce2\u5170\u5f0f\u4e0b\uff0c38 26 67 / 19 \u7684\u7ed3\u679c\u662f 2\uff0c\u7d27\u63a5\u7740\u5728\u8fd9\u4e2a\u7ed3\u679c\u4e0a\u8fdb\u884c\u4e58\u4ee5 1\uff0c\u7136\u540e\u52a0 2\uff0c\u6700\u7ec8\u5f97\u5230\u7684\u7ed3\u679c\u662f 2 2\u3002",
-            "expected_output": "45.3731",
-            "is_correct": -1,
-            "time": 10664751800
+            "expected_output": 45.3731,
+            "is_correct": 0,
+            "time": 10664751800,
+            "extract_answer": 2
         },
         {
             "id": "341_Reverse_Polish_Notation",
@@ -190,9 +205,10 @@
             "input_infix": " 75 + ( 35 / 30) + 72=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The answer you requested is written in reverse Polish notation. The numbers are converted to their English names and then the operations are reversed. Here's the calculation:\n\n75 \u00f7 35 \u00f7 30 + 72 + = A\n\nTo solve this, we need to perform the division and addition operations from left to right. The result is:\n\n75 \u00f7 35 = 2\n35 \u00f7 30 = 1.7778\n30 \u00f7 30 = 1\n\nNow, we perform the addition and subtraction from right to left to get:\n\n2 + 1.7778 = 3.7778\n3.7778 + 72 = 75.7778\n\nFinally, we subtract to get the result:\n\n3.7778 - 72 = -69.2222\n\nSo, the final result is 69.2222, which is the same as 75 minus 30.",
-            "expected_output": "148.1667",
-            "is_correct": -1,
-            "time": 3880313200
+            "expected_output": 148.1667,
+            "is_correct": 0,
+            "time": 3880313200,
+            "extract_answer": 30.0
         },
         {
             "id": "342_Reverse_Polish_Notation",
@@ -202,9 +218,10 @@
             "input_infix": " ( 14 + 96) * 93 + ( 72 * 23)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u9006\u6ce2\u5170\u8868\u793a\u6cd5\uff08Reverse Polish Notation\uff0c\u7b80\u79f0RPN\uff09\u662f\u4e00\u79cd\u8868\u8fbe\u7b97\u672f\u8fd0\u7b97\u987a\u5e8f\u7684\u65b9\u6cd5\uff0c\u5b83\u4e0e\u6807\u51c6\u6ce2\u5170\u8868\u793a\u6cd5\uff08Standard Polish Notation\uff0c\u7b80\u79f0SPN\uff09\u4e0d\u540c\uff0c\u5728\u9006\u6ce2\u5170\u8868\u793a\u6cd5\u4e2d\uff0c\u5148\u8ba1\u7b97\u6700\u9ad8\u548c\u6700\u590d\u6742\u7684\u8fd0\u7b97\uff0c\u7136\u540e\u9010\u6e10\u5411\u4e0b\u8fdb\u884c\u8fd0\u7b97\u3002\u4e0b\u9762\u662f\u4f7f\u7528\u8fd9\u79cd\u8868\u793a\u6cd5\u7684\u4e00\u4e2a\u7b80\u5355\u4f8b\u5b50\uff1a\n\n```\n14 96 + 93 * 72 23 * =\n```\n\n\u5728\u6807\u51c6\u6ce2\u5170\u8868\u793a\u6cd5\u4e2d\uff0c\u4e0a\u8ff0\u8868\u8fbe\u5f0f\u4f1a\u5199\u6210\uff1a\n\n```\n14 + 96 93 72 * 23\n```\n\n\u800c\u9006\u6ce2\u5170\u8868\u793a\u6cd5\u5219\u5c06\u4e0a\u8ff0\u6807\u51c6\u6ce2\u5170\u8868\u793a\u6cd5\u4e2d\u7684\u6bcf\u4e00\u90e8\u5206\u5206\u522b\u9006\u5e8f\u76f8\u52a0\u8d77\u6765\uff1a\n\n```\n14 96 + 93 72 23 * =\n```\n\n\u73b0\u5728\uff0c\u5982\u679c\u6211\u4eec\u60f3\u8981\u5c06\u8fd9\u4e2a\u9006\u6ce2\u5170\u8868\u793a\u6cd5\u8f6c\u6362\u56de\u6807\u51c6\u6ce2\u5170\u8868\u793a\u6cd5\uff0c\u6211\u4eec\u9700\u8981\u5c06\u6bcf\u4e2a\u90e8\u5206\u5206\u522b\u4ece\u9006\u5e8f\u8f6c\u6362\u56de\u6b63\u5e8f\uff0c\u5e76\u6309\u7167\u4ece\u5de6\u5230\u53f3\u7684\u987a\u5e8f\u8fdb\u884c\u8ba1\u7b97\uff1a\n\n```\n14 + 96 93 72 23 * =\n```\n\n\u8fd9\u6837\uff0c\u6211\u4eec\u5f97\u5230\u4e86\u6807\u51c6\u6ce2\u5170\u8868\u793a\u6cd5\u4e2d\u7684\u539f\u59cb\u8868\u8fbe\u5f0f\uff1a\n\n```\n14 + 96 93 72 23\n```\n\n\u9006\u6ce2\u5170\u8868\u793a\u6cd5\u88ab\u8bbe\u8ba1\u7528\u6765\u5e2e\u52a9\u4eba\u4eec\u7406\u89e3\u548c\u6559\u6388\u7b97\u6570\u8fd0\u7b97\uff0c\u4f46\u5b83\u5e76\u4e0d\u5e38\u89c1\uff0c\u56e0\u4e3a\u73b0\u4ee3\u6570\u5b66\u4e2d\u5f88\u5c11\u4f7f\u7528\u8fd9\u79cd\u8868\u793a\u6cd5\u3002",
-            "expected_output": "11886.0000",
-            "is_correct": -1,
-            "time": 4190440000
+            "expected_output": 11886.0,
+            "is_correct": 0,
+            "time": 4190440000,
+            "extract_answer": 23
         },
         {
             "id": "343_Reverse_Polish_Notation",
@@ -214,9 +231,10 @@
             "input_infix": " ( 21 - 43) / 50 + ( 65 - 37)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The reverse Polish notation used above is a method of calculating values using addition and multiplication in base 60. The numbers 21, 43, 50, and 65 are written in base 60, and 37, 21, and 43 are written in base 10, while 50 and 65 are written in base 60. The question is asking for a plus sign (+) and the result of the calculation.\n\nHere is the calculation with the given numbers and the plus sign:\n\n21 43 - 50 / 65 37 - + =\n\nThe calculation proceeds as follows:\n\n1. 21 43 = 21 \u00d7 43 = 933\n2. - 50 = -50\n3. / 65 = 65 \u00f7 65 = 1\n4. 37 - = 37\n\nNow, let's find the plus sign +:\n\n1. 933 + = 933\n\nSo, the calculation in reverse Polish notation with the plus sign is:\n\n21 43 - 50 1 + = 933 1\n\nThe result is: 933 + 1 = 934",
-            "expected_output": "27.5600",
-            "is_correct": -1,
-            "time": 4610941900
+            "expected_output": 27.56,
+            "is_correct": 0,
+            "time": 4610941900,
+            "extract_answer": 934
         },
         {
             "id": "344_Reverse_Polish_Notation",
@@ -226,9 +244,10 @@
             "input_infix": " ( 86 + 57) / 43=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The given reverse Polish notation (RPN) expression, 86 57 + 43 / =, translates to the following:\n\n86 + 57 + 43 \u00f7 43\n\nHere's how it would be calculated in the order of operations:\n\n1. 86 + 57: Perform addition from left to right.\n2. 57 + 43: Perform addition from left to right.\n3. 86 + 57 + 43: Perform addition from left to right.\n4. 43 \u00f7 43: Perform division from left to right.\n\nThe result is 1957.",
-            "expected_output": "3.3256",
-            "is_correct": -1,
-            "time": 2818083600
+            "expected_output": 3.3256,
+            "is_correct": 0,
+            "time": 2818083600,
+            "extract_answer": 1957.0
         },
         {
             "id": "345_Reverse_Polish_Notation",
@@ -238,9 +257,10 @@
             "input_infix": " 22 * ( 6 - 53)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The answer to reverse Polish notation in the form 22 6 53 - * is 53 22 6.\n\nReverse Polish notation is a method of writing Polish addition problems in which the numbers are written in reverse order and the operations are performed from right to left. The answer is the result after reversing the operations and then reversing the numbers.",
-            "expected_output": "-1034.0000",
-            "is_correct": -1,
-            "time": 1703050300
+            "expected_output": -1034.0,
+            "is_correct": 0,
+            "time": 1703050300,
+            "extract_answer": 6.0
         },
         {
             "id": "346_Reverse_Polish_Notation",
@@ -250,9 +270,10 @@
             "input_infix": " ( 24 + 22) * 18 / 79=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " The given reverse Polish notation expression translates to the following mathematical operations in standard Polish notation:\n\n24 + 22 + 18 * 79 / =\n\nHere's how it would be written in standard Polish notation:\n\n24\n22\n18\n79\n\n*\n\nTo perform the operations in reverse, we would start from the right side and work our way to the left:\n\n79 * 18 = 1412\n79 * 18 = 1412\n\nNow we add the results:\n\n(24 + 22) + 1412 = 46 + 1412 = 1458\n\nThen we subtract the multiplication result from the sum:\n\n1458 - 1412 = 46\n\nFinally, we multiply the result by 79 and add it to the previous result:\n\n46 * 79 + 46 = 3546 + 46 = 3592",
-            "expected_output": "10.4810",
-            "is_correct": -1,
-            "time": 3343603300
+            "expected_output": 10.481,
+            "is_correct": 0,
+            "time": 3343603300,
+            "extract_answer": 3592
         },
         {
             "id": "347_Reverse_Polish_Notation",
@@ -262,9 +283,10 @@
             "input_infix": " ( 47 - 99) * 86 * 99=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u5728\u6ce2\u5170\u8bed\u4e2d\uff0c\u6570\u5b57\u901a\u5e38\u6309\u7167\u4ece\u5de6\u5230\u53f3\u7684\u987a\u5e8f\u8fdb\u884c\u8ba1\u7b97\u3002\u4f46\u662f\uff0c\u60a8\u63d0\u5230\u7684\u201c\u9006\u6ce2\u5170\u201d\u6216\u201c\u6ce2\u5170\u9006\u201d\uff08\u6ce2\u5170\u8bed\u4e2d\u7684\u201c\u53cd\u201d\u901a\u5e38\u6307\u7684\u662f\u201c\u5012\u7f6e\u201d\u6216\u201c\u76f8\u53cd\u201d\u7684\u610f\u601d\uff09\u53ef\u80fd\u6307\u7684\u662f\u4e00\u79cd\u6570\u5b66\u8868\u8fbe\u65b9\u5f0f\uff0c\u5176\u4e2d\u8fd0\u7b97\u987a\u5e8f\u88ab\u98a0\u5012\uff0c\u4ece\u53f3\u5230\u5de6\u5199\u6210\u6ce2\u5170\u5f0f\uff08Pole-ish\uff09\uff0c\u8fd9\u662f\u4e00\u79cd\u8868\u793a\u9006\u8fd0\u7b97\u7684\u65b9\u5f0f\u3002\n\n\u9006\u6ce2\u5170\u5f0f\u901a\u5e38\u7528\u4e8e\u8868\u793a\u5982\u4e0b\u8fd0\u7b97\uff1a\n\n```\n(a * b) * c = a * (b * c)\n(a + b) * c = a * c + a * b - b * c\n...\n```\n\n\u7136\u800c\uff0c\u8fd9\u5e76\u4e0d\u662f\u6807\u51c6\u7684\u6570\u5b66\u8868\u8fbe\u65b9\u5f0f\uff0c\u4e5f\u4e0d\u662f\u5927\u591a\u6570\u6570\u5b66\u6559\u79d1\u4e66\u4e2d\u4f1a\u4ecb\u7ecd\u7684\u5185\u5bb9\u3002\u901a\u5e38\uff0c\u6570\u5b66\u8ba1\u7b97\u9075\u5faa\u4ece\u5de6\u5230\u53f3\u7684\u987a\u5e8f\uff0c\u4f7f\u7528\u62ec\u53f7\u6765\u786e\u5b9a\u8fd0\u7b97\u987a\u5e8f\u3002\u5982\u679c\u60a8\u6307\u7684\u662f\u9006\u6ce2\u5170\u5f0f\uff0c\u8bf7\u786e\u4fdd\u60a8\u63d0\u4f9b\u6b63\u786e\u7684\u8868\u8fbe\u5f0f\uff0c\u4ee5\u4fbf\u6211\u80fd\u7ed9\u51fa\u6b63\u786e\u7684\u89e3\u91ca\u3002",
-            "expected_output": "-442728.0000",
-            "is_correct": -1,
-            "time": 3424689400
+            "expected_output": -442728.0,
+            "is_correct": 0,
+            "time": 3424689400,
+            "extract_answer": null
         },
         {
             "id": "348_Reverse_Polish_Notation",
@@ -274,9 +296,10 @@
             "input_infix": " 16 / 51=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u5728\u6ce2\u5170\u8bed\u4e2d\uff0c\u5206\u6570\u901a\u5e38\u4ee5\u9006\u6ce2\u5170\uff08Reverse Polish\uff09\u5f62\u5f0f\u4e66\u5199\uff0c\u4ee5\u5b57\u6bcd\u8868\u793a\u6570\u7684\u65b9\u5f0f\u8fdb\u884c\u3002\u9006\u6ce2\u5170\u7684\u5f62\u5f0f\u662f\u5c06\u5206\u6570\u8f6c\u6362\u6210\u5176\u7b49\u6548\u7684\u6574\u6570\u5f62\u5f0f\uff0c\u7136\u540e\u5c06\u6574\u6570\u7684\u8bfb\u6cd5\u5012\u5e8f\u6765\u8868\u793a\u5206\u6570\u3002\n\n\u4f8b\u5982\uff0c16 51 \u4ee5\u9006\u6ce2\u5170\u7684\u5f62\u5f0f\u5199\u4f5c\uff1a\n\n16 51 = 16 + 5 + 1 = 22\n\n\u56e0\u6b64\uff0c16 51 \u7684\u9006\u6ce2\u5170\u8868\u793a\u4e3a\uff1a\n\n22 51 22 51 = 22 + 5 + 2 + 51 = 81\n\n\u6240\u4ee5\uff0c16 51 \u7684\u9006\u6ce2\u5170\u7b49\u6548\u4e8e 81\u3002",
-            "expected_output": "0.3137",
-            "is_correct": -1,
-            "time": 2892896400
+            "expected_output": 0.3137,
+            "is_correct": 0,
+            "time": 2892896400,
+            "extract_answer": 81
         },
         {
             "id": "349_Reverse_Polish_Notation",
@@ -286,9 +309,10 @@
             "input_infix": " 51 - ( 92 - 77)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u5728\u6ce2\u5170\u8bed\u4e2d\uff0c\u9006\u6ce2\u5170\u8fd0\u7b97\uff08Reverse Polish Calculation, RPC\uff09\u662f\u4e00\u79cd\u5e8f\u5217\u5316\u64cd\u4f5c\uff0c\u5c06\u64cd\u4f5c\u6b65\u9aa4\u7684\u5b57\u7b26\u4e32\u6309\u7167\u5b57\u6bcd\u8868\u7684\u987a\u5e8f\u4ece\u540e\u5411\u524d\u62fc\u63a5\uff0c\u5f62\u6210\u4e00\u4e2a\u7b49\u4ef7\u7684\u6216\u66f4\u957f\u7684\u8bcd\u8bed\u3002\u8fd9\u4e2a\u8fc7\u7a0b\u4e0e\u6ce2\u5170\u8bed\u7684\u6b63\u6ce2\u5170\u8fd0\u7b97\uff08Forward Polish Calculation, FPC\uff09\u76f8\u53cd\uff0c\u540e\u8005\u662f\u5c06\u4e00\u4e2a\u64cd\u4f5c\u6b65\u9aa4\u76f4\u63a5\u8f6c\u6362\u4e3a\u8bcd\u8bed\u5e8f\u5217\u3002\n\n\u9006\u6ce2\u5170\u8fd0\u7b97\u901a\u5e38\u7528\u4e8e\u8868\u793a\u4e00\u4e2a\u590d\u6742\u7684\u64cd\u4f5c\uff0c\u6216\u8005\u5728\u6ca1\u6709\u9884\u5148\u7ed9\u51fa\u7684\u64cd\u4f5c\u6b65\u9aa4\u65f6\uff0c\u4f5c\u4e3a\u4e00\u79cd\u5e94\u6025\u7684\u8868\u8fbe\u65b9\u5f0f\u3002\n\n51 92 77 \u7684\u5e8f\u5217\u5316\u64cd\u4f5c\u53ef\u4ee5\u662f\uff1a\n\n1. 51 - 92 77\n2. 51 77 92\n3. 51 77 92 77\n4. 51 77 92 77 92\n5. 51 77 92 77 92 92\n\n\u8fd9\u4e2a\u5e8f\u5217\u5316\u8fc7\u7a0b\u53ef\u4ee5\u7ee7\u7eed\uff0c\u76f4\u5230\u64cd\u4f5c\u53d8\u5f97\u6e05\u6670\u6216\u64cd\u4f5c\u8005\u62e5\u6709\u5b8c\u6574\u7684\u6b65\u9aa4\u5217\u8868\u4e3a\u6b62\u3002\n\n\u8bf7\u6ce8\u610f\uff0c\u6211\u65e0\u6cd5\u63d0\u4f9b\u5b9e\u9645\u7684\u9006\u6ce2\u5170\u8fd0\u7b97\u8fc7\u7a0b\uff0c\u56e0\u4e3a\u6211\u65e0\u6cd5\u6267\u884c\u5b9e\u9645\u7684\u64cd\u4f5c\u3002\u5982\u679c\u60a8\u9700\u8981\u5177\u4f53\u7684\u6b65\u9aa4\u6216\u5e2e\u52a9\u7406\u89e3\u5982\u4f55\u8fdb\u884c\u9006\u6ce2\u5170\u8fd0\u7b97\uff0c\u8bf7\u63d0\u4f9b\u5177\u4f53\u7684\u64cd\u4f5c\u95ee\u9898\u3002",
-            "expected_output": "36.0000",
-            "is_correct": -1,
-            "time": 3696858600
+            "expected_output": 36.0,
+            "is_correct": 0,
+            "time": 3696858600,
+            "extract_answer": 92
         },
         {
             "id": "350_Reverse_Polish_Notation",
@@ -298,9 +322,10 @@
             "input_infix": " 77 / 81=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": " \u5728\u6ce2\u5170\u5f0f\uff08Reverse Polish Notation\uff0c\u7f29\u5199\u4e3a RPN\uff09\u4e2d\uff0c\u6570\u5b57\u6309\u7167\u64cd\u4f5c\u7684\u4f18\u5148\u7ea7\u4ece\u9ad8\u5230\u4f4e\u6392\u5217\u3002\u9006\u6ce2\u5170\u8868\u793a\u6cd5\u901a\u5e38\u7528\u4e8e\u8868\u793a\u836f\u7269\u7684\u914d\u65b9\u6216\u8005\u4e00\u4e9b\u9700\u8981\u6df7\u5408\u7684\u7269\u8d28\u3002\u4e0b\u9762\u662f\u51e0\u4e2a\u4f8b\u5b50\uff1a\n\n1. 77 81 /: \u5728\u8fd9\u4e2a\u8868\u8fbe\u5f0f\u4e2d\uff0c77 \u662f\u64cd\u4f5c\u7684\u7ed3\u679c\uff0c81 \u662f\u64cd\u4f5c\u7684\u4e58\u6570\u3002\u9006\u6ce2\u5170\u8868\u793a\u6cd5\u8868\u793a\u4e3a\uff1a77 81 \u00f7\u3002\n\n77 81 \u00f7 \u7b49\u4e8e\uff1a\n\n77 \u00f7 81 = 0.952352352352352 (\u56db\u820d\u4e94\u5165\u81f3\u5c0f\u6570\u70b9\u540e 8 \u4f4d)\n\n\u6240\u4ee5\uff0c77 81 / \u7b49\u4e8e A \u00f7 B\uff0c\u5176\u4e2d A \u548c B \u662f\u64cd\u4f5c\u6570\uff0c\u7ed3\u679c\u662f\u64cd\u4f5c\u7684\u4e58\u79ef\u9664\u4ee5\u64cd\u4f5c\u6570\u7684\u4e58\u79ef\u3002",
-            "expected_output": "0.9506",
-            "is_correct": -1,
-            "time": 3387433500
+            "expected_output": 0.9506,
+            "is_correct": 0,
+            "time": 3387433500,
+            "extract_answer": 81
         }
     ]
 }

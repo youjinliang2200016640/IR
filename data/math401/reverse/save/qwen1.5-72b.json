@@ -301,54 +301,6 @@
             "expected_output": "559065.0000",
             "is_correct": -1,
             "time": 3120033100
-        },
-        {
-            "id": "329_Reverse_Polish_Notation",
-            "class": "Reverse Polish Noations",
-            "AnswerModel": "qwen1.5-72b",
-            "input": "32 15 / =",
-            "input_infix": " 32 / 15=",
-            "instructions": "please only return the answer to the following reverse Polish notation",
-            "actual_output": "1.6",
-            "expected_output": "2.1333",
-            "is_correct": -1,
-            "time": 1028331500
-        },
-        {
-            "id": "328_Reverse_Polish_Notation",
-            "class": "Reverse Polish Noations",
-            "AnswerModel": "qwen1.5-72b",
-            "input": "33 26 + =",
-            "input_infix": " 33 + 26=",
-            "instructions": "please only return the answer to the following reverse Polish notation",
-            "actual_output": "The answer to the reverse Polish notation expression \"33 26 +\" is 59.",
-            "expected_output": "59.0000",
-            "is_correct": -1,
-            "time": 1526744700
-        },
-        {
-            "id": "327_Reverse_Polish_Notation",
-            "class": "Reverse Polish Noations",
-            "AnswerModel": "qwen1.5-72b",
-            "input": "4 64 * 39 12 + * =",
-            "input_infix": " ( 4 * 64) * ( 39 + 12)=",
-            "instructions": "please only return the answer to the following reverse Polish notation",
-            "actual_output": "The answer to the reverse Polish notation expression \"4 64 * 39 12 + * =\" is 2880.",
-            "expected_output": "13056.0000",
-            "is_correct": -1,
-            "time": 1908870200
-        },
-        {
-            "id": "326_Reverse_Polish_Notation",
-            "class": "Reverse Polish Noations",
-            "AnswerModel": "qwen1.5-72b",
-            "input": "44 97 + 61 * 65 * =",
-            "input_infix": " ( 44 + 97) * 61 * 65=",
-            "instructions": "please only return the answer to the following reverse Polish notation",
-            "actual_output": "The answer to the reverse Polish notation expression 44 97 + 61 * 65 * = is 10000.",
-            "expected_output": "559065.0000",
-            "is_correct": -1,
-            "time": 2037575100
         }
     ]
 }

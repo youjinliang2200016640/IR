@@ -10,9 +10,10 @@
             "input_infix": " ( 44 + 97) * 61 * 65=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is:\n\n65 * 61 * + 97 44 *\n\nTo evaluate this expression, we first evaluate the right-most terms and work our way left.\n\n65 * 61 = 4245\n97 44 = 141\n\nNow we have:\n\n4245 * + 141 =\n\nTo evaluate the remaining term, we can simply add the two numbers:\n\n4245 * 141 = 610045\n\nSo, the answer is 610045. ",
-            "expected_output": "559065.0000",
-            "is_correct": -1,
-            "time": 2663184100
+            "expected_output": 559065.0,
+            "is_correct": 0,
+            "time": 2663184100,
+            "extract_answer": 610045.0
         },
         {
             "id": "327_Reverse_Polish_Notation",
@@ -22,9 +23,10 @@
             "input_infix": " ( 4 * 64) * ( 39 + 12)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is:\n\n4 64 39 12 * + =\n\nTo evaluate this expression, follow these steps:\n\n1. Evaluate the right-most term: 12\n2. Evaluate the term to its right: 39\n3. Evaluate the term to its right: 64 * 39 = 2562\n4. Evaluate the term to its right: 2562 + 12 = 2574\n\nSo, the evaluation of the reverse Polish notation expression is 2574. ",
-            "expected_output": "13056.0000",
-            "is_correct": -1,
-            "time": 2482482500
+            "expected_output": 13056.0,
+            "is_correct": 0,
+            "time": 2482482500,
+            "extract_answer": 2574.0
         },
         {
             "id": "328_Reverse_Polish_Notation",
@@ -34,9 +36,10 @@
             "input_infix": " 33 + 26=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given input is: 33 26 + = 33 + 26 = 59 ",
-            "expected_output": "59.0000",
-            "is_correct": -1,
-            "time": 1077347700
+            "expected_output": 59.0,
+            "is_correct": 1,
+            "time": 1077347700,
+            "extract_answer": 59
         },
         {
             "id": "329_Reverse_Polish_Notation",
@@ -46,9 +49,10 @@
             "input_infix": " 32 / 15=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given input is: 32 15 / = 10. ",
-            "expected_output": "2.1333",
-            "is_correct": -1,
-            "time": 963152700
+            "expected_output": 2.1333,
+            "is_correct": 0,
+            "time": 963152700,
+            "extract_answer": 10.0
         },
         {
             "id": "330_Reverse_Polish_Notation",
@@ -58,9 +62,10 @@
             "input_infix": " ( 8 - 90) / 95=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is: 8 90 - 95 /\n\nTo evaluate this expression, follow these steps:\n\n1. Evaluate the rightmost term: 95\n2. Evaluate the term to its left: 8\n3. Subtract 90 from 8: 8 - 90 = -81\n\nSo, the evaluation of the reverse Polish notation expression is: -81 ",
-            "expected_output": "-0.8632",
-            "is_correct": -1,
-            "time": 1945660000
+            "expected_output": -0.8632,
+            "is_correct": 0,
+            "time": 1945660000,
+            "extract_answer": -81
         },
         {
             "id": "331_Reverse_Polish_Notation",
@@ -70,9 +75,10 @@
             "input_infix": " ( 31 + 55) / ( 19 + 76)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is:\n31 55 19 76 + / =\n\nTo evaluate this expression, we would follow these steps:\n\n1. Evaluate the operands (31, 55, 19, and 76)\n2. Apply the operators (+, =)\n\nHere's the evaluation:\n\n1. 31 + 55 = 86\n2. 86 + 19 = 105\n3. 105 + 76 = 181\n4. 181 / = 181\n\nSo, the result of evaluating the reverse Polish notation expression is 181. ",
-            "expected_output": "0.9053",
-            "is_correct": -1,
-            "time": 2784652300
+            "expected_output": 0.9053,
+            "is_correct": 0,
+            "time": 2784652300,
+            "extract_answer": 181.0
         },
         {
             "id": "332_Reverse_Polish_Notation",
@@ -82,9 +88,10 @@
             "input_infix": " 50 * 67=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is: 67 50 *\n\nTo evaluate this expression, you would first multiply 50 by 67, which gives 3450. So, the result is 3450. ",
-            "expected_output": "3350.0000",
-            "is_correct": -1,
-            "time": 1336730000
+            "expected_output": 3350.0,
+            "is_correct": 0,
+            "time": 1336730000,
+            "extract_answer": 3450.0
         },
         {
             "id": "333_Reverse_Polish_Notation",
@@ -94,9 +101,10 @@
             "input_infix": " ( 11 * 17) + 56=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "11 17 * 56 + = 11 + (17 * 56) ",
-            "expected_output": "243.0000",
-            "is_correct": -1,
-            "time": 966839300
+            "expected_output": 243.0,
+            "is_correct": 0,
+            "time": 966839300,
+            "extract_answer": 56
         },
         {
             "id": "334_Reverse_Polish_Notation",
@@ -106,9 +114,10 @@
             "input_infix": " ( 97 - 56) / ( 97 + 56) * 31=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "-64 ",
-            "expected_output": "8.3072",
-            "is_correct": -1,
-            "time": 668219700
+            "expected_output": 8.3072,
+            "is_correct": 0,
+            "time": 668219700,
+            "extract_answer": -64
         },
         {
             "id": "335_Reverse_Polish_Notation",
@@ -118,9 +127,10 @@
             "input_infix": " 0 * ( 95 * 68) + ( 26 / 45)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "6845 ",
-            "expected_output": "0.5778",
-            "is_correct": -1,
-            "time": 684503900
+            "expected_output": 0.5778,
+            "is_correct": 0,
+            "time": 684503900,
+            "extract_answer": 6845
         },
         {
             "id": "336_Reverse_Polish_Notation",
@@ -130,9 +140,10 @@
             "input_infix": " 21 - ( 2 + 31)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is: 2 3 1 + 2 1 - - =.\n\nTo evaluate this expression, we first evaluate the right-hand side operators from left to right. The - operator has a higher precedence than the + operator, so we first evaluate the subtraction.\n\n2 3 1 + 2 1 - - =\n2 3 1 + 2 1 - - =\n2 3 1 + 2 1 - - =\n2 3 1 + 2 1 - - =\n2 3 1 + 2 1 - - =\n2 3 1 + 2 1 - - =\n2 3 1 + 2 1 - - =\n2 3 1 + 2 1 - - =\n2 3 1 + 2 1 - - =\n\nNow we can evaluate the addition:\n\n2 3 1 + 2 1 - - = 2 3 1 + 2 1 - - = 5\n\nFinally, we can evaluate the remaining equal sign:\n\n2 3 1 + 2 1 - - = 5\n\nSo the reverse Polish notation for the given expression is: 5. ",
-            "expected_output": "-12.0000",
-            "is_correct": -1,
-            "time": 4886898100
+            "expected_output": -12.0,
+            "is_correct": 0,
+            "time": 4886898100,
+            "extract_answer": 5.0
         },
         {
             "id": "337_Reverse_Polish_Notation",
@@ -142,9 +153,10 @@
             "input_infix": " ( 88 - 42) * ( 33 * 41) - ( 13 - 27)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "-3/4 ",
-            "expected_output": "62252.0000",
-            "is_correct": -1,
-            "time": 694926700
+            "expected_output": 62252.0,
+            "is_correct": 0,
+            "time": 694926700,
+            "extract_answer": 4
         },
         {
             "id": "338_Reverse_Polish_Notation",
@@ -154,9 +166,10 @@
             "input_infix": " ( 79 + 75) / ( 46 + 51)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is:\n79 75 + 46 51 + /\n\nTo evaluate this expression, we first evaluate the operands and then the operator.\n\nOperands:\n79\n75\n46\n51\n\nOperator: +\n\nWe evaluate the operands from left to right, then apply the operator.\n\n79 + 75 = 154\n46 + 51 = 97\n\nNow, we apply the + operator:\n\n154 + 97 = 251\n\nSo, the result of evaluating the reverse Polish notation expression is 251. ",
-            "expected_output": "1.5876",
-            "is_correct": -1,
-            "time": 8178067400
+            "expected_output": 1.5876,
+            "is_correct": 0,
+            "time": 8178067400,
+            "extract_answer": 251.0
         },
         {
             "id": "339_Reverse_Polish_Notation",
@@ -166,9 +179,10 @@
             "input_infix": " ( 2 + 42) + ( 56 + 50)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is:\n2 42 + 56 50 + + =\n\nTo evaluate this expression, we first add the two-element list:\n2 42 + 56 50 + + = [2, 42, 56, 50]\n\nThen, we add the four-element list:\n[2, 42, 56, 50] + = [2, 42, 56, 50, 1]\n\nFinally, we add the five-element list:\n[2, 42, 56, 50, 1] + = [2, 42, 56, 50, 1, 0]\n\nSo, the evaluation of the reverse Polish notation expression is:\n2 42 + 56 50 + + = 10370 ",
-            "expected_output": "150.0000",
-            "is_correct": -1,
-            "time": 3454037800
+            "expected_output": 150.0,
+            "is_correct": 0,
+            "time": 3454037800,
+            "extract_answer": 10370
         },
         {
             "id": "340_Reverse_Polish_Notation",
@@ -178,9 +192,10 @@
             "input_infix": " 38 + ( 26 / 67) * 19=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "= 67 26 19 * 8 3 + ",
-            "expected_output": "45.3731",
-            "is_correct": -1,
-            "time": 879259500
+            "expected_output": 45.3731,
+            "is_correct": 0,
+            "time": 879259500,
+            "extract_answer": 3
         },
         {
             "id": "341_Reverse_Polish_Notation",
@@ -190,9 +205,10 @@
             "input_infix": " 75 + ( 35 / 30) + 72=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "107 ",
-            "expected_output": "148.1667",
-            "is_correct": -1,
-            "time": 709127000
+            "expected_output": 148.1667,
+            "is_correct": 0,
+            "time": 709127000,
+            "extract_answer": 107
         },
         {
             "id": "342_Reverse_Polish_Notation",
@@ -202,9 +218,10 @@
             "input_infix": " ( 14 + 96) * 93 + ( 72 * 23)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "14 96 + 93 * 72 23 * + = 14 96 + 6596 23 * + ",
-            "expected_output": "11886.0000",
-            "is_correct": -1,
-            "time": 1139702400
+            "expected_output": 11886.0,
+            "is_correct": 0,
+            "time": 1139702400,
+            "extract_answer": 23
         },
         {
             "id": "343_Reverse_Polish_Notation",
@@ -214,9 +231,10 @@
             "input_infix": " ( 21 - 43) / 50 + ( 65 - 37)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "-65 37 50 65 43 2 ",
-            "expected_output": "27.5600",
-            "is_correct": -1,
-            "time": 851658200
+            "expected_output": 27.56,
+            "is_correct": 0,
+            "time": 851658200,
+            "extract_answer": 2
         },
         {
             "id": "344_Reverse_Polish_Notation",
@@ -226,9 +244,10 @@
             "input_infix": " ( 86 + 57) / 43=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is: + 43 / 57 86 =.\n\nTo evaluate this expression, we would perform the operations in this order:\n\n1. Multiply 86 by 43 (86 * 43 = 3689)\n2. Divide 57 by 86 (57 / 86 = 0.6632089849210526)\n3. Divide the result from step 2 by 43 (0.6632089849210526 / 43 = 0.1534657384615385)\n4. Add 57 to the result from step 3 (0.1534657384615385 + 57 = 57.153465738461538)\n\nSo, the evaluation of the reverse Polish notation expression is 57.153465738461538. ",
-            "expected_output": "3.3256",
-            "is_correct": -1,
-            "time": 3894812200
+            "expected_output": 3.3256,
+            "is_correct": 0,
+            "time": 3894812200,
+            "extract_answer": 57.15346573846154
         },
         {
             "id": "345_Reverse_Polish_Notation",
@@ -238,9 +257,10 @@
             "input_infix": " 22 * ( 6 - 53)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given sequence of numbers is: 22 6 53 - * = -53 + 22 * ",
-            "expected_output": "-1034.0000",
-            "is_correct": -1,
-            "time": 1089124900
+            "expected_output": -1034.0,
+            "is_correct": 0,
+            "time": 1089124900,
+            "extract_answer": 22
         },
         {
             "id": "346_Reverse_Polish_Notation",
@@ -250,9 +270,10 @@
             "input_infix": " ( 24 + 22) * 18 / 79=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is:\n24 22 + 18 * 79 /\n\nTo evaluate this expression, we first evaluate the rightmost operator (in this case, division) and then move left, evaluating the multiplication, addition, and finally the leftmost operator (addition).\n\nStep 1: Evaluate the division\n18 * 79 / = 1482 / = 1482\n\nStep 2: Evaluate the multiplication\n24 22 + 1482 * = 2424 + 1482 = 3906\n\nStep 3: Evaluate the addition\n24 22 + 3906 = 2426\n\nSo, the answer to the reverse Polish notation expression is 2426. ",
-            "expected_output": "10.4810",
-            "is_correct": -1,
-            "time": 3112806800
+            "expected_output": 10.481,
+            "is_correct": 0,
+            "time": 3112806800,
+            "extract_answer": 2426.0
         },
         {
             "id": "347_Reverse_Polish_Notation",
@@ -262,9 +283,10 @@
             "input_infix": " ( 47 - 99) * 86 * 99=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is:\n47 99 - 86 * 99 *\n\nTo evaluate this expression, we first evaluate the rightmost operator (multiplication) and then move left, evaluating the preceding operators from left to right.\n\n86 * 99 = 8544\n47 + - 8544 = -8077\n\nSo, the answer is -8077. ",
-            "expected_output": "-442728.0000",
-            "is_correct": -1,
-            "time": 1997370400
+            "expected_output": -442728.0,
+            "is_correct": 0,
+            "time": 1997370400,
+            "extract_answer": -8077.0
         },
         {
             "id": "348_Reverse_Polish_Notation",
@@ -274,9 +296,10 @@
             "input_infix": " 16 / 51=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given input is: 16 51 / = 1\n\nThe operation performed is division (/) and the operands are 16 and 51. The result is 1. ",
-            "expected_output": "0.3137",
-            "is_correct": -1,
-            "time": 1281998600
+            "expected_output": 0.3137,
+            "is_correct": 0,
+            "time": 1281998600,
+            "extract_answer": 1.0
         },
         {
             "id": "349_Reverse_Polish_Notation",
@@ -286,9 +309,10 @@
             "input_infix": " 51 - ( 92 - 77)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is: 51 92 77 + 43 10\n\nTo calculate the result, we first add 51 and 92:\n92 + 51 = 143\n\nThen, we add 143 and 77:\n143 + 77 = 220\n\nFinally, we add 220 and 43 (which is the result of adding 10 to 33):\n220 + 43 = 263\n\nSo, the result of the reverse Polish notation expression is 263. ",
-            "expected_output": "36.0000",
-            "is_correct": -1,
-            "time": 2534399400
+            "expected_output": 36.0,
+            "is_correct": 0,
+            "time": 2534399400,
+            "extract_answer": 263.0
         },
         {
             "id": "350_Reverse_Polish_Notation",
@@ -298,9 +322,10 @@
             "input_infix": " 77 / 81=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The reverse Polish notation for the given expression is: 81 77 /\n\nTo evaluate this expression, first, we need to evaluate the rightmost operand, which is /. In this case, the operands are both numbers, so we can simply divide the first number by the second number.\n\n81 / 77 = 1.0402950652173913\n\nNow, we can evaluate the leftmost operand, which is 81. Since the result of the division is a number, we can simply add the number to the result of the division to get the final result.\n\n81 + 1.0402950652173913 = 82.0402950652173913\n\nSo, the reverse Polish notation expression 81 77 / evaluates to 82.0402950652173913. ",
-            "expected_output": "0.9506",
-            "is_correct": -1,
-            "time": 9024486200
+            "expected_output": 0.9506,
+            "is_correct": 0,
+            "time": 9024486200,
+            "extract_answer": 82.04029506521739
         }
     ]
 }

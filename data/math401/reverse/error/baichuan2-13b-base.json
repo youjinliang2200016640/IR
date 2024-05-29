@@ -3,14 +3,14 @@
     "model": "baichuan2-13b-base",
     "data": [
         {
-            "id": "348_Reverse_Polish_Notation",
+            "id": "330_Reverse_Polish_Notation",
             "class": "Reverse Polish Noations",
             "AnswerModel": "baichuan2-13b-base",
-            "input": "16 51 / =",
-            "input_infix": " 16 / 51=",
+            "input": "8 90 - 95 / =",
+            "input_infix": " ( 8 - 90) / 95=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "",
-            "expected_output": "0.3137",
+            "expected_output": "-0.8632",
             "is_correct": -1,
             "time": -1
         },
@@ -27,14 +27,14 @@
             "time": -1
         },
         {
-            "id": "330_Reverse_Polish_Notation",
+            "id": "348_Reverse_Polish_Notation",
             "class": "Reverse Polish Noations",
             "AnswerModel": "baichuan2-13b-base",
-            "input": "8 90 - 95 / =",
-            "input_infix": " ( 8 - 90) / 95=",
+            "input": "16 51 / =",
+            "input_infix": " 16 / 51=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "",
-            "expected_output": "-0.8632",
+            "expected_output": "0.3137",
             "is_correct": -1,
             "time": -1
         }

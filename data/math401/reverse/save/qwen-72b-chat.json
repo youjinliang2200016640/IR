@@ -10,9 +10,10 @@
             "input_infix": " ( 44 + 97) * 61 * 65=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"44 97 + 61 * 65 *\" is 2480.",
-            "expected_output": "559065.0000",
-            "is_correct": -1,
-            "time": 2157136200
+            "expected_output": 559065.0,
+            "is_correct": 0,
+            "time": 2157136200,
+            "extract_answer": 2480.0
         },
         {
             "id": "327_Reverse_Polish_Notation",
@@ -22,9 +23,10 @@
             "input_infix": " ( 4 * 64) * ( 39 + 12)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"4 64 * 39 12 + * =\" is 200.",
-            "expected_output": "13056.0000",
-            "is_correct": -1,
-            "time": 2066151700
+            "expected_output": 13056.0,
+            "is_correct": 0,
+            "time": 2066151700,
+            "extract_answer": 200.0
         },
         {
             "id": "328_Reverse_Polish_Notation",
@@ -34,9 +36,10 @@
             "input_infix": " 33 + 26=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "59",
-            "expected_output": "59.0000",
-            "is_correct": -1,
-            "time": 1048560200
+            "expected_output": 59.0,
+            "is_correct": 1,
+            "time": 1048560200,
+            "extract_answer": 59
         },
         {
             "id": "329_Reverse_Polish_Notation",
@@ -46,9 +49,10 @@
             "input_infix": " 32 / 15=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "2.1333",
-            "expected_output": "2.1333",
-            "is_correct": -1,
-            "time": 1254819700
+            "expected_output": 2.1333,
+            "is_correct": 1,
+            "time": 1254819700,
+            "extract_answer": 2.1333
         },
         {
             "id": "330_Reverse_Polish_Notation",
@@ -58,9 +62,10 @@
             "input_infix": " ( 8 - 90) / 95=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "-5",
-            "expected_output": "-0.8632",
-            "is_correct": -1,
-            "time": 1124478300
+            "expected_output": -0.8632,
+            "is_correct": 0,
+            "time": 1124478300,
+            "extract_answer": -5
         },
         {
             "id": "331_Reverse_Polish_Notation",
@@ -70,9 +75,10 @@
             "input_infix": " ( 31 + 55) / ( 19 + 76)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer is 23.",
-            "expected_output": "0.9053",
-            "is_correct": -1,
-            "time": 1269448600
+            "expected_output": 0.9053,
+            "is_correct": 0,
+            "time": 1269448600,
+            "extract_answer": 23.0
         },
         {
             "id": "332_Reverse_Polish_Notation",
@@ -82,9 +88,10 @@
             "input_infix": " 50 * 67=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "3350",
-            "expected_output": "3350.0000",
-            "is_correct": -1,
-            "time": 1131038500
+            "expected_output": 3350.0,
+            "is_correct": 1,
+            "time": 1131038500,
+            "extract_answer": 3350
         },
         {
             "id": "333_Reverse_Polish_Notation",
@@ -94,9 +101,10 @@
             "input_infix": " ( 11 * 17) + 56=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"11 17 * 56 + =\" is 1002.",
-            "expected_output": "243.0000",
-            "is_correct": -1,
-            "time": 1970119600
+            "expected_output": 243.0,
+            "is_correct": 0,
+            "time": 1970119600,
+            "extract_answer": 1002.0
         },
         {
             "id": "334_Reverse_Polish_Notation",
@@ -106,9 +114,10 @@
             "input_infix": " ( 97 - 56) / ( 97 + 56) * 31=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "-4.826923076923077",
-            "expected_output": "8.3072",
-            "is_correct": -1,
-            "time": 1666666600
+            "expected_output": 8.3072,
+            "is_correct": 0,
+            "time": 1666666600,
+            "extract_answer": -4.826923076923077
         },
         {
             "id": "335_Reverse_Polish_Notation",
@@ -118,9 +127,10 @@
             "input_infix": " 0 * ( 95 * 68) + ( 26 / 45)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"0 95 68 * * 26 45 / + =\" is 24.",
-            "expected_output": "0.5778",
-            "is_correct": -1,
-            "time": 2131685400
+            "expected_output": 0.5778,
+            "is_correct": 0,
+            "time": 2131685400,
+            "extract_answer": 24.0
         },
         {
             "id": "336_Reverse_Polish_Notation",
@@ -130,9 +140,10 @@
             "input_infix": " 21 - ( 2 + 31)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"21 2 31 + - =\" is 20.",
-            "expected_output": "-12.0000",
-            "is_correct": -1,
-            "time": 1876467800
+            "expected_output": -12.0,
+            "is_correct": 0,
+            "time": 1876467800,
+            "extract_answer": 20.0
         },
         {
             "id": "337_Reverse_Polish_Notation",
@@ -142,9 +153,10 @@
             "input_infix": " ( 88 - 42) * ( 33 * 41) - ( 13 - 27)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"88 42 - 33 41 * * 13 27 - - =\" is 17.",
-            "expected_output": "62252.0000",
-            "is_correct": -1,
-            "time": 8272187600
+            "expected_output": 62252.0,
+            "is_correct": 0,
+            "time": 8272187600,
+            "extract_answer": 17.0
         },
         {
             "id": "338_Reverse_Polish_Notation",
@@ -154,9 +166,10 @@
             "input_infix": " ( 79 + 75) / ( 46 + 51)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer is 2.",
-            "expected_output": "1.5876",
-            "is_correct": -1,
-            "time": 1233835000
+            "expected_output": 1.5876,
+            "is_correct": 0,
+            "time": 1233835000,
+            "extract_answer": 2.0
         },
         {
             "id": "339_Reverse_Polish_Notation",
@@ -166,9 +179,10 @@
             "input_infix": " ( 2 + 42) + ( 56 + 50)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"2 42 + 56 50 + + =\" is 148.",
-            "expected_output": "150.0000",
-            "is_correct": -1,
-            "time": 2065485500
+            "expected_output": 150.0,
+            "is_correct": 0,
+            "time": 2065485500,
+            "extract_answer": 148.0
         },
         {
             "id": "340_Reverse_Polish_Notation",
@@ -178,9 +192,10 @@
             "input_infix": " 38 + ( 26 / 67) * 19=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"38 26 67 / 19 * + =\" is 24.",
-            "expected_output": "45.3731",
-            "is_correct": -1,
-            "time": 2093932800
+            "expected_output": 45.3731,
+            "is_correct": 0,
+            "time": 2093932800,
+            "extract_answer": 24.0
         },
         {
             "id": "341_Reverse_Polish_Notation",
@@ -190,9 +205,10 @@
             "input_infix": " 75 + ( 35 / 30) + 72=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"75 35 30 / + 72 + =\" is 192.",
-            "expected_output": "148.1667",
-            "is_correct": -1,
-            "time": 2109546100
+            "expected_output": 148.1667,
+            "is_correct": 0,
+            "time": 2109546100,
+            "extract_answer": 192.0
         },
         {
             "id": "342_Reverse_Polish_Notation",
@@ -202,9 +218,10 @@
             "input_infix": " ( 14 + 96) * 93 + ( 72 * 23)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"14 96 + 93 * 72 23 * + =\" is 12,233.",
-            "expected_output": "11886.0000",
-            "is_correct": -1,
-            "time": 2376902800
+            "expected_output": 11886.0,
+            "is_correct": 0,
+            "time": 2376902800,
+            "extract_answer": 12233.0
         },
         {
             "id": "343_Reverse_Polish_Notation",
@@ -214,9 +231,10 @@
             "input_infix": " ( 21 - 43) / 50 + ( 65 - 37)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"21 43 - 50 / 65 37 - +\" is 36.",
-            "expected_output": "27.5600",
-            "is_correct": -1,
-            "time": 2182137900
+            "expected_output": 27.56,
+            "is_correct": 0,
+            "time": 2182137900,
+            "extract_answer": 36.0
         },
         {
             "id": "344_Reverse_Polish_Notation",
@@ -226,9 +244,10 @@
             "input_infix": " ( 86 + 57) / 43=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"86 57 + 43 / =\" is 18.",
-            "expected_output": "3.3256",
-            "is_correct": -1,
-            "time": 1930323400
+            "expected_output": 3.3256,
+            "is_correct": 0,
+            "time": 1930323400,
+            "extract_answer": 18.0
         },
         {
             "id": "345_Reverse_Polish_Notation",
@@ -238,9 +257,10 @@
             "input_infix": " 22 * ( 6 - 53)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"22 6 53 - *\" is 7.",
-            "expected_output": "-1034.0000",
-            "is_correct": -1,
-            "time": 1850442900
+            "expected_output": -1034.0,
+            "is_correct": 0,
+            "time": 1850442900,
+            "extract_answer": 7.0
         },
         {
             "id": "346_Reverse_Polish_Notation",
@@ -250,9 +270,10 @@
             "input_infix": " ( 24 + 22) * 18 / 79=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer to the reverse Polish notation expression \"24 22 + 18 * 79 / =\" is 14.",
-            "expected_output": "10.4810",
-            "is_correct": -1,
-            "time": 2081703200
+            "expected_output": 10.481,
+            "is_correct": 0,
+            "time": 2081703200,
+            "extract_answer": 14.0
         },
         {
             "id": "347_Reverse_Polish_Notation",
@@ -262,9 +283,10 @@
             "input_infix": " ( 47 - 99) * 86 * 99=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "-3773",
-            "expected_output": "-442728.0000",
-            "is_correct": -1,
-            "time": 1163110000
+            "expected_output": -442728.0,
+            "is_correct": 0,
+            "time": 1163110000,
+            "extract_answer": -3773
         },
         {
             "id": "348_Reverse_Polish_Notation",
@@ -274,9 +296,10 @@
             "input_infix": " 16 / 51=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "2.15",
-            "expected_output": "0.3137",
-            "is_correct": -1,
-            "time": 1139614500
+            "expected_output": 0.3137,
+            "is_correct": 0,
+            "time": 1139614500,
+            "extract_answer": 2.15
         },
         {
             "id": "349_Reverse_Polish_Notation",
@@ -286,9 +309,10 @@
             "input_infix": " 51 - ( 92 - 77)=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer is 26. \n\nTo solve this expression using reverse Polish notation, you can follow these steps:\n\n1. Start with an empty stack.\n2. For each token in the expression, do the following:\n   - If the token is a number, push it onto the stack.\n   - If the token is an operator, pop the top two numbers from the stack, apply the operator to them, and push the result back onto the stack.\n3. After processing all the tokens, the result will be the top number on the stack.\n\nUsing this algorithm, we can solve the expression as follows:\n\n1. Push 51 onto the stack.\n2. Push 92 onto the stack.\n3. Push 77 onto the stack.\n4. Pop 77 and 92 from the stack, subtract them, and push the result (25) back onto the stack.\n5. Pop 25 and 51 from the stack, subtract them, and push the result (26) back onto the stack.\n\nTherefore, the final answer is 26.",
-            "expected_output": "36.0000",
-            "is_correct": -1,
-            "time": 14801014100
+            "expected_output": 36.0,
+            "is_correct": 0,
+            "time": 14801014100,
+            "extract_answer": 26.0
         },
         {
             "id": "350_Reverse_Polish_Notation",
@@ -298,9 +322,10 @@
             "input_infix": " 77 / 81=",
             "instructions": "please only return the answer to the following reverse Polish notation",
             "actual_output": "The answer is 0.9512195121951219.",
-            "expected_output": "0.9506",
-            "is_correct": -1,
-            "time": 1826129700
+            "expected_output": 0.9506,
+            "is_correct": 1,
+            "time": 1826129700,
+            "extract_answer": 0.9512195121951219
         }
     ]
 }
