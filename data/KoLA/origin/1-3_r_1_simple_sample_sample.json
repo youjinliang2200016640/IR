@@ -1,0 +1,127 @@
+{
+    "adapter_spec": {
+        "instructions": "Please give answers to the following questions about knowledge. Note: If there are more than one answer, print them all and separate them with a semicolon (;). Please do not give anything other than the answers.",
+        "input_prefix": "Question: ",
+        "input_suffix": "\n",
+        "reference_prefix": "",
+        "reference_suffix": "",
+        "output_prefix": "Answer: ",
+        "output_suffix": "\n",
+        "instance_prefix": "\n",
+        "max_train_instances": 5,
+        "max_eval_instances": 1000,
+        "max_tokens": 64,
+        "stop_sequences": [],
+        "decoding_parameters": {
+            "temperature": 1
+        },
+        "ouput_format": "list"
+    },
+    "request_states": [
+        {
+            "instance": {
+                "input": {
+                    "text": "Will Messi still serve in Paris Saint-Germain?"
+                },
+                "references": [
+                    {
+                        "output": {
+                            "text": "No"
+                        },
+                        "tags": [
+                            "correct"
+                        ]
+                    }
+                ],
+                "split": "test",
+                "id": "data210",
+                "idx": "1-3_r_1_simple==00"
+            },
+            "request": {}
+        },
+        {
+            "instance": {
+                "input": {
+                    "text": "What is the missing piece for Manchester City to win the Premier League?"
+                },
+                "references": [
+                    {
+                        "output": {
+                            "text": "Erling Haaland"
+                        },
+                        "tags": [
+                            "correct"
+                        ]
+                    }
+                ],
+                "split": "test",
+                "id": "data114",
+                "idx": "1-3_r_1_simple==01"
+            },
+            "request": {}
+        },
+        {
+            "instance": {
+                "input": {
+                    "text": "When will China send people to the moon?"
+                },
+                "references": [
+                    {
+                        "output": {
+                            "text": "2030"
+                        },
+                        "tags": [
+                            "correct"
+                        ]
+                    }
+                ],
+                "split": "test",
+                "id": "data5",
+                "idx": "1-3_r_1_simple==02"
+            },
+            "request": {}
+        },
+        {
+            "instance": {
+                "input": {
+                    "text": "What will be the next feature of ChatGPT?"
+                },
+                "references": [
+                    {
+                        "output": {
+                            "text": "iOS app"
+                        },
+                        "tags": [
+                            "correct"
+                        ]
+                    }
+                ],
+                "split": "test",
+                "id": "data18",
+                "idx": "1-3_r_1_simple==03"
+            },
+            "request": {}
+        },
+        {
+            "instance": {
+                "input": {
+                    "text": "Who will Elon Musk pick to be Twitter's CEO?"
+                },
+                "references": [
+                    {
+                        "output": {
+                            "text": "Linda Yaccarino"
+                        },
+                        "tags": [
+                            "correct"
+                        ]
+                    }
+                ],
+                "split": "test",
+                "id": "data93",
+                "idx": "1-3_r_1_simple==04"
+            },
+            "request": {}
+        }
+    ]
+}
